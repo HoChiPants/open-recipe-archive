@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "everyday-lentil-soup",
+  "name": "Everyday lentil soup",
+  "subtitle": "A simple pantry soup finished with lemon",
+  "description": "Brown lentils, onion, and garlic simmer into an economical one-pot meal.",
+  "meal_type": "soup",
+  "cuisine": "Mediterranean",
+  "yield": { "quantity": 6, "unit": "servings" },
+  "times": { "prep_minutes": 12, "cook_minutes": 38 },
+  "ingredients": [
+    { "ingredient_id": "olive-oil", "item": "olive oil", "quantity": 2, "unit": "tablespoons" },
+    { "ingredient_id": "onion", "item": "yellow onion", "quantity": 1, "unit": "large", "preparation": "diced" },
+    { "ingredient_id": "garlic", "item": "garlic", "quantity": 3, "unit": "cloves", "preparation": "minced" },
+    { "ingredient_id": "lentil", "item": "brown or green lentils", "quantity": 1.5, "unit": "cups", "preparation": "rinsed" },
+    { "ingredient_id": "vegetable-broth", "item": "vegetable broth", "quantity": 6, "unit": "cups" },
+    { "ingredient_id": "kosher-salt", "item": "kosher salt", "quantity": 1, "unit": "teaspoon" },
+    { "ingredient_id": "black-pepper", "item": "black pepper", "quantity": "1/2", "unit": "teaspoon" },
+    { "ingredient_id": "lemon", "item": "lemon juice", "quantity": 2, "unit": "tablespoons" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "Warm the olive oil in a heavy pot. Cook the onion with a pinch of salt until soft." },
+    { "step": 2, "text": "Add the garlic and black pepper; stir until fragrant." },
+    { "step": 3, "text": "Add the lentils and broth. Bring to a boil, then simmer until the lentils are tender.", "timer_minutes": 30 },
+    { "step": 4, "text": "Season with the remaining salt and lemon juice. Add water if a looser soup is preferred." }
+  ],
+  "tags": ["freezer-friendly", "one-pot", "pantry"],
+  "seasons": ["fall", "winter"],
+  "dietary": ["vegetarian", "vegan", "gluten-free", "dairy-free", "nut-free", "egg-free"],
+  "allergens": [],
+  "equipment": ["large pot"],
+  "created_at": "2026-07-14",
+  "updated_at": "2026-07-14"
+}

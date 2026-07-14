@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caprese-grilled-cheese",
+  "name": "Caprese grilled cheese",
+  "subtitle": "Tomato, basil, and mozzarella on crisp bread",
+  "description": "A skillet sandwich that borrows the fresh flavors of a caprese salad.",
+  "meal_type": "sandwich",
+  "cuisine": "Italian-American",
+  "yield": { "quantity": 2, "unit": "sandwiches" },
+  "times": { "prep_minutes": 10, "cook_minutes": 10 },
+  "ingredients": [
+    { "ingredient_id": "bread", "item": "sourdough bread", "quantity": 4, "unit": "slices" },
+    { "ingredient_id": "mozzarella", "item": "fresh mozzarella", "quantity": 4, "unit": "ounces", "preparation": "thinly sliced" },
+    { "ingredient_id": "tomato", "item": "tomato", "quantity": 1, "unit": "medium", "preparation": "thinly sliced and patted dry" },
+    { "ingredient_id": "basil", "item": "fresh basil", "quantity": 8, "unit": "leaves" },
+    { "ingredient_id": "butter", "item": "softened butter", "quantity": 2, "unit": "tablespoons" },
+    { "ingredient_id": "kosher-salt", "item": "kosher salt", "quantity": "1/8", "unit": "teaspoon" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "Layer mozzarella, tomato, basil, and a pinch of salt between pairs of bread slices." },
+    { "step": 2, "text": "Spread the outside of each sandwich with butter." },
+    { "step": 3, "text": "Cook in a covered skillet over medium-low heat until deeply golden on both sides and the cheese has melted.", "timer_minutes": 10 }
+  ],
+  "tags": ["comfort-food", "quick", "skillet"],
+  "seasons": ["summer"],
+  "dietary": ["vegetarian", "nut-free", "egg-free"],
+  "allergens": ["milk", "wheat"],
+  "equipment": ["skillet"],
+  "created_at": "2026-07-14",
+  "updated_at": "2026-07-14"
+}

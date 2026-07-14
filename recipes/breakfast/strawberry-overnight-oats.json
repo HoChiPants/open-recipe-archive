@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-overnight-oats",
+  "name": "Strawberry overnight oats",
+  "subtitle": "A make-ahead breakfast with honey and fresh fruit",
+  "description": "Rolled oats soften overnight into a cool, spoonable breakfast.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": { "quantity": 2, "unit": "servings" },
+  "times": { "prep_minutes": 10, "cook_minutes": 0, "inactive_minutes": 480 },
+  "ingredients": [
+    { "ingredient_id": "rolled-oats", "item": "rolled oats", "quantity": 1, "unit": "cup" },
+    { "ingredient_id": "milk", "item": "milk", "quantity": 1, "unit": "cup" },
+    { "ingredient_id": "honey", "item": "honey", "quantity": 1, "unit": "tablespoon" },
+    { "ingredient_id": "strawberry", "item": "strawberries", "quantity": 1, "unit": "cup", "preparation": "sliced" },
+    { "ingredient_id": "kosher-salt", "item": "kosher salt", "quantity": "1/8", "unit": "teaspoon" }
+  ],
+  "instructions": [
+    { "step": 1, "text": "Stir the oats, milk, honey, and salt together in a covered container." },
+    { "step": 2, "text": "Fold in half of the strawberries. Cover and refrigerate overnight." },
+    { "step": 3, "text": "Stir, divide between two bowls, and finish with the remaining strawberries." }
+  ],
+  "nutrition": { "serving_size": "1 bowl", "calories": 310, "protein_g": 10, "carbohydrates_g": 55, "fat_g": 6, "fiber_g": 6, "source": "Estimated" },
+  "tags": ["make-ahead", "no-cook", "quick"],
+  "seasons": ["spring", "summer"],
+  "dietary": ["vegetarian", "nut-free", "egg-free"],
+  "allergens": ["milk"],
+  "notes": ["Use certified gluten-free oats when needed."],
+  "created_at": "2026-07-14",
+  "updated_at": "2026-07-14"
+}
