@@ -1,0 +1,15 @@
+{
+  "sites": [
+    {
+      "id": "example",
+      "name": "Authorized recipe source",
+      "baseUrl": "https://recipes.example.com",
+      "seeds": ["https://recipes.example.com/sitemap.xml"],
+      "allow": ["/recipes/"],
+      "block": ["/account/", "/search/"],
+      "delayMs": 2000,
+      "maxPages": 100
+    }
+  ]
+}
+

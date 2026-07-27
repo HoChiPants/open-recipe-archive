@@ -2,6 +2,14 @@
 
 import { ChangeEvent, useEffect, useMemo, useRef, useState } from "react";
 import { catalog } from "./generated/catalog";
+import {
+  downloadJson,
+  emptyPersonalData,
+  isPersonalData,
+  MealPlanItem,
+  PersonalData,
+  personalDataStorageKey,
+} from "./personal-data";
 
 type RecipeIngredient = {
   ingredient_id?: string;
@@ -46,8 +54,6 @@ type Ingredient = {
 };
 
 type View = "recipes" | "plan" | "ingredients";
-type MealPlan = Record<string, string[]>;
-
 const builtInRecipes = catalog.recipes as unknown as Recipe[];
 const builtInIngredients = catalog.ingredients as unknown as Ingredient[];
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -104,8 +110,7 @@ export function RecipeLibrary() {
   const [selectedId, setSelectedId] = useState(builtInRecipes[0]?.id ?? "");
   const [servings, setServings] = useState(builtInRecipes[0]?.yield.quantity ?? 1);
   const [selectedDay, setSelectedDay] = useState("Monday");
-  const [plan, setPlan] = useState<MealPlan>(() => Object.fromEntries(days.map((day) => [day, []])));
-  const [imported, setImported] = useState<Recipe[]>([]);
+  const [personalData, setPersonalData] = useState<PersonalData>(emptyPersonalData);
   const [notice, setNotice] = useState("");
   const [hydrated, setHydrated] = useState(false);
   const fileInput = useRef<HTMLInputElement>(null);
@@ -115,10 +120,32 @@ export function RecipeLibrary() {
     queueMicrotask(() => {
       if (cancelled) return;
       try {
-        const savedPlan = localStorage.getItem("open-recipe-archive-plan");
-        const savedRecipes = localStorage.getItem("open-recipe-archive-imports");
-        if (savedPlan) setPlan(JSON.parse(savedPlan));
-        if (savedRecipes) setImported(JSON.parse(savedRecipes));
+        const saved = localStorage.getItem(personalDataStorageKey);
+        if (saved) {
+          const value = JSON.parse(saved);
+          if (isPersonalData(value) && value.imported_recipes.every(isRecipe)) {
+            setPersonalData(value);
+            setMealType(value.preferences.filters.meal_type);
+            setSeason(value.preferences.filters.season);
+            setDietary(value.preferences.filters.dietary);
+          }
+        } else {
+          const legacyPlan = JSON.parse(localStorage.getItem("open-recipe-archive-plan") ?? "null");
+          const legacyRecipes = JSON.parse(localStorage.getItem("open-recipe-archive-imports") ?? "[]");
+          if (legacyPlan || legacyRecipes.length) {
+            const migrated = emptyPersonalData();
+            migrated.imported_recipes = legacyRecipes;
+            migrated.meal_plans[0].items = days.flatMap((day) =>
+              (legacyPlan?.[day] ?? []).map((recipeId: string, position: number) => ({
+                id: `${day.toLowerCase()}-${position}-${recipeId}`,
+                recipe_id: recipeId,
+                day,
+                position,
+              })),
+            );
+            setPersonalData(migrated);
+          }
+        }
       } catch {
         setNotice("Saved browser data could not be read and was left unchanged.");
       } finally {
@@ -129,12 +156,11 @@ export function RecipeLibrary() {
   }, []);
 
   useEffect(() => {
-    if (hydrated) localStorage.setItem("open-recipe-archive-plan", JSON.stringify(plan));
-  }, [hydrated, plan]);
+    if (hydrated) localStorage.setItem(personalDataStorageKey, JSON.stringify(personalData));
+  }, [hydrated, personalData]);
 
-  useEffect(() => {
-    if (hydrated) localStorage.setItem("open-recipe-archive-imports", JSON.stringify(imported));
-  }, [hydrated, imported]);
+  const imported = personalData.imported_recipes as Recipe[];
+  const planItems = personalData.meal_plans[0]?.items ?? [];
 
   const recipes = useMemo(() => {
     const byId = new Map<string, Recipe>();
@@ -173,13 +199,39 @@ export function RecipeLibrary() {
     setServings(recipe.yield.quantity);
   }
 
+  function updateFilters(next: Partial<PersonalData["preferences"]["filters"]>) {
+    if (next.meal_type !== undefined) setMealType(next.meal_type);
+    if (next.season !== undefined) setSeason(next.season);
+    if (next.dietary !== undefined) setDietary(next.dietary);
+    setPersonalData((current) => ({
+      ...current,
+      preferences: { ...current.preferences, filters: { ...current.preferences.filters, ...next } },
+    }));
+  }
+
   function addToPlan(recipe: Recipe) {
-    setPlan((current) => ({ ...current, [selectedDay]: [...(current[selectedDay] ?? []), recipe.id] }));
+    setPersonalData((current) => {
+      const plan = current.meal_plans[0] ?? { id: "weekly-plan", name: "Weekly meal plan", items: [] };
+      const position = plan.items.filter((item) => item.day === selectedDay).length;
+      const item: MealPlanItem = {
+        id: crypto.randomUUID(),
+        recipe_id: recipe.id,
+        day: selectedDay,
+        position,
+        target_servings: servings,
+      };
+      return { ...current, meal_plans: [{ ...plan, items: [...plan.items, item] }, ...current.meal_plans.slice(1)] };
+    });
     setNotice(`${recipe.name} added to ${selectedDay}.`);
   }
 
-  function removeFromPlan(day: string, index: number) {
-    setPlan((current) => ({ ...current, [day]: current[day].filter((_, itemIndex) => itemIndex !== index) }));
+  function removeFromPlan(itemId: string) {
+    setPersonalData((current) => ({
+      ...current,
+      meal_plans: current.meal_plans.map((plan, index) =>
+        index === 0 ? { ...plan, items: plan.items.filter((item) => item.id !== itemId) } : plan,
+      ),
+    }));
   }
 
   async function importJson(event: ChangeEvent<HTMLInputElement>) {
@@ -188,12 +240,21 @@ export function RecipeLibrary() {
     if (!file) return;
     try {
       const value = JSON.parse(await file.text());
+      if (isPersonalData(value)) {
+        if (!value.imported_recipes.every(isRecipe)) throw new Error("invalid imported recipes");
+        setPersonalData(value);
+        setMealType(value.preferences.filters.meal_type);
+        setSeason(value.preferences.filters.season);
+        setDietary(value.preferences.filters.dietary);
+        setNotice("Personal archive restored on this device.");
+        return;
+      }
       const candidates = Array.isArray(value) ? value : value.recipes && Array.isArray(value.recipes) ? value.recipes : [value];
       if (!candidates.every(isRecipe)) throw new Error("missing required fields");
-      setImported((current) => {
-        const merged = new Map(current.map((recipe) => [recipe.id, recipe]));
+      setPersonalData((current) => {
+        const merged = new Map((current.imported_recipes as Recipe[]).map((recipe) => [recipe.id, recipe]));
         candidates.forEach((recipe: Recipe) => merged.set(recipe.id, recipe));
-        return [...merged.values()];
+        return { ...current, imported_recipes: [...merged.values()] };
       });
       chooseRecipe(candidates[0]);
       setView("recipes");
@@ -204,13 +265,19 @@ export function RecipeLibrary() {
   }
 
   function downloadRecipe(recipe: Recipe) {
-    const blob = new Blob([`${JSON.stringify(recipe, null, 2)}\n`], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = `${recipe.id}.json`;
-    link.click();
-    URL.revokeObjectURL(url);
+    downloadJson(`${recipe.id}.json`, recipe);
+  }
+
+  function downloadPersonalData() {
+    downloadJson("open-recipe-archive-personal.json", { ...personalData, exported_at: new Date().toISOString() });
+    setNotice("Personal archive downloaded. Keep it private if it contains personal notes.");
+  }
+
+  function clearPlan() {
+    setPersonalData((current) => ({
+      ...current,
+      meal_plans: current.meal_plans.map((plan, index) => index === 0 ? { ...plan, items: [] } : plan),
+    }));
   }
 
   return (
@@ -227,7 +294,7 @@ export function RecipeLibrary() {
         </nav>
         <div className="header-actions">
           <input ref={fileInput} type="file" accept="application/json,.json" onChange={importJson} hidden />
-          <button className="secondary-button" onClick={() => fileInput.current?.click()}>Import JSON</button>
+          <button className="secondary-button" onClick={() => fileInput.current?.click()}>Import or restore</button>
           <a className="primary-button" href="/data/catalog.json" download>Download catalog</a>
         </div>
       </header>
@@ -252,14 +319,14 @@ export function RecipeLibrary() {
             </label>
             <label>
               Meal type
-              <select value={mealType} onChange={(event) => setMealType(event.target.value)}>
+              <select value={mealType} onChange={(event) => updateFilters({ meal_type: event.target.value })}>
                 <option value="all">All types</option>
                 {Object.entries(typeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
               </select>
             </label>
             <label>
               Season
-              <select value={season} onChange={(event) => setSeason(event.target.value)}>
+              <select value={season} onChange={(event) => updateFilters({ season: event.target.value })}>
                 <option value="all">Any season</option>
                 <option value="spring">Spring</option><option value="summer">Summer</option>
                 <option value="fall">Fall</option><option value="winter">Winter</option><option value="year-round">Year-round</option>
@@ -267,13 +334,13 @@ export function RecipeLibrary() {
             </label>
             <label>
               Dietary
-              <select value={dietary} onChange={(event) => setDietary(event.target.value)}>
+              <select value={dietary} onChange={(event) => updateFilters({ dietary: event.target.value })}>
                 <option value="all">No preference</option>
                 <option value="vegetarian">Vegetarian</option><option value="vegan">Vegan</option>
                 <option value="gluten-free">Gluten-free</option><option value="dairy-free">Dairy-free</option>
               </select>
             </label>
-            <button className="text-button" onClick={() => { setQuery(""); setMealType("all"); setSeason("all"); setDietary("all"); }}>Clear filters</button>
+            <button className="text-button" onClick={() => { setQuery(""); updateFilters({ meal_type: "all", season: "all", dietary: "all" }); }}>Clear filters</button>
           </aside>
 
           <section className="recipe-results" aria-label="Recipe results">
@@ -335,14 +402,14 @@ export function RecipeLibrary() {
 
       {view === "plan" && (
         <main className="content-page">
-          <div className="page-title"><div><h1>Meal plan</h1><p>Saved in this browser on this device.</p></div><button className="secondary-button" onClick={() => setPlan(Object.fromEntries(days.map((day) => [day, []])))}>Clear week</button></div>
+          <div className="page-title"><div><h1>Meal plan</h1><p>Saved on this device. Download a backup to move it or keep it with a private project.</p></div><div className="page-actions"><button className="secondary-button" onClick={downloadPersonalData}>Download personal data</button><button className="text-button" onClick={clearPlan}>Clear week</button></div></div>
           <div className="week-grid">
             {days.map((day) => (
               <section className="day-column" key={day}>
                 <h2>{day}</h2>
-                {(plan[day] ?? []).length ? plan[day].map((id, index) => {
-                  const recipe = recipes.find((item) => item.id === id);
-                  return recipe ? <div className="planned-recipe" key={`${id}-${index}`}><button onClick={() => { chooseRecipe(recipe); setView("recipes"); }}>{recipe.name}</button><button aria-label={`Remove ${recipe.name} from ${day}`} onClick={() => removeFromPlan(day, index)}>×</button></div> : null;
+                {planItems.some((item) => item.day === day) ? planItems.filter((item) => item.day === day).sort((a, b) => a.position - b.position).map((item) => {
+                  const recipe = recipes.find((recipe) => recipe.id === item.recipe_id);
+                  return recipe ? <div className="planned-recipe" key={item.id}><button onClick={() => { chooseRecipe(recipe); setView("recipes"); }}>{recipe.name}{item.target_servings ? <span>{item.target_servings} servings</span> : null}</button><button aria-label={`Remove ${recipe.name} from ${day}`} onClick={() => removeFromPlan(item.id)}>×</button></div> : null;
                 }) : <p>No recipes yet</p>}
               </section>
             ))}

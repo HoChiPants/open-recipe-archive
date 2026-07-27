@@ -1,0 +1,14 @@
+{
+  "sites": [
+    {
+      "id": "allrecipes",
+      "name": "Allrecipes",
+      "baseUrl": "https://www.allrecipes.com",
+      "seeds": ["https://www.allrecipes.com/sitemap.xml"],
+      "allow": ["/recipe/"],
+      "block": ["/cook/", "/account/", "/search/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    }
+  ]
+}

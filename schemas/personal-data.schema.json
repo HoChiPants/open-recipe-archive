@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-recipe-archive.example/schemas/personal-data.schema.json",
+  "title": "Open Recipe Archive personal data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "preferences", "meal_plans", "cookbooks", "imported_recipes"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "exported_at": { "type": "string", "format": "date-time" },
+    "preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dietary", "filters"],
+      "properties": {
+        "dietary": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "default_servings": { "type": "number", "exclusiveMinimum": 0 },
+        "filters": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["meal_type", "season", "dietary"],
+          "properties": {
+            "meal_type": { "type": "string" },
+            "season": { "type": "string" },
+            "dietary": { "type": "string" }
+          }
+        }
+      }
+    },
+    "meal_plans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "items"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "recipe_id", "day", "position"],
+              "properties": {
+                "id": { "type": "string", "minLength": 1 },
+                "recipe_id": { "type": "string", "minLength": 1 },
+                "day": { "type": "string", "minLength": 1 },
+                "position": { "type": "integer", "minimum": 0 },
+                "target_servings": { "type": "number", "exclusiveMinimum": 0 },
+                "note": { "type": "string" },
+                "completed": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cookbooks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "recipe_ids"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "description": { "type": "string" },
+          "recipe_ids": { "type": "array", "uniqueItems": true, "items": { "type": "string" } }
+        }
+      }
+    },
+    "imported_recipes": { "type": "array", "items": { "type": "object" } }
+  }
+}

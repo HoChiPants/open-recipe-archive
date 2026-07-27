@@ -17,7 +17,12 @@
     "data:validate": "node scripts/validate.mjs",
     "catalog:build": "node scripts/build-catalog.mjs",
     "data:prepare": "npm run data:validate && npm run catalog:build",
-    "recipe:new": "node scripts/new-recipe.mjs"
+    "recipe:new": "node scripts/new-recipe.mjs",
+    "scrape": "node scraping/src/cli.mjs",
+    "scrape:discover": "node scraping/src/discover.mjs",
+    "scrape:test": "node --test scraping/tests/*.test.mjs",
+    "meals:import": "node scripts/import-meals.mjs",
+    "meals:promote": "node scripts/promote-meals.mjs"
   },
   "dependencies": {
     "ajv": "^8.18.0",

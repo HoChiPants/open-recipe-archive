@@ -20,8 +20,16 @@ test("server-renders the recipe library", async () => {
   const html = await response.text();
   assert.match(html, /<title>Open Recipe Archive<\/title>/i);
   assert.match(html, /Strawberry overnight oats/);
-  assert.match(html, /Import JSON/);
+  assert.match(html, /Import or restore/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
+});
+
+test("personal data schema is versioned and keeps plan entries relational", async () => {
+  const schema = JSON.parse(await readFile(new URL("../schemas/personal-data.schema.json", import.meta.url), "utf8"));
+  assert.equal(schema.properties.schema_version.const, "1.0.0");
+  const item = schema.properties.meal_plans.items.properties.items.items;
+  assert.deepEqual(item.required, ["id", "recipe_id", "day", "position"]);
+  assert.equal(item.properties.recipe_id.type, "string");
 });
 
 test("generated catalog contains recipes and ingredients", async () => {

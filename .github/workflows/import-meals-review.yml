@@ -1,0 +1,28 @@
+name: Prepare Meals recipe review bundle
+
+on:
+  workflow_dispatch:
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: actions/checkout@v4
+        with:
+          repository: HoChiPants/Meals
+          token: ${{ secrets.MEALS_REPO_TOKEN }}
+          path: work/source-meals
+          sparse-checkout: shared/recipes.json
+      - name: Generate review-only drafts
+        run: npm run meals:import -- --input work/source-meals/shared/recipes.json --all --output work/meals-import
+      - uses: actions/upload-artifact@v4
+        with:
+          name: meals-review-bundle
+          path: work/meals-import
+          if-no-files-found: error
