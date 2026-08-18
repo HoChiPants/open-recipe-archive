@@ -11,9 +11,8 @@ function recipeNodes(value, found = []) {
 
 export function extractJsonLd(html) {
   const recipes = [];
-  for (const match of html.matchAll(/<script\b[^>]*type\s*=\s*["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+  for (const match of html.matchAll(/<script\b[^>]*type\s*=\s*["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi)) {
     try { recipes.push(...recipeNodes(JSON.parse(match[1].trim()))); } catch { /* invalid publisher JSON-LD */ }
   }
   return recipes;
 }
-

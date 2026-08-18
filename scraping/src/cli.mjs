@@ -4,6 +4,7 @@ import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { extractJsonLd } from "./adapters/json-ld.mjs";
+import { extractMicrodata } from "./adapters/microdata.mjs";
 import { discover } from "./core/discover.mjs";
 import { fetchText } from "./core/fetch.mjs";
 import { canonicalUrl, loadLedger, recordScraped } from "./core/ledger.mjs";
@@ -46,9 +47,19 @@ async function main() {
   if (!robots.found) console.warn(`Warning: could not read ${robots.robotsUrl}: ${robots.warning}`);
   const limit = Math.max(1, Number(value("--limit")) || site.maxPages || 100);
   const ledger = await loadLedger(root, site.id);
+  const rememberChecked = async (requestedUrl, finalUrl, outputFiles) => {
+    const checked = new Map([requestedUrl, finalUrl].map((url) => [canonicalUrl(url), url]));
+    for (const [canonical, url] of checked) {
+      if (!ledger.urls.has(canonical)) await recordScraped(root, site.id, url, outputFiles);
+      ledger.urls.add(canonical);
+    }
+  };
   if (ledger.recovered) console.log(`Added ${ledger.recovered} existing candidate URL(s) to the scrape log.`);
   const discoveryLimit = flag("--overwrite") ? limit : limit + ledger.urls.size;
-  const discovered = site.directUrl ? [site.directUrl] : await discover({ ...site, maxPages: discoveryLimit }, robots, { onFetch: (url) => console.log(`Discovering ${url}`) });
+  const discovered = site.directUrl ? [site.directUrl] : await discover({ ...site, maxPages: discoveryLimit }, robots, {
+    onFetch: (url) => console.log(`Discovering ${url}`),
+    onError: (url, error) => console.warn(`Discovery failed ${url}: ${error.message}`)
+  });
   const alreadyScraped = flag("--overwrite") ? 0 : discovered.filter((url) => ledger.urls.has(canonicalUrl(url))).length;
   const urls = (flag("--overwrite") ? discovered : discovered.filter((url) => !ledger.urls.has(canonicalUrl(url)))).slice(0, limit);
   console.log(`Found ${urls.length} new candidate URL(s)${alreadyScraped ? `; skipped ${alreadyScraped} already scraped` : ""}.`);
@@ -60,8 +71,13 @@ async function main() {
     await sleep(delay);
     try {
       const page = await fetchText(url);
-      const nodes = extractJsonLd(page.text);
-      if (!nodes.length) { console.log(`No Recipe JSON-LD: ${url}`); continue; }
+      const jsonLd = extractJsonLd(page.text);
+      const nodes = jsonLd.length ? jsonLd : extractMicrodata(page.text);
+      if (!nodes.length) {
+        console.log(`No structured Recipe data; recorded as checked: ${url}`);
+        await rememberChecked(url, page.finalUrl, []);
+        continue;
+      }
       const outputs = [];
       for (const node of nodes) {
         const result = await storeCandidate(root, site.id, normalizeCandidate(node, page.finalUrl, site), { overwrite: flag("--overwrite") });
@@ -69,9 +85,15 @@ async function main() {
         outputs.push(path.relative(root, result.file));
         if (!result.skipped) saved++;
       }
-      await recordScraped(root, site.id, page.finalUrl, outputs);
-      ledger.urls.add(canonicalUrl(page.finalUrl));
-    } catch (error) { console.error(`Failed ${url}: ${error.message}`); }
+      await rememberChecked(url, page.finalUrl, outputs);
+    } catch (error) {
+      console.error(`Failed ${url}: ${error.message}`);
+      if (error.status === 404 || error.status === 410) {
+        const checkedUrl = error.url || url;
+        await rememberChecked(url, checkedUrl, []);
+        console.log(`Recorded permanently unavailable URL as checked: ${checkedUrl}`);
+      }
+    }
   }
   console.log(`Saved ${saved} new candidate(s). Review them before adding recipes.`);
 }

@@ -1,6 +1,8 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, mkdtemp, readFile, realpath, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { root } from "./library.mjs";
+import Ajv2020 from "ajv/dist/2020.js";
+import { jsonFiles, readJson, root } from "./library.mjs";
+import { transformMeals } from "./import-meals-lib.mjs";
 
 const values = process.argv.slice(2);
 const option = (name) => {
@@ -10,90 +12,139 @@ const option = (name) => {
 const input = option("input");
 const ids = new Set((option("ids") || "").split(",").map((id) => id.trim()).filter(Boolean));
 const importAll = values.includes("--all");
+const clean = values.includes("--clean");
 const output = path.resolve(root, option("output") || "work/meals-import");
+const workRoot = path.resolve(root, "work");
+const outputRelativeToWork = path.relative(workRoot, output);
+const bundleKind = "open-recipe-archive-meals-import-review";
+const hemisphere = option("hemisphere") || "northern";
+const asOf = option("as-of") || new Date().toISOString();
 
 if (!input || (!importAll && ids.size === 0) || (importAll && ids.size > 0)) {
-  console.error("Usage: npm run meals:import -- --input /path/to/recipes.json (--all | --ids id-1,id-2) [--output work/meals-import]");
+  console.error("Usage: npm run meals:import -- --input /path/to/recipes.json (--all | --ids id-1,id-2) [--hemisphere northern|southern] [--output work/meals-import] [--clean] [--as-of ISO_DATE]");
   process.exit(1);
 }
-
-const slug = (value) => value.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 100);
-const minutes = (value) => Number(String(value || "").match(/\d+/)?.[0] || 0);
-const ingredientCategory = (name) => {
-  const text = name.toLowerCase();
-  if (/cheese|cream|milk|butter|yogurt|crème|crema/.test(text)) return "dairy";
-  if (/chicken|beef|pork|steak|turkey|salmon|shrimp|fish|scallop|tofu|egg/.test(text)) return "protein";
-  if (/rice|pasta|noodle|bread|baguette|tortilla|couscous|polenta|oat|barley|farro/.test(text)) return "grain";
-  if (/bean|lentil|chickpea|edamame/.test(text)) return "legume";
-  if (/oil/.test(text)) return "oil";
-  if (/sugar|honey|syrup|jam|preserve/.test(text)) return "sweetener";
-  if (/spice|pepper|salt|paprika|cumin|cinnamon|seasoning|powder/.test(text)) return "spice";
-  if (/basil|parsley|thyme|mint|cilantro|rosemary|sage|oregano|chive/.test(text)) return "herb";
-  if (/sauce|vinegar|mustard|mayo|ketchup|dressing|glaze|paste/.test(text)) return "condiment";
-  return "produce";
-};
-const mealType = (recipe) => {
-  const text = `${recipe.name} ${recipe.subName} ${(recipe.tags || []).join(" ")}`.toLowerCase();
-  if (/salad|panzanella/.test(text)) return "salad";
-  if (/soup|stew|chowder/.test(text)) return "soup";
-  if (/sandwich|burger|taco|wrap/.test(text)) return "sandwich";
-  if (/cake|cookie|dessert|cheesecake/.test(text)) return "dessert";
-  if (/breakfast|waffle|pancake/.test(text)) return "breakfast";
-  return "main";
-};
-const nutrition = (values = {}) => {
-  const get = (key) => Number.parseFloat(values[key]?.amount);
-  const result = { serving_size: "1 serving", source: "Imported factual data; verify before publishing" };
-  for (const [source, target] of [["Calories", "calories"], ["Protein", "protein_g"], ["Carbohydrate", "carbohydrates_g"], ["Fat", "fat_g"], ["Dietary Fiber", "fiber_g"], ["Sugar", "sugar_g"], ["Sodium", "sodium_mg"]]) {
-    const value = get(source);
-    if (Number.isFinite(value)) result[target] = value;
+if (!new Set(["northern", "southern"]).has(hemisphere)) throw new Error("--hemisphere must be 'northern' or 'southern'.");
+if (!outputRelativeToWork || outputRelativeToWork.startsWith(`..${path.sep}`) || path.isAbsolute(outputRelativeToWork)) {
+  throw new Error("--output must be a dedicated directory below this project's work/ directory.");
+}
+await mkdir(workRoot, { recursive: true });
+const realRoot = await realpath(root);
+const realWorkRoot = await realpath(workRoot);
+const realWorkRelativeToRoot = path.relative(realRoot, realWorkRoot);
+if (!realWorkRelativeToRoot || realWorkRelativeToRoot.startsWith(`..${path.sep}`) || path.isAbsolute(realWorkRelativeToRoot)) {
+  throw new Error("The project's work/ directory must not resolve outside the repository.");
+}
+const assertPhysicalWorkPath = async (target, { allowWorkRoot = true } = {}) => {
+  let existing = target;
+  while (true) {
+    try {
+      const resolved = await realpath(existing);
+      const relative = path.relative(realWorkRoot, resolved);
+      if ((!allowWorkRoot && !relative) || relative.startsWith(`..${path.sep}`) || path.isAbsolute(relative)) {
+        throw new Error(`Refusing path '${target}' because it resolves outside the dedicated work/ tree.`);
+      }
+      return;
+    } catch (error) {
+      if (error.code !== "ENOENT") throw error;
+      const parent = path.dirname(existing);
+      if (parent === existing) throw error;
+      existing = parent;
+    }
   }
-  return result;
 };
+await assertPhysicalWorkPath(path.dirname(output));
+const generatedAt = new Date(asOf);
+if (Number.isNaN(generatedAt.valueOf())) throw new Error(`Invalid --as-of value '${asOf}'.`);
 
-const source = JSON.parse(await readFile(path.resolve(input), "utf8"));
+const inputPath = path.resolve(input);
+const source = JSON.parse(await readFile(inputPath, "utf8"));
+if (!Array.isArray(source)) throw new TypeError("Input must be a top-level JSON array.");
+const duplicateSourceIds = source.map((recipe) => recipe.id).filter((id, index, all) => !id || all.indexOf(id) !== index);
+if (duplicateSourceIds.length) throw new Error(`Every source recipe needs a unique id; invalid ids: ${[...new Set(duplicateSourceIds)].slice(0, 20).join(", ")}`);
+
 const selected = importAll ? source : source.filter((recipe) => ids.has(recipe.id));
 const missing = [...ids].filter((id) => !selected.some((recipe) => recipe.id === id));
 if (missing.length) throw new Error(`Recipe IDs not found: ${missing.join(", ")}`);
+if (!selected.length) throw new Error("No recipes were selected.");
 
-const ingredientMap = new Map();
-const recipeIds = new Set();
-const recipes = selected.map((sourceRecipe) => {
-  const type = mealType(sourceRecipe);
-  const recipeIngredients = Object.entries(sourceRecipe.ingredients || {}).map(([name, value]) => {
-    const ingredientId = slug(name.replace(/\*+$/, ""));
-    if (!ingredientMap.has(ingredientId)) ingredientMap.set(ingredientId, {
-      $schema: "../schemas/ingredient.schema.json", schema_version: "1.0.0", id: ingredientId,
-      name: name.replace(/\*+$/, ""), categories: [ingredientCategory(name)], seasons: ["year-round"],
-      ...(value.unit ? { default_unit: value.unit } : {}),
-    });
-    return { ingredient_id: ingredientId, item: name.replace(/\*+$/, ""), ...(value.amount && value.amount !== "unit" ? { quantity: value.amount } : {}), ...(value.unit ? { unit: value.unit } : {}) };
-  });
-  const fallbackId = slug(`legacy-recipe-${sourceRecipe.id || recipeIds.size + 1}`);
-  const baseId = slug(sourceRecipe.name || "") || fallbackId;
-  let id = baseId;
-  if (recipeIds.has(id)) id = `${baseId.slice(0, 91)}-${slug(sourceRecipe.id || String(recipeIds.size + 1)).slice(-8)}`;
-  while (recipeIds.has(id)) id = `${baseId.slice(0, 91)}-${recipeIds.size + 1}`;
-  recipeIds.add(id);
-  return {
-    folder: type === "main" ? "mains" : `${type}s`,
-    data: {
-      $schema: "../../schemas/recipe.schema.json", schema_version: "1.0.0", id, name: sourceRecipe.name || `Legacy recipe ${sourceRecipe.id || recipeIds.size}`,
-      ...(sourceRecipe.subName ? { subtitle: sourceRecipe.subName } : {}), meal_type: type,
-      yield: { quantity: 2, unit: "servings" }, times: { prep_minutes: minutes(sourceRecipe.prepTime), cook_minutes: Math.max(0, minutes(sourceRecipe.totalTime) - minutes(sourceRecipe.prepTime)) },
-      ingredients: recipeIngredients,
-      instructions: [{ step: 1, text: "REWRITE REQUIRED: Describe the method in your own concise words before promotion." }],
-      tags: [type, "needs-review"], nutrition: nutrition(sourceRecipe.nutritionalValues),
-      source: { name: "HelloFresh", url: sourceRecipe.url, adapted: true },
-      notes: ["Verify yield, timing, ingredient normalization, allergens, and nutrition before promotion."],
-    },
+const existingIngredientFiles = await jsonFiles(path.join(root, "ingredients"));
+const existingIngredients = await Promise.all(existingIngredientFiles.map(readJson));
+const transformed = transformMeals({ selectedRecipes: selected, allRecipes: source, existingIngredients, hemisphere });
+
+const recipeSchema = await readJson(path.join(root, "schemas/recipe.schema.json"));
+const ingredientSchema = await readJson(path.join(root, "schemas/ingredient.schema.json"));
+const ajv = new Ajv2020({ allErrors: true, strict: false });
+const validateRecipe = ajv.compile(recipeSchema);
+const validateIngredient = ajv.compile(ingredientSchema);
+const validationErrors = [];
+for (const ingredient of transformed.ingredients) {
+  if (!validateIngredient(ingredient)) validationErrors.push(`ingredient ${ingredient.id}: ${ajv.errorsText(validateIngredient.errors)}`);
+}
+const availableIngredientIds = new Set([...existingIngredients, ...transformed.ingredients].map((ingredient) => ingredient.id));
+for (const { data: recipe } of transformed.recipes) {
+  if (!validateRecipe(recipe)) validationErrors.push(`recipe ${recipe.id}: ${ajv.errorsText(validateRecipe.errors)}`);
+  for (const line of recipe.ingredients) {
+    if (!availableIngredientIds.has(line.ingredient_id)) validationErrors.push(`recipe ${recipe.id}: unknown ingredient_id '${line.ingredient_id}'`);
+  }
+}
+if (validationErrors.length) throw new Error(`Generated bundle is invalid:\n${validationErrors.slice(0, 50).map((error) => `- ${error}`).join("\n")}`);
+
+let outputExists = false;
+try {
+  await access(output);
+  if (!clean) throw new Error(`Output already exists at ${output}; pass --clean to replace this importer-owned review bundle.`);
+  const previousManifest = await readJson(path.join(output, "manifest.json")).catch(() => undefined);
+  if (previousManifest?.bundle_kind !== bundleKind || previousManifest?.review_required !== true || previousManifest?.rights_attested !== false) {
+    throw new Error(`Refusing to clean ${output} because it is not an importer-owned review bundle.`);
+  }
+  await assertPhysicalWorkPath(output, { allowWorkRoot: false });
+  outputExists = true;
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+
+await mkdir(path.dirname(output), { recursive: true });
+const temporary = await mkdtemp(path.join(path.dirname(output), ".meals-import-"));
+const writeJson = (file, value) => writeFile(file, `${JSON.stringify(value, null, 2)}\n`);
+const writeInBatches = async (entries, writer, size = 200) => {
+  for (let index = 0; index < entries.length; index += size) await Promise.all(entries.slice(index, index + size).map(writer));
+};
+
+try {
+  await mkdir(path.join(temporary, "recipes"), { recursive: true });
+  await mkdir(path.join(temporary, "ingredients"), { recursive: true });
+  await writeInBatches(transformed.recipes, ({ data }) => writeJson(path.join(temporary, "recipes", `${data.id}.json`), data));
+  await writeInBatches(transformed.ingredients, (ingredient) => writeJson(path.join(temporary, "ingredients", `${ingredient.id}.json`), ingredient));
+
+  const auditCounts = Object.fromEntries(Object.entries(transformed.audit).map(([key, entries]) => [key, entries.length]));
+  const manifest = {
+    bundle_kind: bundleKind,
+    schema_version: "1.0.0",
+    generated_at: generatedAt.toISOString(),
+    source: inputPath,
+    hemisphere,
+    recipe_count: transformed.recipes.length,
+    ingredient_candidate_count: transformed.ingredients.length,
+    existing_ingredient_count: existingIngredients.length,
+    source_instruction_count: selected.reduce((sum, recipe) => sum + (recipe.instructions?.length ?? 0), 0),
+    destinations: transformed.destinations,
+    audit_counts: auditCounts,
+    review_required: true,
+    rights_attested: false,
+    instructions: "Source directions are not copied into drafts. Replace every REWRITE REQUIRED step with original concise directions and review inferred metadata before promotion.",
   };
-});
-
-await mkdir(path.join(output, "recipes"), { recursive: true });
-await mkdir(path.join(output, "ingredients"), { recursive: true });
-for (const recipe of recipes) await writeFile(path.join(output, "recipes", `${recipe.data.id}.json`), `${JSON.stringify(recipe.data, null, 2)}\n`);
-for (const ingredient of ingredientMap.values()) await writeFile(path.join(output, "ingredients", `${ingredient.id}.json`), `${JSON.stringify(ingredient, null, 2)}\n`);
-await writeFile(path.join(output, "manifest.json"), `${JSON.stringify({ generated_at: new Date().toISOString(), source: path.resolve(input), recipe_count: recipes.length, ingredient_count: ingredientMap.size, destinations: Object.fromEntries(recipes.map((recipe) => [recipe.data.id, recipe.folder])), rights_attested: false }, null, 2)}\n`);
-console.log(`Created review bundle with ${recipes.length} recipes and ${ingredientMap.size} ingredient candidates at ${path.relative(root, output)}.`);
-console.log("Nothing was added to the public library. Rewrite and review every draft, then use meals:promote.");
+  await writeJson(path.join(temporary, "manifest.json"), manifest);
+  await writeJson(path.join(temporary, "audit.json"), transformed.audit);
+  if (outputExists) {
+    await assertPhysicalWorkPath(output, { allowWorkRoot: false });
+    await rm(output, { recursive: true, force: true });
+  }
+  await rename(temporary, output);
+  console.log(`Created validated review bundle with ${manifest.recipe_count} recipes and ${manifest.ingredient_candidate_count} ingredient candidates at ${path.relative(root, output)}.`);
+  console.log(`Season model: ${hemisphere}. Detailed inference and source-data issues are in ${path.relative(root, path.join(output, "audit.json"))}.`);
+  console.log("Nothing was added to the public library. Rewrite and review every draft, then use meals:promote only if you can attest the required rights.");
+} catch (error) {
+  await rm(temporary, { recursive: true, force: true });
+  throw error;
+}

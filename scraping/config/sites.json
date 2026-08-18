@@ -9,6 +9,144 @@
       "block": ["/cook/", "/account/", "/search/"],
       "delayMs": 3000,
       "maxPages": 25
+    },
+    {
+      "id": "tastesbetterfromscratch",
+      "name": "Tastes Better From Scratch",
+      "baseUrl": "https://tastesbetterfromscratch.com",
+      "seeds": ["https://tastesbetterfromscratch.com/sitemap_index.xml"],
+      "allow": ["/"],
+      "block": ["/category/", "/recipe-index/", "/wp-admin/", "/wp-login.php"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "cookpad",
+      "name": "Cookpad",
+      "baseUrl": "https://cookpad.com",
+      "seeds": ["https://cookpad.com/eng/search/all"],
+      "pagination": {
+        "template": "https://cookpad.com/eng/search/all?page={page}",
+        "start": 2,
+        "end": 100
+      },
+      "allow": ["/eng/recipes/"],
+      "follow": ["/eng/search/all?page="],
+      "block": ["/reactions", "/similar_recipes", "/print", "/me/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "delishkitchen",
+      "name": "DELISH KITCHEN",
+      "baseUrl": "https://delishkitchen.tv",
+      "seeds": ["https://delishkitchen.tv/sitemap.xml.gz"],
+      "sitemapHosts": ["misc.delishkitchen.tv"],
+      "allow": ["/recipes/"],
+      "block": ["/recipes/new", "/search"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "nefisyemektarifleri",
+      "name": "Nefis Yemek Tarifleri",
+      "baseUrl": "https://www.nefisyemektarifleri.com",
+      "seeds": ["https://www.nefisyemektarifleri.com/sitemap.xml"],
+      "sitemapAllow": ["sitemap-pt-post-"],
+      "allow": ["/"],
+      "block": ["/kategori/", "/video/", "/yazar/", "/wp-admin/", "/arama/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "giallozafferano",
+      "name": "GialloZafferano",
+      "baseUrl": "https://ricette.giallozafferano.it",
+      "seeds": [
+        "https://ricette.giallozafferano.it/sitemap/ricette-new.xml",
+        "https://ricette.giallozafferano.it/sitemap/ricette.xml"
+      ],
+      "allow": ["/"],
+      "block": ["/sitemap/", "/ricerca/", "/ingredienti/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "recipetineats",
+      "name": "RecipeTin Eats",
+      "baseUrl": "https://www.recipetineats.com",
+      "seeds": ["https://www.recipetineats.com/sitemap_index.xml"],
+      "sitemapAllow": ["post-sitemap"],
+      "allow": ["/"],
+      "block": ["/blog/", "/category/", "/author/", "/new-york-food-map/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "marmiton",
+      "name": "Marmiton",
+      "baseUrl": "https://www.marmiton.org",
+      "seeds": ["https://www.marmiton.org/wsitemap_recipes_index.xml"],
+      "sitemapAllow": ["wsitemap_recipes_"],
+      "allow": ["/recettes/recette_"],
+      "block": ["recette-impression_", "commentaire-ajout_"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "tudogostoso",
+      "name": "TudoGostoso",
+      "baseUrl": "https://www.tudogostoso.com.br",
+      "seeds": ["https://www.tudogostoso.com.br/sitemap.xml"],
+      "allow": ["/receita/"],
+      "block": ["/busca", "/login", "/usuario/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "bbcgoodfood",
+      "name": "BBC Good Food",
+      "baseUrl": "https://www.bbcgoodfood.com",
+      "seeds": ["https://www.bbcgoodfood.com/sitemap.xml"],
+      "sitemapAllow": ["-recipe.xml"],
+      "allow": ["/recipes/"],
+      "block": ["/premium/", "/search", "/account/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "loveandlemons",
+      "name": "Love and Lemons",
+      "baseUrl": "https://www.loveandlemons.com",
+      "seeds": [
+        "https://www.loveandlemons.com/post-sitemap2.xml",
+        "https://www.loveandlemons.com/post-sitemap.xml"
+      ],
+      "allow": ["/"],
+      "block": ["/category/", "/tag/", "/author/", "/wp-admin/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "kurashiru",
+      "name": "Kurashiru",
+      "baseUrl": "https://www.kurashiru.com",
+      "seeds": ["https://www.kurashiru.com/sitemap.xml"],
+      "allow": ["/recipes/"],
+      "block": [".amp", "/recipe_cards/", "/api/"],
+      "delayMs": 3000,
+      "maxPages": 25
+    },
+    {
+      "id": "sallysbakingaddiction",
+      "name": "Sally's Baking Addiction",
+      "baseUrl": "https://sallysbakingaddiction.com",
+      "seeds": ["https://sallysbakingaddiction.com/sitemap_index.xml"],
+      "sitemapAllow": ["post-sitemap"],
+      "allow": ["/"],
+      "block": ["/recent-posts/", "/category/", "/tag/", "/wp-admin/"],
+      "delayMs": 3000,
+      "maxPages": 25
     }
   ]
 }

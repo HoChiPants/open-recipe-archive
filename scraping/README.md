@@ -22,6 +22,61 @@ This directory discovers recipe pages and extracts structured recipe candidates.
 
 Use `npm run scrape -- --url https://example.com/a-recipe` to extract one authorized page without configuring discovery. For convenience, a full URL passed to `--site` is also recognized as a direct URL. Use `--dry-run` to list URLs without fetching their pages.
 
+## Configured sites
+
+Every configured site uses the same preview and crawl commands:
+
+```bash
+npm run scrape:discover -- --site cookpad --limit 250
+npm run scrape -- --site cookpad --limit 250
+```
+
+Replace `cookpad` with any configured English-language source ID:
+
+| Site ID | Publisher |
+| --- | --- |
+| `allrecipes` | Allrecipes |
+| `tastesbetterfromscratch` | Tastes Better From Scratch |
+| `cookpad` | Cookpad English |
+| `recipetineats` | RecipeTin Eats |
+| `bbcgoodfood` | BBC Good Food |
+| `loveandlemons` | Love and Lemons |
+| `sallysbakingaddiction` | Sally's Baking Addiction |
+
+Configured non-English sources must be selected explicitly when they are wanted:
+
+| Site ID | Publisher | Language |
+| --- | --- | --- |
+| `delishkitchen` | DELISH KITCHEN | Japanese |
+| `nefisyemektarifleri` | Nefis Yemek Tarifleri | Turkish |
+| `giallozafferano` | GialloZafferano | Italian |
+| `marmiton` | Marmiton | French |
+| `tudogostoso` | TudoGostoso | Portuguese |
+| `kurashiru` | Kurashiru | Japanese |
+
+```bash
+npm run scrape:sites -- --sites delishkitchen,nefisyemektarifleri,giallozafferano,marmiton,tudogostoso,kurashiru --limit 250 --concurrency 3
+```
+
+Serious Eats, The Kitchn, and Chefkoch are not configured because their recipe pages currently reject this crawler with anti-bot responses. Do not work around those controls; add them only if the sites provide an authorized feed, API, or crawler access.
+
+## Run multiple sites
+
+Run every configured site with up to three isolated scraper processes at a time:
+
+```bash
+npm run scrape:sites -- --limit 250 --concurrency 3
+```
+
+Run only a subset, or preview discovery without downloading recipe pages:
+
+```bash
+npm run scrape:sites -- --sites tastesbetterfromscratch,cookpad,recipetineats --limit 250 --concurrency 2
+npm run scrape:sites -- --dry-run --limit 250
+```
+
+Use `--exclude allrecipes,cookpad` to omit sites, or `--list` to print all configured IDs. Logs are prefixed with each site ID and failures are summarized after the other jobs finish. Each site still uses its own robots rules, request delay, output folder, and URL ledger.
+
 ## Layout
 
 ```text
@@ -39,7 +94,7 @@ tests/        offline fixtures and extraction tests
 - Requests are sequential, identify this project, and wait at least the configured delay.
 - Crawling stays on the configured host and obeys allow/block URL patterns.
 - Existing output is not overwritten unless `--overwrite` is passed.
-- Successfully extracted URLs are recorded in `state/<site>.jsonl` and skipped on future runs. Existing candidate files are added to the ledger automatically.
+- Checked URLs are recorded in `state/<site>.jsonl` and skipped on future runs, including fetched pages that contain no structured Recipe data. Existing candidate files are added to the ledger automatically.
 - Page HTML and images are not archived.
 - Candidates include provenance and a review warning; they are not part of the public catalog.
 

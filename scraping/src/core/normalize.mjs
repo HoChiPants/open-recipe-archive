@@ -1,7 +1,35 @@
 import { parseDuration, slugify, unique } from "./utils.mjs";
 
+const namedEntities = {
+  amp: "&",
+  apos: "'",
+  gt: ">",
+  hellip: "…",
+  ldquo: "“",
+  lsquo: "‘",
+  lt: "<",
+  mdash: "—",
+  nbsp: " ",
+  ndash: "–",
+  quot: "\"",
+  rdquo: "”",
+  rsquo: "’"
+};
+
+function decodeHtmlEntities(value) {
+  return value.replace(/&(#(?:x[\da-f]+|\d+)|[a-z][\da-z]+);/gi, (entity, code) => {
+    if (code[0] !== "#") return namedEntities[code.toLowerCase()] ?? entity;
+    const hex = code[1]?.toLowerCase() === "x";
+    const point = Number.parseInt(code.slice(hex ? 2 : 1), hex ? 16 : 10);
+    try { return Number.isFinite(point) ? String.fromCodePoint(point) : entity; } catch { return entity; }
+  });
+}
+
 function plainText(value) {
-  return String(value ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  return decodeHtmlEntities(String(value ?? "").replace(/<[^>]*>/g, " "))
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .trim();
 }
 
 function instructions(value) {
@@ -16,7 +44,7 @@ function instructions(value) {
 }
 
 function yieldValue(value) {
-  const match = String(Array.isArray(value) ? value[0] : value || "").match(/([\d.]+)\s*(.*)/);
+  const match = String(Array.isArray(value) ? value[0] : value || "").match(/([\d.]+)(?:\s*[-–]\s*[\d.]+\+?)?\s*(.*)/);
   return { quantity: Number(match?.[1]) || 1, unit: plainText(match?.[2]) || "servings" };
 }
 
@@ -46,4 +74,3 @@ export function normalizeCandidate(raw, url, site) {
     ]
   };
 }
-
