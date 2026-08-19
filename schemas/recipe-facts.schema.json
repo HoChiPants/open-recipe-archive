@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Abstract recipe facts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "reason", "base_name", "meal_type", "cuisine", "yield", "times", "ingredients", "operations", "tags", "safety_flags"],
+  "properties": {
+    "status": { "enum": ["usable", "skip"] },
+    "reason": { "type": "string" },
+    "base_name": { "type": "string" },
+    "meal_type": {
+      "enum": ["breakfast", "main", "side", "salad", "soup", "sandwich", "dessert", "snack", "drink", "sauce", "baked-good", "other"]
+    },
+    "cuisine": { "type": "string" },
+    "yield": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quantity", "unit"],
+      "properties": {
+        "quantity": { "type": "number", "minimum": 0 },
+        "unit": { "type": "string" }
+      }
+    },
+    "times": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prep_minutes", "cook_minutes", "inactive_minutes"],
+      "properties": {
+        "prep_minutes": { "type": "integer", "minimum": 0 },
+        "cook_minutes": { "type": "integer", "minimum": 0 },
+        "inactive_minutes": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["item", "quantity", "unit", "preparation", "optional"],
+        "properties": {
+          "item": { "type": "string" },
+          "quantity": { "type": "string" },
+          "unit": { "type": "string" },
+          "preparation": { "type": "string" },
+          "optional": { "type": "boolean" }
+        }
+      }
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["action", "ingredients", "temperature_f", "duration_minutes", "endpoint"],
+        "properties": {
+          "action": { "type": "string" },
+          "ingredients": { "type": "array", "items": { "type": "string" } },
+          "temperature_f": { "type": "integer", "minimum": 0 },
+          "duration_minutes": { "type": "integer", "minimum": 0 },
+          "endpoint": { "type": "string" }
+        }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "safety_flags": { "type": "array", "items": { "type": "string" } }
+  }
+}

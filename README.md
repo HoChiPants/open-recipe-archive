@@ -77,6 +77,10 @@ Useful optional fields include `subtitle`, `description`, `cuisine`, `nutrition`
 | `npm run data:validate` | Check schemas, unique IDs, step order, and ingredient references |
 | `npm run catalog:build` | Rebuild the TypeScript and public JSON catalogs |
 | `npm run recipe:new -- --name "…" --type main` | Scaffold a recipe file |
+| `npm run candidate:auto -- --site <id> --limit 5` | Generate guarded recipe variations and pipeline analytics with Codex |
+| `npm run candidate:auto:all -- --plan` | Plan the resumable all-sites queue (Spark by default) |
+| `npm run candidate:rights -- --list` | Inspect reusable source publication-rights records |
+| `npm run candidate:promote -- --candidate <review.json> --recipe <edited.json> --attest-original-wording` | Validate and promote an independently rewritten candidate |
 | `npm run scrape:discover -- --site <id>` | Preview URLs from an authorized configured site |
 | `npm run scrape -- --site <id> --limit 25` | Extract recipe candidates into the review queue |
 | `npm run scrape:test` | Run offline scraper extraction tests |

@@ -37,41 +37,6 @@
       "maxPages": 25
     },
     {
-      "id": "delishkitchen",
-      "name": "DELISH KITCHEN",
-      "baseUrl": "https://delishkitchen.tv",
-      "seeds": ["https://delishkitchen.tv/sitemap.xml.gz"],
-      "sitemapHosts": ["misc.delishkitchen.tv"],
-      "allow": ["/recipes/"],
-      "block": ["/recipes/new", "/search"],
-      "delayMs": 3000,
-      "maxPages": 25
-    },
-    {
-      "id": "nefisyemektarifleri",
-      "name": "Nefis Yemek Tarifleri",
-      "baseUrl": "https://www.nefisyemektarifleri.com",
-      "seeds": ["https://www.nefisyemektarifleri.com/sitemap.xml"],
-      "sitemapAllow": ["sitemap-pt-post-"],
-      "allow": ["/"],
-      "block": ["/kategori/", "/video/", "/yazar/", "/wp-admin/", "/arama/"],
-      "delayMs": 3000,
-      "maxPages": 25
-    },
-    {
-      "id": "giallozafferano",
-      "name": "GialloZafferano",
-      "baseUrl": "https://ricette.giallozafferano.it",
-      "seeds": [
-        "https://ricette.giallozafferano.it/sitemap/ricette-new.xml",
-        "https://ricette.giallozafferano.it/sitemap/ricette.xml"
-      ],
-      "allow": ["/"],
-      "block": ["/sitemap/", "/ricerca/", "/ingredienti/"],
-      "delayMs": 3000,
-      "maxPages": 25
-    },
-    {
       "id": "recipetineats",
       "name": "RecipeTin Eats",
       "baseUrl": "https://www.recipetineats.com",
@@ -79,27 +44,6 @@
       "sitemapAllow": ["post-sitemap"],
       "allow": ["/"],
       "block": ["/blog/", "/category/", "/author/", "/new-york-food-map/"],
-      "delayMs": 3000,
-      "maxPages": 25
-    },
-    {
-      "id": "marmiton",
-      "name": "Marmiton",
-      "baseUrl": "https://www.marmiton.org",
-      "seeds": ["https://www.marmiton.org/wsitemap_recipes_index.xml"],
-      "sitemapAllow": ["wsitemap_recipes_"],
-      "allow": ["/recettes/recette_"],
-      "block": ["recette-impression_", "commentaire-ajout_"],
-      "delayMs": 3000,
-      "maxPages": 25
-    },
-    {
-      "id": "tudogostoso",
-      "name": "TudoGostoso",
-      "baseUrl": "https://www.tudogostoso.com.br",
-      "seeds": ["https://www.tudogostoso.com.br/sitemap.xml"],
-      "allow": ["/receita/"],
-      "block": ["/busca", "/login", "/usuario/"],
       "delayMs": 3000,
       "maxPages": 25
     },
@@ -124,16 +68,6 @@
       ],
       "allow": ["/"],
       "block": ["/category/", "/tag/", "/author/", "/wp-admin/"],
-      "delayMs": 3000,
-      "maxPages": 25
-    },
-    {
-      "id": "kurashiru",
-      "name": "Kurashiru",
-      "baseUrl": "https://www.kurashiru.com",
-      "seeds": ["https://www.kurashiru.com/sitemap.xml"],
-      "allow": ["/recipes/"],
-      "block": [".amp", "/recipe_cards/", "/api/"],
       "delayMs": 3000,
       "maxPages": 25
     },

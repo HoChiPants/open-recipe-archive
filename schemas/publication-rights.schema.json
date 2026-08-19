@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recipe source publication-rights policy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schema_version", "review_after_days", "collection", "sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "review_after_days": { "type": "integer", "minimum": 1 },
+    "collection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_source_share_percent", "minimum_catalog_size_for_share_gate"],
+      "properties": {
+        "max_source_share_percent": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 },
+        "minimum_catalog_size_for_share_gate": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["status", "basis", "evidence", "reviewed_at", "expires_at", "max_per_run", "max_catalog_recipes", "notes"],
+        "properties": {
+          "status": { "enum": ["approved", "draft-only"] },
+          "basis": {
+            "enum": ["first-party", "public-domain", "cc0", "compatible-license", "written-permission", "unverified"]
+          },
+          "evidence": { "type": "string" },
+          "reviewed_at": { "type": "string" },
+          "expires_at": { "type": "string" },
+          "max_per_run": { "type": "integer", "minimum": 0 },
+          "max_catalog_recipes": { "type": "integer", "minimum": 0 },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

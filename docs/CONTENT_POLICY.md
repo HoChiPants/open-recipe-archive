@@ -13,11 +13,18 @@ Trademark is a different issue. Names and branding may identify the source of go
 - Adaptations that use original wording and identify the source or inspiration.
 - Factual nutrition or seasonality data from a source the contributor is permitted to use.
 
+Attribution is good editorial practice, but a link does not replace permission when permission is required. Do not use superficial paraphrasing or a word-change threshold as a clearance test. Discard source prose and write concise functional directions independently from the cooking method and verified facts.
+
+The automatic candidate pipeline separates fact extraction from recipe authorship, requires a substantive conventional variation, and applies schema, deterministic and model-reviewed similarity, likely-brand, affiliation, allergen, confidence, cooking-risk, source-rights-record, and collection-concentration gates. These controls reduce accidental copying and low-quality publication; they are screening controls, not legal clearance. Only a human or organization with actual knowledge of a license, ownership, public-domain status, or written permission may approve a source rights record.
+
+Likely brand terms are held for review. The pipeline does not claim that an unlisted term is available or that a flagged term is infringing: comprehensive clearance requires evaluating similar marks and related goods or services, not merely looking for an exact word match. Use the [USPTO trademark search resources](https://www.uspto.gov/trademarks/search) when a proposed public-facing name may function as a mark.
+
 ## What contributors should not submit
 
 - Text copied or lightly paraphrased from a cookbook, paid publication, or food blog.
 - Photographs or illustrations without clear permission and compatible licensing.
 - A proprietary collection scraped wholesale from another service.
+- Repeated or automated publication of records that reproduces a substantial part of another site's collection, even when individual fields are factual.
 - Brand presentation that implies sponsorship or affiliation.
 - Private, confidential, or trade-secret material.
 

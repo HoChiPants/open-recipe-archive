@@ -395,6 +395,11 @@ export function RecipeLibrary() {
               <div className="tag-list">{selected.tags.map((tag) => <span key={tag}>{tag.replaceAll("-", " ")}</span>)}</div>
               {selected.allergens && selected.allergens.length > 0 && <p className="allergen-note"><strong>Contains:</strong> {selected.allergens.join(", ")}</p>}
               {selected.notes && <section className="detail-section"><h3>Notes</h3>{selected.notes.map((note) => <p key={note} className="note-copy">{note}</p>)}</section>}
+              {selected.source?.url && (
+                <p className="source-link">
+                  <a href={selected.source.url} target="_blank" rel="noreferrer">See a similar recipe on {selected.source.name}</a>
+                </p>
+              )}
             </article>
           )}
         </main>

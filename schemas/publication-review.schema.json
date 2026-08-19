@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Independent recipe publication review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision",
+    "confidence",
+    "copyright_risk",
+    "semantic_similarity",
+    "structural_similarity",
+    "distinctive_expression_matches",
+    "likely_brand_terms",
+    "trademark_risk",
+    "title_is_generic",
+    "implied_affiliation",
+    "reasons"
+  ],
+  "properties": {
+    "decision": { "enum": ["pass", "hold"] },
+    "confidence": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "copyright_risk": { "enum": ["low", "medium", "high"] },
+    "semantic_similarity": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "structural_similarity": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "distinctive_expression_matches": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 5
+    },
+    "likely_brand_terms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 10
+    },
+    "trademark_risk": { "enum": ["low", "medium", "high"] },
+    "title_is_generic": { "type": "boolean" },
+    "implied_affiliation": { "type": "boolean" },
+    "reasons": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 10
+    }
+  }
+}
