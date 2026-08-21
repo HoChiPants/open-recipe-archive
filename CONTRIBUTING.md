@@ -13,7 +13,7 @@ Thank you for helping build an open, portable recipe reference.
 
 1. Run `npm run recipe:new -- --name "Recipe name" --type main`.
 2. Fill in the generated JSON. Keep the stable ID in lowercase kebab case.
-3. Reference canonical `ingredient_id` values where they exist. The readable `item` field remains required so recipes are useful by themselves.
+3. Every finalized recipe ingredient must reference a canonical `ingredient_id`. Run `npm run ingredients:backfill` to create missing catalog records before adding their IDs to recipes. The readable `item` field remains required so recipes are useful by themselves.
 4. Put instructions in cooking order and number them from 1 without gaps.
 5. Only include nutrition values when their source or estimation method is identified.
 6. Run `npm test`.

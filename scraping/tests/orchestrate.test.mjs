@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { parseArgs, runPool, selectSites } from "../src/orchestrate.mjs";
+import { parseArgs, parseScrapeStatus, runPool, selectSites } from "../src/orchestrate.mjs";
 
 test("parseArgs applies defaults and parses orchestration options", () => {
   assert.deepEqual(parseArgs([]), {
@@ -72,4 +72,13 @@ test("runPool limits concurrency and preserves result order", async () => {
 
   assert.equal(maximumActive, 2);
   assert.deepEqual(results, [2, 4, 6, 8, 10]);
+});
+
+test("parseScrapeStatus reads child completion markers", () => {
+  assert.deepEqual(
+    parseScrapeStatus('SCRAPE_STATUS {"state":"exhausted","newCandidates":0}'),
+    { state: "exhausted", newCandidates: 0 }
+  );
+  assert.equal(parseScrapeStatus("Saved 0 new candidate(s)."), null);
+  assert.equal(parseScrapeStatus("SCRAPE_STATUS not-json"), null);
 });

@@ -10,6 +10,7 @@ import { fetchText } from "./core/fetch.mjs";
 import { canonicalUrl, loadLedger, recordScraped } from "./core/ledger.mjs";
 import { normalizeCandidate } from "./core/normalize.mjs";
 import { isAllowed, loadRobots } from "./core/robots.mjs";
+import { classifyScrapeStatus, scrapeStatusMessage } from "./core/scrape-status.mjs";
 import { storeCandidate } from "./core/store.mjs";
 import { sleep } from "./core/utils.mjs";
 
@@ -55,14 +56,42 @@ async function main() {
     }
   };
   if (ledger.recovered) console.log(`Added ${ledger.recovered} existing candidate URL(s) to the scrape log.`);
-  const discoveryLimit = flag("--overwrite") ? limit : limit + ledger.urls.size;
-  const discovered = site.directUrl ? [site.directUrl] : await discover({ ...site, maxPages: discoveryLimit }, robots, {
+  let discoveryStats;
+  const discovered = site.directUrl ? [site.directUrl] : await discover({ ...site, maxPages: limit }, robots, {
+    acceptRecipe: flag("--overwrite") ? () => true : (url) => !ledger.urls.has(canonicalUrl(url)),
+    recipeKey: canonicalUrl,
     onFetch: (url) => console.log(`Discovering ${url}`),
-    onError: (url, error) => console.warn(`Discovery failed ${url}: ${error.message}`)
+    onError: (url, error) => console.warn(`Discovery failed ${url}: ${error.message}`),
+    onComplete: (stats) => { discoveryStats = stats; }
   });
-  const alreadyScraped = flag("--overwrite") ? 0 : discovered.filter((url) => ledger.urls.has(canonicalUrl(url))).length;
+  if (site.directUrl) {
+    const alreadyChecked = !flag("--overwrite") && ledger.urls.has(canonicalUrl(site.directUrl));
+    discoveryStats = {
+      acceptedRecipes: alreadyChecked ? 0 : 1,
+      blockedPages: 0,
+      candidateRecipes: 1,
+      failedPages: 0,
+      fetchedPages: 0,
+      reachedLimit: !alreadyChecked,
+      skippedRecipes: alreadyChecked ? 1 : 0,
+      sourceQueueExhausted: alreadyChecked,
+      visitedPages: 0
+    };
+  }
+  const alreadyScraped = flag("--overwrite") ? 0 : discoveryStats.skippedRecipes;
   const urls = (flag("--overwrite") ? discovered : discovered.filter((url) => !ledger.urls.has(canonicalUrl(url)))).slice(0, limit);
   console.log(`Found ${urls.length} new candidate URL(s)${alreadyScraped ? `; skipped ${alreadyScraped} already scraped` : ""}.`);
+  const scrapeStatus = {
+    state: classifyScrapeStatus({ newCandidates: urls.length, requested: limit, discovery: discoveryStats }),
+    newCandidates: urls.length,
+    requested: limit,
+    knownRecipes: ledger.urls.size,
+    failedPages: discoveryStats.failedPages,
+    blockedPages: discoveryStats.blockedPages,
+    sourceQueueExhausted: discoveryStats.sourceQueueExhausted
+  };
+  console.log(scrapeStatusMessage(site.id, scrapeStatus));
+  console.log(`SCRAPE_STATUS ${JSON.stringify(scrapeStatus)}`);
   if (flag("--dry-run") || process.argv[1].endsWith("discover.mjs")) { urls.forEach((url) => console.log(url)); return; }
   const delay = Math.max(1000, site.delayMs || 2000, robots.group?.delayMs || 0);
   let saved = 0;

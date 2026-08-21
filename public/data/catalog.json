@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-18T21:20:05.381Z",
+  "generated_at": "2026-08-19T04:28:42.924Z",
   "recipes": [
     {
       "$schema": "../../schemas/recipe.schema.json",
@@ -152,7 +152,8 @@
         {
           "item": "baking soda",
           "quantity": 1,
-          "unit": "teaspoon"
+          "unit": "teaspoon",
+          "ingredient_id": "baking-soda"
         },
         {
           "ingredient_id": "kosher-salt",
@@ -247,12 +248,14 @@
           "item": "sparkling water",
           "quantity": 3,
           "unit": "cups",
-          "preparation": "chilled"
+          "preparation": "chilled",
+          "ingredient_id": "sparkling-water"
         },
         {
           "item": "ice",
           "quantity": 2,
-          "unit": "cups"
+          "unit": "cups",
+          "ingredient_id": "ice"
         }
       ],
       "instructions": [
@@ -288,6 +291,122 @@
       "allergens": [],
       "created_at": "2026-07-14",
       "updated_at": "2026-07-14"
+    },
+    {
+      "$schema": "../../schemas/recipe.schema.json",
+      "schema_version": "1.0.0",
+      "id": "crisp-arugula-and-orange-fennel-salad",
+      "name": "Crisp Arugula and Orange Fennel Salad",
+      "subtitle": "Citrus-honey arugula salad with thin fennel and olives.",
+      "description": "Whisk a simple honey-lemon dressing, then combine it with arugula, segmented orange, sliced fennel, and black olives for immediate service.",
+      "meal_type": "salad",
+      "cuisine": "American",
+      "yield": {
+        "quantity": 6,
+        "unit": "servings"
+      },
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": 0
+      },
+      "ingredients": [
+        {
+          "ingredient_id": "honey",
+          "item": "honey",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": 1,
+          "unit": "tablespoon",
+          "ingredient_id": "lemon"
+        },
+        {
+          "ingredient_id": "kosher-salt",
+          "item": "salt",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "item": "ground black pepper",
+          "quantity": 0.5,
+          "unit": "teaspoon",
+          "ingredient_id": "black-pepper"
+        },
+        {
+          "ingredient_id": "olive-oil",
+          "item": "olive oil",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "item": "arugula",
+          "quantity": 1,
+          "unit": "bunch",
+          "ingredient_id": "arugula"
+        },
+        {
+          "item": "orange",
+          "quantity": 2,
+          "unit": "oranges",
+          "preparation": "peeled and segmented",
+          "ingredient_id": "orange"
+        },
+        {
+          "item": "fennel bulb",
+          "quantity": 1,
+          "unit": "bulb",
+          "preparation": "thinly sliced",
+          "ingredient_id": "fennel-bulb"
+        },
+        {
+          "item": "black olives",
+          "quantity": 2,
+          "unit": "tablespoons",
+          "preparation": "sliced",
+          "ingredient_id": "black-olives"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk honey, lemon juice, salt, and ground black pepper until evenly blended."
+        },
+        {
+          "step": 2,
+          "text": "While whisking, stream in olive oil until the dressing is emulsified."
+        },
+        {
+          "step": 3,
+          "text": "Toss arugula with sliced fennel, segmented orange, and sliced black olives, coat with dressing, and serve immediately."
+        }
+      ],
+      "tags": [
+        "fresh",
+        "no-cook",
+        "quick",
+        "citrus",
+        "summer"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "dietary": [
+        "vegetarian"
+      ],
+      "equipment": [
+        "mixing bowl",
+        "whisk",
+        "serving bowl"
+      ],
+      "source": {
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com/recipe/174365/arugula-fennel-and-orange-salad/",
+        "adapted": true
+      },
+      "created_at": "2026-08-19",
+      "updated_at": "2026-08-19"
     },
     {
       "$schema": "../../schemas/recipe.schema.json",
@@ -331,7 +450,8 @@
         {
           "item": "apple cider vinegar",
           "quantity": "1/3",
-          "unit": "cup"
+          "unit": "cup",
+          "ingredient_id": "apple-cider-vinegar"
         },
         {
           "ingredient_id": "olive-oil",
@@ -349,7 +469,8 @@
           "item": "fresh dill",
           "quantity": 2,
           "unit": "tablespoons",
-          "preparation": "chopped"
+          "preparation": "chopped",
+          "ingredient_id": "fresh-dill"
         },
         {
           "ingredient_id": "kosher-salt",
@@ -431,7 +552,8 @@
           "item": "ripe avocado",
           "quantity": 1,
           "unit": "",
-          "preparation": "pitted, peeled, and chopped"
+          "preparation": "pitted, peeled, and chopped",
+          "ingredient_id": "ripe-avocado"
         },
         {
           "ingredient_id": "onion",
@@ -443,18 +565,21 @@
         {
           "item": "crumbled feta",
           "quantity": 4,
-          "unit": "ounces"
+          "unit": "ounces",
+          "ingredient_id": "crumbled-feta"
         },
         {
           "item": "fresh cilantro",
           "quantity": 2,
           "unit": "tablespoons",
-          "preparation": "chopped"
+          "preparation": "chopped",
+          "ingredient_id": "fresh-cilantro"
         },
         {
           "item": "lime juice",
           "quantity": 1,
-          "unit": "tablespoon"
+          "unit": "tablespoon",
+          "ingredient_id": "lime-juice"
         },
         {
           "ingredient_id": "olive-oil",
@@ -760,7 +885,8 @@
         {
           "item": "ice water",
           "quantity": 3,
-          "unit": "tablespoons"
+          "unit": "tablespoons",
+          "ingredient_id": "ice-water"
         }
       ],
       "instructions": [
@@ -824,7 +950,8 @@
           "item": "sweet potatoes",
           "quantity": 1,
           "unit": "pound",
-          "preparation": "peeled and cut into 1-inch cubes"
+          "preparation": "peeled and cut into 1-inch cubes",
+          "ingredient_id": "sweet-potatoes"
         },
         {
           "ingredient_id": "olive-oil",
@@ -841,12 +968,14 @@
         {
           "item": "ground ginger",
           "quantity": "1/4",
-          "unit": "teaspoon"
+          "unit": "teaspoon",
+          "ingredient_id": "ground-ginger"
         },
         {
           "item": "cayenne pepper",
           "quantity": "1/8",
-          "unit": "teaspoon"
+          "unit": "teaspoon",
+          "ingredient_id": "cayenne-pepper"
         }
       ],
       "instructions": [
@@ -916,13 +1045,15 @@
           "item": "black beans",
           "quantity": 2,
           "unit": "15-ounce cans",
-          "preparation": "drained and rinsed"
+          "preparation": "drained and rinsed",
+          "ingredient_id": "black-beans"
         },
         {
           "item": "corn kernels",
           "quantity": 1,
           "unit": "cup",
-          "preparation": "thawed if frozen"
+          "preparation": "thawed if frozen",
+          "ingredient_id": "corn-kernels"
         },
         {
           "ingredient_id": "tomato",
@@ -942,18 +1073,21 @@
           "item": "jalapeño",
           "quantity": 1,
           "unit": "",
-          "preparation": "seeded and minced"
+          "preparation": "seeded and minced",
+          "ingredient_id": "jalapen-o"
         },
         {
           "item": "fresh cilantro",
           "quantity": "1/2",
           "unit": "cup",
-          "preparation": "chopped"
+          "preparation": "chopped",
+          "ingredient_id": "fresh-cilantro"
         },
         {
           "item": "lime juice",
           "quantity": 3,
-          "unit": "tablespoons"
+          "unit": "tablespoons",
+          "ingredient_id": "lime-juice"
         },
         {
           "ingredient_id": "olive-oil",
@@ -1029,7 +1163,8 @@
           "item": "seedless grapes",
           "quantity": 3,
           "unit": "cups",
-          "preparation": "removed from the stems"
+          "preparation": "removed from the stems",
+          "ingredient_id": "seedless-grapes"
         },
         {
           "ingredient_id": "olive-oil",
@@ -1041,12 +1176,14 @@
           "item": "fresh rosemary",
           "quantity": 1,
           "unit": "teaspoon",
-          "preparation": "finely chopped"
+          "preparation": "finely chopped",
+          "ingredient_id": "fresh-rosemary"
         },
         {
           "item": "balsamic vinegar",
           "quantity": 1,
-          "unit": "tablespoon"
+          "unit": "tablespoon",
+          "ingredient_id": "balsamic-vinegar"
         },
         {
           "ingredient_id": "kosher-salt",
@@ -1227,6 +1364,63 @@
     {
       "$schema": "../schemas/ingredient.schema.json",
       "schema_version": "1.0.0",
+      "id": "apple-cider-vinegar",
+      "name": "Apple cider vinegar",
+      "categories": [
+        "condiment"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "cup",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "arugula",
+      "name": "Arugula",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "spring",
+        "fall"
+      ],
+      "default_unit": "bunch",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "baking-soda",
+      "name": "Baking soda",
+      "categories": [
+        "baking"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "teaspoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "balsamic-vinegar",
+      "name": "Balsamic vinegar",
+      "categories": [
+        "condiment"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "tablespoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
       "id": "banana",
       "name": "Banana",
       "aliases": [
@@ -1263,6 +1457,34 @@
         "method": "Keep stems in water at room temperature.",
         "typical_days": 7
       }
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "black-beans",
+      "name": "Black beans",
+      "categories": [
+        "legume"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "15-ounce cans",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "black-olives",
+      "name": "Black olives",
+      "categories": [
+        "other"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "tablespoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",
@@ -1338,6 +1560,20 @@
     {
       "$schema": "../schemas/ingredient.schema.json",
       "schema_version": "1.0.0",
+      "id": "cayenne-pepper",
+      "name": "Cayenne pepper",
+      "categories": [
+        "spice"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "teaspoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
       "id": "chickpea",
       "name": "Chickpea",
       "aliases": [
@@ -1357,6 +1593,38 @@
         "method": "Refrigerate cooked chickpeas in a sealed container.",
         "typical_days": 4
       }
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "corn-kernels",
+      "name": "Corn kernels",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "summer",
+        "fall"
+      ],
+      "default_unit": "cup",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "crumbled-feta",
+      "name": "Crumbled feta",
+      "categories": [
+        "dairy"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "ounce",
+      "allergens": [
+        "milk"
+      ],
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",
@@ -1405,6 +1673,21 @@
     {
       "$schema": "../schemas/ingredient.schema.json",
       "schema_version": "1.0.0",
+      "id": "fennel-bulb",
+      "name": "Fennel bulb",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "default_unit": "bulb",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
       "id": "flour",
       "name": "All-purpose flour",
       "aliases": [
@@ -1426,6 +1709,50 @@
       "allergens": [
         "wheat"
       ]
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "fresh-cilantro",
+      "name": "Fresh cilantro",
+      "categories": [
+        "herb"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "default_unit": "tablespoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "fresh-dill",
+      "name": "Fresh dill",
+      "categories": [
+        "herb"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "default_unit": "tablespoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "fresh-rosemary",
+      "name": "Fresh rosemary",
+      "categories": [
+        "herb"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "teaspoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",
@@ -1453,6 +1780,20 @@
     {
       "$schema": "../schemas/ingredient.schema.json",
       "schema_version": "1.0.0",
+      "id": "ground-ginger",
+      "name": "Ground ginger",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "teaspoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
       "id": "honey",
       "name": "Honey",
       "aliases": [],
@@ -1467,6 +1808,47 @@
         "method": "Store tightly sealed at room temperature.",
         "typical_days": 1825
       }
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "ice-water",
+      "name": "Ice water",
+      "categories": [
+        "other"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "tablespoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "ice",
+      "name": "Ice",
+      "categories": [
+        "other"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "cup",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "jalapen-o",
+      "name": "Jalapeño",
+      "categories": [
+        "other"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",
@@ -1531,6 +1913,20 @@
         "method": "Store dry in an airtight pantry container.",
         "typical_days": 730
       }
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "lime-juice",
+      "name": "Lime juice",
+      "categories": [
+        "beverage"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "tablespoon",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",
@@ -1625,6 +2021,34 @@
     {
       "$schema": "../schemas/ingredient.schema.json",
       "schema_version": "1.0.0",
+      "id": "orange",
+      "name": "Orange",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "winter",
+        "year-round"
+      ],
+      "default_unit": "oranges",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "ripe-avocado",
+      "name": "Ripe avocado",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
       "id": "rolled-oats",
       "name": "Rolled oats",
       "aliases": [
@@ -1642,6 +2066,34 @@
         "method": "Store airtight in a cool, dry pantry.",
         "typical_days": 365
       }
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "seedless-grapes",
+      "name": "Seedless grapes",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "fall"
+      ],
+      "default_unit": "cup",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "sparkling-water",
+      "name": "Sparkling water",
+      "categories": [
+        "beverage"
+      ],
+      "seasons": [
+        "year-round"
+      ],
+      "default_unit": "cup",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",
@@ -1685,6 +2137,21 @@
         "method": "Store airtight in a dry pantry.",
         "typical_days": 1825
       }
+    },
+    {
+      "$schema": "../schemas/ingredient.schema.json",
+      "schema_version": "1.0.0",
+      "id": "sweet-potatoes",
+      "name": "Sweet potatoes",
+      "categories": [
+        "produce"
+      ],
+      "seasons": [
+        "fall",
+        "winter"
+      ],
+      "default_unit": "pound",
+      "notes": "Category, seasonality, default unit, and allergens were inferred during automatic recipe promotion."
     },
     {
       "$schema": "../schemas/ingredient.schema.json",

@@ -101,8 +101,8 @@ export function publicationReviewReasons(review, similarity, brandMatches, minim
   if (review.decision !== "pass") reasons.push(`independent publication review held the recipe: ${review.reasons.join("; ") || "unspecified concern"}`);
   if (review.confidence < minimumConfidence) reasons.push(`publication-review confidence ${review.confidence} is below ${minimumConfidence}`);
   if (review.copyright_risk !== "low") reasons.push(`publication review found ${review.copyright_risk} expression-copying risk`);
-  if (review.semantic_similarity >= 65) reasons.push(`semantic similarity ${review.semantic_similarity}% is too high`);
-  if (review.structural_similarity >= 75) reasons.push(`instruction-structure similarity ${review.structural_similarity}% is too high`);
+  if (review.semantic_similarity >= 85) reasons.push(`semantic similarity ${review.semantic_similarity}% is too high`);
+  if (review.structural_similarity >= 90) reasons.push(`instruction-structure similarity ${review.structural_similarity}% is too high`);
   if (review.distinctive_expression_matches.length) reasons.push(`possible distinctive expression overlap: ${review.distinctive_expression_matches.join(" | ")}`);
   if (review.likely_brand_terms.length) reasons.push(`publication review found possible brand terms: ${review.likely_brand_terms.join(", ")}`);
   if (review.trademark_risk !== "low") reasons.push(`publication review found ${review.trademark_risk} trademark risk`);

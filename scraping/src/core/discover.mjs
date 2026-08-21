@@ -46,30 +46,68 @@ export function configuredSeeds(site) {
   return unique(seeds);
 }
 
-export async function discover(site, robots, { onFetch = () => {}, onError = () => {} } = {}) {
+export async function discover(site, robots, {
+  acceptRecipe = () => true,
+  recipeKey = (url) => url,
+  fetchPage = fetchText,
+  wait = sleep,
+  onFetch = () => {},
+  onError = () => {},
+  onComplete = () => {}
+} = {}) {
   const pending = configuredSeeds(site);
   const visited = new Set();
   const recipes = [];
   const recipeUrls = new Set();
+  let blockedPages = 0;
+  let failedPages = 0;
+  let fetchedPages = 0;
+  let skippedRecipes = 0;
   while (pending.length && recipes.length < site.maxPages) {
     const url = pending.shift();
     if (visited.has(url)) continue;
     visited.add(url);
-    if (!isAllowed(url, robots)) continue;
+    if (!isAllowed(url, robots)) {
+      blockedPages++;
+      continue;
+    }
     onFetch(url);
-    await sleep(Math.max(1000, site.delayMs || 2000, robots?.group?.delayMs || 0));
+    await wait(Math.max(1000, site.delayMs || 2000, robots?.group?.delayMs || 0));
     let page;
-    try { page = await fetchText(url); } catch (error) { onError(url, error); continue; }
+    try {
+      page = await fetchPage(url);
+      fetchedPages++;
+    } catch (error) {
+      failedPages++;
+      onError(url, error);
+      continue;
+    }
     const { text, contentType } = page;
     for (const found of urlsFromDocument(text, url)) {
       if (/\.xml(?:\.gz)?(?:$|\?)/i.test(new URL(found).pathname) || contentType.includes("xml") && found.includes("sitemap")) {
         if (!visited.has(found) && sitemapAllowed(found, site)) pending.push(found);
-      } else if (configured(found, site) && !recipeUrls.has(found)) {
-        recipeUrls.add(found);
-        recipes.push(found);
+      } else if (configured(found, site)) {
+        const key = recipeKey(found);
+        if (!recipeUrls.has(key)) {
+          recipeUrls.add(key);
+          if (acceptRecipe(found)) recipes.push(found);
+          else skippedRecipes++;
+        }
       } else if (followable(found, site) && !visited.has(found)) pending.push(found);
       if (recipes.length >= site.maxPages) break;
     }
   }
-  return unique(recipes).slice(0, site.maxPages);
+  const result = unique(recipes).slice(0, site.maxPages);
+  onComplete({
+    acceptedRecipes: result.length,
+    blockedPages,
+    candidateRecipes: recipeUrls.size,
+    failedPages,
+    fetchedPages,
+    reachedLimit: result.length >= site.maxPages,
+    skippedRecipes,
+    sourceQueueExhausted: pending.length === 0 && result.length < site.maxPages,
+    visitedPages: visited.size
+  });
+  return result;
 }

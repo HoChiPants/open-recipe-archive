@@ -103,9 +103,18 @@ export async function runPool(items, concurrency, worker) {
   return results;
 }
 
-function prefixOutput(input, siteId, output) {
+export function parseScrapeStatus(line) {
+  const marker = "SCRAPE_STATUS ";
+  if (!line.startsWith(marker)) return null;
+  try { return JSON.parse(line.slice(marker.length)); } catch { return null; }
+}
+
+function prefixOutput(input, siteId, output, onLine = () => {}) {
   const lines = readline.createInterface({ input, crlfDelay: Infinity });
-  lines.on("line", (line) => output.write(`[${siteId}] ${line}\n`));
+  lines.on("line", (line) => {
+    onLine(line);
+    output.write(`[${siteId}] ${line}\n`);
+  });
 }
 
 function runSite(siteId, options, activeChildren) {
@@ -121,7 +130,10 @@ function runSite(siteId, options, activeChildren) {
     stdio: ["ignore", "pipe", "pipe"]
   });
   activeChildren.add(child);
-  prefixOutput(child.stdout, siteId, process.stdout);
+  let scrapeStatus = null;
+  prefixOutput(child.stdout, siteId, process.stdout, (line) => {
+    scrapeStatus = parseScrapeStatus(line) || scrapeStatus;
+  });
   prefixOutput(child.stderr, siteId, process.stderr);
 
   return new Promise((resolve) => {
@@ -130,7 +142,7 @@ function runSite(siteId, options, activeChildren) {
       if (settled) return;
       settled = true;
       activeChildren.delete(child);
-      resolve({ siteId, durationMs: Date.now() - startedAt, ...result });
+      resolve({ siteId, durationMs: Date.now() - startedAt, scrapeStatus, ...result });
     };
 
     child.once("error", (error) => finish({ code: 1, error: error.message }));
@@ -208,7 +220,15 @@ export async function main(args = process.argv.slice(2)) {
   for (const result of results) {
     const duration = `${(result.durationMs / 1000).toFixed(1)}s`;
     if (result.skipped) console.log(`SKIP  ${result.siteId}`);
-    else if (result.code === 0) console.log(`OK    ${result.siteId} (${duration})`);
+    else if (result.code === 0 && result.scrapeStatus?.state === "exhausted") {
+      const detail = result.scrapeStatus.newCandidates
+        ? `final discovered batch ${result.scrapeStatus.newCandidates}; end of sources reached`
+        : "no new recipe URLs remain";
+      console.log(`DONE  ${result.siteId} (${duration}, ${detail})`);
+    } else if (result.code === 0 && result.scrapeStatus?.state === "incomplete") {
+      const problems = result.scrapeStatus.failedPages + result.scrapeStatus.blockedPages;
+      console.log(`WARN  ${result.siteId} (${duration}, could not confirm exhaustion; ${problems} discovery problem(s))`);
+    } else if (result.code === 0) console.log(`OK    ${result.siteId} (${duration})`);
     else {
       const detail = result.error || (result.signal ? `signal ${result.signal}` : `exit ${result.code}`);
       console.log(`FAIL  ${result.siteId} (${duration}, ${detail})`);

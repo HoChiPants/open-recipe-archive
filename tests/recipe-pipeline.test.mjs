@@ -6,6 +6,7 @@ import {
   proseMetrics,
   uniqueRecipeId,
 } from "../scripts/recipe-pipeline-lib.mjs";
+import { missingCanonicalIngredientIds, planCanonicalIngredients } from "../scripts/canonical-ingredient-lib.mjs";
 import {
   detectedBrandTerms,
   deterministicSimilarity,
@@ -59,6 +60,19 @@ test("materializes model output as a canonical recipe record", () => {
   assert.equal(recipe.instructions[0].timer_minutes, undefined);
 });
 
+test("plans missing canonical ingredients before assigning every recipe ingredient ID", () => {
+  const existing = [{ id: "tomato", name: "Tomato", aliases: ["tomatoes"] }];
+  const created = planCanonicalIngredients(generated.recipe.ingredients, existing);
+  assert.deepEqual(created.map((ingredient) => ingredient.id), ["lemon-juice", "fresh-basil"]);
+  assert.equal(created[0].categories[0], "beverage");
+  assert.equal(created[0].default_unit, "tablespoon");
+  assert.deepEqual(created[1].seasons, ["summer", "fall"]);
+
+  const recipe = materializeRecipe(candidate, generated, new Set(), [...existing, ...created]);
+  assert.deepEqual(recipe.ingredients.map((ingredient) => ingredient.ingredient_id), ["tomato", "lemon-juice", "fresh-basil"]);
+  assert.deepEqual(missingCanonicalIngredientIds(recipe), []);
+});
+
 test("uses a deterministic suffix when a generated ID already exists", () => {
   const id = uniqueRecipeId("Lemon tomato salad", candidate.source.url, new Set(["lemon-tomato-salad"]));
   assert.match(id, /^lemon-tomato-salad-[a-f0-9]{8}$/);
@@ -70,8 +84,38 @@ test("holds risky or contradictory recipes out of automatic promotion", () => {
   recipe.dietary = ["vegan"];
   recipe.allergens = ["milk"];
   const reasons = automaticReviewReasons({ status: "usable", reason: "", base_name: "Tomato salad", ingredients: [], safety_flags: [] }, generated, recipe);
-  assert.ok(reasons.some((reason) => reason.includes("high-risk")));
+  assert.ok(reasons.some((reason) => reason.includes("165°F")));
   assert.ok(reasons.some((reason) => reason.includes("vegan conflicts")));
+});
+
+test("preserves extracted ingredient facts and reconciles allergen metadata", () => {
+  const facts = {
+    ingredients: [
+      { item: "whole egg", quantity: "2", unit: "", preparation: "beaten", optional: false },
+      { item: "wheat flour", quantity: "1", unit: "cup", preparation: "", optional: false },
+    ],
+  };
+  const recipe = materializeRecipe(candidate, generated, new Set(), [], facts);
+  assert.deepEqual(recipe.ingredients.map((ingredient) => {
+    const item = { ...ingredient };
+    delete item.ingredient_id;
+    return item;
+  }), [
+    { item: "whole egg", quantity: 2, preparation: "beaten" },
+    { item: "wheat flour", quantity: 1, unit: "cup" },
+  ]);
+  assert.deepEqual(recipe.allergens.sort(), ["eggs", "wheat"]);
+  assert.equal(recipe.dietary.includes("vegan"), false);
+  assert.equal(recipe.dietary.includes("gluten-free"), false);
+});
+
+test("accepts high-risk ingredients only with applicable safety endpoints", () => {
+  const facts = { status: "usable", reason: "", base_name: "Chicken", ingredients: [], operations: [], safety_flags: ["raw_animal_protein"] };
+  const unsafe = materializeRecipe(candidate, generated, new Set());
+  unsafe.ingredients.push({ item: "chicken breast", quantity: 1, unit: "pound" });
+  assert.ok(automaticReviewReasons(facts, generated, unsafe).some((reason) => reason.includes("165°F")));
+  unsafe.instructions = [{ step: 1, text: "Cook until the center reaches 165°F on a food thermometer." }];
+  assert.equal(automaticReviewReasons(facts, generated, unsafe).some((reason) => reason.includes("165°F")), false);
 });
 
 test("records source-to-final prose analytics without treating them as legal clearance", () => {
@@ -99,8 +143,8 @@ test("turns independent publication-review warnings into automatic holds", () =>
     decision: "hold",
     confidence: 92,
     copyright_risk: "medium",
-    semantic_similarity: 70,
-    structural_similarity: 40,
+    semantic_similarity: 90,
+    structural_similarity: 95,
     distinctive_expression_matches: ["distinctive serving phrase"],
     likely_brand_terms: ["Example Brand"],
     trademark_risk: "medium",
