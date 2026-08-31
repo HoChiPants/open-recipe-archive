@@ -71,23 +71,23 @@ Useful optional fields include `subtitle`, `description`, `cuisine`, `nutrition`
 
 ## Commands
 
-| Command | Purpose |
-| --- | --- |
-| `npm start` | Validate the data, rebuild the catalog, and start the website |
-| `npm run data:validate` | Check schemas, unique IDs, step order, and ingredient references |
-| `npm run catalog:build` | Rebuild the TypeScript and public JSON catalogs |
-| `npm run dailydine:feed -- --release <id>` | Build and verify the deterministic Daily Dine review-candidate feed |
-| `npm run recipe:new -- --name "…" --type main` | Scaffold a recipe file |
-| `npm run candidate:auto -- --site <id> --limit 5` | Preserve ingredient facts, rewrite expressive fields, and generate pipeline analytics |
-| `npm run candidate:auto:all -- --plan` | Plan the resumable all-sites queue (Spark by default) |
-| `npm run candidate:rights -- --list` | Inspect reusable source publication-rights records |
-| `npm run candidate:promote -- --candidate <review.json> --recipe <edited.json> --attest-original-wording` | Validate and promote an independently rewritten candidate |
-| `npm run scrape:discover -- --site <id>` | Preview URLs from an authorized configured site |
-| `npm run scrape -- --site <id> --limit 25` | Extract recipe candidates into the review queue |
-| `npm run scrape:test` | Run offline scraper extraction tests |
-| `npm run meals:import -- --input <file> --all` | Prepare the complete legacy archive for rights and editorial review |
-| `npm run build` | Produce a deployment build |
-| `npm test` | Validate data, build the app, and run rendering checks |
+| Command                                                                                                   | Purpose                                                                               |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `npm start`                                                                                               | Validate the data, rebuild the catalog, and start the website                         |
+| `npm run data:validate`                                                                                   | Check schemas, unique IDs, step order, and ingredient references                      |
+| `npm run catalog:build`                                                                                   | Rebuild the TypeScript and public JSON catalogs                                       |
+| `npm run dailydine:feed -- --release <id>`                                                                | Build and verify the deterministic Daily Dine review-candidate feed                   |
+| `npm run recipe:new -- --name "…" --type main`                                                            | Scaffold a recipe file                                                                |
+| `npm run candidate:auto -- --site <id> --limit 5`                                                         | Preserve ingredient facts, rewrite expressive fields, and generate pipeline analytics |
+| `npm run candidate:auto:all -- --plan`                                                                    | Plan the resumable all-sites queue (Spark by default)                                 |
+| `npm run candidate:rights -- --list`                                                                      | Inspect reusable source publication-rights records                                    |
+| `npm run candidate:promote -- --candidate <review.json> --recipe <edited.json> --attest-original-wording` | Validate and promote an independently rewritten candidate                             |
+| `npm run scrape:discover -- --site <id>`                                                                  | Preview URLs from an authorized configured site                                       |
+| `npm run scrape -- --site <id> --limit 25`                                                                | Extract recipe candidates into the review queue                                       |
+| `npm run scrape:test`                                                                                     | Run offline scraper extraction tests                                                  |
+| `npm run meals:import -- --input <file> --all`                                                            | Prepare the complete legacy archive for rights and editorial review                   |
+| `npm run build`                                                                                           | Produce a deployment build                                                            |
+| `npm test`                                                                                                | Validate data, build the app, and run rendering checks                                |
 
 ## Use the catalog elsewhere
 
@@ -116,7 +116,7 @@ npm run dailydine:feed -- --release local-plan-check --as-of 2026-08-31T00:00:00
 
 The command writes `build/dailydine-feed/manifest.json` and numbered JSON pages. The manifest records page hashes, record/page totals, and its own canonical `manifest_hash`; the command verifies all of them before reporting its one-line summary. See [`schemas/dailydine-feed.schema.json`](schemas/dailydine-feed.schema.json) for the wire contract. Generated feed files are intentionally ignored.
 
-On `main`, changes to the archive output, feed schema, or feed scripts also run the **Publish Daily Dine feed** workflow. Each publish creates (or reuses) the immutable commit-tagged release `dailydine-feed-<commit-sha>` with these assets:
+On `main`, changes to the archive output, feed schema, or feed scripts also run the **Publish Daily Dine feed** workflow. Enable GitHub immutable releases for this repository before using that automation. Each publish creates the commit-tagged release `dailydine-feed-<commit-sha>` with all assets in the same release-creation operation. An existing release is reused only when GitHub reports it as immutable; the workflow never replaces release assets.
 
 - `manifest.json`, the verified page index and hash contract;
 - `dailydine-feed.tar.gz`, the manifest and every numbered page.

@@ -39,16 +39,20 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag="dailydine-feed-$GITHUB_SHA"
-          if ! gh release view "$tag" >/dev/null 2>&1; then
+          if gh release view "$tag" >/dev/null 2>&1; then
+            immutable="$(gh release view "$tag" --json isImmutable --jq '.isImmutable')"
+            if [ "$immutable" != "true" ]; then
+              echo "Existing Daily Dine feed release is not immutable." >&2
+              exit 1
+            fi
+          else
             gh release create "$tag" \
               --target "$GITHUB_SHA" \
               --title "Daily Dine feed $GITHUB_SHA" \
-              --notes "Immutable Daily Dine feed for commit $GITHUB_SHA."
+              --notes "Immutable Daily Dine feed for commit $GITHUB_SHA." \
+              build/dailydine-feed/manifest.json#manifest.json \
+              build/dailydine-feed.tar.gz#dailydine-feed.tar.gz
           fi
-          gh release upload "$tag" \
-            build/dailydine-feed/manifest.json#manifest.json \
-            build/dailydine-feed.tar.gz#dailydine-feed.tar.gz \
-            --clobber
       - name: Notify Daily Dine
         env:
           GH_TOKEN: ${{ secrets.DAILYDINE_DISPATCH_TOKEN }}
