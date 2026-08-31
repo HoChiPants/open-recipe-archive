@@ -116,6 +116,15 @@ npm run dailydine:feed -- --release local-plan-check --as-of 2026-08-31T00:00:00
 
 The command writes `build/dailydine-feed/manifest.json` and numbered JSON pages. The manifest records page hashes, record/page totals, and its own canonical `manifest_hash`; the command verifies all of them before reporting its one-line summary. See [`schemas/dailydine-feed.schema.json`](schemas/dailydine-feed.schema.json) for the wire contract. Generated feed files are intentionally ignored.
 
+On `main`, changes to the archive output, feed schema, or feed scripts also run the **Publish Daily Dine feed** workflow. Each publish creates (or reuses) the immutable commit-tagged release `dailydine-feed-<commit-sha>` with these assets:
+
+- `manifest.json`, the verified page index and hash contract;
+- `dailydine-feed.tar.gz`, the manifest and every numbered page.
+
+The workflow can notify Daily Dine through GitHub's repository-dispatch API when the `DAILYDINE_DISPATCH_TOKEN` secret is configured. That secret must be a fine-grained token limited to repository-dispatch access for `HoChiPants/meal-manager`; it is only available to the notification step and is not needed to publish the feed. If it is absent, publication still succeeds and Daily Dine's nightly reconciliation discovers the release.
+
+Daily Dine must treat the release URLs as untrusted until it verifies the downloaded bundle: read `manifest.json`, confirm its canonical `manifest_hash`, verify each listed page hash and record/page total, and accept the release only when the manifest `release_id` matches the dispatched release ID. This detects incomplete, stale, or altered release assets before the archive is imported for review.
+
 The complete private legacy Meals archive can be prepared with the guarded [migration workflow](docs/MEALS_MIGRATION.md). It creates review drafts only and does not bulk-publish or copy source instructions.
 
 ## Licensing and recipe sources

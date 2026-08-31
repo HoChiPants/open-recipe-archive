@@ -1,0 +1,66 @@
+name: Publish Daily Dine feed
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scraping/output/**"
+      - "schemas/dailydine-feed.schema.json"
+      - "scripts/build-dailydine-feed.mjs"
+      - "scripts/dailydine-feed-lib.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-dailydine-feed
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build feed
+        run: |
+          npm run dailydine:feed -- \
+            --release "$GITHUB_SHA" \
+            --as-of "$(git show -s --format=%cI "$GITHUB_SHA")"
+      - name: Package feed
+        run: tar -czf build/dailydine-feed.tar.gz -C build/dailydine-feed .
+      - name: Create immutable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="dailydine-feed-$GITHUB_SHA"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" \
+              --target "$GITHUB_SHA" \
+              --title "Daily Dine feed $GITHUB_SHA" \
+              --notes "Immutable Daily Dine feed for commit $GITHUB_SHA."
+          fi
+          gh release upload "$tag" \
+            build/dailydine-feed/manifest.json#manifest.json \
+            build/dailydine-feed.tar.gz#dailydine-feed.tar.gz \
+            --clobber
+      - name: Notify Daily Dine
+        if: ${{ secrets.DAILYDINE_DISPATCH_TOKEN != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.DAILYDINE_DISPATCH_TOKEN }}
+          RELEASE_ID: ${{ github.sha }}
+          RELEASE_TAG: dailydine-feed-${{ github.sha }}
+          MANIFEST_URL: https://github.com/HoChiPants/open-recipe-archive/releases/download/dailydine-feed-${{ github.sha }}/manifest.json
+          BUNDLE_URL: https://github.com/HoChiPants/open-recipe-archive/releases/download/dailydine-feed-${{ github.sha }}/dailydine-feed.tar.gz
+        run: |
+          gh api --method POST repos/HoChiPants/meal-manager/dispatches \
+            -f event_type=open-recipe-archive-release \
+            -f "client_payload[release_id]=$RELEASE_ID" \
+            -f "client_payload[release_tag]=$RELEASE_TAG" \
+            -f "client_payload[manifest_url]=$MANIFEST_URL" \
+            -f "client_payload[bundle_url]=$BUNDLE_URL"
