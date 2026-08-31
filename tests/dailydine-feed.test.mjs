@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
@@ -32,6 +33,10 @@ const candidate = {
   },
 };
 
+function sourceUrlHash(candidateValue, length) {
+  return createHash("sha256").update(new URL(candidateValue.source.url).toString()).digest("hex").slice(0, length);
+}
+
 async function withTemporaryDirectory(run) {
   const directory = await mkdtemp(path.join(os.tmpdir(), "dailydine-feed-"));
   try {
@@ -49,13 +54,26 @@ async function writeCandidate(directory, name, value) {
 }
 
 test("derives stable archive and content identities", () => {
-  assert.equal(archiveIdForCandidate(candidate), "allrecipes.com:test-recipe");
+  assert.equal(
+    archiveIdForCandidate(candidate),
+    `allrecipes.com:test-recipe:${sourceUrlHash(candidate, 12)}`,
+  );
 
   const changedTimestamp = structuredClone(candidate);
   changedTimestamp.source.retrieved_at = "2026-08-31T12:00:00.000Z";
   assert.equal(
     contentHashForCandidate(candidate),
     contentHashForCandidate(changedTimestamp),
+  );
+});
+
+test("uses a source URL hash when a candidate has no extracted ID", () => {
+  const missingId = structuredClone(candidate);
+  delete missingId.extracted.id;
+
+  assert.equal(
+    archiveIdForCandidate(missingId),
+    `allrecipes.com:${sourceUrlHash(missingId, 24)}`,
   );
 });
 
@@ -83,16 +101,44 @@ test("builds a deterministic, verifiable feed in archive-ID order", async () => 
     assert.deepEqual(first, second);
     assert.equal(first.total_records, 2);
     assert.equal(first.total_pages, 1);
-    assert.deepEqual(first.pages.map((page) => page.archive_id_start), ["allrecipes.com:test-recipe"]);
-    assert.deepEqual(first.pages.map((page) => page.archive_id_end), ["example.test:alpha-recipe"]);
+    assert.deepEqual(first.pages.map((page) => page.archive_id_start), [archiveIdForCandidate(candidate)]);
+    assert.deepEqual(first.pages.map((page) => page.archive_id_end), [
+      `example.test:alpha-recipe:${sourceUrlHash({ ...candidate, source: { ...candidate.source, url: "https://example.test/recipe/alpha" } }, 12)}`,
+    ]);
     assert.deepEqual(
       JSON.parse(await readFile(path.join(firstOutputDir, "pages", "page-00001.json"), "utf8")).recipes.map((recipe) => recipe.archive_id),
-      ["allrecipes.com:test-recipe", "example.test:alpha-recipe"],
+      [
+        archiveIdForCandidate(candidate),
+        `example.test:alpha-recipe:${sourceUrlHash({ ...candidate, source: { ...candidate.source, url: "https://example.test/recipe/alpha" } }, 12)}`,
+      ],
     );
     await assert.doesNotReject(() => verifyBuiltFeed({
       manifestPath: path.join(firstOutputDir, "manifest.json"),
       pagesDir: path.join(firstOutputDir, "pages"),
     }));
+  });
+});
+
+test("keeps distinct same-host source URLs with the same extracted ID", async () => {
+  await withTemporaryDirectory(async (directory) => {
+    const inputDir = path.join(directory, "input");
+    const secondCandidate = {
+      ...candidate,
+      source: { ...candidate.source, url: "https://www.allrecipes.com/recipe/test-recipe-variant/" },
+    };
+    await writeCandidate(inputDir, "first.json", candidate);
+    await writeCandidate(inputDir, "second.json", secondCandidate);
+
+    const manifest = await buildDailyDineFeed({
+      inputDir,
+      outputDir: path.join(directory, "output"),
+      releaseId: "test-release",
+      generatedAt: "2026-08-31T00:00:00.000Z",
+      pageSize: 250,
+    });
+    const page = JSON.parse(await readFile(path.join(directory, "output", "pages", "page-00001.json"), "utf8"));
+    assert.equal(manifest.total_records, 2);
+    assert.notEqual(page.recipes[0].archive_id, page.recipes[1].archive_id);
   });
 });
 
@@ -111,6 +157,32 @@ test("rejects duplicate archive IDs before writing a feed", async () => {
         pageSize: 250,
       }),
       /duplicate archive_id/i,
+    );
+  });
+});
+
+test("keeps a valid existing feed when a replacement build is invalid", async () => {
+  await withTemporaryDirectory(async (directory) => {
+    const inputDir = path.join(directory, "input");
+    const outputDir = path.join(directory, "output");
+    const options = {
+      inputDir,
+      outputDir,
+      releaseId: "test-release",
+      generatedAt: "2026-08-31T00:00:00.000Z",
+      pageSize: 250,
+    };
+    await writeCandidate(inputDir, "candidate.json", candidate);
+    const firstManifest = await buildDailyDineFeed(options);
+
+    await writeCandidate(inputDir, "candidate.json", {
+      ...candidate,
+      extracted: { ...candidate.extracted, yield: { quantity: 0, unit: "servings" } },
+    });
+    await assert.rejects(() => buildDailyDineFeed(options), /schema validation failed/i);
+    assert.deepEqual(
+      await verifyBuiltFeed({ manifestPath: path.join(outputDir, "manifest.json"), pagesDir: path.join(outputDir, "pages") }),
+      firstManifest,
     );
   });
 });

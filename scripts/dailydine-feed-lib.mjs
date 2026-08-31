@@ -1,5 +1,5 @@
-import { createHash } from "node:crypto";
-import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { createHash, randomUUID } from "node:crypto";
+import { mkdir, mkdtemp, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import Ajv2020 from "ajv/dist/2020.js";
 
@@ -35,6 +35,14 @@ function requireString(value, label) {
   return value;
 }
 
+function sourceUrlDetails(candidate) {
+  const normalizedUrl = new URL(requireString(candidate?.source?.url, "candidate.source.url")).toString();
+  return {
+    host: new URL(normalizedUrl).hostname.toLowerCase().replace(/^www\./, ""),
+    normalizedUrl,
+  };
+}
+
 function feedRecordForCandidate(candidate) {
   const extracted = candidate?.extracted ?? {};
   return {
@@ -65,20 +73,22 @@ function feedRecordForCandidate(candidate) {
 }
 
 export function archiveIdForCandidate(candidate) {
-  const host = new URL(requireString(candidate?.source?.url, "candidate.source.url"))
-    .hostname
-    .toLowerCase()
-    .replace(/^www\./, "");
-  const candidateId = slug(candidate?.extracted?.id ?? candidate?.extracted?.name);
-  if (!candidateId) throw new Error("candidate.extracted.id or candidate.extracted.name must produce a slug");
-  return `${host}:${candidateId}`;
+  const { host, normalizedUrl } = sourceUrlDetails(candidate);
+  const sourceUrlHash = sha256(normalizedUrl);
+  const extractedId = candidate?.extracted?.id;
+  if (typeof extractedId === "string" && extractedId.trim()) {
+    return `${host}:${slug(extractedId)}:${sourceUrlHash.slice(0, 12)}`;
+  }
+  return `${host}:${sourceUrlHash.slice(0, 24)}`;
+}
+
+function contentHashForRecord(record) {
+  const { content_hash, source, ...content } = record;
+  return sha256(canonicalJson({ ...content, source: { ...source, retrieved_at: undefined } }));
 }
 
 export function contentHashForCandidate(candidate) {
-  const record = feedRecordForCandidate(candidate);
-  delete record.content_hash;
-  delete record.source.retrieved_at;
-  return sha256(canonicalJson(record));
+  return contentHashForRecord(feedRecordForCandidate(candidate));
 }
 
 function recordForCandidate(candidate) {
@@ -99,6 +109,27 @@ function validateBuildOptions({ inputDir, outputDir, releaseId, generatedAt, pag
   if (!Number.isInteger(pageSize) || pageSize < 1) throw new Error("pageSize must be a positive integer");
 }
 
+async function promoteFeed(stagingDir, outputDir) {
+  const parentDir = path.dirname(outputDir);
+  const backupDir = path.join(parentDir, `.${path.basename(outputDir)}.backup-${randomUUID()}`);
+  let previousOutputMoved = false;
+  try {
+    await rename(outputDir, backupDir);
+    previousOutputMoved = true;
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
+  try {
+    await rename(stagingDir, outputDir);
+  } catch (error) {
+    if (previousOutputMoved) await rename(backupDir, outputDir);
+    throw error;
+  }
+
+  if (previousOutputMoved) await rm(backupDir, { recursive: true, force: true });
+}
+
 export async function buildDailyDineFeed({ inputDir, outputDir, releaseId, generatedAt, pageSize }) {
   validateBuildOptions({ inputDir, outputDir, releaseId, generatedAt, pageSize });
   const candidates = [];
@@ -110,41 +141,48 @@ export async function buildDailyDineFeed({ inputDir, outputDir, releaseId, gener
     seenIds.add(record.archive_id);
   }
 
-  const pages = [];
-  const pagesDir = path.join(outputDir, "pages");
-  await rm(pagesDir, { recursive: true, force: true });
-  await mkdir(pagesDir, { recursive: true });
-  for (let offset = 0; offset < records.length; offset += pageSize) {
-    const pageNumber = pages.length + 1;
-    const recipes = records.slice(offset, offset + pageSize);
-    const page = { schema_version: "1.0.0", release_id: releaseId, page: pageNumber, recipes };
-    assertValid(validatePage, page, `page ${pageNumber}`);
-    const file = `page-${String(pageNumber).padStart(5, "0")}.json`;
-    const bytes = Buffer.from(`${canonicalJson(page)}\n`, "utf8");
-    await writeFile(path.join(pagesDir, file), bytes);
-    pages.push({
-      page: pageNumber,
-      file,
-      record_count: recipes.length,
-      sha256: sha256(bytes),
-      archive_id_start: recipes[0].archive_id,
-      archive_id_end: recipes.at(-1).archive_id,
-    });
-  }
+  const outputParent = path.dirname(outputDir);
+  await mkdir(outputParent, { recursive: true });
+  const stagingDir = await mkdtemp(path.join(outputParent, `.${path.basename(outputDir)}.tmp-`));
+  try {
+    const pages = [];
+    const pagesDir = path.join(stagingDir, "pages");
+    await mkdir(pagesDir, { recursive: true });
+    for (let offset = 0; offset < records.length; offset += pageSize) {
+      const pageNumber = pages.length + 1;
+      const recipes = records.slice(offset, offset + pageSize);
+      const page = { schema_version: "1.0.0", release_id: releaseId, page: pageNumber, recipes };
+      assertValid(validatePage, page, `page ${pageNumber}`);
+      const file = `page-${String(pageNumber).padStart(5, "0")}.json`;
+      const bytes = Buffer.from(`${canonicalJson(page)}\n`, "utf8");
+      await writeFile(path.join(pagesDir, file), bytes);
+      pages.push({
+        page: pageNumber,
+        file,
+        record_count: recipes.length,
+        sha256: sha256(bytes),
+        archive_id_start: recipes[0].archive_id,
+        archive_id_end: recipes.at(-1).archive_id,
+      });
+    }
 
-  const unsignedManifest = {
-    schema_version: "1.0.0",
-    release_id: releaseId,
-    generated_at: generatedAt,
-    total_records: records.length,
-    total_pages: pages.length,
-    pages,
-  };
-  const manifest = { ...unsignedManifest, manifest_hash: sha256(canonicalJson(unsignedManifest)) };
-  assertValid(validateManifest, manifest, "manifest");
-  await mkdir(outputDir, { recursive: true });
-  await writeFile(path.join(outputDir, "manifest.json"), `${canonicalJson(manifest)}\n`);
-  return manifest;
+    const unsignedManifest = {
+      schema_version: "1.0.0",
+      release_id: releaseId,
+      generated_at: generatedAt,
+      total_records: records.length,
+      total_pages: pages.length,
+      pages,
+    };
+    const manifest = { ...unsignedManifest, manifest_hash: sha256(canonicalJson(unsignedManifest)) };
+    assertValid(validateManifest, manifest, "manifest");
+    await writeFile(path.join(stagingDir, "manifest.json"), `${canonicalJson(manifest)}\n`);
+    await verifyBuiltFeed({ manifestPath: path.join(stagingDir, "manifest.json"), pagesDir });
+    await promoteFeed(stagingDir, outputDir);
+    return manifest;
+  } finally {
+    await rm(stagingDir, { recursive: true, force: true });
+  }
 }
 
 export async function verifyBuiltFeed({ manifestPath, pagesDir }) {
@@ -176,21 +214,7 @@ export async function verifyBuiltFeed({ manifestPath, pagesDir }) {
     for (const recipe of page.recipes) {
       if (seenIds.has(recipe.archive_id)) throw new Error(`duplicate archive_id '${recipe.archive_id}' in feed`);
       seenIds.add(recipe.archive_id);
-      if (recipe.content_hash !== contentHashForCandidate({
-        review_status: recipe.review_status,
-        source: recipe.source,
-        extracted: {
-          id: recipe.archive_id.split(":").at(-1),
-          name: recipe.name,
-          description: recipe.description,
-          yield: recipe.yield,
-          times: recipe.times,
-          ingredient_lines: recipe.ingredient_lines,
-          instruction_lines: recipe.instruction_lines,
-          categories: recipe.categories,
-          nutrition: recipe.nutrition,
-        },
-      })) {
+      if (recipe.content_hash !== contentHashForRecord(recipe)) {
         throw new Error(`recipe '${recipe.archive_id}' content_hash does not match its content`);
       }
     }

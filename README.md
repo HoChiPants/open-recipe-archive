@@ -106,7 +106,7 @@ Consumers should depend on `schema_version`, not the generated timestamp or file
 
 ## Daily Dine archive feed
 
-The Daily Dine feed is a deterministic, paginated export of every candidate document in `scraping/output`. It preserves the source facts for review; it does not publish or promote candidate text. Each record has a stable `archive_id` based on its normalized source host and candidate ID, plus a `content_hash` that intentionally excludes the retrieval timestamp.
+The Daily Dine feed is a deterministic, paginated export of every candidate document in `scraping/output`. It preserves the source facts for review; it does not publish or promote candidate text. Each record has a stable `archive_id` based on its normalized source host, extracted ID, and source-URL hash (or a longer source-URL hash when the extracted ID is absent), plus a `content_hash` that intentionally excludes the retrieval timestamp.
 
 Build a release with a stable release ID and timestamp:
 
