@@ -16,6 +16,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "data:validate": "node scripts/validate.mjs",
     "catalog:build": "node scripts/build-catalog.mjs",
+    "dailydine:feed": "node scripts/build-dailydine-feed.mjs",
     "ingredients:backfill": "node scripts/backfill-canonical-ingredients.mjs",
     "data:prepare": "npm run data:validate && npm run catalog:build",
     "recipe:new": "node scripts/new-recipe.mjs",

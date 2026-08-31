@@ -76,6 +76,7 @@ Useful optional fields include `subtitle`, `description`, `cuisine`, `nutrition`
 | `npm start` | Validate the data, rebuild the catalog, and start the website |
 | `npm run data:validate` | Check schemas, unique IDs, step order, and ingredient references |
 | `npm run catalog:build` | Rebuild the TypeScript and public JSON catalogs |
+| `npm run dailydine:feed -- --release <id>` | Build and verify the deterministic Daily Dine review-candidate feed |
 | `npm run recipe:new -- --name "…" --type main` | Scaffold a recipe file |
 | `npm run candidate:auto -- --site <id> --limit 5` | Preserve ingredient facts, rewrite expressive fields, and generate pipeline analytics |
 | `npm run candidate:auto:all -- --plan` | Plan the resumable all-sites queue (Spark by default) |
@@ -102,6 +103,18 @@ After `npm run catalog:build`, `public/data/catalog.json` contains:
 ```
 
 Consumers should depend on `schema_version`, not the generated timestamp or file order. Recipe and ingredient IDs are stable lookup keys.
+
+## Daily Dine archive feed
+
+The Daily Dine feed is a deterministic, paginated export of every candidate document in `scraping/output`. It preserves the source facts for review; it does not publish or promote candidate text. Each record has a stable `archive_id` based on its normalized source host and candidate ID, plus a `content_hash` that intentionally excludes the retrieval timestamp.
+
+Build a release with a stable release ID and timestamp:
+
+```bash
+npm run dailydine:feed -- --release local-plan-check --as-of 2026-08-31T00:00:00.000Z
+```
+
+The command writes `build/dailydine-feed/manifest.json` and numbered JSON pages. The manifest records page hashes, record/page totals, and its own canonical `manifest_hash`; the command verifies all of them before reporting its one-line summary. See [`schemas/dailydine-feed.schema.json`](schemas/dailydine-feed.schema.json) for the wire contract. Generated feed files are intentionally ignored.
 
 The complete private legacy Meals archive can be prepared with the guarded [migration workflow](docs/MEALS_MIGRATION.md). It creates review drafts only and does not bulk-publish or copy source instructions.
 
