@@ -50,7 +50,6 @@ jobs:
             build/dailydine-feed.tar.gz#dailydine-feed.tar.gz \
             --clobber
       - name: Notify Daily Dine
-        if: ${{ secrets.DAILYDINE_DISPATCH_TOKEN != '' }}
         env:
           GH_TOKEN: ${{ secrets.DAILYDINE_DISPATCH_TOKEN }}
           RELEASE_ID: ${{ github.sha }}
@@ -58,6 +57,10 @@ jobs:
           MANIFEST_URL: https://github.com/HoChiPants/open-recipe-archive/releases/download/dailydine-feed-${{ github.sha }}/manifest.json
           BUNDLE_URL: https://github.com/HoChiPants/open-recipe-archive/releases/download/dailydine-feed-${{ github.sha }}/dailydine-feed.tar.gz
         run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Daily Dine dispatch token is not configured; nightly reconciliation will discover this release."
+            exit 0
+          fi
           gh api --method POST repos/HoChiPants/meal-manager/dispatches \
             -f event_type=open-recipe-archive-release \
             -f "client_payload[release_id]=$RELEASE_ID" \

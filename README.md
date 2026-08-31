@@ -121,7 +121,7 @@ On `main`, changes to the archive output, feed schema, or feed scripts also run 
 - `manifest.json`, the verified page index and hash contract;
 - `dailydine-feed.tar.gz`, the manifest and every numbered page.
 
-The workflow can notify Daily Dine through GitHub's repository-dispatch API when the `DAILYDINE_DISPATCH_TOKEN` secret is configured. That secret must be a fine-grained token limited to repository-dispatch access for `HoChiPants/meal-manager`; it is only available to the notification step and is not needed to publish the feed. If it is absent, publication still succeeds and Daily Dine's nightly reconciliation discovers the release.
+The workflow can notify Daily Dine through GitHub's repository-dispatch API when the `DAILYDINE_DISPATCH_TOKEN` secret is configured. Create a fine-grained PAT limited to `HoChiPants/meal-manager` with repository permission **Contents: write** and no other permissions, then store it as `DAILYDINE_DISPATCH_TOKEN` in the archive repository. The secret is only available to the notification step and is not needed to publish the feed. If it is absent, publication still succeeds and Daily Dine's nightly reconciliation discovers the release.
 
 Daily Dine must treat the release URLs as untrusted until it verifies the downloaded bundle: read `manifest.json`, confirm its canonical `manifest_hash`, verify each listed page hash and record/page total, and accept the release only when the manifest `release_id` matches the dispatched release ID. This detects incomplete, stale, or altered release assets before the archive is imported for review.
 
