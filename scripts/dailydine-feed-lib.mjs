@@ -12,11 +12,21 @@ ajv.addSchema(schema);
 const validateManifest = ajv.getSchema(`${schema.$id}#/$defs/manifest`);
 const validatePage = ajv.getSchema(`${schema.$id}#/$defs/page`);
 
+export function compareUnicodeCodePoints(left, right) {
+  const leftPoints = Array.from(left, (character) => character.codePointAt(0));
+  const rightPoints = Array.from(right, (character) => character.codePointAt(0));
+  const length = Math.min(leftPoints.length, rightPoints.length);
+  for (let index = 0; index < length; index += 1) {
+    if (leftPoints[index] !== rightPoints[index]) return leftPoints[index] - rightPoints[index];
+  }
+  return leftPoints.length - rightPoints.length;
+}
+
 function canonicalize(value) {
   if (Array.isArray(value)) return value.map(canonicalize);
   if (value && typeof value === "object") {
     return Object.fromEntries(Object.entries(value)
-      .sort(([left], [right]) => left.localeCompare(right))
+      .sort(([left], [right]) => compareUnicodeCodePoints(left, right))
       .map(([key, item]) => [key, canonicalize(item)]));
   }
   return value;
@@ -35,23 +45,36 @@ function requireString(value, label) {
   return value;
 }
 
+export function canonicalSourceUrl(value) {
+  const url = new URL(requireString(value, "source URL"));
+  if (url.protocol !== "http:" && url.protocol !== "https:") {
+    throw new Error("source URL must use HTTP or HTTPS");
+  }
+  if (url.username || url.password) throw new Error("source URL must not contain credentials");
+  url.hostname = url.hostname.toLowerCase().replace(/^www\./, "");
+  url.hash = "";
+  return url.toString();
+}
+
 function sourceUrlDetails(candidate) {
-  const normalizedUrl = new URL(requireString(candidate?.source?.url, "candidate.source.url")).toString();
+  const normalizedUrl = canonicalSourceUrl(requireString(candidate?.source?.url, "candidate.source.url"));
   return {
-    host: new URL(normalizedUrl).hostname.toLowerCase().replace(/^www\./, ""),
+    host: new URL(normalizedUrl).hostname,
     normalizedUrl,
   };
 }
 
 function feedRecordForCandidate(candidate) {
   const extracted = candidate?.extracted ?? {};
+  const { normalizedUrl } = sourceUrlDetails(candidate);
   return {
     archive_id: archiveIdForCandidate(candidate),
     content_hash: "",
+    slug: slug(requireString(extracted.id ?? extracted.name, "candidate.extracted.id or name")),
     review_status: requireString(candidate?.review_status, "candidate.review_status"),
     source: {
       name: requireString(candidate?.source?.name, "candidate.source.name"),
-      url: requireString(candidate?.source?.url, "candidate.source.url"),
+      url: normalizedUrl,
       retrieved_at: requireString(candidate?.source?.retrieved_at, "candidate.source.retrieved_at"),
     },
     name: requireString(extracted.name, "candidate.extracted.name"),
@@ -75,16 +98,14 @@ function feedRecordForCandidate(candidate) {
 export function archiveIdForCandidate(candidate) {
   const { host, normalizedUrl } = sourceUrlDetails(candidate);
   const sourceUrlHash = sha256(normalizedUrl);
-  const extractedId = candidate?.extracted?.id;
-  if (typeof extractedId === "string" && extractedId.trim()) {
-    return `${host}:${slug(extractedId)}:${sourceUrlHash.slice(0, 12)}`;
-  }
   return `${host}:${sourceUrlHash.slice(0, 24)}`;
 }
 
 function contentHashForRecord(record) {
-  const { content_hash, source, ...content } = record;
-  return sha256(canonicalJson({ ...content, source: { ...source, retrieved_at: undefined } }));
+  const content = structuredClone(record);
+  Reflect.deleteProperty(content, "content_hash");
+  Reflect.deleteProperty(content.source, "retrieved_at");
+  return sha256(canonicalJson(content));
 }
 
 export function contentHashForCandidate(candidate) {
@@ -134,9 +155,12 @@ export async function buildDailyDineFeed({ inputDir, outputDir, releaseId, gener
   validateBuildOptions({ inputDir, outputDir, releaseId, generatedAt, pageSize });
   const candidates = [];
   for (const file of await jsonFiles(inputDir)) candidates.push(await readJson(file));
-  const records = candidates.map(recordForCandidate).sort((left, right) => left.archive_id.localeCompare(right.archive_id));
+  const records = candidates.map(recordForCandidate).sort((left, right) => compareUnicodeCodePoints(left.archive_id, right.archive_id));
   const seenIds = new Set();
+  const seenSourceUrls = new Set();
   for (const record of records) {
+    if (seenSourceUrls.has(record.source.url)) throw new Error(`duplicate canonical source URL '${record.source.url}'`);
+    seenSourceUrls.add(record.source.url);
     if (seenIds.has(record.archive_id)) throw new Error(`duplicate archive_id '${record.archive_id}'`);
     seenIds.add(record.archive_id);
   }
@@ -195,6 +219,7 @@ export async function verifyBuiltFeed({ manifestPath, pagesDir }) {
   if (manifest.total_pages !== manifest.pages.length) throw new Error("manifest total_pages does not match page descriptors");
 
   const seenIds = new Set();
+  const seenSourceUrls = new Set();
   let totalRecords = 0;
   for (const [index, descriptor] of manifest.pages.entries()) {
     const expectedPage = index + 1;
@@ -212,6 +237,12 @@ export async function verifyBuiltFeed({ manifestPath, pagesDir }) {
       throw new Error(`page ${expectedPage} archive ID range does not match descriptor`);
     }
     for (const recipe of page.recipes) {
+      const sourceUrl = canonicalSourceUrl(recipe.source.url);
+      if (recipe.source.url !== sourceUrl) throw new Error(`recipe '${recipe.archive_id}' source URL is not canonical`);
+      if (seenSourceUrls.has(sourceUrl)) throw new Error(`duplicate canonical source URL '${sourceUrl}' in feed`);
+      seenSourceUrls.add(sourceUrl);
+      const expectedArchiveId = `${new URL(sourceUrl).hostname}:${sha256(sourceUrl).slice(0, 24)}`;
+      if (recipe.archive_id !== expectedArchiveId) throw new Error(`recipe '${recipe.archive_id}' archive_id does not match its canonical source URL`);
       if (seenIds.has(recipe.archive_id)) throw new Error(`duplicate archive_id '${recipe.archive_id}' in feed`);
       seenIds.add(recipe.archive_id);
       if (recipe.content_hash !== contentHashForRecord(recipe)) {

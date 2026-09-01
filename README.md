@@ -106,7 +106,7 @@ Consumers should depend on `schema_version`, not the generated timestamp or file
 
 ## Daily Dine archive feed
 
-The Daily Dine feed is a deterministic, paginated export of every candidate document in `scraping/output`. It preserves the source facts for review; it does not publish or promote candidate text. Each record has a stable `archive_id` based on its normalized source host, extracted ID, and source-URL hash (or a longer source-URL hash when the extracted ID is absent), plus a `content_hash` that intentionally excludes the retrieval timestamp.
+The Daily Dine feed is a deterministic, paginated export of every candidate document in `scraping/output`. It preserves the source facts for review; it does not publish or promote candidate text. Each record has a stable `archive_id` formed as `<canonical-source-host>:<first-24-hex-of-canonical-source-URL-SHA-256>`. The source URL is the sole identity input: changing a candidate title or extracted ID does not change identity. The extracted ID/name-derived `slug` remains review metadata, while the semantic `content_hash` intentionally excludes the retrieval timestamp.
 
 Build a release with a stable release ID and timestamp:
 
@@ -114,7 +114,7 @@ Build a release with a stable release ID and timestamp:
 npm run dailydine:feed -- --release local-plan-check --as-of 2026-08-31T00:00:00.000Z
 ```
 
-The command writes `build/dailydine-feed/manifest.json` and numbered JSON pages. The manifest records page hashes, record/page totals, and its own canonical `manifest_hash`; the command verifies all of them before reporting its one-line summary. See [`schemas/dailydine-feed.schema.json`](schemas/dailydine-feed.schema.json) for the wire contract. Generated feed files are intentionally ignored.
+The command writes `build/dailydine-feed/manifest.json` and numbered JSON pages under `build/dailydine-feed/pages/`. The manifest records page hashes, record/page totals, and its own canonical `manifest_hash`; the command verifies all of them before reporting its one-line summary. Canonical source URLs must be unique, and canonical JSON key and record ordering use Unicode code-point order so the same bytes are produced across locales. See [`schemas/dailydine-feed.schema.json`](schemas/dailydine-feed.schema.json) for the wire contract. Generated feed files are intentionally ignored.
 
 On `main`, changes to the archive output, feed schema, or feed scripts also run the **Publish Daily Dine feed** workflow. Enable GitHub immutable releases for this repository before using that automation. Each publish creates the commit-tagged release `dailydine-feed-<commit-sha>` with all assets in the same release-creation operation. An existing release is reused only when GitHub reports it as immutable; the workflow never replaces release assets.
 

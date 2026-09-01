@@ -8,6 +8,8 @@ import test from "node:test";
 import {
   archiveIdForCandidate,
   buildDailyDineFeed,
+  canonicalSourceUrl,
+  compareUnicodeCodePoints,
   contentHashForCandidate,
   verifyBuiltFeed,
 } from "../scripts/dailydine-feed-lib.mjs";
@@ -34,7 +36,7 @@ const candidate = {
 };
 
 function sourceUrlHash(candidateValue, length) {
-  return createHash("sha256").update(new URL(candidateValue.source.url).toString()).digest("hex").slice(0, length);
+  return createHash("sha256").update(canonicalSourceUrl(candidateValue.source.url)).digest("hex").slice(0, length);
 }
 
 async function withTemporaryDirectory(run) {
@@ -53,11 +55,20 @@ async function writeCandidate(directory, name, value) {
   return candidatePath;
 }
 
-test("derives stable archive and content identities", () => {
+test("derives archive identity only from the canonical source URL", () => {
   assert.equal(
     archiveIdForCandidate(candidate),
-    `allrecipes.com:test-recipe:${sourceUrlHash(candidate, 12)}`,
+    `allrecipes.com:${sourceUrlHash(candidate, 24)}`,
   );
+
+  const renamedTitle = structuredClone(candidate);
+  renamedTitle.extracted.name = "A Completely Different Title";
+  assert.equal(archiveIdForCandidate(renamedTitle), archiveIdForCandidate(candidate));
+  assert.notEqual(contentHashForCandidate(renamedTitle), contentHashForCandidate(candidate));
+
+  const changedExtractedId = structuredClone(candidate);
+  changedExtractedId.extracted.id = "A Completely Different Slug";
+  assert.equal(archiveIdForCandidate(changedExtractedId), archiveIdForCandidate(candidate));
 
   const changedTimestamp = structuredClone(candidate);
   changedTimestamp.source.retrieved_at = "2026-08-31T12:00:00.000Z";
@@ -67,13 +78,43 @@ test("derives stable archive and content identities", () => {
   );
 });
 
-test("uses a source URL hash when a candidate has no extracted ID", () => {
+test("keeps the extracted slug as metadata without making it identity", async () => {
   const missingId = structuredClone(candidate);
   delete missingId.extracted.id;
 
   assert.equal(
     archiveIdForCandidate(missingId),
     `allrecipes.com:${sourceUrlHash(missingId, 24)}`,
+  );
+
+  await withTemporaryDirectory(async (directory) => {
+    const inputDir = path.join(directory, "input");
+    const outputDir = path.join(directory, "output");
+    await writeCandidate(inputDir, "candidate.json", candidate);
+    await buildDailyDineFeed({
+      inputDir,
+      outputDir,
+      releaseId: "test-release",
+      generatedAt: "2026-08-31T00:00:00.000Z",
+      pageSize: 250,
+    });
+    const page = JSON.parse(await readFile(path.join(outputDir, "pages", "page-00001.json"), "utf8"));
+    assert.equal(page.recipes[0].slug, "test-recipe");
+    assert.equal(page.recipes[0].source.url, "https://allrecipes.com/recipe/test-recipe/");
+  });
+});
+
+test("matches the fixed producer-consumer semantic content-hash vector", () => {
+  assert.equal(
+    contentHashForCandidate(candidate),
+    "4114b44b8f19573f9ed8a54d84cc946206dd554a7e3fc607aff887e6be95e0d6",
+  );
+});
+
+test("orders strings by Unicode code point rather than locale", () => {
+  assert.deepEqual(
+    ["\uE000", "\u{10000}", "A"].sort(compareUnicodeCodePoints),
+    ["A", "\uE000", "\u{10000}"],
   );
 });
 
@@ -103,13 +144,13 @@ test("builds a deterministic, verifiable feed in archive-ID order", async () => 
     assert.equal(first.total_pages, 1);
     assert.deepEqual(first.pages.map((page) => page.archive_id_start), [archiveIdForCandidate(candidate)]);
     assert.deepEqual(first.pages.map((page) => page.archive_id_end), [
-      `example.test:alpha-recipe:${sourceUrlHash({ ...candidate, source: { ...candidate.source, url: "https://example.test/recipe/alpha" } }, 12)}`,
+      `example.test:${sourceUrlHash({ ...candidate, source: { ...candidate.source, url: "https://example.test/recipe/alpha" } }, 24)}`,
     ]);
     assert.deepEqual(
       JSON.parse(await readFile(path.join(firstOutputDir, "pages", "page-00001.json"), "utf8")).recipes.map((recipe) => recipe.archive_id),
       [
         archiveIdForCandidate(candidate),
-        `example.test:alpha-recipe:${sourceUrlHash({ ...candidate, source: { ...candidate.source, url: "https://example.test/recipe/alpha" } }, 12)}`,
+        `example.test:${sourceUrlHash({ ...candidate, source: { ...candidate.source, url: "https://example.test/recipe/alpha" } }, 24)}`,
       ],
     );
     await assert.doesNotReject(() => verifyBuiltFeed({
@@ -142,11 +183,22 @@ test("keeps distinct same-host source URLs with the same extracted ID", async ()
   });
 });
 
-test("rejects duplicate archive IDs before writing a feed", async () => {
+test("rejects duplicate canonical source URLs before writing a feed", async () => {
   await withTemporaryDirectory(async (directory) => {
     const inputDir = path.join(directory, "input");
     await writeCandidate(inputDir, "first.json", candidate);
-    await writeCandidate(inputDir, "second.json", structuredClone(candidate));
+    await writeCandidate(inputDir, "second.json", {
+      ...candidate,
+      source: {
+        ...candidate.source,
+        url: "https://ALLRECIPES.com:443/recipe/../recipe/test-recipe/#print",
+      },
+      extracted: {
+        ...candidate.extracted,
+        id: "Renamed recipe",
+        name: "Renamed recipe",
+      },
+    });
 
     await assert.rejects(
       () => buildDailyDineFeed({
@@ -156,7 +208,7 @@ test("rejects duplicate archive IDs before writing a feed", async () => {
         generatedAt: "2026-08-31T00:00:00.000Z",
         pageSize: 250,
       }),
-      /duplicate archive_id/i,
+      /duplicate canonical source URL/i,
     );
   });
 });

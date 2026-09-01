@@ -38,6 +38,7 @@
       "required": [
         "archive_id",
         "content_hash",
+        "slug",
         "review_status",
         "source",
         "name",
@@ -52,6 +53,7 @@
       "properties": {
         "archive_id": { "type": "string", "minLength": 1 },
         "content_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "slug": { "type": "string", "minLength": 1 },
         "review_status": { "type": "string", "minLength": 1 },
         "source": { "$ref": "#/$defs/source" },
         "name": { "type": "string", "minLength": 1 },
