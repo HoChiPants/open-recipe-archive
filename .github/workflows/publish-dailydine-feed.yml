@@ -53,6 +53,11 @@ jobs:
               build/dailydine-feed/manifest.json#manifest.json \
               build/dailydine-feed.tar.gz#dailydine-feed.tar.gz
           fi
+          immutable="$(gh release view "$tag" --json isImmutable --jq '.isImmutable')"
+          if [ "$immutable" != "true" ]; then
+            echo "Daily Dine feed release is not immutable." >&2
+            exit 1
+          fi
       - name: Notify Daily Dine
         env:
           GH_TOKEN: ${{ secrets.DAILYDINE_DISPATCH_TOKEN }}

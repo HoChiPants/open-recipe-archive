@@ -32,3 +32,20 @@ test("Daily Dine notification skips successfully without a dispatch token", asyn
     /gh api --method POST repos\/HoChiPants\/meal-manager\/dispatches/,
   );
 });
+
+test("Daily Dine publication verifies the resulting release is immutable", async () => {
+  const workflow = await readFile(workflowPath, "utf8");
+  const publication = workflow.slice(
+    workflow.indexOf("      - name: Create immutable release"),
+    workflow.indexOf("      - name: Notify Daily Dine"),
+  );
+
+  assert.match(
+    publication,
+    /immutable="\$\(gh release view "\$tag" --json isImmutable --jq '\.isImmutable'\)"/,
+  );
+  assert.match(
+    publication,
+    /if \[ "\$immutable" != "true" \]; then\n\s+echo "Daily Dine feed release is not immutable\." >&2\n\s+exit 1\n\s+fi/,
+  );
+});
