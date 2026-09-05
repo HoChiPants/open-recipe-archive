@@ -22,6 +22,8 @@
     "recipe:new": "node scripts/new-recipe.mjs",
     "candidate:auto": "node scripts/auto-promote-candidates.mjs",
     "candidate:auto:all": "node scripts/auto-promote-candidates.mjs --all",
+    "candidate:batch": "node scripts/process-recipe-batch.mjs",
+    "candidate:staged:promote": "node scripts/promote-staged-normalizations.mjs",
     "candidate:rights": "node scripts/publication-rights.mjs",
     "candidate:promote": "node scripts/promote-candidate.mjs",
     "scrape": "node scraping/src/cli.mjs",

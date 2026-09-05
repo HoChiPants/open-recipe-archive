@@ -180,8 +180,6 @@ export function automaticReviewReasons(facts, generated, recipe, minimumConfiden
   if (generated.status !== "promote") reasons.push(`authoring skipped: ${generated.reason}`);
   if (generated.confidence < minimumConfidence) reasons.push(`confidence ${generated.confidence} is below ${minimumConfidence}`);
   if (generated.status === "promote" && generated.variation_changes.length < 1) reasons.push("no editorial rewrite was recorded");
-  if (slug(recipe.name) === slug(facts.base_name)) reasons.push("generated title is unchanged from the candidate");
-
   const ingredientText = recipe.ingredients.map((item) => item.item).join(" ").toLowerCase();
   reasons.push(...foodSafetyReasons(facts, recipe));
   if (recipe.ingredients.length < 2) reasons.push("fewer than two ingredients");
@@ -215,6 +213,43 @@ export function candidateProse(candidate) {
 
 export function recipeProse(recipe) {
   return [recipe.subtitle, recipe.description, ...recipe.instructions.map((item) => item.text)].filter(Boolean).join(" ");
+}
+
+function expressiveTextHash(value) {
+  return createHash("sha256").update(JSON.stringify(value)).digest("hex");
+}
+
+export function sourceTextHash(candidate) {
+  return expressiveTextHash({
+    description: candidate.extracted?.description ?? "",
+    instructions: candidate.extracted?.instruction_lines ?? [],
+  });
+}
+
+export function normalizedTextHash(recipe) {
+  return expressiveTextHash({
+    subtitle: recipe.subtitle ?? "",
+    description: recipe.description ?? "",
+    instructions: recipe.instructions.map((item) => item.text),
+  });
+}
+
+export function normalizationProvenance(candidate, recipe, publicationReview, options) {
+  const model = String(options.model || "").trim();
+  const promptVersion = String(options.promptVersion || "").trim();
+  if (!model || !promptVersion) throw new Error("normalization provenance requires model and promptVersion");
+  return {
+    source_text_hash: sourceTextHash(candidate),
+    normalized_text_hash: normalizedTextHash(recipe),
+    model,
+    model_version: model,
+    prompt_version: promptVersion,
+    transformed_at: options.transformedAt ?? new Date().toISOString(),
+    semantic_similarity: publicationReview.semantic_similarity,
+    structural_similarity: publicationReview.structural_similarity,
+    requires_review: options.requiresReview ?? false,
+    source_review_status: options.sourceReviewStatus ?? "passed",
+  };
 }
 
 export function proseMetrics(candidate, recipe) {

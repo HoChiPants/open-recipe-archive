@@ -5,7 +5,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "scraping/output/**"
+      - "recipes/**"
+      - "schemas/recipe.schema.json"
       - "schemas/dailydine-feed.schema.json"
       - "scripts/build-dailydine-feed.mjs"
       - "scripts/dailydine-feed-lib.mjs"

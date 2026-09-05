@@ -8,7 +8,7 @@ function usage() {
 
 function parseArguments(argv) {
   const options = {
-    input: "scraping/output",
+    input: "recipes",
     output: "build/dailydine-feed",
     pageSize: 250,
   };

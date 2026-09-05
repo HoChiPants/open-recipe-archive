@@ -32,6 +32,23 @@
         "inactive_minutes": { "type": "integer", "minimum": 0 }
       }
     },
+    "normalization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_text_hash", "normalized_text_hash", "model", "model_version", "prompt_version", "transformed_at", "semantic_similarity", "structural_similarity", "requires_review", "source_review_status"],
+      "properties": {
+        "source_text_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "normalized_text_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "model": { "type": "string", "minLength": 1 },
+        "model_version": { "type": "string", "minLength": 1 },
+        "prompt_version": { "type": "string", "minLength": 1 },
+        "transformed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T" },
+        "semantic_similarity": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "structural_similarity": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "requires_review": { "const": false },
+        "source_review_status": { "const": "passed" }
+      }
+    },
     "recipe": {
       "type": "object",
       "additionalProperties": false,
@@ -48,7 +65,8 @@
         "ingredient_lines",
         "instruction_lines",
         "categories",
-        "nutrition"
+        "nutrition",
+        "normalization"
       ],
       "properties": {
         "archive_id": { "type": "string", "minLength": 1 },
@@ -63,7 +81,8 @@
         "ingredient_lines": { "type": "array", "items": { "type": "string" } },
         "instruction_lines": { "type": "array", "items": { "type": "string" } },
         "categories": { "type": "array", "items": { "type": "string" } },
-        "nutrition": { "type": ["object", "null"] }
+        "nutrition": { "type": ["object", "null"] },
+        "normalization": { "$ref": "#/$defs/normalization" }
       }
     },
     "page_descriptor": {
@@ -84,7 +103,7 @@
       "additionalProperties": false,
       "required": ["schema_version", "release_id", "page", "recipes"],
       "properties": {
-        "schema_version": { "const": "1.0.0" },
+        "schema_version": { "const": "1.1.0" },
         "release_id": { "type": "string", "minLength": 1 },
         "page": { "type": "integer", "minimum": 1 },
         "recipes": { "type": "array", "items": { "$ref": "#/$defs/recipe" } }
@@ -95,7 +114,7 @@
       "additionalProperties": false,
       "required": ["schema_version", "release_id", "generated_at", "total_records", "total_pages", "pages", "manifest_hash"],
       "properties": {
-        "schema_version": { "const": "1.0.0" },
+        "schema_version": { "const": "1.1.0" },
         "release_id": { "type": "string", "minLength": 1 },
         "generated_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T" },
         "total_records": { "type": "integer", "minimum": 0 },

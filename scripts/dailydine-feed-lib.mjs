@@ -56,47 +56,57 @@ export function canonicalSourceUrl(value) {
   return url.toString();
 }
 
-function sourceUrlDetails(candidate) {
-  const normalizedUrl = canonicalSourceUrl(requireString(candidate?.source?.url, "candidate.source.url"));
+function sourceUrlDetails(recipe) {
+  const normalizedUrl = canonicalSourceUrl(requireString(recipe?.source?.url, "recipe.source.url"));
   return {
     host: new URL(normalizedUrl).hostname,
     normalizedUrl,
   };
 }
 
-function feedRecordForCandidate(candidate) {
-  const extracted = candidate?.extracted ?? {};
-  const { normalizedUrl } = sourceUrlDetails(candidate);
+function ingredientLine(ingredient) {
+  const amount = [ingredient.quantity, ingredient.unit].filter((value) => value !== undefined && value !== "").join(" ");
+  const item = `${amount ? `${amount} ` : ""}${ingredient.item}`;
+  const preparation = ingredient.preparation ? `, ${ingredient.preparation}` : "";
+  const optional = ingredient.optional ? " (optional)" : "";
+  return `${item}${preparation}${optional}`;
+}
+
+function retrievedAt(recipe) {
+  if (recipe.normalization?.transformed_at) return recipe.normalization.transformed_at;
+  return `${requireString(recipe.updated_at, "recipe.updated_at")}T00:00:00.000Z`;
+}
+
+function feedRecordForRecipe(recipe) {
+  const { normalizedUrl } = sourceUrlDetails(recipe);
   return {
-    archive_id: archiveIdForCandidate(candidate),
+    archive_id: archiveIdForRecipe(recipe),
     content_hash: "",
-    slug: slug(requireString(extracted.id ?? extracted.name, "candidate.extracted.id or name")),
-    review_status: requireString(candidate?.review_status, "candidate.review_status"),
+    slug: slug(requireString(recipe.id ?? recipe.name, "recipe.id or name")),
+    review_status: "normalized-and-reviewed",
     source: {
-      name: requireString(candidate?.source?.name, "candidate.source.name"),
+      name: requireString(recipe?.source?.name, "recipe.source.name"),
       url: normalizedUrl,
-      retrieved_at: requireString(candidate?.source?.retrieved_at, "candidate.source.retrieved_at"),
+      retrieved_at: retrievedAt(recipe),
     },
-    name: requireString(extracted.name, "candidate.extracted.name"),
-    description: typeof extracted.description === "string" ? extracted.description : "",
-    yield: {
-      quantity: extracted.yield?.quantity,
-      unit: extracted.yield?.unit,
-    },
+    name: requireString(recipe.name, "recipe.name"),
+    description: typeof recipe.description === "string" ? recipe.description : "",
+    yield: recipe.yield,
     times: {
-      prep_minutes: extracted.times?.prep_minutes,
-      cook_minutes: extracted.times?.cook_minutes,
-      inactive_minutes: extracted.times?.inactive_minutes,
+      prep_minutes: recipe.times?.prep_minutes,
+      cook_minutes: recipe.times?.cook_minutes,
+      inactive_minutes: recipe.times?.inactive_minutes ?? 0,
     },
-    ingredient_lines: extracted.ingredient_lines ?? [],
-    instruction_lines: extracted.instruction_lines ?? [],
-    categories: extracted.categories ?? [],
-    nutrition: extracted.nutrition ?? null,
+    ingredient_lines: (recipe.ingredients ?? []).map(ingredientLine),
+    instruction_lines: (recipe.instructions ?? []).map((instruction) => instruction.text),
+    categories: recipe.tags ?? [],
+    nutrition: recipe.nutrition ?? null,
+    normalization: recipe.normalization,
   };
 }
 
-export function archiveIdForCandidate(candidate) {
-  const { host, normalizedUrl } = sourceUrlDetails(candidate);
+export function archiveIdForRecipe(recipe) {
+  const { host, normalizedUrl } = sourceUrlDetails(recipe);
   const sourceUrlHash = sha256(normalizedUrl);
   return `${host}:${sourceUrlHash.slice(0, 24)}`;
 }
@@ -108,14 +118,25 @@ function contentHashForRecord(record) {
   return sha256(canonicalJson(content));
 }
 
-export function contentHashForCandidate(candidate) {
-  return contentHashForRecord(feedRecordForCandidate(candidate));
+export function contentHashForRecipe(recipe) {
+  return contentHashForRecord(feedRecordForRecipe(recipe));
 }
 
-function recordForCandidate(candidate) {
-  const record = feedRecordForCandidate(candidate);
-  record.content_hash = contentHashForCandidate(candidate);
+function recordForRecipe(recipe) {
+  const record = feedRecordForRecipe(recipe);
+  record.content_hash = contentHashForRecipe(recipe);
   return record;
+}
+
+function isFeedEligible(recipe) {
+  const normalization = recipe?.normalization;
+  return Boolean(
+    recipe?.source?.url
+    && normalization?.requires_review === false
+    && normalization?.source_review_status === "passed"
+    && /^[a-f0-9]{64}$/.test(normalization?.source_text_hash ?? "")
+    && /^[a-f0-9]{64}$/.test(normalization?.normalized_text_hash ?? ""),
+  );
 }
 
 function assertValid(validator, value, label) {
@@ -153,9 +174,10 @@ async function promoteFeed(stagingDir, outputDir) {
 
 export async function buildDailyDineFeed({ inputDir, outputDir, releaseId, generatedAt, pageSize }) {
   validateBuildOptions({ inputDir, outputDir, releaseId, generatedAt, pageSize });
-  const candidates = [];
-  for (const file of await jsonFiles(inputDir)) candidates.push(await readJson(file));
-  const records = candidates.map(recordForCandidate).sort((left, right) => compareUnicodeCodePoints(left.archive_id, right.archive_id));
+  const recipes = [];
+  for (const file of await jsonFiles(inputDir)) recipes.push(await readJson(file));
+  const records = recipes.filter(isFeedEligible).map(recordForRecipe)
+    .sort((left, right) => compareUnicodeCodePoints(left.archive_id, right.archive_id));
   const seenIds = new Set();
   const seenSourceUrls = new Set();
   for (const record of records) {
@@ -175,7 +197,7 @@ export async function buildDailyDineFeed({ inputDir, outputDir, releaseId, gener
     for (let offset = 0; offset < records.length; offset += pageSize) {
       const pageNumber = pages.length + 1;
       const recipes = records.slice(offset, offset + pageSize);
-      const page = { schema_version: "1.0.0", release_id: releaseId, page: pageNumber, recipes };
+      const page = { schema_version: "1.1.0", release_id: releaseId, page: pageNumber, recipes };
       assertValid(validatePage, page, `page ${pageNumber}`);
       const file = `page-${String(pageNumber).padStart(5, "0")}.json`;
       const bytes = Buffer.from(`${canonicalJson(page)}\n`, "utf8");
@@ -191,7 +213,7 @@ export async function buildDailyDineFeed({ inputDir, outputDir, releaseId, gener
     }
 
     const unsignedManifest = {
-      schema_version: "1.0.0",
+      schema_version: "1.1.0",
       release_id: releaseId,
       generated_at: generatedAt,
       total_records: records.length,
@@ -247,6 +269,9 @@ export async function verifyBuiltFeed({ manifestPath, pagesDir }) {
       seenIds.add(recipe.archive_id);
       if (recipe.content_hash !== contentHashForRecord(recipe)) {
         throw new Error(`recipe '${recipe.archive_id}' content_hash does not match its content`);
+      }
+      if (recipe.normalization.requires_review || recipe.normalization.source_review_status !== "passed") {
+        throw new Error(`recipe '${recipe.archive_id}' is not cleared for publication`);
       }
     }
     totalRecords += page.recipes.length;
