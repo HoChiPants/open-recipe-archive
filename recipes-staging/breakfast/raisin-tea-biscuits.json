@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raisin-tea-biscuits",
+  "name": "Raisin Tea Biscuits",
+  "subtitle": "Tender raisin biscuits for breakfast or tea",
+  "description": "Lightly sweet biscuits with raisins, made from a simple butter-and-milk dough and baked until golden.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour and baking powder together, then stir in the raisins."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the milk and eggs in a separate bowl."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the softened butter, sugar, and salt for 1 minute. Add the milk mixture and whisk until combined.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Add the dry mixture and stir just until a thick dough forms."
+    },
+    {
+      "step": 6,
+      "text": "Shape the dough and cut it into 24 biscuits."
+    },
+    {
+      "step": 7,
+      "text": "Transfer the biscuits to a baking sheet and bake for 10 minutes, until golden brown.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "biscuits",
+    "tea-time",
+    "raisin"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowls",
+    "whisk",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236693/nannys-newfoundland-tea-biscuits/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e1f947312ab38dfdea9adb898f6027fffe55d30b89ce20283fdb140dcb197da7",
+    "normalized_text_hash": "46a2363ec3cd5b9ca1d26644da71f21f97eaf1bfec143b81d6569d67517ab256",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:08:18.023Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

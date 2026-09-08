@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-strawberry-pie",
+  "name": "Fresh Strawberry Pie",
+  "subtitle": "A buttery crust filled with sweet, lightly spiced strawberries.",
+  "description": "Fresh strawberries bake in a thickened filling beneath a buttery nutmeg topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "recipe-pastry-for-a-9-inch-single-crust-pie",
+      "item": "recipe pastry for a 9 inch single crust pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "hulled"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Fit the pastry into a 9-inch pie dish and prepare the crust for filling."
+    },
+    {
+      "step": 2,
+      "text": "Divide the sugar and flour between the filling and topping. Combine one portion with the cornstarch, then toss with the strawberries."
+    },
+    {
+      "step": 3,
+      "text": "Combine the remaining sugar and flour with the butter and nutmeg until crumbly."
+    },
+    {
+      "step": 4,
+      "text": "Fill the pastry with the strawberry mixture and scatter the topping over it. Add the butter mixture evenly across the surface."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 400°F for 10 minutes, then reduce the oven to 375°F and bake for 50 minutes, until the filling is set and the crust is browned.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool the pie before slicing."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "strawberry",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18536/the-old-boys-strawberry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "badefeeb6b131443d79fc54ac64de9adb3221a7ad3ccfe7d1943395211aec74d",
+    "normalized_text_hash": "0a6235e99e49906b44a39bf6562fbad9d3d841ccf2d55fe55dcf39684fca93b2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:02:00.625Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

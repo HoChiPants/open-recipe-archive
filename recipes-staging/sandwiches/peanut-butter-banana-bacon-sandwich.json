@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-banana-bacon-sandwich",
+  "name": "Peanut Butter Banana Bacon Sandwich",
+  "subtitle": "A warm, crisp sandwich with creamy peanut butter and sweet banana",
+  "description": "Layer peanut butter, banana, and cooked bacon between buttered bread, then skillet-toast until golden brown.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "slices-cooked-bacon",
+      "item": "slices cooked bacon",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread peanut butter on one side of each bread slice. Butter the outer sides."
+    },
+    {
+      "step": 2,
+      "text": "Place the banana slices and cooked bacon on one slice, then top with the other slice and cut the sandwich in half."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Cook the sandwich for about 2 minutes per side, or until the bread is golden brown and the filling is warm.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "sandwich",
+    "american",
+    "sweet-savory",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "knife",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/138045/elvis-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1cdf535bb84844365aec950b0005b6c80546895a7c96db36b074dedb2d290e7f",
+    "normalized_text_hash": "a3cc5a5e2d706d78b2e5f5eb00b593975d45d49fe741b0a9375e6a2b8aedaad5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:00:42.186Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

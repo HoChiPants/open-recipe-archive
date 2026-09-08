@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-rice-bowl",
+  "name": "Chicken Rice Bowl",
+  "subtitle": "Warm chicken, vegetables, rice, salsa, and melted cheese",
+  "description": "A quick bowl layered with seasoned chicken, sweet corn, crisp pepper, brown rice, salsa, and Monterey Jack.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "diced cooked"
+    },
+    {
+      "ingredient_id": "frozen-corn",
+      "item": "frozen corn",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "brown-rice",
+      "item": "brown rice",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "salsa",
+      "item": "salsa",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium heat and add the olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken, frozen corn, sliced red bell pepper, salt, and black pepper. Stir for 5 minutes, until the pepper is tender and the chicken is hot throughout; if reheating poultry, verify it reaches 165°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Divide the cooked brown rice between two bowls."
+    },
+    {
+      "step": 4,
+      "text": "Top with the chicken mixture, salsa, and shredded Monterey Jack cheese."
+    }
+  ],
+  "tags": [
+    "quick",
+    "weeknight",
+    "rice-bowl",
+    "chicken",
+    "one-pan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "serving bowls"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240391/baja-style-chicken-bowl/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "595a21902ff95a5e8405eff813f9c0bc6b8f6595f405f9e95b4f0450f6e27a18",
+    "normalized_text_hash": "3b4ae9718978774a68147cfcc788228ba7e925b7d5ea83836823ec5ff33c7525",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:42:50.774Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

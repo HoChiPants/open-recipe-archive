@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-strawberry-chia-pudding",
+  "name": "Almond Strawberry Chia Pudding",
+  "subtitle": "A chilled strawberry chia pudding made with almond milk.",
+  "description": "Blend fresh strawberries with almond milk, then stir in chia seeds, honey, and vanilla for a simple make-ahead dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "almond-milk",
+      "item": "almond milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, hulled"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the almond milk and hulled strawberries until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mixture to a bowl and stir in the chia seeds, honey, and vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate until the pudding is set.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "chia-pudding",
+    "strawberry",
+    "no-cook",
+    "make-ahead",
+    "american-dessert"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "mixing bowl",
+    "spoon",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233822/almond-strawberry-chia-seed-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0abc7cfcf8c384854768df4b78aa6a6cd2c227f81869dd35e74ba5e9493d5331",
+    "normalized_text_hash": "e4831d6651096e0b421e175189872ef3fd0023c02147138f8be8964b5bdcda6d",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:48:46.634Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

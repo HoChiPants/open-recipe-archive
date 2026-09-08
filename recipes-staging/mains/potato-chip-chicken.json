@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-chip-chicken",
+  "name": "Potato Chip Chicken",
+  "subtitle": "Crispy baked chicken with a seasoned chip crust",
+  "description": "Chicken breast coated in seasoned butter and crushed potato chips, then baked until crisp and fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "boneless chicken breast meat"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "potato-chips",
+      "item": "potato chips",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the chicken in a baking dish. Stir the melted butter, salt, and pepper together, then coat the chicken with the mixture. Cover and chill for 24 hours.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 3,
+      "text": "Crush the potato chips and press them over the seasoned chicken, shaping the coating so it adheres."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 375°F for 45 minutes, until the coating is crisp and the thickest piece reaches 165°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17146/potato-chip-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a1e3cd90bc22d9a3b47aa1e60915de6337cfe82af4c8d809f764a050562ebf2b",
+    "normalized_text_hash": "5b1802a17d46b9c339326e009a5906749b874ae06d8bb2eca06ff9f85064a810",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:25:45.811Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

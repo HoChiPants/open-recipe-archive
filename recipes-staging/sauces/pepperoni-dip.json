@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pepperoni-dip",
+  "name": "Pepperoni Dip",
+  "subtitle": "A warm, creamy dip with savory pepperoni.",
+  "description": "Combine three ingredients and bake until hot and lightly browned for an easy appetizer.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pepperoni-sausage",
+      "item": "pepperoni sausage",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the diced pepperoni, condensed soup, and softened cream cheese together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer to a baking dish and bake for 15 minutes, until hot and lightly browned. If the sausage is uncooked, verify it reaches 160°F with a food thermometer.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "hot-dip",
+    "american",
+    "easy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24169/pepperoni-dip-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "48f15a8b1fbfebbbe0ea0074a6b4ffbec8b5dfec5ed3576327572b39ceef53ef",
+    "normalized_text_hash": "81bacda4371f44606a814ecd73a099744fb909ed910029cc6e3a809e09d982c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:07:13.669Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

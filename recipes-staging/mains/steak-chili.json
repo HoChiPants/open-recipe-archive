@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "steak-chili",
+  "name": "Steak Chili",
+  "subtitle": "Hearty beef chili with beans and green chile",
+  "description": "Cubed steak simmers with tomatoes, beans, aromatics, and warming spices for a substantial one-pot meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "steak",
+      "item": "steak",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 1 inch cubes"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "green-chile-pepper",
+      "item": "green chile pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cayenne-pepper",
+      "item": "ground cayenne pepper",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "29 ounce, diced"
+    },
+    {
+      "ingredient_id": "kidney-beans",
+      "item": "kidney beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a heavy pot over medium-high heat. Add the steak and cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the onions, garlic, green chile pepper, chili powder, cumin, and cayenne. Cook for 5 minutes, stirring to coat the steak and soften the aromatics.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour in the tomatoes and add the kidney beans. Stir well and bring the mixture to a simmer."
+    },
+    {
+      "step": 4,
+      "text": "Simmer uncovered for 30 minutes, stirring occasionally. Check the largest steak cube with a food thermometer; beef should reach 145°F, then rest for 3 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-pot",
+    "chili"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "heavy pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15410/steak-chili/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8aa274a916abcb11366c3708e0069d94ab572e300a28c9527b590c51a1be2b59",
+    "normalized_text_hash": "7dae9f568228f1fd21129102dc3a3eaf678bbe00b57aa1f0907a7da788ba0ad8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:50:22.942Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

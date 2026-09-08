@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-and-bacon-sandwich",
+  "name": "Egg and Bacon Sandwich",
+  "subtitle": "Crisp bacon, eggs, and maple syrup between toasted bread",
+  "description": "A sweet-savory breakfast sandwich combining crisp bacon, set eggs, dipped bread, and maple syrup.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a skillet over medium heat until crisp. Transfer it to a plate and drain briefly."
+    },
+    {
+      "step": 2,
+      "text": "Dip the bread slices in the beaten eggs, coating both sides."
+    },
+    {
+      "step": 3,
+      "text": "Cook the coated bread in the skillet until browned on both sides, then set aside."
+    },
+    {
+      "step": 4,
+      "text": "Beat the remaining eggs and sauté them in the skillet until fully set and at least 160°F."
+    },
+    {
+      "step": 5,
+      "text": "Assemble two sandwiches with the egg, bacon, and cooked bread. Serve with maple syrup."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "sandwich",
+    "sweet-savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl",
+    "spatula",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23757/french-egg-and-bacon-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "73b7a7d3ba93bd91ef943016902114383d7e004334571dcf3e0781b6230c60ee",
+    "normalized_text_hash": "78e34764d7ec07ab524d494e2228fef27ddfffde58433769ce65557aa6efb762",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:19:07.293Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

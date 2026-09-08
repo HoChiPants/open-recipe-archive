@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cauliflower-cheese",
+  "name": "Cauliflower Cheese",
+  "subtitle": "Tender cauliflower baked with cheddar sauce",
+  "description": "A classic British side dish of cauliflower coated in a simple cheddar sauce and finished with breadcrumbs.",
+  "meal_type": "side",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cauliflower-leaves-cut-off",
+      "item": "cauliflower (leaves cut off)",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "broken into pieces"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "strong-cheddar-grated",
+      "item": "strong cheddar grated",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "breadcrumbs-if-you-have-them",
+      "item": "breadcrumbs if you have them",
+      "quantity": "2-3",
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Boil the cauliflower pieces for 5 minutes, then drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Warm the milk, flour, and butter together. Simmer, whisking until the sauce thickens, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Stir in the grated cheddar, then combine the sauce with the cauliflower in the baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Scatter the breadcrumbs over the top, if using."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, until bubbling and lightly browned.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "british",
+    "cauliflower",
+    "cheddar",
+    "vegetable",
+    "baked",
+    "gratin",
+    "sunday-roast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "saucepan",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cauliflower-cheese-0",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "95f0bb224bb9e7c920720c3fe6a6eeb0e6efc7209c925ed6e6ce9c872277f98b",
+    "normalized_text_hash": "44f5bc5125e455c3217813156432e23e31bcb7d6dac9a7047d5a826c6fc8875d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T00:36:44.008Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

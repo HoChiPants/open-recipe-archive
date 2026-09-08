@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "quinoa-fried-rice",
+  "name": "Quinoa Fried Rice",
+  "subtitle": "A savory skillet meal with vegetables, egg, and chilled quinoa",
+  "description": "Cooked quinoa is chilled, then stir-fried with vegetables, egg, peas, and a sesame-seasoned sauce for a quick, hearty main dish.",
+  "meal_type": "main",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 485
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "quinoa",
+      "item": "quinoa",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "scallions",
+      "item": "scallions",
+      "quantity": 3,
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-ginger",
+      "item": "fresh ginger",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse the quinoa if needed. Combine it with the water and a pinch of salt in a saucepan. Bring to a simmer, cover, and cook until tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Let the quinoa cool, then refrigerate it until thoroughly chilled, about 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Stir together the soy sauce, teriyaki sauce, and sesame oil."
+    },
+    {
+      "step": 4,
+      "text": "Heat a large skillet or wok over medium-high heat. Add half the olive oil and sauté the carrots and onion for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Add the scallions, garlic, and ginger; sauté for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Add the remaining olive oil and chilled quinoa. Cook for 2 minutes, stirring occasionally.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Pour in the sauce mixture and stir-fry for 2 minutes, until the quinoa is evenly coated.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 8,
+      "text": "Push the quinoa mixture aside and add the beaten eggs. Stir until fully cooked and set, reaching 160°F if checked with a thermometer, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 9,
+      "text": "Stir in the frozen peas and cook for 3 minutes. Add the remaining scallions and serve hot.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "quinoa",
+    "fried-rice",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "eggs",
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "saucepan",
+    "large skillet or wok",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237819/quinoa-fried-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "552926ec16f5b8ea05a2c1c4b09b7498748a31447207c532b329e7eab4111413",
+    "normalized_text_hash": "2be2c77c6c84b3dad9c45a5aefba1678f3eab461b44de7e2a4338ecba8685abf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:49:47.229Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 28,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

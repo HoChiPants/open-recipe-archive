@@ -1,0 +1,166 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-tomato-cake",
+  "name": "Green Tomato Cake",
+  "subtitle": "A warmly spiced cake with tangy tomatoes, raisins, and walnuts",
+  "description": "Chopped green tomatoes add moisture and gentle tartness to this spiced cake, finished with raisins and walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 40,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green-tomatoes",
+      "item": "green tomatoes",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Toss the chopped green tomatoes with the tablespoon of salt. Let stand for 10 minutes, then drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the flour, baking soda, cinnamon, nutmeg, and the remaining salt together."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the sugar and butter until blended, then whisk in the eggs."
+    },
+    {
+      "step": 5,
+      "text": "Stir the dry ingredients into the butter mixture until combined. Fold in the raisins, walnuts, and drained tomatoes."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to a prepared baking pan and bake at 350°F until set, about 40 minutes.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "cake",
+    "spiced",
+    "green-tomatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowls",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8381/green-tomato-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e7977c20e7489134e648081967b01073ebc2d94e1825caecb99b12f262f8df1",
+    "normalized_text_hash": "0e7f96ec9ef07aeafec6d14166675ba523d007d616f9a2ebea6adad32d001c85",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:02:16.690Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

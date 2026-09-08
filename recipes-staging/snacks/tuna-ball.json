@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tuna-ball",
+  "name": "Tuna Ball",
+  "subtitle": "A chilled, savory tuna-and-cream-cheese snack",
+  "description": "Combine flaked tuna with softened cream cheese, pecans, and onion, then shape and chill for serving.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3 ounce, softened"
+    },
+    {
+      "ingredient_id": "tuna",
+      "item": "tuna",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained and flaked"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Confirm the tuna is fully cooked, opaque, and easily flaked; fish should reach 145°F internally before use."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese, tuna, pecans, and onion together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into balls, using the pecans as the coating or garnish."
+    },
+    {
+      "step": 4,
+      "text": "Chill until firm, then serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24909/tuna-ball/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "46f05f3f6445e6e7586912b5ce646ea6ece43ce7138dae2200b170583903cde8",
+    "normalized_text_hash": "60c58bf9e34a7c38210903675a2c2982b5c5b0217b165c3367936335ba9369f3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:24:19.576Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

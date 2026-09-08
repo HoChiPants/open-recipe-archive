@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "french-leek-pie",
+  "name": "French Leek Pie",
+  "subtitle": "A creamy leek and Gruyere pie in a flaky crust",
+  "description": "Tender sautéed leeks and shredded Gruyere bake with light cream in a refrigerated pie crust until set.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-refrigerated-pie-crust",
+      "item": "(9 inch) refrigerated pie crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "leeks",
+      "item": "leeks",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-black-pepper-to-taste",
+      "item": "salt and black pepper to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "light-cream",
+      "item": "light cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "gruyere-cheese",
+      "item": "Gruyere cheese",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a skillet over medium heat. Add the chopped leeks, season with the salt and black pepper, and cook for 10 minutes, stirring, until tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the light cream and shredded Gruyere together."
+    },
+    {
+      "step": 4,
+      "text": "Place the pie crust in a 9-inch pie dish and fill it with the cooked leeks. Pour the cream and cheese mixture over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until the center is set.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Let the pie rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "savory-pie",
+    "leeks",
+    "french",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "skillet",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/81537/french-leek-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1189dd13d522375e4e7c46d2efbfd18aafa45ef3ba66274f496e3c3397f54d7",
+    "normalized_text_hash": "f4b86cde9e1b1cde2c1789b25aeac6147f5700f670e73ed19f8572b17db4085b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:19:04.467Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

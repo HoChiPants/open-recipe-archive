@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-cake",
+  "name": "Orange Cake",
+  "subtitle": "A tender citrus cake with orange frosting",
+  "description": "This simple orange cake combines fresh juice and zest in the batter, then finishes with a smooth orange glaze-like frosting.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "superfine-sugar",
+      "item": "superfine sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "grated-orange-zest",
+      "item": "grated orange zest",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-orange-zest",
+      "item": "grated orange zest",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a cake pan with the all-purpose flour as directed by your pan-preparation method."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the milk, 0.5 cup orange juice, beaten eggs, and 1.5 teaspoons grated orange zest together."
+    },
+    {
+      "step": 3,
+      "text": "Combine the flour, salt, and baking powder in a separate bowl. Combine the superfine sugar and confectioners' sugar separately."
+    },
+    {
+      "step": 4,
+      "text": "Add the milk mixture and vegetable oil to the dry ingredients, then stir until combined and the batter is set."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake at 350°F until set, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Cool the cake completely before frosting."
+    },
+    {
+      "step": 7,
+      "text": "Whisk the softened butter, 2 tablespoons orange juice, and 1 teaspoon grated orange zest until smooth. Gradually whisk in the confectioners' sugar and continue whisking until smooth."
+    },
+    {
+      "step": 8,
+      "text": "Whisk in the vanilla extract and any remaining orange juice and zest mixture until the frosting is smooth, then spread it over the cooled cake."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "orange",
+    "citrus",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "cake pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17687/beat-and-bake-orange-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "884cf7a2255caf21ea965a129821f204a4479da5f2236ea706db42fb475c1f82",
+    "normalized_text_hash": "cb350c5e2d261d095e7b00f6aff3f31dc7ada8e8ee0db79be2337cffbfe7806d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:15:52.745Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

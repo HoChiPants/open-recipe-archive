@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-and-artichoke-dip",
+  "name": "Spinach and Artichoke Dip",
+  "subtitle": "A warm, cheesy dip for sharing",
+  "description": "A creamy baked dip combining chopped artichokes and spinach with mayonnaise and two cheeses.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "artichoke-hearts",
+      "item": "artichoke hearts",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce, drained and chopped"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and drained"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking dish for the dip."
+    },
+    {
+      "step": 2,
+      "text": "Mix the artichoke hearts, spinach, and mayonnaise until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the Monterey Jack and Parmesan cheeses, then fold the cheese mixture into the spinach mixture."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to the prepared dish and smooth the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until the cheese is melted and the dip is hot throughout.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "baked",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13887/spinach-and-artichoke-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "304650b4c8bd2e8f654a02e31364c2cc8e92f7324a96c1ea477d05ff6ddbb7ab",
+    "normalized_text_hash": "90899b45c58cf82eb6c6bc0e1f7406d062cb8dc8dd066823eb291c01c2ecad6f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:40:19.926Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

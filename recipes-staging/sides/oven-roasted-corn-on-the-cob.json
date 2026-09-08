@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-roasted-corn-on-the-cob",
+  "name": "Oven-Roasted Corn on the Cob",
+  "subtitle": "Corn with a creamy chili-cheese topping",
+  "description": "Roasted corn is coated with seasoned mayonnaise, Parmesan, parsley, and black pepper for a savory Mexican-inspired side.",
+  "meal_type": "side",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ears-corn",
+      "item": "ears corn",
+      "quantity": 5,
+      "preparation": "husks and silk removed"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the prepared corn ears as needed for serving and arrange them in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Stir the mayonnaise, Parmesan, chili powder, black pepper, and parsley until thick and evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mixture over the corn, coating the pieces evenly."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the topping is hot and lightly browned.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "mexican",
+    "corn"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234277/oven-roasted-parmesan-corn-on-the-cob/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d07abf46866c4ae80d6e0038f638897aa0a2439642abf8729f924e4b9e3044c3",
+    "normalized_text_hash": "fdc9541580a09fa72db9adf5ee50aba8e37de9b770d879d5b89f2761c59ead64",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:42:14.028Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-lamb-chops",
+  "name": "Grilled Lamb Chops",
+  "subtitle": "Vinegar-marinated chops with garlic and onion",
+  "description": "Lamb chops marinate in a tangy garlic mixture before grilling for a quick main course.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 6,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "6-ounce-lamb-chops",
+      "item": "(6 ounce) lamb chops",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the onion, vinegar, olive oil, garlic, salt, and pepper in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the lamb chops and turn to coat. Cover and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to medium-high heat."
+    },
+    {
+      "step": 4,
+      "text": "Remove the chops from the marinade and grill for 3 minutes per side, or until a thermometer registers 145°F in the thickest part.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Rest the lamb chops for 3 minutes, then serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "lamb",
+    "marinated"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "shallow dish",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/137917/simple-grilled-lamb-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5275bd359ef050074ef896a5fe715e6df56338be1cb3c91d594f5a95cfefaee0",
+    "normalized_text_hash": "7cd90ad39ddc3379840685e3e7ea8b88f132cd53be07dcc3ac940d8e327f5444",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:27:21.244Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

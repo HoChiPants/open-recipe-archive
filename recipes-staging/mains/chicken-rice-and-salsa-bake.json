@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-rice-and-salsa-bake",
+  "name": "Chicken, Rice, and Salsa Bake",
+  "subtitle": "A creamy, cheesy casserole with mushrooms and salsa",
+  "description": "Combine cooked chicken and rice with salsa, mushrooms, cheese, and sour cream, then bake until hot and safely reheated.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "fresh-sliced-mushrooms",
+      "item": "fresh sliced mushrooms",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "white-rice",
+      "item": "white rice",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-salsa",
+      "item": "(16 ounce) jar salsa",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "boneless-chicken-breast-halves",
+      "item": "boneless chicken breast halves",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cooked and diced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 6,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a skillet, add the mushrooms, and stir until they are softened."
+    },
+    {
+      "step": 3,
+      "text": "Mix the mushrooms, cooked rice, salsa, diced chicken, shredded Cheddar, and sour cream in a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 35 minutes, until the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken",
+    "rice",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8522/oh-so-good-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "72bcfeb0027b21b203a25a56d90219d97389d17a33cfb1ab58ac9ce51ba4cfa8",
+    "normalized_text_hash": "da31cb5ab3ab3e2449e351b91e81efea29c937692c2e4fdd6677f16af05c1974",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:22:12.689Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

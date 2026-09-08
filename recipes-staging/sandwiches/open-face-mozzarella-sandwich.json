@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "open-face-mozzarella-sandwich",
+  "name": "Open-Face Mozzarella Sandwich",
+  "subtitle": "Tomato, basil, and mozzarella on toasted Italian bread",
+  "description": "An open-faced sandwich layered with ripe tomato, fresh basil, and mozzarella, finished with olive oil and balsamic vinegar.",
+  "meal_type": "sandwich",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-italian-bread",
+      "item": "slices Italian bread",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "slices-ripe-tomato",
+      "item": "slices ripe tomato",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "leaves-fresh-basil",
+      "item": "leaves fresh basil",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "slices-fresh-mozzarella-cheese",
+      "item": "slices fresh mozzarella cheese",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the bread slices on a baking sheet. Layer each with tomato, basil, and mozzarella."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the mozzarella is melted, about 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Drizzle the sandwiches with the divided olive oil and balsamic vinegar, then serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "vegetarian",
+    "quick",
+    "open-faced"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216817/open-face-mozzarella-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b8c8bc1c0c5c227ff7d54eedf5769c9948c4838574fbdf0c3e97882583d26e54",
+    "normalized_text_hash": "bab274969f6396b1da1165c225017886aae716e595ac87ad56fd55cfa72793c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:33:25.623Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-marshmallow-fudge",
+  "name": "Chocolate Marshmallow Fudge",
+  "subtitle": "Rich chocolate fudge with marshmallow creme and chopped nuts",
+  "description": "A classic stovetop fudge made from a short sugar syrup stirred into chocolate, marshmallow creme, and nuts before cooling into squares.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 4.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "nuts",
+      "item": "nuts",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "1-ounce-squares-german-sweet-chocolate",
+      "item": "(1 ounce) squares German sweet chocolate",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "marshmallow-creme",
+      "item": "marshmallow creme",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Grease a square baking pan with the butter. Place the nuts, semisweet chocolate chips, German sweet chocolate, and marshmallow creme in a large heatproof bowl."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar, salt, remaining butter, and evaporated milk in a saucepan. Bring the mixture to a full simmer over medium heat, stirring until the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Maintain the simmer for 6 minutes, stirring frequently.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Pour the hot syrup over the chocolate and marshmallow mixture. Stir until the chocolates melt and the mixture is smooth, then fold in the nuts."
+    },
+    {
+      "step": 5,
+      "text": "Spread the fudge in the prepared pan and let it cool undisturbed until firm, about 3 hours. Cut into servings.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "fudge",
+    "chocolate-dessert",
+    "stovetop-candy",
+    "american-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "square baking pan",
+    "large heatproof bowl",
+    "saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9436/million-dollar-fudge/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "56b7fbcc6130f611ab6553566a3a9744093e7ec616eecef5994ca09252650854",
+    "normalized_text_hash": "fd55e47abfa1f4f2a26b0a83974d370cc1cda54fe7f3666703273d4b310a74aa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:42:38.641Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

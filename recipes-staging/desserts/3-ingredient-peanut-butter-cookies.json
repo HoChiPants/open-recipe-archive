@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "3-ingredient-peanut-butter-cookies",
+  "name": "3-Ingredient Peanut Butter Cookies",
+  "subtitle": "Simple peanut butter cookies with three ingredients",
+  "description": "Make a basic dough from peanut butter, sugar, and one egg, shape it into cookies, and bake until firm and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "In a bowl, blend the peanut butter and white sugar until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Beat in the egg until fully combined."
+    },
+    {
+      "step": 4,
+      "text": "Scoop the dough and place portions on a lined baking sheet; press lightly to desired shape."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, until cookies are firm and the centers are fully set; if checking for safety, cook to 160°F in the center for egg safety.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Cool the cookies on a rack."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "american",
+    "simple",
+    "year-round",
+    "easy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "spoon or spatula",
+    "baking sheet",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244614/3-ingredient-peanut-butter-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3038dbd5252a675140900eff726f6f9ecf407d4de48d37fdd48d57e084625185",
+    "normalized_text_hash": "525b1eaab128ffaabe05a47b89cbfe0be001e949591c32e82043632dab0bac04",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:05:57.651Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

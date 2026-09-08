@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickle-fried-chicken",
+  "name": "Pickle-Fried Chicken",
+  "subtitle": "Crisp, pickle-brined chicken thighs",
+  "description": "Chicken thighs are chilled in dill pickle juice, coated in buttermilk and seasoned flour, then fried and finished in the oven.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "5-ounce-chicken-thighs",
+      "item": "(5 ounce) chicken thighs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "dill-pickle-juice",
+      "item": "dill pickle juice",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken thighs in a container and pour the dill pickle juice over them. Cover and chill for 3 hours.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 2,
+      "text": "Drain the chicken and pat it dry. Heat the vegetable oil to 350°F in a deep, heavy pan suitable for frying."
+    },
+    {
+      "step": 3,
+      "text": "Pour the buttermilk into a shallow dish. In a second dish, combine the flour, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Dip each thigh in the buttermilk, then coat thoroughly with the seasoned flour. Let the coated chicken rest briefly while the oil reaches temperature."
+    },
+    {
+      "step": 5,
+      "text": "Fry the chicken in batches as needed until golden brown, about 7 minutes, turning as necessary.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 6,
+      "text": "Transfer the chicken to a baking dish and bake for about 8 minutes, until a thermometer inserted into the thickest part reads 165°F.",
+      "timer_minutes": 8
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "deep heavy pan",
+    "shallow dishes",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/261228/pickle-fried-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c7e280932edbc951004012e015d2f6f010ac9ae4234f81cfc80e4ab7d9759a0b",
+    "normalized_text_hash": "9889f673d95a04b06701f4402682e75f33fb65b894b6b5c6f8cbfb252d1d7c94",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:16:22.978Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

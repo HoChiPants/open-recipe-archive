@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "detroit-style-pizza",
+  "name": "Detroit-Style Pizza",
+  "subtitle": "Crisp-edged pan pizza with pepperoni and layered cheese",
+  "description": "A thick, airy pizza baked in an oiled pan until the cheese is deeply golden around the edges, then finished with seasoned marinara and pepperoni.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "inactive_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "24-ounce-jar-marinara-sauce",
+      "item": "(24 ounce) jar marinara sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "mild-cheddar-cheese",
+      "item": "mild Cheddar cheese",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "thick-pepperoni-slices",
+      "item": "thick pepperoni slices",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the warm water to a mixing bowl. Stir in the active dry yeast and white sugar, then let stand briefly until combined."
+    },
+    {
+      "step": 2,
+      "text": "Add the bread flour, 2 teaspoons of the olive oil, and kosher salt. Mix into a dough and knead until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Coat a deep rectangular baking pan with the remaining olive oil. Place the dough in the pan and press it outward toward the corners. Let it rest until puffy.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Combine the marinara sauce, dried oregano, red pepper flakes, and garlic powder in a saucepan. Bring to a simmer and cook until seasoned and slightly thickened.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven to 525°F."
+    },
+    {
+      "step": 6,
+      "text": "Combine the Monterey Jack cheese and mild Cheddar cheese. Arrange the thick pepperoni slices in the prepared pan, then spread the cheese over the dough, reaching the edges."
+    },
+    {
+      "step": 7,
+      "text": "Spoon the marinara sauce over the cheese and finish with the remaining red pepper flakes and thick pepperoni slices."
+    },
+    {
+      "step": 8,
+      "text": "Bake until the crust is cooked through and the cheese is golden brown.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 9,
+      "text": "Cool in the pan for 5 minutes, then loosen the pizza, cut it into portions, and serve.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "pan-pizza",
+    "american",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "deep rectangular baking pan",
+    "saucepan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268466/detroit-style-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "204f5a78ade549e9779def7d3c4d61da43499862c451613be0923f3c2d1a1cef",
+    "normalized_text_hash": "24217134239235324bc2a745fa38ea5110b1941cc3a8693b9a631329a800bd17",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:05:38.191Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

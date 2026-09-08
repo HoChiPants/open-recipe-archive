@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-halwa",
+  "name": "Carrot Halwa",
+  "subtitle": "A warm Indian dessert of tender carrots, milk, cardamom, and nuts",
+  "description": "Slow-cooked grated carrots become rich and fragrant with milk, butter, sugar, raisins, and chopped nuts.",
+  "meal_type": "dessert",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 100
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots-coarsely-grated",
+      "item": "carrots coarsely grated",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "green-cardamom-pods-pierced-with-a-knife",
+      "item": "green cardamom pods pierced with a knife",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "blanched-almonds-or-chopped-pistachios",
+      "item": "blanched almonds or chopped pistachios",
+      "quantity": 25,
+      "unit": "g",
+      "preparation": "roughly chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the carrots, cardamom pods, and milk in a large heavy saucepan. Bring to a simmer, then cook until the milk is mostly absorbed and the carrots are tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Add the butter and continue cooking, stirring regularly, until the mixture is thick and cohesive.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sugar, raisins, and chopped almonds or pistachios. Cook until the sugar dissolves and the halwa is glossy.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove the cardamom pods and serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "indian",
+    "carrot",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "large heavy saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrot-halwa-gajar-halwa",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3f1a94d42557218768ae4cb3f43807acecfba676f9efb8c8dc2b3e4fc381e3e3",
+    "normalized_text_hash": "e1236171c5c66792ecf832ae4e40ab65440d1f33a9bec02fb6f55fb196445aaf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T00:02:54.070Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

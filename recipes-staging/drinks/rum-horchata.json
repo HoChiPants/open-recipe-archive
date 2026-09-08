@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rum-horchata",
+  "name": "Rum Horchata",
+  "subtitle": "Chilled rice drink with cinnamon, milk, and rum",
+  "description": "Soaked rice is blended with cinnamon, dairy, vanilla, and rum, then strained and served over ice.",
+  "meal_type": "drink",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 270
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-long-grain-rice",
+      "item": "uncooked long grain rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "rum",
+      "item": "rum",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "cubes-ice",
+      "item": "cubes ice",
+      "quantity": 16
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the rice and warm water in a bowl. Let stand for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Transfer the soaked rice and water to a blender, add the cinnamon, and blend until the rice is finely broken down."
+    },
+    {
+      "step": 3,
+      "text": "Add the milk and sweetened condensed milk. Blend until combined, then strain the mixture through a fine-mesh strainer."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the vanilla extract and rum."
+    },
+    {
+      "step": 5,
+      "text": "Cover and chill for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Pour over the ice cubes and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "mexican",
+    "horchata",
+    "rice-drink",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "fine-mesh strainer",
+    "bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/147804/rum-spiked-horchata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5469908edc606b6adb1cd3a7cb9bda34522ca6cec80f95e3965f33815ee267c3",
+    "normalized_text_hash": "45285f8458f7f0e2bc5596ed8c65d5f01449b8256db77a009f4bbf4f12fd57d1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:32:52.324Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

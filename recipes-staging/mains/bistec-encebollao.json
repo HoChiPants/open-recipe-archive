@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bistec-encebollao",
+  "name": "Bistec Encebollao",
+  "subtitle": "Marinated beef with tender onions",
+  "description": "Thin-sliced sirloin is marinated with vinegar, garlic, oregano, and seasoning, then simmered with onions until tender.",
+  "meal_type": "main",
+  "cuisine": "Puerto Rican",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-sirloin-steak",
+      "item": "beef sirloin steak",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "sliced thinly across the grain"
+    },
+    {
+      "ingredient_id": "white-onions",
+      "item": "white onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "sliced into rings"
+    },
+    {
+      "ingredient_id": "beef-stock",
+      "item": "beef stock",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sazon-seasoning",
+      "item": "sazon seasoning",
+      "quantity": 1,
+      "unit": "packet",
+      "preparation": ".18 ounce"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the stock, oil, vinegar, garlic, sazón, salt, and oregano in a large bowl. Add the steak and onion rings, turning to coat."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate the mixture for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Warm a large heavy skillet over medium heat. Transfer the steak, onions, and marinade to the skillet."
+    },
+    {
+      "step": 4,
+      "text": "Bring the liquid to a simmer, reduce the heat, and cook for 40 minutes, or until the beef is tender and reaches 145°F in the thickest pieces.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Remove the beef from the heat and let it rest for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "skillet-meal",
+    "marinated-beef"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large bowl",
+    "large heavy skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/152032/bistec-encebollao/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "588a8cf148e207a2a2805d2134970711f2d0e3d51f0bbc2ad0113df8497992a2",
+    "normalized_text_hash": "f59005a29314decfeec159e6b060176c20a135bc3b36fd2746d530e73d882097",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:47:34.337Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

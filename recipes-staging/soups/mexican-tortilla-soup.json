@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-tortilla-soup",
+  "name": "Mexican Tortilla Soup",
+  "subtitle": "Crisp tortillas, pasilla chile, and fresh toppings",
+  "description": "A savory Mexican soup built from blended tomatoes and pasilla chiles, finished with crisp tortilla strips, avocado, cotija, and crema.",
+  "meal_type": "soup",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "6-inch-corn-tortillas",
+      "item": "(6 inch) corn tortillas",
+      "quantity": 12,
+      "preparation": "cut into strips"
+    },
+    {
+      "ingredient_id": "dried-pasilla-chile-peppers",
+      "item": "dried pasilla chile peppers",
+      "quantity": 3,
+      "preparation": "seeded"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "preparation": "seeded and chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken-bouillon-granules",
+      "item": "chicken bouillon granules",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sprig-fresh-parsley",
+      "item": "sprig fresh parsley",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "preparation": "peeled, pitted, and diced"
+    },
+    {
+      "ingredient_id": "cotija-cheese",
+      "item": "cotija cheese",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "crema-fresca-fresh-cream",
+      "item": "crema fresca (fresh cream)",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat enough vegetable oil in a skillet to cover the bottom. Fry the tortilla strips until crisp, about 3 minutes. Drain them well.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Toast the seeded pasilla chiles in the skillet with 1 teaspoon vegetable oil for 2 minutes, turning once. Drain, then transfer the chiles to a blender.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the tomatoes, onion, garlic, and oregano to the blender. Blend until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Heat the blended mixture in a saucepan for 2 minutes, then stir in the water, bouillon granules, and parsley.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Bring the soup to a boil, reduce the heat, and simmer for 15 minutes. Use a food thermometer to confirm the soup reaches 165°F before serving.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Remove the parsley sprig. Cut the toasted chiles into pieces and prepare the toppings."
+    },
+    {
+      "step": 7,
+      "text": "Ladle the soup into bowls and garnish with tortilla strips, avocado, cotija, chile pieces, and crema fresca."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican",
+    "soup",
+    "tortillas"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "blender",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/259300/sopa-de-tortilla-real-mexican-tortilla-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "800ba658f9b160234d846f2113e54cb81a621767249203a4bc0501abffb7e757",
+    "normalized_text_hash": "4efbe441e089d25af0a745e967ce9cb43eb5f907b09faf6a4a8daee2d798a1d0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:08:44.345Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

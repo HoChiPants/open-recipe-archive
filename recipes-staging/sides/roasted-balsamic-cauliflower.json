@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-balsamic-cauliflower",
+  "name": "Roasted Balsamic Cauliflower",
+  "subtitle": "Tender cauliflower with a tangy roasted finish",
+  "description": "Cauliflower is coated with olive oil, balsamic vinegar, garlic, and salt, then roasted until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "preparation": "chopped into bite size pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the cauliflower as specified. In a bowl, stir together the olive oil, balsamic vinegar, salt, and garlic."
+    },
+    {
+      "step": 3,
+      "text": "Add the cauliflower and toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cauliflower to a baking sheet and bake for 20 minutes, until tender.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "roasted-vegetables",
+    "cauliflower",
+    "balsamic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/202990/roasted-balsamic-cauliflower/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd3678cf7f621cf6588c91a9e106a60e850d2c962accb18014597d058ca726f8",
+    "normalized_text_hash": "5f34bdaa1dc6aaf5113052cda212d073d5836cac1478b874ee8570b7e8726a8a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:09:41.552Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

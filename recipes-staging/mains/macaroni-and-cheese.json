@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "macaroni-and-cheese",
+  "name": "Macaroni and Cheese",
+  "subtitle": "Creamy cheddar macaroni for an easy main dish",
+  "description": "Tender macaroni coated in a smooth cheese-and-cream sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "macaroni",
+      "item": "macaroni",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "processed-cheese",
+      "item": "processed cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water seasoned with salt to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Add the macaroni and cook until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Drain the macaroni well and return it to the warm pot."
+    },
+    {
+      "step": 4,
+      "text": "Combine the processed cheese, Cheddar cheese, and heavy cream with the macaroni over low heat."
+    },
+    {
+      "step": 5,
+      "text": "Stir until the cheeses are melted and the sauce is smooth. Season with salt to taste and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pasta",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23026/restaurant-style-mac-and-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8cd7fd7eb79f9ff0d9dfef0fb319fcaac0c89b9a2ccb47e49c1f8ca9b0d59421",
+    "normalized_text_hash": "5b6ef6296c9da1a10b736031de11b70dd5b42031a849232842549290fbaa8b00",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:59:26.407Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

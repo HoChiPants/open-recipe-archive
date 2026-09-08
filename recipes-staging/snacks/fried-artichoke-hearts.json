@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-artichoke-hearts",
+  "name": "Fried Artichoke Hearts",
+  "subtitle": "Crisp, golden artichoke bites with Parmesan",
+  "description": "Quartered artichoke hearts are coated in seasoned crumbs, fried until golden, and finished with Parmesan.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 9
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "artichoke-hearts",
+      "item": "artichoke hearts",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained and quartered"
+    },
+    {
+      "ingredient_id": "seasoned-dry-bread-crumbs",
+      "item": "seasoned dry bread crumbs",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese-for-topping",
+      "item": "grated Parmesan cheese for topping",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oil to 350°F in a deep, heavy skillet or saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs and milk together in a shallow bowl. Place the seasoned dry bread crumbs in a second shallow dish."
+    },
+    {
+      "step": 3,
+      "text": "Coat each quartered artichoke heart in the egg mixture, then roll it in the bread crumbs until covered."
+    },
+    {
+      "step": 4,
+      "text": "Fry the coated artichoke hearts in batches for about 3 minutes, turning as needed, until golden brown.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a paper towel-lined plate to drain, then sprinkle with grated Parmesan cheese for topping and serve hot."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "american",
+    "fried",
+    "artichokes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "deep, heavy skillet or saucepan",
+    "shallow bowls",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55415/fried-artichoke-hearts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a6a72a8ae57157d9275aafeb8fb3b4facc8e423fd8a306c269122d3a4cd9cd05",
+    "normalized_text_hash": "7c09bcc8b7da306b681d7f7d82fa40ac6de818ff1271929fd668fe2fd10cd190",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:24:25.882Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

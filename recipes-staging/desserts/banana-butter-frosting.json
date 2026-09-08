@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-butter-frosting",
+  "name": "Banana Butter Frosting",
+  "subtitle": "A smooth banana frosting for cakes and other baked desserts",
+  "description": "Blend mashed banana with lemon juice and salt, then combine with softened butter and powdered sugar for a creamy frosting.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mashed-banana",
+      "item": "mashed banana",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "powdered-sugar",
+      "item": "powdered sugar",
+      "quantity": 7,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mashed banana, lemon juice, and salt until combined."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the softened butter for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Add the powdered sugar and whisk until smooth."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220802/lisas-banana-butter-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00c6dcc214a9ad4294672d97cbe2ab3d1b0cecffd0fdc56bc5bf6889d816b73e",
+    "normalized_text_hash": "9741dbd916b020a6dc0f0a1d416040a8a9dbdbd82787520d48c4f65f36f38981",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:02:47.506Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

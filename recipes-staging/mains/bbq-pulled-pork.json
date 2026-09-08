@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bbq-pulled-pork",
+  "name": "BBQ Pulled Pork",
+  "subtitle": "Slow-cooked seasoned pork finished with thick barbecue coating.",
+  "description": "This is a simple pulled-pork method using a seasoned barbecue-onion base with two pork pieces cooked low and slow, then shredded and tossed in additional sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 420,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "18 ounce"
+    },
+    {
+      "ingredient_id": "dry-onion-soup-mix",
+      "item": "dry onion soup mix",
+      "quantity": 1,
+      "unit": "envelope"
+    },
+    {
+      "ingredient_id": "4-pound-boneless-pork-loin-roast",
+      "item": "(4 pound) boneless pork loin roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "thick-country-style-pork-ribs",
+      "item": "thick country-style pork ribs",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "4 pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a large pot or oven-safe vessel, combine the barbeque sauce with the dry onion soup mix to make a coating."
+    },
+    {
+      "step": 2,
+      "text": "Add the boneless pork loin roast and the thick country-style pork ribs and mix until both cuts are coated."
+    },
+    {
+      "step": 3,
+      "text": "Cook covered with low heat until the pork is fork-tender, about 420 minutes, and the internal temperature reaches 145°F. If using a thermometer, hold and allow the meat to rest at least 3 minutes.",
+      "timer_minutes": 420
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a board or tray, shred the roast and ribs into strands using forks, and let the meat rest.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Return shredded meat to the cooking vessel and stir in barbeque sauce."
+    },
+    {
+      "step": 6,
+      "text": "Add another portion of the barbeque sauce, stirring again to fully coat."
+    },
+    {
+      "step": 7,
+      "text": "Continue cooking and stirring occasionally so the coating thickens and everything is evenly moistened.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "slow-cooked",
+    "bbq",
+    "pork",
+    "shredded"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot or oven-safe covered dish",
+    "oven",
+    "food thermometer",
+    "forks or meat shredding forks",
+    "heat-safe mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228156/3-ingredient-pulled-pork-barbeque/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2704f4bd5d1abcf4d247fa34354a9bb09b799f832937f74962655fcf3a7925f1",
+    "normalized_text_hash": "b5fe95b146f50a3a390d44d76b05cfdb539d6c5a76818d7fbd41061d53339174",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:05:51.481Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

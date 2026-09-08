@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apricot-leather",
+  "name": "Apricot Leather",
+  "subtitle": "A simple, chewy fruit snack made from fresh apricots.",
+  "description": "Sweetened apricots are smoothed into a thin layer and slowly baked until pliable, then cut into portions.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "and-diced-fresh-apricots",
+      "item": "and diced fresh apricots",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 150°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the lemon juice, pitted diced apricots, and white sugar, then process or blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the smooth mixture to a lined baking sheet and spread it into an even, thin layer."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 6 hours, or until the surface is set and the leather is pliable.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 5,
+      "text": "Cut the cooled leather into portions and prepare for serving or storage."
+    }
+  ],
+  "tags": [
+    "snack",
+    "fruit",
+    "apricot",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "lined baking sheet",
+    "blender or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62392/apricot-leather/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a7743c3cc225a5ddb9188af7b2dca01262a98d019c52d50c4775e73d15b3912b",
+    "normalized_text_hash": "150f64af495094380829291d859054a8deca59e54a2f28346da7094560c941e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:23:38.000Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

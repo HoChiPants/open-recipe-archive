@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "microwave-rice",
+  "name": "Microwave Rice",
+  "subtitle": "Tender rice with minimal stovetop work",
+  "description": "Cook fluffy long-grain rice in the microwave with water, butter or oil, and salt.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 12,
+    "inactive_minutes": 18
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "long-grain-white-rice-such-as-jasmine-or-basmati",
+      "item": "long-grain white rice (such as jasmine or basmati)",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "unsalted-butter-or-oil",
+      "item": "unsalted butter or oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the rice in a large microwave-safe bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the water, butter or oil, and salt; stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Microwave for 10 minutes, then continue microwaving until the rice is tender and the water is absorbed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Let the rice stand for 6 minutes. If it is not tender, microwave briefly until it reaches the desired texture.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Fluff with a fork and serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "rice",
+    "microwave",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "large microwave-safe bowl",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8530789/microwave-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f4d2919afb2a2df5b564246f73a2007acf851d6ffe546fe65dc2381af220d7a4",
+    "normalized_text_hash": "8a5f5c2668b3895e60ad4e6d00444cf8f2b7ca23bb7095869247471f4beac081",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:39:40.159Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

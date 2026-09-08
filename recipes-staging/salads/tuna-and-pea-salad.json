@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tuna-and-pea-salad",
+  "name": "Tuna and Pea Salad",
+  "subtitle": "A quick creamy salad with seasoned tuna and peas",
+  "description": "Combine drained tuna and peas with a seasoned mayonnaise dressing for a simple chilled or room-temperature salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chunk-light-tuna-in-water",
+      "item": "chunk light tuna in water",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce, drained"
+    },
+    {
+      "ingredient_id": "peas",
+      "item": "peas",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "reduced-fat-mayonnaise",
+      "item": "reduced-fat mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the mayonnaise, garlic powder, and black pepper together in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the drained tuna and peas, and fold gently until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Canned tuna is ready to eat; if using uncooked fish instead, cook it to 145°F, or until opaque and easily flaked, before combining."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "salad",
+    "no-cook",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/114978/tuna-fish-pea-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7627841743e509ff6f7e94b1a23ed683313a392f945eeb428cad2bcad1b9d063",
+    "normalized_text_hash": "67d530e62c8537b390fdfef0717b8b47d61d9fdcc753072e24b08fb981c5befb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:24:48.816Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

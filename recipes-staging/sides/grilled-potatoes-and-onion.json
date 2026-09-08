@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-potatoes-and-onion",
+  "name": "Grilled Potatoes and Onion",
+  "subtitle": "Tender potatoes and red onion with buttery seasoning",
+  "description": "Sliced potatoes and red onion are seasoned with butter, salt, and pepper, then grilled until tender and lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill to medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the sliced potatoes and red onion in a grill-safe pan or foil packet."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter and combine it with the salt and black pepper. Pour over the vegetables and toss to coat."
+    },
+    {
+      "step": 4,
+      "text": "Grill for about 30 minutes, turning occasionally, until the potatoes are tender and lightly browned.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "grilled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "grill-safe pan or foil"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14512/grilled-potatoes-and-onion/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "04998dfd55ebe0dc23811f877fceb782cbc5a88c5e869d863d25fb4dbc5dac04",
+    "normalized_text_hash": "99edaf2d817feac7e0d7a277898a1bf4299a2d623cfbb9254783f18ba7a00cb6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:09:52.136Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

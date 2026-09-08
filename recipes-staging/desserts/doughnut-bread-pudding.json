@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "doughnut-bread-pudding",
+  "name": "Doughnut Bread Pudding",
+  "subtitle": "A warm baked custard dessert with cinnamon and dried fruit",
+  "description": "Stale glazed doughnuts absorb a lightly spiced orange-vanilla custard before baking into a soft, fragrant pudding.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "stale-raised-glazed-donuts",
+      "item": "stale raised glazed donuts",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "raisins-or-other-dried-fruit",
+      "item": "raisins or other dried fruit",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "eggs-room-temperature",
+      "item": "eggs (room temperature)",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-orange-zest",
+      "item": "grated orange zest",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking dish for the pudding."
+    },
+    {
+      "step": 2,
+      "text": "Cut the doughnuts into bite-size pieces and place them in the dish. Scatter the raisins or other dried fruit over them."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, evaporated milk, sugar, vanilla extract, almond extract, and orange zest until smooth. Stir in the cinnamon and nutmeg."
+    },
+    {
+      "step": 4,
+      "text": "Pour the custard over the doughnut pieces, pressing gently so they are moistened. Refrigerate for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Bake until puffed and the center is fully set, about 40–45 minutes. Confirm with a thermometer that the egg-based center reaches 160°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Rest briefly, then serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-pudding",
+    "bread-pudding",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking dish",
+    "refrigerator",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53602/doughnut-bread-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c3ed71374a03bb87699cb6aacad8812f27f0d12f5534e6b781fab984751de76d",
+    "normalized_text_hash": "cca2e91e0e5d8d4d26f901cea66e50f4468ab3902b5eeb78ae893fd018b02046",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:12:43.404Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

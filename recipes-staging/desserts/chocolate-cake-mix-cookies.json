@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-cake-mix-cookies",
+  "name": "Chocolate Cake Mix Cookies",
+  "subtitle": "Soft chocolate cookies with semisweet chips",
+  "description": "A simple batch of chocolate cookies made from cake mix, butter, eggs, and chocolate chips.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-cake-mix",
+      "item": "chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chocolate cake mix, softened butter, and eggs until smooth. Stir in the semisweet chocolate chips."
+    },
+    {
+      "step": 3,
+      "text": "Prepare a baking sheet and portion the dough into 24 cookies."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the cookies are set, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Cool the cookies for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23337/cake-mix-cookies-viii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "34d69bf26890f492d5d7f1633943981678f00bc8816009f9206e3971cefdc5f0",
+    "normalized_text_hash": "c6487db096ef185a63f0fd7fa15b3008fe6ae473623d9aa2d33924b16d1700e9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:29:38.015Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

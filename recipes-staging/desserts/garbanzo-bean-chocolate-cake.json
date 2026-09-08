@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garbanzo-bean-chocolate-cake",
+  "name": "Garbanzo Bean Chocolate Cake",
+  "subtitle": "A moist chocolate cake made with blended garbanzo beans.",
+  "description": "Blend the ingredients into a smooth batter, bake until set, cool, and finish with confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chickpea",
+      "item": "garbanzo beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "19 ounce, rinsed and drained"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a cake pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Microwave the chocolate chips for 2 minutes, stirring as needed, until melted.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Blend the garbanzo beans and eggs until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Add the white sugar and baking powder, then blend until combined."
+    },
+    {
+      "step": 5,
+      "text": "Add the melted chocolate and blend until the batter is smooth."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to the prepared pan and bake for 40 minutes, until set.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 7,
+      "text": "Cool the cake for 15 minutes, then dust with the confectioners' sugar before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "microwave",
+    "blender",
+    "cake pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/149550/garbanzo-bean-chocolate-cake-gluten-free/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f58ede5572fa370790cec948b2536fc29ec4e6160bd8d879dd8221389df272ba",
+    "normalized_text_hash": "c17d0e60d1d26e8b46ae6a6eed282b299ac89bd937bca98be8aeaf4a1eb93a92",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:33:49.395Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

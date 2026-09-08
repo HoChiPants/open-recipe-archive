@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "jalapen-o-poppers",
+  "name": "Jalapeño Poppers",
+  "subtitle": "Creamy stuffed peppers wrapped for baking",
+  "description": "Jalapeño halves are filled with softened cream cheese, wrapped in vegetarian bacon, and baked until hot.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 12,
+    "inactive_minutes": 3
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-jalapeno-peppers",
+      "item": "fresh jalapeno peppers",
+      "quantity": 18,
+      "preparation": "halved lengthwise and seeded"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "frozen-vegetarian-bacon-strips",
+      "item": "frozen vegetarian bacon strips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5.25 ounce, thawed"
+    },
+    {
+      "ingredient_id": "toothpicks",
+      "item": "toothpicks"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the softened cream cheese until smooth, then fill the prepared jalapeño halves."
+    },
+    {
+      "step": 3,
+      "text": "Wrap each filled pepper with a thawed vegetarian bacon strip and secure it with a toothpick."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the poppers on a baking sheet and bake for 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "toothpicks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/100056/jalapeno-poppers-of-champions/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00e7560eef3e7366d4d2f08b2cdd3039b08fd949888c6036ca7fce7a064c824b",
+    "normalized_text_hash": "4e022b7292397638e2750a10c70d2b1c3ac670f8d4ad8723654159fea39aa3bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:24:04.674Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

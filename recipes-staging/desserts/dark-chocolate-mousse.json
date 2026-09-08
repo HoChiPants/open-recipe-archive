@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dark-chocolate-mousse",
+  "name": "Dark Chocolate Mousse",
+  "subtitle": "Silky chocolate mousse with a subtle smoky chile note",
+  "description": "A chilled, airy mousse made with dark chocolate, whipped cream, and gently heated egg yolks.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dark-chocolate",
+      "item": "dark chocolate",
+      "quantity": 3.5,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-dried-chipotle-pepper",
+      "item": "ground dried chipotle pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tiny-pinch-salt",
+      "item": "tiny pinch salt",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chilled"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chilled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set a heatproof bowl over a saucepan of barely simmering water. Add the chopped chocolate, butter, 2 tablespoons water, chipotle pepper, and salt. Whisk until smooth, then remove from the heat and let cool slightly."
+    },
+    {
+      "step": 2,
+      "text": "In a separate heatproof bowl over the simmering water, whisk the egg yolks, remaining 2 tablespoons water, and sugar for 3 minutes, until thickened and the mixture reaches 160°F.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Whisk the warm egg mixture into the chocolate until smooth. Stir in the 1 tablespoon chilled cream and let the mixture cool until just warm."
+    },
+    {
+      "step": 4,
+      "text": "Whip the 1/2 cup chilled cream to soft peaks. Fold about one-third into the chocolate mixture, then gently fold in the rest until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Divide the mousse among four serving dishes. Chill until set, about 4 hours.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "mousse",
+    "make-ahead",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "heatproof bowls",
+    "saucepan",
+    "whisk",
+    "electric mixer or balloon whisk",
+    "food thermometer",
+    "four serving dishes"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235799/chef-johns-dark-chocolate-mousse/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bad70b85d068d79ba16512a820c9ceca41356b0b865a2f53ec1a60f1baa46e37",
+    "normalized_text_hash": "e98f3bc7fd052e6cfc0c2b1b9857f0b2af13eb179f34ddb9c51ede7e887f53cd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:29:23.594Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

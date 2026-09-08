@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "turkey-potato-casserole",
+  "name": "Turkey Potato Casserole",
+  "subtitle": "A hearty layered bake with turkey, vegetables, cheese, and mashed potatoes.",
+  "description": "Cooked turkey, green beans, mushroom soup, and two forms of Cheddar are layered beneath a mashed-potato topping and baked until hot.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "turkey-meat",
+      "item": "turkey meat",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cooked, shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-beans",
+      "item": "green beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, drained"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "prepared-mashed-potatoes",
+      "item": "prepared mashed potatoes",
+      "quantity": 4,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Layer the shredded turkey in a baking dish. Add the chopped onion and drained green beans."
+    },
+    {
+      "step": 3,
+      "text": "Spread the condensed soup over the vegetables and distribute the cubed Cheddar on top."
+    },
+    {
+      "step": 4,
+      "text": "Stir the shredded Cheddar into the mashed potatoes, then spread the mixture evenly over the casserole."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "turkey",
+    "potatoes",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54507/turkey-potato-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "44b10f97611bdc9a374a46a4e63f2981652c08aa7084861451b3fb9aed908759",
+    "normalized_text_hash": "676edeb245249a664412b650d1eab6ac5c84129bcb06df3e13171d722294ef98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:28:52.932Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

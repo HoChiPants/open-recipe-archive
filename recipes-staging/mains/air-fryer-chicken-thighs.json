@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-chicken-thighs",
+  "name": "Air Fryer Chicken Thighs",
+  "subtitle": "Herb-seasoned chicken with crisp, browned skin",
+  "description": "Bone-in chicken thighs coated with paprika, herbs, and olive oil, then air-fried until fully cooked.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "mixed-herbs",
+      "item": "mixed herbs",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garlic-granules",
+      "item": "garlic granules (optional)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "chicken-thighs-bone-in",
+      "item": "chicken thighs bone in",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the paprika, mixed herbs, and optional garlic granules."
+    },
+    {
+      "step": 2,
+      "text": "Coat the bone-in chicken thighs with the olive oil, then rub them evenly with the spice mixture."
+    },
+    {
+      "step": 3,
+      "text": "Air-fry for 10 minutes. Turn the thighs and cook for 15 minutes more, or until cooked through and the thickest part reaches 165°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer",
+    "chicken",
+    "chicken-thighs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-chicken-thighs",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa9733e31773383522a5acb8675d56a2fc3ff94d7df3123685ee979c13990e18",
+    "normalized_text_hash": "19befacae7f31182c9eb7fc529c91b9489c6d2a0f8eb8e90791a0211f28a67c8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:22:50.592Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

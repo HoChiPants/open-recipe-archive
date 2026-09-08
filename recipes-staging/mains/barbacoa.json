@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbacoa",
+  "name": "Barbacoa",
+  "subtitle": "Slow-braised beef with a chile-and-spice sauce",
+  "description": "A tender beef chuck roast braised in a blended dried-chile sauce with warm spices, aromatics, vinegar, and lime.",
+  "meal_type": "main",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 370,
+    "inactive_minutes": 600
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-guajillo-chilies",
+      "item": "dried guajillo chilies",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "cumin-seeds",
+      "item": "cumin seeds",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 0.125,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-ancho-chile-powder",
+      "item": "ground ancho chile powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-thyme",
+      "item": "ground thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "6-pound-boneless-beef-chuck-roast",
+      "item": "(6 pound) boneless beef chuck roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm a dry skillet over medium heat. Toast the dried guajillo chilies, ground ancho chile powder, and dried oregano for 5 minutes, turning as needed. Remove from the heat and let cool.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Toast the cumin seeds and cloves briefly in the same skillet, then crush or grind them."
+    },
+    {
+      "step": 3,
+      "text": "Cover the toasted dried guajillo chilies and ground ancho chile powder with the boiling water. Let stand for 60 minutes, until softened.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Blend the soaked chile mixture with the cumin seeds, cloves, onion, garlic, dried oregano, ground thyme, apple cider vinegar, and lime juice until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Place the boneless beef chuck roast in a large dish and coat it thoroughly with the sauce. Cover and refrigerate for 10 hours.",
+      "timer_minutes": 600
+    },
+    {
+      "step": 6,
+      "text": "Preheat the oven to 325°F. Transfer the roast and sauce to a covered oven-safe pot and add the bay leaves."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 6 hours, or until the beef is fork-tender and reaches at least 145°F internally. Rest for 3 minutes, then remove the bay leaves and shred or slice the beef.",
+      "timer_minutes": 360
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooked",
+    "braised",
+    "beef",
+    "mexican"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "dry skillet",
+    "blender",
+    "large dish",
+    "covered oven-safe pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217410/barbacoa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c3fcdc7ed18cdecd322fb097fe64b1ede05339cc6bdf420091f1352c0b25ae08",
+    "normalized_text_hash": "dcb9936cb4a8c6e633e63d464984940d1c27af2c7bbb8fdbe8df543aaa26d6ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:02:50.250Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

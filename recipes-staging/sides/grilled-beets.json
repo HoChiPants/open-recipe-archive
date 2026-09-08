@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-beets",
+  "name": "Grilled Beets",
+  "subtitle": "Tender beets with buttery seasoning",
+  "description": "Whole scrubbed beets are grilled with butter, salt, and pepper until tender, then cooled briefly before serving.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "beets",
+      "item": "beets",
+      "quantity": 6,
+      "preparation": "scrubbed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill. Lightly coat a sheet of heavy-duty foil with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Place the scrubbed beets and butter on the foil, season with salt and pepper, and fold the foil into a sealed packet."
+    },
+    {
+      "step": 3,
+      "text": "Grill the packet until the beets are tender when pierced with a knife, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Let the beets cool for 5 minutes, then serve.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "grilled",
+    "beets",
+    "side-dish",
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "heavy-duty foil",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/144529/beets-on-the-grill/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bd22dd0833a4398ab27fa3a903b320a4939e655e6284ffeffdbd3fc0f35ce681",
+    "normalized_text_hash": "21ff052e35904fc746460398b689460745109619dfbccb795d6c4b537434497e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:26:20.924Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

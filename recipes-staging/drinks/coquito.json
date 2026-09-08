@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coquito",
+  "name": "Coquito",
+  "subtitle": "A chilled coconut and rum holiday drink",
+  "description": "Whisked coconut, milk, vanilla, and rum are chilled with cinnamon, then served over ice or on their own.",
+  "meal_type": "drink",
+  "cuisine": "Spanish",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spiced-rum",
+      "item": "spiced rum",
+      "quantity": 350,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "can-coconut-milk",
+      "item": "can coconut milk",
+      "quantity": 400,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "coconut-cream",
+      "item": "coconut cream",
+      "quantity": 320,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "can-condensed-milk",
+      "item": "can condensed milk",
+      "quantity": 397,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "can-evaporated-milk",
+      "item": "can evaporated milk",
+      "quantity": 340,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ice-to-serve",
+      "item": "ice to serve (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "of-nutmeg-or-cinnamon",
+      "item": "of nutmeg or cinnamon",
+      "unit": "pinch",
+      "preparation": "to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the can coconut milk, coconut cream, can condensed milk, can evaporated milk, vanilla extract, and spiced rum until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Add the cinnamon stick and refrigerate the mixture for 300 minutes.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 3,
+      "text": "Remove the cinnamon stick, stir the drink, and pour into glasses over ice to serve. Finish each serving with of nutmeg or cinnamon."
+    }
+  ],
+  "tags": [
+    "coconut-drink",
+    "rum-cocktail",
+    "chilled-beverage",
+    "spanish-inspired",
+    "holiday-drink"
+  ],
+  "seasons": [
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pitcher",
+    "whisk",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coquito",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "81dd1253839a040fa676a6cbff91abeff74de3328f59c8897a87c241b68df438",
+    "normalized_text_hash": "22529dec0e344399428820a9b22861fb3cd80e4f3259e1819cc6e886dd656b89",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:56:19.564Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

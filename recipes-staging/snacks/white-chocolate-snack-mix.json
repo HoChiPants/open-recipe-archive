@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-chocolate-snack-mix",
+  "name": "White Chocolate Snack Mix",
+  "subtitle": "A crisp, sweet-and-salty party snack",
+  "description": "Pretzels, cereals, peanuts, and candy pieces are coated in smooth white chocolate for an easy batch snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 40,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mini-twist-pretzels",
+      "item": "mini twist pretzels",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "oat-cereal",
+      "item": "oat cereal",
+      "quantity": 5,
+      "unit": "cups",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "crispy-corn-cereal-squares",
+      "item": "crispy corn cereal squares",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salted-peanuts",
+      "item": "salted peanuts",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "candy-coated-milk-chocolate-pieces",
+      "item": "candy-coated milk chocolate pieces",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "white-chocolate-chips",
+      "item": "white chocolate chips",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "11 ounce"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the pretzels, oat cereal, corn cereal squares, peanuts, and candy-coated chocolate pieces in a large bowl; toss to distribute."
+    },
+    {
+      "step": 2,
+      "text": "Microwave the white chocolate chips and vegetable oil for 2 minutes, stirring until smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Pour the melted coating over the snack mixture and fold gently until evenly covered."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mixture on a flat surface and let it cool until the coating is set."
+    }
+  ],
+  "tags": [
+    "snack",
+    "party-food",
+    "no-bake",
+    "sweet-and-salty"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "microwave-safe bowl",
+    "microwave",
+    "flat tray or parchment-lined surface"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9489/white-chocolate-snack-mix/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "01cd07e6a7f3a8f7aacfea798adbea88a65e0246dc8f411eb8fcf146a9f125e4",
+    "normalized_text_hash": "a8d9fbda0f7e753fb75233fb57864a5e6335ecd8c44a81a0034c83974b8eb3b2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:03:21.765Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

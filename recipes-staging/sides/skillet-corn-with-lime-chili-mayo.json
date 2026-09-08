@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "skillet-corn-with-lime-chili-mayo",
+  "name": "Skillet Corn with Lime-Chili Mayo",
+  "subtitle": "A warm corn side with bright lime, chili, herbs, and cotija.",
+  "description": "Freshly cut corn is quickly cooked in a skillet, then folded with seasoned mayonnaise and finished with cilantro and cotija cheese.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ears-sweet-corn",
+      "item": "ears sweet corn",
+      "quantity": 4,
+      "preparation": "shucked and kernels cut off"
+    },
+    {
+      "ingredient_id": "cilantro",
+      "item": "cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cotija-cheese",
+      "item": "cotija cheese",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mayonnaise, lime juice, and chili powder in a small bowl until combined."
+    },
+    {
+      "step": 2,
+      "text": "Heat a skillet over medium-high heat. Add the corn and cook, stirring occasionally, until hot and lightly browned, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Remove the skillet from the heat and let the corn stand for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Stir in the lime-chili mayonnaise until the corn is evenly coated. Fold in the cilantro and sprinkle with cotija cheese."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "skillet",
+    "corn",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "small bowl",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280928/skillet-elote-mexican-street-corn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f12da79f23e197f94943ae40900d8e9f8342bd8fcd2a3ee7748647710b84db0d",
+    "normalized_text_hash": "5fdf69f0e90e7eb7fd49c6f6f61aea3219b40a37bd0c5694e739e066ecd79978",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:33:17.503Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

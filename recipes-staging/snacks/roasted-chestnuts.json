@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-chestnuts",
+  "name": "Roasted Chestnuts",
+  "subtitle": "Warm chestnuts with cinnamon butter",
+  "description": "Oven-roasted chestnuts finished with melted cinnamon butter and salt.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chestnuts",
+      "item": "chestnuts",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Prepare the chestnuts and arrange them in a single layer on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Bake for 30 minutes, or until the shells open and the chestnuts are tender. Cool briefly, then peel.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter, then stir in the cinnamon and salt. Toss the peeled chestnuts with the seasoned butter and serve warm."
+    }
+  ],
+  "tags": [
+    "snack",
+    "roasted",
+    "chestnuts",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9494/roasted-chestnuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e8f522e540c6e5436d56482902a90b775f45be5464788bba8bf0f8067e97a59",
+    "normalized_text_hash": "099ee734b9a18cc15fba6abb5fe2f59faa7c8dd3877aa4a386ed4459f8510bac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:11:52.967Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

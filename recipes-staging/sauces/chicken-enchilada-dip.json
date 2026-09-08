@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-enchilada-dip",
+  "name": "Chicken Enchilada Dip",
+  "subtitle": "Warm, cheesy chicken dip with green chiles and jalapeño",
+  "description": "A creamy baked dip combining chicken, cheddar, green chiles, and jalapeño for a crowd-sized appetizer.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "8-ounce-jar-mayonnaise",
+      "item": "(8 ounce) jar mayonnaise",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded"
+    },
+    {
+      "ingredient_id": "green-chile-peppers",
+      "item": "green chile peppers",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4 ounce, diced"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "preparation": "finely diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the chicken in a baking dish and bake for 20 minutes, or until it reaches 165°F in the thickest part.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Let the chicken rest for 10 minutes, then shred or finely chop it."
+    },
+    {
+      "step": 4,
+      "text": "Combine the softened cream cheese, mayonnaise, cheddar, green chiles, and jalapeño. Stir in the chicken."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and bake at 350°F for 30 minutes, until golden brown and hot throughout.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24643/chicken-enchilada-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aa0137da6d396265f54187be8aac8bcdbc4002210c42bd44ad827fdeda83c81c",
+    "normalized_text_hash": "96cb68a839141ca06ff6d572ba9c2550fcdc5af3600eba65318c3f5ab91114a1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:04:00.405Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

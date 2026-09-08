@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "watermelon-soup",
+  "name": "Watermelon Soup",
+  "subtitle": "Chilled watermelon soup with mint and lemon",
+  "description": "A refreshing no-cook soup blended from juicy watermelon, bright lemon, fresh mint, and honey, then served well chilled.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "watermelon",
+      "item": "watermelon",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cubed seeded"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-mint",
+      "item": "fresh mint",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the watermelon, lemon juice, chopped mint, and honey in a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Stir briefly and serve chilled."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "no-cook",
+    "chilled",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228229/watermelon-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "73804593275b9fcd3f82eaf10959a759334a3e6533864b9f6286ba69f91952c3",
+    "normalized_text_hash": "c775c1fef03a6304792df346ca3be131687a4869026df25e3aba637c2187163a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:57:48.682Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

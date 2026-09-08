@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-martini",
+  "name": "Chocolate Martini",
+  "subtitle": "A chilled chocolate cocktail with creamy liqueur and vodka",
+  "description": "Combine melted chocolate, chocolate syrup, liqueurs, vodka, and ice for two smooth, chocolate-forward martinis.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate",
+      "item": "chocolate",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "irish-cream-liqueur",
+      "item": "Irish cream liqueur",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "coffee-liqueur",
+      "item": "coffee liqueur",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "chocolate-syrup",
+      "item": "chocolate syrup",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "handful-of-ice",
+      "item": "handful of ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the melted chocolate and chocolate syrup together, then chill until set."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the chilled chocolate mixture with the Irish cream liqueur, coffee liqueur, vodka, and ice until well combined and cold."
+    },
+    {
+      "step": 3,
+      "text": "Divide the cocktail between two serving glasses."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "chocolate",
+    "martini"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-martini",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e9c9a68f74e2735b465f4f92b04176ff4e0eeb299949ee64ce063f5bdf7768e0",
+    "normalized_text_hash": "732a3c10e4ec4e266b5e8cb4924525f402047e3e4698e4caaf75721594d08715",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:08:11.100Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

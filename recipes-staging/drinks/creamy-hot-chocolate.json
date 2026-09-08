@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-hot-chocolate",
+  "name": "Creamy Hot Chocolate",
+  "subtitle": "Rich, smooth chocolate drink for a crowd",
+  "description": "A comforting hot chocolate made by gently heating milk, chocolate, cream, and condensed milk until smooth and fragrant.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 120,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips",
+      "item": "milk chocolate chips",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk, chocolate chips, sweetened condensed milk, heavy whipping cream, and vanilla extract in a large heatproof cooking vessel."
+    },
+    {
+      "step": 2,
+      "text": "Cook gently for 120 minutes, stirring occasionally, until the chocolate is melted and the mixture is smooth and hot.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Let the hot chocolate cool for 5 minutes, then serve.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "hot-chocolate",
+    "drink",
+    "beverage",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large heatproof cooking vessel"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260793/the-polar-express-creamy-hot-chocolate/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b7943a1bfbe0b0c6a99358230ef508f1889b5ef792cbafa501d82c96fa08a10a",
+    "normalized_text_hash": "02aeb7ed317400abd8e17adbcf07f6c86d7f9bc40011bf980d95e11066f3999c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:02:32.883Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

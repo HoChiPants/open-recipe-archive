@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-barbecue-shrimp",
+  "name": "Bacon-Wrapped Barbecue Shrimp",
+  "subtitle": "Seasoned shrimp wrapped in crisp bacon",
+  "description": "Large shrimp are seasoned, wrapped with bacon, chilled briefly to set, and baked until the shrimp are opaque and tender.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shrimp",
+      "item": "shrimp",
+      "quantity": 16,
+      "unit": "large",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "barbeque-seasoning",
+      "item": "barbeque seasoning",
+      "preparation": "to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut each bacon slice in half. Season the shrimp with barbeque seasoning, then wrap each shrimp with a half slice of bacon and arrange on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Chill the wrapped shrimp for 15 minutes so the bacon holds its shape.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Bake until the bacon is cooked and the shrimp are opaque and tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle with additional barbeque seasoning to taste and serve immediately."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "shrimp",
+    "bacon",
+    "barbecue",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16647/bacon-wrapped-barbeque-shrimp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fc99b4f737a0a91f29f6541f148be1e2aa8e8f5cd5afa880d72b8bc4eab3a86d",
+    "normalized_text_hash": "6e4de271f8d1d8425874e0a66459627b37beffe3f3bfdbe43985186910304f8a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:39:40.695Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

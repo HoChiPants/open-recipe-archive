@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-french-fries",
+  "name": "Baked French Fries",
+  "subtitle": "Crisp-edged oven fries with garlic and pepper",
+  "description": "Thick-cut Yukon Gold potatoes are seasoned and baked until browned and tender for a simple side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "yukon-gold-potatoes",
+      "item": "Yukon Gold potatoes",
+      "quantity": 6,
+      "preparation": "cut into thick fries"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Coat a baking sheet with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Place the cut potatoes in a bowl, add the sugar, and let them stand until set, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes thoroughly. Toss them with the olive oil, garlic powder, salt, and pepper until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Spread the potatoes in a single layer on the prepared baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, turn the fries, then bake for 20 minutes more, until browned and tender.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "baked",
+    "french-fries",
+    "potatoes",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "baking sheet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229310/best-baked-french-fries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "41137f9c765b88d1fd9557917d38b114e522f22982edc0d5bf4464842448119e",
+    "normalized_text_hash": "4a4790b2ee321f3014be9f873d0a96fda907240440c2d76223d169297668ffc2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:28:56.598Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

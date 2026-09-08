@@ -1,0 +1,171 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-loaf-cake",
+  "name": "Cherry Loaf Cake",
+  "subtitle": "A buttery loaf with cherries, almonds, and a light icing",
+  "description": "Bake a tender cherry-studded loaf with almond flavor, then finish it with a simple icing and toasted almond flakes.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soft-unsalted-butter-plus-extra-for-the-tin",
+      "item": "soft unsalted butter plus extra for the tin",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract (optional)",
+      "quantity": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "glace-cherries-patted-dry-if-in-syrup",
+      "item": "glacé cherries patted dry if in syrup",
+      "quantity": 75,
+      "unit": "g",
+      "preparation": "then quartered"
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-almonds",
+      "item": "ground almonds",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "a-drop-of-almond-extract",
+      "item": "a drop of almond extract"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": "1-2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "flaked-almonds",
+      "item": "flaked almonds",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparation": "toasted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and grease a loaf tin with some of the butter."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the remaining butter with the golden caster sugar until creamy. Beat in the eggs, vanilla extract, and optional almond extract."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the self-raising flour, ground almonds, and baking powder. Fold this mixture into the butter mixture, then fold in the quartered cherries until the batter is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the tin and bake for 55 minutes, until the center is fully set and a thermometer reads 160°F.",
+      "timer_minutes": 55
+    },
+    {
+      "step": 5,
+      "text": "Cool in the tin for 10 minutes, then transfer the loaf to a rack to cool further.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Whisk the icing sugar with the remaining flavorings and enough milk to make a thick icing. Spread it over the cooled loaf and finish with the toasted flaked almonds."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "cherry",
+    "loaf-cake",
+    "almond"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf tin",
+    "mixing bowls",
+    "whisk",
+    "wire rack",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cherry-loaf-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ae35a77eb7c1c0e19dc02ea4ae6f5932efb0a490b1ae9b1fb72093fc3066518a",
+    "normalized_text_hash": "daef8284f26e8178f3cb478631a8164bbf80324b186691fbb0f9f8b6131c1fe6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:20:03.565Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

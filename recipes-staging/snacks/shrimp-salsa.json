@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-salsa",
+  "name": "Shrimp Salsa",
+  "subtitle": "A bright, chilled seafood dip with lime and cilantro",
+  "description": "Combine cooked shrimp with diced tomatoes, onion, cilantro, lime juice, garlic, salt, and pepper, then chill before serving.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salad-shrimp",
+      "item": "salad shrimp",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "roma-plum-tomatoes",
+      "item": "roma (plum) tomatoes",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cilantro",
+      "item": "cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a bowl, mix the shrimp, tomatoes, red onion, cilantro, lime juice, garlic, salt, and black pepper until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 60 minutes so the flavors meld. Use shrimp that are fully cooked and opaque.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Stir briefly and serve chilled."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "mexican-inspired",
+    "chilled",
+    "seafood-dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214182/shrimp-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ff677248b47c94a9b2ea5fbf5016b8286bfa45acf3696bd942bf2150b618d84",
+    "normalized_text_hash": "1d5e873966c05c1376444907bab926256a07799cb8da0741c91ac27567f33e6d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:20:00.516Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

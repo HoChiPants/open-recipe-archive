@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-and-turkey-salad",
+  "name": "Cranberry and Turkey Salad",
+  "subtitle": "A cool, creamy salad with sweet-tart cranberries and crisp celery.",
+  "description": "Combine cooked turkey, cranberries, almonds, celery, and mayonnaise for a quick salad suited to lunch or dinner.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "turkey",
+      "item": "turkey",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "chopped cooked"
+    },
+    {
+      "ingredient_id": "dried-cranberries",
+      "item": "dried cranberries",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the chopped cooked turkey, dried cranberries, sliced almonds, chopped celery, and mayonnaise to a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir until evenly combined, then serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "lunch",
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234079/cranberry-and-turkey-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "307eb67472421015197031fd07455933b9ac9b1ef20a7936b8f0c810e15f868d",
+    "normalized_text_hash": "3983aaa13f651bd2db255b7c5e1ac6ee78d260502d5a7e43fbb7f0cb11b4b952",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:19:06.284Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

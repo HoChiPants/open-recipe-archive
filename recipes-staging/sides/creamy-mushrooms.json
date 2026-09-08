@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-mushrooms",
+  "name": "Creamy Mushrooms",
+  "subtitle": "Tender mushrooms in a simple cream sauce",
+  "description": "Sautéed mushrooms are folded into a thick, savory milk-based sauce for an easy side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a skillet over medium heat and warm the soy sauce with it."
+    },
+    {
+      "step": 2,
+      "text": "Add the sliced mushrooms and sauté until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the flour, then gradually add the milk and continue stirring until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the sauce thickens, then season with salt and pepper to taste and serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "skillet",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25360/creamy-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9121c549691551b47290f520e8c1082a1a45febeaf625dead61805dea05b0bcf",
+    "normalized_text_hash": "ea880f10cffa3148af494cd2f93fc5e52ad46417a4e5f0d4b4fd800d777ab546",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:40:15.509Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-sweet-potatoes",
+  "name": "Baked Sweet Potatoes",
+  "subtitle": "Tender oven-baked potatoes with oregano and pepper",
+  "description": "Sweet potatoes are coated with olive oil and simple seasonings, then baked until tender for an easy savory side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sweet-potatoes",
+      "item": "sweet potatoes",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "pinches"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "pinches"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "pinches"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Wash and dry the sweet potatoes, then cut them into halves or similarly sized pieces."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the potatoes on a baking sheet and coat them with the olive oil, dried oregano, salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the potatoes are tender when pierced with a fork, about 45 minutes.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "vegetarian",
+    "vegan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18249/baked-sweet-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "912fac4c2093923d68f96be421fd0101085130018246f58b8c7aec3cbe1aa6d2",
+    "normalized_text_hash": "6c45a3ccd760cb745f703433aad92da7163c4138ae796096c2bc875bbdfeed43",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:52:04.936Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

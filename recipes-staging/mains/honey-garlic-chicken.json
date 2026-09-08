@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-garlic-chicken",
+  "name": "Honey-Garlic Chicken",
+  "subtitle": "Tender chicken in a sweet, savory, lightly spicy sauce",
+  "description": "Cubed chicken breast is pressure-cooked with a honey-garlic sauce, then finished with green onions and sesame seeds.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sriracha-sauce",
+      "item": "sriracha sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-breast",
+      "item": "chicken breast",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 1-inch cubes"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or as desired"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk honey, soy sauce, garlic, ketchup, and sriracha together; set aside."
+    },
+    {
+      "step": 2,
+      "text": "Coat the chicken cubes with cornstarch, then combine them with the chicken broth."
+    },
+    {
+      "step": 3,
+      "text": "Set the pressure cooker to sauté and heat the vegetable oil. Add the chicken mixture and sauté for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add the prepared sauce, secure the lid, and pressure-cook for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Release pressure according to the cooker instructions, then verify that the thickest chicken pieces reach 165°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Transfer the chicken to a serving dish. Stir the sauce in the pot until smooth and slightly thickened, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Return the chicken to the sauce, garnish with green onions and sesame seeds, and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pressure-cooker",
+    "chicken",
+    "sweet-savory",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "soy",
+    "sesame",
+    "wheat"
+  ],
+  "equipment": [
+    "electric pressure cooker",
+    "whisk",
+    "measuring cups and spoons"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270944/instant-pot-honey-garlic-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "177021996a9f2528ce8142bb85818677f45e5f11fb96ee9594abf5698a5e6aff",
+    "normalized_text_hash": "97f9589917abe0e1d38a3aacc2b0a06e3ed266609592511d2ba8aed434572663",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:06:21.826Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

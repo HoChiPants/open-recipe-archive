@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "turkey-salad",
+  "name": "Turkey Salad",
+  "subtitle": "A chilled turkey salad with eggs, pickles, and creamy dressing",
+  "description": "Combine cooked turkey, chopped sweet pickles, eggs, and a creamy mustard-mayonnaise dressing, then chill before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "turkey-meat",
+      "item": "turkey meat",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-sweet-pickles",
+      "item": "(16 ounce) jar sweet pickles",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "10-ounce-jars-mustard-mayonnaise-blend",
+      "item": "(10 ounce) jars mustard-mayonnaise blend",
+      "quantity": 1.5
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan, cover with water, and bring to a boil. Cook until fully set and the center reaches 160°F, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Cool the eggs, peel them, and chop them."
+    },
+    {
+      "step": 3,
+      "text": "Combine the chopped eggs, cooked turkey, sweet pickles, mustard-mayonnaise blend, and mayonnaise in a large bowl. Mix until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate for 3 hours before serving.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "lunch",
+    "chilled",
+    "make-ahead",
+    "turkey",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "knife",
+    "large mixing bowl",
+    "refrigerator",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21225/annies-turkey-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "890fb9faff0cbe3bcd374b682632f0bb3f257ee4ee2082b14f81b736245f65af",
+    "normalized_text_hash": "41bfe2ebf7afde4cb054298ac06600f7dcb9342c4682a4374534597dbf4d9059",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:15:40.413Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

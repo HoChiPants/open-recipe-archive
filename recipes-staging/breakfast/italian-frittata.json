@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-frittata",
+  "name": "Italian Frittata",
+  "subtitle": "A savory baked egg dish with salami, vegetables, and two cheeses.",
+  "description": "This hearty frittata combines salami, vegetables, herbs, and cheese in a tender baked egg base.",
+  "meal_type": "breakfast",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salami",
+      "item": "salami",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "artichoke-hearts",
+      "item": "artichoke hearts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "drained and chopped"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes",
+      "item": "cherry tomatoes",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4.5 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "In an oven-safe skillet, stir the salami, artichoke hearts, cherry tomatoes, and mushrooms for 4 minutes. Transfer the salami and vegetables to a plate.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, milk, green onions, garlic, dried basil, onion powder, salt, and pepper until combined."
+    },
+    {
+      "step": 4,
+      "text": "Return the salami and vegetables to the skillet, then pour in the egg mixture. Sprinkle with the Parmesan and mozzarella."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "brunch",
+    "italian-inspired",
+    "egg-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228687/italian-frittata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7e75d7e9ab099a46c099b95826c4c1b66e9c29b0021d18d1baf943c01e8a8a01",
+    "normalized_text_hash": "f34f611546db95126792b546c2db8f32907b237aeb039aa0846c9a51754fd50a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:18:19.448Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

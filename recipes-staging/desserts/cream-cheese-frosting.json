@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-cheese-frosting",
+  "name": "Cream Cheese Frosting",
+  "subtitle": "Smooth, tangy icing for cakes",
+  "description": "A simple cream cheese frosting made with softened butter, icing sugar, and full-fat cream cheese, with optional orange juice for a citrus note.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 18,
+    "unit": "cm cake (approx 8 people)"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4oz-butter-softened",
+      "item": "/4oz butter softened",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "4oz-icing-sugar-sieved",
+      "item": "/4oz icing sugar sieved",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "7oz-full-fat-cream-cheese",
+      "item": "/7oz full fat cream cheese",
+      "quantity": 200,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened butter until smooth and creamy."
+    },
+    {
+      "step": 2,
+      "text": "Add the icing sugar and optional orange juice, then whisk until combined."
+    },
+    {
+      "step": 3,
+      "text": "Add the full-fat cream cheese and whisk briefly until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Use the frosting immediately, or chill for 10 minutes if a firmer texture is preferred.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "cake-topping",
+    "frosting",
+    "icing"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/foolproof-cream-cheese-frosting",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c43a4bb9c05cdb8e54edc77f1737a22835217d3b4639754e2f68950a43b7ff8f",
+    "normalized_text_hash": "843564e01103388e684c122645ef48d601beaaf6d442dc5d30ced31bab04f235",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:17:06.772Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

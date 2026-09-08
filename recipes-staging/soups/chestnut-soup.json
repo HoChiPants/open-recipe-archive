@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chestnut-soup",
+  "name": "Chestnut Soup",
+  "subtitle": "A smooth, gently sweet soup with cream and herbs",
+  "description": "Roasted chestnuts simmer with onion and aromatic herbs, then finish with seasoned cream for a rich, velvety soup.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chestnuts",
+      "item": "chestnuts",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-parsley",
+      "item": "sprigs fresh parsley",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 2,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 450°F. Cut and shape the peeled chestnuts as needed, then arrange them on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Bake the chestnuts for 10 minutes, then let them cool briefly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Combine the chicken stock, chestnuts, and onion in a large pot. Add the parsley, cloves, and bay leaf."
+    },
+    {
+      "step": 4,
+      "text": "Bring the mixture to a simmer and cook until the chestnuts and onion are tender, about 45 minutes. If the stock contains poultry, check that the soup reaches 165°F with a food thermometer.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Remove the parsley, cloves, and bay leaf. Prepare the soup until smooth using the appropriate blending method."
+    },
+    {
+      "step": 6,
+      "text": "Whisk the heavy cream with the sugar, salt, and black pepper. Stir it into the soup and warm gently before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking sheet",
+    "large pot",
+    "food thermometer",
+    "blender or immersion blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9091/chestnut-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f9a0737aac3924a17ef02f58c66697dd3c3758669b822c2fbbbfe1c864d1fad7",
+    "normalized_text_hash": "d9c1203f0bccee8cfb5b27527e5f4a3f2ee66345d1d3036bd60be3118d34fcd2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:51:00.750Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

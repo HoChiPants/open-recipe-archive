@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bicerin",
+  "name": "Bicerin",
+  "subtitle": "Layered espresso, chocolate, and cream",
+  "description": "A warm Italian drink combining freshly brewed espresso, smooth dark chocolate, and a lightly whipped cream topping, finished with hazelnut and cocoa.",
+  "meal_type": "drink",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 4,
+    "cook_minutes": 3
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 125,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "whole-milk-or-single-cream",
+      "item": "whole milk or single cream",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "dark-chocolate-at-least-70-cocoa-solids",
+      "item": "dark chocolate (at least 70% cocoa solids)",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "demerara-sugar-to-taste",
+      "item": "demerara sugar to taste"
+    },
+    {
+      "ingredient_id": "shots-of-freshly-brewed-espresso",
+      "item": "shots of freshly brewed espresso",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "hazelnuts-finely-grated-or-chopped",
+      "item": "hazelnuts finely grated or chopped",
+      "quantity": 10,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "of-cocoa-powder",
+      "item": "of cocoa powder",
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the double cream until softly thickened, then set it aside."
+    },
+    {
+      "step": 2,
+      "text": "Warm the whole milk or single cream with the chopped chocolate and demerara sugar, whisking until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Preheat two heatproof serving glasses, then divide the freshly brewed espresso between them."
+    },
+    {
+      "step": 4,
+      "text": "Pour in the hot chocolate mixture and spoon the whipped cream over each drink."
+    },
+    {
+      "step": 5,
+      "text": "Finish with the grated or chopped hazelnuts and a pinch of cocoa powder. Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "italian",
+    "espresso",
+    "hot-chocolate",
+    "coffee"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "whisk",
+    "saucepan",
+    "heatproof serving glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bicerin",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc86ef26231a03d3e3917d19cc71cbdf6f97e5c6d083c2b850243ada6017e357",
+    "normalized_text_hash": "775cd3d3426d466430b6e317512605abc64ab75ea390ad9ae0f72c4dc879ba72",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:32:04.850Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

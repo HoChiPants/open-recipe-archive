@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "avocado-spread",
+  "name": "Avocado Spread",
+  "subtitle": "A creamy, tangy no-cook spread",
+  "description": "Mash ripe avocado with ranch seasoning, lemon juice, and mayonnaise, then chill until ready to serve.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-avocados",
+      "item": "ripe avocados",
+      "quantity": 2,
+      "preparation": "peeled, pitted, and mashed"
+    },
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "light-mayonnaise",
+      "item": "light mayonnaise",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mashed avocados, ranch dressing mix, lemon juice, and mayonnaise until evenly mixed."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "sauce",
+    "american",
+    "avocado",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "fork or potato masher",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/147388/easy-avocado-spread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b5f2f5086160f477b7db08d04b7cf5e213ee2b8e52198cf4ecd860246f7d874",
+    "normalized_text_hash": "4e19b3b7ba94669c1da086e000d391d2c7c890440e3370e25141ea4bf25bc64d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:19:57.459Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

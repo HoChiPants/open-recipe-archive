@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tuna-pizza",
+  "name": "Tuna Pizza",
+  "subtitle": "A creamy, savory pizza with tuna and red onion",
+  "description": "Spread a creamy cheese mixture over a pre-baked crust, add tuna and onion, then bake until bubbling and safely heated.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "pre-baked-pizza-crust",
+      "item": "pre-baked pizza crust",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "tuna",
+      "item": "tuna",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained and flaked"
+    },
+    {
+      "ingredient_id": "thinly-sliced-red-onion",
+      "item": "thinly sliced red onion",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "preparation": "crushed, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese and mozzarella together, then spread the mixture over the pre-baked crust."
+    },
+    {
+      "step": 3,
+      "text": "Scatter the tuna and red onion over the crust and finish with red pepper flakes."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, until the cheese is melted and the tuna reaches 145°F or is opaque and easily flaked.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "pizza",
+    "tuna",
+    "dinner",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217920/tuna-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d088883bc6bb938305cfbb89abe41ac7631a865e39daa90c5eb8b47a92c0a7f0",
+    "normalized_text_hash": "e164ae4d7df5c1e8735fcfc221e5e751701a6524157b5267cbc3ce1a14724d63",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:25:22.135Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

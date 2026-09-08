@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-croutons",
+  "name": "Air-Fryer Croutons",
+  "subtitle": "Crisp, buttery seasoned bread cubes",
+  "description": "Bread cubes are coated with seasoned butter and crisped in the air fryer for a quick savory topping or snack.",
+  "meal_type": "snack",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 4,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "parsley-flakes",
+      "item": "parsley flakes",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the parsley, garlic powder, seasoned salt, and melted butter together. Add the cubed bread and toss until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated bread in the air-fryer basket in an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry for 4 minutes, then shake the basket.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Cook for 2 minutes more, or until crisp and browned.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Transfer the croutons to a plate and let them cool for 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "french",
+    "air-fryer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279399/homemade-croutons-in-the-air-fryer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "645ee7b43ca8284b84e6bbf3c6b29fa190fa93b6a58165abcf895ff598c99404",
+    "normalized_text_hash": "c602f063c8d15d90a06f6440b26b468a5a9a219b913258878bc89ce59396c8a3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:39:52.048Z",
+    "semantic_similarity": 42,
+    "structural_similarity": 58,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

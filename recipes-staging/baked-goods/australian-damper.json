@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "australian-damper",
+  "name": "Australian Damper",
+  "subtitle": "A simple, rustic loaf with a crisp golden crust",
+  "description": "Mix a lightly seasoned flour dough with butter, milk, and water, shape it into a round, and bake until golden brown.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the flour and salt together in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Work the softened butter into the flour mixture."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the milk and water until a dough forms."
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough into a round on a lightly floured surface, then transfer it to a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Cut the top of the dough into sections."
+    },
+    {
+      "step": 7,
+      "text": "Bake at 425°F for 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 8,
+      "text": "Reduce the oven temperature to 350°F and bake for 10 minutes more, until golden brown.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "bread",
+    "australian",
+    "quick-bread",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16726/australian-damper/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1b6f0dbba47de03d08cc1b73916e6aae35979dafb7b86b85fa98d75d3d2e70a9",
+    "normalized_text_hash": "434d03c2eaad6b02e0bfba726346eb9314dadab1f2d6fa8070ff556fdeb8cafb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:32:11.329Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

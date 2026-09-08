@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crispy-pork-belly",
+  "name": "Crispy Pork Belly",
+  "subtitle": "Slow-baked, chilled, and pan-crisped pork",
+  "description": "Seasoned pork belly is baked until tender, chilled for clean slicing, then browned in a hot pan for a crisp exterior.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 365,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-pork-belly",
+      "item": "whole pork belly",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "skin removed"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "kosher-salt-and-ground-black-pepper-to-taste",
+      "item": "kosher salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 200°F."
+    },
+    {
+      "step": 2,
+      "text": "Rub the pork belly with smoked paprika, kosher salt, and ground black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Place the seasoned pork belly in a baking dish and cover it securely."
+    },
+    {
+      "step": 4,
+      "text": "Bake until tender, about 6 hours; verify that the center reaches at least 145°F, then rest for 3 minutes.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 5,
+      "text": "Let the pork belly cool, then refrigerate it until firm, about 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 6,
+      "text": "Slice the chilled pork belly into bite-size pieces and season with additional kosher salt and ground black pepper as desired."
+    },
+    {
+      "step": 7,
+      "text": "Heat the olive oil in a skillet over medium-high heat. Add the pork belly and cook, turning as needed, until browned and crisp, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 8,
+      "text": "Transfer to a serving plate and serve hot."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "american",
+    "crispy",
+    "pork-belly"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "refrigerator",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240136/crispy-pork-belly/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "51921646365d41b10dbff40b99fa3aad9509ce83814576d280d543e99d283bf1",
+    "normalized_text_hash": "ff7de2db66f4701b2240c63cc152311da5c410ed4b13ad75c6f8f992f1404d88",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:49:56.900Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

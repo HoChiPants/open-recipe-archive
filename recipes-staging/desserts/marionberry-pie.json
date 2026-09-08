@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "marionberry-pie",
+  "name": "Marionberry Pie",
+  "subtitle": "A double-crust pie filled with sweet-tart berries.",
+  "description": "Fresh marionberries bake beneath a flaky pastry crust with a lightly sugared finish.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 55,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-marionberries",
+      "item": "fresh marionberries",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "pastry-for-a-9-inch-double-crust-pie",
+      "item": "pastry for a 9-inch double crust pie",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Line a 9-inch pie dish with half of the pastry, leaving the edge slightly overhanging."
+    },
+    {
+      "step": 3,
+      "text": "Combine the marionberries, white sugar, flour, lemon juice, and sugar. Spoon the filling into the pastry-lined dish."
+    },
+    {
+      "step": 4,
+      "text": "Cover with the remaining pastry, trim and crimp the edges, and cut vents in the top crust."
+    },
+    {
+      "step": 5,
+      "text": "Brush the crust with water and sprinkle with sugar."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 450°F for 10 minutes, then reduce the oven temperature to 350°F and bake for 50 minutes, until the crust is golden and the filling is bubbling.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 7,
+      "text": "Cool the pie completely before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "berry",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "pastry brush",
+    "knife",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246928/northwest-marionberry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ee6e5df398ab1c8dbb689570a781b5f31687b37d4b7eed916eda6430768b8e6",
+    "normalized_text_hash": "02c8894328a75080ebc6a6b8483747b2418520c87e79e654183a8a01ab27ab06",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:18:07.377Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

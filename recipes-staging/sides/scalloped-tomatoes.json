@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scalloped-tomatoes",
+  "name": "Scalloped Tomatoes",
+  "subtitle": "A warm tomato bake with basil and crisp bread",
+  "description": "Sliced tomatoes are seasoned, combined with sautéed onion and bread cubes, then baked until tender and lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 5,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "white-bread-cubes",
+      "item": "white bread cubes",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a skillet over medium heat. Add the onion and cook for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Stir in the salt, pepper, basil, brown sugar, and sliced tomatoes. Mix gently to combine."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the white bread cubes until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and bake at 375°F for 35 minutes, until hot and lightly browned.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Let the casserole rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "tomatoes",
+    "baked"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14031/scalloped-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0677fac45370ec72ee6403ae091835ad849b5dc1e59891078fb20ba017f08744",
+    "normalized_text_hash": "a2064363c5644c7f5377aaa63236e7d337222958a7aad0cd9f482ac96fd754c4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:58:23.218Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

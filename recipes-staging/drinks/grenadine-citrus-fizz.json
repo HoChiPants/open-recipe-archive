@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grenadine-citrus-fizz",
+  "name": "Grenadine Citrus Fizz",
+  "subtitle": "A bright, bubbly fruit drink with a cherry finish",
+  "description": "Combine citrus juice, lemon-lime soda, and grenadine for a quick single-serving cooler.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-lime-flavored-carbonated-beverage",
+      "item": "lemon-lime flavored carbonated beverage",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grenadine-syrup",
+      "item": "grenadine syrup",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "maraschino-cherry",
+      "item": "maraschino cherry",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the orange juice and lemon-lime flavored carbonated beverage into a serving glass and stir gently."
+    },
+    {
+      "step": 2,
+      "text": "Add the grenadine syrup and stir briefly to combine."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the maraschino cherry and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "nonalcoholic",
+    "citrus",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "serving glass",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24489/shirley-temple-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d29e24c5203d3800e79782c1afe300494cffc3f732936f1086f55e0203a31e4a",
+    "normalized_text_hash": "1981126209fbca032ed6374ccba610373ad0244828124b55a0b05555e119d708",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:10:34.002Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

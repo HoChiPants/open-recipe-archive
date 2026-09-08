@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-pie",
+  "name": "Zucchini Pie",
+  "subtitle": "A savory vegetable pie with a tender crescent-roll crust",
+  "description": "Sautéed zucchini and onion are folded with herbs, cheese, and eggs, then baked in a crescent-roll crust until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-crescent-rolls",
+      "item": "refrigerated crescent rolls",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "lightly beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Shape the refrigerated crescent rolls into a crust and set it aside."
+    },
+    {
+      "step": 2,
+      "text": "Melt the margarine in a skillet. Add the zucchini and onion, and cook, stirring, until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir the parsley, salt, black pepper, and oregano into the cooked vegetables."
+    },
+    {
+      "step": 4,
+      "text": "Combine the vegetable mixture with the mozzarella and beaten eggs, then transfer the filling to the crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Cool for 10 minutes before slicing and serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "zucchini",
+    "vegetable-pie",
+    "savory-pie",
+    "american",
+    "baked"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pie dish",
+    "skillet",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76055/moms-zucchini-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a4d18611c2f84688562976c4375ba3078903e4538857779e3629a49095ad01ca",
+    "normalized_text_hash": "354cf7073e0e56a918a7a74cbda14619430c3300a5ab8924590a51904efb8a43",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:55:24.027Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

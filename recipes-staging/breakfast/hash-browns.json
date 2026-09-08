@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hash-browns",
+  "name": "Hash Browns",
+  "subtitle": "Crisp, golden potatoes for a hearty breakfast",
+  "description": "Parboiled russet potatoes are cooled, seasoned, and cooked in butter until golden brown.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "inactive_minutes": 715
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 8,
+      "unit": "large",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the peeled potatoes in a pot, cover with water, and simmer until tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool completely."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a large skillet with the butter."
+    },
+    {
+      "step": 4,
+      "text": "Add the cooled potatoes, season with salt and black pepper, and cook until golden brown, turning as needed for even coloring."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "hash-browns",
+    "potatoes",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21015/grandmas-hash-browns/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "721cdaa21db26250ae8c59e2e733c734a14062a90438092af1f8648f553c2bd7",
+    "normalized_text_hash": "aeb446d906e7e19ec9ddfbd61274c04b5b3f03d8c710eb5e8e9088e91dba1adf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:51:49.266Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

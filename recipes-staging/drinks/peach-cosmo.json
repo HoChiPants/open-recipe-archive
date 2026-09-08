@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-cosmo",
+  "name": "Peach Cosmo",
+  "subtitle": "A bright cranberry cocktail with peach and lime",
+  "description": "Shake cranberry juice, citron vodka, peach schnapps, and lime juice with ice for a quick, fruit-forward cocktail.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "fluid-ounces-cranberry-juice",
+      "item": "fluid ounces cranberry juice",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-citron-vodka",
+      "item": "(1.5 fluid ounce) jigger citron vodka",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "peach-schnapps",
+      "item": "peach schnapps",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a cocktail shaker with ice."
+    },
+    {
+      "step": 2,
+      "text": "Add the cranberry juice, citron vodka, peach schnapps, and lime juice. Shake until well chilled."
+    },
+    {
+      "step": 3,
+      "text": "Strain into a serving glass and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "quick",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/110218/peach-cosmo/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a9ad93f6537652209a647800fee01d2cfa4d7c36a234b2370553ffdeee077b63",
+    "normalized_text_hash": "7575123a9fe9c98c158482b24531225d145169841753ad943d7b69806cdf0e36",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:57:25.724Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

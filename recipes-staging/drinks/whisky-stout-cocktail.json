@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "whisky-stout-cocktail",
+  "name": "Whisky Stout Cocktail",
+  "subtitle": "A dark, citrus-scented mixed drink",
+  "description": "Combine whisky and orange liqueur with stout for a rich, bittersweet cocktail, served over ice if desired.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "handful-of-ice-cubes-optional",
+      "item": "handful of ice cubes (optional)",
+      "unit": "small",
+      "optional": true
+    },
+    {
+      "ingredient_id": "orange-liqueur",
+      "item": "orange liqueur",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "whisky",
+      "item": "whisky",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "stout",
+      "item": "stout",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "chocolate-orange-shavings-to-garnish-optional",
+      "item": "chocolate orange shavings to garnish (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice cubes, if using."
+    },
+    {
+      "step": 2,
+      "text": "Add the orange liqueur and whisky, then slowly pour in the stout."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with chocolate orange shavings, if desired, and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "alcoholic",
+    "cocktail",
+    "nightcap",
+    "orange-liqueur",
+    "stout",
+    "whisky"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boozy-dark-delight",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6cf6107d8364150e3c7e7f6edf664062aceedf276eff13529d1a964af7163ae3",
+    "normalized_text_hash": "38c0ac1027e61c0add2da225e96e665b8e6786e0d9966a063eb8570e15ef318d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:43:56.928Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

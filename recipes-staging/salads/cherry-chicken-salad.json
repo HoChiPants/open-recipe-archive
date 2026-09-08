@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-chicken-salad",
+  "name": "Cherry Chicken Salad",
+  "subtitle": "A cool, lightly sweet salad with crunchy pecans and fresh apple.",
+  "description": "Combine cooked chicken with cherries, celery, pecans, and apple, then coat with a seasoned mayonnaise-buttermilk dressing and chill before serving.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 3,
+      "preparation": "boneless chicken breast halves, diced"
+    },
+    {
+      "ingredient_id": "dried-cherries",
+      "item": "dried cherries",
+      "quantity": 0.33333298563957,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.33333298563957,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "toasted",
+      "item": "toasted",
+      "quantity": 0.33333298563957,
+      "unit": "cup",
+      "preparation": "chopped pecans"
+    },
+    {
+      "ingredient_id": "low-fat-mayonnaise",
+      "item": "low-fat mayonnaise",
+      "quantity": 0.33333298563957,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 0.33333298563957,
+      "unit": "cup",
+      "preparation": "cubed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mayonnaise, buttermilk, salt, and pepper in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the diced chicken, dried cherries, celery, toasted chopped pecans, and cubed apples. Stir gently until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "lunch",
+    "make-ahead",
+    "chilled",
+    "chicken-salad"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16225/cherry-chicken-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "17dd2d762b92c7c6c37809b96d7ba79066f70176f351da3479a8696cf64a2576",
+    "normalized_text_hash": "2b9e9e2b8598a8a21a15d8e88d0978364648e415a3bc474da0c816c534a612d7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:47:26.821Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

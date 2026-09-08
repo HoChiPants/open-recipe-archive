@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-rhubarb-cooler",
+  "name": "Apple-Rhubarb Cooler",
+  "subtitle": "A crisp, tart sparkling drink served over ice.",
+  "description": "Combine apple juice, cider vinegar, and stem-ginger syrup, then top with sparkling rhubarb soda for a refreshing single serving.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "cloudy-apple-juice",
+      "item": "cloudy apple juice",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "of-the-syrup-from-a-jar-of-stem-ginger",
+      "item": "of the syrup from a jar of stem ginger",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "sparkling-rhubarb-soda",
+      "item": "sparkling rhubarb soda",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "rosemary-sprig-to-garnish",
+      "item": "rosemary sprig to garnish",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with ice."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the cloudy apple juice, apple cider vinegar, and syrup from the jar of stem ginger."
+    },
+    {
+      "step": 3,
+      "text": "Add the sparkling rhubarb soda and stir gently with the rosemary sprig, leaving it in the glass as garnish."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cooler",
+    "apple",
+    "rhubarb",
+    "non-alcoholic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan"
+  ],
+  "equipment": [
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-rhubarb-cooler",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6e4aab72ae8686bc29b9494b21573232623c8e4cac1edf4689225a6d63d5a48a",
+    "normalized_text_hash": "73afeed58c8f32964bc085835dbc2156430d359c9bb81b645c0e0f84d5bb56ee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:39:22.666Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chewy-brownies",
+  "name": "Chewy Brownies",
+  "subtitle": "Rich, chewy brownies with a simple sugar glaze",
+  "description": "A straightforward batch of cocoa brownies with walnuts and a thin confectioners’ sugar glaze.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-cocoa",
+      "item": "baking cocoa",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "light-corn-syrup",
+      "item": "light corn syrup",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking pan for the brownies."
+    },
+    {
+      "step": 2,
+      "text": "Combine the white sugar, flour, baking cocoa, salt, baking powder, and confectioners' sugar."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, light corn syrup, and vanilla extract together, then stir in the vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Add the wet mixture to the dry ingredients and stir until combined. Fold in the chopped walnuts."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 30 minutes, until the center is set.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Combine the confectioners' sugar and water to make a glaze. Spread it over the brownies after baking."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "brownies",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222639/chewy-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b9753a6ae2fb2167bd13a5858a46d515c7d041e43b9ad83ea830590480560548",
+    "normalized_text_hash": "afe5e65a849bd553fe540ec4a24c43d2ebb0a88a6278928f21cde9cc5becf608",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:51:16.775Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

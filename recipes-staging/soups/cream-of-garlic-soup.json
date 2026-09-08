@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-of-garlic-soup",
+  "name": "Cream of Garlic Soup",
+  "subtitle": "A smooth, savory soup with mellow garlic and cream.",
+  "description": "Garlic, broth, wine, potatoes, milk, and cream are gently simmered into a comforting soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic cloves",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "and-cubed-potatoes",
+      "item": "and cubed potatoes",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large saucepan over medium heat. Cut the peeled garlic cloves, then add them with the olive oil and cook gently until softened."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the chicken broth and white wine. Bring the mixture to a gentle simmer, then cook until the garlic is tender and the flavors have combined.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the milk and heavy whipping cream, add the mixture to the saucepan, and continue simmering until the soup reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Add salt and pepper to taste, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "garlic",
+    "creamy",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large saucepan",
+    "food thermometer",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13131/cream-of-garlic-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "91e20a608fef639f9a8952b24232492ed9b4eaccf08ad89bbfc73330c7ca1fae",
+    "normalized_text_hash": "5570579e0dececdcc5399ab248b485cfb831e7ce83edf42a6ac580114d124d5e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:28:59.793Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

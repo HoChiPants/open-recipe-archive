@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-apples",
+  "name": "Chocolate Apples",
+  "subtitle": "Fruit dipped in smooth chocolate with crisp toppings",
+  "description": "Coat prepared apples in melted chocolate, decorate them, and let the coating set for an easy handheld treat.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk-chocolate-finely-chopped",
+      "item": "milk chocolate finely chopped",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "eating-apples",
+      "item": "eating apples",
+      "quantity": 4,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "sugar-strands-finely-chopped-nuts",
+      "item": "sugar strands finely chopped nuts",
+      "preparation": "sprinkles, honeycomb pieces"
+    },
+    {
+      "ingredient_id": "of-each-white-and-dark-chocolate-chopped-optional",
+      "item": "of each white and dark chocolate chopped (optional)",
+      "quantity": 50,
+      "unit": "g",
+      "optional": true
+    },
+    {
+      "ingredient_id": "skewers-wooden-chopsticks-or-large-lolly-sticks",
+      "item": "skewers wooden chopsticks or large lolly sticks",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Wash and dry the apples thoroughly. If they have a waxy coating, briefly dip them in boiling water, then drain and dry completely."
+    },
+    {
+      "step": 2,
+      "text": "Insert a skewer, chopstick, or lolly stick into the stem end of each apple."
+    },
+    {
+      "step": 3,
+      "text": "Melt the milk chocolate, and the optional white and dark chocolate, separately or together in heatproof bowls over gently simmering water. Stir until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Hold each apple by its stick and dip it into the melted chocolate, turning to coat. Let excess chocolate drip back into the bowl."
+    },
+    {
+      "step": 5,
+      "text": "Add the sprinkles, chopped nuts, or honeycomb pieces while the coating is still soft. Transfer the apples to a lined tray and leave until set."
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "apples",
+    "fruit-dessert",
+    "party-treat"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "heatproof bowls",
+    "saucepan",
+    "lined tray"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-apples",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "25b8f6d485963f9eadaaebf2288889d3a900b414495c08c62586d0ad46845ff1",
+    "normalized_text_hash": "fa0cc83c6b8041744b8597ee066441adc4d7b6f90ba7a6230291eff2aa804860",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:02:39.183Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

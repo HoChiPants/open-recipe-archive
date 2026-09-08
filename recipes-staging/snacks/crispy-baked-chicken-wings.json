@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crispy-baked-chicken-wings",
+  "name": "Crispy Baked Chicken Wings",
+  "subtitle": "Garlic, herb, and Parmesan wings from the oven",
+  "description": "Chicken wings are coated in garlic butter and a savory Parmesan-herb seasoning, then baked until crisp and safely cooked.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-wings",
+      "item": "chicken wings",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-paprika",
+      "item": "ground paprika",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Separate the chicken wings at the joints if needed, and discard or reserve the tips for another use."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter with the minced garlic over low heat for about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Mix the Parmesan, parsley, oregano, paprika, salt, and black pepper in a bowl."
+    },
+    {
+      "step": 5,
+      "text": "Toss the wings with the garlic butter, then coat them with the Parmesan seasoning. Arrange them in a baking dish or on a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 60 minutes, until browned and the thickest pieces reach 165°F on a food thermometer.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "baked",
+    "chicken",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet or baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256752/awesome-crispy-baked-chicken-wings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "68c27f91d05ede43ce7fb335fd39f5359261a8ad6357abf1a16867d27070ebbe",
+    "normalized_text_hash": "20a909ea8095aeaf32f97034c64aceec172f38394a09fd4cfedc38b8d0e71627",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:36:13.427Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

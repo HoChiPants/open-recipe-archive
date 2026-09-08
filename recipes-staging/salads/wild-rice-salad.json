@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "wild-rice-salad",
+  "name": "Wild Rice Salad",
+  "subtitle": "A chilled salad with turkey, grapes, green onion, and almonds",
+  "description": "Tender wild rice is tossed with turkey, crisp grapes, green onion, and a lightly sweet vinegar-mayonnaise dressing, then chilled and finished with almonds.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "wild-rice",
+      "item": "wild rice",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "light-mayonnaise",
+      "item": "light mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "cubed turkey meat"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "seedless-red-grapes",
+      "item": "seedless red grapes",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "blanched-slivered-almonds",
+      "item": "blanched slivered almonds",
+      "quantity": 6,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the wild rice according to the package directions, then cool it completely."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the mayonnaise, vinegar, sugar, and salt and pepper until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine the cooled rice, turkey, green onion, and grapes. Add the dressing and toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill the salad for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Stir in the almonds just before serving."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "dinner",
+    "make-ahead",
+    "chilled-salad"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "pot",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24363/wild-rice-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e78f4a55d8e0ddc9d169e091a70f1b8a1ff22b172aa76d03171515108e3e6834",
+    "normalized_text_hash": "6559f1d95def2c558d9289b480037ad8dff268856e21509c311775fc9a31c4e4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:05:51.808Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

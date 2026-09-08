@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-mushroom-tetrazzini",
+  "name": "Chicken and Mushroom Tetrazzini",
+  "subtitle": "Creamy baked spaghetti with chicken and mushrooms",
+  "description": "Spaghetti is combined with a savory cream sauce, chicken, and mushrooms, then baked with Parmesan until lightly browned and heated through.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, broken into pieces"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sherry",
+      "item": "sherry",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4.5 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped cooked"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a large pot of water and part of the salt to a boil. Add the broken spaghetti and cook for 10 minutes, or until tender. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a saucepan. Stir in the flour, remaining salt, and black pepper; cook until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Add the broth, cream, and chicken. Bring the sauce to a gentle simmer and cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Combine the drained spaghetti, sauce, sherry, mushrooms, and chicken. Transfer to a baking dish and sprinkle with Parmesan."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until lightly browned and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17646/chicken-tetrazzini-iv/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9858ae22688dc42ea1c593980c8bd0cf3e8c2702932876db44e559ea4c8a2d03",
+    "normalized_text_hash": "de1cf0aba8a5feadae36a70d459544009777241830a88a31b20e5632c9f83a83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:56:52.913Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

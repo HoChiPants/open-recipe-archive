@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zeppoli",
+  "name": "Zeppoli",
+  "subtitle": "Light fried dough dusted with confectioners' sugar",
+  "description": "Yeast-raised dough is fried until golden, drained, and finished with a light coating of confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 100
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Dissolve the active dry yeast in the warm water and let it stand for 10 minutes, until set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the flour and knead until a smooth dough forms. Coat the dough lightly, cover it, and let it rise in a warm place until doubled, about 90 minutes.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 3,
+      "text": "Heat the vegetable oil to 375°F in a deep, heavy pot. Fry small portions of dough in batches until golden brown, turning as needed.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer the fried dough to a lined plate or rack to drain, then dust with confectioners' sugar and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "italian",
+    "fried",
+    "yeast-dough"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "deep heavy pot",
+    "cooking thermometer",
+    "slotted spoon",
+    "paper towels or wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6981/zeppoli/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ff2ad96ffa19aae3c5b70aaa9d2425c693215f5ef2cefb4469157e38b7c5e91d",
+    "normalized_text_hash": "abd36843f17284d4200b3fb35c9a7154f0b715d4fcfd7fa01b0ea5569b81ea3e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:13:26.148Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scalloped-red-potatoes",
+  "name": "Scalloped Red Potatoes",
+  "subtitle": "Tender layered potatoes in a creamy cheddar sauce",
+  "description": "Thinly sliced red potatoes bake beneath a savory broccoli-celery sauce and melted cheddar for a comforting side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 8,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-broccoli-soup",
+      "item": "condensed cream of broccoli soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Slice the red potatoes into thin, even pieces and arrange them in a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a skillet over medium heat. Cook the onion and garlic for 10 minutes, until the butter is melted and the aromatics are softened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in both condensed soups, the milk, salt and pepper, and the shredded Cheddar. Heat until the cheese melts and the sauce is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Pour the sauce over the potatoes and top with the remaining shredded Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 45 minutes, then continue baking for 10 minutes more, until the potatoes are tender and the cheese is melted and lightly browned.",
+      "timer_minutes": 55
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/187285/moms-red-scalloped-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a882df9116281b014f8af1a5cd237c777ff013c14d696a286f2da0382ff97da7",
+    "normalized_text_hash": "40dc517dbb76c24b27de1452923de76da64993675c41ebf2ddab61c47dfe1125",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:58:05.132Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-cranberry-sauce",
+  "name": "Pineapple Cranberry Sauce",
+  "subtitle": "A sweet-tart fruit sauce for holiday meals.",
+  "description": "Cranberries are simmered with pineapple and sugar, then cooled until ready to serve.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pineapple-chunks-with-juice",
+      "item": "pineapple chunks with juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "water-as-needed",
+      "item": "water as needed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-cranberries",
+      "item": "fresh cranberries",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Drain the pineapple, reserving the juice. Add enough water to the juice to make 1 cup liquid."
+    },
+    {
+      "step": 2,
+      "text": "In a saucepan, combine the pineapple, measured juice mixture, and sugar. Bring to a simmer over medium heat, stirring to dissolve the sugar."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the cranberries and simmer until they begin to burst and the sauce thickens slightly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a serving bowl and cool before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "cranberry",
+    "pineapple",
+    "fruit-sauce",
+    "holiday",
+    "stovetop"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "can opener",
+    "measuring cup",
+    "saucepan",
+    "spoon",
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235235/amazing-pineapple-cranberry-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4451050b1ab49c9a6516a15fae69f070b12b085058dc5d7cc08ecb020af01081",
+    "normalized_text_hash": "09125cd7d3cb76b86b1fdffa4dcfc285e62332cfe65ae2246b6b89c58999a62f",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:53:37.164Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

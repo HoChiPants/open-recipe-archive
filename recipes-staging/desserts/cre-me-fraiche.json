@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cre-me-fraiche",
+  "name": "Crème Fraiche",
+  "subtitle": "Simple chilled cultured cream",
+  "description": "A rich French cream preparation made by combining heavy cream with buttermilk and chilling until ready to serve.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the buttermilk and heavy whipping cream in a clean bowl, stirring until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mixture to a covered container."
+    },
+    {
+      "step": 3,
+      "text": "Chill for 24 hours before serving.",
+      "timer_minutes": 1440
+    }
+  ],
+  "tags": [
+    "dessert",
+    "french",
+    "cream"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "covered container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9455/creme-fraiche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c3d4824528fc57673881ccb267a3cb63503082fb8221ceb0fb848920fc8bb265",
+    "normalized_text_hash": "444a910131b211f4051a9210cfdc6e83a6e6c0e749cf8e4934febc47176816a4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:46:42.839Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

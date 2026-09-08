@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-bacon-ranch-chicken",
+  "name": "Baked Bacon Ranch Chicken",
+  "subtitle": "Tender chicken with bacon, creamy dressing, and Parmesan",
+  "description": "Chicken breasts are baked beneath a savory sauce, crisp bacon, tender onion, and a Parmesan topping.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thick-cut-bacon",
+      "item": "thick cut bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "stir-fry-sauce",
+      "item": "stir-fry sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ranch-style-salad-dressing",
+      "item": "Ranch-style salad dressing",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon in a skillet until crisp. Drain, crumble, and set aside."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in the skillet and sauté the chopped onion until tender."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the chicken breast halves in a baking dish. Stir together the stir-fry sauce and Ranch-style dressing, then pour the mixture over the chicken."
+    },
+    {
+      "step": 5,
+      "text": "Scatter the bacon, onion, and Parmesan over the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the chicken is cooked through and reaches 165°F in the thickest part, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17559/anniversary-chicken-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7f93c21e0032d88752e6bfd7590b1d6f2ef45072672d3712a643ba9fded132c1",
+    "normalized_text_hash": "939bd75ce43f7f51f0b724bb97946fa2a87e8a618dd5194e916825e7573c9d71",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:18:59.687Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "macaroons",
+  "name": "Macaroons",
+  "subtitle": "Coconut macaroons with a crisp, lightly golden exterior",
+  "description": "Whipped egg whites and sweetened coconut bake into simple chewy macaroons.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-flaked-coconut",
+      "item": "sweetened flaked coconut",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Line a baking sheet with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites, salt, and white sugar until soft peaks form, then continue whisking until stiff peaks develop."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the sweetened flaked coconut until evenly combined. Divide the mixture into 12 mounds on the prepared sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake until lightly golden and the centers are fully set; the egg mixture should reach 160°F.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 5,
+      "text": "Cool the macaroons on the baking sheet before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "coconut",
+    "baked",
+    "kosher"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/155551/macaroons/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c07b7aebf3ae8b80073589185c211d7f46abc0a1e4f2f0413c126f08178eefc2",
+    "normalized_text_hash": "fe49e985b8e53546720aa9ccade4e278fd1272557747752eee1ac76e5372089b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:10:55.853Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

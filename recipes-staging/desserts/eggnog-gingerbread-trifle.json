@@ -1,0 +1,159 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "eggnog-gingerbread-trifle",
+  "name": "Eggnog Gingerbread Trifle",
+  "subtitle": "Layered gingerbread, eggnog pudding, and cranberry cream",
+  "description": "Bake a gingerbread cake, layer it with eggnog pudding and vanilla-sweetened whipped cream, then finish with cranberries and cookie crumbs.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "inactive_minutes": 420
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "gingerbread-cake-mix",
+      "item": "gingerbread cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": "1 1/4",
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5.1 ounce"
+    },
+    {
+      "ingredient_id": "eggnog",
+      "item": "eggnog",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sweetened-dried-cranberries",
+      "item": "sweetened dried cranberries",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "gingersnap-cookie-crumbs",
+      "item": "gingersnap cookie crumbs",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare the gingerbread cake mix with the water and egg according to the package directions, then spread the batter in a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Bake until the cake is set and the center reaches 160°F, about 25 minutes. Cool completely, about 60 minutes, then cut or crumble into pieces.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Whisk the instant vanilla pudding mix with the eggnog for 2 minutes. Chill until thickened.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Beat the heavy cream with the white sugar and vanilla extract until stiff peaks form."
+    },
+    {
+      "step": 5,
+      "text": "Layer cake pieces, eggnog pudding, and whipped cream in a trifle dish; repeat the layers as needed."
+    },
+    {
+      "step": 6,
+      "text": "Cover and chill for at least 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 7,
+      "text": "Top with the chopped dried cranberries and gingersnap cookie crumbs before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "holiday",
+    "make-ahead"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowls",
+    "whisk or electric mixer",
+    "trifle dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213043/eggnog-gingerbread-trifle/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3a494f738ddbe2f4c65ac7f6d9b81a5065c2c4e31d5d31c82179c3e5c6e797a8",
+    "normalized_text_hash": "b64f61b185ae3ac246bc69ac9acc6951df64dfd1039b2100b525be5361ae73ad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:57:20.511Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

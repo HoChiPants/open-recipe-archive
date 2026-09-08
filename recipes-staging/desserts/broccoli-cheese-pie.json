@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-cheese-pie",
+  "name": "Broccoli Cheese Pie",
+  "subtitle": "Savory broccoli pie with a crisp cheese crust",
+  "description": "A baked savory pie layered with broccoli, mushrooms, onion, cream, cheese, and eggs.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-fresh-broccoli",
+      "item": "head fresh broccoli",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dry-mustard",
+      "item": "dry mustard",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Cook the chopped broccoli in boiling water for 5 minutes, then drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir the Cheddar, 0.75 cup all-purpose flour, salt, and dry mustard together. Mix in the melted butter, then press the mixture evenly into a pie dish."
+    },
+    {
+      "step": 3,
+      "text": "Melt the remaining butter in a skillet. Cook the onion and mushrooms until tender. Stir in the 2 tablespoons flour, half-and-half cream, and nutmeg; simmer for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Add the broccoli to the sauce, then mix in the beaten eggs. Pour the filling into the prepared crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 400°F for 15 minutes. Reduce the oven to 375°F and continue baking for 20 minutes, or until the center is fully set and reaches 160°F.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "savory-pie",
+    "broccoli",
+    "cheese",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pie dish",
+    "skillet",
+    "mixing bowls",
+    "pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76625/broccoli-cheese-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f16a0234c1cf654c7c4f03c3df502abfa4303c74a3637948a63b76d6851c3f87",
+    "normalized_text_hash": "ac7044f06a4228f60a8819130644cdd96edb25d332a54eb548963063056728e7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:14:53.737Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

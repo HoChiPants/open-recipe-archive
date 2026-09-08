@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "molasses-cake",
+  "name": "Molasses Cake",
+  "subtitle": "A warmly spiced cake made with molasses and coffee",
+  "description": "This tender American cake combines brown sugar, molasses, warming spices, and brewed coffee for a rich, aromatic dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "molasses",
+      "item": "molasses",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cloves",
+      "item": "ground cloves",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hot",
+      "item": "hot",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "brewed coffee"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour, baking soda, salt, cinnamon, cloves, and ginger together."
+    },
+    {
+      "step": 3,
+      "text": "Beat the shortening and brown sugar until smooth. Add the molasses and eggs, then whisk until combined."
+    },
+    {
+      "step": 4,
+      "text": "Stir the dry mixture into the molasses mixture, alternating with the hot brewed coffee. Mix just until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake until the cake is set and a tester comes out clean, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Cool before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "spiced-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8034/molasses-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e7b28a786fd961b1663065da7986fdc9c2bb02f3c3c280fd11aa6b753c3eafa0",
+    "normalized_text_hash": "9f952eea1e1e79c5d005b7fcf673ee689a59fad7c32e6f91c8b39e709ccc9c2c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:49:49.967Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

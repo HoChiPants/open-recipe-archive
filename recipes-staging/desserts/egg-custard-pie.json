@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-custard-pie",
+  "name": "Egg Custard Pie",
+  "subtitle": "A smooth vanilla custard baked in a flaky crust",
+  "description": "A classic American custard pie with vanilla, nutmeg, a golden tint, and toasted coconut on top.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "scalded-milk",
+      "item": "scalded milk",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "yellow-food-coloring",
+      "item": "yellow food coloring",
+      "quantity": 3,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "9-inch-frozen-pie-crust",
+      "item": "(9 inch) frozen pie crust",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "coconut-flakes",
+      "item": "coconut flakes",
+      "preparation": "toasted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the beaten eggs, sugar, vanilla, and salt until combined. Gradually blend in the scalded milk, then stir in the food coloring."
+    },
+    {
+      "step": 3,
+      "text": "Brush the thawed crust with the beaten egg white and sprinkle with some of the sugar. Set the crust in a pie pan and pour in the custard. Sprinkle with nutmeg."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 35 minutes, or until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Top with the toasted coconut flakes and cool before slicing."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "custard",
+    "pie"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie pan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12696/grandmas-egg-custard-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fda0803fe3761e058234aa190dc3d2572aabe858fb5749ab5a63b0a559d6f32f",
+    "normalized_text_hash": "9e19a3286b1af828a3564439ff1a4b82e3b6447f8e89c5ed5501f4199da2266b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:51:34.817Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

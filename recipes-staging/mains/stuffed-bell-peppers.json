@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stuffed-bell-peppers",
+  "name": "Stuffed Bell Peppers",
+  "subtitle": "Microwave-ready peppers with rice, beans, corn, and melted cheese",
+  "description": "Tender bell peppers filled with a savory tomato, brown rice, bean, and corn mixture, then finished with two cheeses.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-bell-peppers",
+      "item": "red bell peppers",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "halved and seeded"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, with liquid"
+    },
+    {
+      "ingredient_id": "quick-cooking-brown-rice",
+      "item": "quick-cooking brown rice",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "hot-water",
+      "item": "hot water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kidney-beans",
+      "item": "kidney beans",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "15 ounce, drained and rinsed"
+    },
+    {
+      "ingredient_id": "frozen-corn-kernels",
+      "item": "frozen corn kernels",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "thawed and drained"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the pepper halves cut-side up in a microwave-safe baking dish. Cover and microwave for 4 minutes, until tender.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 2,
+      "text": "Combine the stewed tomatoes, brown rice, and hot water in a microwave-safe bowl. Cover and microwave for 4 minutes, until the rice is tender.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Stir in the kidney beans, corn, green onions, and crushed red pepper flakes. Cover and microwave for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Fill the softened pepper halves with the rice mixture and sprinkle with the mozzarella and Parmesan."
+    },
+    {
+      "step": 5,
+      "text": "Microwave uncovered for 2 minutes, until the cheese is melted.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "microwave",
+    "stuffed-peppers"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe baking dish",
+    "microwave-safe bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14044/quick-and-easy-stuffed-peppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6a09e227d489918d6eb971fd82c8c445adcf402c11618063bce27eb11e1fdb1b",
+    "normalized_text_hash": "629fea7bbff888fc3010c5a176e591aaae3839f160581f4f2a7a9e2516673a88",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:42:39.093Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-and-bacon-breakfast-casserole",
+  "name": "Egg and Bacon Breakfast Casserole",
+  "subtitle": "A savory baked breakfast with eggs, cheese, bacon, and vegetables.",
+  "description": "Combine the prepared ingredients, then bake until the casserole is firm and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "preparation": "whisked"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 2,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.33,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "minced, or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking dish for the casserole."
+    },
+    {
+      "step": 2,
+      "text": "Combine the whisked eggs, cheese, bacon, bread, bell pepper, green onions, milk, garlic, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to the prepared baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes, until the center is firm and fully set; verify that the egg mixture reaches 160°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Let the casserole rest briefly, then serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "casserole",
+    "eggs",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241925/super-easy-egg-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dab36e32a7fd6e9bab1c5d29095a634d1d5562dc11bf4bf17c90db97b410c072",
+    "normalized_text_hash": "544fb54c8f3fe9ec4e5c1e751318add7b61adacff005cf777d83e10d8f0d22c3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:13:51.652Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

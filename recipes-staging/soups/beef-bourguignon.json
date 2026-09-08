@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-bourguignon",
+  "name": "Beef Bourguignon",
+  "subtitle": "Slow-cooked beef in red wine with bacon and mushrooms",
+  "description": "A rich French beef stew braised with red wine, carrots, onions, herbs, bacon, and mushrooms.",
+  "meal_type": "soup",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 210
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "braising-steak-cut-into-large-chunks",
+      "item": "braising steak cut into large chunks",
+      "quantity": 1.6,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "bunch-thyme",
+      "item": "bunch thyme",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "cheap-red-wine",
+      "item": "cheap red wine",
+      "quantity": 2,
+      "unit": "bottles"
+    },
+    {
+      "ingredient_id": "oil",
+      "item": "oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "or-6-normal-carrots-cut-into-large-chunks",
+      "item": "or 6 normal carrots cut into large chunks",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "onions-roughly-chopped",
+      "item": "onions roughly chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "tomato-pure-e",
+      "item": "tomato purée",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "knob-butter",
+      "item": "knob butter",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "bacon-lardons",
+      "item": "bacon lardons",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "pearl-onions-or-small-shallots",
+      "item": "pearl onions or small shallots",
+      "quantity": 500,
+      "unit": "g",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "mushrooms-halved",
+      "item": "mushrooms halved",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "parsley",
+      "item": "parsley",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the beef with the bay leaves, thyme, red wine, carrots, and peeled pearl onions. Set aside while preparing the remaining ingredients."
+    },
+    {
+      "step": 2,
+      "text": "Heat the oil in a large ovenproof pot. Brown the beef in batches, then transfer it to a plate."
+    },
+    {
+      "step": 3,
+      "text": "Cook the roughly chopped onions in the pot until softened. Stir in the plain flour and tomato purée for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Pour in the red wine, return the beef and carrots to the pot, and bring the liquid to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Cover and cook until the beef is tender, about 2 hours. Check that whole beef pieces reach at least 145°F, then rest for 3 minutes before serving.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Cool the stew promptly if preparing it ahead, then freeze it in suitable portions."
+    },
+    {
+      "step": 7,
+      "text": "Thaw the stew safely before reheating. Heat the butter in a skillet, add the bacon lardons and peeled pearl onions, and cook until browned and tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 8,
+      "text": "Add the halved mushrooms and cook until softened, about 5 minutes. Stir the mixture into the stew, warm through, and finish with chopped parsley.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 9,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "french",
+    "beef-stew",
+    "red-wine",
+    "braised",
+    "make-ahead",
+    "freezer-friendly"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large ovenproof pot",
+    "skillet",
+    "freezer-safe containers"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "feb9f0ff66b5632cf55b91461e95bb18f73458073b4f05317db776f80c504acd",
+    "normalized_text_hash": "5bc3b631e526a08138b5c13d8b483aa92e815d7610651111ab11086b96f66ea0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:18:23.842Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

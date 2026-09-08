@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "two-ingredient-pizza-dough",
+  "name": "Two-Ingredient Pizza Dough",
+  "subtitle": "A simple dough for homemade pizza bases",
+  "description": "Combine Greek yogurt and self-raising flour to make a quick dough, then shape and bake into pizza bases.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "medium pizza bases or 1 large pizza base"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the Greek yogurt and self-raising flour in a bowl until a dough forms."
+    },
+    {
+      "step": 2,
+      "text": "Turn the dough onto a lightly floured surface and knead briefly until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into two medium pizza bases or one large base."
+    },
+    {
+      "step": 4,
+      "text": "Prepare the bases with desired toppings and place them on a baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the crust is cooked through and lightly browned.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "baking",
+    "pizza",
+    "dough"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/2-ingredient-pizza-dough",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b2d923be38284e2979e81d6caa41c294feac7783f9442e6197a3e4a120f67968",
+    "normalized_text_hash": "30ca080d359edbb0c629affbb5108eb1ec3c935930cbe24d23cbab23242d8aeb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:19:08.189Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

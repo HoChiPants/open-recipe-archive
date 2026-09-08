@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "german-onion-pie",
+  "name": "German Onion Pie",
+  "subtitle": "A savory pie filled with tender onions, bacon, and creamy custard.",
+  "description": "Slow-cooked onions are folded into a sour-cream and egg filling with caraway, then baked in a double crust until golden and fully set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 6,
+      "unit": "pounds",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "caraway-seed",
+      "item": "caraway seed",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pastry-double-crust-pie",
+      "item": "pastry double crust pie",
+      "quantity": 1,
+      "unit": "package"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Prepare the pastry double crust pie in a pie dish, reserving the top crust."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until crisp, transfer it to a plate, and reserve the rendered fat. Crumble the bacon when cool enough to handle."
+    },
+    {
+      "step": 3,
+      "text": "Cook the sliced onions in the bacon fat until golden brown, about 60 minutes. Let them cool slightly.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Whisk the sour cream and eggs together. Stir in the flour, salt, caraway seed, and crumbled bacon."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the cooked onions and spread the filling in the prepared bottom crust. Cover with the top crust and cut vents."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the crust is golden and the center is firm. Verify that the egg filling reaches 160°F before serving."
+    }
+  ],
+  "tags": [
+    "pie",
+    "german",
+    "onion",
+    "baked"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pie dish",
+    "skillet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24674/german-zwiebelkuchen-onion-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7ceec16eacf1ee1f61e428747ee6163ec65eaae9fa0a369b504f3bad6704d815",
+    "normalized_text_hash": "972972d4aa7911c617fbc833e426054b6474a7cf5403fe1fe53ff2c873da7af0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:40:47.201Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

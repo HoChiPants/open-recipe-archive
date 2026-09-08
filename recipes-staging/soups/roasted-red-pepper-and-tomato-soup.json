@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-red-pepper-and-tomato-soup",
+  "name": "Roasted Red Pepper and Tomato Soup",
+  "subtitle": "A smooth, gently spiced soup with a creamy finish",
+  "description": "Roast the peppers, simmer them with tomatoes and herbs, then blend and thicken the soup before finishing each serving with sour cream.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 80,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-bell-peppers",
+      "item": "red bell peppers",
+      "quantity": 3,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled, seeded and chopped"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cayenne-pepper",
+      "item": "ground cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 6,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Coat the bell peppers with the olive oil and roast until softened and blistered, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 2,
+      "text": "Place the roasted peppers in a covered bowl and let them rest for 15 minutes. Peel, seed, and chop them.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Warm a large saucepan over medium heat. Add the onion and garlic, and cook until the onion softens, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the peppers, tomatoes, paprika, thyme, sugar, cayenne, hot pepper sauce, and salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Add 4 cups of the chicken broth and bring the mixture to a simmer. Cook until the vegetables are tender, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Blend the soup in batches until smooth, then return it to the saucepan."
+    },
+    {
+      "step": 7,
+      "text": "Melt the butter in a small pan. Whisk in the flour and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 8,
+      "text": "Whisk in the remaining 2 cups of chicken broth, then stir this mixture into the soup."
+    },
+    {
+      "step": 9,
+      "text": "Simmer the soup for 10 minutes, stirring occasionally. Heat the finished soup to at least 165°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 10,
+      "text": "Whisk the sour cream until smooth. Ladle the soup into bowls and top each serving with 1 tablespoon of sour cream."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "dinner",
+    "soup",
+    "roasted-vegetables",
+    "blended-soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "large saucepan",
+    "small pan",
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13004/roasted-red-pepper-and-tomato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cf1f04b4d7b61bb2ca4ff6f7c18cc650614f63e3745ec62790d473be6dded3ff",
+    "normalized_text_hash": "7c247f5af37d25b4f6668fae0eddc0eb9c673841ff30df4083f3ce18a85efe55",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:17:39.413Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

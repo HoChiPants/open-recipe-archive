@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-o-brien",
+  "name": "Corn O'Brien",
+  "subtitle": "A savory skillet side with bacon, peppers, and sweet corn.",
+  "description": "Crisp bacon, onion, peppers, and corn are combined in one skillet for a colorful American side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 2,
+      "preparation": "cut into 1/2 inch pieces"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "pimento-peppers",
+      "item": "pimento peppers",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the bacon in a skillet and cook until crisp. Drain, reserving the skillet and bacon separately.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the onion, green bell pepper, and salt and pepper to the skillet. Cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Return the bacon to the skillet and add the corn and pimento peppers. Stir to combine."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 5 minutes, stirring occasionally, until heated through. Adjust the salt and pepper before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "corn",
+    "skillet",
+    "bacon",
+    "vegetable-side",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213615/corn-obrien/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "53a53fc11bebffc35e9114f06f2ec63094966b6362832f6752cc95506ad37084",
+    "normalized_text_hash": "82b373e88428d7337eb067f26806eb9c11e1c26f2a04d70b8af7884bd6e02e8b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:09:10.221Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

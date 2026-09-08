@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-latte",
+  "name": "Pumpkin Latte",
+  "subtitle": "Warm milk blended with pumpkin and cinnamon",
+  "description": "A creamy, warmly spiced pumpkin drink made without coffee.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk, pumpkin puree, sugar, vanilla extract, and cinnamon in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Whisk until smooth and continue heating until the mixture is steaming."
+    },
+    {
+      "step": 3,
+      "text": "Reduce the heat and simmer gently for 10 minutes, whisking occasionally. Serve warm.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "pumpkin",
+    "warm-beverage"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/179582/famous-no-coffee-pumpkin-latte/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "36f44fec34a2f29f7dd1d60920c0c9ed3ebcac2a99f62eb0e69a10bc74ca9037",
+    "normalized_text_hash": "3198102204a87a1034ed8e8468c343bcf59a6e0ab5c4d2447f325dcd41f6ca4b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:05:13.384Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

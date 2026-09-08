@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "jalapen-o-bread",
+  "name": "Jalapeño Bread",
+  "subtitle": "A tender yeast loaf with Monterey Jack and fresh pepper",
+  "description": "Bake a savory, lightly spicy loaf studded with chopped jalapeños and melted Monterey Jack cheese.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 55,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "fresh-jalapen-o-peppers",
+      "item": "fresh jalapeño peppers",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 0.5,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the warm water, cheese, jalapeños, salt, bread flour, sugar, and yeast in a mixing bowl. Stir until a shaggy dough forms.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Knead the dough until smooth and elastic, then place it in a lightly prepared bowl and cover."
+    },
+    {
+      "step": 3,
+      "text": "Let the dough rise in a warm place until doubled in volume.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into a loaf, place it in a loaf pan, cover, and let it rise again until puffy.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven to 375°F. Bake until the loaf is browned and sounds hollow when tapped, about 55 minutes. Cool before slicing.",
+      "timer_minutes": 55
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "savory-baking",
+    "jalapen-o"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "loaf pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6857/jalapeno-bread-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c5d0d643052a416d8b90ebdd3b1396bc4e6cae5b9af7cf0dcb6838f3f8171b67",
+    "normalized_text_hash": "a06798b7c25559866dc55646aaf29f4aa3a1382d4d7a6bd693b641992feef42b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:23:22.970Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

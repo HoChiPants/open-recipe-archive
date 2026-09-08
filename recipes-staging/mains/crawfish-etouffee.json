@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crawfish-etouffee",
+  "name": "Crawfish Etouffee",
+  "subtitle": "A rich, savory Louisiana-style skillet meal",
+  "description": "Tender crawfish simmer with buttery vegetables, mushroom soup, parsley, and Cajun seasoning for a hearty serving dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "bunch-green-onions",
+      "item": "bunch green onions",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "condensed-golden-mushroom-soup",
+      "item": "condensed golden mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cajun-seasoning",
+      "item": "Cajun seasoning",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "crawfish-tail-meat",
+      "item": "crawfish tail meat",
+      "quantity": 2,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat. Add the onion, bell pepper, green onions, celery, salt, and pepper; cook until the onion is tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir in the condensed soup, parsley, and Cajun seasoning."
+    },
+    {
+      "step": 3,
+      "text": "Add the crawfish and cook until heated through and opaque, about 15 minutes.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "cajun",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217163/go-to-crawfish-etouffee/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "78ee492f1d525bb0d809839f7f54923e5b24561c0dbc05f0b203d5a15c39ec6b",
+    "normalized_text_hash": "0a4eb0651fa20cc53860cd31499266106656e6ad35926bcc6b3f8963a4552a76",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:46:34.954Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

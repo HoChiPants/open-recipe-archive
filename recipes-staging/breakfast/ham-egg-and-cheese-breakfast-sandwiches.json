@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-egg-and-cheese-breakfast-sandwiches",
+  "name": "Ham, Egg, and Cheese Breakfast Sandwiches",
+  "subtitle": "Warm breakfast sandwiches with set eggs, ham, and Cheddar",
+  "description": "Toast buttered English muffins and fill them with baked eggs, warmed ham, and melted Cheddar for a simple breakfast serving.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "english-muffins",
+      "item": "English muffins",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "slices-deli-ham",
+      "item": "slices deli ham",
+      "quantity": 12,
+      "preparation": "warmed"
+    },
+    {
+      "ingredient_id": "slices-cheddar-cheese",
+      "item": "slices Cheddar cheese",
+      "quantity": 12
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Split the English muffins and spread them with the butter. Arrange the halves for toasting, and prepare the eggs in a greased baking vessel."
+    },
+    {
+      "step": 3,
+      "text": "Toast the muffin halves until golden brown.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Bake the eggs until set and at least 160°F in the center.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Place one egg, one warmed ham slice, and one Cheddar slice on each sandwich. Close the sandwiches and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "sandwiches",
+    "egg",
+    "ham",
+    "cheddar"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking vessel"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/286252/ham-egg-and-cheese-breakfast-sandwiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8c3259b338292ba8863c54e9b6367f171c194f62675677d71bca5132050aa79b",
+    "normalized_text_hash": "5813dd1bbd6344df20543b2dbfc67f0ed16c9a0af23b33846dfa123a92cebf3a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:20:59.863Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-and-orange-soup",
+  "name": "Carrot and Orange Soup",
+  "subtitle": "A bright, warmly spiced vegetable soup",
+  "description": "Carrots, orange juice, coriander, and cinnamon simmer with onions and stock for a smooth, aromatic soup.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable stock",
+      "quantity": 900,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onions-sliced",
+      "item": "onions sliced",
+      "quantity": 2,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "carrots-diced",
+      "item": "carrots diced",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "a-small-handful-coriander-leaves-chopped",
+      "item": "a small handful coriander leaves chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a large pot over medium heat. Add the sliced onions and cook until softened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Add the diced carrots and cook, stirring, for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Stir in the vegetable stock, orange juice, ground coriander, cinnamon, salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Bring to a simmer and cook until the carrots are tender.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 5,
+      "text": "Blend the soup until smooth, then taste and adjust the seasoning if needed."
+    },
+    {
+      "step": 6,
+      "text": "Ladle into bowls and garnish with the chopped coriander leaves and a light sprinkling of ground coriander."
+    }
+  ],
+  "tags": [
+    "carrot-soup",
+    "orange-soup",
+    "vegetable-soup",
+    "lunch",
+    "starter"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "immersion blender or blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrot-orange-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eb4a96d793b74415a61d0623452bbeb364ebb76ecf8a2f74bbc7827dd6f6fa9a",
+    "normalized_text_hash": "9e44eafcaabe9fe9d7f287a4f07e158ff19798526bd8f885a580550000761d87",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T23:20:41.992Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

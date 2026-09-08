@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-creamed-corn",
+  "name": "Slow Cooker Creamed Corn",
+  "subtitle": "Rich, creamy corn for an easy side",
+  "description": "Frozen sweet corn cooks slowly with cream, cream cheese, butter, and simple seasonings for a comforting side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 250
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-sweet-corn",
+      "item": "frozen sweet corn",
+      "quantity": 5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the cream cheese and butter to a slow cooker and cook until melted, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the heavy whipping cream, sugar, salt, and pepper until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the frozen corn, cover, and cook until hot and creamy, about 4 hours.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "slow-cooker",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234375/slow-cooker-creamed-corn-just-like-rudys-bbq/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "96a27d5b3b6a26545f71f0495ae10b9d6ce907e62b0c784a8926da4f244229c7",
+    "normalized_text_hash": "094fbb273424048b7b999e51595d42cf6bfb481d98f0a24a2e418c431894e8fe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:44:00.670Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

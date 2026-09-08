@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-mascarpone-mousse",
+  "name": "Chocolate Mascarpone Mousse",
+  "subtitle": "A quick chocolate dessert with a creamy mascarpone base",
+  "description": "Mascarpone, cream, vanilla, and melted chocolate chips combine into a smooth chilled mousse.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-container-mascarpone-cheese",
+      "item": "(8 ounce) container mascarpone cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mascarpone cheese, heavy whipping cream, and vanilla extract until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the chocolate chips and heat gently over simmering water, stirring until melted.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Fold the melted chocolate mixture into the mascarpone mixture until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Divide among serving dishes and chill until set.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "heatproof bowl",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223398/easy-faux-chocolate-mousse/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e6b2f5b4c9dd1723ea70847d9e77ef3ec77c25e986b7273acc788ea98ad52b01",
+    "normalized_text_hash": "5e7868816b522ab9c903d156bc223e63f9e7a8e70a31d194a43f5801c3d91ca5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:30:47.489Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basil-garlic-grilled-pork-chops",
+  "name": "Basil-Garlic Grilled Pork Chops",
+  "subtitle": "Lime-seasoned chops with fresh basil",
+  "description": "Pork chops are seasoned with lime, garlic, basil, salt, and pepper, then rested and grilled until safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-pork-chops",
+      "item": "(8 ounce) pork chops",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-black-pepper-to-taste",
+      "item": "salt and black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the lime juice, minced garlic, and chopped basil. Coat the pork chops with the mixture, then season with salt and black pepper."
+    },
+    {
+      "step": 2,
+      "text": "Cover and let the seasoned chops rest for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 4,
+      "text": "Grill the chops for 10 minutes, turning as needed, until the thickest part reaches 145°F on a food thermometer. Rest for 3 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218074/basil-garlic-grilled-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9ea610403d164fbd0ed87378c20f8021a5462e6f6701209d144e68da5d7e76c3",
+    "normalized_text_hash": "c705b51a0731e5d9ea869ec47ee0aeba2e041e5efb1a260b1593c0b08c3ad482",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:09:06.699Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

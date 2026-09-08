@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "date-loaf-candy",
+  "name": "Date Loaf Candy",
+  "subtitle": "A chilled candy loaf with dates and pecans",
+  "description": "A rich, nutty dessert made by simmering a milk-based candy mixture with dates, shaping it into a loaf, and slicing it after chilling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dates",
+      "item": "dates",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sugar, milk, and butter in a saucepan and stir over medium heat until the butter melts and the mixture is smooth."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a boil, then stir in the dates, pecans, and vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 250°F. Transfer the mixture to a loaf pan and bake for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Let the candy cool enough to handle, then shape it into a compact loaf."
+    },
+    {
+      "step": 5,
+      "text": "Chill the loaf until firm, about 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 6,
+      "text": "Cut the chilled loaf into slices and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "date-dessert",
+    "pecan-dessert",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "loaf pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238901/great-grandma-cathys-date-loaf-candy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c355d6b438ca9678f7de01df1afc82352f169f83b3efd516d5475cff37ddbb0",
+    "normalized_text_hash": "154f07ec32a46fcec93efc0297517af27e93c9502035525f8395c5c3e35c1bc8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:57:21.278Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

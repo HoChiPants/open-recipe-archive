@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-and-egg-salad",
+  "name": "Cucumber and Egg Salad",
+  "subtitle": "Creamy salad with crisp cucumbers and dill pickles",
+  "description": "Chopped hard-cooked eggs, cucumbers, and dill pickles folded with mayonnaise for a cool, crunchy salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "seedless-cucumbers",
+      "item": "seedless cucumbers",
+      "quantity": 4,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "dill-pickles",
+      "item": "dill pickles",
+      "quantity": 4,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan, cover with water, and bring to a simmer. Cook until hard-set, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Transfer the eggs to cool briefly, then peel and chop them. Cut the cucumbers and dill pickles into bite-size pieces."
+    },
+    {
+      "step": 3,
+      "text": "Combine the eggs, cucumbers, dill pickles, and mayonnaise in a bowl, mixing until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill the salad for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14206/cucumbers-and-egg-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e2bf2f63b733f17072876edab75747c3716c6eb6c9b2d5bb4c887d27f5beb5da",
+    "normalized_text_hash": "981165dc51098f519ef4fc0a712ba8268a286d15dc2aa87ff97a58fdd3d8065a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:56:06.544Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

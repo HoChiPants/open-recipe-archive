@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "curry-sauce",
+  "name": "Curry Sauce",
+  "subtitle": "A smooth, warmly spiced sauce for chips and other savory dishes",
+  "description": "Slow-cooked onions, aromatic spices, raisins, and stock make a rich curry sauce finished with vinegar and lemon.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "onions-sliced",
+      "item": "onions sliced",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "garlic-cloves-sliced",
+      "item": "garlic cloves sliced",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "thumb-sized-piece-ginger-peeled-and-sliced",
+      "item": "thumb-sized piece ginger peeled and sliced"
+    },
+    {
+      "ingredient_id": "mild-curry-powder",
+      "item": "mild curry powder",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "turmeric",
+      "item": "turmeric",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "malt-vinegar",
+      "item": "malt vinegar",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "star-anise",
+      "item": "star anise",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "chicken-stock-or-vegetable-stock-for-vegetarians",
+      "item": "chicken stock or vegetable stock for vegetarians",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cornflour",
+      "item": "cornflour",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lemon-juice-to-taste",
+      "item": "lemon juice to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over medium-low heat. Add the onions, garlic, and ginger, and cook until softened, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Stir in the curry powder, turmeric, raisins, malt vinegar, star anise, and stock. Bring to a gentle simmer. If using chicken stock, heat the sauce to at least 165°F; vegetable-stock sauce should be thoroughly hot.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Whisk the cornflour with a little hot sauce until smooth, then stir it back into the pan. Simmer for 5 minutes, continuing gently until the sauce reaches the stated 60-minute cook time and thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove the star anise and transfer the sauce to a blender. Blend until smooth, taking care with the hot liquid."
+    },
+    {
+      "step": 5,
+      "text": "Stir in lemon juice to taste and serve hot."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "curry",
+    "condiment",
+    "vegetarian-option",
+    "savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chip-shop-curry-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ea52b7723fabc349a49ee9675bc0115022b9e7b7e3ebfcc50fe158c6efe7e5fe",
+    "normalized_text_hash": "756c15788c381a1eafadc4a115dea070843746e7fc41f0b57a9ec3331221b610",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:01:07.039Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamed-spinach",
+  "name": "Creamed Spinach",
+  "subtitle": "A rich, savory spinach side",
+  "description": "Thawed spinach is folded into a smooth garlic cream sauce with Parmesan and nutmeg for a comforting side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "es-boxes-frozen-chopped-spinach",
+      "item": "es boxes frozen chopped spinach",
+      "quantity": 4,
+      "unit": "box",
+      "preparation": "10 ounce, thawed and squeezed dry; reserve 1/2 cup liquid"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic cloves",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper",
+      "item": "Salt and ground black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Thaw the spinach, squeeze it dry, and reserve 1/2 cup of its liquid."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan over medium heat. Add the garlic and cook, stirring occasionally, until softened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the flour. Gradually whisk in the milk until the mixture is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the spinach and cook until the sauce thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Stir in the Parmesan, nutmeg, salt, and black pepper. Serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/92635/creamed-spinach/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bfa2f3104d2470d35125997cbd198f5c1525d711e76f33b42a1013bc7f197db5",
+    "normalized_text_hash": "6412c37d8f5ea4018a94c2f42b1f32bbd8aebe540489979712e2d3b5cc7581b0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:30:30.264Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

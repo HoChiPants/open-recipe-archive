@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bubble-and-squeak",
+  "name": "Bubble and Squeak",
+  "subtitle": "A hearty skillet of cabbage, potatoes, bacon, and ham",
+  "description": "Tender cabbage combines with crisp bacon, onion, ham, and sliced potatoes for a savory one-pan main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 3,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cubed cooked"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "baked, cooled and thinly sliced"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the sliced cabbage in boiling water until tender, about 5 minutes. Drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Cook the diced bacon and sliced onion in a skillet until the bacon is crisp and the onion is softened, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the cabbage, butter, ham, and potatoes to the skillet. Season with paprika, salt, and pepper, then toss to combine."
+    },
+    {
+      "step": 4,
+      "text": "Cook the mixture until heated through and lightly browned, stirring occasionally."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "skillet",
+    "cabbage",
+    "potatoes",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18854/bubble-n-squeak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f4f97d7e7e0659a3a9ebf3017cf1c3e59b5da57575409b78329a231f7eeb8f1b",
+    "normalized_text_hash": "c9a66ac0ad7f287f2f222e087d642bd968db58096a8852fcf50d4018c5f53827",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:23:37.761Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

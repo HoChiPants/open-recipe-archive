@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "gin-martini",
+  "name": "Gin Martini",
+  "subtitle": "A cold, crisp cocktail with a dry vermouth finish",
+  "description": "Stir gin and dry vermouth with ice, then strain into a chilled serving glass.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "gin",
+      "item": "gin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "dry-vermouth",
+      "item": "dry vermouth",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill the serving glass with ice and chill for 10 minutes, then discard the ice.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the gin, dry vermouth, and fresh ice to a mixing glass."
+    },
+    {
+      "step": 3,
+      "text": "Stir until thoroughly chilled, then strain into the prepared serving glass."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "alcoholic",
+    "classic-cocktail",
+    "dry-martini",
+    "gin",
+    "vermouth"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass",
+    "mixing glass",
+    "bar spoon",
+    "strainer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-gin-martini",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b2f83cbed37116c2e4663a103f314783fa4bf31fc3fa4155e3460bc82a0346d7",
+    "normalized_text_hash": "0ce6a0f91a8918197a0640ed623ea7e76e4c01889eabe4e41c928c9108e1d90e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:31:32.320Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

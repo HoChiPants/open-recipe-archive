@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sausage-balls",
+  "name": "Sausage Balls",
+  "subtitle": "A simple baked sausage-and-cheese snack",
+  "description": "Combine sausage, shredded cheddar, and buttermilk baking mix into one mixture, form balls, and bake until golden and fully safe.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "breakfast-sausage",
+      "item": "breakfast sausage",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "buttermilk-baking-mix",
+      "item": "buttermilk baking mix",
+      "quantity": 3,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "In a large bowl, combine breakfast sausage, shredded Cheddar cheese, and buttermilk baking mix until the mixture is evenly blended."
+    },
+    {
+      "step": 3,
+      "text": "With lightly greased hands, form the mixture into equal-sized balls."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the balls to a baking sheet and bake at 400°F until golden brown, then verify the center temperature with a food thermometer reaches 160°F, about 20 minutes total.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "baked-snack",
+    "finger-food",
+    "american",
+    "sausage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "spatula or spoon",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15828/one-two-three-sausage-balls/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a29b24597474e82a3af5a5a7443ef2b90d20a5e07ec5fc655389723636d53f9e",
+    "normalized_text_hash": "6c9d999722909c8248e008e297944db6f55e61bfb916270851c7788f136568e4",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:06:03.392Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

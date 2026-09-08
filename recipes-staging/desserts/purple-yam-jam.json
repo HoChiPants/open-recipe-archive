@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "purple-yam-jam",
+  "name": "Purple Yam Jam",
+  "subtitle": "A smooth, creamy purple yam spread",
+  "description": "Tender purple yam is mashed with butter, milks, and vanilla, then cooked into a thick, sweet dessert spread.",
+  "meal_type": "dessert",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 80,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "purple-yam-root",
+      "item": "purple yam root",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "unpeeled"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the unpeeled purple yam until tender, about 30 minutes or until it can be pierced easily.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Cool the yam until safe to handle, then peel and mash it until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a saucepan over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the sweetened condensed milk, vanilla extract, and evaporated milk."
+    },
+    {
+      "step": 5,
+      "text": "Add the mashed yam and cook, stirring frequently, until the mixture thickens, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Continue stirring for 15 minutes, then transfer the jam to a container and chill for 30 minutes before serving.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "purple-yam",
+    "sweet-spread",
+    "asian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "saucepan",
+    "masher",
+    "storage container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257083/purple-yam-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "040af50fc680458269eda264ad3f88fefe85e8c17a168420a2c51dea3dad0c59",
+    "normalized_text_hash": "552281af94703e3636255de12561684af689f4aee24afb5f0d4fedc6d30054da",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:38:07.162Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

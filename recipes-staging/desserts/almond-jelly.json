@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-jelly",
+  "name": "Almond Jelly",
+  "subtitle": "A chilled almond-scented milk gelatin dessert",
+  "description": "A lightly sweet, firm-set dessert that is chilled, then cut into portions.",
+  "meal_type": "dessert",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "25-ounce-envelopes-unflavored-gelatin-powder",
+      "item": "(.25 ounce) envelopes unflavored gelatin powder",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour 1 cup water into a bowl, sprinkle the gelatin evenly over it, and let it stand until softened."
+    },
+    {
+      "step": 2,
+      "text": "Bring the remaining 1 cup water to a simmer in a saucepan. Add the softened gelatin, milk, sugar, and almond extract; stir over low heat until the gelatin and sugar dissolve.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour the mixture into a shallow dish and refrigerate until firm.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 4,
+      "text": "Cut the chilled jelly into portions and serve."
+    }
+  ],
+  "tags": [
+    "chilled-dessert",
+    "gelatin-dessert",
+    "almond",
+    "milk-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "saucepan",
+    "shallow dish",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62723/almond-jelly/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "43c7449d6c322a86fc1bfb9591783440208e5a8a4e89011a0acd19c67e316f68",
+    "normalized_text_hash": "b27380c313d41417d635864fb761551f3d6c9d9df29db35c83a604e25ee545f0",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:45:39.776Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

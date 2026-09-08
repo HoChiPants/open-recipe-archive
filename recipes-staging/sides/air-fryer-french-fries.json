@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-french-fries",
+  "name": "Air Fryer French Fries",
+  "subtitle": "Crisp frozen fries with dipping sauces",
+  "description": "Cook frozen French fries in an air fryer until crisp, then serve with sauces.",
+  "meal_type": "side",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-french-fries",
+      "item": "frozen French fries",
+      "quantity": 450,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "your-favourite-sauces-to-serve",
+      "item": "your favourite sauces to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its settings."
+    },
+    {
+      "step": 2,
+      "text": "Add the frozen French fries to the basket in an even layer. Cook for 5 minutes, shake the basket, then cook for 5 minutes more. Continue cooking until the 20-minute total is reached and the fries are crisp.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately with your favourite sauces to serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "air-fryer",
+    "potatoes",
+    "french-fries",
+    "frozen"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-french-fries",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "495c80c66a81fa82518de60cfd96b80dd5fc98b08dc6def0b1f728bd4e925fbc",
+    "normalized_text_hash": "1def4f831e2bbd16a646e1c5445b131e93277e07b9e7f523a5f58f760747d18d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:25:26.905Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

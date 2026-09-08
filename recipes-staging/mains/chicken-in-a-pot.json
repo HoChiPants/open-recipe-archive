@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-in-a-pot",
+  "name": "Chicken in a Pot",
+  "subtitle": "Tender chicken with mushrooms in a savory tomato broth",
+  "description": "Breaded chicken breasts are browned briefly, then simmered with mushrooms in a seasoned tomato broth.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 4,
+      "preparation": "skinless chicken breast halves"
+    },
+    {
+      "ingredient_id": "dry-bread-crumbs",
+      "item": "dry bread crumbs",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "fresh-sliced-mushrooms",
+      "item": "fresh sliced mushrooms",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the chicken broth, tomato paste, pepper, oregano, salt, and garlic together in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Coat the chicken breast halves with the seasoned broth mixture, then press them into the bread crumbs."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in a large pot over medium-high heat. Add the chicken and cook until lightly browned, about 2 minutes per side.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the mushrooms and any remaining seasoned broth mixture. Cover, reduce the heat, and cook until the chicken reaches 165°F in the thickest part and the mushrooms are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Transfer the chicken and mushrooms to plates and spoon the broth over them. Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-pot",
+    "chicken",
+    "mushrooms"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16611/chicken-in-a-pot/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bd18b097ac4ffa8f2849853eb5b1d605ef20a93e2c229bb580633b1d74280a7a",
+    "normalized_text_hash": "b72e31b90e5bfdb4732b43b6e0d3d1e5efdba38ffc14910a1cebd7e33c7cd0ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:07:39.146Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

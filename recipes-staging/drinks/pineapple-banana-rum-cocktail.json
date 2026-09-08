@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-banana-rum-cocktail",
+  "name": "Pineapple-Banana Rum Cocktail",
+  "subtitle": "A chilled tropical cocktail with a grenadine finish",
+  "description": "Shake rum, banana liqueur, pineapple juice, and ice, then add grenadine for a lightly layered finish.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounce-malibu-rum",
+      "item": "fluid ounce Malibu rum",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-banana-liqueur",
+      "item": "fluid ounce banana liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes"
+    },
+    {
+      "ingredient_id": "grenadine",
+      "item": "grenadine",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a cocktail shaker with ice. Add the Malibu rum, banana liqueur, and pineapple juice; shake until well chilled."
+    },
+    {
+      "step": 2,
+      "text": "Strain into two serving glasses over fresh ice, if desired."
+    },
+    {
+      "step": 3,
+      "text": "Divide the grenadine between the glasses and serve."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "rum",
+    "tropical",
+    "fruit-drink"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/135667/sweet-seduction/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "42537a125d257889511c59269d87f898760eb77d650a0ffabc91c794f5cce65c",
+    "normalized_text_hash": "98547d6261444eda64351e0176856b02d1e7ab1a5403e19f2be513608ac55e57",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:30:48.181Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

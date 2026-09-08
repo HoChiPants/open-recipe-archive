@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-clam-chowder",
+  "name": "Creamy Clam Chowder",
+  "subtitle": "A rich, slow-cooked seafood soup",
+  "description": "Combine creamy soups, canned clams, and dairy for a simple chowder cooked gently until hot and opaque throughout.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-potato-soup",
+      "item": "condensed cream of potato soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "new-england-clam-chowder",
+      "item": "New England clam chowder",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "clams",
+      "item": "clams",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "6.5 ounce, minced"
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "pint"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine all ingredients in a slow cooker and stir until evenly mixed."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook on low for 8 hours, until the chowder is hot throughout and the clams are opaque.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "soup",
+    "slow-cooker",
+    "clam-chowder"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "slow cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13389/quick-and-easy-clam-chowder/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c4d3b7600c9f47b115842cac1aaeb7b1ac0c0c0d35556ce32b0e01ab73b18518",
+    "normalized_text_hash": "bd40e902244a2f2eb06cbfb93f59e5563fd351e13927b8409631289dd5b1b1d9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:40:18.097Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

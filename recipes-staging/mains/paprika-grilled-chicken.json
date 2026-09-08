@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "paprika-grilled-chicken",
+  "name": "Paprika-Grilled Chicken",
+  "subtitle": "Yogurt-marinated chicken with a tangy paprika finish",
+  "description": "Chicken pieces marinate in a garlicky paprika yogurt mixture, grill until cooked through, and receive a sharp vinegar-based sauce before serving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "ground-paprika",
+      "item": "ground paprika",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "hot-chile-paste-such-as-sambal-oelek",
+      "item": "hot chile paste (such as sambal oelek)",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "5-pound-whole-chicken",
+      "item": "(5 pound) whole chicken",
+      "quantity": 1,
+      "preparation": "cut into 8 pieces"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sherry-vinegar",
+      "item": "sherry vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "hot-chile-paste-such-as-sambal-oelek",
+      "item": "hot chile paste (such as sambal oelek)",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the yogurt, crushed garlic, ground paprika, 2 tablespoons olive oil, 1 tablespoon chile paste, cayenne, paprika, and salt and pepper to taste in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Coat the chicken pieces with the yogurt mixture, cover, and refrigerate for 3 hours.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill. Remove excess marinade from the chicken and season with salt."
+    },
+    {
+      "step": 4,
+      "text": "Stir together the remaining olive oil, sherry vinegar, ketchup, chile paste, paprika, and salt and pepper to taste; set aside."
+    },
+    {
+      "step": 5,
+      "text": "Grill the chicken for 4 minutes, turn, and grill for 6 minutes more, adjusting as needed for even cooking.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Check the thickest pieces with a food thermometer; poultry should reach 165°F. Let the chicken rest briefly, then serve with the vinegar sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled-chicken",
+    "paprika",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221093/good-frickin-paprika-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bd1ed63b493cdffbad1e6be3fb38e3ff46255b70ca187ee0e15298eff8ea835a",
+    "normalized_text_hash": "86acb36787b1045bd01b9e8c404e192512d28f6f3f80fb7f806915a035ed39ea",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:48:03.881Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

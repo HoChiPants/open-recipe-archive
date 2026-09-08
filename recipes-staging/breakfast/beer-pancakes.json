@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-pancakes",
+  "name": "Beer Pancakes",
+  "subtitle": "Light, savory-sweet pancakes made with beer",
+  "description": "A simple pancake batter combining beer, melted butter, and beaten egg for a tender breakfast stack.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the sifted flour, sugar, baking powder, and salt in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the beer and melted butter together, then stir in the beaten egg."
+    },
+    {
+      "step": 3,
+      "text": "Add the wet mixture to the dry ingredients and stir just until combined."
+    },
+    {
+      "step": 4,
+      "text": "Preheat a lightly coated griddle or skillet over medium heat."
+    },
+    {
+      "step": 5,
+      "text": "Pour the batter onto the hot surface and cook until bubbles form and the edges look set."
+    },
+    {
+      "step": 6,
+      "text": "Flip and cook the second side until golden and the centers are fully set, reaching 160°F if checked with a thermometer."
+    },
+    {
+      "step": 7,
+      "text": "Serve the pancakes warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pancakes",
+    "american",
+    "beer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "griddle or skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87685/beer-pancakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b47e56defcb263d8653a32ba9ed837a34ff2929b60fe2ab33db621b8ffccc7f5",
+    "normalized_text_hash": "513231dc5e7da7ac3001eaaad62278d884b25b0550f65871a4265aab409ef432",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:26:14.447Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

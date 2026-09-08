@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-cobbler-crumble",
+  "name": "Apple Cobbler Crumble",
+  "subtitle": "Tender cinnamon apples beneath a buttery crumb topping",
+  "description": "A simple baked apple dessert with tart apples, warm cinnamon, and a crisp, buttery flour topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "granny-smith-apples",
+      "item": "Granny Smith apples",
+      "quantity": 4,
+      "preparation": "cored and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the self-rising flour, white sugar, softened butter, and ground cinnamon until a crumbly mixture forms."
+    },
+    {
+      "step": 3,
+      "text": "Layer some of the mixture in a baking dish, arrange the sliced apples over it, and cover with the remaining mixture."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the apples are tender and the topping is set, about 30–35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Cool for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "apple",
+    "baked"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233069/apple-cobbler-crumble/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "032dfae9b1f8172c7ff281a71ffe53c83020abfac127e560add6c4513b2b64c9",
+    "normalized_text_hash": "30df8e46f10a84271546b8ad212c18bb0287e12d14bda8a919f2d08252b4c953",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:19:14.847Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

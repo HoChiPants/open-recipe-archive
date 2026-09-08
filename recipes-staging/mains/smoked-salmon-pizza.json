@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "smoked-salmon-pizza",
+  "name": "Smoked Salmon Pizza",
+  "subtitle": "A crisp pizza topped with salmon, artichokes, tomatoes, and melted mozzarella.",
+  "description": "Layer the prepared crust with olive oil, savory toppings, and shredded mozzarella, then bake until the cheese melts.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "12-inch-pre-baked-pizza-crust",
+      "item": "(12 inch) pre-baked pizza crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "smoked-salmon",
+      "item": "smoked salmon",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cut into 1/2 inch pieces"
+    },
+    {
+      "ingredient_id": "6-ounce-jar-marinated-artichoke-hearts",
+      "item": "(6 ounce) jar marinated artichoke hearts",
+      "quantity": 0.5,
+      "preparation": "drained and quartered"
+    },
+    {
+      "ingredient_id": "sun-dried-tomatoes",
+      "item": "sun-dried tomatoes",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the pre-baked pizza crust on a baking surface and brush it with the olive oil."
+    },
+    {
+      "step": 3,
+      "text": "Distribute the smoked salmon, artichoke hearts, and sun-dried tomatoes over the crust, then cover evenly with the mozzarella."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the mozzarella is melted, about 15 minutes.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "italian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/185197/smoked-salmon-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e55118d79a8abc9715004aa12221ed39782615d989ca71140de41e14fe479dd6",
+    "normalized_text_hash": "30507d447e46ee396647de7729d5d2d00dfdf098e3ed34770564a2f76015438f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:59:30.701Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

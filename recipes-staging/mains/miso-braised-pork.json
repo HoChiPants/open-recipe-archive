@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "miso-braised-pork",
+  "name": "Miso-Braised Pork",
+  "subtitle": "Tender pork shoulder in a savory miso sauce",
+  "description": "Pork shoulder slowly braised with white miso, soy sauce, garlic, ginger, and brown sugar until tender.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 210
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "pork-butt-shoulder-roast-cut-into-2-inch-slices",
+      "item": "pork butt (shoulder roast) cut into 2-inch slices",
+      "quantity": 5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ginger",
+      "item": "ginger",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "more if needed"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-shiro-miso",
+      "item": "white (shiro) miso",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the canola oil in a large heavy pot over medium-high heat. Coat the pork slices with the brown sugar, then brown them in batches; transfer the browned pork to a plate."
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic and ginger to the pot and stir briefly until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the water, soy sauce, remaining brown sugar, and white miso, scraping up any browned bits."
+    },
+    {
+      "step": 4,
+      "text": "Return the pork to the pot and add enough additional water to keep the meat partly submerged."
+    },
+    {
+      "step": 5,
+      "text": "Bring the liquid to a simmer, cover, and cook gently for about 3 hours, turning the pork occasionally, until very tender. Add more water if needed to prevent scorching.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 6,
+      "text": "Check that the pork reaches at least 145°F internally, then let it rest for 3 minutes before serving with the braising sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "japanese",
+    "braised",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/116066/miso-braised-pork/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ec6641fe2b72b9cee59dd47fbe2c5b96bfe8e9b275c7472e154a5b2a64ab91af",
+    "normalized_text_hash": "dbedfa96bda074a1689dff739a817224a3ec66142ce090020a25e0516994119c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:46:24.921Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

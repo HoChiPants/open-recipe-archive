@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-mango-sauce",
+  "name": "Spicy Mango Sauce",
+  "subtitle": "A bright, fruity sauce with fresh chile heat",
+  "description": "Mango, seasoned rice vinegar, citrus, chile, garlic, and cilantro make a quick sauce for grilled foods, seafood, or snacks.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "finely-minced-mango",
+      "item": "finely minced mango",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seasoned-rice-vinegar",
+      "item": "seasoned rice vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "hot-chile-paste-such-as-sambal-oelek",
+      "item": "hot chile paste (such as sambal oelek)",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "thai-chile-pepper",
+      "item": "Thai chile pepper",
+      "quantity": 0.5,
+      "unit": "small",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mango, seasoned rice vinegar, lemon juice, crushed garlic, chile paste, and minced Thai chile in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Cover and let the sauce rest for 30 minutes to blend the flavors.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chopped cilantro before serving."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "condiment",
+    "spicy",
+    "mango"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222189/spicy-mango-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "20d38ae8cd0f3354815de0d750346975030028b73326e825d9316864b6dca7ea",
+    "normalized_text_hash": "d2d942ceebaf5e3d92aadb941810ffba208a7a2d5c61128cc05095165314ebad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:33:58.855Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

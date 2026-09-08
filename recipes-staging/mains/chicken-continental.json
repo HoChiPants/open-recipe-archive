@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-continental",
+  "name": "Chicken Continental",
+  "subtitle": "Skillet chicken with creamy mushrooms and rice",
+  "description": "Boneless chicken breasts simmer with mushrooms in a creamy parsley sauce, then finish with instant rice for a simple one-pan meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "instant-rice",
+      "item": "instant rice",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large covered skillet over medium heat. Add the chicken breasts and mushrooms, then cook for 5 minutes, turning the chicken once.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir in the condensed soup, water, parsley, salt, and pepper. Bring the sauce to a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Cover and simmer for 20 minutes, turning the chicken occasionally, until the thickest piece reaches 165°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Stir in the instant rice, cover, and cook until the rice is tender and the chicken remains at 165°F.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-pan",
+    "chicken",
+    "rice",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large covered skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8775/chicken-continental/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1dcdfac9611ef98009967d4c0eecf9ec223f5f682dda27b2080158e36ed8fed3",
+    "normalized_text_hash": "2571d54f647510e7b4a4de037bfd524716bb400641c7f6701f9986a51d2f10a7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:03:09.995Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

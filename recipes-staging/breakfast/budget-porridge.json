@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "budget-porridge",
+  "name": "Budget Porridge",
+  "subtitle": "Apple, raisin, and cinnamon oat porridge",
+  "description": "A warm, fruit-sweetened oat breakfast with cinnamon, raisins, and walnuts.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 85,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-cinnamon-plus-extra-to-serve-optional",
+      "item": "ground cinnamon plus extra to serve (optional)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "fortified-soya-milk-plus-4-tbsp-to-serve",
+      "item": "fortified soya milk plus 4 tbsp to serve",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "apples-preferably-red",
+      "item": "apples preferably red",
+      "quantity": 2,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "walnut-halves-about-15g",
+      "item": "walnut halves about 15g",
+      "quantity": "7-8",
+      "preparation": "broken"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the oats, cinnamon, and 250 ml soya milk in a saucepan. Bring to a gentle simmer and cook for 5 minutes, stirring occasionally, until thickened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Core and prepare the apples while the porridge cooks."
+    },
+    {
+      "step": 3,
+      "text": "Stir the raisins and prepared apples into the porridge. Divide between two bowls and add the remaining soya milk, extra cinnamon if desired, and broken walnuts to serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "porridge",
+    "oats",
+    "apple",
+    "cinnamon",
+    "raisins",
+    "soya-milk",
+    "walnuts"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy",
+    "tree-nuts",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/budget-porridge",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ff0945aa8239493f40ff2473e506a3c4502c408d02010bae488047db862f9382",
+    "normalized_text_hash": "1faf0f280b5a5d8a334afb62b7691a43721fdbaeb57f101b2c02fd9e49fdf83c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T15:11:41.813Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

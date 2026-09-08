@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-lamb-chops",
+  "name": "Air Fryer Lamb Chops",
+  "subtitle": "Garlic-herb lamb chops with crisp edges",
+  "description": "Season lamb chops with garlic, herbs, and olive oil, then air-fry until browned and cooked to a safe temperature. Finish with parsley if desired.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": "1 1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-grated",
+      "item": "garlic cloves finely grated",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fresh-herbs-such-as-rosemary",
+      "item": "fresh herbs such as rosemary",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped, thyme or oregano"
+    },
+    {
+      "ingredient_id": "lamb-chops",
+      "item": "lamb chops",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "fresh-parsley-to-serve-optional",
+      "item": "fresh parsley to serve (optional)",
+      "preparation": "chopped",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to the manufacturer's instructions."
+    },
+    {
+      "step": 2,
+      "text": "Combine the olive oil, garlic cloves finely grated, and fresh herbs such as rosemary. Coat the lamb chops evenly with the mixture."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the lamb chops in a single layer in the air-fryer basket."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 6 minutes, turn the chops, and cook for 6 minutes more, or until the thickest part reaches 145°F.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Transfer the chops to a plate and rest for 3 minutes. Sprinkle with fresh parsley to serve (optional).",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer",
+    "lamb",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-lamb-chops",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "75538098cd8421fc8d462218867912d020e71b7eb1c2aef720b0125614752fad",
+    "normalized_text_hash": "30f5044439442c68bd26896532331f3c1922ee7d3d0a81572f02b6564b71b2b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:26:44.696Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

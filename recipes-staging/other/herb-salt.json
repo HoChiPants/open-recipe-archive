@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "herb-salt",
+  "name": "Herb Salt",
+  "subtitle": "A bright rosemary and lemon-thyme seasoning blend",
+  "description": "Blend fresh herbs with salt, combine with additional sea salt, and let the mixture rest so the flavors develop.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 72,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coarse-sea-salt",
+      "item": "coarse sea salt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-fresh-rosemary-leaves",
+      "item": "packed fresh rosemary leaves",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-fresh-lemon-thyme-leaves",
+      "item": "packed fresh lemon thyme leaves",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the coarse sea salt, rosemary leaves, and lemon thyme leaves to a food processor or grinder. Process until the herbs are finely distributed through the salt."
+    },
+    {
+      "step": 2,
+      "text": "Combine the herb-salt mixture with the remaining sea salt."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to an airtight container and let it stand for 2 hours before using.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a clean storage container if needed and seal tightly."
+    }
+  ],
+  "tags": [
+    "herb-salt",
+    "seasoning",
+    "spice-blend"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "food processor or spice grinder",
+    "airtight container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222389/homemade-herb-salt/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "523219d8cc0f7ca56fef8acb7e115be8ce257fd0d40e7e124be24f4e87b699d7",
+    "normalized_text_hash": "495e613304d3a5305209e1669de3ceff7bfaf6a735018e16fc94f56022d8e048",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:39:47.294Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

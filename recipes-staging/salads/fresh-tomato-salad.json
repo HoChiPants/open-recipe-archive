@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-tomato-salad",
+  "name": "Fresh Tomato Salad",
+  "subtitle": "A crisp, herb-filled salad with a bright vinegar dressing.",
+  "description": "Combine ripe vegetables, fresh herbs, garlic, and vinegar for a simple chilled salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 5,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "parsley",
+      "item": "parsley",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the tomatoes, onion, cucumber, bell pepper, basil, parsley, and garlic in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the vinegar, season with salt and pepper, and toss until the vegetables are evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "salad",
+    "vegetarian",
+    "vegan",
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14406/fresh-tomato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e791a754cdae0851145fddb0e677aa7a9c6ffcdf6cd68b8c4852b3dd458cc6c",
+    "normalized_text_hash": "425d83a374e4db9fd37b176f95038c7e571c37fdf6a07b8856703747df58a335",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:24:11.828Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

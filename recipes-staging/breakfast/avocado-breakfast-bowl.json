@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "avocado-breakfast-bowl",
+  "name": "Avocado Breakfast Bowl",
+  "subtitle": "Quinoa, eggs, avocado, and feta for a savory start",
+  "description": "A warm quinoa bowl topped with eggs, diced avocado, and feta.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-quinoa",
+      "item": "red quinoa",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and quinoa in a saucepan. Bring to a simmer, cover, and cook for 15 minutes, or until the quinoa is tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Meanwhile, warm the olive oil in a skillet and cook the eggs until the whites are set. Season with the pinch of salt and pepper, seasoned salt, and ground black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Divide the quinoa between two bowls. Top with the eggs, diced avocado, and crumbled feta."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "quinoa",
+    "avocado",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244389/avocado-breakfast-bowl/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2f90c82b7bfbde8db2d8bd69c8ee42b35ce6949392235eaf214331b17ebe6712",
+    "normalized_text_hash": "449770561da04cc2c1065e1a9a2a5568ab2a25ef4fa941399005e9422c7fbecc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:35:36.061Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homemade-root-beer",
+  "name": "Homemade Root Beer",
+  "subtitle": "A fizzy, old-fashioned fountain-style drink",
+  "description": "Combine sugar, water, and root beer extract, then use dry ice to carbonate the mixture. Serve only after all dry ice has completely disappeared.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 64,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 3.3333332538605,
+      "unit": "gallons"
+    },
+    {
+      "ingredient_id": "root-beer-extract",
+      "item": "root beer extract",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "2 ounce"
+    },
+    {
+      "ingredient_id": "dry-ice",
+      "item": "dry ice",
+      "quantity": 4,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a large, sturdy, well-ventilated container, stir the sugar into the cold water until dissolved."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the root beer extract until evenly blended."
+    },
+    {
+      "step": 3,
+      "text": "Using insulated gloves or tongs, add the dry ice carefully. Do not touch it with bare skin, place it in a sealed container, or serve while any pieces remain."
+    },
+    {
+      "step": 4,
+      "text": "Let the mixture release its vapor in a well-ventilated area, stirring occasionally with a long utensil, and serve only when the dry ice has completely sublimated."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "root-beer",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large sturdy container",
+    "long stirring utensil",
+    "insulated gloves or tongs"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/43309/homemade-root-beer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc52cde4d49e1c476c954644040c08677f5a3dd9001acdde0f14230fd400d3d9",
+    "normalized_text_hash": "345281c82524e778d1259d5feb224dedc645a151a2b7990646bd36e89e9318a0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:41:53.851Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

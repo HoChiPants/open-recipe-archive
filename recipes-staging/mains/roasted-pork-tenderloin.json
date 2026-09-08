@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-pork-tenderloin",
+  "name": "Roasted Pork Tenderloin",
+  "subtitle": "Tender pork with sweet-tart sauerkraut",
+  "description": "Seasoned pork tenderloin roasts over sauerkraut with apple, onion, and brown sugar for a savory-sweet main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pork-tenderloin",
+      "item": "pork tenderloin",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "ground-sage",
+      "item": "ground sage",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-salt-to-taste",
+      "item": "garlic salt to taste"
+    },
+    {
+      "ingredient_id": "32-ounce-jar-sauerkraut",
+      "item": "(32 ounce) jar sauerkraut",
+      "quantity": 1,
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Season the pork tenderloin with ground sage and garlic salt, then place it in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Chop the apple and onion, and combine them with the drained sauerkraut and brown sugar. Arrange the mixture around the pork."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 3 hours, or until the thickest part of the pork reaches 145°F on a food thermometer. Rest the pork for 3 minutes before slicing.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25148/roasted-pork-tenderloin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3a4c10acc59bf216f44b124fab65e31c12900fcc9afb4b3159a422e7e926053b",
+    "normalized_text_hash": "c79b7631a5599061081b4512ff43d51062d1584428a60647398b5235c9073eb8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:15:19.518Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

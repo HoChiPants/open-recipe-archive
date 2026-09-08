@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-roll-monkey-bread",
+  "name": "Cinnamon Roll Monkey Bread",
+  "subtitle": "Warm pull-apart cinnamon bites with icing",
+  "description": "Pieces of cinnamon roll dough are buttered, coated in cinnamon sugar, baked until golden, and finished with the included icing.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "refrigerated-cinnamon-roll-dough-with-icing",
+      "item": "refrigerated cinnamon roll dough with icing",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12.4 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the white sugar and ground cinnamon in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Separate the cinnamon roll dough and cut it into bite-size pieces."
+    },
+    {
+      "step": 4,
+      "text": "Coat the dough pieces with melted butter, then toss them in the cinnamon-sugar mixture."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the coated pieces in a baking pan and bake until golden brown, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Let the bread cool for 5 minutes, then drizzle with the icing from the package.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 7,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baked",
+    "cinnamon",
+    "pull-apart"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/284760/cinnamon-roll-monkey-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "db4f21e0390c767c2192311bfca5f4ab0a5019f93571b6c3ae8df8cafbf0fbf7",
+    "normalized_text_hash": "d7e4b5762b9972e1c6b13df3e70c9c828ea78dcf19c2ecc621711930c4417dbb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:47:37.888Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

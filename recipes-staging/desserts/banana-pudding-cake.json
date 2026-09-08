@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-pudding-cake",
+  "name": "Banana Pudding Cake",
+  "subtitle": "A moist banana cake with a simple vanilla glaze",
+  "description": "A tender banana-flavored cake finished with a smooth confectioners’ sugar glaze and chopped walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-banana-pudding-mix",
+      "item": "instant banana pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mashed-bananas",
+      "item": "mashed bananas",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the yellow cake mix and instant banana pudding mix together. Add the eggs, water, vegetable oil, and mashed bananas; whisk for 4 minutes, until evenly combined.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to the prepared pan and bake until the center is fully set, about 55 minutes.",
+      "timer_minutes": 55
+    },
+    {
+      "step": 4,
+      "text": "Cool the cake for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Whisk the confectioners' sugar, milk, and vanilla extract until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Spread the glaze over the cooled cake and finish with the chopped walnuts."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "banana",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7883/banana-pudding-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ca6809e33c6b64407d277ec270b0079102f38d5f3a66e41223d58c84731fc308",
+    "normalized_text_hash": "d1b70e6d3ed0e57ba288fe9d5004ef1031efe1a9766458a3f840802661865642",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:00:09.671Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-berry-smoothie",
+  "name": "Almond Berry Smoothie",
+  "subtitle": "A creamy blueberry-banana breakfast drink",
+  "description": "A quick blended smoothie with frozen blueberries, banana, almond milk, and almond butter.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-blueberries",
+      "item": "frozen blueberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "almond-milk",
+      "item": "almond milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almond-butter",
+      "item": "almond butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water-as-needed",
+      "item": "water as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the frozen blueberries, banana, almond milk, and almond butter to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, adding water as needed to reach your preferred consistency. Serve right away."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink",
+    "fruit",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246613/almond-berry-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "68f33a0da749c2d64d37b38ab74ceb1aac2250150ccc43ea5ef63a20f54c41ae",
+    "normalized_text_hash": "c49d719fa26adc1c59dc4a036c0ee3f0bfd261fff9d7cecdad344caafd05ec56",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:44:36.437Z",
+    "semantic_similarity": 14,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

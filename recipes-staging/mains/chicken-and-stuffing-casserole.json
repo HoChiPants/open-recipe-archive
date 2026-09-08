@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-stuffing-casserole",
+  "name": "Chicken and Stuffing Casserole",
+  "subtitle": "A warm, cheesy casserole with tender chicken and broccoli",
+  "description": "Combine cooked chicken, broccoli, gravy, stuffing, and Cheddar, then bake until bubbling and safely heated through.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "prepared-stuffing",
+      "item": "prepared stuffing",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "cubed cooked"
+    },
+    {
+      "ingredient_id": "broccoli-florets",
+      "item": "broccoli florets",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "12-ounce-jar-chicken-gravy",
+      "item": "(12 ounce) jar chicken gravy",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded, divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the prepared stuffing, chicken, broccoli, chicken gravy, and half of the divided Cheddar cheese."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a casserole dish and sprinkle the remaining Cheddar over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes, until cooked through and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "casserole dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232950/quick-chicken-and-stuffing-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f81062b61928db5f9a37a442fbccb6a175f1359ee8ac16f97c7564834abd70b1",
+    "normalized_text_hash": "3a22f4adac58367b5885ad8b9d620794932978dce3e6bc7f11d9a68a10302fe7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:44:51.675Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

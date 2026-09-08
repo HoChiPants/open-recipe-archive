@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-butter-shrimp",
+  "name": "Garlic Butter Shrimp",
+  "subtitle": "A quick skillet shrimp dinner with garlic and a silky butter sauce.",
+  "description": "Frozen shrimp cook in seasoned butter, then are finished with a cornstarch slurry for a lightly thickened sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-medium-shrimp",
+      "item": "frozen medium shrimp",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat. Add the frozen shrimp and cook, stirring occasionally, for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir in the garlic powder."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the water and cornstarch together until smooth, then add the slurry to the skillet."
+    },
+    {
+      "step": 4,
+      "text": "Cook, stirring, for 5 minutes, until the shrimp are opaque and easily flake and the sauce thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Season with salt and ground black pepper to taste, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "shrimp"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "large skillet",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273799/garlic-butter-shrimp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c9bb47c387eda8b5340130b9eaa8daefc83e427767281ccf3a8078b48afe5e89",
+    "normalized_text_hash": "f08a1de1506837373d3513398606a65015084e6e17133278d2f1a4f3a110759e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:35:08.375Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

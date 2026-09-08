@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-baked-chicken",
+  "name": "Oven-Baked Chicken",
+  "subtitle": "Whole chicken with a savory honey-soy glaze",
+  "description": "A whole chicken roasts over sliced onion in a tangy, lightly sweet glaze.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 65,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "halved and sliced"
+    },
+    {
+      "ingredient_id": "low-sodium-soy-sauce",
+      "item": "low sodium soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "poultry-seasoning",
+      "item": "poultry seasoning",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "4-to-6-pound-whole-chicken",
+      "item": "(4 to 6 pound) whole chicken",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the water, ketchup, onion, soy sauce, Worcestershire sauce, oil, honey, flour, garlic powder, pepper, and poultry seasoning together in a saucepan. Heat for 5 minutes, then let the sauce cool for 10 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 3,
+      "text": "Coat the whole chicken with the sauce and place it in a roasting pan with the sliced onion arranged around it."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 45 minutes. Increase the oven temperature to 400°F and continue baking until the thickest part of the chicken reaches 165°F on a food thermometer, about 20 minutes.",
+      "timer_minutes": 65
+    },
+    {
+      "step": 5,
+      "text": "Let the chicken rest for 10 minutes before carving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roasted-chicken",
+    "whole-chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "saucepan",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234847/best-oven-baked-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c5e2a4aec13180579955ac35812b6ac671d04d1c1940004361336e287db00ed6",
+    "normalized_text_hash": "6d63802e4a0c7d4ce3f509b64be263c52b44ad104c5183aed188da6f14ecbdeb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:37:42.778Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 24,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

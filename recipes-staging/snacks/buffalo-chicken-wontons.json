@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buffalo-chicken-wontons",
+  "name": "Buffalo Chicken Wontons",
+  "subtitle": "Crisp wonton parcels with spicy chicken and cheddar",
+  "description": "Shredded chicken, cheddar, ranch, butter, and hot pepper sauce fill wonton wrappers for a crisp, savory snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded cooked"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "ranch-dressing",
+      "item": "ranch dressing",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "wonton-wrappers",
+      "item": "wonton wrappers",
+      "quantity": 20
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the vegetable oil to 350°F in a deep skillet or fryer."
+    },
+    {
+      "step": 2,
+      "text": "Mix the chicken, cheddar, ranch dressing, melted butter, and hot pepper sauce until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Place a portion of filling in each wonton wrapper. Moisten the edges, fold the wrappers over the filling, and press to seal."
+    },
+    {
+      "step": 4,
+      "text": "Fry the wontons in batches for about 3 minutes per batch, turning as needed, until golden brown and crisp.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Transfer the cooked wontons to a lined plate or rack to drain. Serve hot."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american",
+    "buffalo-chicken",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "deep skillet or fryer",
+    "food thermometer",
+    "tongs",
+    "paper towels or wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230859/crispy-buffalo-chicken-wontons/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d6a74e62c39494e34133a0e1e231bd86e35a5341dad9476e4850c0c2d2b202d1",
+    "normalized_text_hash": "8157bfc152c235e4e0b85a5f740682f0d27e99f7c52812e33bf5602b8de4917c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:48:32.063Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

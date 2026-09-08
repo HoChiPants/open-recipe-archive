@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-boats",
+  "name": "Banana Boats",
+  "subtitle": "Warm bananas filled with melty chocolate and marshmallows",
+  "description": "A quick baked-style dessert of bananas warmed with semisweet chocolate chips and miniature marshmallows.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare a heat-safe cooking surface or dish."
+    },
+    {
+      "step": 2,
+      "text": "Cut a lengthwise slit in each banana without cutting completely through."
+    },
+    {
+      "step": 3,
+      "text": "Fill the slits with the chocolate chips and miniature marshmallows."
+    },
+    {
+      "step": 4,
+      "text": "Cook the filled bananas for 5 minutes, until the chocolate is melted and the marshmallows are softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "banana",
+    "chocolate",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "knife",
+    "heat-safe cooking surface or dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18988/banana-boats/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "47fb08d11bf64cc59b233e273aa805db927985784ca25ca3e29150afcd5628f0",
+    "normalized_text_hash": "872e81ef5312c57706b15ac7199ed048ffc4ef58fa2ce320bf12e4b8b2bbb70d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:56:02.858Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

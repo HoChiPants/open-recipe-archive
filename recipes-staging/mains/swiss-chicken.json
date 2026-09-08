@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "swiss-chicken",
+  "name": "Swiss Chicken",
+  "subtitle": "Baked chicken with Swiss cheese and a crisp crumb topping",
+  "description": "Chicken breasts are baked in a creamy sauce beneath Swiss cheese and buttery seasoned crumbs.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 8,
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.33333331346512,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "slices-swiss-cheese",
+      "item": "slices Swiss cheese",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "italian-seasoned-bread-crumbs",
+      "item": "Italian seasoned bread crumbs",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cut into pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the condensed cream of chicken soup in a baking dish and stir in the water."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken breasts in the sauce and cover each with a slice of Swiss cheese."
+    },
+    {
+      "step": 4,
+      "text": "Combine the Italian seasoned bread crumbs with the butter pieces, then scatter the mixture over the cheese."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 45 minutes, until the chicken reaches 165°F in the thickest part when checked with a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8708/swiss-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "309982b2acf157b00bdba46468bd7a22e834d82c15b4f1668e57b40628b5dff6",
+    "normalized_text_hash": "7e485fcfc0b43b61560f8eabb2e3e90190985b7bc2b5b7c2eb652b44891ca831",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:32:09.920Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-fried-eggplant",
+  "name": "Easy Fried Eggplant",
+  "subtitle": "Crisp, golden slices for a simple meal",
+  "description": "Eggplant slices are dipped in beaten egg, coated with breadcrumbs, and fried until golden.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "eggplant",
+      "item": "eggplant",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "dry-bread-crumbs",
+      "item": "dry bread crumbs",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set the beaten eggs and dry bread crumbs in separate shallow dishes."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat and add the canola oil."
+    },
+    {
+      "step": 3,
+      "text": "Dip each eggplant slice in the beaten eggs, then coat it evenly with dry bread crumbs."
+    },
+    {
+      "step": 4,
+      "text": "Fry the coated slices in the hot oil until golden brown, about 3 minutes, turning as needed.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Transfer the fried eggplant to a paper towel-lined plate to drain, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "vegetarian",
+    "fried",
+    "eggplant"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "shallow dishes",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22448/easy-fried-eggplant/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "33814082d4f72d41f400c4fccb6f45df8ef377ad0444d02b7bcd7945895ebcc4",
+    "normalized_text_hash": "7db65b58e0abcae0380d06b3e1d4e70e085475025915c8ae8a9d3d3eab3de83f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:43.183Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

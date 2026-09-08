@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizzelle",
+  "name": "Pizzelle",
+  "subtitle": "Thin, crisp Italian waffle cookies with lemon and vanilla",
+  "description": "A simple pizzelle batter flavored with lemon zest and vanilla, cooked in a pizzelle iron until lightly golden and crisp.",
+  "meal_type": "dessert",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "lemon-zest",
+      "item": "lemon zest",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 4,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs until blended. Stir in the sugar, melted butter, lemon zest, and vanilla."
+    },
+    {
+      "step": 2,
+      "text": "Mix the flour and baking powder separately, then stir them into the egg mixture just until a thick batter forms."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the pizzelle iron according to the manufacturer's instructions and prepare it for cooking."
+    },
+    {
+      "step": 4,
+      "text": "Cook portions of batter in the iron until the pizzelle are lightly golden and set.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Transfer the pizzelle to a rack and let them cool completely before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "italian",
+    "cookies",
+    "waffle-cookies"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pizzelle iron",
+    "mixing bowls",
+    "whisk",
+    "cooling rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15289/pizzelle-italian-tradition/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "06b0f70b23b49e5abe14a97583b72861a157046ff9295f89dec03cae59819f84",
+    "normalized_text_hash": "6858e42af37b958a56ed68fed03e5412c1c2e30fcec92dcbd1cd63e43299e2c9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:24:21.478Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

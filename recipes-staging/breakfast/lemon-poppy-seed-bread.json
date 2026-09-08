@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-poppy-seed-bread",
+  "name": "Lemon Poppy Seed Bread",
+  "subtitle": "A bright, tender loaf with a delicate poppy seed crunch.",
+  "description": "A simple lemon-flavored baked bread made with cake mix, pudding mix, and poppy seeds.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon-cake-mix",
+      "item": "lemon cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "instant-lemon-pudding-mix",
+      "item": "instant lemon pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "poppy-seeds",
+      "item": "poppy seeds",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the lemon cake mix, eggs, vegetable oil, instant lemon pudding mix, water, and poppy seeds. Stir until evenly blended."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to a prepared baking pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 350°F for 25 minutes, or until the bread is set in the center.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baking",
+    "lemon",
+    "poppy-seeds",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6728/quick-lemon-poppy-seed-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2264baea0cc708c3330271c3d4151770198cb7b31672554a4776db941ac9e1ef",
+    "normalized_text_hash": "e2ea85d20309f6c88936267a4231f55d724f770940f95d7263e9bb48d5f886b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:46:43.656Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

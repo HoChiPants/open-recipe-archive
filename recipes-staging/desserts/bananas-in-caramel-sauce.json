@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bananas-in-caramel-sauce",
+  "name": "Bananas in Caramel Sauce",
+  "subtitle": "Warm bananas with a buttery cream caramel",
+  "description": "Tender bananas served with a smooth caramel sauce made from butter, sugar, and cream.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "superfine-sugar",
+      "item": "superfine sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 4,
+      "preparation": "peeled and halved lengthwise"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the butter and heavy cream together in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the superfine sugar until melted, then whisk until the sauce is smooth."
+    },
+    {
+      "step": 3,
+      "text": "Continue heating the sauce for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Add the bananas and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Serve the bananas with the caramel sauce."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "banana",
+    "caramel"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20258/bananas-in-caramel-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f5e9cc13bec14ea47fd18d2e3b875b09ff000732b4053d44de6bde441efc2886",
+    "normalized_text_hash": "16a0a504d2f09213c42a3419748d3a56305841f6a0410381d7dede7b34e88807",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:01:39.668Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

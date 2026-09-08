@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-savory-pork-roast",
+  "name": "Simple Savory Pork Roast",
+  "subtitle": "Herb-Crusted Boneless Pork Loin",
+  "description": "A straightforward pork loin roast seasoned with rosemary, thyme, garlic salt, and black pepper.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-rosemary",
+      "item": "fresh rosemary",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "boneless-pork-loin-roast",
+      "item": "boneless pork loin roast",
+      "quantity": 3,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the rosemary, garlic salt, thyme, and black pepper. Rub the seasoning mixture evenly over the pork roast."
+    },
+    {
+      "step": 3,
+      "text": "Place the roast in a roasting pan and bake for 60 minutes, or until the center reaches 145°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Let the roast rest for 3 minutes before slicing and serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pork",
+    "roast",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/39447/simple-savory-pork-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4c16fdccc78615f4bd7f2f64d22190e0b112468e7d2136c6209c297114a8bf77",
+    "normalized_text_hash": "26df057a0e6ce32c719069938169f8f7bff278c566833af9fe83e49fd032be7a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:28:41.032Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

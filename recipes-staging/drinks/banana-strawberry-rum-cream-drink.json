@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-strawberry-rum-cream-drink",
+  "name": "Banana Strawberry Rum Cream Drink",
+  "subtitle": "A frosty blended cocktail with creamy liqueur and fruit flavors.",
+  "description": "Blend rum cream liqueur, coffee liqueur, milk, strawberry syrup, banana, and crushed ice into a smooth single-serving drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounce-rum-cream-liqueur",
+      "item": "fluid ounce rum cream liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-coffee-flavored-liqueur",
+      "item": "fluid ounce coffee flavored liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-milk",
+      "item": "fluid ounce milk",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-strawberry-flavored-syrup",
+      "item": "fluid ounce strawberry flavored syrup",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the rum cream liqueur, coffee flavored liqueur, milk, and strawberry flavored syrup to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Add the banana and crushed ice, then blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer to a serving glass and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "blended",
+    "banana",
+    "strawberry",
+    "cocktail"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21676/hummingbird/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "751b289736e12ded0bd2cfa99c3cf850271a85eafbbece58443b0c84df65b619",
+    "normalized_text_hash": "3e1e090517e2b7b121ef795f271c3e9465c06f4373a4c38d4bbbc0b7b1223a7e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:56:13.545Z",
+    "semantic_similarity": 14,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

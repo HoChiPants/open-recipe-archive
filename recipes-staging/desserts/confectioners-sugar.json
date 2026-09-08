@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "confectioners-sugar",
+  "name": "Confectioners' Sugar",
+  "subtitle": "Make a fine powdered sugar blend at home",
+  "description": "Blend white sugar with cornstarch until finely powdered for a smooth confectioners' sugar substitute.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the white sugar and cornstarch in a blender or food processor."
+    },
+    {
+      "step": 2,
+      "text": "Process until the mixture is very fine and powdery, then use or store as needed."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "blender or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242092/confectioners-sugar/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ecd4536917e90f45c98793c095ed218281bb9a54e0e896db211f593e21a875df",
+    "normalized_text_hash": "fb1fab4ffee3f66a8616bf9a3464d861252d9bf8ae9752ad42ddabfd80d779e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:06:11.225Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

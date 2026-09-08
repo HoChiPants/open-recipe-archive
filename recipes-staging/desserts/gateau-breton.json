@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "gateau-breton",
+  "name": "Gateau Breton",
+  "subtitle": "A buttery French cake with a crisp golden top",
+  "description": "Rich, tender, and lightly crisp, this Breton-style cake is baked in two stages and served in wedges.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Beat the egg yolks with the water until blended; reserve a little for brushing the cake."
+    },
+    {
+      "step": 3,
+      "text": "Cream the softened butter and sugar, then mix in the flour and cornstarch."
+    },
+    {
+      "step": 4,
+      "text": "Add the remaining yolk mixture and combine into a soft dough; knead briefly until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough in a prepared cake pan and smooth the surface. Brush with the reserved yolk mixture."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 375°F for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Reduce the oven to 350°F and continue baking for about 25 minutes, until golden brown and the center is fully set, reaching 160°F if checked with a thermometer.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 8,
+      "text": "Cool for 10 minutes, then cut into wedges.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "french",
+    "buttery-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/266874/gateau-breton/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "73edf35b7e47f00ef7a73fbb0083b8364fe75e4c123bd5650ddeef7778eaebc9",
+    "normalized_text_hash": "a2c1d6c3587fd5490086e0962b0bbd1fb0e75303f9a454b911643ddc47b635b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:39:00.617Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

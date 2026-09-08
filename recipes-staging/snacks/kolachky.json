@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kolachky",
+  "name": "Kolachky",
+  "subtitle": "Tender pastries with walnut-honey and poppyseed fillings",
+  "description": "Make a soft cream-cheese dough, fill it with nut or poppyseed mixtures, and bake the pastries until lightly browned and set.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 15,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, room temperature"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "poppyseed-filling",
+      "item": "poppyseed filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Beat the softened butter and cream cheese until smooth. Add the flour and mix until a dough forms."
+    },
+    {
+      "step": 2,
+      "text": "Knead the dough for 5 minutes, then cover and refrigerate until firm, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 4,
+      "text": "Combine the chopped walnuts, honey, and egg; set aside. Transfer the poppyseed filling to a bowl and let it rest briefly."
+    },
+    {
+      "step": 5,
+      "text": "Roll the chilled dough into a thick sheet and cut it into small rounds."
+    },
+    {
+      "step": 6,
+      "text": "Place a portion of filling on each round and shape the dough around it."
+    },
+    {
+      "step": 7,
+      "text": "Brush the pastries with egg white and transfer them to a baking sheet."
+    },
+    {
+      "step": 8,
+      "text": "Bake for 17 minutes, until lightly browned and the centers are fully set, reaching 160°F.",
+      "timer_minutes": 17
+    },
+    {
+      "step": 9,
+      "text": "Cool the pastries, then dust with confectioners' sugar."
+    }
+  ],
+  "tags": [
+    "snack",
+    "pastry",
+    "czech"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "rolling pin",
+    "pastry cutter",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26159/kolachky/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d05ccc40191184a72ccd968889c9c22e994aa3db93eb1606a94fa1a7d35488c6",
+    "normalized_text_hash": "005bcec24380187d42f2ba34fc63f1faf52f4a1b6c0b7b40f95ecff13e8cbbf1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:44:00.138Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

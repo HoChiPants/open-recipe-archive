@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-pie",
+  "name": "Pecan Pie",
+  "subtitle": "A classic nut-filled pie with a crisp pastry crust",
+  "description": "Prepare a chilled butter pastry, fill it with a sweet pecan custard, and bake until firm. Cool before slicing.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chilled"
+    },
+    {
+      "ingredient_id": "ice-water",
+      "item": "ice water",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "light-corn-syrup",
+      "item": "light corn syrup",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dark-corn-syrup",
+      "item": "dark corn syrup",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "light-brown-sugar",
+      "item": "light brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "finely crushed"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "pecan-halves",
+      "item": "pecan halves",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the flour, 0.5 teaspoon salt, and white sugar. Cut in the chilled butter until coarse crumbs form, then add the ice water and mix just until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into a disk, roll it out on a lightly floured surface, and fit it into a pie pan. Trim or crimp the edge as needed."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the beaten eggs with both syrups, brown sugar, melted butter, and the pinch of salt. Stir in the finely crushed and quartered pecans."
+    },
+    {
+      "step": 5,
+      "text": "Pour the filling into the crust and arrange the pecan halves over the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 350°F until the filling is firm and reaches 160°F in the center.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 7,
+      "text": "Cool completely before cutting and serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "pecans",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "pastry cutter",
+    "rolling pin",
+    "9-inch pie pan",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18433/irresistible-pecan-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b311ad8ab87913270681d0e35ec48dd952e5a907edfb6de72b7406f0e1c8c45",
+    "normalized_text_hash": "7183eb9a80d239f4344dfb3fa29fb6484cf1c6abc06e02a18de38a21f0aaa7b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:15:04.283Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

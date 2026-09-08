@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ranch-potato-salad",
+  "name": "Ranch Potato Salad",
+  "subtitle": "Creamy potato salad with bacon and green onion",
+  "description": "Tender red potatoes are coated in a ranch-seasoned mayonnaise dressing and finished with crisp bacon and green onion.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "bacon-slices",
+      "item": "bacon slices",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "unpeeled-red-potatoes",
+      "item": "unpeeled red potatoes",
+      "quantity": 5,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer. Add the unpeeled red potatoes and cook until tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes, cut them into bite-size pieces, and transfer them to a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Combine the ranch dressing mix, mayonnaise, and green onion; blend until evenly mixed."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the bacon slices to a microwave-safe dish and microwave for 15 minutes, until set. Cool, then crumble or chop.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Coat the potatoes with the dressing mixture, then stir in the bacon."
+    },
+    {
+      "step": 6,
+      "text": "Chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "salad",
+    "potato",
+    "ranch",
+    "bacon",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "large bowl",
+    "microwave-safe dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/57148/texas-ranch-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab775d2319857af74b27e45f2bec61070c69826615cbf69f4610bf5739fd87ca",
+    "normalized_text_hash": "929115e509abfc900fbe570e36bb6dbdc633e89c792f64e29895e408faa245b7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:48:01.003Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

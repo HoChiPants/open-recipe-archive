@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-salad",
+  "name": "Chicken Salad",
+  "subtitle": "Creamy chicken salad with grapes, celery, and almonds",
+  "description": "A chilled American chicken salad combining tender chicken, crisp celery, sweet grapes, sliced almonds, and a light whipped-cream mayonnaise dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "and-chilled",
+      "item": "and chilled",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "diced, cooked chicken meat"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sliced",
+      "item": "sliced",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "seedless grapes"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the heavy whipping cream until soft peaks form."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chicken, celery, grapes, almonds, parsley, salt, mayonnaise, and whipped cream in a bowl. Stir gently until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill before serving."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "chilled",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8565/beckys-chicken-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a7261e0c357c4b151bfd31dcb72451d91019b2730e05663ead26fcdb9da96cec",
+    "normalized_text_hash": "62a405e5f748c7cd86b5be35509a1faca810c421f275dbba69fa9356250f3207",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:16:12.380Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

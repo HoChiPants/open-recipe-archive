@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesecake-ice-cream",
+  "name": "Cheesecake Ice Cream",
+  "subtitle": "A smooth, tangy frozen dessert with vanilla and citrus notes.",
+  "description": "Blend softened cream cheese with milk, sugar, triple sec, vanilla, and salt for a creamy cheesecake-inspired ice cream.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lowfat-1-milk",
+      "item": "lowfat 1% milk",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "reduced-fat-cream-cheese",
+      "item": "reduced fat cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "triple-sec",
+      "item": "triple sec",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese until smooth and pliable."
+    },
+    {
+      "step": 2,
+      "text": "Add the milk, sugar, triple sec, vanilla extract, and salt; whisk until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Blend the mixture until completely smooth, then freeze for 60 minutes.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "frozen-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "whisk",
+    "blender",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143521/cheesecake-ice-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b39ec41c94813001b495ad9dd68b64ad48ad4069c109e2c9783a57adc74cf2b8",
+    "normalized_text_hash": "1ba4e18032d4bc2b1ea00214eb1155b37a568eab2831a9c27920af2349fa1b19",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:10:04.807Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

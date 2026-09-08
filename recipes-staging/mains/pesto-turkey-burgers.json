@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pesto-turkey-burgers",
+  "name": "Pesto Turkey Burgers",
+  "subtitle": "Juicy turkey patties with basil pesto and feta",
+  "description": "Mix seasoned turkey with pesto, garlic, feta, and breadcrumbs, then grill until safely cooked for a quick dinner.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lean-ground-turkey",
+      "item": "lean ground turkey",
+      "quantity": 1.25,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "basil-pesto",
+      "item": "basil pesto",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "bread-crumbs",
+      "item": "bread crumbs",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill to medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Combine the turkey, pesto, garlic, feta, 1½ teaspoons seasoned salt, and breadcrumbs until just mixed."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into four evenly sized patties."
+    },
+    {
+      "step": 4,
+      "text": "Grill the patties for about 5 minutes per side, turning once, until the centers reach 165°F on a food thermometer.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle with the remaining ½ teaspoon seasoned salt and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "turkey",
+    "burgers"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/139972/pesto-turkey-burgers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "96fd003d7345067e298d0d7ff93d9b5bd21bb3dfb37db744c1a4ee0382e2d1a4",
+    "normalized_text_hash": "e56912b737d9a0341ea6e60e101b3cf2d0e5b25d81e3f267d30656fe659f713d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:13:38.509Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

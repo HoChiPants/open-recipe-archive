@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-playdough",
+  "name": "Peanut Butter Playdough",
+  "subtitle": "A simple no-cook edible dough",
+  "description": "Mix four pantry ingredients into a soft, workable dough for an edible snack or play activity.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dry-milk-powder",
+      "item": "dry milk powder",
+      "quantity": 4,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the confectioners' sugar and peanut butter together until combined."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the honey until evenly incorporated."
+    },
+    {
+      "step": 3,
+      "text": "Add the dry milk powder and mix until a cohesive dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Prepare the dough for serving or shaping."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "snack",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20352/peanut-butter-playdough/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9fb8b5cf7044cb53fb2da46f78db88fb6a9e24f98be365ad814d701c9ac8ae4d",
+    "normalized_text_hash": "ff0c89362ad93c944a4cd4cb18ed634847e3b81ed42013334acd1f4c6a9ee63c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:01:17.980Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

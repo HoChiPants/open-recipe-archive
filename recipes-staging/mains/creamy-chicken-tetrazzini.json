@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-chicken-tetrazzini",
+  "name": "Creamy Chicken Tetrazzini",
+  "subtitle": "A baked pasta casserole with chicken, mushrooms, and a creamy sauce",
+  "description": "Tender spaghetti is combined with chicken, mushrooms, soup, sour cream, and Parmesan, then baked until hot and lightly browned.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "8 ounce, drained"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "boneless-chicken-breast-halves",
+      "item": "boneless chicken breast halves",
+      "quantity": 4,
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the spaghetti according to package directions until tender, then drain."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a skillet and cook the drained mushrooms briefly."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the condensed cream of chicken soup and sour cream together. Stir in the mushrooms and cooked chicken."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the drained spaghetti, transfer the mixture to a baking dish, and sprinkle with Parmesan cheese."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 40 minutes, until the casserole is hot throughout and reaches 165°F in the center when checked with a food thermometer.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "skillet",
+    "whisk",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11722/chicken-tetrazzini-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce6c4a420abc34fde804001a5b6d1388a9edbefae4be38609164c2113d2bda7c",
+    "normalized_text_hash": "6e1755fefb167c229347acfa70ccf3d2b3b76ad34764fb730b1b742e15d72853",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:35:03.739Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

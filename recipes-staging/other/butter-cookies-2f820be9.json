@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-cookies-2f820be9",
+  "name": "Butter Cookies",
+  "subtitle": "Tender vanilla cookies with crisp edges",
+  "description": "A simple four-ingredient cookie made by creaming softened butter with vanilla and icing sugar, then mixing in flour before baking.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 25,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salted-butter-softened",
+      "item": "salted butter softened",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened butter, vanilla extract, and icing sugar until smooth and well combined."
+    },
+    {
+      "step": 3,
+      "text": "Add the plain flour and whisk until the mixture is combined."
+    },
+    {
+      "step": 4,
+      "text": "Prepare a baking tray, then transfer the dough onto it."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Transfer the cookies to a rack and let them stand for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "baking",
+    "cookies",
+    "sweet",
+    "treat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "whisk",
+    "baking tray",
+    "wire rack"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/butter-cookies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f0d1afdb3edd6e63a28239ab5eec13a6421bd2a088e8470c87792d0913fb8a43",
+    "normalized_text_hash": "87b08e92e1cb57e84f33037a9a7a1a80b732bfbc018aab2670793762e334f42d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T20:07:42.883Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

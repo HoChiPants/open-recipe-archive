@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rock-salt-prime-rib-roast",
+  "name": "Rock Salt Prime Rib Roast",
+  "subtitle": "Mustard-coated beef with horseradish cream",
+  "description": "A salt-crusted prime rib roast served with lightly whipped horseradish cream.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4-pound-prime-rib-roast",
+      "item": "(4 pound) prime rib roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "prepared-hot-mustard",
+      "item": "prepared hot mustard",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "rock-salt",
+      "item": "rock salt",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream",
+      "item": "cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-horseradish",
+      "item": "prepared horseradish",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Coat the prime rib roast evenly with the prepared hot mustard."
+    },
+    {
+      "step": 3,
+      "text": "Pack the rock salt in a thick layer around the mustard-coated roast."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 60 minutes, or until a thermometer inserted into the center reads 145°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Remove the roast from the salt crust and let it rest for at least 3 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Whisk the cream to stiff peaks, then fold in the prepared horseradish."
+    },
+    {
+      "step": 7,
+      "text": "Cut the roast into portions and serve with the horseradish cream."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "roast",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/30975/rock-salt-roast-prime-rib/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d132791163c8476e70515b47e23bc468048361c3c339d8e11893060d92336a9b",
+    "normalized_text_hash": "c3e28e64b0eaab940546bc3e9193ae3853aa95d55027e7869aff4556793c3ea5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:23:28.723Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

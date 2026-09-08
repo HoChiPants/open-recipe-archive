@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-frozen-rib-eye-steak",
+  "name": "Grilled Frozen Rib-Eye Steak",
+  "subtitle": "A simple seasoned steak finished over high heat",
+  "description": "Grill a frozen rib-eye with garlic, Worcestershire sauce, and butter for a quick, savory dinner.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "1-2-pound-frozen-delmonico-rib-eye-steak",
+      "item": "(1/2 pound) frozen Delmonico (rib-eye) steak",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "meat-tenderizer",
+      "item": "meat tenderizer",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-black-pepper-to-taste",
+      "item": "salt and black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill to high heat."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter and combine it with Worcestershire sauce, meat tenderizer, minced garlic, salt, and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Coat the frozen steak with the seasoned butter mixture and place it on the hot grill."
+    },
+    {
+      "step": 4,
+      "text": "Grill for 8 minutes, turn, and continue cooking until the thickest part reaches 145°F.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Transfer the steak to a plate and let it rest for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "beef"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "meat thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/57473/juicy-steak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ef7fe22979a13cc03e3a22d58e67ca3cdf4e3056c9947fa6206e9cad8a7cdcd7",
+    "normalized_text_hash": "2ca43ce9103e45e255dd840f53b21cb956c379c5eb6fb849697f98423d825e3b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:31:14.459Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

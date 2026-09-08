@@ -1,0 +1,177 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "borsch",
+  "name": "Borsch",
+  "subtitle": "Beef, beetroot, cabbage, and bean soup",
+  "description": "A hearty beetroot soup with tender beef, potatoes, cabbage, beans, and dill, served with soured cream and bread.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fatty-beef-shin-left-in-large-chunks",
+      "item": "fatty beef shin (left in large chunks)",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "onion-peeled-and-left-whole",
+      "item": "onion peeled and left whole",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "potatoes-peeled-and-chopped",
+      "item": "potatoes peeled and chopped",
+      "quantity": 2.2,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "sunflower-oil",
+      "item": "sunflower oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-finely-diced",
+      "item": "onion finely diced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "carrot-roughly-grated",
+      "item": "carrot roughly grated",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "beetroot-peeled-and-chopped-into-matchsticks",
+      "item": "beetroot peeled and chopped into matchsticks",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "red-pepper-chopped-optional",
+      "item": "red pepper chopped (optional)",
+      "quantity": 1,
+      "optional": true
+    },
+    {
+      "ingredient_id": "x-400g-can-chopped-tomatoes",
+      "item": "x 400g can chopped tomatoes",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "prunes-pitted-we-used-french-agen-prunes",
+      "item": "prunes pitted (we used French Agen prunes)",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "white-cabbage-shredded",
+      "item": "white cabbage shredded",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "can-red-kidney-beans-drained-and-rinsed",
+      "item": "can red kidney beans drained and rinsed",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "soured-cream-or-cre-me-frai-che-to-serve",
+      "item": "soured cream or crème fraîche to serve",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "bunch-dill-chopped",
+      "item": "bunch dill chopped",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "crusty-bread-to-serve",
+      "item": "crusty bread to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beef shin, whole onion, and bay leaf in a large pot. Add water to cover, bring to a boil, then reduce to a gentle simmer for 60 minutes, skimming as needed.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Heat the sunflower oil in a separate large pan. Cook the diced onion and grated carrot until softened, then add the beetroot and cook briefly.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the optional pepper, chopped tomatoes, and prunes; cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the potatoes to the beef pot and simmer until nearly tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Stir in the sautéed vegetables, cabbage, and kidney beans. Simmer until the cabbage and potatoes are tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Check the beef reaches 145°F in the thickest part, then rest it for 3 minutes before serving. Remove the bay leaf and whole onion, then serve the soup with soured cream, dill, and crusty bread."
+    }
+  ],
+  "tags": [
+    "soup",
+    "borscht",
+    "beetroot",
+    "beef",
+    "cabbage",
+    "beans",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/borsch",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "caca969070a2226e86f61d4739372ddeb5557be90e716077a0f5fb4431194bde",
+    "normalized_text_hash": "a531d0a3ddf7e310cb1ccccb6a466b536f31c484d4b3674ad01cb25c1808b592",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:44:33.093Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

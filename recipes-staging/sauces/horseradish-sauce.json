@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "horseradish-sauce",
+  "name": "Horseradish Sauce",
+  "subtitle": "A sharp, cool sauce with fresh chive flavor",
+  "description": "Combine sour cream with horseradish, chives, lemon juice, and cayenne for a creamy, spicy accompaniment.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "extra-hot-prepared-horseradish",
+      "item": "extra-hot prepared horseradish",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "thinly-sliced-chives",
+      "item": "thinly sliced chives",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk all ingredients together in a bowl until evenly blended."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "sauce",
+    "american",
+    "horseradish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222188/homemade-horseradish-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "678550e4c0523a9b557e8fa88a6e70f9f3a67856c9d54efe133126440d06b0ba",
+    "normalized_text_hash": "4d888e6dfa33e41faa8cede7a1aa8244f9d3f0941531cf5efdec091fe7378c35",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:40:04.332Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

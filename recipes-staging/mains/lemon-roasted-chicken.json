@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-roasted-chicken",
+  "name": "Lemon-Roasted Chicken",
+  "subtitle": "Crisp-skinned chicken with lemon, garlic, and rosemary",
+  "description": "Chicken roasted with bright lemon, aromatic garlic, onion, and fresh rosemary for a simple family-style main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "cut into 8 pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "cut into wedges"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 8,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-rosemary",
+      "item": "sprigs fresh rosemary",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chicken, onion, lemon, garlic, and rosemary in a roasting pan or baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Add the olive oil, salt, and black pepper, then toss to coat the chicken and vegetables."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the chicken in the pan and roast for 50 minutes, until the thickest pieces reach 165°F on a food thermometer.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roasted-chicken",
+    "american",
+    "lemon",
+    "one-pan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan or baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236306/roasted-chicken-with-lemon-and-rosemary/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f3124adf644d152c87bf44913384f54b28a28222ad724152861d4ff6b675f17c",
+    "normalized_text_hash": "8e4d3ff2e5edfce5c7aaf02bde6bc48d0c77b2178514c9bc7be868482921e026",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:58:40.446Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

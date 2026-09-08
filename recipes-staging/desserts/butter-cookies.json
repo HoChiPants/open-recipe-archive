@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-cookies",
+  "name": "Butter Cookies",
+  "subtitle": "Tender, vanilla-scented cookies with crisp edges",
+  "description": "A simple butter cookie dough is chilled, shaped, and baked until lightly golden and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.6666667461395,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the butter and sugar until smooth, then whisk in the egg and vanilla extract."
+    },
+    {
+      "step": 2,
+      "text": "Separately combine the flour and salt. Gradually mix the dry ingredients into the butter mixture to form a dough."
+    },
+    {
+      "step": 3,
+      "text": "Chill the dough until firm, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 5,
+      "text": "Shape the chilled dough into 36 cookies and arrange them on a prepared baking sheet. Chill the shaped cookies for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Bake for 10 minutes, until the cookies are set and lightly golden at the edges; the centers should be fully set for egg safety.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Transfer the cookies to a rack and cool."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "baking sheet",
+    "cooling rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10011/butter-cookies-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d4b2d54367406204cdcd2c6e16b2a0e2f2f9c1f03503dc483847a7b1fd2d714b",
+    "normalized_text_hash": "16f34635d77d75e9c857b93339b9dfe906a72074270b040766d46c135276bb70",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:31:15.017Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

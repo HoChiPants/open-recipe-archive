@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-smoothie",
+  "name": "Blueberry Smoothie",
+  "subtitle": "A quick, creamy fruit smoothie",
+  "description": "Blend blueberries, banana, yogurt, and chilled apple juice into a thick, smooth drink, with fresh mint for an optional finish.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blueberries",
+      "item": "blueberries",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "banana-sliced",
+      "item": "banana sliced",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "natural-or-greek-yogurt",
+      "item": "natural or Greek yogurt",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "apple-juice-chilled",
+      "item": "apple juice chilled",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "mint-leaves",
+      "item": "mint leaves (optional)",
+      "quantity": "3-4",
+      "preparation": "plus extra to garnish",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the blueberries, sliced banana, yogurt, chilled apple juice, and mint leaves to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth and thick."
+    },
+    {
+      "step": 3,
+      "text": "Pour into a serving glass."
+    },
+    {
+      "step": 4,
+      "text": "Garnish with extra mint, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "smoothie",
+    "blueberry",
+    "banana"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blueberry-smoothie-recipe",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a4557885041f02d1d083e7d69614fdd370d3a8a43944583399841304ef49015f",
+    "normalized_text_hash": "04bb01368288d6eea64c78ed29916c0a62fb1baf0875f28a653a1867eb3419c9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:42:03.383Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

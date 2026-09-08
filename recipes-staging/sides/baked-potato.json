@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato",
+  "name": "Baked Potato",
+  "subtitle": "A simple oven-baked russet with seasoned skin",
+  "description": "Bake a salted russet potato until tender inside and crisp outside.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potato",
+      "item": "russet potato",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Scrub the potato, dry it thoroughly, and pierce the skin several times with a fork."
+    },
+    {
+      "step": 3,
+      "text": "Rub the potato with the salt."
+    },
+    {
+      "step": 4,
+      "text": "Place the potato on a baking sheet and bake until tender when pierced, about 90 minutes.",
+      "timer_minutes": 90
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "oven",
+    "fork",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16505/baked-potato/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8823cd65e9bff48a5977ebad3c91229ce70f70d906bdd83fdc28a5bce97df63f",
+    "normalized_text_hash": "ffadd2be4a350dcd101081d41e3e8387d43f02ee65f7d331b6b84470ff83434d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:50:04.484Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

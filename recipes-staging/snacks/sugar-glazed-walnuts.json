@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sugar-glazed-walnuts",
+  "name": "Sugar-Glazed Walnuts",
+  "subtitle": "A quick crunchy snack with a glossy sugar coating",
+  "description": "Walnut halves are coated in a simple sugar syrup, microwaved, and cooled until crisp.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "walnut-halves",
+      "item": "walnut halves",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the walnut halves, white sugar, and water in a microwave-safe dish."
+    },
+    {
+      "step": 2,
+      "text": "Microwave for 2 minutes, then stir thoroughly. Continue microwaving in short intervals, stirring between intervals, until the sugar mixture forms a glaze and the walnuts are evenly coated.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Transfer the coated walnuts to a parchment-lined surface and separate them."
+    },
+    {
+      "step": 4,
+      "text": "Let cool completely until the glaze sets and the walnuts become crisp."
+    }
+  ],
+  "tags": [
+    "snack",
+    "nuts",
+    "sweet",
+    "microwave"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "microwave-safe dish",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/39800/sugar-glazed-walnuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7b60aa03df9930eb62c2bbe9fb35824c7d7812b2122e83d8c629243db6ed968f",
+    "normalized_text_hash": "dbe759207e325e615200226b2561ffe543e74a68715dbedb9c73ef5fb83b4fa5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:08:38.138Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

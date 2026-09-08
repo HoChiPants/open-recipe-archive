@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-cheese-mashed-potatoes",
+  "name": "Cream Cheese Mashed Potatoes",
+  "subtitle": "Creamy mashed potatoes finished in the oven",
+  "description": "Tender potatoes are mashed with cream cheese, sour cream, green onions, and butter, then baked until hot and lightly set.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 110
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 9,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper",
+      "item": "salt and ground black pepper",
+      "preparation": "to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the potatoes, then place them in a pot with the salt and ground black pepper and cover with water."
+    },
+    {
+      "step": 3,
+      "text": "Bring to a simmer and cook until the potatoes are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Drain the potatoes and mash until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Whisk together the cream cheese, sour cream, green onions, butter, and additional salt and pepper to taste; fold into the potatoes."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the mixture to a baking dish and bake at 350°F for 60 minutes.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "potato masher",
+    "mixing bowl",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223460/cream-cheese-mashed-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6d078d16278ea84d0c2aca4345a9d979aa8b35e7afdff2f1e7fa951575249f50",
+    "normalized_text_hash": "cb170a070e26e33c87040b2c360788f5ce1c837241e68fd6ba54919edf8d4689",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:26:03.598Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

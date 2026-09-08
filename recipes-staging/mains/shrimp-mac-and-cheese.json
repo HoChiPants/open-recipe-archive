@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-mac-and-cheese",
+  "name": "Shrimp Mac and Cheese",
+  "subtitle": "Creamy baked macaroni with seasoned shrimp and a crisp crumb topping",
+  "description": "A compact baked pasta dish combining Cheddar sauce, sour cream, Cajun seasoning, and shrimp under a panko topping.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "elbow-macaroni",
+      "item": "elbow macaroni",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "1-milk",
+      "item": "1% milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cajun-seasoning",
+      "item": "Cajun seasoning",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-salad-shrimp",
+      "item": "frozen salad shrimp",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "panko-bread-crumbs",
+      "item": "panko bread crumbs",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the elbow macaroni in boiling water for 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a saucepan. Stir in the flour and cook until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Gradually add the milk, then whisk in the shredded Cheddar, sour cream, and Cajun seasoning until combined."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the macaroni and frozen salad shrimp."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the mixture to a baking dish. Top with the remaining shredded Cheddar and panko bread crumbs."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 20 minutes, until hot throughout and the shrimp are opaque.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-pasta",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "saucepan",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280846/shrimp-mac-and-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9bcea0143d6071036f6e782097762dfff7a3123db119e8972704fac5a3652ba8",
+    "normalized_text_hash": "b43643ca08a0d39d098b21eb4d580cea89cd492799403c74216a561eb45c510b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:18:10.483Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

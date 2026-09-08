@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "candy-cane-cocktail",
+  "name": "Candy Cane Cocktail",
+  "subtitle": "A crisp, minty cocktail with bright lemon and bitters.",
+  "description": "Shake gin, lemon juice, candy cane vodka or crème de menthe, and bitters with ice for a festive single-serving drink.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "gin",
+      "item": "gin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "candy-cane-vodka-see-goes-well-with",
+      "item": "candy cane vodka (see 'goes well with'",
+      "quantity": 25,
+      "unit": "ml",
+      "preparation": "below) or crème de menthe"
+    },
+    {
+      "ingredient_id": "few-drops-of-bitters",
+      "item": "few drops of bitters"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a cocktail shaker with ice. Add the gin, lemon juice, candy cane vodka or crème de menthe, and bitters."
+    },
+    {
+      "step": 2,
+      "text": "Shake until well chilled, then strain into a cocktail glass."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with a candy cane vodka accent, if desired."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "christmas",
+    "vodka-cocktail"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "cocktail glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/candy-cane-cocktail",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "654510c3b94e12b1b22429e25158be364106812d2b2e5f2e8e0989c8b6fd709d",
+    "normalized_text_hash": "3c9b5b65114f2bdbbf0a948fe543efdfeb2d8070ca8d3dfbb9e8bfc4fdf5b188",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:09:17.165Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

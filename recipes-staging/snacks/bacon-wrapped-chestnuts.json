@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-chestnuts",
+  "name": "Bacon-Wrapped Chestnuts",
+  "subtitle": "A sweet-savory baked party snack",
+  "description": "Water chestnuts are wrapped in bacon, coated with a quick brown-sugar sauce, and baked until crisp and glazed.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "water-chestnuts",
+      "item": "water chestnuts",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "8 ounce, drained"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the bacon into thirds and halve the drained water chestnuts."
+    },
+    {
+      "step": 3,
+      "text": "Wrap each water chestnut piece with bacon and arrange the bundles in a baking dish or on a rimmed baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Combine the ketchup, brown sugar, and Worcestershire sauce in a saucepan. Bring the mixture to a boil, stirring until combined."
+    },
+    {
+      "step": 5,
+      "text": "Pour the hot sauce over the bacon-wrapped chestnuts."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 50 minutes, until the bacon is browned and reaches at least 145°F internally. Let the pieces rest for 3 minutes before serving.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "party-food",
+    "bacon",
+    "water-chestnuts"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "saucepan",
+    "baking dish or rimmed baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20805/bacon-wrapped-water-chestnuts-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4fbdefb8ab7b5d102e34e34ded9264924edc6e603940dfae4b0579179cb4663a",
+    "normalized_text_hash": "fb779fbe68cef563106f825a9cf8dc3f02c035a186930d0be3598aac3b7a2cdd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:40:08.242Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

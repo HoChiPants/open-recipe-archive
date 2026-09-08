@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spanish-rice",
+  "name": "Spanish Rice",
+  "subtitle": "Tomato rice with onion and cilantro",
+  "description": "A quick savory rice side cooked with tomatoes, onion, cilantro, and chicken broth.",
+  "meal_type": "side",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "uncooked-instant-rice",
+      "item": "uncooked instant rice",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, diced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the vegetable oil in a saucepan over medium heat. Add the chopped onion and cook for 8 minutes, stirring occasionally, until softened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Stir in the instant rice, diced tomatoes, chopped cilantro, and chicken broth."
+    },
+    {
+      "step": 3,
+      "text": "Cook for 10 minutes, stirring as needed, until the rice is tender and the mixture reaches 165°F on a food thermometer.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "rice",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/132896/better-spanish-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a2e2d6df549f75ced33bc72530d1cd7ccc9f0fbeb781cacc05983de95f9b9d44",
+    "normalized_text_hash": "9593cffd4a9c979e993464aae836b2843d226646f8be1e4bbae55ef1aa621a59",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:42:14.443Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

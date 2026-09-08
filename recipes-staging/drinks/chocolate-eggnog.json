@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-eggnog",
+  "name": "Chocolate Eggnog",
+  "subtitle": "Rich chocolate custard drink with bourbon",
+  "description": "A creamy chocolate eggnog made by gently thickening sweetened egg yolks with spiced milk, chocolate, cream, and bourbon.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "litre"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-yolks-freeze-the-whites-to-use-in-another-recipe",
+      "item": "egg yolks (freeze the whites to use in another recipe)",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "nutmeg-grated",
+      "item": "nutmeg grated",
+      "quantity": "1/4",
+      "preparation": "plus extra to serve"
+    },
+    {
+      "ingredient_id": "dark-chocolate-chopped",
+      "item": "dark chocolate chopped",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "bourbon",
+      "item": "bourbon",
+      "quantity": 100,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg yolks and caster sugar until thick and pale."
+    },
+    {
+      "step": 2,
+      "text": "Heat the whole milk and grated nutmeg in a saucepan until steaming and just simmering."
+    },
+    {
+      "step": 3,
+      "text": "Pour the hot milk gradually into the yolk mixture while whisking. Return the mixture to the saucepan."
+    },
+    {
+      "step": 4,
+      "text": "Add the chopped dark chocolate and stir over low heat until melted. Continue cooking, stirring constantly, until the egg mixture reaches 160°F and thickens enough to coat a spoon."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the double cream, then remove from the heat."
+    },
+    {
+      "step": 6,
+      "text": "Stir in the bourbon and additional grated nutmeg for serving."
+    }
+  ],
+  "tags": [
+    "chocolate-drink",
+    "eggnog",
+    "bourbon",
+    "holiday-drink",
+    "warm-drink"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-eggnog",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c1b3f9805d91daaacc9515bbd3073935c424e39a4b57378b0e07a27f764f504c",
+    "normalized_text_hash": "04126b19587d7d3ea239cb3973e126a4c145438884d8992a87a3dbdbde5d698e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:06:27.430Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

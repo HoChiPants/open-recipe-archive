@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-sauce-with-kirsch",
+  "name": "Cranberry Sauce with Kirsch",
+  "subtitle": "A tart cranberry condiment with cherry notes",
+  "description": "A quick cranberry sauce made by simmering cranberries with brown sugar, kirsch, and cherry juice until thickened.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "kirsch",
+      "item": "kirsch",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cherry-juice",
+      "item": "cherry juice",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "fresh-or-frozen-cranberries",
+      "item": "fresh or frozen cranberries",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the light brown soft sugar, kirsch, and cherry juice in a saucepan. Heat gently, stirring until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Add the cranberries and cook for 3 minutes, stirring occasionally.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Simmer for 10 minutes, stirring occasionally, until the cranberries soften and the sauce thickens.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "cranberry-sauce",
+    "condiment",
+    "fruit-sauce",
+    "holiday-side"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boozy-cranberry-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6d0e9389033510ce30e91115d7a3f51ca623109e7bd27288173d7bbfbce6a327",
+    "normalized_text_hash": "e617b73132c03be007f12f93a9fe82352a0cf25f8a502484cfbe49f1d952217a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:43:47.887Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

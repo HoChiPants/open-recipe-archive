@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homemade-chicken-stock",
+  "name": "Homemade Chicken Stock",
+  "subtitle": "A clear, savory stock with chicken and vegetables",
+  "description": "Simmer chicken with aromatic vegetables and spices, then clarify the finished stock with egg for a clean, light broth.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 70,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-parts",
+      "item": "chicken parts",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "stalks-celery-ribs-with-leaves",
+      "item": "stalks celery ribs with leaves",
+      "quantity": 3,
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 1-inch chunks"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 3,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken, onion, celery, carrot, salt, cloves, and water in a large pot. Bring to a simmer over medium heat, then lower the heat and cook gently for 60 minutes. Check the thickest chicken piece with a thermometer; it must reach 165°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Remove the chicken and vegetables, then strain the liquid into a clean pot. Reserve or discard the solids as desired."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the egg with the cold water. Stir this mixture into the hot stock and cook gently for 5 minutes, checking that the liquid reaches 160°F. Strain again and serve hot.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "soup",
+    "stock",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "thermometer",
+    "fine-mesh strainer",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12983/basic-chicken-stock/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c5c253700204ce128a20a74f510b3a3584052b8de6659508fe98fbc6ddc86c2",
+    "normalized_text_hash": "718e03223218ef62b41fe9e3beb486f09d6ccb351aabe39db9a31fc829a37fa4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:38:18.804Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pink-lemonade-beer-cocktail",
+  "name": "Pink Lemonade Beer Cocktail",
+  "subtitle": "A chilled pitcher drink with pink lemonade, vodka, and beer.",
+  "description": "Combine thawed pink lemonade concentrate with water and vodka, then finish with beer for a bright, lightly fizzy summer drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-pink-lemonade-concentrate",
+      "item": "frozen pink lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce, thawed"
+    },
+    {
+      "ingredient_id": "fluid-ounces-water",
+      "item": "fluid ounces water",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "fluid-ounces-vodka",
+      "item": "fluid ounces vodka",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "or-bottle-beer",
+      "item": "or bottle beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the thawed pink lemonade concentrate in a large pitcher."
+    },
+    {
+      "step": 2,
+      "text": "Add the water and vodka, stirring until the concentrate is fully blended."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the beer and stir gently to combine. Serve chilled."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "beer",
+    "vodka",
+    "lemonade",
+    "summer",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pitcher",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20402/summer-beer-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ae76d40c338e31a797398d34072e21c811ad79e21c0918dbb3d36eeab6e4fd08",
+    "normalized_text_hash": "424d87e62681bfb300eb57c7dc904f1616251c11caf46301f0daddbc107168fd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:21:30.070Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

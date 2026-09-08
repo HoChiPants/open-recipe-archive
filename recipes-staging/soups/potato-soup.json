@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-soup",
+  "name": "Potato Soup",
+  "subtitle": "Creamy soup with tender vegetables",
+  "description": "A smooth, hearty potato soup finished with a simple cream sauce and black pepper.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 3,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "14.5 ounce, divided"
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cubes-chicken-bouillon",
+      "item": "cubes chicken bouillon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the potatoes, celery, onion, and part of the chicken broth in a large pot until the potatoes are tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the vegetables, reserving the remaining broth as directed by the ingredient preparation."
+    },
+    {
+      "step": 3,
+      "text": "Combine the remaining chicken broth and half-and-half cream in the pot and heat until hot but not boiling."
+    },
+    {
+      "step": 4,
+      "text": "Stir the melted butter and flour together until smooth, then add the mixture to the hot cream mixture."
+    },
+    {
+      "step": 5,
+      "text": "Cook, stirring frequently, until thickened."
+    },
+    {
+      "step": 6,
+      "text": "Return the vegetables to the pot and stir in the bouillon cubes and black pepper."
+    },
+    {
+      "step": 7,
+      "text": "Heat the soup until a food thermometer reads 165°F, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "potato",
+    "creamy",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23865/ultimate-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "45fcc72c86507b9b3543be76da0ea0210a7b3e234dea8aac33e542ed3a04c3fe",
+    "normalized_text_hash": "317a5b9ea95f6e57e1e3a58d4cdc0f224608ed9e14c9d0d2dcd2bdf51ae49c57",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:36:00.977Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

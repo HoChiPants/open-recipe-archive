@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "parisian-potatoes",
+  "name": "Parisian Potatoes",
+  "subtitle": "Tender potato rounds with crisp, buttery edges",
+  "description": "Potato pieces are briefly blanched in salted water, cooled, then sautéed in clarified butter until tender and golden.",
+  "meal_type": "side",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "clarified-butter",
+      "item": "clarified butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the peeled potatoes into even bite-size pieces. Arrange them in a single layer on a tray."
+    },
+    {
+      "step": 2,
+      "text": "Combine the water and kosher salt in a saucepan and bring to a boil. Simmer for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the potatoes and cook until firm but partially tender. Drain, spread in a single layer, and cool for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Preheat a skillet, then heat the clarified butter for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Add the cooled potatoes and cook, stirring occasionally, until tender and browned.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "french",
+    "potatoes",
+    "saute-ed"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "skillet",
+    "tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8481345/parisian-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dde8569997b9beed152a3b0e27a21cabad169f40ec5e795cb324dbb61bf42cd5",
+    "normalized_text_hash": "1b200dbe35e154b38c4a12ca11594d02637e2c4fd5ec95ba013851e4bcd14e26",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:50:13.773Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

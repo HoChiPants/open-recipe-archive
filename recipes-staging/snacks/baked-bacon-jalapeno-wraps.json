@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-bacon-jalapeno-wraps",
+  "name": "Baked Bacon Jalapeno Wraps",
+  "subtitle": "Creamy stuffed peppers wrapped in crisp bacon",
+  "description": "Jalapeno halves filled with cream cheese, wrapped in bacon, and baked until tender and browned.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "fresh-jalapeno-peppers",
+      "item": "fresh jalapeno peppers",
+      "quantity": 12,
+      "preparation": "halved lengthwise and seeded"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6,
+      "preparation": "cut into halves"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Fill each jalapeno half with cream cheese, then wrap each pepper with a bacon half. Arrange seam-side down on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 25 minutes, until the peppers are tender and the bacon is browned and cooked through.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "bacon",
+    "jalapeno"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228679/baked-bacon-jalapeno-wraps/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "52de786f9114704da227ec87f8aade6ef00eb646a67c09c6c3996ab3c9fe4501",
+    "normalized_text_hash": "9a52e9922caa95961e4cc1549e555049b45e74a867802ba7265e8f532930ac2a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:43:22.276Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

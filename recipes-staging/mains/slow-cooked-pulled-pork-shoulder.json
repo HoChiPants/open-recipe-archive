@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooked-pulled-pork-shoulder",
+  "name": "Slow-Cooked Pulled Pork Shoulder",
+  "subtitle": "Tender, spice-rubbed pork for easy serving",
+  "description": "Pork shoulder is soaked, seasoned with warm spices and brown sugar, then slow-cooked with onion until tender enough to shred.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 480,
+    "inactive_minutes": 720
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "3-pound-pork-shoulder",
+      "item": "(3 pound) pork shoulder",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 8,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 8 wedges"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-mustard",
+      "item": "ground mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the pork shoulder in a large container. Add the water, white vinegar, and kosher salt, adding liquid as needed to cover the pork. Cover and refrigerate for 12 hours.",
+      "timer_minutes": 720
+    },
+    {
+      "step": 2,
+      "text": "Drain the pork and place it in a slow cooker with the onion wedges."
+    },
+    {
+      "step": 3,
+      "text": "Combine the ground cumin, ground mustard, chili powder, and brown sugar, then coat the pork evenly with the mixture."
+    },
+    {
+      "step": 4,
+      "text": "Cover and cook on low until the pork is fork-tender and reaches at least 145°F internally. Rest for 3 minutes.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 5,
+      "text": "Shred the pork with forks and serve."
+    }
+  ],
+  "tags": [
+    "entree",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large container",
+    "refrigerator",
+    "slow cooker",
+    "forks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214463/slow-cooked-pulled-pork-shoulder/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "51a745c86b7de35b7c309585b5875e24f108dbba831f6189b658972c6f164d9f",
+    "normalized_text_hash": "fa2d75db8641ba23470a782b0050a2592cf791bce294335069155363a44d26b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:36:32.682Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

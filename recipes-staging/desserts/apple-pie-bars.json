@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-pie-bars",
+  "name": "Apple Pie Bars",
+  "subtitle": "Buttery bars with spiced apple filling and lemon icing",
+  "description": "A shortbread-style base supports tender cinnamon apples, finished with a simple lemon icing.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cold-butter-cut-into-cubes",
+      "item": "cold butter cut into cubes",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar-plus-3-tbsp",
+      "item": "light brown soft sugar plus 3 tbsp",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "bramley-apples-around-900g",
+      "item": "Bramley apples (around 900g)",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled, cored and cut into chunks"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon (optional)",
+      "quantity": "1 1/4",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 75,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and line a baking tin with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Rub the cold butter into the flour, then mix in the light brown sugar and vanilla until a crumbly dough forms. Press most of it evenly into the tin and reserve the rest for the topping."
+    },
+    {
+      "step": 3,
+      "text": "Bake the base until lightly golden, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Cook the apple chunks with the remaining light brown sugar, butter, cinnamon if using, and lemon juice until the apples begin to soften.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Spread the apples over the baked base and scatter the reserved crumb mixture over the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the topping is golden and the filling is bubbling.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Cool the bars completely in the tin."
+    },
+    {
+      "step": 8,
+      "text": "Stir the icing sugar with enough lemon juice to make a thick icing, drizzle it over the cooled bars, then cut into squares."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "apple",
+    "baking",
+    "fruit",
+    "bars"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking tin",
+    "parchment paper",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-pie-bars",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "254168584caea2fbf689b55f9c297a97b8cd592201a7a5651f0f50d58e380ae1",
+    "normalized_text_hash": "1d5fd35003f9eb13fde1f5fbbcd73732092bc0061dc15c998c896a0a05148c98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:39:07.267Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

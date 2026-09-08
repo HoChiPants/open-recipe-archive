@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-baked-beans",
+  "name": "Barbecue Baked Beans",
+  "subtitle": "Slow-baked beans with sweet, smoky flavor",
+  "description": "Pork and beans are combined with brown sugar, ketchup, barbecue sauce, bacon, and mustard, then baked until hot and the pork reaches a safe temperature.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 135
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "pork-and-beans",
+      "item": "pork and beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4,
+      "preparation": "cut into 1/2-inch pieces"
+    },
+    {
+      "ingredient_id": "dry-mustard",
+      "item": "dry mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Coat a baking dish with cooking spray."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the pork and beans, brown sugar, ketchup, barbeque sauce, bacon pieces, and dry mustard in the prepared dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 2 hours 15 minutes, until bubbling and the pork reaches 145°F; let it rest for 3 minutes before serving.",
+      "timer_minutes": 135
+    }
+  ],
+  "tags": [
+    "barbecue",
+    "baked-beans",
+    "side-dish",
+    "american",
+    "potluck"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238563/easy-baked-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9f142bba59c9fffd597891147c46285829672aad9be88b934bf4743d01d89e48",
+    "normalized_text_hash": "7b3aec591ab1c77e2e2f69dc2a474f77ac74ac3c23dea187aa618aff0045307d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:22:11.384Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

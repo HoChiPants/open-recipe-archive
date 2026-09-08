@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-fruit-skewers",
+  "name": "Fresh Fruit Skewers",
+  "subtitle": "Colorful fruit arranged for easy serving",
+  "description": "Assemble fresh fruit on skewers for a simple no-cook dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 5,
+      "unit": "large",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "cantaloupe",
+      "item": "cantaloupe",
+      "quantity": 0.25,
+      "preparation": "cut into balls or cubes"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 2,
+      "preparation": "peeled and cut into chunks"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "skewers",
+      "item": "skewers",
+      "quantity": 20
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the strawberries, cantaloupe, bananas, and apple as listed."
+    },
+    {
+      "step": 2,
+      "text": "Thread the fruit pieces onto the skewers, distributing the pieces evenly."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the completed skewers on a serving platter and serve."
+    }
+  ],
+  "tags": [
+    "fruit",
+    "no-cook",
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "skewers",
+    "melon baller"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/142779/fruity-fun-skewers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce7c37e9d686fabea5186d398a6d225f5be64441cf5f4f273b31e419fc4abb40",
+    "normalized_text_hash": "bb7b9006772fde55f318d5d2867bb22eca3aa421d9453cf8a42f16c996d3b0c1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:30:56.127Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

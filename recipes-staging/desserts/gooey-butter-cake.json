@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "gooey-butter-cake",
+  "name": "Gooey Butter Cake",
+  "subtitle": "A soft cake base with a rich, creamy topping",
+  "description": "This American dessert combines a buttery cake layer with a smooth cream cheese topping and a light dusting of confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "15.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, plus more for dusting"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare a baking pan for the cake."
+    },
+    {
+      "step": 3,
+      "text": "Combine the yellow cake mix with 2 eggs. Add the melted butter and vanilla extract, then mix until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cake mixture to the prepared pan and spread it evenly."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the remaining 2 eggs with the confectioners' sugar and softened cream cheese until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Pour the cream cheese mixture over the cake layer."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 35 minutes, until the center is fully set.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 8,
+      "text": "Cool completely before dusting with additional confectioners' sugar and cutting into servings."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan",
+    "mixing bowl",
+    "whisk",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236457/ooey-gooey-butter-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f0c56b1356fbecfd236acce6d5264c24e3ea2e6de71e8636428c0fbfed4311ae",
+    "normalized_text_hash": "2cb8416a8ff641f3683d607b6caa9f93539e3bbe9a674ac2296f0705cabad81e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:33:24.514Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

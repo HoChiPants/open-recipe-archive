@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-turnovers",
+  "name": "Apple Turnovers",
+  "subtitle": "Flaky puff pastry filled with cinnamon apples",
+  "description": "Tender cooked apples tucked into puff pastry, glazed with milk, and finished with a crisp sugar topping.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "medium-large-bramley-apples-peeled",
+      "item": "medium-large Bramley apples peeled",
+      "quantity": 2,
+      "preparation": "cored and roughly chopped"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "gala-or-sweet-dessert-apple-peeled",
+      "item": "Gala or sweet dessert apple peeled",
+      "quantity": 1,
+      "preparation": "cored and cut into 1cm dice"
+    },
+    {
+      "ingredient_id": "pack-puff-pastry",
+      "item": "pack puff pastry",
+      "quantity": 320,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk-to-glaze",
+      "item": "milk to glaze",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "demerara-sugar",
+      "item": "demerara sugar",
+      "quantity": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chopped Bramley apples with the caster sugar and cinnamon."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan, add the diced dessert apple, and cook until the mixture thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven using the baking temperature specified for the puff pastry.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Roll out the puff pastry and cut it into equal pieces. Place cooled apple filling in the center of each piece."
+    },
+    {
+      "step": 5,
+      "text": "Fold the pastry over the filling, seal the edges, and brush the tops with milk."
+    },
+    {
+      "step": 6,
+      "text": "Sprinkle with the remaining caster sugar and demerara sugar, then bake until puffed and golden.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Transfer the turnovers to a rack and let them cool before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "apple",
+    "pastry",
+    "baked-breakfast",
+    "cinnamon",
+    "dessert-pastry"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "baking sheet",
+    "pastry brush",
+    "rolling pin",
+    "wire rack"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-turnovers",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e86ea0967ae159f6da6a8db484e2f7d0acf846f26553e81bb3c34d8fd59b92b3",
+    "normalized_text_hash": "b58d72a9756decad399079d757449abdd6b512df9e3f436b59d1c3d298d2bf81",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:40:06.031Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

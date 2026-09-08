@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-and-swede-soup",
+  "name": "Carrot and Swede Soup",
+  "subtitle": "A smooth vegetable soup with sweet carrots and earthy swede.",
+  "description": "Cook the vegetables in oil, simmer them in stock until tender, then blend until thick and smooth.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "swede-peeled-and-chopped",
+      "item": "swede peeled and chopped",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "carrots-chopped",
+      "item": "carrots chopped",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "onion-chopped",
+      "item": "onion chopped",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-chopped",
+      "item": "garlic cloves finely chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "l-vegetable-stock",
+      "item": "l vegetable stock",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "oil",
+      "item": "oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil in a large pot over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the swede, carrots, onion, and garlic. Cook for 2 minutes, stirring occasionally.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Pour in the vegetable stock and bring to a boil."
+    },
+    {
+      "step": 4,
+      "text": "Reduce the heat and simmer for 30 minutes, or until the vegetables are tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Blend the soup until thick and smooth."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "soup",
+    "starter",
+    "carrot",
+    "swede"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "large pot",
+    "blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrot-swede-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3db5281dde2ac874d87bbb6d8e818d60bc5f5e7e6a83919e849899d11d5d26cd",
+    "normalized_text_hash": "281ea074b635e81de110e6c79cc989595ba5c366293965a5c049d1df595e8024",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T23:21:11.262Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

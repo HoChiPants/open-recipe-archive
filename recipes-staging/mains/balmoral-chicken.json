@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "balmoral-chicken",
+  "name": "Balmoral Chicken",
+  "subtitle": "Haggis-stuffed chicken wrapped in crisp bacon",
+  "description": "Chicken breasts filled with haggis, wrapped in streaky bacon, chilled, then baked until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "Scottish",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breasts",
+      "item": "chicken breasts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "slices-of-streaky-bacon",
+      "item": "slices of streaky bacon",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "haggis",
+      "item": "haggis",
+      "quantity": 150,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut a pocket into the thickest part of each chicken breast, taking care not to cut through."
+    },
+    {
+      "step": 2,
+      "text": "Divide the haggis between the pockets and press the chicken closed."
+    },
+    {
+      "step": 3,
+      "text": "Wrap the chicken breasts securely with the bacon, overlapping the slices to cover the filling."
+    },
+    {
+      "step": 4,
+      "text": "Chill the wrapped chicken for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven to 400°F (200°C)."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the chicken to a baking dish and bake for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Continue baking for 15 minutes, until the bacon is browned and the thickest part of the chicken reaches 165°F (74°C).",
+      "timer_minutes": 15
+    },
+    {
+      "step": 8,
+      "text": "Rest for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "scottish",
+    "chicken",
+    "haggis",
+    "bacon",
+    "stuffed-chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "knife",
+    "baking dish",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/balmoral-chicken",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3d2b2455f57419791320161a5a584cd16eeebc837a8e5e4d77e56bce23ceffd6",
+    "normalized_text_hash": "36de9f4c8251d5bec28e61e25428a83c02f872788c7388225df30be5ad1757a9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:06:50.460Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

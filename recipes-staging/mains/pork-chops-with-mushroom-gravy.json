@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pork-chops-with-mushroom-gravy",
+  "name": "Pork Chops with Mushroom Gravy",
+  "subtitle": "Tender pork chops in a savory mushroom sauce",
+  "description": "Brown pork chops, bake them in mushroom gravy, and finish the sauce until thickened.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "pressed"
+    },
+    {
+      "ingredient_id": "pork-chops",
+      "item": "pork chops",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, drained"
+    },
+    {
+      "ingredient_id": "dry-sherry",
+      "item": "dry sherry",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Heat the butter in an oven-safe skillet. Add the pressed garlic and cook briefly until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Season the pork chops with salt and pepper, then sauté them for 3 minutes, turning as needed to brown.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Stir in the mushrooms, dry sherry, and beef broth. Arrange the pork chops in the sauce."
+    },
+    {
+      "step": 5,
+      "text": "Cover the skillet and bake for 45 minutes, until the pork reaches 145°F in the thickest part. Rest for 3 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Stir the cornstarch and water together. Remove the pork chops, stir the mixture into the sauce, and cook until thickened.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Return the pork chops to the gravy and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pork",
+    "mushrooms"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75947/grandmas-pork-chops-in-mushroom-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d50a20916cb2388f1918d2a288e74d322069f4f7999249975d499fceb8c7760c",
+    "normalized_text_hash": "286dbc66122715906d37d8ff35d9321aa0742963ceaefce8052c44c969a35a3b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:53:05.606Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

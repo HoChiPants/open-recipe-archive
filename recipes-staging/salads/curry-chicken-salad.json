@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "curry-chicken-salad",
+  "name": "Curry Chicken Salad",
+  "subtitle": "A quick chicken salad with celery and warm curry flavor",
+  "description": "Combine cooked chicken and crisp celery with a lightly curried mayonnaise dressing for an easy salad served chilled or at room temperature.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "preparation": "cooked, boneless chicken breast halves, chopped"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "low-fat-mayonnaise",
+      "item": "low-fat mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "curry-powder",
+      "item": "curry powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped chicken and celery in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir the mayonnaise and curry powder together, then fold the dressing into the chicken mixture until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately or refrigerate until ready to serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "salad",
+    "chicken",
+    "quick",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9042/curry-chicken-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2f310ac0d0c657f92decec90caa1599f55028a84bf7966930ec2d87c4a5d4806",
+    "normalized_text_hash": "ce7f5702e5955fc5ef7f700fe3be1e110c7917046552a0d43a46a8daa31a6904",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:57:22.040Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

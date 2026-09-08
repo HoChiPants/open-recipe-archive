@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "toad-in-a-hole",
+  "name": "Toad in a Hole",
+  "subtitle": "Cheesy egg-filled toast for breakfast",
+  "description": "Bread is buttered, filled with Cheddar, toasted, and finished with an egg cooked in the center.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "slices-cheddar-cheese",
+      "item": "slices Cheddar cheese",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Cut a hole from the center of each bread slice."
+    },
+    {
+      "step": 3,
+      "text": "Butter the bread, place a Cheddar slice over each piece, and grill until the bread is toasted and the cheese is softened."
+    },
+    {
+      "step": 4,
+      "text": "Place the toasted bread in a suitable cooking pan and crack one egg into each center hole."
+    },
+    {
+      "step": 5,
+      "text": "Cook until the eggs are fully set in the center and reach 160°F."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "cooking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16635/toad-in-a-hole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4bcd8f058c59347b8a4e4b705f251829884b6bc895d08ad7f59e7ff47f7b7314",
+    "normalized_text_hash": "3959bfcce3b7429c7cf1a1c7947e2be4853e2f648740b5609d96623aba277f80",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:08:59.525Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

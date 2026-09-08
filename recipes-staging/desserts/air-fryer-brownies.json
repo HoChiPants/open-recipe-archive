@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-brownies",
+  "name": "Air Fryer Brownies",
+  "subtitle": "Rich chocolate brownies with white chocolate chips",
+  "description": "A simple air-fryer brownie with a smooth chocolate base and sweet white chocolate pieces.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-roughly-chopped",
+      "item": "dark chocolate roughly chopped",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "white-chocolate-chips",
+      "item": "white chocolate chips",
+      "quantity": 40,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter and dark chocolate with the white chocolate chips until smooth, then cool slightly."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs and caster sugar until thickened."
+    },
+    {
+      "step": 4,
+      "text": "Add the melted chocolate mixture, plain flour, cocoa powder, and white chocolate chips; fold until combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a suitable baking pan and cook in the air fryer for 35 minutes, until set with a firm, fully cooked center.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Cool before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "air-fryer",
+    "brownies",
+    "dark-chocolate",
+    "white-chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "baking pan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-brownies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "226bdac0d8e9ecfc25c135104f55d9baa7824f4436d91ccb9b254f0ae1f9f7de",
+    "normalized_text_hash": "9494418244c5f8c5572efa573917d30993a6b68286c517424d524ec223190944",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:21:32.203Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

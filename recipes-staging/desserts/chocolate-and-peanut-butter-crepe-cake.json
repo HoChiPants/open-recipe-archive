@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-and-peanut-butter-crepe-cake",
+  "name": "Chocolate and Peanut Butter Crepe Cake",
+  "subtitle": "Layered crepes with chocolate-peanut butter filling",
+  "description": "Thin crepes are layered with a warm chocolate and peanut butter spread, then finished with cream and icing sugar.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chocolate-spread",
+      "item": "chocolate spread",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "icing-sugar-and-squirty-cream",
+      "item": "icing sugar and squirty cream",
+      "preparation": "to serve"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 750,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 50,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs, milk, and plain flour together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a frying pan over medium heat. Cook the batter in thin rounds, turning each crepe when set, until all the batter is used."
+    },
+    {
+      "step": 3,
+      "text": "Warm the peanut butter, chocolate spread, and remaining melted butter together until smooth and spreadable.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Stack the crepes, spreading a thin layer of the chocolate-peanut butter mixture between each one."
+    },
+    {
+      "step": 5,
+      "text": "Top with squirty cream and dust with icing sugar before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "crepes",
+    "chocolate",
+    "peanut-butter",
+    "layer-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "frying pan",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-peanut-butter-pancake-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1925f37248125ff1012fde81f6953130435e32d786ff983d6140833d1f375fd8",
+    "normalized_text_hash": "d43d6b11c1977241ee623e80df85a26eedc7cadbbd87a44122d349992c699983",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:02:17.694Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

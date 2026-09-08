@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mincemeat-cookies",
+  "name": "Mincemeat Cookies",
+  "subtitle": "Tender cookies with spiced fruit and walnuts",
+  "description": "A simple drop-cookie recipe combining drained mincemeat, chopped walnuts, and a lightly sweet dough.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 84,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "prepared-mincemeat",
+      "item": "prepared mincemeat",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Beat the shortening and white sugar until blended. Add the eggs, one at a time, then mix in the vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the all-purpose flour, salt, and baking soda. Add the dry mixture to the shortening mixture and stir until combined."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the chopped walnuts and drained prepared mincemeat until evenly distributed."
+    },
+    {
+      "step": 5,
+      "text": "Portion the dough onto baking sheets, leaving space between portions."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 10 minutes, until the cookies are set.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "cookies",
+    "baking",
+    "fruit-desserts",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowls",
+    "whisk",
+    "baking sheets"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9686/mincemeat-cookies-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dec81e894d9220f1bed8f98505bf3748ff210334e72daa8be1bbf52bb1523c9b",
+    "normalized_text_hash": "0dd9776669e598b51952e9a97e9aa43e70624816280d9090b394b896415c6ef0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:38:41.917Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

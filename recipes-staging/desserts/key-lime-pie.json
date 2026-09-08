@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "key-lime-pie",
+  "name": "Key Lime Pie",
+  "subtitle": "Tart citrus custard in a crisp crumb crust",
+  "description": "A chilled lime pie with a buttery crumb base, baked citrus filling, and softly whipped cream topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-cracker-crumbs",
+      "item": "graham cracker crumbs",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 5,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "key-lime-juice",
+      "item": "key lime juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "cream-of-tartar",
+      "item": "cream of tartar",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Stir the graham cracker crumbs, 3 tablespoons white sugar, and melted butter until evenly moistened. Press the mixture into a pie pan and bake for 5 minutes, then cool.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs with the key lime juice, sweetened condensed milk, salt, and cream of tartar until smooth. Pour the filling into the cooled crust."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 15 minutes, until the center is fully set or reaches 160°F on a food thermometer. Cool completely.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Whisk the heavy whipping cream with the cream of tartar and white sugar until stiff peaks form. Fold in the key lime juice and lime, then spread the topping over the cooled pie."
+    },
+    {
+      "step": 5,
+      "text": "Freeze the pie until firm, about 4 hours. Garnish with the sliced lime and serve.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "citrus",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pie pan",
+    "mixing bowls",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12224/key-lime-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7839b5e8b66f5521ba65d636c1adfa1e0a40d591828935f877156b5ae2d351f4",
+    "normalized_text_hash": "d31ca73ef11084d3ac7bea6d168c32f9efca4c0e3a5910c2a8cbee4575d7bb4d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:40:31.758Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

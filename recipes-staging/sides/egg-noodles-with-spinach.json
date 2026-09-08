@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-noodles-with-spinach",
+  "name": "Egg Noodles with Spinach",
+  "subtitle": "Buttery noodles with tender spinach",
+  "description": "Wide egg noodles are tossed with sautéed onion, garlic, and wilted spinach for a simple savory side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "wide-egg-noodles",
+      "item": "wide egg noodles",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "baby-spinach-leaves",
+      "item": "baby spinach leaves",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a boil. Cook the egg noodles for 8 minutes, or until tender; if using raw egg-containing noodles, confirm they reach 160°F. Drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large skillet over medium heat. Add the onion and garlic and cook for 8 minutes, until the onion is tender and the butter is melted.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Add the spinach and cook for 2 minutes, stirring, until wilted.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the drained noodles and toss with the spinach mixture. Season with salt and ground black pepper to taste, then serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "noodles",
+    "spinach",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239536/egg-noodles-with-spinach/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e10998dbf28f2fcda6338821ccfe5286508b36838d088923ceb4cec8cb03f8e1",
+    "normalized_text_hash": "7c179b02c1fca1dcd5689e5d2cc5e992c9746a2a1ec489f9d77ea603d30f9350",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:55:13.414Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

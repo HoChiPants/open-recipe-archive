@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mini-key-lime-pies",
+  "name": "Mini Key Lime Pies",
+  "subtitle": "Creamy citrus pies in individual crusts",
+  "description": "Small graham cracker crusts filled with a smooth Key lime mixture, baked briefly, chilled, and finished with lime slices.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mini-graham-cracker-crusts",
+      "item": "mini graham cracker crusts",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "freshly-squeezed-key-lime-juice",
+      "item": "freshly squeezed Key lime juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-key-lime-zest",
+      "item": "grated Key lime zest",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-key-limes",
+      "item": "fresh Key limes",
+      "quantity": 2,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "whipped-cream-topping",
+      "item": "whipped cream topping",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "7 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Arrange the mini graham cracker crusts on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the condensed milk, sour cream, Key lime juice, Key lime zest, and whipped cream topping until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Divide the mixture among the crusts."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 8 minutes, then cool briefly and refrigerate for 60 minutes, until chilled.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Whisk the chilled filling lightly if needed, then garnish each pie with thinly sliced Key lime."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "lime",
+    "individual-pies",
+    "citrus"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219470/mini-key-lime-pies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3725916dc291c50233997eed5b36809636d43edde44f026496fa9b75c27e0862",
+    "normalized_text_hash": "904c8c9886f7ed444fba12089cd377588dc4db3bf3f070a19b5e2ee6f91d2b74",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:43:13.537Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tofu-lasagna",
+  "name": "Tofu Lasagna",
+  "subtitle": "A savory layered pasta bake with tofu and cheese",
+  "description": "Lasagna noodles are layered with a seasoned tofu-and-cheese filling, sauce, and a browned mozzarella-Parmesan topping.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-lasagna-noodles",
+      "item": "uncooked lasagna noodles",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "firm-tofu",
+      "item": "firm tofu",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, crumbled"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "spaghetti-sauce",
+      "item": "spaghetti sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a large pot of water to a simmer and add the salt. Add the lasagna noodles and cook for 10 minutes, then drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Combine the crumbled tofu, eggs, pepper, nutmeg, milk, spaghetti sauce, dried parsley, half of the mozzarella, and the Parmesan."
+    },
+    {
+      "step": 4,
+      "text": "Layer the drained noodles and tofu mixture in a baking dish, finishing with noodles and any remaining sauce."
+    },
+    {
+      "step": 5,
+      "text": "Top with the remaining mozzarella."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 35 minutes, until the center is fully set and reaches 160°F.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "casserole",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25345/tofu-lasagna/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6469e594b378cba43f732b83d4fd0cce54cec3e67bc4da2657d59933a00c33d4",
+    "normalized_text_hash": "716b3d3feaaab4a8f319ca398c984b4de3b509b84238eac93b5645d613d084c4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:10:52.156Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

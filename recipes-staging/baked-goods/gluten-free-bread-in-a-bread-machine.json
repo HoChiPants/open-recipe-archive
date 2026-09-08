@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "gluten-free-bread-in-a-bread-machine",
+  "name": "Gluten-Free Bread in a Bread Machine",
+  "subtitle": "A simple yeast loaf made in the bread machine",
+  "description": "Mix the ingredients in the machine pan, run the gluten-free cycle, and cool the finished loaf before slicing.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "gluten-free-all-purpose-baking-flour",
+      "item": "gluten-free all-purpose baking flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "xanthan-gum",
+      "item": "xanthan gum",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the water, eggs, oil, and vinegar into the bread-machine pan. Add the flour, xanthan gum, salt, sugar, and yeast."
+    },
+    {
+      "step": 2,
+      "text": "Select the machine's gluten-free bread setting and begin the cycle. Let the loaf bake for about 60 minutes, until set and fully baked.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Remove the pan when the cycle ends. Let the loaf cool completely before slicing.",
+      "timer_minutes": 90
+    }
+  ],
+  "tags": [
+    "bread",
+    "gluten-free",
+    "bread-machine",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/259762/gluten-free-bread-in-a-bread-machine/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "137c07f6a0382d0c87059f26e6522036f50545a2f5e7fe859d8d262edeeb48f1",
+    "normalized_text_hash": "5370ddf5545ca0391d6a14119e388f12a871c3c9e0c02429b9b2b3fc9fc352a6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:45:32.135Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

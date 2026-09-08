@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "microwave-chocolate-cake",
+  "name": "Microwave Chocolate Cake",
+  "subtitle": "A quick, tender chocolate cake for two",
+  "description": "Mix a simple cocoa batter, microwave until fully set, and let it cool briefly before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 2
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "nonstick-cooking-spray",
+      "item": "nonstick cooking spray"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly coat a microwave-safe dish with nonstick cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar, milk, egg, softened butter, and vanilla until combined."
+    },
+    {
+      "step": 3,
+      "text": "Stir the flour, cocoa powder, baking powder, and salt into the wet mixture until the batter is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared dish and microwave on high for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Check that the center is firm and fully set, or reaches 160°F on a food thermometer. Cool for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "microwave",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/140772/easy-microwave-chocolate-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5db95b97f1d478096ddce829b4e3ef2213267f0b82e6afaf9c724e39777e54ae",
+    "normalized_text_hash": "73d1518846ccee69c188700d6edee96f595c57ee536be7e0d0a04be45e3c63ff",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:38:30.065Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

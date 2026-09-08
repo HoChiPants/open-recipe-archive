@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-daiquiri",
+  "name": "Banana Daiquiri",
+  "subtitle": "A frosty blend of banana, rum, lime, and ice",
+  "description": "Blend this creamy, fruit-forward cocktail until smooth, then serve immediately with an optional garnish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-rum",
+      "item": "white rum",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "banana-liqueur",
+      "item": "banana liqueur",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 10,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ripe-banana-peeled",
+      "item": "ripe banana peeled",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "handfuls-of-crushed-ice",
+      "item": "handfuls of crushed ice",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "banana-slices-or-banana-chips",
+      "item": "banana slices or banana chips",
+      "preparation": "lime wedges or cocktail cherries, to garnish (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the white rum, banana liqueur, lime juice, peeled banana, and crushed ice to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth and transfer to a serving glass."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the optional banana slices or banana chips, lime wedges, or cocktail cherries."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "alcoholic",
+    "banana",
+    "daiquiri"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "blender",
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banana-daiquiri",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4413ef708c1acc496f9201e305c35bcf99f6a9884abc6a4f0d0f480066d952ac",
+    "normalized_text_hash": "7ea5278fd38eaf416313b376826dd2e490dac4e5b6ec5645467ca6fd67424a7b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:08:32.887Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

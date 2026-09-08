@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-turkey-tenderloins",
+  "name": "Grilled Turkey Tenderloins",
+  "subtitle": "Rosemary-mustard marinated turkey cooked over high heat",
+  "description": "Turkey tenderloins are marinated in soy sauce, mustard, and crushed rosemary, then grilled until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dijon-style-prepared-mustard",
+      "item": "Dijon-style prepared mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-rosemary",
+      "item": "dried rosemary",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "turkey-tenderloins",
+      "item": "turkey tenderloins",
+      "quantity": 1,
+      "unit": "pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, mustard, and crushed rosemary in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the turkey tenderloins and turn to coat. Cover and refrigerate for 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill to medium-high heat."
+    },
+    {
+      "step": 4,
+      "text": "Remove the turkey from the marinade and place it on the grill."
+    },
+    {
+      "step": 5,
+      "text": "Grill for about 10 minutes per side, turning once, until the thickest part reaches 165°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Rest briefly, then slice and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "turkey",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "shallow dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9231/turkey-tenderloins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4fc4857bfa7ed39147555f69fb4a2f739c561c73bbb8f86a53ebf98a3b280102",
+    "normalized_text_hash": "630576b46927261772b94a55c8b2f1bd556c07c79d2c0a9ffe169949e372cc20",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:30:10.493Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

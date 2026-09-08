@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cloud-eggs",
+  "name": "Cloud Eggs",
+  "subtitle": "Light baked eggs with fresh herbs",
+  "description": "Whipped egg whites form a soft, airy nest around yolks and finish with chives and spring onions.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 13
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "chives-chopped",
+      "item": "chives chopped",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "spring-onions-finely-sliced",
+      "item": "spring onions finely sliced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "wholemeal-toast-or-gluten-free-alternative",
+      "item": "wholemeal toast or gluten-free alternative",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F and line a baking sheet with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Separate the eggs, keeping the yolks intact. Whisk the whites until they hold firm peaks."
+    },
+    {
+      "step": 3,
+      "text": "Gently fold in the chopped chives and sliced spring onions."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the whites into two mounds on the baking sheet and make a shallow well in each center."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the whites are set, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Place one yolk in each well and bake until the yolks and whites are fully set and reach 160°F.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 7,
+      "text": "Serve with wholemeal toast or a gluten-free alternative, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "baked-eggs",
+    "herbs",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cloud-eggs",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4099964cbe21732ae6461ebf23d8adace235c5230dacde012e869349697430a4",
+    "normalized_text_hash": "1a6506f037f800a06932f9780bbdef34ff5e3a53fea4e9e800531ea9f6f90963",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:35:26.705Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "west-african-lime-cake",
+  "name": "West African Lime Cake",
+  "subtitle": "A tender lime-scented cake with a peanut finish",
+  "description": "A simple butter cake brightened with fresh lime and finished with chopped peanuts.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2.5,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2.25,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "peanuts",
+      "item": "peanuts",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "chopped, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 300°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and baking powder in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the sugar and softened butter for 3 minutes, then whisk in the beaten eggs and lime juice.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Stir in the flour mixture until the batter is combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a baking pan and bake for 25 minutes, until the center is firm and fully set or reaches 160°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Finish with the chopped peanuts before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "lime",
+    "west-african"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244880/west-african-lime-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7caaee354d8f4a2bceb6f52ac304362ac9cbc8c4edc9cb39931ee2a246dfda6f",
+    "normalized_text_hash": "59b440765401c2102d00effd30cce1d6b73828534bd6d6dd239a6f08a975dcf6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:59:48.587Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

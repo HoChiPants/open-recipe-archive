@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-broiled-chicken-breasts",
+  "name": "Basic Broiled Chicken Breasts",
+  "subtitle": "Simple skin-on chicken with crisp, savory edges",
+  "description": "Season bone-in chicken breasts with olive oil, salt, and pepper, then broil until browned and safely cooked through.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bone-in-chicken-breast-halves-with-skin",
+      "item": "bone-in chicken breast halves with skin",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the broiler."
+    },
+    {
+      "step": 2,
+      "text": "Rub the chicken breasts with the olive oil, then season evenly with the salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken on a broiler pan and broil for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Turn the chicken and broil for 10 minutes more, until the thickest part reaches 165°F on a food thermometer.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Let the chicken rest for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "broiled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "broiler",
+    "broiler pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218126/basic-broiled-chicken-breasts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2fb5fe31643481e595fa76f0fbe4aaabc9dad53ca4bc2e717c229bd0a11eeb67",
+    "normalized_text_hash": "b24d36454d4fe0deab926a505d094ed574ba466b3c61b50f1bd324dce54a851c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:07:00.093Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

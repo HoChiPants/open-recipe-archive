@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scalloped-potato-soup",
+  "name": "Scalloped Potato Soup",
+  "subtitle": "A quick, creamy soup with ham and melted cheese",
+  "description": "Turn leftover scalloped potatoes into a hearty soup with broth, savory ham, and two kinds of cheese.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "leftover-scalloped-potatoes",
+      "item": "leftover scalloped potatoes",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cubed cooked"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the leftover scalloped potatoes and chicken broth in a large pot. Add the garlic powder, salt, and pepper, then stir in the cooked cubed ham."
+    },
+    {
+      "step": 2,
+      "text": "Heat the soup over medium heat, stirring occasionally, until hot throughout and the ham reaches 165°F on a food thermometer.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the Cheddar and Parmesan until melted and blended. Adjust the broth as needed for the desired consistency and serve hot.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "leftovers",
+    "quick-meal",
+    "comfort-food",
+    "lunch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85821/leftover-scalloped-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd44238726001204a47b9ca655ea4be470f4790f63b0008088d00d34ac8349ab",
+    "normalized_text_hash": "a488ade14c9ca48ce4ec4e7ad80fb732098aa1e4e1b61c4cbbedd9ea35bfd8ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:53:17.857Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

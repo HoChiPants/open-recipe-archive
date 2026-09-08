@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rhubarb-slush",
+  "name": "Rhubarb Slush",
+  "subtitle": "A tart, sparkling frozen fruit drink",
+  "description": "Cooked rhubarb, citrus concentrates, and gin are frozen into a slushy base, then combined with chilled lemon-lime soda before serving.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-rhubarb",
+      "item": "fresh rhubarb",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "frozen-orange-juice-concentrate",
+      "item": "frozen orange juice concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, thawed"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, thawed"
+    },
+    {
+      "ingredient_id": "gin",
+      "item": "gin",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lemon-lime-flavored-carbonated-beverage",
+      "item": "lemon-lime flavored carbonated beverage",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "2 liter, chilled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chopped rhubarb and water in a saucepan. Cook until the rhubarb is tender, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Stir the cooked rhubarb with the sugar, thawed orange juice concentrate, thawed lemonade concentrate, gin, and water until combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a freezer-safe container and freeze until slushy and firm."
+    },
+    {
+      "step": 4,
+      "text": "Combine the frozen mixture with the chilled lemon-lime carbonated beverage and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "frozen",
+    "rhubarb",
+    "citrus",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/35063/rhubarb-slush/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ae7df0e78b4db94074ba826af543433e4cc9017e42a4460f2ea0ca84fd14294",
+    "normalized_text_hash": "062763a38973e964272dc12e68934099cf840a2a3bec3f87c80c80ae5a7fc4f5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:02:37.883Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brined-roast-chicken",
+  "name": "Brined Roast Chicken",
+  "subtitle": "Crisp-skinned chicken for a family meal",
+  "description": "Seasoned whole chicken is chilled, brought toward room temperature, coated with oil, roasted, and rested before serving.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 95
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-about-1-7kg",
+      "item": "chicken (about 1.7kg)",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the chicken for brining and place it in a covered container."
+    },
+    {
+      "step": 2,
+      "text": "Mix the garlic powder, onion powder, and brown sugar. Apply the mixture to the chicken."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the covered chicken to the refrigerator and chill for 12 hours.",
+      "timer_minutes": 720
+    },
+    {
+      "step": 4,
+      "text": "Remove the chicken from the refrigerator and let it stand for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Rub the chicken with the vegetable oil and preheat the oven."
+    },
+    {
+      "step": 6,
+      "text": "Roast the chicken for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Continue roasting for 60 minutes, or until the thickest part reaches 165°F on a food thermometer and the juices run clear.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Rest the chicken for 15 minutes before carving and serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "brined-chicken",
+    "roast-chicken",
+    "whole-chicken",
+    "family-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/brined-roast-chicken",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "480583656804f616f3c21fbf053e706e81872348cb70fec2060e7ac9295f6909",
+    "normalized_text_hash": "80c08610232688f20a982cf5717b143ee545dc4c84793ee37e8c7841630aa17e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T05:46:15.972Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brioche",
+  "name": "Brioche",
+  "subtitle": "Buttery French yeast bread with a tender crumb",
+  "description": "A rich, lightly sweet French bread made with eggs and softened butter, shaped after a chilled rise and baked until golden.",
+  "meal_type": "breakfast",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 25,
+    "inactive_minutes": 500
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f",
+      "item": "warm water (110 degrees F)",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "egg-yolk",
+      "item": "egg yolk",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Dissolve the yeast in the warm water and let it stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir together the flour, sugar, and salt. Add the yeast mixture and eggs, then whisk until a shaggy dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough for 8 minutes, until smooth. Work in the softened butter, then let the dough rest for 20 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Lightly coat a bowl with the vegetable oil. Transfer the dough to the bowl, cover, and let it rise in a warm place for 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Chill the dough for 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 6,
+      "text": "Preheat the oven to 400°F. Prepare the baking pan and lightly flour the work surface."
+    },
+    {
+      "step": 7,
+      "text": "Shape the chilled dough and place it in the prepared pan. Let it rise for 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Whisk the egg yolk with the cold water and brush the mixture over the dough."
+    },
+    {
+      "step": 9,
+      "text": "Bake for 25 minutes, until golden brown and the center reaches at least 160°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 10,
+      "text": "Cool for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "french",
+    "baking",
+    "yeast-bread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking pan",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17486/brioche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "59e9b602dd1b80a7aa9c6d0b927ae24c84377e806d791c3cfbd25787ae35545b",
+    "normalized_text_hash": "e0bdaad7918b6bbff78b55ed0c0ee7ab15ebe16491f64602fca1ec18494d2d37",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:57.018Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

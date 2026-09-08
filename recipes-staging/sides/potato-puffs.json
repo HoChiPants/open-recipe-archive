@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-puffs",
+  "name": "Potato Puffs",
+  "subtitle": "Crisp, golden bites with a soft potato center",
+  "description": "Seasoned mashed potato puffs are shaped, deep-fried until golden and fully set, then drained for serving.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mashed-potatoes",
+      "item": "mashed potatoes",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-deep-frying",
+      "item": "vegetable oil for deep frying",
+      "quantity": 1,
+      "unit": "quart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour, baking powder, and salt together. Stir in the mashed potatoes and beaten egg until a cohesive mixture forms, then shape it into small puffs."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil for deep frying to 365°F in a deep, heavy pot or fryer."
+    },
+    {
+      "step": 3,
+      "text": "Fry the puffs in batches for about 5 minutes, turning as needed, until golden brown and firm in the center; verify an egg-containing center reaches 160°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Transfer the puffs to a lined plate or rack to drain before serving."
+    }
+  ],
+  "tags": [
+    "potatoes",
+    "deep-fried",
+    "crispy",
+    "american",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "deep fryer or heavy pot",
+    "food thermometer",
+    "slotted spoon",
+    "paper towels or wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/42064/moms-potato-puffs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "55eeba12e173718e331db240fbbb74d4823d5821d46748d35b91acb12c17f8dc",
+    "normalized_text_hash": "e2f8659ed2d98417e29c6d6a62bb1e48eabb91886038788b09bcfd16b84049aa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:53:39.554Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

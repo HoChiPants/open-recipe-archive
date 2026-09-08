@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-salsa",
+  "name": "Mango Salsa",
+  "subtitle": "A bright, fresh fruit salsa with a gentle chile kick",
+  "description": "Combine sweet mango with tomato, onion, jalapeño, cilantro, and lime for a quick, fresh salsa.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mangoes",
+      "item": "mangoes",
+      "quantity": 2,
+      "preparation": "peeled, seeded, and chopped"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "seeded and minced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the diced tomato, minced onion, seeded jalapeño, cilantro, lime juice, salt, and black pepper in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the chopped mango until evenly mixed. Taste and adjust the seasoning with the listed salt and pepper as needed."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "salsa",
+    "fresh",
+    "no-cook"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "chef's knife",
+    "cutting board",
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217283/quick-mango-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "748747b78d333ede108ed2d31f9b3623cd3f99315a405d0230f19dfe0e7f11d1",
+    "normalized_text_hash": "3aac8377231558cb27e01f99376e78bae89b267acb77bf1ecc5d25b01e0e6b3f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:46:49.672Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

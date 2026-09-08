@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-burger-relish",
+  "name": "Barbecue Burger Relish",
+  "subtitle": "Smoky tomato relish for burgers and sandwiches",
+  "description": "A quick cooked relish combining tomatoes, onion, garlic, paprika, and vinegar into a thick, tangy topping.",
+  "meal_type": "sandwich",
+  "yield": {
+    "quantity": 175,
+    "unit": "g"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sunflower-oil",
+      "item": "sunflower oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "red-onion-finely-chopped",
+      "item": "red onion finely chopped",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "tomatoes-roughly-chopped",
+      "item": "tomatoes roughly chopped",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-clove-finely-grated",
+      "item": "garlic clove finely grated",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "sweet-smoked-paprika",
+      "item": "sweet smoked paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "tomato-pure-e",
+      "item": "tomato purée",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "red-chilli-finely-chopped",
+      "item": "red chilli finely chopped (optional)",
+      "quantity": 1,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the sunflower oil in a saucepan over medium heat for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the onion, tomatoes, garlic, smoked paprika, tomato purée, vinegar, and chilli if using."
+    },
+    {
+      "step": 3,
+      "text": "Simmer for 20 minutes, stirring occasionally, until the mixture has thickened.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "condiment",
+    "burger-topping",
+    "relish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/barbecue-burger-relish",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b475afc9c419bfd1519f9c6374fb94b90d086288d1f67ff520e6e36fc4f6fc32",
+    "normalized_text_hash": "46597c8ce473408be73c09d90bd8e510b36d98c24d68e705ddd50c633ca53ea3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:11:46.507Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

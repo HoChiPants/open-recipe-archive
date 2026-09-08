@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-swiss-steak",
+  "name": "Slow Cooker Swiss Steak",
+  "subtitle": "Tender beef with vegetables in tomato sauce",
+  "description": "Flour-coated round steak cooks with vegetables, tomatoes, brown sugar, and Worcestershire sauce for a hearty slow-cooker meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 490
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "round-steak",
+      "item": "round steak",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cut into small pieces"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 3,
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "tomatoes-with-juice",
+      "item": "tomatoes with juice",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce, diced"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the flour with salt and pepper. Coat the steak pieces in the seasoned flour."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a large skillet, add the oil, and cook the celery, onion, and carrots for 5 minutes, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the coated steak and brown sugar to the skillet. Cook for 5 minutes, turning as needed, until lightly browned.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Transfer the steak and vegetables to a slow cooker. Stir in the tomatoes with their juice and Worcestershire sauce."
+    },
+    {
+      "step": 5,
+      "text": "Cover and cook until the beef is tender, about 490 minutes. Confirm the beef reaches at least 145°F, then rest for 3 minutes before serving.",
+      "timer_minutes": 490
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "beef",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49591/slow-cooker-swiss-steak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ae365709d1498de61d97b4f20a5d1ffe1f0b1a96c849160457b75f1f93ec64ee",
+    "normalized_text_hash": "a35ab6c6d1534607b47a24cc4127a339b0fdb7db9468753134a503b7bd8fa3a7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:53:07.413Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

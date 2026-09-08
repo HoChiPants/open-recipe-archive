@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-corn-on-the-cob",
+  "name": "Spicy Corn on the Cob",
+  "subtitle": "Tender corn with seasoned butter",
+  "description": "Corn is coated with a chili-seasoned butter mixture and cooked until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "cayenne-pepper-to-taste",
+      "item": "cayenne pepper to taste"
+    },
+    {
+      "ingredient_id": "garlic-powder-to-taste",
+      "item": "garlic powder to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "ears-corn",
+      "item": "ears corn",
+      "quantity": 6,
+      "preparation": "husked and cleaned"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the cooking appliance."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chili powder, oregano, onion powder, cayenne, garlic powder, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Blend the seasoning mixture into the softened butter."
+    },
+    {
+      "step": 4,
+      "text": "Coat the cleaned ears of corn with the seasoned butter."
+    },
+    {
+      "step": 5,
+      "text": "Cook the corn until tender, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Prepare the corn for serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17338/tasty-bbq-corn-on-the-cob/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6c365f4818e9e2d9ae1f095b5f8033d2b65fd2be9935a5db71a8eee72aecb8eb",
+    "normalized_text_hash": "89f43153241b2cca8848b58de726b58bf8bb9043ce99b122c787f80312358129",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:30:28.400Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-corn-salad",
+  "name": "Mexican Corn Salad",
+  "subtitle": "Grilled corn tossed with lime, cotija, cilantro, and chili",
+  "description": "Grilled corn is cooled, cut from the cob, and mixed with a creamy lime dressing, cotija cheese, and cilantro.",
+  "meal_type": "salad",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ears-corn",
+      "item": "ears corn",
+      "quantity": 4,
+      "preparation": "with husks"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 0.5,
+      "preparation": "juiced, or more to taste"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "crumbled-cotija-cheese",
+      "item": "crumbled cotija cheese",
+      "quantity": 5,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "packed-chopped-fresh-cilantro",
+      "item": "packed chopped fresh cilantro",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a grill to medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Grill the corn in its husks for 15 minutes, turning occasionally, until tender and lightly charred.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Let the corn cool enough to handle, then remove the husks and cut the kernels from the cobs."
+    },
+    {
+      "step": 4,
+      "text": "Combine the lime juice, chili powder, cotija, cilantro, mayonnaise, and black pepper in a bowl."
+    },
+    {
+      "step": 5,
+      "text": "Add the corn and salt, then toss until evenly coated. Adjust the lime and seasoning to taste."
+    }
+  ],
+  "tags": [
+    "salad",
+    "grilled",
+    "corn",
+    "mexican-inspired",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "grill",
+    "knife",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279678/mexican-corn-off-the-cob-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2bc7fd07039df14a112c6854998a47951b059989229f3ccb86705295c5be1ad2",
+    "normalized_text_hash": "f4bcb298eb4925da3c992fa4fb56926ce24dfc81c710f220c22bbdc02d910593",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:35:20.989Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

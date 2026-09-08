@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-soda-syrup",
+  "name": "Strawberry Soda Syrup",
+  "subtitle": "A bright fruit syrup for sparkling drinks",
+  "description": "Fresh strawberries simmer into a concentrated syrup that can be mixed with chilled soda or other drinks.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "very-ripe-strawberries",
+      "item": "very ripe strawberries",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "hulled and cut into chunks"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the strawberries and cold water in a saucepan. Let stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Crush the strawberries gently, then strain the mixture through a fine-mesh strainer into a clean saucepan, pressing lightly on the solids."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the white sugar until dissolved."
+    },
+    {
+      "step": 4,
+      "text": "Bring the mixture to a gentle simmer and cook until slightly thickened, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat, cool for 20 minutes, and transfer the syrup to a clean container.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "drink",
+    "syrup",
+    "fruit"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "saucepan",
+    "fine-mesh strainer",
+    "clean container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234939/strawberry-soda-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6d3c0d114701ae38f54721c6ee7eaae412e67ed7cf922b5411ae8f2acb5bf8b2",
+    "normalized_text_hash": "7fc0dc0494eff1c493d16569082fe2901d2fcccfa5d1692ecf8f0ed1eb4437a6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:01:54.492Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

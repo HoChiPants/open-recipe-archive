@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamed-tuna-on-toast",
+  "name": "Creamed Tuna on Toast",
+  "subtitle": "A quick savory tuna sauce served over crisp toast.",
+  "description": "Warm tuna and celery soup with milk into a thick, creamy topping for toasted bread.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "tuna",
+      "item": "tuna",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 8,
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the condensed soup and drained tuna in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the milk until smooth, then cook for 10 minutes, stirring occasionally, until thickened and heated through. Verify the tuna mixture reaches 145°F, or is steaming hot and the fish is opaque and flakes easily.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Season with salt and ground black pepper to taste."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the creamed tuna over the toasted bread and serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "quick-meal",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/39533/creamed-tuna-on-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c560ffc5632d6abf7025f155cd81b867c99f03806eaba56272e1c9315cc3fab8",
+    "normalized_text_hash": "74ef50ee4f8797891e36f27eaf4d6ad6c00069ce70d5d30522e30e6094541c38",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:30:43.044Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-mayo-pasta-salad",
+  "name": "No-Mayo Pasta Salad",
+  "subtitle": "Rotini with fresh vegetables and creamy dressing",
+  "description": "A colorful chilled pasta salad combining two rotini varieties, chopped vegetables, and two prepared dressings.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rotini-pasta",
+      "item": "rotini pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "tri-color-rotini-pasta",
+      "item": "tri-color rotini pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "roma-plum-tomatoes",
+      "item": "roma (plum) tomatoes",
+      "quantity": 6,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "purple-onion",
+      "item": "purple onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ranch-dressing",
+      "item": "ranch dressing",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "italian-style-salad-dressing",
+      "item": "Italian-style salad dressing",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "16 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer, add both types of rotini, and cook for 8 minutes or until tender.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Drain the pasta and let it cool until set."
+    },
+    {
+      "step": 3,
+      "text": "Place the cooled pasta in a large bowl with the tomatoes, cucumber, and onion."
+    },
+    {
+      "step": 4,
+      "text": "Stir the ranch and Italian-style dressings together, then pour them over the salad and toss until evenly coated."
+    }
+  ],
+  "tags": [
+    "pasta-salad",
+    "vegetable-salad",
+    "american",
+    "potluck"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221086/no-mayo-easy-pasta-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "31756f73e6d6b78b4393e6642ef4b8a30103d5658d8215a1e22205f6c181b26b",
+    "normalized_text_hash": "34e1b73203d10aaaad8fd9741209543ff142b8a063fad611b2eac5d13b7cb4a1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:16:41.252Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

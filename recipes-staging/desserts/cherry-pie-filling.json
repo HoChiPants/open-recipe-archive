@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-pie-filling",
+  "name": "Cherry Pie Filling",
+  "subtitle": "Bright, thickened cherry filling for pies and pastries",
+  "description": "A simple sweet-tart filling made by simmering pitted cherries and finishing them with a cornstarch slurry.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tart-red-cherries",
+      "item": "tart red cherries",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the pitted cherries in a saucepan and bring them to a gentle simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer the cherries for 15 minutes, stirring occasionally.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Whisk the sugar and cornstarch together until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Stir the sugar mixture into the simmering cherries until incorporated."
+    },
+    {
+      "step": 5,
+      "text": "Cook for 2 minutes, stirring constantly, until the filling is thickened.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "fruit-filling",
+    "pie-filling"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218432/cherry-pie-filling/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9344d7f7713d6d59198d3b748acb456ed42b22903865d5e2e2932e0bad4c289a",
+    "normalized_text_hash": "4b52a05b3c1ccc6c38b4abc4aa1a900c03b8f21bb5c5739443057cf0845fe5e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:48:56.993Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

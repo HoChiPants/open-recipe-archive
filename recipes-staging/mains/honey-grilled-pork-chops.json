@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-grilled-pork-chops",
+  "name": "Honey-Grilled Pork Chops",
+  "subtitle": "Sweet-savory pork chops from the grill",
+  "description": "Pork chops marinated in honey, soy sauce, lemon, and garlic, then grilled until safely cooked and juicy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 305
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "pork-chops",
+      "item": "pork chops",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the honey, soy sauce, lemon juice, and minced garlic until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the marinade to a shallow dish or container and coat the pork chops thoroughly."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate the coated pork chops for 5 hours.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 4,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 5,
+      "text": "Grill the pork chops until cooked through, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Check the thickest chop with a food thermometer; it should reach 145°F."
+    },
+    {
+      "step": 7,
+      "text": "Rest the pork chops for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "whisk",
+    "shallow dish or container",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238073/honey-grilled-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3671313bc6c6688a11207822929a9c76b6749f229c834ac150f54dd96d9f782a",
+    "normalized_text_hash": "ae10c11a13cbcba5e0bba466f10cd5bd7c62b078aa0ab360778e3622d894d117",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:47:18.488Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-stroganoff",
+  "name": "Beef Stroganoff",
+  "subtitle": "Tender beef in a creamy mushroom sauce",
+  "description": "Roasted beef is folded into a savory mushroom sauce enriched with sour cream and white wine for a hearty eight-serving main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-chuck-roast",
+      "item": "beef chuck roast",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 4,
+      "preparation": "sliced (white parts only)"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "condensed-beef-broth",
+      "item": "condensed beef broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "prepared-mustard",
+      "item": "prepared mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Season the beef chuck roast with the salt and ground black pepper. Roast until the center reaches 145°F, then rest for 3 minutes. Cut the beef into thick pieces."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large pot over medium heat. Add the sliced green onions and cook briefly until softened."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the all-purpose flour, then gradually add the condensed beef broth and prepared mustard. Return the beef to the pot and bring the sauce to a gentle simmer."
+    },
+    {
+      "step": 4,
+      "text": "Simmer for 60 minutes, or until the beef is tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Whisk together the mushrooms, sour cream, and white wine. Stir this mixture into the pot and cook gently until warmed through; do not boil."
+    },
+    {
+      "step": 6,
+      "text": "Adjust the seasoning with salt and ground black pepper to taste, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25202/beef-stroganoff-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2878b6e42f4a9d7bd6b44ced3d894118d49e999d9b045f6a4c87d03edffdd79b",
+    "normalized_text_hash": "61f5fb5509aca633acb478a41304b15568b5bb8ff3a131a42d74b09536b4b11b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:20:54.271Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "elderberry-pie",
+  "name": "Elderberry Pie",
+  "subtitle": "A double-crust pie with a tart, berry-filled center.",
+  "description": "Elderberries are thickened with sugar, cornstarch, and lemon juice, then baked between pastry crusts until golden and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "recipe-pastry-for-a-9-inch-double-crust-pie",
+      "item": "recipe pastry for a 9 inch double crust pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "elderberries",
+      "item": "elderberries",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the elderberries and sugar in a bowl. Whisk the cornstarch with the water until smooth, then stir it into the berries with the lemon juice."
+    },
+    {
+      "step": 3,
+      "text": "Fit half of the pastry into a 9-inch pie pan. Pour in the filling and dot the surface with butter."
+    },
+    {
+      "step": 4,
+      "text": "Cover with the remaining pastry, trim and seal the edges, and cut vents in the top crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the crust is golden and the filling is thick and bubbling, about 40 minutes. Cool before serving.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit-dessert",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie pan",
+    "mixing bowl",
+    "whisk",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12616/elderberry-pie-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1ba38ff114173108c9dca70e4010f6cde3a9470506ac1d68b8adcac037e6a7a8",
+    "normalized_text_hash": "11f31e38e86f65f0f4d6eb61712e0c094ae1c3f2a603580f2036c7f8db410d0c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:59:35.046Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

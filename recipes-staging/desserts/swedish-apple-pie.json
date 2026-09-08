@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "swedish-apple-pie",
+  "name": "Swedish Apple Pie",
+  "subtitle": "A cinnamon apple dessert with a crisp pecan topping.",
+  "description": "Sliced apples are seasoned with cinnamon and sugar, then baked beneath a simple pecan batter until golden and set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "cored and sliced apples"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the apples in a baking dish and sprinkle with the cinnamon and 1 teaspoon sugar."
+    },
+    {
+      "step": 3,
+      "text": "Stir the melted margarine and 1 cup sugar together, then mix in the beaten egg."
+    },
+    {
+      "step": 4,
+      "text": "Add the flour, pecans, and salt, stirring until combined."
+    },
+    {
+      "step": 5,
+      "text": "Spread the mixture over the apples."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 65 minutes, until golden brown and the center is fully set or reaches 160°F on a food thermometer.",
+      "timer_minutes": 65
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "apple",
+    "fruit"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19969/swedish-apple-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "137952d94ede8c536c58d77f6f0a0f0e42b34f4a51d84406973c46502d461926",
+    "normalized_text_hash": "7e9434e541e5c11a7167f96cf9ffbf122a2c95ed7c93a45144dbc619f4e9f813",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:16:44.645Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

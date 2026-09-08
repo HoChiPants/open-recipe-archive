@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-and-sour-chicken",
+  "name": "Sweet and Sour Chicken",
+  "subtitle": "Tangy baked chicken with a balanced sweet glaze",
+  "description": "Chicken breast halves rest in a soy-vinegar sauce flavored with ginger and garlic, then bake until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-ginger",
+      "item": "fresh ginger",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, sugar, vinegar, cornstarch, water, ginger, garlic, and pepper until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Place the chicken in a baking dish and transfer the sauce over it, turning the pieces to coat."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 325°F."
+    },
+    {
+      "step": 5,
+      "text": "Bake the chicken for 40 minutes, until the thickest portion reaches 165°F on a food thermometer.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "sweet-and-sour"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking dish",
+    "food thermometer",
+    "refrigerator",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220116/chinese-sweet-and-sour-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dcafd4b9f553016dc424ba52364f0d9ab63b70f5fddea5fa73840d9911a6526d",
+    "normalized_text_hash": "202c020504ffb4bba95ce781f71617d64aaf2a3d4bdd863483eaf008317e7f02",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:27:04.431Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

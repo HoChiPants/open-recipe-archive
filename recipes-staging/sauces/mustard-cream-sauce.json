@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mustard-cream-sauce",
+  "name": "Mustard Cream Sauce",
+  "subtitle": "A cool, tangy sauce for savory dishes",
+  "description": "A quick blend of creamy ingredients, mustard, and lemon juice that can be served chilled.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.33000001311302,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-dijon-style-mustard",
+      "item": "prepared Dijon-style mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mayonnaise, sour cream, prepared Dijon-style mustard, and fresh lemon juice in a bowl until smooth and evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Chill the sauce until ready to serve."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "condiment",
+    "quick",
+    "tangy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19672/mustard-cream-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aa9925e18aa8382d6f9e747fd330725af8bf04d52597cc732c7454ed231b2253",
+    "normalized_text_hash": "d48ec1a81c7486b5ab707dd821bcf1788e3674a32d7065db2db178002bdfb544",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:04:45.301Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

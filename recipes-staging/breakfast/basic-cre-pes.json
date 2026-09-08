@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-cre-pes",
+  "name": "Basic Crêpes",
+  "subtitle": "Thin French-style pancakes for sweet or savory fillings",
+  "description": "A simple batter of eggs, milk, water, flour, salt, and melted butter cooks into tender, lightly browned crêpes.",
+  "meal_type": "breakfast",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs, milk, water, and salt until combined. Add the flour and melted butter, then whisk until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a nonstick skillet over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Pour a thin layer of batter into the skillet and cook until the underside is set and lightly browned, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Flip the crêpe and cook until set, about 1 minute. Repeat with the remaining batter and serve.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "french",
+    "pancakes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "nonstick skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "127d91836d876a6388e74a320368ce256624f4d1e1507983bd70bc55fdbe1298",
+    "normalized_text_hash": "a11a7b110cbf28cc11b470f224123a5537c5f0ffe1a2936f8fc5b6b2bea0955c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:07:03.948Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

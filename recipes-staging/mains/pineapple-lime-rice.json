@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-lime-rice",
+  "name": "Pineapple-Lime Rice",
+  "subtitle": "A bright rice dish with tropical fruit and fresh herbs",
+  "description": "Cook long-grain rice in pineapple juice and water, then finish it with lime, cilantro, and green onions.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-long-grain-rice",
+      "item": "uncooked long grain rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "grated-lime-zest",
+      "item": "grated lime zest",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the rice, pineapple juice, water, crushed pineapple, butter, lime zest, salt, and lime juice in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a boil, cover, reduce the heat, and cook until the rice is tender, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Stir in the cilantro and green onions before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "rice",
+    "pineapple",
+    "lime",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214190/pineapple-lime-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "73c94fa0bb142dc7d90b1efb33e7d134de78c00e239521a9d2f02050c24bf61b",
+    "normalized_text_hash": "1f858b41e3e688ca0df292fc31d8dd929c13a51a85a759619348eb8644993f3b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:20:00.926Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

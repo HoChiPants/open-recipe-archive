@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "e-clair-cake",
+  "name": "Éclair Cake",
+  "subtitle": "A chilled vanilla pudding and chocolate dessert",
+  "description": "Layer graham crackers with a creamy vanilla filling, then finish with chocolate frosting and chill until set.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "graham-cracker-squares",
+      "item": "graham cracker squares",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "prepared-chocolate-frosting",
+      "item": "prepared chocolate frosting",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the milk, thawed whipped topping, and instant vanilla pudding mix until evenly combined and thickened."
+    },
+    {
+      "step": 2,
+      "text": "Cover the bottom of a dish with graham cracker squares. Spread over half of the pudding mixture, add another layer of graham crackers, and cover with the remaining pudding mixture."
+    },
+    {
+      "step": 3,
+      "text": "Finish with a final layer of graham cracker squares. Refrigerate for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Spread the prepared chocolate frosting over the chilled top, then refrigerate until fully set, about 3½ hours.",
+      "timer_minutes": 210
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chilled",
+    "layered"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking dish",
+    "spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7304/eclair-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "494c7a8912901a8c48938c1ca85e599cf3bd1cd346c7da0fc365b1501005ff2c",
+    "normalized_text_hash": "f20d2dc0370c71c4b84414b17ebd89bbdf84783e53e6916fc224c7ca43e400c4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:53:40.331Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

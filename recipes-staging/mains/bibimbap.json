@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bibimbap",
+  "name": "Bibimbap",
+  "subtitle": "A colorful Korean-style rice bowl with vegetables, egg, and sesame.",
+  "description": "Build bowls with cooked sushi rice, sautéed vegetables, spinach, a fried egg, sesame, gochujang sauce, and optional kimchi.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "itsu-gochujang-sauce-plus-more-to-serve",
+      "item": "itsu gochujang sauce plus more to serve",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "shiitake-mushrooms-or-button-mushrooms",
+      "item": "shiitake mushrooms or button mushrooms",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "courgette",
+      "item": "courgette",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "beansprouts",
+      "item": "beansprouts",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 6,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vegetable-oil-plus-2-tbsp",
+      "item": "vegetable oil plus 2 tbsp",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "sushi-rice",
+      "item": "sushi rice",
+      "quantity": 600,
+      "unit": "g",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "kimchi-optional",
+      "item": "kimchi optional",
+      "quantity": 2,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Slice the mushrooms, carrot, and courgette. Keep the prepared vegetables separate for cooking."
+    },
+    {
+      "step": 2,
+      "text": "Microwave the beansprouts briefly, if needed, until just tender; drain any excess moisture."
+    },
+    {
+      "step": 3,
+      "text": "Heat a pan over medium-high heat. Cook the beansprouts with sesame oil and sesame seeds for 3 minutes, until tender. Transfer to a bowl.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Cook the mushrooms with sesame oil and sesame seeds for about 5 minutes, until tender. Transfer them separately.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Stir the cooked sushi rice with the vegetable oil, then warm it through for about 8 minutes, stirring occasionally.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 6,
+      "text": "Stir in the gochujang sauce until the rice is evenly coated. Add the courgette with sesame oil, vegetable oil, and sesame seeds, and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Add the spinach and cook just until wilted. Divide the rice among four bowls and arrange the cooked vegetables over it."
+    },
+    {
+      "step": 8,
+      "text": "Cook the eggs in the remaining vegetable oil until the whites and yolks are fully set, or until they reach 160°F. Top each bowl with an egg, more gochujang sauce, sesame oil, sesame seeds, and optional kimchi."
+    }
+  ],
+  "tags": [
+    "korean-inspired",
+    "vegetarian",
+    "rice-bowl",
+    "weeknight-dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "sesame"
+  ],
+  "equipment": [
+    "large skillet or frying pan",
+    "microwave",
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bibimbap",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "777ea60fa3472494114040035a736bf5d3f8fbfe1523eca4138d3cb0f68b8cd7",
+    "normalized_text_hash": "76ce53b73842d9ecc8d818ee843d1e796feca3b9042aefa2cda68a793f72c41b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:32:06.958Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-cherry-pie",
+  "name": "Fresh Cherry Pie",
+  "subtitle": "A double-crust pie filled with vanilla-almond cherries",
+  "description": "Pitted cherries are mixed with sugar, tapioca, and extracts, then baked between pastry crusts until golden and set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "recipe-pastry-for-a-9-inch-double-crust-pie",
+      "item": "recipe pastry for a 9 inch double crust pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "quick-cooking-tapioca",
+      "item": "quick-cooking tapioca",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cherries",
+      "item": "cherries",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Fit half of the pastry into a 9-inch pie dish and press it gently into place."
+    },
+    {
+      "step": 3,
+      "text": "Combine the tapioca, salt, sugar, pitted cherries, almond extract, and vanilla extract. Let the mixture stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Spoon the cherry mixture into the pastry shell and dot it with the butter."
+    },
+    {
+      "step": 5,
+      "text": "Cover with the remaining pastry, trim and seal the edges, and cut vents in the top crust."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 50 minutes, until the crust is golden brown and the filling is bubbling.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 7,
+      "text": "Cool the pie completely before slicing."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit-dessert",
+    "cherry",
+    "baked"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12245/baked-fresh-cherry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9fa00b59ee478f187f316a8a891feb47704c861e5d5a3031250479584fa7bf4a",
+    "normalized_text_hash": "66da57060baa2ffc052eb0499a7ca59b4e148efb77f3828a79f071bf121eb14a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:47:39.874Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

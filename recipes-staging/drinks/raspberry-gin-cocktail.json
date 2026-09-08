@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raspberry-gin-cocktail",
+  "name": "Raspberry Gin Cocktail",
+  "subtitle": "A bright gin drink with raspberry jam and lemon",
+  "description": "Stir raspberry jam, gin, and lemon juice with ice for a tart, fruit-forward cocktail.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "raspberry-jam",
+      "item": "raspberry jam",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "gin",
+      "item": "gin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the raspberry jam, gin, lemon juice, and ice to a mixing glass."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the jam is incorporated and the drink is well chilled."
+    },
+    {
+      "step": 3,
+      "text": "Strain or pour into a serving glass and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "gin-cocktail",
+    "raspberry",
+    "lemon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing glass",
+    "bar spoon",
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cosmonaut",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a845f613d7c5668d06348c2e0fa76f2a19204386c51cdb2db3b0e1ff50e217f7",
+    "normalized_text_hash": "9e30be46f7a10e5c97fc3da535fb3c5f93f4bd1866e1139495c903be600c2d1a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:00:13.673Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

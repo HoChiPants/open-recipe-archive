@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-cheese-fondue",
+  "name": "Classic Cheese Fondue",
+  "subtitle": "A warm, communal pot of melted cheese for dipping",
+  "description": "Melt grated cheese with wine and lemon, then finish with a kirsch-thickened mixture for serving with bread and vegetables.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "7fl-oz-dry-white-wine",
+      "item": "/7fl oz dry white wine",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "tbsp-15ml-lemon-juice",
+      "item": "tbsp/15ml lemon juice",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "7oz-comte-or-gruye-re-grated",
+      "item": "/7oz comte or gruyère grated",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "7oz-emmental-grated",
+      "item": "/7oz emmental grated",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cornflour",
+      "item": "cornflour",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "tbsp-15ml-kirsch-or-schnapps",
+      "item": "tbsp/15ml kirsch or schnapps",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "garlic-clove-halved",
+      "item": "garlic clove halved (optional)",
+      "quantity": 1,
+      "optional": true
+    },
+    {
+      "ingredient_id": "crusty-bread",
+      "item": "crusty bread",
+      "preparation": "boiled new potatoes, vegetable crudités and cornichons to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "If using, rub the halved garlic clove around the inside of a fondue pot or heavy saucepan, then discard it."
+    },
+    {
+      "step": 2,
+      "text": "Warm the wine and lemon juice over medium heat until hot but not boiling."
+    },
+    {
+      "step": 3,
+      "text": "Add the grated Comté or Gruyère and Emmental in small handfuls, stirring steadily until the cheese is smooth and melted, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir the cornflour and kirsch or schnapps together until smooth, then mix into the fondue and warm briefly until slightly thickened."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a preheated fondue pot if needed and serve immediately with the crusty bread, boiled new potatoes, vegetable crudités, and cornichons."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "cheese",
+    "fondue",
+    "sharing"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "fondue pot or heavy saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-cheese-fondue",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e142a66ea3f0a88bf90ce090ea49d817f9eac114246b66f5e45c5ab757f13f8d",
+    "normalized_text_hash": "67015b5c98b7e17641168f415fdc261663a5eecfc42c31e404e2d6a5be63d875",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:30:20.236Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

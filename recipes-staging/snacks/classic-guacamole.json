@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-guacamole",
+  "name": "Classic Guacamole",
+  "subtitle": "Fresh avocado dip with chile, lime, and cilantro",
+  "description": "A simple Mexican-style guacamole made by grinding aromatics, then folding them into mashed avocado with tomato and lime.",
+  "meal_type": "snack",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-serrano-chili",
+      "item": "fresh serrano chili",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "finely-diced-white-onion",
+      "item": "finely diced white onion",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt-for-grinding-vegetables",
+      "item": "kosher salt for grinding vegetables",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "plus more to taste"
+    },
+    {
+      "ingredient_id": "hass-avocados",
+      "item": "Hass avocados",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "ripe-tomatoes",
+      "item": "ripe tomatoes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced, drained"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced, or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cilantro and onion in a mortar or sturdy bowl. Add the salt and grind until the aromatics are softened and combined."
+    },
+    {
+      "step": 2,
+      "text": "Halve, pit, and scoop the avocados into the mortar or bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the serrano, remaining cilantro, ground onion mixture, and lime juice. Mash and stir for about 6 minutes, leaving the texture as smooth as desired.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Fold in the drained tomatoes and adjust the salt or lime to taste. Chill briefly before serving."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "mexican",
+    "avocado"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mortar and pestle or sturdy bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255589/chef-johns-classic-guacamole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "815da161584d1d564698821c9bd930edd22a5b430b9d9ea7fd0b3dbafb39cd14",
+    "normalized_text_hash": "8b5a7a298586a079ae0c66b42f9020687006aae1bf03189153e4397cdc856632",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:26:29.596Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

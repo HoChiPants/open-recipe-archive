@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baby-pancakes",
+  "name": "Baby Pancakes",
+  "subtitle": "Small banana pancakes with cinnamon",
+  "description": "Tender banana pancakes made with a simple egg-and-flour batter and lightly cooked in butter and oil.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 17,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bananas-peeled",
+      "item": "bananas peeled",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mash the peeled bananas in a bowl until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, self-raising flour, and cinnamon together, then stir in the mashed bananas until combined."
+    },
+    {
+      "step": 3,
+      "text": "Heat the butter and oil in a skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Cook small spoonfuls of batter until the pancakes are set, about 2 minutes, turning once as needed.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "banana",
+    "pancakes",
+    "kid-friendly"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "fork or masher",
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baby-pancakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ea2891ef9178e388d3afc8cfa971a8f9623c7fd8a6904318ee0d81b680b28f08",
+    "normalized_text_hash": "1e2d42fb11bd5a7519ef55932fdd72a4e3ad68f00224da1d629841430d5bb0e6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:46:55.808Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

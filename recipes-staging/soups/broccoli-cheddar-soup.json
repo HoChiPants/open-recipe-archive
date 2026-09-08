@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-cheddar-soup",
+  "name": "Broccoli Cheddar Soup",
+  "subtitle": "A creamy soup with tender broccoli, cheddar, and bacon",
+  "description": "A straightforward American soup that combines garlic-scented broth, broccoli, cream, melted cheddar, and cooked bacon.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "broccoli",
+      "item": "broccoli",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 2,
+      "preparation": "chopped and cooked"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large pot over medium heat. Add the garlic and cook for 2 minutes, until tender.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the vegetable broth, broccoli, and heavy whipping cream."
+    },
+    {
+      "step": 3,
+      "text": "Bring the soup to a simmer, then continue simmering for 15 minutes, until the broccoli is tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Add the shredded Cheddar and stir until melted. Stir in the cooked bacon, then season with salt and ground black pepper to taste."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "low-carb"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/261029/easy-low-carb-keto-broccoli-cheddar-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "79809be1b6153cd59799db4149cd4c40712d065c845f8ac56c123e0070d710f9",
+    "normalized_text_hash": "2f45850f29278e0e84da28242ca5c7b95641796cba1cdf92d966327f96bf70b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:37:23.850Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

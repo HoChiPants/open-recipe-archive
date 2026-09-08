@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "three-corn-casserole",
+  "name": "Three Corn Casserole",
+  "subtitle": "A creamy, tender corn side baked until set",
+  "description": "Combine three corn-focused ingredients with sour cream, butter, and cornbread mix for an easy baked side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "creamed-corn",
+      "item": "creamed corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "corn-bread-mix",
+      "item": "corn bread mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8.5 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sour cream, softened butter, creamed corn, whole kernel corn, and cornbread mix until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 40 minutes, until the center is set.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13742/corn-casserole-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4ca373c306b5e41f8acea18dfdb145e0625da4feb56bd8b902f486747eb2c900",
+    "normalized_text_hash": "a28268834e2ac2009e42afcee2c0268031ef76fdda0b255c875eb7cbc01e2a29",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:06:55.230Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

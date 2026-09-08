@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-macaroons",
+  "name": "Coconut Macaroons",
+  "subtitle": "Chewy coconut cookies with a dark chocolate finish",
+  "description": "Whipped egg whites bind sweetened coconut into small chewy cookies, finished with melted dark chocolate.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "whites only"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "desiccated-coconut",
+      "item": "desiccated coconut",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-paste",
+      "item": "vanilla paste",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dark-chocolate",
+      "item": "dark chocolate",
+      "quantity": 90,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking tray with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites with the caster sugar for 3 minutes, until thickened.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir in the desiccated coconut and vanilla paste until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Let the mixture stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Shape the mixture into 10 small mounds on the prepared tray."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 12 minutes, until lightly golden.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 7,
+      "text": "Cool the macaroons completely."
+    },
+    {
+      "step": 8,
+      "text": "Melt the dark chocolate in short microwave intervals, stirring between intervals, until smooth; do not let it simmer."
+    },
+    {
+      "step": 9,
+      "text": "Dip or drizzle the cooled macaroons with the melted chocolate, then let them stand for 20 minutes until set.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "baking",
+    "coconut",
+    "cookies",
+    "dessert",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking tray",
+    "parchment paper",
+    "microwave-safe bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coconut-macaroons",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f1a7dfecfbb54e2daa67b94c7c74abb60268da412070d4a21796822e8e0c2ae4",
+    "normalized_text_hash": "c3bae807f6b3a47515f72c39f60f59f7f1b0486afcf60ab5902b293355dd654e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:38:18.820Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

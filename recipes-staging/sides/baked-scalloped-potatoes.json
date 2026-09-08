@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-scalloped-potatoes",
+  "name": "Baked Scalloped Potatoes",
+  "subtitle": "Tender potatoes layered with creamy mushroom sauce and onion",
+  "description": "Thinly sliced potatoes and diced onion bake in a simple mushroom sauce until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "unit": "large",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the condensed mushroom soup, milk, and black pepper until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Layer the sliced potatoes and diced onion in the baking dish, adding the soup mixture between layers and over the top. Add more milk as needed for a pourable consistency."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 375°F for 60 minutes, or until the potatoes are tender.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18346/baked-scalloped-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2b62606f76edfbfe62437625a21a65bed543429b55ff339c1ed2eb2a70e4d013",
+    "normalized_text_hash": "45666d9fc47fa995d6d535d249e91b31b4d89fb9b2e45aab01d1330a8115c13f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:51:08.684Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

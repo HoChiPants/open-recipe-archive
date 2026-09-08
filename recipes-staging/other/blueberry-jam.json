@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-jam",
+  "name": "Blueberry Jam",
+  "subtitle": "A bright, fruit-forward spread with vanilla and lemon",
+  "description": "Cook blueberries with sugar, vanilla, and lemon until thick and spoonable, then cool in jars for serving.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 2,
+    "unit": "x 500ml jars"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blueberries-washed",
+      "item": "blueberries washed",
+      "quantity": 800,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "granulated sugar",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-pod-split-lengthways",
+      "item": "vanilla pod split lengthways",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": 1,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the blueberries, sugar, split vanilla pod, and lemon juice in a large saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Warm over medium heat, stirring until the sugar dissolves and the berries begin to release their juices."
+    },
+    {
+      "step": 3,
+      "text": "Simmer gently, stirring occasionally, until the mixture thickens and reaches a jam-like consistency.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Remove the vanilla pod and spoon the hot jam into clean 500 ml jars."
+    },
+    {
+      "step": 5,
+      "text": "Let the jars cool completely before covering and serving."
+    }
+  ],
+  "tags": [
+    "blueberry",
+    "jam",
+    "fruit-spread",
+    "condiment",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "wooden spoon",
+    "2 x 500 ml jars"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blueberry-jam",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0018eda2709afa46ab48301d72d188fa96ea054d26d654aa15a4afabc3dbf2fa",
+    "normalized_text_hash": "1a6ed56d64b82a66dd1905a7a03926ba00b61521e32016ee0e001384f8aa5296",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:41:34.147Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ricotta-cake",
+  "name": "Ricotta Cake",
+  "subtitle": "A tender cake with a lightly sweet ricotta center",
+  "description": "A simple American dessert combining a cake-mix base with a creamy ricotta filling and a dusting of confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "ricotta-cheese",
+      "item": "ricotta cheese",
+      "quantity": 24,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 0.125,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the yellow cake mix with the eggs to form the cake base, then transfer it to a baking pan and spread it evenly."
+    },
+    {
+      "step": 3,
+      "text": "Mix the ricotta cheese, white sugar, eggs, vanilla extract, and confectioners' sugar for dusting until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Spread the ricotta mixture over the cake base."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 45 minutes, until the center is firm and fully set.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Cool briefly, then dust with the remaining confectioners' sugar before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "ricotta",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7334/ricotta-cheese-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "11d7ef7ca096ce58df6280c5d346ae50a9b19585915ac87f7ab1ee8aca401b3c",
+    "normalized_text_hash": "48f3e3bbacc0244dcbfd6d9cf8bae743eff8ea1de995d499922a70bb244295a2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:05:56.344Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

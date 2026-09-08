@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "earthquake-cookies",
+  "name": "Earthquake Cookies",
+  "subtitle": "Crackled chocolate cookies dusted with confectioners' sugar",
+  "description": "A simple cake-mix cookie with a soft chocolate center and a powdered-sugar coating that breaks into a crinkled finish as it bakes.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "devil-s-food-cake-mix",
+      "item": "devil's food cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cake mix, eggs, shortening, and water to form a thick dough."
+    },
+    {
+      "step": 2,
+      "text": "Cover the dough and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 4,
+      "text": "Shape the chilled dough into small balls and roll each one in the confectioners' sugar."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the coated dough balls to a baking sheet, leaving space between them."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 10 minutes, then let the cookies cool before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10904/earthquake-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4839cd1341aa6ad68eda440b26d7a6c03b3dd74a38dbf57adab1efb2788f657e",
+    "normalized_text_hash": "802c349fa799936b93833fd0e66a2ffe0ba8c688a3bc4978d3854864fb6a8fb7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:16:41.901Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

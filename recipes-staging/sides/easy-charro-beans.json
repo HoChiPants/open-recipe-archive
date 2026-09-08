@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-charro-beans",
+  "name": "Easy Charro Beans",
+  "subtitle": "Smoky pinto beans with bacon, ham, and chorizo",
+  "description": "A hearty skillet of pinto beans simmered with browned pork, onion, chipotle, and garlic.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon-strips",
+      "item": "bacon strips",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "bacon-drippings",
+      "item": "bacon drippings",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cooked, diced"
+    },
+    {
+      "ingredient_id": "chorizo-sausage",
+      "item": "chorizo sausage",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "pinto-beans",
+      "item": "pinto beans",
+      "quantity": 5,
+      "unit": "can",
+      "preparation": "16 ounce, rinsed and drained"
+    },
+    {
+      "ingredient_id": "chipotle-pepper",
+      "item": "chipotle pepper",
+      "quantity": 1,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "pricked with a fork"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large pot over medium heat until crisp. Transfer it to a plate, reserve the drippings, and crumble the bacon when cool enough to handle."
+    },
+    {
+      "step": 2,
+      "text": "Warm the bacon drippings in the pot over medium heat. Add the onion and sauté until softened."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the ham and crumbled chorizo. Cook until the chorizo reaches 160°F on a food thermometer."
+    },
+    {
+      "step": 4,
+      "text": "Add the beans, chipotle pepper, and garlic. Stir to combine, then simmer uncovered until thickened, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Remove the chipotle pepper and garlic. Stir in the crumbled bacon and serve hot."
+    }
+  ],
+  "tags": [
+    "beans",
+    "pinto-beans",
+    "side-dish",
+    "one-pot",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84800/easy-charro-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b41ca6a59446c67730fd4f2874cbdfc3f30c995856a2de57eba95f46289671a3",
+    "normalized_text_hash": "ca9575b95c41e738b8bbfd3dabfc46bc9d0541a37c8d1a607606eeba933c5466",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:24:32.000Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

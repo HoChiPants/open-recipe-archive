@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sheet-pan-shrimp-fajitas",
+  "name": "Sheet Pan Shrimp Fajitas",
+  "subtitle": "Seasoned shrimp and peppers roasted on one pan",
+  "description": "Shrimp, peppers, onion, and jalapeño are seasoned, roasted, and briefly grilled for a quick fajita-style main dish.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fajita-seasoning",
+      "item": "fajita seasoning",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "raw-shrimp",
+      "item": "raw shrimp",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "sliced into strips"
+    },
+    {
+      "ingredient_id": "yellow-bell-pepper",
+      "item": "yellow bell pepper",
+      "quantity": 1,
+      "preparation": "sliced into strips"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "sliced into strips"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "preparation": "sliced into rings"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the fajita seasoning with the olive oil. Add the shrimp and toss until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the shrimp on a sheet pan and add the bell peppers, onion, and jalapeño. Toss to combine."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 10 minutes, until the shrimp are opaque and cooked through.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the shrimp from the pan. Grill the vegetables for 3 minutes, then transfer them with the shrimp and serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "sheet pan",
+    "oven",
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/258572/sheet-pan-shrimp-fajitas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e7a7c9627eda249ed889e55fe6212b5cebbdee545e58ace3acc2880a20c3a31a",
+    "normalized_text_hash": "7f6cf6b32a6467f71c336fb38db77c7ba005d390b72a7efefd45ed39b28a3eec",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:09:02.174Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato-latkes",
+  "name": "Baked Potato Latkes",
+  "subtitle": "Crisp-edged potato patties with onion and garlic",
+  "description": "Mashed baked potatoes combine with onion, garlic, flour, and whisked eggs, then cook in olive oil until browned and set.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "and-mashed-baked-potatoes",
+      "item": "and mashed baked potatoes",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "freshly-ground-multi-colored-peppercorns",
+      "item": "freshly ground multi-colored peppercorns",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "whisked"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or as need for frying"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the potatoes, onion, garlic, salt, peppercorns, flour, and whisked eggs in a bowl. Fold until evenly mixed."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the cooking surface to 375°F and add the olive oil for frying."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into thick patties and fry until golden brown, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Turn the patties and cook for about 3 minutes more, until browned and firm.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Transfer the latkes to a serving plate."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "kosher",
+    "potato",
+    "latkes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "heavy skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236019/baked-potato-latkes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0e4e270f1f64368a7b721f7504770451725157b057707a6a2e9442ac420ffe1e",
+    "normalized_text_hash": "c813b2adfc4d57982875687c00813112bcd6ab24bd6e59f7c04861fe0503dc45",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:50:27.366Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

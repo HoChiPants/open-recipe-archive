@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lepinja-flatbread",
+  "name": "Lepinja Flatbread",
+  "subtitle": "A soft, yeasted Balkan-style flatbread",
+  "description": "Mix, knead, rest, and bake a tender flatbread with a lightly crisp exterior.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "warm-milk-110-to-115-degrees-f",
+      "item": "warm milk (110 to 115 degrees F)",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "warm-water-110-to-115-degrees-f",
+      "item": "warm water (110 to 115 degrees F)",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.3333332538605,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the yeast, warm milk, and warm water. Let stand for 5 minutes, then stir in the sugar.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Mix the flour and salt in a separate bowl. Add the yeast mixture and stir until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the dough to a lightly floured surface and knead for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Place the dough in a prepared bowl, cover, and let rise in a warm place until doubled, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven to 400°F. Prepare a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Knead the risen dough briefly, transfer it to the baking sheet, and shape it into a thick round."
+    },
+    {
+      "step": 7,
+      "text": "Cover and let the shaped dough rest until set, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 8,
+      "text": "Bake until the flatbread is cooked through and lightly browned, about 25 minutes.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "bread",
+    "flatbread",
+    "balkan",
+    "yeasted"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214925/lepinja-balkan-flatbread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3a06b0b50c603231893024b5c838ce18490ff1ea4f00f1138173ea88499c1a89",
+    "normalized_text_hash": "523484cfce42011b61245ac9f82e02daf5f03c59baac165a2e577bf8994ef310",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:00:51.041Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

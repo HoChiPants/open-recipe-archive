@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "matzo-brei",
+  "name": "Matzo Brei",
+  "subtitle": "A simple savory egg-and-matzo breakfast",
+  "description": "Soaked matzo is combined with seasoned egg and cooked in oil until set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "matzo-cracker",
+      "item": "matzo cracker",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Break the matzo cracker into pieces, soak briefly in water, then drain well."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg with the salt and pepper. Combine with the drained matzo and let the mixture stand until set."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet over medium heat and add the vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the matzo mixture to the skillet and cook for 1 minute. Turn or stir and cook for 1 minute more, until the egg is fully set or reaches 160°F.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "jewish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16045/matzo-brei/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a7f7ebeef0e0eb7fe107f58aa2251db065487a30374839ecbf78cf3c39d4ecd1",
+    "normalized_text_hash": "1ace63fe07681c04c7260d8979f6d2609422a0339d4ac1bbfae0a2e09264a80c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:26:27.242Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

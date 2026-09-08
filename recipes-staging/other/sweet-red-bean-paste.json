@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-red-bean-paste",
+  "name": "Sweet Red Bean Paste",
+  "subtitle": "A smooth, lightly sweetened bean paste for desserts and snacks.",
+  "description": "Tender red beans are cooked until soft, drained, and finished with sugar until thick enough to shape or spread.",
+  "meal_type": "other",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 115
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-red-beans",
+      "item": "dried red beans",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse the dried red beans and place them in a pot with enough water to cover generously."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a simmer, cook for 5 minutes, then drain and discard the cooking water.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Return the beans to the pot, cover with fresh water, and simmer until very tender, about 100 minutes.",
+      "timer_minutes": 100
+    },
+    {
+      "step": 4,
+      "text": "Drain thoroughly, return the beans to the pot, and stir in the white sugar."
+    },
+    {
+      "step": 5,
+      "text": "Cook over low heat, stirring frequently, until the mixture thickens and can be shaped or spread.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Transfer to a clean container and cool before using."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "red-beans",
+    "asian-cuisine",
+    "dessert-filling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238507/anko-sweet-red-bean-paste/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bab8ad4a949650d8b20969e547c59b941a0aa648be848c0f4c4fa68d0089a7fa",
+    "normalized_text_hash": "d5c7c3632ef65e00da53457125b7e5ffd6a31f6e7d044bf4a9ebaef9d24347fa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:14:48.991Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-fish-chowder",
+  "name": "Potato Fish Chowder",
+  "subtitle": "A creamy cod chowder with tender potatoes and vegetables.",
+  "description": "Build a light butter-thickened broth with aromatics, potatoes, herbs, and cod, then finish with milk and seasoning.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "clam-juice",
+      "item": "clam juice",
+      "quantity": 2,
+      "unit": "bottle",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "cut into cubes"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cod-fillets",
+      "item": "cod fillets",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a large pot over medium heat and melt the butter. Add the onion, celery, and garlic; cook for 7 minutes, until softened.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Stir in the flour until the vegetables are evenly coated. Gradually add the clam juice and water, whisking until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the potatoes, bay leaf, and thyme. Bring the broth to a simmer and cook for 15 minutes, until the potatoes are tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir in the cod and cook for 8 minutes, until opaque and easily flaked or it reaches 145°F.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Add the milk and cook gently for 2 minutes. Season with salt and ground black pepper, remove the bay leaf, and serve.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "chowder",
+    "fish",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "fish",
+    "shellfish"
+  ],
+  "equipment": [
+    "large pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230617/potato-fish-chowder/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b17b6986bbba822e1708c707b3becbbc91a626e1318f862cef07b158c3f4c767",
+    "normalized_text_hash": "efb0356f64f2dcb2d2093e3b710d0a2df04b958cf3b59b0d439eeffaeafe1d3a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:36.037Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

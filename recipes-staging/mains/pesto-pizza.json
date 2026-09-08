@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pesto-pizza",
+  "name": "Pesto Pizza",
+  "subtitle": "A colorful vegetable pizza with pesto and feta",
+  "description": "Top a pre-baked crust with pesto, vegetables, olives, artichokes, and feta, then bake until the cheese melts.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "12-inch-pre-baked-pizza-crust",
+      "item": "(12 inch) pre-baked pizza crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pesto",
+      "item": "pesto",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ripe-tomato",
+      "item": "ripe tomato",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "black-olives",
+      "item": "black olives",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "2 ounce, chopped, drained"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "artichoke-hearts",
+      "item": "artichoke hearts",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4 ounce, drained and sliced"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the pre-baked pizza crust on a baking sheet and spread the pesto over it."
+    },
+    {
+      "step": 3,
+      "text": "Distribute the tomato, bell pepper, olives, red onion, and artichoke hearts over the pesto. Sprinkle with the feta."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 10 minutes, until the feta is melted.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "pesto",
+    "vegetarian",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21528/pesto-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d17bc3283b6bb80b5a951108fe7f9b758c837aa3f36660d8e2310daba1fa1ac1",
+    "normalized_text_hash": "9532cd07812d8143b6448085818f0c252802974c474d4633c0b2c77764eb36f4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:12:52.421Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

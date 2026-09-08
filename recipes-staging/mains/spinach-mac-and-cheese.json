@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-mac-and-cheese",
+  "name": "Spinach Mac and Cheese",
+  "subtitle": "Creamy baked pasta with spinach and Cheddar",
+  "description": "Tender macaroni is folded into a spinach cheese sauce, topped with Cheddar, and baked until bubbling.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "elbow-macaroni",
+      "item": "elbow macaroni",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "not thawed"
+    },
+    {
+      "ingredient_id": "grated-cheddar-cheese",
+      "item": "grated Cheddar cheese",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Grease a baking dish with 1 teaspoon butter."
+    },
+    {
+      "step": 2,
+      "text": "Bring salted water to a boil, add the macaroni, and cook for 8 minutes. Drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Melt the remaining butter in a saucepan. Whisk in the flour and cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Gradually whisk in the milk, then stir in the frozen spinach. Cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Add the Cheddar gradually and whisk until melted. Season with the salt, pepper, and nutmeg."
+    },
+    {
+      "step": 6,
+      "text": "Stir the drained macaroni into the sauce and transfer the mixture to the prepared dish. Sprinkle the remaining divided cheese over the top."
+    },
+    {
+      "step": 7,
+      "text": "Bake until hot and bubbling and the cheese is melted, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 8,
+      "text": "Let the casserole stand for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "casserole",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262377/spinach-mac-and-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "121d783758d7cea57a101cf87bbde07a3cc9bf0a4e9976d63347f82499de3e5d",
+    "normalized_text_hash": "8ca9def72156510788b0008029e9f75c90ae574eec7eafe34c842d29d6e72a0c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:43:10.110Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

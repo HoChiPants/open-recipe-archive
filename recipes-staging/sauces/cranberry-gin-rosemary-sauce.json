@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-gin-rosemary-sauce",
+  "name": "Cranberry Gin-Rosemary Sauce",
+  "subtitle": "A tart, herb-scented sauce with a bright finish",
+  "description": "Fresh or frozen cranberries simmer with sugar, rosemary, and gin until thick and spoonable.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cranberries-fresh-or-frozen",
+      "item": "cranberries fresh or frozen",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "rosemary-sprig",
+      "item": "rosemary sprig",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "gin",
+      "item": "gin",
+      "quantity": 4,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cranberries, sugar, and rosemary sprig in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Cook over medium heat for 15 minutes, stirring occasionally, until the cranberries break down and the sauce thickens.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Stir in the gin and cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Remove the rosemary sprig and let the sauce cool before serving."
+    }
+  ],
+  "tags": [
+    "cranberry-sauce",
+    "sauce",
+    "condiment",
+    "gin",
+    "rosemary"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cranberry-sauce-with-gin-rosemary",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ffdd4e3ddd36e5bf9a608b541f7109747201f6fb4fcce9e029c33f1df4215723",
+    "normalized_text_hash": "d94263eed6459694c6fe6d340bbd9e4a48da908f60e7b9a8628c6450baf99e48",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:15:19.554Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

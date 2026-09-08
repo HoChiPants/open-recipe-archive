@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "okonomiyaki",
+  "name": "Okonomiyaki",
+  "subtitle": "Savory cabbage pancake with mixed toppings",
+  "description": "A Japanese-style cabbage pancake with bacon, sausage, shrimp, cheese, and a tangy soy-ketchup sauce.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cabbage",
+      "item": "cabbage",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "strips-cooked-bacon",
+      "item": "strips cooked bacon",
+      "quantity": 6,
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sausage",
+      "item": "sausage",
+      "quantity": 1,
+      "preparation": "diced, or more to taste"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "shrimp",
+      "item": "shrimp",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "cheese",
+      "item": "cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "tenkasu-tempura-pearls",
+      "item": "tenkasu (tempura pearls)",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "panko-bread-crumbs",
+      "item": "panko bread crumbs",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour and water until smooth. Stir in the cabbage, crumbled bacon, eggs, diced sausage, green onions, cooked shrimp, shredded cheese, and tempura pearls until evenly coated."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a lightly oiled skillet or griddle to 400°F. Add the mixture, shape it into a thick round pancake, and cook for 6 minutes, until the underside is golden brown.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Turn the pancake and cook until the second side is golden and the center is firm and fully set, reaching 160°F on a food thermometer."
+    },
+    {
+      "step": 4,
+      "text": "Mix the soy sauce, ketchup, and white vinegar. Serve the pancake with the sauce, then finish with panko and mayonnaise."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "japanese",
+    "cabbage",
+    "savory-pancake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "eggs",
+    "milk",
+    "shellfish",
+    "soy"
+  ],
+  "equipment": [
+    "whisk",
+    "mixing bowl",
+    "skillet or griddle",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255416/okonomiyaki-japanese-pancake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "89edb20a7139b8c879649458f0054cef1390ad42f691431b4c6893fe26972c03",
+    "normalized_text_hash": "d05d2874d4925f534dbf3250476b59007fb0c8451bb631459fb366795d95f118",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:23:19.973Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

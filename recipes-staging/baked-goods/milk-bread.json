@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "milk-bread",
+  "name": "Milk Bread",
+  "subtitle": "Soft, lightly sweet yeast rolls for a shared table",
+  "description": "A simple enriched bread made with milk, flour, sugar, salt, and active dry yeast. The dough rises twice before baking into tender portions.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "inactive_minutes": 85
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.125,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk until lukewarm. Stir in the sugar and active dry yeast, then let stand until the yeast is foamy."
+    },
+    {
+      "step": 2,
+      "text": "Mix the flour and salt in a bowl. Add the milk mixture and stir until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough until smooth and elastic. Cover and let it rise in a warm place until doubled."
+    },
+    {
+      "step": 4,
+      "text": "Divide the dough into 15 portions, shape each into a ball, and arrange them in a baking pan. Cover and let rise until puffy."
+    },
+    {
+      "step": 5,
+      "text": "Bake in a preheated oven at 350°F until golden and cooked through.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "milk-bread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17126/milk-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa96d0f48bac9893ed465d4ba904573990b8fa37994fb39b7e1af90bf97bdf01",
+    "normalized_text_hash": "a82490dbe104be8d5de141ae1ddcd87465ce2a4724413bf88dc49c3e0a0304fd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:41:18.693Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

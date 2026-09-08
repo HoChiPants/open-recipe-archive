@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-onion-rings",
+  "name": "Fried Onion Rings",
+  "subtitle": "Crisp battered onion rings",
+  "description": "Sliced onions are dipped in a seasoned beer batter, fried until golden, and drained for a crisp side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 4,
+      "preparation": "peeled and sliced into rings"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil to 365°F in a deep, heavy pot or fryer."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour, beer, salt, and pepper together until the batter is smooth. Let it stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Dip the onion rings into the batter, turning to coat them evenly."
+    },
+    {
+      "step": 4,
+      "text": "Fry the rings in batches until golden brown, turning as needed for even cooking."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the onion rings to a draining rack or paper towels and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "fried",
+    "onions"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "deep heavy pot or fryer",
+    "thermometer",
+    "whisk",
+    "draining rack or paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18284/fried-onion-rings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "92a62c9d199afd6e693100c82fed5bdcb43d6911e6d67f98f430335860edabf5",
+    "normalized_text_hash": "f27cb569dcd77ad31eca617c7b81ae210e92f6daf6630c592f56e04c990bdb45",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:27:20.694Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

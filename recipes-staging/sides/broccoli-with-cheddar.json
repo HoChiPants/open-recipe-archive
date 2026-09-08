@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-with-cheddar",
+  "name": "Broccoli with Cheddar",
+  "subtitle": "A quick, buttery vegetable side",
+  "description": "Tender broccoli is tossed with melted butter, seasoning, and shredded Cheddar for an easy savory side.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-broccoli-florets",
+      "item": "frozen broccoli florets",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted, or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a boil and add the thawed broccoli."
+    },
+    {
+      "step": 2,
+      "text": "Cook until the broccoli is tender, about 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Drain the broccoli thoroughly, then toss it with the melted butter, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the shredded Cheddar until melted and evenly distributed.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "quick",
+    "side-dish",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21155/quick-and-simple-broccoli-and-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ea58c87e6ac77ed8bd867e211f6c6df8a04e1c551b1f99fbbb405959db06248",
+    "normalized_text_hash": "bff828af7ff5bd16bee65d9eef8d65bec6df4a5072febeb7af5d569bab568c5f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:43:31.673Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

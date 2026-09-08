@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mizithra-browned-butter-pasta",
+  "name": "Mizithra Browned Butter Pasta",
+  "subtitle": "Spaghetti tossed with browned butter and aged cheese",
+  "description": "A simple savory pasta side made with tender spaghetti, nutty browned butter, and crumbled Mizithra cheese.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mizithra-cheese",
+      "item": "Mizithra cheese",
+      "quantity": 0.75,
+      "unit": "pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the spaghetti in boiling water until tender, then drain well."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large skillet over medium heat. Continue heating until it turns golden and smells nutty."
+    },
+    {
+      "step": 3,
+      "text": "Add the drained spaghetti and toss to coat with the browned butter."
+    },
+    {
+      "step": 4,
+      "text": "Add the Mizithra cheese and toss until evenly distributed. Serve warm."
+    }
+  ],
+  "tags": [
+    "pasta",
+    "side-dish",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15157/mizithra-browned-butter-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "090cad8dad9a9339c24bd5a93dcef0711e804dfba87a5dcb11bfd7a31deb845e",
+    "normalized_text_hash": "51c8953ab68b1ab42dfa601a7508961d1da097bd38e134c8d741c2f165b6ba37",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:47:03.930Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

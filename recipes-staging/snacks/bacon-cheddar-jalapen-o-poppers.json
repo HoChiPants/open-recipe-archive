@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-cheddar-jalapen-o-poppers",
+  "name": "Bacon Cheddar Jalapeño Poppers",
+  "subtitle": "Grilled peppers filled with cheddar and wrapped in bacon",
+  "description": "Jalapeño halves are filled with cheddar, wrapped in bacon, and grilled until the bacon is crisp and the cheese is melted.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 6,
+      "preparation": "seeded and halved"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 12
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a grill to medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Cut the cheddar into pieces that fit inside the jalapeño halves. Cut the bacon as needed for wrapping."
+    },
+    {
+      "step": 3,
+      "text": "Place cheddar in each pepper half, then wrap each popper with bacon and secure if needed."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the poppers to the grill and cook until the bacon is crisp and the cheese is melted, about 10 minutes, turning as needed for even cooking.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "grilled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22484/bacon-cheddar-jalapeno-poppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "df375c267cd8c62fe4dd66b0d6f239f5a9dc10200c7b3b35495c4baea5f153c1",
+    "normalized_text_hash": "720321eb7a7b3353b649d28cbfe9ab1c3ebba3a62307f7e133df2bc7d87fe55b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:00.566Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

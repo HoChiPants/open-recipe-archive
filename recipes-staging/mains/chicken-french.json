@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-french",
+  "name": "Chicken French",
+  "subtitle": "Golden chicken cutlets with lemon-sherry pan sauce",
+  "description": "Tender chicken cutlets are coated, browned, and finished with a bright lemon pan sauce enriched with butter and parsley.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "boneless chicken breast cutlets, pounded flat"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-sherry",
+      "item": "dry sherry",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 2,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "fresh-flat-leaf-parsley",
+      "item": "fresh flat-leaf parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs and milk in a shallow bowl. In a second shallow bowl, whisk the flour with the salt, black pepper, cayenne, and additional salt and pepper to taste."
+    },
+    {
+      "step": 2,
+      "text": "Dredge each chicken cutlet in the seasoned flour, then dip it in the egg mixture, letting excess drip away."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil and butter in a large skillet over medium-high heat until hot.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Cook the chicken until lightly browned, about 3 minutes per side, working in batches if needed. Transfer the chicken to a plate and verify the thickest piece reaches 165°F.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Add the vegetable broth, dry sherry, and lemon juice to the skillet. Bring to a simmer, scraping up browned bits."
+    },
+    {
+      "step": 6,
+      "text": "Return the chicken to the skillet and simmer briefly until hot and fully cooked."
+    },
+    {
+      "step": 7,
+      "text": "Stir in the cold butter until melted, then season with salt and pepper and stir in the parsley.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "skillet",
+    "lemon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "shallow bowls",
+    "whisk",
+    "instant-read thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237499/chef-johns-chicken-french/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5a8af25458807a136e6c124027f3ea8e5f09bdcb5e91d1c7e1560a746a202225",
+    "normalized_text_hash": "2540d4bdb44223c137bca946d5786e86e1af94766af2a8f25ed9beb354856426",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:24:19.767Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

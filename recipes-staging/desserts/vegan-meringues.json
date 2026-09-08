@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vegan-meringues",
+  "name": "Vegan Meringues",
+  "subtitle": "Light, crisp treats made with whipped chickpea liquid",
+  "description": "These simple egg-free meringues bake slowly until firm, then cool to a delicate crisp texture.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 25,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 90,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chickpeas-garbanzo-beans",
+      "item": "chickpeas (garbanzo beans)",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, undrained"
+    },
+    {
+      "ingredient_id": "cream-of-tartar",
+      "item": "cream of tartar",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 210°F and prepare baking sheets for the meringues."
+    },
+    {
+      "step": 2,
+      "text": "Drain the chickpeas, reserving the liquid. Use the liquid for the meringue mixture."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the reserved chickpea liquid with the cream of tartar until foamy, then continue whisking to soft peaks."
+    },
+    {
+      "step": 4,
+      "text": "Add the white sugar and vanilla extract, and whisk until the mixture is smooth and holds its shape."
+    },
+    {
+      "step": 5,
+      "text": "Shape the mixture into about 25 meringues on the prepared baking sheets, taking up to 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Bake at 210°F until the meringues are firm.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 7,
+      "text": "Cool the meringues on the baking sheets for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "vegan",
+    "egg-free"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking sheets",
+    "electric mixer or whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254202/vegan-meringues/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6f748502d75864997140481cbba197e2cbbf47e6703caf98c92ff98bd12fa3bc",
+    "normalized_text_hash": "cad1fad015cf570b28acbd4465707f9a6e59772f9f8967aeb80d5d3a44b4d426",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:43:43.880Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

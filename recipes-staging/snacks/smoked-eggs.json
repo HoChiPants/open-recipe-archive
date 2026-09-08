@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "smoked-eggs",
+  "name": "Smoked Eggs",
+  "subtitle": "Slow-smoked eggs with simple seasoning",
+  "description": "Eggs smoked in their shells until fully set, then seasoned with salt and pepper.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-raw-eggs-in-the-shell",
+      "item": "fresh raw eggs in the shell",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the smoker to 225°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the eggs in their shells in the smoker."
+    },
+    {
+      "step": 3,
+      "text": "Smoke for 120 minutes, until the eggs are fully set and reach 160°F internally.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Transfer the eggs from the smoker and season with salt and ground black pepper to taste."
+    }
+  ],
+  "tags": [
+    "smoked",
+    "eggs",
+    "appetizer",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "smoker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273872/smoked-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a9a558aa313969a1576021475343d128feca9accd54e6a1e30dbe0ac4c378605",
+    "normalized_text_hash": "c21a28be40ac86ea827c46b8ed928c66556dabf0de5cf2f8d46bd82edc924988",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:57:44.767Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

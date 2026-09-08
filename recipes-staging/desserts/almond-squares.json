@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-squares",
+  "name": "Almond Squares",
+  "subtitle": "Buttery almond bars with a lightly browned top",
+  "description": "A simple pan-baked almond dessert cut into twelve squares.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "almond-paste",
+      "item": "almond paste",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 2.5,
+      "unit": "ounces",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the butter, white sugar, egg, almond paste, and almond extract until combined. Stir in the flour just until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the dough to the prepared pan and spread it evenly. Scatter the sliced almonds over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until lightly browned and the center is firm and fully set, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Cool, then cut into 12 squares."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bars",
+    "almond",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10396/almond-squares-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "741c0a91f48913bf6c567d83a43d4e33b9e5ccb1ddcda5bcec929a74627c8b7d",
+    "normalized_text_hash": "8bd09d2d0e4f8b92b587193e4869035b9c84b30dd04c20d25c0e7246bf79dd04",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:48:35.795Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

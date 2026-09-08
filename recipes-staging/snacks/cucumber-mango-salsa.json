@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-mango-salsa",
+  "name": "Cucumber-Mango Salsa",
+  "subtitle": "A bright, chilled fruit-and-vegetable salsa",
+  "description": "Diced mango, cucumber, onion, jalapeño, cilantro, garlic, and lime juice make a fresh salsa suited to snacking or serving with chips.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mangos",
+      "item": "mangos",
+      "quantity": 3,
+      "preparation": "peeled, seeded and diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "preparation": "peeled, seeded, and diced"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 2,
+      "preparation": "seeded and finely chopped"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mangos, onion, cucumber, jalapeno peppers, cilantro, and garlic in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the lime juice, then season with salt and pepper to taste and stir gently."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "salsa",
+    "no-cook",
+    "fresh"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "chef's knife",
+    "cutting board",
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165225/cucumber-mango-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "31b8a99a7f031c13e69e1eacafb91478b1931667bedea7e994f69466eac0d290",
+    "normalized_text_hash": "43f3398fefc8cbd5eb8e1c249a9bbc9d7f41ed723e7f233a6d6833321525273c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:54:55.621Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-gin",
+  "name": "Cherry Gin",
+  "subtitle": "A simple fruit-infused gin",
+  "description": "Combine cherries, sugar, and gin in a sterilized jar to make a ruby-colored infusion.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "x 700ml bottle"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherries-any-kind-but-morello-or-sour-cherries-work-well",
+      "item": "cherries (any kind but morello or sour cherries work well)",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bottle-gin",
+      "item": "bottle gin",
+      "quantity": 700,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "l-wide-necked",
+      "item": "l wide-necked",
+      "quantity": 1,
+      "preparation": "flip-top or sealable jar sterilised"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Put the cherries into the sterilised wide-necked jar."
+    },
+    {
+      "step": 2,
+      "text": "Add the caster sugar, pour in the bottle gin, and seal the jar."
+    },
+    {
+      "step": 3,
+      "text": "Shake the sealed jar until the sugar is distributed and the cherries are coated with gin."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a suitable storage container or bottle when ready to use."
+    }
+  ],
+  "tags": [
+    "drink",
+    "alcoholic",
+    "cherry",
+    "gin"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "wide-necked sterilised jar",
+    "sealable bottle"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cherry-gin",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6b640a3920f6fe230182aea02d087e3adca0d0d684774da43ea34be3de985dd3",
+    "normalized_text_hash": "286f609a9c4371153220a7b0b3ae2a9b20a48f9acd372616d00a0c5b37cf26cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:19:27.430Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

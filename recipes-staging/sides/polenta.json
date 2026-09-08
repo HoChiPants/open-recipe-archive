@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "polenta",
+  "name": "Polenta",
+  "subtitle": "Simple stovetop cornmeal side",
+  "description": "A smooth, thickened polenta made with water and coarse cornmeal.",
+  "meal_type": "side",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "polenta",
+      "item": "polenta",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the water to a simmer in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Gradually add the polenta, stirring continuously to prevent lumps."
+    },
+    {
+      "step": 3,
+      "text": "Continue simmering and stirring until the polenta thickens, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Prepare for serving and transfer the polenta to a serving dish."
+    }
+  ],
+  "tags": [
+    "polenta",
+    "cornmeal",
+    "stovetop",
+    "italian-inspired",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon",
+    "serving dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14067/polenta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "beaa778342ce6e4d12dc2215449016e540418055bb8a0b2e22fbd7e2757b8025",
+    "normalized_text_hash": "2e8cd0fb76c0b8214ec8d5b5c4addb2a6aaa914da73fc22e0238cc2b968b49a2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:25:58.827Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

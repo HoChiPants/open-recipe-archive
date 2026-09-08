@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-cheese-frittata",
+  "name": "Ham and Cheese Frittata",
+  "subtitle": "A skillet frittata with tender potatoes, ham, and cheddar",
+  "description": "Cook the vegetables until tender, add the egg mixture and ham, then finish under the grill with cheddar until fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "fully-cooked-ham",
+      "item": "fully cooked ham",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven grill or broiler. Whisk the eggs and milk together, then set aside."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in an oven-safe skillet over medium heat. Add the potatoes, onion, and garlic; stir and cook until the potatoes are tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Add the water as needed during cooking, and season with salt and ground black pepper to taste."
+    },
+    {
+      "step": 4,
+      "text": "Pour in the egg mixture and add the ham. Cook until the eggs begin to set around the edges, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Top with the shredded Cheddar and place the skillet under the grill or broiler until the center is firm and reaches 160°F, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "italian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "grill or broiler",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233293/ham-and-egg-frittata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2031780881fcdd33cb73a09d7f9435138f7378c7395337f642632742934d5914",
+    "normalized_text_hash": "5c07fd697093a199e7c1de693e4b4b9892cab585fd6f2b69ff857df22618b05d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:19:06.149Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

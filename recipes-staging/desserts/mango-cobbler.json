@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-cobbler",
+  "name": "Mango Cobbler",
+  "subtitle": "Tender fruit beneath a golden vanilla crust",
+  "description": "Sliced mangoes are gently cooked in a light syrup, then covered with a simple milk-based batter and baked until golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mangoes",
+      "item": "mangoes",
+      "quantity": 8,
+      "preparation": "peeled, seeded, and sliced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the mangoes, water, and 0.5 cup sugar in a saucepan. Bring to a gentle simmer and cook for 6 minutes, then drain the mangoes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Whisk the 2 cups sugar and softened butter until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the flour, baking powder, and salt in a separate bowl. Stir the dry mixture into the butter mixture with the milk, then mix in the vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a baking dish and distribute the drained mangoes over it."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, until the topping is golden and set.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-dessert",
+    "baked-dessert",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "saucepan",
+    "mixing bowls",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238485/mommys-mango-cobbler/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b1cc280f541948d5f4ac7d7c0ad1c12b0afa42d13a920c0ef8f03fb56616367",
+    "normalized_text_hash": "78a8b758dd2eab8664aa1425066d051fea256f1d09f3ad58feb2b7ac004f25b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:56:11.568Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

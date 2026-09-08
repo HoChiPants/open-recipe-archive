@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vegan-mashed-potatoes",
+  "name": "Vegan Mashed Potatoes",
+  "subtitle": "Creamy, herb-infused potatoes without dairy",
+  "description": "Russet potatoes are simmered with garlic and fresh herbs, then mashed with olive oil and seasoned simply.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 8,
+      "unit": "cloves",
+      "preparation": "peeled and smashed"
+    },
+    {
+      "ingredient_id": "sprig-fresh-rosemary",
+      "item": "sprig fresh rosemary",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sprig-fresh-thyme",
+      "item": "sprig fresh thyme",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes, garlic, rosemary, thyme, and seasoning in a pot. Add enough water to cover."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a simmer and cook until the potatoes are tender when pierced, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Drain well and return the potatoes and garlic to the pot. Remove the rosemary and thyme."
+    },
+    {
+      "step": 4,
+      "text": "Add the olive oil and mash until smooth or slightly textured. Adjust the seasoning to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "mashed-potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254779/vegan-mashed-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f1fb89bec0305f6d1b30dd18cad9972d6233b6b5bc2f1d4d75083f9603a4e591",
+    "normalized_text_hash": "0588bbfa63c93fc50c4be0034fef52c6bf45ccd880b1c4945f2918ca68022c19",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:43:38.704Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

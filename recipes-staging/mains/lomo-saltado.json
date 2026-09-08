@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lomo-saltado",
+  "name": "Lomo Saltado",
+  "subtitle": "Savory steak stir-fry with peppers, tomatoes, and fries",
+  "description": "Marinated sirloin is seared with crisp vegetables, tomatoes, and fries for a hearty, tangy skillet meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "top-sirloin-steak",
+      "item": "top sirloin steak",
+      "quantity": 1.25,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "frozen-crinkle-cut-french-fries",
+      "item": "frozen crinkle-cut French fries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "orange-bell-pepper",
+      "item": "orange bell pepper",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "habanero-pepper",
+      "item": "habanero pepper",
+      "quantity": 1,
+      "preparation": "seeded and minced"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "kosher-salt-to-taste",
+      "item": "kosher salt to taste"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-ginger-root",
+      "item": "fresh ginger root",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "roma-plum-tomato",
+      "item": "roma (plum) tomato",
+      "quantity": 4,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the steak into strips. Combine 2 tablespoons soy sauce with the sugar, add the steak, and marinate for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven to 200°F. Cook the frozen fries in 2 tablespoons olive oil until browned and crisp, about 7 minutes. Transfer them to a warm oven-safe dish and keep warm.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Heat 1 tablespoon olive oil in a large skillet. Add the marinated steak and cook until browned and it reaches 145°F internally. Transfer the steak to a plate and rest for 3 minutes."
+    },
+    {
+      "step": 4,
+      "text": "Heat the remaining 3 tablespoons olive oil in the skillet. Add the red onion, orange bell pepper, habanero pepper, green onion, and salt. Cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Add the garlic and ginger; stir for 1 minute. Add the tomatoes and cook for 3 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 6,
+      "text": "Return the steak to the skillet. Stir in the remaining soy sauce, white vinegar, fries, and cilantro. Season with salt and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "steak",
+    "stir-fry",
+    "skillet-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "large skillet",
+    "oven",
+    "oven-safe dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/281719/lomo-saltado-peruvian-steak-stir-fry/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f4ad5ad18f04529a4e024af87d3e58387feaa127538dea3d0e560fb3ec209c49",
+    "normalized_text_hash": "c48b5d62856e740efe85ac0bfbc7e77c7556435cf3ef96f605a9b98fe34f6a87",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:06:03.418Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

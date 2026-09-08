@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-tomato-pizza-sauce",
+  "name": "Fresh Tomato Pizza Sauce",
+  "subtitle": "A bright, herb-seasoned sauce for homemade pizza",
+  "description": "Blanch ripe tomatoes, blend them with aromatics and herbs, then cook the mixture until smooth and concentrated.",
+  "meal_type": "sauce",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 8,
+      "unit": "large",
+      "preparation": "cored"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "leaves-chopped-fresh-basil",
+      "item": "leaves chopped fresh basil",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper-to-taste",
+      "item": "freshly ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a boil and add the cored tomatoes. Cook for 2 minutes, then cool them until safe to handle.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Prepare the cooled tomatoes for blending, then puree until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the puree to a saucepan and stir in the onion, garlic, oregano, basil, salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven or cooking appliance according to the pizza-making setup while the sauce cooks.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 5,
+      "text": "Cook the seasoned tomato mixture over low heat until thickened and smooth, about 70 minutes.",
+      "timer_minutes": 70
+    },
+    {
+      "step": 6,
+      "text": "Use the sauce for pizza."
+    }
+  ],
+  "tags": [
+    "pizza-sauce",
+    "tomato-sauce",
+    "italian",
+    "herbs",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "saucepan",
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275538/pizza-sauce-with-fresh-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f88a0e7dfa718124c23a843dd283f2dbaacab94f0791cc0d296918e2874cc947",
+    "normalized_text_hash": "fe5716a756f0b158767e0742f49c2bbe85eba13d9d42ffa78bd4711dfb344053",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:24:34.007Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

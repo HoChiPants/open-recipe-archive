@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "poppy-seed-dressing",
+  "name": "Poppy Seed Dressing",
+  "subtitle": "A tangy honey-mustard dressing with poppy seeds",
+  "description": "Blend a simple oil-and-vinegar dressing with honey, onion, mustard, and salt, then stir in poppy seeds for a crisp finish.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "poppy-seeds",
+      "item": "poppy seeds",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the olive oil, vinegar, honey, minced onion, Dijon mustard, and salt to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth and well combined."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the poppy seeds and serve."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "dressing",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232942/delicious-poppy-seed-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a60698b432d5622ecf4bbce1347da340042dc03376384599952a58ed9987f72e",
+    "normalized_text_hash": "7c913b4bf84f086e18a47117e5b2e84d2a156568e2736ed00bd598ab9cd983e5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:04:14.022Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

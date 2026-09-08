@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bourbon-marinated-pork-tenderloin",
+  "name": "Bourbon-Marinated Pork Tenderloin",
+  "subtitle": "Tender pork with a savory-sweet bourbon marinade",
+  "description": "Pork tenderloin is marinated with soy sauce, bourbon, brown sugar, and garlic, then baked until tender.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bourbon",
+      "item": "bourbon",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "pork-tenderloin",
+      "item": "pork tenderloin",
+      "quantity": 3,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the soy sauce, bourbon, brown sugar, and halved garlic cloves in a baking dish or other nonreactive container."
+    },
+    {
+      "step": 2,
+      "text": "Add the pork tenderloin and turn to coat. Cover and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 325°F."
+    },
+    {
+      "step": 4,
+      "text": "Bake the marinated pork for about 45 minutes, or until a thermometer inserted in the thickest part registers 145°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Transfer the pork to a cutting board and let it rest for 3 minutes before slicing.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pork",
+    "baked",
+    "bourbon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "refrigerator",
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21815/pork-tenderloin-in-bourbon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "881e9ecd959bb900e7765765565434fe254bef9a81ffdd85e56dce81e98a5c74",
+    "normalized_text_hash": "58e50df6c126e9b1320c17ac2efd1d15930b1c6690ebc80cbaa2a633fb3cdf75",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:22:20.299Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

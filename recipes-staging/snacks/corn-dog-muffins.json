@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-dog-muffins",
+  "name": "Corn Dog Muffins",
+  "subtitle": "Cheesy cornbread cups with hot dog centers",
+  "description": "Bake sweet, cheesy cornbread batter around hot dog pieces for a quick handheld snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cornbread-mix",
+      "item": "cornbread mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8.5 ounce"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "grated-cheddar-cheese",
+      "item": "grated Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "hot-dogs",
+      "item": "hot dogs",
+      "quantity": 9,
+      "preparation": "cut in half"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F and prepare an 18-cup muffin pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Mix the cornbread mix with the brown sugar. In a separate bowl, whisk the eggs and milk until smooth, then fold them into the dry mixture with the grated Cheddar cheese."
+    },
+    {
+      "step": 3,
+      "text": "Divide the batter among the muffin cups and place one hot dog half in each cup."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 18 minutes, until golden brown and the centers are fully set; an egg-containing center should reach 160°F if checked with a thermometer.",
+      "timer_minutes": 18
+    }
+  ],
+  "tags": [
+    "snack",
+    "muffins",
+    "cornbread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "18-cup muffin pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/83412/corn-dog-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab920657c6ca3cf8f9b6580f5da1bad5a2893cd50157bedea8a8682f36b74047",
+    "normalized_text_hash": "4a076b56551c81a85d97fc3eaeb03fcb844f7862fad123f57803836f36c0d12b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:09:17.659Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

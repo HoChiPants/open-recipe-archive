@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-apple-syrup",
+  "name": "Cinnamon Apple Syrup",
+  "subtitle": "A warm, fruit-forward topping with gentle spice",
+  "description": "Tender tart apples simmer with cinnamon and sugar to make a thick syrup for desserts or breakfast dishes.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tart-apples",
+      "item": "tart apples",
+      "quantity": 2,
+      "preparation": "peeled, cored, and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the apples, sugar, cinnamon, and water. Stir until the ingredients are evenly combined and the sugar is moistened."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a gentle simmer and cook until the apples are tender and the syrup has thickened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Whisk the syrup briefly until smooth, then serve warm or let it cool slightly."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "syrup",
+    "topping",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/92546/cinnamon-apple-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a4848b3010aea8db7d7c6311da04e6ec35671ff37585d7aaf28aa7c711a3576c",
+    "normalized_text_hash": "4665e1c83827399ba7d304a89c59f728b5663495db30a2d826d602f8650d35a9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:45:48.839Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

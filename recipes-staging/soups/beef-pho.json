@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-pho",
+  "name": "Beef Pho",
+  "subtitle": "Aromatic beef broth with rice noodles and fresh herbs",
+  "description": "Build a fragrant spiced broth, add sliced steak and rice noodles, then finish with herbs, chile, spring onion, and lime.",
+  "meal_type": "soup",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "l-low-salt-beef-stock",
+      "item": "l low salt beef stock",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "onion-peeled-and-cut-into-quarters",
+      "item": "onion peeled and cut into quarters",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "thumb-sized-piece-ginger-peeled",
+      "item": "thumb-sized piece ginger peeled",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "star-anise",
+      "item": "star anise",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "coriander-seeds",
+      "item": "coriander seeds",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "sirloin-steak",
+      "item": "sirloin steak",
+      "quantity": 230,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "palm-sugar",
+      "item": "palm sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "fish-sauce",
+      "item": "fish sauce",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": "1 1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "flat-rice-noodles",
+      "item": "flat rice noodles",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "spring-onions-shredded",
+      "item": "spring onions shredded",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "red-bird-s-eye-chilli-finely-sliced",
+      "item": "red (bird's-eye) chilli finely sliced",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "handful-each-of-thai-basil-and-coriander",
+      "item": "handful each of Thai basil and coriander"
+    },
+    {
+      "ingredient_id": "lime-cut-into-wedges",
+      "item": "lime cut into wedges",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Char the quartered onion and peeled ginger in a dry pot over medium-high heat for 5 minutes, turning until lightly browned.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the beef stock, cinnamon, star anise, coriander seeds, and cloves. Bring to a boil, then simmer for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "While the broth simmers, slice the sirloin thinly and prepare the spring onions, chile, herbs, and lime wedges.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Strain the broth if desired, return it to the pot, and season with palm sugar, fish sauce, and soy sauce."
+    },
+    {
+      "step": 5,
+      "text": "Cook the rice noodles according to their package directions, then divide them between two bowls."
+    },
+    {
+      "step": 6,
+      "text": "Arrange the sliced steak over the noodles and pour over the hot broth. Confirm the beef reaches 145°F, then rest it for 3 minutes before eating."
+    },
+    {
+      "step": 7,
+      "text": "Top with spring onions, chile, Thai basil, and coriander. Serve with lime wedges."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "asian",
+    "vietnamese",
+    "soup",
+    "beef",
+    "pho",
+    "rice-noodles"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "fish",
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "knife",
+    "cutting board",
+    "strainer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beef-pho",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c1eeab82e737ee9871fefb7d630caac319bfad26c3fb66d7f2d3c62a5021ea7",
+    "normalized_text_hash": "0e9d8bdcbf9416a2ddcf95ab3d979235b6f5e3317bd05ad81ac19841b8d48c09",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:19:57.515Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

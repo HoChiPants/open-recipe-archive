@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peppermint-cocoa",
+  "name": "Peppermint Cocoa",
+  "subtitle": "Warm chocolate cocoa with peppermint flavor",
+  "description": "A simple hot cocoa made with semisweet chocolate, crushed peppermint candy, and whipped cream.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "1-ounce-squares-semisweet-chocolate",
+      "item": "(1 ounce) squares semisweet chocolate",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "peppermint-candy-canes",
+      "item": "peppermint candy canes",
+      "quantity": 4,
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "peppermint-candy-canes",
+      "item": "peppermint candy canes",
+      "quantity": 4,
+      "unit": "small"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the milk in a saucepan until boiling.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the chopped chocolate and crushed peppermint candy until melted and smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the whipped cream until combined."
+    },
+    {
+      "step": 4,
+      "text": "Serve hot with the small candy canes."
+    }
+  ],
+  "tags": [
+    "drink",
+    "dessert",
+    "beverage",
+    "american",
+    "peppermint",
+    "chocolate"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9258/candy-cane-cocoa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "be43648204ad9f46671f42110d72a52d51756cbc5c40bb4bf685330403db7858",
+    "normalized_text_hash": "1c6a920cb2bd0d0ebbed9cfa577b8532618f7052bcd05ab0d8f3385b7251b97c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:48:02.302Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 31,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

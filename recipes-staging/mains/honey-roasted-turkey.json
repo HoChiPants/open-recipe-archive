@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-roasted-turkey",
+  "name": "Honey-Roasted Turkey",
+  "subtitle": "A golden roast turkey with honey-butter glaze",
+  "description": "A whole turkey is filled with aromatic fruit and vegetables, glazed with honey and butter, and roasted with stock until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 155,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "10-pound-whole-turkey",
+      "item": "(10 pound) whole turkey",
+      "quantity": 1,
+      "preparation": "thawed, neck and giblets removed"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "cut in half"
+    },
+    {
+      "ingredient_id": "salt-and-black-pepper-to-taste",
+      "item": "salt and black pepper to taste"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "potato",
+      "item": "potato",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 6,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pat the thawed turkey dry and season it inside and out with salt and black pepper. Place the lemon halves, apple, onion, and potato inside the cavity."
+    },
+    {
+      "step": 2,
+      "text": "Melt the honey and butter together, then brush the mixture over the turkey. Let it stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 4,
+      "text": "Roast the turkey at 400°F for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Reduce the oven to 350°F. Roast for 30 minutes, add the chicken stock to the roasting pan, and continue roasting for up to 120 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Check the thickest part of the thigh with a food thermometer; the turkey is ready when it reaches 165°F. Let it stand for 15 minutes, then rest for 15 minutes before carving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast",
+    "turkey"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "roasting pan",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216426/english-honey-roasted-turkey/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "04a0974e5c6c55d6799d009ad1e25ab410fd57a925d2914e751d60b9cc9af95a",
+    "normalized_text_hash": "784d519339a7678db649bb7151499a91a3d150f7fcc768ffac597449a1cedc6b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:01:50.907Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

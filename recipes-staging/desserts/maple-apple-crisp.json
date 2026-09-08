@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "maple-apple-crisp",
+  "name": "Maple Apple Crisp",
+  "subtitle": "Tender apples beneath a crisp oat topping",
+  "description": "Sliced apples are sweetened with maple syrup and covered with a buttery oat topping, then baked until golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 5,
+      "preparation": "peeled, cored, and sliced"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the apples in a baking dish and toss them with the maple syrup."
+    },
+    {
+      "step": 3,
+      "text": "Combine the flour, rolled oats, brown sugar, and salt in a bowl."
+    },
+    {
+      "step": 4,
+      "text": "Work the softened butter into the dry mixture until coarse crumbs form."
+    },
+    {
+      "step": 5,
+      "text": "Scatter the topping evenly over the apples."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 35 minutes, until the topping is golden brown.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "apple",
+    "maple",
+    "baked",
+    "fruit-crisp"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16853/maple-apple-crisp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d5558f3e0eb13a3ea3633281243d02ea4034f7d0c92abb063f5eac773ccf9ed3",
+    "normalized_text_hash": "3aa35820f02fb01a191912eb5c0be3f674d990b782638d46f50aeade3b39c639",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:16:59.929Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

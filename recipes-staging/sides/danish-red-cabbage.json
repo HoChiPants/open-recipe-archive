@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "danish-red-cabbage",
+  "name": "Danish Red Cabbage",
+  "subtitle": "Sweet-and-tangy braised cabbage for a generous table",
+  "description": "Shredded red cabbage gently cooks with vinegar, sugar, water, and salt until tender and richly flavored.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-red-cabbage",
+      "item": "head red cabbage",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "cored and shredded"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the shredded cabbage in a large heavy pot."
+    },
+    {
+      "step": 2,
+      "text": "Add the water, sugar, vinegar, and salt, then stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a gentle simmer over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Reduce the heat, cover, and cook until the cabbage is tender, stirring occasionally.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "danish"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/79136/danish-christmas-red-cabbage/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2fefba586f71708b9ce7bcff25657639fb49cfd43f1fe826b137291ca1d58384",
+    "normalized_text_hash": "aed95841a3d48a98437c8fb450f2d40adf8c122fc3e23f5fe6008651e6f81a7d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:00:11.685Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

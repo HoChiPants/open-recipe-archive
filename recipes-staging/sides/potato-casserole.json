@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-casserole",
+  "name": "Potato Casserole",
+  "subtitle": "Creamy potatoes with sautéed onion and Cheddar",
+  "description": "Tender diced potatoes are folded with creamy soup, sour cream, golden onion, and Cheddar, then baked until hot and set.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 8,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a pot, cover with water, and season with salt. Simmer until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes. Melt the butter in the pot or a skillet, add the onion, and cook until golden brown."
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 350°F and prepare a casserole dish."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the condensed soup and sour cream until smooth, then fold in the potatoes."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the onion, half of the Cheddar, and additional salt to taste. Transfer the mixture to the dish."
+    },
+    {
+      "step": 6,
+      "text": "Bake until hot and set, about 30 minutes; for food safety, heat the center to 165°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Scatter the remaining Cheddar over the top, let it melt, and serve hot."
+    }
+  ],
+  "tags": [
+    "potato",
+    "casserole",
+    "side-dish",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "skillet",
+    "casserole dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18319/quick-and-easy-potato-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "72e2f055008847c791aa78101a5f6f5a35f64e47cc0aad420973919cd782753a",
+    "normalized_text_hash": "78ff87cbf2a87063a602ad65876b620f85e92b08157e06f30d8c0fecc8202925",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:42:04.676Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

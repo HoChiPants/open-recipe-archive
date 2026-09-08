@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-ham-fries",
+  "name": "Cheesy Ham Fries",
+  "subtitle": "Crisp fries with melted raclette and bright cornichons",
+  "description": "A simple savory side combining hot fries, melted raclette, smoky ham, and tangy pickles.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "as a side"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 22
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-french-fries",
+      "item": "frozen French fries",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "raclette-cheese-slices",
+      "item": "raclette cheese slices",
+      "quantity": 120,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "smoked-ham-slices",
+      "item": "smoked ham slices",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "torn"
+    },
+    {
+      "ingredient_id": "pickled-cornichons-sliced",
+      "item": "pickled cornichons sliced",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the frozen French fries according to the package method until crisp, allowing about 22 minutes total.",
+      "timer_minutes": 22
+    },
+    {
+      "step": 2,
+      "text": "Arrange the raclette cheese slices over the fries for the final 3 minutes, until melted.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Top with the torn smoked ham and sliced pickled cornichons, then serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "fries",
+    "cheesy",
+    "ham",
+    "pickles",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking sheet or air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/alpine-fries",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1faf4da60ce2d7d3e4969d9fee6db1d6701319467b8625e946cbd2857f183221",
+    "normalized_text_hash": "c6c82db2722b3dab24babcab9169de547afe15366638e43491a64bc9d93457ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:35:30.797Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

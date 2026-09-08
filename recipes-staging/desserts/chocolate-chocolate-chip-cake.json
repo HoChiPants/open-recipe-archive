@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-chocolate-chip-cake",
+  "name": "Chocolate Chocolate Chip Cake",
+  "subtitle": "A rich chocolate cake studded with mini semi-sweet chips.",
+  "description": "A simple chocolate cake made with pudding mix, sour cream, vanilla, and chocolate chips for a moist crumb.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-cake-mix",
+      "item": "chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-chocolate-pudding-mix",
+      "item": "instant chocolate pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.9 ounce"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "hot-water",
+      "item": "hot water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mini-semi-sweet-chocolate-chips",
+      "item": "mini semi-sweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare a cake pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cake mix, pudding mix, vegetable oil, eggs, hot water, sour cream, and vanilla until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chocolate chips until evenly distributed."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the center is firm and fully set.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool the cake before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "cake",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "cake pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8030/lisas-chocolate-chocolate-chip-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3b122e2d4ca31e5849c9ad883467aae45c08d6c88268276c852e311186ba0cf2",
+    "normalized_text_hash": "a948b060f5d3a67bb86bb598b714dec3de1304f44ae66467e473ec186541cbbe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:03:05.865Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

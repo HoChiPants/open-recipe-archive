@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "alabama-chicken-stew",
+  "name": "Alabama Chicken Stew",
+  "subtitle": "A hearty chicken and vegetable stew with tomatoes and corn.",
+  "description": "Whole chicken is simmered until tender, then returned to a tomato-based broth with vegetables for a thick, filling stew.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 170,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4-pound-whole-chicken",
+      "item": "(4 pound) whole chicken",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "gallons"
+    },
+    {
+      "ingredient_id": "whole-tomatoes-and-their-juices",
+      "item": "whole tomatoes and their juices",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "28 ounce"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 10,
+      "unit": "medium",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 4,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "frozen-corn",
+      "item": "frozen corn",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the whole chicken, bay leaves, salt, pepper, and water in a large stockpot. Bring to a simmer, cover, and cook until the chicken reaches 165°F and is tender, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chicken to a platter and let cool until safe to handle, about 15 minutes. Remove and discard the skin and bones, then shred the meat.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Crush the tomatoes with their juices and add them to the pot with the shredded chicken, potatoes, carrots, celery, onions, and corn."
+    },
+    {
+      "step": 4,
+      "text": "Simmer, stirring occasionally, until the potatoes are tender and the stew has thickened, about 45 minutes. Adjust salt and pepper to taste before serving.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "chicken",
+    "stew",
+    "vegetable",
+    "one-pot",
+    "southern-style",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large stockpot",
+    "lid",
+    "food thermometer",
+    "platter",
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/286262/alabama-chicken-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4350dcb0940098368b7a05623dcc31f1fbe6f0e66026dcaf02671d11a4fbca0b",
+    "normalized_text_hash": "3ad34d65e48c78abb287416ffdb8c9356759527738d8c390bb4ba8696d0672d5",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:36:54.665Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

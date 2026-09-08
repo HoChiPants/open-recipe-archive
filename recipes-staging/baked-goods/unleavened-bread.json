@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "unleavened-bread",
+  "name": "Unleavened Bread",
+  "subtitle": "Simple oven-baked bread with a tender crumb",
+  "description": "A straightforward unleavened bread made from flour, eggs, milk, salt, and melted butter, then baked until set.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and salt in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs with the melted butter in a separate bowl."
+    },
+    {
+      "step": 4,
+      "text": "Add the egg mixture and milk to the dry ingredients, stirring until a cohesive dough forms."
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough and place it on a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, or until the bread is firm and fully set in the center.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "bread",
+    "unleavened",
+    "baked-good",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241670/unleavened-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4667868decda49e10b70ce62d75eaf8376e9bd771740a924579a35ad25c4dbfb",
+    "normalized_text_hash": "fbee17bce81ab36ab27acc8d069eaa000abc5b82a7b42041d5a87c7cf70aa897",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:39:03.887Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

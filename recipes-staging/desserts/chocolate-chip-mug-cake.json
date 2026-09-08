@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-chip-mug-cake",
+  "name": "Chocolate Chip Mug Cake",
+  "subtitle": "A warm, single-serving cake with melted chocolate",
+  "description": "A quick microwave dessert combining brown sugar, vanilla, and milk chocolate chips in a tender mug cake.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-yolk-freeze-the-white-for-another-recipe",
+      "item": "egg yolk (freeze the white for another recipe)",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "of-baking-powder",
+      "item": "of baking powder",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips",
+      "item": "milk chocolate chips",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ice-cream-to-serve",
+      "item": "ice cream to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a microwave-safe mug, microwave the unsalted butter and light brown soft sugar until melted. Stir until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Mix in the egg yolk and vanilla extract. Add the plain flour, of baking powder, and milk chocolate chips, stirring just until combined."
+    },
+    {
+      "step": 3,
+      "text": "Microwave for 1 minute, then check that the center is firm and fully set, reaching 160°F if measured. Continue briefly if needed.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Whisk the optional ice cream briefly, if using, and serve with the warm cake."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "mug-cake",
+    "microwave",
+    "quick-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe mug"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-chip-mug-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "724b28a7cc486bfde7a963828ad5a49bc07a3a7c40f42006d8700fa883d9a200",
+    "normalized_text_hash": "309311632a901f9f27476f066487498272f4d58000a0755b71a5ad56cefcb7f7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:04:32.838Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "boondi-raita",
+  "name": "Boondi Raita",
+  "subtitle": "Cooling yogurt with crisp boondi and mint",
+  "description": "A simple Indian yogurt side seasoned with cumin, boondi, and fresh mint.",
+  "meal_type": "side",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "natural-yogurt",
+      "item": "natural yogurt",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-cumin-plus-a-pinch",
+      "item": "ground cumin plus a pinch",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "boondi-available-in-many-indian-supermarkets-or-online",
+      "item": "boondi (available in many Indian supermarkets or online)",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "a-few-mint-leaves-1-2-finely-chopped",
+      "item": "a few mint leaves 1/2 finely chopped",
+      "preparation": "1/2 left whole"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the natural yogurt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the ground cumin plus a pinch."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the boondi and let it stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Add the mint leaves, using the chopped portion and leaving the remaining leaves whole, and stir gently."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "indian",
+    "boondi",
+    "raita",
+    "yogurt",
+    "mint"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boondi-raita",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "780a7a5d049c58989a06acb0b5aab5afcd51435088074d8e3d7f313c4f32223f",
+    "normalized_text_hash": "6cea6957f4871f94e147a250f1fff92211dabaf69af81fb12676011d20633e9b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:43:18.899Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

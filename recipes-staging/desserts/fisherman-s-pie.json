@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fisherman-s-pie",
+  "name": "Fisherman’s Pie",
+  "subtitle": "Cod, spinach, and cheddar beneath mashed potatoes",
+  "description": "A savory baked casserole layered with cod, spinach, creamy cheddar sauce, and mashed potatoes.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cod-fillets",
+      "item": "cod fillets",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "warm-milk",
+      "item": "warm milk",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "sharp-white-cheddar-cheese",
+      "item": "sharp white Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and drained"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "pressed"
+    },
+    {
+      "ingredient_id": "mashed-potatoes",
+      "item": "mashed potatoes",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "yellow-cheddar-cheese",
+      "item": "yellow Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Arrange the cod in a baking dish and spread the mashed potatoes over it. Set aside."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan over medium heat. Whisk in the flour and cook for 5 minutes, until golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk in the warm milk. Stir in the garlic and cook for 5 minutes, until the sauce thickens; add more milk if needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Mix in the white Cheddar, spinach, onion, salt, and pepper. Pour the sauce over the cod and potatoes, then top with the yellow Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, then continue baking for about 20 minutes, until the fish is opaque and flakes easily or reaches 145°F in the thickest pieces.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "fish",
+    "casserole",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "fish"
+  ],
+  "equipment": [
+    "baking dish",
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213430/fishermans-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5049de44b8f0b6e9e5a3983c2e3b912e542ae9e7fd70b3a2c16ce5ae04d4ae3c",
+    "normalized_text_hash": "9b34e1fc0c891b352ce60aba54918e11eaafc450acdef717a73bc049ecf4adca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:13:46.663Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

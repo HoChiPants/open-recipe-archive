@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "candied-citrus-peel",
+  "name": "Candied Citrus Peel",
+  "subtitle": "Tender, syrup-glazed orange peel",
+  "description": "Blanch orange peel, simmer it in a simple sugar syrup, and dry until lightly candied.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-peel",
+      "item": "orange peel",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cut into strips"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the orange peel and water in a saucepan. Bring to a boil and cook for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the peel thoroughly."
+    },
+    {
+      "step": 3,
+      "text": "Return the white sugar and water to the saucepan. Bring to a boil, stirring until the sugar dissolves."
+    },
+    {
+      "step": 4,
+      "text": "Add the peel and simmer gently for 15 minutes, until glossy and tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Transfer the peel to a rack or parchment-lined tray and separate the strips."
+    },
+    {
+      "step": 6,
+      "text": "Let the peel dry at room temperature for 8 hours, or until lightly tacky and candied.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "colander",
+    "wire rack or parchment-lined tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18999/candied-citrus-peel/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ef0a5e0538c45448fa56bb401141b2ba5dc81116010a5dd597fa23fdf18c4d1f",
+    "normalized_text_hash": "6fbca33bcbb3ee1dee77fdfb5e44d2ac32a013b694c9352f76c313df11d83937",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:47:48.419Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

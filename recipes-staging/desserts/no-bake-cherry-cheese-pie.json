@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-bake-cherry-cheese-pie",
+  "name": "No-Bake Cherry Cheese Pie",
+  "subtitle": "A chilled, creamy pie with cherry topping",
+  "description": "A simple no-bake dessert combining sweetened cream cheese and whipped topping in a graham cracker crust, finished with cherry pie filling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-prepared-graham-cracker-crust",
+      "item": "(9 inch) prepared graham cracker crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-whipped-topping",
+      "item": "frozen whipped topping",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese and sugar until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the thawed whipped topping until the mixture is smooth."
+    },
+    {
+      "step": 3,
+      "text": "Spread the cream cheese mixture into the prepared crust, then spoon the cherry pie filling over the top."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chilled",
+    "cherry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "rubber spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17584/cherry-cheese-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1f4b24447def7416a44e7e390dbec7366b7d331b74461709344272ee59bc408d",
+    "normalized_text_hash": "6ece242f0363c00ee7215832aab8ae13c65f08b740a162cc177da3c83ae441af",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:13:47.984Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

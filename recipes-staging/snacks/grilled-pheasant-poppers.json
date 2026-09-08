@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-pheasant-poppers",
+  "name": "Grilled Pheasant Poppers",
+  "subtitle": "Jalapeño-marinated pheasant wrapped in bacon",
+  "description": "Tender pheasant pieces are marinated with sliced jalapeños, wrapped in bacon, secured, and grilled for a smoky bite-sized snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pheasant-breast",
+      "item": "pheasant breast",
+      "quantity": 1.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "4-ounce-jar-sliced-jalapeno-peppers",
+      "item": "(4 ounce) jar sliced jalapeno peppers",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 12,
+      "preparation": "cut into thirds"
+    },
+    {
+      "ingredient_id": "bamboo-skewers",
+      "item": "bamboo skewers",
+      "quantity": 6,
+      "preparation": "soaked in water for 20 minutes"
+    },
+    {
+      "ingredient_id": "toothpicks",
+      "item": "toothpicks",
+      "quantity": 36
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the pheasant breast into bite-size pieces and combine with the sliced jalapeño peppers. Stir and marinate for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Preheat the grill to medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Drain the pheasant. Wrap each piece with a third of a bacon slice and secure with a toothpick."
+    },
+    {
+      "step": 4,
+      "text": "Thread the wrapped pieces onto the soaked bamboo skewers."
+    },
+    {
+      "step": 5,
+      "text": "Grill for about 15 minutes, turning as needed, until the bacon is browned and the pheasant reaches 165°F internally.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Serve hot on the skewers."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "grilled",
+    "poultry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer",
+    "bamboo skewers",
+    "toothpicks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/173956/grilled-pheasant-poppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a585ee6a31975464feb3c705b90618c48c2a7ad8ed908f0c1e4571b30d9d8ff0",
+    "normalized_text_hash": "597d63390ba8dd71d7c85c77cdf913f555cf7e24dc51158c88fd8713dbe915d3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:08:26.868Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

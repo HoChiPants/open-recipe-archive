@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "berry-trifle",
+  "name": "Berry Trifle",
+  "subtitle": "Layers of cake, berries, and vanilla cream",
+  "description": "A chilled layered dessert combining cubed pound cake, mixed berries, praline liqueur, and a soft vanilla pudding topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 105
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "prepared-pound-cake",
+      "item": "prepared pound cake",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10.75 ounce, cubed"
+    },
+    {
+      "ingredient_id": "frozen-blueberries",
+      "item": "frozen blueberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "frozen-raspberries",
+      "item": "frozen raspberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "frozen-blackberries",
+      "item": "frozen blackberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "praline-liqueur",
+      "item": "praline liqueur",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange half of the cubed pound cake in the bottom of a large trifle bowl or deep serving dish."
+    },
+    {
+      "step": 2,
+      "text": "Layer half of the blueberries, raspberries, and blackberries over the cake, then drizzle with half of the praline liqueur."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the sweetened condensed milk, thawed whipped topping, instant vanilla pudding mix, and milk until smooth and combined."
+    },
+    {
+      "step": 4,
+      "text": "Spread half of the pudding mixture over the fruit. Repeat the cake, berries, liqueur, and pudding layers, finishing with the remaining whipped topping."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate until chilled and set.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "berry",
+    "no-bake",
+    "layered"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large trifle bowl or deep serving dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18993/berry-trifle/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6619d3c4f9773e983d3c257e5160d4fbdc3247e80ec7f1f992e967d588236ff9",
+    "normalized_text_hash": "2d724e38d9173ffb438248e4d3b2395e42f1c49a04fbe9bb107563306a168605",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:28:23.310Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

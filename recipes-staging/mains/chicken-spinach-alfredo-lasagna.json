@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-spinach-alfredo-lasagna",
+  "name": "Chicken Spinach Alfredo Lasagna",
+  "subtitle": "Creamy layered pasta with spinach, chicken, and melted mozzarella",
+  "description": "A rich baked lasagna layered with Alfredo-style sauce, ricotta-spinach filling, diced chicken, noodles, and mozzarella.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lasagna-noodles",
+      "item": "lasagna noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 3,
+      "preparation": "boneless chicken breast halves, diced"
+    },
+    {
+      "ingredient_id": "16-ounce-jars-alfredo-style-pasta-sauce",
+      "item": "(16 ounce) jars Alfredo-style pasta sauce",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ricotta-cheese",
+      "item": "ricotta cheese",
+      "quantity": 2,
+      "unit": "pints"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring salted water to a simmer. Add the lasagna noodles and cook for 10 minutes, or until tender. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Cook the spinach for about 7 minutes, until tender, then drain well. Combine it with the ricotta cheese. Stir the Alfredo-style pasta sauce until smooth, seasoning with salt and pepper to taste.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Spread a little sauce in a baking dish. Layer noodles, the spinach-ricotta mixture, diced cooked chicken, sauce, and mozzarella. Repeat the layers, finishing with sauce and mozzarella."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until bubbling and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lasagna",
+    "pasta",
+    "chicken",
+    "spinach",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19400/lasagna-alfredo/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "558aee0f83b578bc8fb1897266d7d6ad792722a39dfd6e4b53888215ff7111a4",
+    "normalized_text_hash": "b5f8aba3cca158f5926f68a25967867fe75e9fdd53560423c081940dc2c3b15e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:50:07.308Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

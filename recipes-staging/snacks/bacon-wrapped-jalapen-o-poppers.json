@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-jalapen-o-poppers",
+  "name": "Bacon-Wrapped Jalapeño Poppers",
+  "subtitle": "Creamy cheese-filled peppers baked until crisp",
+  "description": "Jalapeño halves filled with a cheddar cream cheese mixture, wrapped in bacon, and baked for an easy savory snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 12,
+      "preparation": "halved lengthwise, seeds and membranes removed"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 12
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the cream cheese and shredded Cheddar together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Cut each bacon slice in half."
+    },
+    {
+      "step": 4,
+      "text": "Fill the jalapeño halves with the cheese mixture, then wrap each with bacon."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the poppers on a baking sheet and bake until the bacon is crisp and the filling is hot, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "american",
+    "bacon",
+    "jalapen-o"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233603/bacon-wrapped-jalapeno-poppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "993bdc02da64a50827e7233c7ae7bca5ddebdbc00212fe90d9b9a5dfb89bdbb7",
+    "normalized_text_hash": "fec0b286df530b16674b276283344b373f1ccee194ecea11cb3bf5db85b56106",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:40:24.688Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

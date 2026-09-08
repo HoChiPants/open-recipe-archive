@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "couscous-salad",
+  "name": "Couscous Salad",
+  "subtitle": "A quick Mediterranean salad with vegetables, feta, pesto, and pine nuts.",
+  "description": "Steamed couscous is combined with crisp vegetables, creamy feta, pesto, and pine nuts for a simple two-serving salad.",
+  "meal_type": "salad",
+  "cuisine": "Mediterranean",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "couscous",
+      "item": "couscous",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "hot-low-salt-vegetable-stock-from-a-cube-is-fine",
+      "item": "hot low salt vegetable stock (from a cube is fine)",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "spring-onions",
+      "item": "spring onions",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "red-pepper",
+      "item": "red pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "feta-cheese-cubed",
+      "item": "feta cheese cubed",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "pesto",
+      "item": "pesto",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "pine-nuts",
+      "item": "pine nuts",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the couscous in a heatproof bowl and pour over the hot vegetable stock. Cover and leave for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Slice the spring onions and red pepper, and dice the cucumber."
+    },
+    {
+      "step": 3,
+      "text": "Fluff the couscous with a fork, then mix in the vegetables, cubed feta, pesto, and pine nuts. Serve."
+    }
+  ],
+  "tags": [
+    "quick",
+    "easy",
+    "mediterranean",
+    "lunch",
+    "summer",
+    "vegetarian",
+    "couscous",
+    "cucumber",
+    "feta",
+    "pesto",
+    "pine-nuts"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "heatproof bowl",
+    "knife",
+    "cutting board",
+    "fork"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/10minute-couscous-salad",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a1620b22be7fcd686bfe7b660bfd16e3f4f2f797b8a5aac3a2ecffdebcbbc389",
+    "normalized_text_hash": "5d9194286480da15c4f1fc00c94b6836276e31a174219263b359f4134104c159",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:18:55.823Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

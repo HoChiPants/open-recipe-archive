@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "curried-egg-mayo-sandwiches",
+  "name": "Curried Egg Mayo Sandwiches",
+  "subtitle": "Creamy egg filling with mango chutney and curry",
+  "description": "A simple sandwich filling combining chopped eggs, mayonnaise, yogurt, chutney, curry paste, onions, and coriander.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "mayo",
+      "item": "mayo",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mango-chutney",
+      "item": "mango chutney",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "korma-curry-paste",
+      "item": "korma curry paste",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "spring-onions-sliced",
+      "item": "spring onions sliced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "coriander",
+      "item": "coriander",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter-for-spreading",
+      "item": "butter for spreading"
+    },
+    {
+      "ingredient_id": "slices-soft-brown-bread",
+      "item": "slices soft brown bread",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the eggs in boiling water for 8 minutes. Cool, peel, and chop them.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Mix the chopped eggs with the mayo, Greek yogurt, mango chutney, korma curry paste, spring onions sliced, and coriander."
+    },
+    {
+      "step": 3,
+      "text": "Spread butter over the bread slices."
+    },
+    {
+      "step": 4,
+      "text": "Divide the egg mixture between two bread slices, cover with the remaining slices, and serve."
+    }
+  ],
+  "tags": [
+    "sandwich",
+    "egg",
+    "curry",
+    "lunch",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coronation-egg-mayo-sandwiches",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d2e63647782f1a24aa40af251fe7131d3a91f221574b503616cddaf3166f0b9b",
+    "normalized_text_hash": "e10310466b9c44691403c3e64ed97086577ee1b2d33da945023aae9ea7d008fa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:59:19.532Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

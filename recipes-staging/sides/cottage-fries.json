@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cottage-fries",
+  "name": "Cottage Fries",
+  "subtitle": "Crisp, seasoned potato rounds",
+  "description": "Oven-baked potato rounds seasoned with herbs, pepper, and a touch of cayenne.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-russet-potatoes",
+      "item": "baking (russet) potatoes",
+      "quantity": 4,
+      "preparation": "sliced into 3/8-inch thick rounds"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "herbes-de-provence",
+      "item": "herbes de provence",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the potato rounds with the salt, black pepper, cayenne, and herbes de Provence. Add the olive oil and stir until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the potatoes to a baking sheet and arrange them in a single layer."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 15 minutes, then turn the rounds and cut apart any pieces that have joined.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes more, turn the potatoes again, and continue baking for 30 minutes, until tender and browned.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221899/chef-johns-cottage-fries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4258eef3bb3cdaf38d1f263da214de99bb948f28d23adbd3e6af313e2b40b807",
+    "normalized_text_hash": "da04b12680885b0533307d78f160cffae70426c7b2342a440d548d9114aa1b5a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:27:53.789Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

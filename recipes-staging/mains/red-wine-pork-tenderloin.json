@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "red-wine-pork-tenderloin",
+  "name": "Red Wine Pork Tenderloin",
+  "subtitle": "Tender roasted pork with a savory wine gravy",
+  "description": "Pork tenderloin is seasoned, roasted with vegetables and red wine, then served with a thickened pan gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pork-tenderloin",
+      "item": "pork tenderloin",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "stalk-celery",
+      "item": "stalk celery",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-wine",
+      "item": "red wine",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dry-brown-gravy-mix",
+      "item": "dry brown gravy mix",
+      "quantity": 1,
+      "unit": "packet",
+      "preparation": ".75 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Season the pork with the salt, pepper, and garlic powder."
+    },
+    {
+      "step": 2,
+      "text": "Place the pork in a baking dish with the onion, celery, and red wine."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 45 minutes, or until the thickest part reaches 145°F. Transfer the pork to a cutting board and let it rest for 3 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Combine the red wine and dry brown gravy mix as directed by the mixture, and cook until thickened."
+    },
+    {
+      "step": 5,
+      "text": "Cut the rested pork into slices and serve with the gravy."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roasted-pork",
+    "wine-gravy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "cutting board",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16362/burgundy-pork-tenderloin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "16c870dc46b7f6117c69637ce28603756d76c05c41f22aa4cd1e3abef119d4d1",
+    "normalized_text_hash": "d320a20f0f13f0182f72a53706d255f37d8fa8a5531327e607c3f3b5e7ae0b10",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:29:00.247Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

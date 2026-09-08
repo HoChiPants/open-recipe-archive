@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-mashed-potato-cakes",
+  "name": "Fried Mashed Potato Cakes",
+  "subtitle": "Crisp-edged cakes from cooled mashed potatoes",
+  "description": "Shape seasoned mashed potatoes into small cakes and fry them until golden and fully set.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "leftover-mashed-potatoes",
+      "item": "leftover mashed potatoes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cooled"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cooled mashed potatoes, flour, and salt. Add the egg and mix until evenly incorporated."
+    },
+    {
+      "step": 2,
+      "text": "Shape the mixture into six small, even cakes."
+    },
+    {
+      "step": 3,
+      "text": "Heat the vegetable oil in a skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Add the cakes and cook for about 3 minutes per side, turning carefully, until browned and the centers are fully set; verify an egg-containing center reaches 160°F.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "potato",
+    "skillet",
+    "quick",
+    "leftovers"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268686/fried-mashed-potato-cakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9341c972c8ecdc766b023e3b5bedef2906a8e85db21871429faf435e6b09dd30",
+    "normalized_text_hash": "ef51e1a8ae6eb21ad9a1946c1d86925446686a2362c4bb592c93ef2fde2542e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:27:06.419Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

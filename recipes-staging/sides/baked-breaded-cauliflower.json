@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-breaded-cauliflower",
+  "name": "Baked Breaded Cauliflower",
+  "subtitle": "Crisp-coated cauliflower florets baked until tender",
+  "description": "Cauliflower florets are dipped in seasoned egg, coated with panko, and baked for a crisp, savory side dish.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "panko-bread-crumbs",
+      "item": "panko bread crumbs",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "preparation": "broken into florets"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Prepare a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, salt, and pepper in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Place the panko in a separate dish. Dip each cauliflower floret in the egg mixture, then coat it with panko."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the coated florets on the prepared baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 25 minutes, or until the cauliflower is tender.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246374/baked-breaded-cauliflower/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3f65e9b2a3d0ee2abc8b99bf00bc4bcaa74cd557aa774c84590698be146a2c9",
+    "normalized_text_hash": "3762ba55f87d9d16510e8dbfb51be1c67247cbeca26a6da14217e9bcb93af307",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:43:45.150Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

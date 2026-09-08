@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-tomato-slices",
+  "name": "Baked Tomato Slices",
+  "subtitle": "Rosemary-garlic tomatoes from the oven",
+  "description": "Tender tomato slices baked with olive oil, rosemary, garlic, salt, and pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "preparation": "as needed"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 1/2-inch-thick slices"
+    },
+    {
+      "ingredient_id": "sprig-fresh-rosemary",
+      "item": "sprig fresh rosemary",
+      "quantity": 1,
+      "preparation": "leaves stripped and finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Lightly oil a baking dish and arrange the tomato slices in it."
+    },
+    {
+      "step": 3,
+      "text": "Scatter the chopped rosemary and minced garlic over the tomatoes, then drizzle with additional olive oil and season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the tomato slices are tender, about 10 minutes.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237805/baked-tomato-slices/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "885c3f50a911d202c3a5d1fc2aa3e890ee84a7ab1aeecedc75723316add961c5",
+    "normalized_text_hash": "8a78109c9728f69c856af1037dc127e8c0a4f95dce7d3e594128fe70e259a8ae",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:52:17.877Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-decadence",
+  "name": "Chocolate Decadence",
+  "subtitle": "A rich, chilled chocolate dessert with a tender baked center.",
+  "description": "Melted chocolate and butter combine with whipped eggs and sugar for a deeply chocolatey dessert that is baked briefly, cooled, and chilled before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "semisweet-chocolate",
+      "item": "semisweet chocolate",
+      "quantity": 18,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 10,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5,
+      "unit": "large",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Grease and flour the baking pan using the butter and flour."
+    },
+    {
+      "step": 2,
+      "text": "Melt the chocolate, butter, and salt together over simmering water, stirring until smooth. Remove from the heat."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs and sugar for 10 minutes, until thick. Separately combine the flour, cayenne, and salt.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Fold the dry mixture into the egg mixture. Gradually add the melted chocolate mixture, stirring until combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 15 minutes, until the center is firm and fully set or reaches 160°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Cool for 30 minutes, then chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "baked-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241309/chef-johns-chocolate-decadence/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c1cf4435d9946e0f24797975ab57aec3449128f972a4607a365f2ce178578060",
+    "normalized_text_hash": "c62cdb72f2ce91264c7c5aaece56516662210698bdfd66e840bdde0a8d2bf05c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:25:19.438Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

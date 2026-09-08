@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-bacon-grilled-cheese",
+  "name": "Tomato Bacon Grilled Cheese",
+  "subtitle": "Crisp bacon, tomato, and melted cheese between buttery toast",
+  "description": "A simple skillet sandwich layered with bacon, tomato, and American cheese.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "slices-american-cheese",
+      "item": "slices American cheese",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "slices-tomato",
+      "item": "slices tomato",
+      "quantity": 8
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a skillet until crisp and fully cooked. Transfer it to a paper towel-lined plate to drain."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet or griddle over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Butter one side of each bread slice. Place four slices butter-side down and layer each with cheese, tomato, bacon, and another cheese slice. Top with the remaining bread, butter-side up."
+    },
+    {
+      "step": 4,
+      "text": "Grill the sandwiches until the bread is golden and the cheese is melted, turning once. Cut and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american",
+    "grilled-cheese",
+    "bacon",
+    "tomato"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet or griddle",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/61648/tomato-bacon-grilled-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "274ab89b68344cb64c329f4b2c277dc8cacb4c835cb5f8da05878b11912c0aea",
+    "normalized_text_hash": "1ef4616b26ca2ba5609623c4c484222cd069248ec97435f23d435c862a4df97e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:12:45.318Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

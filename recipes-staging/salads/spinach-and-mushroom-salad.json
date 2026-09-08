@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-and-mushroom-salad",
+  "name": "Spinach and Mushroom Salad",
+  "subtitle": "Fresh spinach with mushrooms, bacon, eggs, and tangy dressing",
+  "description": "A hearty spinach salad layered with sliced mushrooms, crisp bacon, eggs, and a lightly sweet cider-vinegar dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan, cover with water, and bring to a simmer. Cook for 12 minutes, then cool, peel, and cut them.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until crisp, then drain and crumble or cut it into pieces."
+    },
+    {
+      "step": 3,
+      "text": "Stir the cider vinegar, water, white sugar, and salt together to make the dressing."
+    },
+    {
+      "step": 4,
+      "text": "Wash and dry the spinach, then arrange it in a serving bowl with the sliced mushrooms and eggs."
+    },
+    {
+      "step": 5,
+      "text": "Add the bacon, drizzle with the dressing, and garnish as desired before serving."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "dinner",
+    "side-dish",
+    "salad",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14400/spinach-and-mushroom-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e36fb38bdaceb9b8073dec3edb154472ab0a1ccd396984f853f256f3facb1dff",
+    "normalized_text_hash": "a3c76b96394f5ffdeff9e31a5a970769fd0c110635a13cb1ea09b51ec789a1df",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:41:20.862Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

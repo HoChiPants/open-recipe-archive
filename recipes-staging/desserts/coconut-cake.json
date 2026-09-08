@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-cake",
+  "name": "Coconut Cake",
+  "subtitle": "Tender coconut cake with cream cheese frosting",
+  "description": "A moist coconut cake with chopped walnuts, toasted coconut, and a simple cream cheese frosting.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.3333300352097,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Grease a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Combine the cake mix, pudding mix, water, eggs, and vegetable oil. Whisk for 4 minutes, then stir in half of the coconut and the walnuts.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to the prepared pan and bake until set, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Cool the cake in the pan for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Melt half of the butter in a skillet. Add the remaining coconut and cook, stirring, until golden brown. Transfer to a plate to cool."
+    },
+    {
+      "step": 6,
+      "text": "Whisk the remaining butter with the cream cheese until smooth. Add the milk, confectioners' sugar, and vanilla extract, and mix until spreadable."
+    },
+    {
+      "step": 7,
+      "text": "Spread the frosting over the cooled cake and top with the toasted coconut."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "coconut",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking pan",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8151/rave-reviews-coconut-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "34e8a81b4fb513aae5406de375a5547fd8c47e1aa0d4f7b684f4fab7f84a6d87",
+    "normalized_text_hash": "c1cb73922281b6ece440f525b90bcee2b4cd95b8e697ca2e8892993c759eac26",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:54:22.098Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cuban-marinated-steak",
+  "name": "Cuban Marinated Steak",
+  "subtitle": "Citrus-marinated rib-eye with toasted cumin",
+  "description": "Rib-eye steaks are coated in a bright citrus and oregano marinade, then grilled and rested before serving.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cumin-seeds",
+      "item": "cumin seeds",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "montreal-style-steak-seasoning",
+      "item": "Montreal-style steak seasoning",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 2.25,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "beef-rib-eye-steaks",
+      "item": "beef rib-eye steaks",
+      "quantity": 1.5,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toast the cumin seeds briefly in a dry skillet over medium heat until fragrant. Transfer them to a bowl and stir in the orange juice, oil, steak seasoning, lime juice, and oregano.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Coat the steaks with the marinade in a shallow dish or sealable bag. Refrigerate for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill. Remove the steaks from the marinade and discard the used marinade."
+    },
+    {
+      "step": 4,
+      "text": "Grill the steaks for about 8 minutes, turning as needed, until the thickest part reaches 145°F.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Transfer the steaks to a plate and let them rest for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "beef",
+    "marinated",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "skillet",
+    "grill",
+    "shallow dish or sealable bag",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232415/cuban-marinated-steak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7bab7ea6e6595f24ca889adc7cf0d466f6d78a6e80be622fa8c8a2c257ebcafe",
+    "normalized_text_hash": "433c839ddb6a3b53a812df911e7216730958dee59585ba396baaf40e15454e26",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:54:21.828Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

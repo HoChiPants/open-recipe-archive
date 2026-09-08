@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-pork-belly",
+  "name": "Air-Fryer Pork Belly",
+  "subtitle": "Crisp pork belly with garlic seasoning",
+  "description": "Pork belly is seasoned with garlic and cooked in an air fryer until crisp and cooked through.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1kg-pork-belly",
+      "item": "1kg pork belly",
+      "quantity": 750,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garlic-granules",
+      "item": "garlic granules",
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 2,
+      "text": "Cut the pork belly into manageable pieces."
+    },
+    {
+      "step": 3,
+      "text": "Combine the vegetable oil and garlic granules, then coat the pork belly."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry the pork belly for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Continue cooking for 30 minutes, until crisp and the center reaches at least 145°F. Rest for 3 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer",
+    "pork",
+    "pork-belly",
+    "crackling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer",
+    "knife",
+    "small bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-pork-belly",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5bce559f9f932de34c9577fe342b8d065096be83201a48e3a6a35ee82b665b53",
+    "normalized_text_hash": "c3aa7154953372e81dab3afb4e977cf732f4c3fab9892807703e19dd6a01a6b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:28:48.426Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

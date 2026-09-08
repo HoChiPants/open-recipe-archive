@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-poppy-seed-chicken",
+  "name": "Creamy Poppy Seed Chicken",
+  "subtitle": "A warm chicken casserole with a crisp, buttery topping",
+  "description": "Chopped cooked chicken is folded into a creamy sauce, covered with seasoned cracker crumbs, and baked until hot.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 5,
+      "unit": "cups",
+      "preparation": "chopped cooked"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "buttery-round-crackers",
+      "item": "buttery round crackers",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "poppy-seeds",
+      "item": "poppy seeds",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Lightly grease a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Stir the condensed soup and sour cream together until smooth, then fold in the chopped cooked chicken."
+    },
+    {
+      "step": 3,
+      "text": "Spread the chicken mixture in the prepared dish."
+    },
+    {
+      "step": 4,
+      "text": "Combine the crushed crackers, melted butter, and poppy seeds. Scatter the mixture evenly over the casserole."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until bubbling and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/81959/poppy-seed-chicken-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8d618f7ad02639ad7b96c82a6f191439769ea2bf9bcf5260a5865279f195dbbe",
+    "normalized_text_hash": "f07136b8cd0f9a7a853bf25db7e0faa16f0451ba97e5ff33994bcca01a89e6c0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:41:14.232Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

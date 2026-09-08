@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-mojito",
+  "name": "Beer Mojito",
+  "subtitle": "A crisp rum, lime, mint, and ale cocktail",
+  "description": "Muddle-free mojito-style drink combining fresh lime, mint, rum, crushed ice, and golden ale.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 8,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lime-wedges",
+      "item": "lime wedges",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "mint-leaves",
+      "item": "mint leaves",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "sugar-syrup",
+      "item": "sugar syrup",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "handful-of-crushed-ice",
+      "item": "handful of crushed ice"
+    },
+    {
+      "ingredient_id": "white-rum",
+      "item": "white rum",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "golden-ale-for-topping-up",
+      "item": "golden ale for topping up"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the lime wedges in a serving glass and let them rest briefly."
+    },
+    {
+      "step": 2,
+      "text": "Add the mint leaves and sugar syrup, then gently press and stir to release the mint and lime flavors."
+    },
+    {
+      "step": 3,
+      "text": "Add the crushed ice and pour in the white rum."
+    },
+    {
+      "step": 4,
+      "text": "Stir briefly and top up with golden ale."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "alcoholic",
+    "beer",
+    "rum",
+    "mint",
+    "lime"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beer-mojito",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eee9331ae923bb4e88ce7d46563deca01b5f37584830365857f841a46c93cdce",
+    "normalized_text_hash": "cc59e47d208b7b63e2610f8fde1e88dd7218a001c114fb212f7108503211249c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:24:45.273Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

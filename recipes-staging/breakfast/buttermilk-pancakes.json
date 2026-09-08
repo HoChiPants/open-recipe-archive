@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buttermilk-pancakes",
+  "name": "Buttermilk Pancakes",
+  "subtitle": "Tender pancakes with a lightly browned finish",
+  "description": "A simple buttermilk batter cooked on a preheated griddle until puffed, browned, and fully set.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1.125,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a griddle or skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, salt, and baking soda in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the egg, buttermilk, and melted butter. Stir just until combined; the batter should remain thick."
+    },
+    {
+      "step": 4,
+      "text": "Cook portions of batter on the preheated surface until lightly browned, then turn and cook the other side until lightly browned and the centers are firm and fully set, reaching 160°F when checked with a food thermometer.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pancakes",
+    "buttermilk",
+    "griddle"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "griddle or skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/203229/moms-buttermilk-pancakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f15af678a481a6441dbbbedd1384b435e78f8069c94e4fb7c8eb4c95f2d36c80",
+    "normalized_text_hash": "ed4b1f680ed73a6c0caf0847b5c540d701e7ce7ba9291802a652ab74cf6e505a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:51:23.092Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

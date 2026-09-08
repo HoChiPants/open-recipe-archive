@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blackberry-pie",
+  "name": "Blackberry Pie",
+  "subtitle": "A bright berry pie with a crisp, golden crust",
+  "description": "Fresh blackberries are folded with sugar and flour, enclosed in a double crust, and baked until bubbling and golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 40,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-blackberries",
+      "item": "fresh blackberries",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "9-inch-double-crust-ready-to-use-pie-crust",
+      "item": "(9 inch) double crust ready-to-use pie crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the blackberries, flour, and part of the divided sugar."
+    },
+    {
+      "step": 3,
+      "text": "Fit the bottom crust into a 9-inch pie dish and fill it with the blackberry mixture."
+    },
+    {
+      "step": 4,
+      "text": "Cover with the second crust, trim as needed, and cut vents in the top."
+    },
+    {
+      "step": 5,
+      "text": "Brush the crust with milk and sprinkle with the remaining sugar."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 15 minutes at 425°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Reduce the oven temperature to 375°F and bake for 25 minutes, until the crust is golden brown.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 8,
+      "text": "Cool the pie before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit-dessert",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12284/blackberry-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ea96a2ee568a36d698b95fb7ff9ee4ec68a19469c2e030819e14f17116a1605f",
+    "normalized_text_hash": "96b5a7fd98411d9757f17763dc9b892eda46f218df846f8cac5da09fcbffb973",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:52:43.054Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

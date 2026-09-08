@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "guacamole",
+  "name": "Guacamole",
+  "subtitle": "Creamy avocado dip with citrus and onion",
+  "description": "A simple chilled dip made from mashed avocado, lemon, onion, olive oil, and salt.",
+  "meal_type": "snack",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "avocados",
+      "item": "avocados",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 0.5,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Halve and pit the avocados, scoop the flesh into a bowl, and mash to the desired texture."
+    },
+    {
+      "step": 2,
+      "text": "Juice the lemon and chop the onion if not already prepared."
+    },
+    {
+      "step": 3,
+      "text": "Stir the lemon juice, onion, olive oil, and salt into the mashed avocado."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "mexican"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "knife",
+    "bowl",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14837/best-guacamole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4a84a42baf40fd7858b2adf66a902520632fe38b45ac7634d4f97b285c8dfaa1",
+    "normalized_text_hash": "318b717a08ceb13924663e782e1bce5de3a9a2e5c91a0b43b71b1ea2839fa8db",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:34:38.373Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

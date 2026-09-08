@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buffalo-hot-dogs",
+  "name": "Buffalo Hot Dogs",
+  "subtitle": "Sausages with blue cheese sauce and crisp onions",
+  "description": "Serve browned sausages in brioche buns with a tangy blue cheese and celery topping, buffalo hot sauce, and fried onions.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blue-cheese",
+      "item": "blue cheese",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "soured-cream",
+      "item": "soured cream",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "celery-stick",
+      "item": "celery stick",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "sausages",
+      "item": "sausages",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "brioche-hot-dog-buns",
+      "item": "brioche hot dog buns",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "a-drizzle-of-buffalo-hot-sauce",
+      "item": "a drizzle of buffalo hot sauce"
+    },
+    {
+      "ingredient_id": "crispy-fried-onions",
+      "item": "crispy fried onions",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the blue cheese, soured cream, and mayonnaise until smooth, then fold in the finely chopped celery."
+    },
+    {
+      "step": 2,
+      "text": "Cook the sausages until browned and heated through; verify that the center reaches 160°F with a food thermometer."
+    },
+    {
+      "step": 3,
+      "text": "Place the sausages in the brioche buns and spoon over the blue cheese mixture."
+    },
+    {
+      "step": 4,
+      "text": "Finish each hot dog with a drizzle of buffalo hot sauce and the crispy fried onions."
+    }
+  ],
+  "tags": [
+    "snack",
+    "hot-dogs",
+    "sausages",
+    "blue-cheese",
+    "buffalo-sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/buffalo-hot-dogs",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dc1af2672f2d60b87a6defed8ed67efc41c49e8099d3e133eabc159155b33ec0",
+    "normalized_text_hash": "f1aafe405acc5b44d06be1d5caa422ec3134b17a781b2f44b8bdfa38d21013fd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:50:15.272Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

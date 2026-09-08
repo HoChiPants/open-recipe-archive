@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-mango-salad",
+  "name": "Spicy Mango Salad",
+  "subtitle": "Sweet mango with lime, herbs, and chili",
+  "description": "A bright, chilled mango salad dressed with lime juice, olive oil, chili flakes, cilantro, and shallots.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mangos",
+      "item": "mangos",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled, seeded, and cubed"
+    },
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "shallots",
+      "item": "shallots",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cubed mangos in a serving bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the lime juice and olive oil together in a small bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the red pepper flakes, cilantro, shallots, salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Pour the dressing over the mangos and toss gently to coat."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "lunch",
+    "side-dish",
+    "fruit-salad",
+    "no-cook"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "small bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85165/spicy-mango-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cd8f83e15115f3ff581da03ac61f7b1a30451d67a8bc595ba0874fe7167adb5c",
+    "normalized_text_hash": "bbfeae83a949b09ed1c060475daeb6f82e89312906b5b68e1dc0d23f4917a9f9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:33:58.638Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

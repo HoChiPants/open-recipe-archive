@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "15-bean-soup",
+  "name": "15-Bean Soup",
+  "subtitle": "A hearty pressure-cooked bean soup with vegetables and smoky spice.",
+  "description": "Tender mixed beans simmer with tomatoes, aromatics, and vegetables for a filling, savory soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "15-bean-soup-mix-seasoning-packet-not-used",
+      "item": "15-bean soup mix (seasoning packet not used)",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "20 ounce"
+    },
+    {
+      "ingredient_id": "italian-style-tomatoes",
+      "item": "Italian-style tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse and drain the bean mix; discard the seasoning packet."
+    },
+    {
+      "step": 2,
+      "text": "Add the broth, beans, tomatoes, onion, carrots, celery, garlic, salt, smoked paprika, and pepper to the pressure cooker. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Lock the lid and cook at high pressure for 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Let the pressure release naturally for 15 minutes, then release any remaining pressure according to the cooker’s instructions.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Open the cooker carefully and stir the soup. Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "one-pot",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan"
+  ],
+  "equipment": [
+    "pressure cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263608/instant-pot-vegan-15-bean-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "059e76e40f46827e3f7e30821d3dde4ef29c90febb005c3a5966a0ac922ae196",
+    "normalized_text_hash": "66c8eca7d3638dfd3ef46e4c5400838b40354c79022fb20c681f28c98db85851",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:13:26.150Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

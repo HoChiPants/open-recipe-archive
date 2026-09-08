@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-peach-apple-smoothie",
+  "name": "Strawberry Peach Apple Smoothie",
+  "subtitle": "A creamy blended fruit drink for two",
+  "description": "Blend fresh fruit with vanilla ice cream and ice, then add milk for a smooth, cold breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-ice-cream",
+      "item": "vanilla ice cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the strawberries, sliced banana, peaches, apples, vanilla ice cream, and ice cubes to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the milk and blend again until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Pour into glasses and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "fruit",
+    "drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20126/bananerberry-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a9a7231013592a7e5c1dda1249ed2c4f5cd7e96c08934818f333d7c4838dbb19",
+    "normalized_text_hash": "b6d8a7439b0fc0756993aca9660c887de58e011eb50fc435cad6de2851fe2519",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:01:44.409Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

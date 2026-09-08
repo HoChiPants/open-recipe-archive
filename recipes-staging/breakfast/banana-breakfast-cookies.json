@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-breakfast-cookies",
+  "name": "Banana Breakfast Cookies",
+  "subtitle": "Soft, fruit-sweetened oat cookies",
+  "description": "These simple banana-oat cookies combine ripe fruit, oats, raisins, yogurt, and cinnamon into a lightly browned breakfast bake.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "very-ripe-bananas",
+      "item": "very ripe bananas",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking sheet for the cookies."
+    },
+    {
+      "step": 2,
+      "text": "Mash the very ripe bananas in a mixing bowl. Add the oats, raisins, yogurt, and cinnamon, and stir until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Let the mixture rest for 15 minutes, then portion it onto the prepared baking sheet and shape into cookies.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, or until the cookies are lightly browned.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "cookies",
+    "banana",
+    "oats",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "fork or potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275809/banana-breakfast-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f586757c8fe035aee9202f879c2fb45f7d462c7357f90a404441a2869bfed39f",
+    "normalized_text_hash": "c67017724916eb546ca0d5a9d5dcab8895efb72b571cee427b6913b0785ed2c1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:56:14.213Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

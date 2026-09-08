@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-rhubarb-pie",
+  "name": "Cherry Rhubarb Pie",
+  "subtitle": "A tart-sweet fruit pie with a flaky double crust",
+  "description": "Chopped rhubarb balances cherry filling in a classic double-crust pie finished with a light sugar topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "quick-cooking-tapioca",
+      "item": "quick-cooking tapioca",
+      "quantity": 2.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "recipe-pastry-for-double-crust-pie-9-inches",
+      "item": "recipe Pastry for double-crust pie (9 inches)",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the rhubarb, cherry pie filling, 0.75 cup white sugar, and tapioca. Let the mixture stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 400°F. Fit half of the pastry into a 9-inch pie pan."
+    },
+    {
+      "step": 3,
+      "text": "Spoon the fruit mixture into the crust, cover with the remaining pastry, and seal and vent the edges."
+    },
+    {
+      "step": 4,
+      "text": "Sprinkle the top with 1 tablespoon white sugar. Bake at 400°F until the crust is golden and the filling is bubbling, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Cool briefly before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit-dessert",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "9-inch pie pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12128/rhubarb-cherry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6551f5055a70ed5fff14eede57e4d8b3589c303724684cacee9a3852da2bafe0",
+    "normalized_text_hash": "4e5a3ce68f0ff9d99b7e7186eb36b98f2b033299c4d9f16436ddb07ad65531f9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:50:14.040Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

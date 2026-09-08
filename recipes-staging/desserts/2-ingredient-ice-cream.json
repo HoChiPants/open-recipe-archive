@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "2-ingredient-ice-cream",
+  "name": "2-Ingredient Ice Cream",
+  "subtitle": "No-bake two-ingredient ice cream",
+  "description": "Whip and thicken two ingredients, combine them, and freeze to create a creamy frozen dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "pint"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk heavy whipping cream until soft peaks form."
+    },
+    {
+      "step": 2,
+      "text": "Whisk sweetened condensed milk until it becomes thick."
+    },
+    {
+      "step": 3,
+      "text": "Fold the whipped cream into the thickened condensed milk, then transfer the mixture to a freezer-safe container."
+    },
+    {
+      "step": 4,
+      "text": "Freeze until firm, about 6 hours.",
+      "timer_minutes": 360
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-dessert",
+    "no-bake",
+    "year-round"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "whisk",
+    "bowls",
+    "freezer-safe container",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256234/2-ingredient-ice-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6306a69b850e405e369fd66c203d936aeba4e1eaec1843d058dbe8f3f39467e9",
+    "normalized_text_hash": "41c04cdf9699c86b85bdc7fc6f0ee884a5572f9bbef34e3e58e112d0cf08ea0b",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:05:29.197Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

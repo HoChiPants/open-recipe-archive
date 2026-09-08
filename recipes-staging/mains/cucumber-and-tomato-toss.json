@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-and-tomato-toss",
+  "name": "Cucumber and Tomato Toss",
+  "subtitle": "A crisp, tangy no-cook vegetable salad",
+  "description": "Sliced cucumber and ripe tomatoes are coated in a simple balsamic dressing and chilled before serving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "ripe-fresh-tomatoes",
+      "item": "ripe fresh tomatoes",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cucumber and tomatoes in a serving bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the olive oil and balsamic vinegar together, then season with salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Pour the dressing over the vegetables and toss gently to coat."
+    },
+    {
+      "step": 4,
+      "text": "Chill until ready to serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "no-cook",
+    "salad",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "knife",
+    "cutting board",
+    "serving bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218603/cool-summer-cucumber-and-tomato-toss/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7d1208c079aac187cd6aa72d7ef39da5fd1accda73da0ccdf217e29ad5e15843",
+    "normalized_text_hash": "826f0abdf1d050e2a2d8e2cb679e15c9b3720564db537f522dd9818635c85717",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:07:22.642Z",
+    "semantic_similarity": 14,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

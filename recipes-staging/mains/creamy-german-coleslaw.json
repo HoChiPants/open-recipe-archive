@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-german-coleslaw",
+  "name": "Creamy German Coleslaw",
+  "subtitle": "Crisp cabbage with a tangy, creamy dressing",
+  "description": "Thinly sliced cabbage is coated in a smooth vinegar-mayonnaise dressing and chilled before serving.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 0.5,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "celery-seed",
+      "item": "celery seed",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sliced cabbage in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar, cider vinegar, celery seed, salt, and mayonnaise until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Pour the dressing over the cabbage and toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate for about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Stir the coleslaw before serving."
+    }
+  ],
+  "tags": [
+    "coleslaw",
+    "cabbage",
+    "salad",
+    "lunch",
+    "german"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229768/creamy-german-coleslaw/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "86974a0d6f07f3045bbd3252cf7260f85436d10bbb262a13321c58bbd46f554f",
+    "normalized_text_hash": "ce4b0670bae4e9eb95e2c2e149076d9fd9e98f56eefb375a7780348542e7cf02",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:37:08.239Z",
+    "semantic_similarity": 18,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

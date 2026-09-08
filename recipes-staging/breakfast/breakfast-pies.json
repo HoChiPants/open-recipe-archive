@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breakfast-pies",
+  "name": "Breakfast Pies",
+  "subtitle": "Sausage, egg, and cheese biscuit cups",
+  "description": "Biscuit-lined cups filled with savory sausage, peppers, onion, egg, and melted cheese.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "breakfast-sausage",
+      "item": "breakfast sausage",
+      "quantity": 0.75,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.125,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.125,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "refrigerated-biscuit-dough",
+      "item": "refrigerated biscuit dough",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "colby-monterey-jack-cheese",
+      "item": "Colby-Monterey Jack cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the sausage, onion, and bell pepper in a skillet until the sausage is browned and cooked through. Drain any excess fat."
+    },
+    {
+      "step": 3,
+      "text": "Separate the biscuit dough and press portions into the cups of a muffin pan, forming a bottom and sides."
+    },
+    {
+      "step": 4,
+      "text": "Divide the sausage mixture among the dough cups."
+    },
+    {
+      "step": 5,
+      "text": "Stir the beaten eggs and milk together, then pour the mixture into the cups. Sprinkle with the shredded cheese."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, until the biscuit edges are golden and the egg centers are firm and reach 160°F.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "muffin pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49629/breakfast-pies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ae5bf8f98e3f4630d5061745b854dfe9c1c231f462a62d77e947dcdfaf209da",
+    "normalized_text_hash": "4968071f3505d26c632b3e902ffdde14df3572568e94db90872361863bfbe140",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:13.922Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-style-spaghetti-sauce",
+  "name": "Italian-Style Spaghetti Sauce",
+  "subtitle": "Tomato sauce with sliced Italian sausage",
+  "description": "A rich tomato sauce simmered with wine, garlic, onion, and Italian sausage.",
+  "meal_type": "sauce",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "roma-tomatoes-crushed",
+      "item": "roma tomatoes (crushed)",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "28 ounce"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "merlot-wine",
+      "item": "Merlot wine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "italian-sausage",
+      "item": "Italian sausage",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a large pot over medium heat. Add the onion and garlic and cook until tender."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the crushed tomatoes, tomato paste, and Merlot wine until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced Italian sausage. Bring the sauce to a gentle simmer, then cook for 45 minutes, stirring occasionally, until the sausage reaches 160°F internally and the sauce has thickened.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "sauce",
+    "tomato-sauce",
+    "italian-inspired",
+    "pasta-accompaniment"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "wooden spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26290/restaurant-style-spaghetti-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c633aca8ddcf65babc1c519cd6c689f1bfb8f8f62a60024b650e83fcb8513f49",
+    "normalized_text_hash": "c2a55b73bd48ccb48ab72a37289344927dfb874258437e8e3b15a450e1d5c5ae",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:59:57.369Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

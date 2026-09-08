@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-sugar-pie",
+  "name": "Brown Sugar Pie",
+  "subtitle": "A simple, rich pie with caramel-like brown sugar flavor.",
+  "description": "A French-style dessert combining brown sugar, evaporated milk, butter, and vanilla in a gently simmered filling baked until set.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and brown sugar in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the evaporated milk, butter, salt, and vanilla extract until evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a pie dish and bring it to a gentle simmer as directed by the preparation method."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 400°F for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Reduce the oven temperature to 350°F and continue baking for 25 minutes, until the center is firm and fully set.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "brown-sugar",
+    "french-style"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12649/brown-sugar-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4f699069eb5661be01a8e7ce0d41b5218df0aeb67d5ad37c09061e1e03988769",
+    "normalized_text_hash": "5fd4839a4185515c17cb8c0a64a26f923ba5a746e34b4cbd318244d4c95bdfd4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:21:11.920Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

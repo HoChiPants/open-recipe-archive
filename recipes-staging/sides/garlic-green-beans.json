@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-green-beans",
+  "name": "Garlic Green Beans",
+  "subtitle": "Tender green beans with garlic, butter, and Parmesan",
+  "description": "Canned green beans are warmed with browned garlic, butter, olive oil, and a savory Parmesan finish.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "head-garlic",
+      "item": "head garlic",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "green-beans",
+      "item": "green beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce, drained"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the butter and olive oil in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the sliced garlic and cook until lightly browned."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the green beans, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the beans are tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Stir in the Parmesan and warm briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18288/garlic-green-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bdd15348c92aa6a3ec97cb212699b5c2a6b7e169afd363cabfdaa01da9337f18",
+    "normalized_text_hash": "bd68bb114aef5436932a5e8a0137e8076087ad3368209d397ecab9ad89330f98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:35:48.420Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

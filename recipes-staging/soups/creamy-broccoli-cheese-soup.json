@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-broccoli-cheese-soup",
+  "name": "Creamy Broccoli Cheese Soup",
+  "subtitle": "A smooth, hearty soup with broccoli, potatoes, and cheddar.",
+  "description": "Onion, potato, and broccoli simmer in chicken stock before cream and cheddar are added for a rich, comforting soup.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion-peeled-and-chopped",
+      "item": "onion peeled and chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "potatoes-peeled-and-cubed",
+      "item": "potatoes peeled and cubed",
+      "quantity": 4,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "head-of-broccoli-stalks-trimmed-and-cut-into-florets",
+      "item": "head of broccoli stalks trimmed and cut into florets",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "l-chicken-stock",
+      "item": "l chicken stock",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "single-cream",
+      "item": "single cream",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "mature-cheddar-grated",
+      "item": "mature cheddar grated",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sea-salt-and-crackled-black-pepper",
+      "item": "sea salt and crackled black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a large pot. Add the onion and cook until softened."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the potatoes, add the chicken stock, and bring to a simmer. Add the broccoli and simmer until the vegetables are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the single cream until smooth, then add the grated cheddar. Heat gently for 10 minutes, stirring until the cheese melts. Use a food thermometer to confirm the soup reaches 165°F before serving.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Season with sea salt and crackled black pepper, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "starter",
+    "broccoli",
+    "cheese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/creamy-broccoli-cheese-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cfd91ee65d7bbe5fcd54dbbcbc013f627829101982424374bf94f7c3048755c6",
+    "normalized_text_hash": "d5637a9c85a2bbea216d95de2e5da6cc8496dc832198be3abe88c9437624f1a7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:22:04.308Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

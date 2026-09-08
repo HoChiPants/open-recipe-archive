@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-cheese-and-potato-pie",
+  "name": "Apple, Cheese and Potato Pie",
+  "subtitle": "A savory pie with tender apples, potatoes, cheddar, and thyme",
+  "description": "A hearty baked pie combining creamy potatoes, tart apples, sharp cheddar, and a thyme-scented onion sauce in a crisp cheese pastry.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onions-halved-and-finely-sliced",
+      "item": "onions halved and finely sliced",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "bunch-of-thyme-leaves-picked",
+      "item": "bunch of thyme leaves picked",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable stock",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "wholegrain-mustard",
+      "item": "wholegrain mustard",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "potatoes-we-used-maris-piper",
+      "item": "potatoes (we used Maris Piper)",
+      "quantity": 450,
+      "unit": "g",
+      "preparation": "cut into 2-3cm chunks"
+    },
+    {
+      "ingredient_id": "apples-peeled",
+      "item": "apples peeled",
+      "quantity": 3,
+      "preparation": "cored and chopped into 1-2cm chunks"
+    },
+    {
+      "ingredient_id": "mature-cheddar-grated",
+      "item": "mature cheddar grated",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "plain-flour-plus-extra-for-dusting",
+      "item": "plain flour plus extra for dusting",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cheddar-grated",
+      "item": "cheddar grated",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cold-butter-cut-into-cubes",
+      "item": "cold butter cut into cubes",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-beaten",
+      "item": "egg beaten",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Make the pastry by rubbing the cold butter into the plain flour plus extra for dusting until crumbly. Stir in the cheddar grated, add enough cold water to form a dough, then wrap and chill.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Heat the salted butter and vegetable oil in a large pan. Add the onions halved and finely sliced and cook until soft. Stir in half of the bunch of thyme leaves picked and the plain flour, then gradually add the vegetable stock. Simmer until thickened, about 10 minutes, and stir in the wholegrain mustard and white wine vinegar.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Cook the potatoes (we used Maris Piper) in boiling water until tender, then drain and roughly mash. Stir in the apples peeled and mature cheddar grated, followed by the onion sauce.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 375°F. Transfer the filling to a pie dish. Roll out about two-thirds of the pastry on a lightly floured surface and use it to line the dish. Add the filling, roll out the remaining pastry for the lid, and place it on top. Seal and trim the edge, cut a small vent, and brush with the egg beaten. Scatter over the remaining thyme leaves picked.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Bake until the pastry is golden and the center is bubbling and fully set, reaching at least 160°F. Let the pie cool briefly before serving.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 6,
+      "text": "Cool for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "savory-pie",
+    "apple",
+    "potato",
+    "cheddar",
+    "vegetarian",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pan",
+    "pot",
+    "pie dish",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-cheese-potato-pie",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "55154f250e0bece54bc2e875639e751e1e698941dcb400ab947414b280268585",
+    "normalized_text_hash": "d1ee4d49a3912f720c48a2bf8376602ec4970830ba66bb3c8edb22250527e570",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:37:25.770Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

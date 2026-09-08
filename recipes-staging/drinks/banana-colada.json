@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-colada",
+  "name": "Banana Colada",
+  "subtitle": "A creamy frozen banana and coconut drink",
+  "description": "Blend ripe banana, liqueurs, coconut cream, and crushed ice into a smooth chilled drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 2,
+      "preparation": "broken into chunks"
+    },
+    {
+      "ingredient_id": "fluid-ounces-banana-liqueur",
+      "item": "fluid ounces banana liqueur",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "fluid-ounces-irish-cream-liqueur",
+      "item": "fluid ounces Irish cream liqueur",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "fluid-ounces-coconut-cream",
+      "item": "fluid ounces coconut cream",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the Irish cream liqueur and coconut cream together."
+    },
+    {
+      "step": 2,
+      "text": "Combine the banana chunks and banana liqueur with the whisked mixture and crushed ice in a blender."
+    },
+    {
+      "step": 3,
+      "text": "Blend until smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "frozen-drink",
+    "blended-drink",
+    "banana",
+    "coconut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "blender",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20528/baileys-banana-colada/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fb5288dc4c1273d55ef478ebc8978f776e900b41bc36ae067b109816deb1dda7",
+    "normalized_text_hash": "44feea6f52a9288d6e2eaccfd895e3c1edc4e8d6494079e2f46c7e70dcbb9863",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:42:08.305Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

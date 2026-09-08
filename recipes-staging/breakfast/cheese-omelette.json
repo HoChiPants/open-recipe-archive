@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-omelette",
+  "name": "Cheese Omelette",
+  "subtitle": "A tender skillet omelette with melted Emmentaler",
+  "description": "Whisked eggs are cooked in butter until set, filled with shredded Emmentaler, and folded for a quick breakfast.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-white-pepper-to-taste",
+      "item": "salt and freshly ground white pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "emmentaler-cheese",
+      "item": "Emmentaler cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs in a bowl. Add the milk, salt and freshly ground white pepper to taste, and whisk for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Preheat the butter in a skillet over medium heat until melted and foamy."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the egg mixture and cook for 1 minute, gently lifting the edges so uncooked egg can flow underneath.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking until the omelette is set; the center should be firm and reach 160°F."
+    },
+    {
+      "step": 5,
+      "text": "Cook for 1 minute more, then add the Emmentaler cheese over one half.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Fold the omelette over the cheese and cook until the cheese is melted."
+    },
+    {
+      "step": 7,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262696/cheese-omelette/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "35510c27c563a8af82d78d405dc02a68c26d9d048c4461eb5e86d64af8bf0349",
+    "normalized_text_hash": "fb253cc195e32094b8d8e6e76afab9f5639c342639fb4059e6116e245cf10ddd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:06:15.577Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

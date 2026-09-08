@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-yogurt-pie",
+  "name": "Strawberry Yogurt Pie",
+  "subtitle": "A cool, creamy pie with fresh berry flavor",
+  "description": "A simple frozen dessert combining strawberry yogurt, whipped topping, chopped strawberries, and a graham cracker crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-containers-strawberry-flavored-yogurt",
+      "item": "(8 ounce) containers strawberry flavored yogurt",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "12-ounce-container-frozen-whipped-topping",
+      "item": "(12 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "9-inch-prepared-graham-cracker-crust",
+      "item": "(9 inch) prepared graham cracker crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the strawberry yogurt and thawed whipped topping until smooth and evenly blended."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the finely chopped strawberries."
+    },
+    {
+      "step": 3,
+      "text": "Spoon the mixture into the prepared graham cracker crust and smooth the surface."
+    },
+    {
+      "step": 4,
+      "text": "Freeze for 3 hours, or until firm.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 5,
+      "text": "Add the remaining whipped topping before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "frozen",
+    "strawberry",
+    "no-bake"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spatula",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12225/strawberry-yogurt-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cab6b3fb7c43b53d5c038fd1c7bee5676b5d751289058bae6acd735ef9cb002f",
+    "normalized_text_hash": "b733fd06d238862e3117b4cc8004f59459206b85d71e693419b92ab76d89bfdc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:02:23.628Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

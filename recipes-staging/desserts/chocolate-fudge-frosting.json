@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-fudge-frosting",
+  "name": "Chocolate Fudge Frosting",
+  "subtitle": "Rich, smooth frosting for cakes and cupcakes",
+  "description": "A simple chocolate frosting made by melting unsweetened chocolate with butter, then blending it with confectioners' sugar, vanilla, and milk.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "1-ounce-squares-unsweetened-chocolate",
+      "item": "(1 ounce) squares unsweetened chocolate",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the butter and unsweetened chocolate in a saucepan over low heat. Stir until fully melted and smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Remove from the heat and let the mixture cool briefly."
+    },
+    {
+      "step": 3,
+      "text": "Blend in the confectioners' sugar, vanilla extract, and milk until the frosting is smooth, incorporating the melted chocolate thoroughly."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the frosting to a bowl and let it stand before spreading.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8486/carolines-chocolate-fudge-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "14425aa7692032dabfacb65188653e30fc927f63e6b139800e6959eaf2637853",
+    "normalized_text_hash": "646a6c854e60d9668ae7727e9dd366cb84adf3cd3885f51ed76a9d0a08760d8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:56:11.381Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

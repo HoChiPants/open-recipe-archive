@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fudge-walnut-brownies",
+  "name": "Fudge Walnut Brownies",
+  "subtitle": "Rich chocolate squares with a walnut crunch",
+  "description": "A simple batch of fudgy brownies made with melted unsweetened chocolate and coarsely chopped walnuts.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "1-ounce-squares-unsweetened-baking-chocolate",
+      "item": "(1 ounce) squares unsweetened baking chocolate",
+      "quantity": 2,
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "coarsely-chopped-walnuts",
+      "item": "coarsely chopped walnuts",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened butter and sugar until blended. Add the eggs and whisk until smooth, then mix in the melted chocolate and vanilla."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the flour, baking powder, and salt. Stir the dry mixture into the chocolate mixture just until incorporated, then fold in the walnuts."
+    },
+    {
+      "step": 4,
+      "text": "Spread the batter in the prepared pan and bake for 45 minutes, until the center is firm and fully set; a thermometer should read 160°F for the egg mixture.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Let the brownies cool for 30 minutes before cutting into squares.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "brownies",
+    "chocolate",
+    "walnuts",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowls",
+    "whisk",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246011/fudge-walnut-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64d2e3acde223b7b1e7730ab8ac00927e650bfeee9bca83f4075ff6f387bede8",
+    "normalized_text_hash": "c5734dca284699933096597e7bbf27e11eadd3024588b25392c0ee1cf197e824",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:32:02.197Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

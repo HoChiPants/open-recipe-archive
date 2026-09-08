@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rustic-yeast-bread",
+  "name": "Rustic Yeast Bread",
+  "subtitle": "A simple crusty loaf with a tender interior",
+  "description": "Mix, rest, shape, and bake this straightforward yeast bread for a generous batch of homemade loaves.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 340
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "coarse-salt",
+      "item": "coarse salt",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cornmeal",
+      "item": "cornmeal",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the warm water, yeast, and salt together. Let stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Mix in the flour until a rough, cohesive dough forms. Cover and let it rest at room temperature for 5 hours.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough as desired and place it on a surface dusted with cornmeal. Cover and let rise until set, about 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 425°F."
+    },
+    {
+      "step": 5,
+      "text": "Bake the dough for 20 minutes, until golden brown.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-baking",
+    "rustic",
+    "breakfast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244916/effortless-rustic-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cf89b10edd10eca08baab16dc5a958e34b6ce5cee057a05ecd0883d10801a512",
+    "normalized_text_hash": "127ff3891d945ef397ab51dc43b1512f4994c236cb6e9d5c037330ae4d40eb62",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:54:12.359Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-spice-cake",
+  "name": "Apple Spice Cake",
+  "subtitle": "A tender apple cake with warm spices and raisins",
+  "description": "A home-style American cake combining chopped apples, raisins, and aromatic spices, finished with a light dusting of confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-allspice",
+      "item": "ground allspice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 3,
+      "preparation": "peeled, cored and chopped"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a cake pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Soak the raisins in the warm water for 10 minutes, then drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the flour, cinnamon, nutmeg, allspice, and salt."
+    },
+    {
+      "step": 4,
+      "text": "Beat the softened butter and white sugar until creamy. Add the eggs one at a time, then mix in the vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Stir the baking soda with the warm water until smooth, then add it to the butter mixture."
+    },
+    {
+      "step": 6,
+      "text": "Fold in the dry ingredients, chopped apples, and drained raisins until combined."
+    },
+    {
+      "step": 7,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the center is fully set.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Cool the cake in the pan, then cool completely before serving."
+    },
+    {
+      "step": 9,
+      "text": "Dust with the confectioners' sugar before serving."
+    }
+  ],
+  "tags": [
+    "cake",
+    "apple",
+    "spiced",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "cake pan",
+    "mixing bowls",
+    "whisk",
+    "electric mixer or wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8170/apple-spice-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d550f34ad3ae46b8a2d4f60ae0fd09a2c7819eeec514a3e744882fab7f6ccd01",
+    "normalized_text_hash": "deb8aed3eed19c50daf3f2422ce97f20a482570ff4c604c30ef9823f59a55e12",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:21:25.411Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

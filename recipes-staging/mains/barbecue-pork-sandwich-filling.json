@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-pork-sandwich-filling",
+  "name": "Barbecue Pork Sandwich Filling",
+  "subtitle": "Tender shredded pork with tangy barbecue sauce",
+  "description": "Slow-cooked pork is shredded, coated in barbecue sauce, and baked briefly for a hearty sandwich filling.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 270
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "boneless-pork-ribs",
+      "item": "boneless pork ribs",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "18 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the beef broth and boneless pork ribs to a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Cook for 240 minutes, until the pork is tender and reaches 145°F internally; rest it for 3 minutes before shredding.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Shred the pork and transfer it to an oven-safe baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the barbeque sauce until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 6,
+      "text": "Bake the sauced pork until hot throughout.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american",
+    "sandwich-filling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer",
+    "oven-safe baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21174/bbq-pork-for-sandwiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "274d16eaafed957d832743b2f5e97b2cf98a7f420c8cbd3763935b6e5c516c2f",
+    "normalized_text_hash": "2000e5733a8d6ed1ee4b61ee9b01a46a32b90634d08b6486f989ea5ae7cf1073",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:13:29.629Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

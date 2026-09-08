@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-pudding-pound-cake",
+  "name": "Lemon Pudding Pound Cake",
+  "subtitle": "A tender lemon cake with pudding-mix richness",
+  "description": "Cake mix, lemon pudding, eggs, water, and oil combine for an easy bright dessert with a soft pound-cake texture.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon-cake-mix",
+      "item": "lemon cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-lemon-pudding-mix",
+      "item": "instant lemon pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.33333298563957,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Combine the cake mix, pudding mix, eggs, water, and vegetable oil in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk until the batter is smooth, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cake is set, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "lemon",
+    "cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7716/lemon-pound-cake-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "06c0bc0f2007b8bcd6673ff24852383b56d5b47dc3239edcb45feda96a6a4aa9",
+    "normalized_text_hash": "deeea3a41cc4af7558ec0d510bcc7ef7fde2618bb68711c80148ca88a6d21708",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:58:40.303Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

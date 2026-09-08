@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-salad",
+  "name": "Corn Salad",
+  "subtitle": "A crisp, creamy salad with colorful vegetables",
+  "description": "Thawed corn, fresh peppers, cucumber, tomato, and onion are combined with mayonnaise and simple seasoning.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-whole-kernel-corn",
+      "item": "frozen whole-kernel corn",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed"
+    },
+    {
+      "ingredient_id": "yellow-bell-pepper",
+      "item": "yellow bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper",
+      "item": "salt and freshly ground black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the thawed corn, diced peppers, chopped onion, cucumber, and tomato in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the mayonnaise and stir gently until the vegetables are evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Season with salt and freshly ground black pepper to taste, then mix again."
+    },
+    {
+      "step": 4,
+      "text": "Chill the salad until ready to serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "corn",
+    "vegetarian",
+    "cold-dish"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "mixing spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87353/cold-corn-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "19a84efb38d922becbd082115458001f44e88583daa3e171cd1894e4e0e79a34",
+    "normalized_text_hash": "cd5583eb3b81ae965bf545073e90dc534399a97624d205259134fa79e77e38ac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:09:27.489Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

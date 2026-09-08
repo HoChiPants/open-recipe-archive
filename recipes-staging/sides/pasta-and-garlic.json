@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pasta-and-garlic",
+  "name": "Pasta and Garlic",
+  "subtitle": "Simple garlic pasta with Parmesan",
+  "description": "Tender pasta tossed with olive oil, lightly browned garlic, seasoning, and grated Parmesan.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pasta",
+      "item": "pasta",
+      "quantity": 1.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "crushed, or more to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the pasta in simmering salted water until tender, then drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a skillet over medium heat. Add the crushed garlic and sauté until lightly browned."
+    },
+    {
+      "step": 3,
+      "text": "Toss the drained pasta with the garlic oil and season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Sprinkle with the grated Parmesan cheese and serve."
+    }
+  ],
+  "tags": [
+    "pasta",
+    "garlic",
+    "italian",
+    "side-dish",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13985/pasta-and-garlic/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f01da65ee83de04db1da046fa6219e0cde64761c81fa6a9464a4041cb35252d8",
+    "normalized_text_hash": "533d0cb6ecdf315e7ae5e952ba2cabb607ece45f5cf3657624a4890f7ac86fc3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:52:24.248Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

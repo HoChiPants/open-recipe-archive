@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "watermelon-popsicles",
+  "name": "Watermelon Popsicles",
+  "subtitle": "Bright, refreshing frozen watermelon treats",
+  "description": "Blend watermelon with sweeteners and lemon, then freeze the smooth mixture in molds for a simple summer dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "watermelon",
+      "item": "watermelon",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "seeded and diced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the watermelon, water, honey, lemon juice, and sugar to a blender. Blend until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Pour the mixture into six popsicle molds, leaving a little space at the top. Insert sticks and freeze until solid, about 2 hours.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-treat",
+    "watermelon",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "blender",
+    "six popsicle molds"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242400/watermelon-ice-pops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5949ed539292045d46846715482793632556023536924b66c9906a88ea55567b",
+    "normalized_text_hash": "565db810052da597694e867f22cdf2e905d04f2874fa25bfbf84266d424de75f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:57:11.132Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

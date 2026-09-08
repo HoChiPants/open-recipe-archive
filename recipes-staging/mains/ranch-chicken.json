@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ranch-chicken",
+  "name": "Ranch Chicken",
+  "subtitle": "Tender shredded chicken with creamy cheese, ranch seasoning, and bacon",
+  "description": "A simple pressure-cooker chicken dinner finished with cream cheese, Cheddar, and chopped bacon.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "boneless chicken breast"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "slices-cooked-bacon",
+      "item": "slices cooked bacon",
+      "quantity": 6,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken and water in an electric pressure cooker. Sprinkle the ranch dressing mix over the chicken and top with the cream cheese."
+    },
+    {
+      "step": 2,
+      "text": "Secure the lid and cook at high pressure for 15 minutes. Allow a 15-minute natural release, then vent any remaining pressure and let the chicken rest for 5 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Shred the chicken in the cooker. Stir in the bacon and Cheddar until the cheese is melted and the mixture is creamy."
+    },
+    {
+      "step": 4,
+      "text": "Use the sauté setting for 3 minutes, stirring occasionally. Check that the thickest chicken pieces reach 165°F before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pressure-cooker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "electric pressure cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/269147/instant-pot-keto-ranch-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9e8331d1bd5bba558dd1ba3d74e9dd4742ff346edbcc9ae53feea9b2d47bca42",
+    "normalized_text_hash": "a327c2882163153d260af573cb0bf156bfe6a36eaeba63ca91c4a3e6f7f57fc4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:06:34.226Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

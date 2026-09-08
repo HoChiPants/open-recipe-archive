@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "twice-baked-potatoes",
+  "name": "Twice-Baked Potatoes",
+  "subtitle": "Creamy stuffed potatoes with bacon and cheddar",
+  "description": "Baked potato shells are filled with seasoned potato, sour cream, milk, bacon, cheddar, and green onions, then baked again until hot and melted.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "light-sour-cream",
+      "item": "light sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "nonfat-milk",
+      "item": "nonfat milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 4,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Bake the potatoes for 60 minutes, then let them cool for 10 minutes.",
+      "timer_minutes": 70
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon in a skillet until crisp; drain and crumble it."
+    },
+    {
+      "step": 3,
+      "text": "Cut the potatoes in half lengthwise and scoop out the centers, leaving the skins intact."
+    },
+    {
+      "step": 4,
+      "text": "Mash or blend the potato centers with the sour cream, milk, salt, pepper, 0.5 cup shredded Cheddar, and 4 sliced green onions."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the cooked bacon. Spoon the filling into the potato skins and place them on a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Top with the remaining 0.5 cup shredded Cheddar and 4 sliced green onions. Bake for 15 minutes, until the cheese is melted and the filling is hot.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking sheet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222137/healthier-ultimate-twice-baked-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "75727911e9d29ebed20a6201389eaff261cab2221572aa2231f5df417e664dc8",
+    "normalized_text_hash": "12433f47c38224acaf5e106c125ec646837a12099d772b100dc9fef48fa06ae9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:27:16.757Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

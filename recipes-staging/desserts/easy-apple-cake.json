@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-apple-cake",
+  "name": "Easy Apple Cake",
+  "subtitle": "A warmly spiced cake with apples and walnut crumble",
+  "description": "Cake mix, eggs, and apple pie filling form a tender base beneath a brown sugar, cinnamon, and walnut topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "apple-pie-filling",
+      "item": "apple pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare the baking pan with the all-purpose flour."
+    },
+    {
+      "step": 2,
+      "text": "Combine the yellow cake mix, eggs, and apple pie filling until evenly mixed. Transfer the batter to the prepared pan."
+    },
+    {
+      "step": 3,
+      "text": "Mix the packed brown sugar, all-purpose flour, butter, ground cinnamon, and walnuts to make the topping. Scatter it evenly over the batter."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 40 minutes, until the center is firm and fully set or reaches 160°F on a food thermometer.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Cool for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "apple",
+    "cake",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8211/apple-cake-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "19fa0cf103c20178834bb19c8ba278b0e21aa5ad6cc4393ffbc79c23161ed7a6",
+    "normalized_text_hash": "7159745a830334d1f2bc8fcd9835101f97982d09c38dbdc27db96d7dba995004",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:19:14.019Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

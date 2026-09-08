@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "smoked-pork-butt",
+  "name": "Smoked Pork Butt",
+  "subtitle": "Slow-smoked pork with a sweet chile crust",
+  "description": "A simple brown sugar and New Mexico chile rub flavors pork butt during a low-temperature smoke.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 360,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-new-mexico-chile-powder",
+      "item": "ground New Mexico chile powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-pork-butt-roast",
+      "item": "fresh pork butt roast",
+      "quantity": 7,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Let the pork roast stand before cooking as needed for preparation.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 2,
+      "text": "Preheat a smoker to 225°F."
+    },
+    {
+      "step": 3,
+      "text": "Combine the brown sugar and chile powder. Coat the pork roast evenly with the mixture."
+    },
+    {
+      "step": 4,
+      "text": "Place the roast in the smoker and cook at 225°F until a thermometer inserted into the thickest part registers at least 145°F.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 5,
+      "text": "Remove the pork from the smoker and rest for at least 3 minutes before slicing or serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "smoked",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "smoker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17932/smoked-pork-butt/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3d7b4c00d6f72a059e4c42306c8393eb1aa8ca9607a065466744fc82f618a536",
+    "normalized_text_hash": "1febdae203a7cbf2d92f887f2ecab39130ca6ec9c8dcb701f1b02823f713f05b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:58:58.472Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

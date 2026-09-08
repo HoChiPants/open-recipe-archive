@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-cake",
+  "name": "Fruit Cake",
+  "subtitle": "Chilled layered fruit cake with fresh watermelon, berries, and melon",
+  "description": "A simple, no-bake layered fruit dessert that stays crisp and bright when served cold.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "seedless-watermelon",
+      "item": "seedless watermelon",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "hulled and sliced"
+    },
+    {
+      "ingredient_id": "cantaloupe",
+      "item": "cantaloupe",
+      "quantity": 1,
+      "preparation": "seeded, peeled, and sliced"
+    },
+    {
+      "ingredient_id": "fresh-pineapple",
+      "item": "fresh pineapple",
+      "quantity": 1,
+      "preparation": "peeled, cored, and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the seedless watermelon into thick pieces."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the strawberries, cantaloupe, and fresh pineapple using the listed cuts."
+    },
+    {
+      "step": 3,
+      "text": "Arrange all prepared fruit in a serving dish."
+    },
+    {
+      "step": 4,
+      "text": "Chill until cold, then let it sit until set for neat serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "no-bake",
+    "chilled",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "knife",
+    "cutting board",
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218890/100-fruit-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bfad0fcb7157ba4e460254e106f3c9b8906ef71160ddee4ed848b07c8db05dd6",
+    "normalized_text_hash": "eb67e1a9baeb72709b0b0a2cbb94ffa40e12def8ea8e509dfd3bb480ce7bd793",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:05:23.376Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

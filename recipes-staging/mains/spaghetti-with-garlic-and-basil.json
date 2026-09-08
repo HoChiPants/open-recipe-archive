@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spaghetti-with-garlic-and-basil",
+  "name": "Spaghetti with Garlic and Basil",
+  "subtitle": "A simple, buttery pasta with fresh basil",
+  "description": "Spaghetti tossed with garlic, olive oil, melted butter, basil, and Parmesan for an easy main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-spaghetti",
+      "item": "uncooked spaghetti",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a simmer and season with the salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Add the spaghetti and cook for 10 minutes, or until tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Drain the spaghetti, then toss it with the olive oil, melted butter, garlic, and basil until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Serve topped with the grated Parmesan cheese."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/63299/spaghetti-with-garlic-and-basil/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b6c134bd226dda6c00e8719fe312a99968a8bb2490d1c16f917f4fee90134279",
+    "normalized_text_hash": "27d736d7559eea94dc20ea0eb365e6d615b58c4810fce57655f2611a1c1f552d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:19:54.230Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

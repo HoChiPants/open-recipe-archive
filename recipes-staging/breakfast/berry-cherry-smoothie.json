@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "berry-cherry-smoothie",
+  "name": "Berry Cherry Smoothie",
+  "subtitle": "A cool, fruit-forward smoothie with yogurt and citrus",
+  "description": "Blend frozen berries, cherries, banana, orange juice, yogurt, honey, and ice into a smooth, creamy drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-blueberries",
+      "item": "frozen blueberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-cherries",
+      "item": "frozen cherries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-yogurt",
+      "item": "vanilla yogurt",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the banana, frozen strawberries, blueberries, cherries, and ice to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the orange juice, yogurt, and honey."
+    },
+    {
+      "step": 3,
+      "text": "Blend until smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "fruit",
+    "drink",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/172463/simple-summer-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9bdb66864dec8fafb6b9f972464eccf8ac36c1dc8a6784b3eec843fca41eed98",
+    "normalized_text_hash": "b5d4f883a2c05ec6c1ca3d8c32111ff91f7f6aa5c6e77bdc63931842109eba45",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:29:31.837Z",
+    "semantic_similarity": 12,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-rice",
+  "name": "Cinnamon Rice",
+  "subtitle": "Tender rice with cinnamon, sugar, and raisins",
+  "description": "A simple warm rice dessert lightly sweetened with cinnamon and studded with raisins.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-rice",
+      "item": "uncooked rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "nonfat-milk",
+      "item": "nonfat milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the rice, water, milk, raisins, and margarine in a saucepan. Bring the mixture to a boil over medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Reduce the heat to low, cover, and cook until the rice is tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Stir together the cinnamon and sugar. Add the mixture to the cooked rice and stir to combine before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "rice",
+    "cinnamon",
+    "raisins",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/104925/cinnamon-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c8df98829f01a165f1e314f7fbcf326d271987f3b2a188ba0588d010cb994f10",
+    "normalized_text_hash": "402503f29322cadb4a012b05dfc5416fcfbdf6faea1f852c812628cb77f2e654",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:47:06.918Z",
+    "semantic_similarity": 15,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

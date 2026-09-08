@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "english-muffin-bread",
+  "name": "English Muffin Bread",
+  "subtitle": "A soft, cornmeal-dusted loaf with a crisp crust",
+  "description": "A yeasted batter bread baked until golden, with the nooks-and-crannies texture associated with English muffins.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornmeal",
+      "item": "cornmeal",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk and water to 125°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the loaf pans and sprinkle the cornmeal over their interiors."
+    },
+    {
+      "step": 3,
+      "text": "Combine the bread flour, yeast, sugar, salt, and baking soda."
+    },
+    {
+      "step": 4,
+      "text": "Stir the warm milk mixture into the dry ingredients, whisking until evenly mixed. Stir in the remaining flour as needed to form a thick batter."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pans and let it rise for 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 25 minutes, until golden brown.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 8,
+      "text": "Cool before slicing and serving."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "bread",
+    "yeast-bread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "two loaf pans",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20159/english-muffin-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9065ab37a199d8407ef247e05db96977756e5a5c73bf916da647215ecf88fbdb",
+    "normalized_text_hash": "52389b438ae5f6b35a4debf18e63bf7f55f0e6362fdce9ed810c506b9bc8c63e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:01:53.035Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

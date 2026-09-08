@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "soft-yeast-rolls",
+  "name": "Soft Yeast Rolls",
+  "subtitle": "Tender, lightly sweet rolls for the table",
+  "description": "A simple enriched yeast dough shaped into fluffy rolls and baked until golden.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk, water, sugar, and salt together until hot but not boiling. Let the mixture cool until lukewarm."
+    },
+    {
+      "step": 2,
+      "text": "Stir the eggs and active dry yeast into the lukewarm milk mixture."
+    },
+    {
+      "step": 3,
+      "text": "Add enough of the flour to form a soft dough, then mix in the melted margarine and remaining flour."
+    },
+    {
+      "step": 4,
+      "text": "Knead until smooth and elastic. Cover and let rise in a warm place until doubled, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough into 16 rolls and arrange them on a prepared baking sheet. Cover and let rise for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 7,
+      "text": "Bake until golden brown, about 15 minutes.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "rolls",
+    "yeast-bread",
+    "sweet-bread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6758/unbelievable-rolls/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f01f9b07f600033e423b4aacc5264c069f19b7f60cca962c33c3d4a5dffc1d25",
+    "normalized_text_hash": "99170bd45a65d76da7f65ad7af8a539cd1aa0bcde934874f9d0fbb53a90a9e79",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:37:53.865Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

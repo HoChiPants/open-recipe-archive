@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-pork-chops",
+  "name": "Roasted Pork Chops",
+  "subtitle": "Thyme-seasoned pork with a simple oven roast",
+  "description": "Season boneless pork chops with crushed thyme, salt, and pepper, then roast until safely cooked and rest before serving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boneless-center-cut-pork-chops",
+      "item": "boneless center-cut pork chops",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "lightly crushed, or more to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Season the pork chops on all sides with the thyme, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the chops to a roasting pan or baking dish and roast for 20 minutes, or until a food thermometer inserted into the thickest part reads 145°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Remove the chops from the oven and let them rest for at least 3 minutes before cutting and serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pork",
+    "oven-roasted"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan or baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/266162/perfect-simple-roasted-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00c07df2b227eb494bb611e572d524d026a20d160961ea885ed16a74f2efcf46",
+    "normalized_text_hash": "1eb2a0ee0715eff03f2a66d8d19b4389dfd0e1ebbcb8e1cf451fce18d24564fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:10:12.533Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

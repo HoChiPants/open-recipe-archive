@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-biscuits",
+  "name": "Cream Biscuits",
+  "subtitle": "Tender biscuits made with cream and self-rising flour",
+  "description": "Quick, lightly sweet biscuits with a rich cream-based dough and a buttery finish.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted, or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 500°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the self-rising flour and sugar in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the heavy whipping cream until a thick dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Turn the dough onto a lightly floured surface and fold it gently until cohesive. Shape it into a thick round."
+    },
+    {
+      "step": 5,
+      "text": "Cut the dough into biscuits and transfer them to a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake until golden brown, about 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 7,
+      "text": "Brush the hot biscuits with melted butter and let them cool for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "biscuits",
+    "baking",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking sheet",
+    "biscuit cutter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235613/how-to-make-cream-biscuits/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "033290b67f722ef8af40b0e03b29ae4405ead78951dd33e972f08978b264c927",
+    "normalized_text_hash": "1a83b8b8aa034deed63ec8da2657143641b47f531ebc6be6ab15b2a4c0706c49",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:55:03.419Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "graham-cracker-crunch-topping",
+  "name": "Graham Cracker Crunch Topping",
+  "subtitle": "A crisp, cinnamon-sweet topping for desserts",
+  "description": "Bake crumbled graham crackers with brown sugar, cinnamon, butter, vanilla, white sugar, and salt until lightly browned and crunchy.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-crackers",
+      "item": "graham crackers",
+      "quantity": 2,
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "vanilla",
+      "item": "vanilla",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "dash"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the crumbled graham crackers, brown sugar, white sugar, cinnamon, and salt in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir the melted butter and vanilla together, then pour over the crumb mixture and toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mixture in an even layer on a baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until lightly browned. Cool before using.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert-topping",
+    "crunchy",
+    "cinnamon",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/35636/graham-cracker-crunch-topping/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bdec5bac5df2890653858f406e41b62c5b489ab42ee639108e162a82c36bcdb0",
+    "normalized_text_hash": "fac096b3c26185c694a1042eb60b881dafb3e2868b3536496a28d50b29065c6a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:48:41.825Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-bratwurst-stew",
+  "name": "Cheesy Bratwurst Stew",
+  "subtitle": "A hearty slow-cooked stew with sausage, vegetables, and cheddar.",
+  "description": "Browned bratwurst, potatoes, vegetables, and creamy soup cook together before being finished with melted cheddar.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bratwurst-links",
+      "item": "bratwurst links",
+      "quantity": 6,
+      "preparation": "browned and cut into 1/2 inch slices"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "dried-minced-onion",
+      "item": "dried minced onion",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "green-beans",
+      "item": "green beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "seeded and chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cream-of-mushroom-soup",
+      "item": "cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Brown the bratwurst links, then cut them into 1/2-inch slices. Verify the sausage reaches 160°F with a food thermometer."
+    },
+    {
+      "step": 2,
+      "text": "Add the sliced bratwurst, potatoes, dried minced onion, green beans, bell pepper, Cheddar cheese, cream of mushroom soup, and water to a slow cooker. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on the slow-cooker setting that maintains a steady simmer for 3 hours, or until the potatoes are tender.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 4,
+      "text": "Stir well and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "slow-cooker",
+    "soup"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/56391/cheesy-brat-stew-for-the-slow-cooker/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c035158321281394a4fdafd0fa5be7691ecaeb0e20410636545aa0bff5a91cf4",
+    "normalized_text_hash": "2af4c15cb591179647fca3f1a23a7b3e91ed07ca3fa81a99503468b087af70e4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:11:09.365Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

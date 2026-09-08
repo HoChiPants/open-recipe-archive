@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-pancakes",
+  "name": "Pumpkin Pancakes",
+  "subtitle": "Tender spiced pancakes with pumpkin puree",
+  "description": "A simple American breakfast of lightly spiced pumpkin pancakes cooked on a hot griddle.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the flour, sugar, baking powder, cinnamon, and nutmeg in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the milk and pumpkin puree until smooth, then mix in the beaten egg and vegetable oil."
+    },
+    {
+      "step": 3,
+      "text": "Stir the wet mixture into the dry ingredients just until combined and thick; avoid overmixing."
+    },
+    {
+      "step": 4,
+      "text": "Preheat a lightly oiled griddle or skillet to 350°F."
+    },
+    {
+      "step": 5,
+      "text": "Portion the batter onto the hot surface and cook until the pancakes are set enough to turn, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Turn and cook until puffed and fully set in the center, about 1 minute; the egg-containing batter should reach 160°F.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 7,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pancakes",
+    "pumpkin",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "griddle or skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235535/simply-pumpkin-pancakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c7c20e21ea509066b8b038431ee40d5d48f348cf69464d91f6eb21be277996c",
+    "normalized_text_hash": "fcca5dd1f994b82e47635027141e05195db0ff035bd1510f44b326c9909aa8b2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:30:31.532Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 31,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

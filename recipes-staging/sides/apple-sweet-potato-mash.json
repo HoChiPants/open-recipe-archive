@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-sweet-potato-mash",
+  "name": "Apple-Sweet Potato Mash",
+  "subtitle": "Tender sweet potatoes with warmly spiced apple",
+  "description": "A simple sweet-savory side combining creamy mashed sweet potatoes with cinnamon-spiced apple.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-potatoes",
+      "item": "sweet potatoes",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-allspice",
+      "item": "ground allspice",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "granny-smith-apple",
+      "item": "Granny Smith apple",
+      "quantity": 1,
+      "preparation": "peeled, cored and sliced"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.125,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven."
+    },
+    {
+      "step": 2,
+      "text": "Place the diced sweet potatoes in a pot, cover with water, and simmer until tender, about 20 minutes. Drain well.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "While the potatoes cook, melt the butter in a skillet. Stir in the sugar, cinnamon, and allspice, then add the apple and cook until tender, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Mash the drained sweet potatoes with the milk until smooth, then fold in the warm apple mixture."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and bake in the preheated oven until set."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "skillet",
+    "baking dish",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46838/smushed-apples-and-sweet-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d609dc9592ce0129e5b0ee329592152840b63d28ef5acede07bdfa10cecc7250",
+    "normalized_text_hash": "8872ada88a012f39ad5fd893f617c4de5752c9dfd4cc1ca917f616ca178f1458",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:04:46.760Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

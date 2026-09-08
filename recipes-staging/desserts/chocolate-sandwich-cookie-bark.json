@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-sandwich-cookie-bark",
+  "name": "Chocolate Sandwich Cookie Bark",
+  "subtitle": "Creamy white chocolate bark with crunchy cookie pieces",
+  "description": "A simple no-bake candy made by coating broken chocolate sandwich cookies in melted white chocolate, then chilling until firm and cutting into pieces.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 50,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-sandwich-cookies-with-creme-filling",
+      "item": "chocolate sandwich cookies with creme filling",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "20 ounce"
+    },
+    {
+      "ingredient_id": "white-chocolate",
+      "item": "white chocolate",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "18.5 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Break the chocolate sandwich cookies into bite-size pieces and set aside some pieces for the topping."
+    },
+    {
+      "step": 2,
+      "text": "Place the white chocolate and the cookie pieces in a microwave-safe bowl. Microwave in short intervals, stirring between each, until the chocolate is smooth and the cookies are coated."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the remaining cookie pieces, if any, then transfer the mixture to a lined tray and spread it into an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Chill until set, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cut or break the bark into serving pieces."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "lined baking tray",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15684/oreo-cookie-bark/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9ccc529e35b3c348fccaef368afc6ddde6d017bbbeaaeb2d70578bc776e7d486",
+    "normalized_text_hash": "0357ff3f0596b938b253bcf0289e90a438b315740b1f6e64e1c2c19fe6d84efe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:36:47.334Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

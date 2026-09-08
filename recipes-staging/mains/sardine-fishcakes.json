@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sardine-fishcakes",
+  "name": "Sardine Fishcakes",
+  "subtitle": "Crisp, herb-filled fishcakes with warm spices",
+  "description": "Tender sardine fishcakes seasoned with herbs, garlic, chilli, and spices, then dusted and fried until golden.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "(makes 8 fishcakes)"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sardine-fillets",
+      "item": "sardine fillets",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "tomato-grated-optional",
+      "item": "tomato grated (optional)",
+      "quantity": 1,
+      "unit": "medium",
+      "optional": true
+    },
+    {
+      "ingredient_id": "parsley",
+      "item": "parsley",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "coriander",
+      "item": "coriander",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "semolina-or-flour",
+      "item": "semolina or flour",
+      "quantity": 70,
+      "unit": "g",
+      "preparation": "for dusting"
+    },
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "salad-to-serve-optional",
+      "item": "salad to serve (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "garlic-cloves-roughly-chopped",
+      "item": "garlic cloves roughly chopped",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "red-chilli-deseeded-and-roughly-chopped",
+      "item": "red chilli deseeded and roughly chopped",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Crush or finely chop the garlic and chilli, then mix with the cumin, paprika, cayenne pepper, and extra virgin olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Finely chop the sardine fillets. Combine them with the spice mixture, grated tomato if using, parsley, and coriander."
+    },
+    {
+      "step": 3,
+      "text": "Divide the mixture into 8 portions and shape each into a fishcake. Dust all sides with the semolina or flour."
+    },
+    {
+      "step": 4,
+      "text": "Heat the frying oil in a skillet over medium heat for about 3 minutes, until hot.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Fry the fishcakes in batches if needed, turning once, until golden brown and the fish reaches 145°F or is opaque and flakes easily.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 6,
+      "text": "Serve hot with the optional salad."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "fishcakes",
+    "sardines",
+    "pan-fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boulettes-de-sardines-sardine-fishcakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9179552d3aaa2594f6ae56813cf4cea9d52f4b70aa9a5a6a460670d5d4e8733b",
+    "normalized_text_hash": "0ccdb523ffb6b24da36d3bb400984c54cf65258bd10f18a354b41926aebbcb62",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:44:18.091Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

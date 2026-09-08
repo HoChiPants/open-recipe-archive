@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-pie-chutney",
+  "name": "Apple Pie Chutney",
+  "subtitle": "A spiced apple chutney with raisins and cider vinegar",
+  "description": "Cooked apples, raisins, warm spices, sugar, salt, and cider vinegar reduce into a thick chutney for serving with cheese or savory dishes.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 2,
+    "unit": "x 324ml jars"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 100
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "medium-bramley-apples-peeled",
+      "item": "medium Bramley apples peeled",
+      "quantity": 300,
+      "unit": "g",
+      "preparation": "cored and roughly chopped (prepared weight, about 3 apples)"
+    },
+    {
+      "ingredient_id": "medium-braeburn-apples-peeled",
+      "item": "medium Braeburn apples peeled",
+      "quantity": 300,
+      "unit": "g",
+      "preparation": "cored and finely chopped (prepared weight, about 4 apples)"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fine-sea-salt",
+      "item": "fine sea salt",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 400,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine both prepared apples, raisins, nutmeg, cinnamon, sugar, salt, and cider vinegar in a large saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a boil, then reduce the heat and cook until thickened, stirring occasionally, about 100 minutes.",
+      "timer_minutes": 100
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and let the chutney cool."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the cooled chutney into clean 324 ml jars and seal."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "apples",
+    "cheeseboard",
+    "chutney"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "clean 324 ml jars"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-pie-chutney",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "77478d20d79c39edef8d83be505fb57871de1d48c49f3ec7f45c66ab1a0f5457",
+    "normalized_text_hash": "686927a4da9a7fde4858af75a24336e69ec7f51f54087ecfd95d41a566b8cc5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:39:17.260Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

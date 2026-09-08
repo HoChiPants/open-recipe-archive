@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "japanese-broiled-mackerel",
+  "name": "Japanese Broiled Mackerel",
+  "subtitle": "Ginger-mirin glazed mackerel",
+  "description": "Mackerel fillets are briefly marinated in a sweet, savory ginger sauce, then broiled until opaque and flaky.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mackerel-fillets",
+      "item": "mackerel fillets",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mirin-japanese-sweet-wine",
+      "item": "mirin (Japanese sweet wine)",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "grated-fresh-ginger-root",
+      "item": "grated fresh ginger root",
+      "quantity": 0.5,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pat the mackerel fillets dry and arrange them in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the soy sauce, mirin, sugar, and ginger. Pour the mixture over the mackerel and marinate for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Preheat the broiler and position the rack according to your broiler's instructions."
+    },
+    {
+      "step": 4,
+      "text": "Broil the mackerel for about 5 minutes, continuing briefly as needed until the thickest part reaches 145°F and the fish is opaque and flakes easily.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "japanese",
+    "fish",
+    "broiled",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "fish",
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dish",
+    "broiler",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/29497/japanese-broiled-mackerel/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e3aa1db9b7264aefa1849711189e2f13d2ae2ccf0d2cda0f3b0a4a852e8d2783",
+    "normalized_text_hash": "4685a2bfe284eed101a433a0e4b4185e2cb4d80541a461014e847e0d5b4668fe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:25:01.659Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

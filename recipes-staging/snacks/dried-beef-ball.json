@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dried-beef-ball",
+  "name": "Dried Beef Ball",
+  "subtitle": "A savory, shareable cheese snack",
+  "description": "Cream cheese, chopped dried beef, green onions, and savory seasonings formed into a simple party snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-beef",
+      "item": "dried beef",
+      "quantity": 5,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 6,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "If the dried beef is not ready to eat, cook it to 145°F and let it rest for 3 minutes before chopping."
+    },
+    {
+      "step": 2,
+      "text": "Stir the softened cream cheese, chopped dried beef, green onions, Worcestershire sauce, and seasoned salt together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into a ball and serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "party-food",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16527/dried-beef-ball/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "da7a27dbfbdac5ca93cfe527b5c4641f477338ddf0f543b30b75ef8635ebe555",
+    "normalized_text_hash": "a804f4eb04cca230c55d4a317963b782760d5a340a68dd5a70a00739649d3c7d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:13:48.085Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

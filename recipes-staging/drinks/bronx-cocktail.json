@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bronx-cocktail",
+  "name": "Bronx Cocktail",
+  "subtitle": "A balanced gin cocktail with vermouth and fresh orange",
+  "description": "Stir gin, two vermouths, and fresh orange juice with ice, then strain and garnish with orange peel.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-gin",
+      "item": "dry gin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sweet-vermouth",
+      "item": "sweet vermouth",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "dry-vermouth",
+      "item": "dry vermouth",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "freshly-squeezed-orange-juice",
+      "item": "freshly squeezed orange juice",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "strip-of-orange-peel-to-garnish-see-tip-below",
+      "item": "strip of orange peel to garnish (see tip below)"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a mixing glass with ice. Add the gin, sweet vermouth, dry vermouth, and orange juice."
+    },
+    {
+      "step": 2,
+      "text": "Stir until well chilled, then strain into a chilled cocktail glass."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the strip of orange peel."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "gin-drink",
+    "mixed-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing glass",
+    "bar spoon",
+    "strainer",
+    "cocktail glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bronx-cocktail",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d70cd3e610a3e0483991d461ccd605b73a66b92f9cfb90a5597484595c033c5a",
+    "normalized_text_hash": "baed76c278248e65ad4f8532c999f12cf8ae0a69be2830eb8079c1d693d0c5c6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T10:23:09.095Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

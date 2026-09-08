@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-cabbage-and-bacon",
+  "name": "Fried Cabbage and Bacon",
+  "subtitle": "Tender cabbage with crisp bacon and tangy vinegar",
+  "description": "A savory skillet side dish combining cabbage, bacon, onion, and a light cider-vinegar finish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cabbage",
+      "item": "cabbage",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "cut into thin wedges"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped bacon in a large skillet and heat the skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until set, then add the onion and cook until the onion is tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the cabbage, water, sugar, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 15 minutes, stirring occasionally, until the cabbage is tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Stir the bacon back through the cabbage and mix in the cider vinegar before serving."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "cabbage",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23685/fried-cabbage-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e80bdb0b47b4688bca9f902baf38b54829fe5909a0c5c15b7cc548a8ece96cba",
+    "normalized_text_hash": "bb3bdd58a9b1f5e57f89656b43c99daa6f4be84a3c4e05b5d68618dc79b0a5ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:24:57.689Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

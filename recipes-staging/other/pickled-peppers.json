@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickled-peppers",
+  "name": "Pickled Peppers",
+  "subtitle": "Tangy peppers chilled in a sweet vinegar brine",
+  "description": "Tender red bell peppers are heated in a lightly sweetened vinegar brine, then chilled until pickled.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt-to-taste",
+      "item": "kosher salt to taste"
+    },
+    {
+      "ingredient_id": "red-bell-peppers",
+      "item": "red bell peppers",
+      "quantity": 3,
+      "preparation": "halved, or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, vinegar, sugar, and kosher salt in a saucepan. Bring the mixture to a simmer, stirring until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Add the red bell peppers and bring the brine to a boil. Continue heating the peppers for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Transfer the peppers and brine to a suitable container and refrigerate until chilled and pickled, about 8 hours.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "condiment",
+    "pickles",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238547/pickled-peppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6b62cca80376c1b38bf13efd6021e8b8cde2176257a132f4404eb0cb034511aa",
+    "normalized_text_hash": "a26528546f0269931b04790a1d0873c51be77ebe6334604cb4c963e1e53442eb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:17:09.623Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

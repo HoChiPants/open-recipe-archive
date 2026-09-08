@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tex-mex-enchiladas",
+  "name": "Tex-Mex Enchiladas",
+  "subtitle": "Cheesy enchiladas with a savory chili filling",
+  "description": "Corn tortillas are filled with seasoned chili, onion, and Cheddar, coated with enchilada sauce, and baked until hot and melted.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chili-without-beans",
+      "item": "chili without beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "11.25 ounce"
+    },
+    {
+      "ingredient_id": "enchilada-sauce",
+      "item": "enchilada sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "corn-tortillas",
+      "item": "corn tortillas",
+      "quantity": 15
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the enchilada sauce with the chili powder in a saucepan and simmer until heated through."
+    },
+    {
+      "step": 3,
+      "text": "Heat the chili without beans with the vegetable oil in a skillet, sauté until hot, then transfer to a bowl. Stir in the onion and half of the Cheddar."
+    },
+    {
+      "step": 4,
+      "text": "Soften the corn tortillas as needed, then fill each with the chili mixture and roll."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the rolled tortillas in a baking dish. Pour the enchilada sauce over them and sprinkle with the remaining Cheddar."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the enchiladas are hot and the cheese is melted.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "enchiladas",
+    "tex-mex"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "saucepan",
+    "skillet",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216898/tex-mex-enchiladas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d5712da7331c79157014ae873b4b8683f1546efb875286e6ce05d8085eff93a0",
+    "normalized_text_hash": "5915ec957f4d155375d82b843f1ad49caf1ed394b2457879e48e7cfeeca1fc45",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:46:11.914Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

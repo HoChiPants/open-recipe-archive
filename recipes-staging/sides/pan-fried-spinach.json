@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pan-fried-spinach",
+  "name": "Pan-Fried Spinach",
+  "subtitle": "Tender spinach with bacon, onion, and garlic",
+  "description": "Spinach is wilted in a buttery olive-oil skillet with bacon, onion, and garlic, then seasoned simply before serving.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2.6666667461395,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "baby-spinach-leaves",
+      "item": "baby spinach leaves",
+      "quantity": 3,
+      "unit": "bag",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "coarse-salt-and-ground-black-pepper-to-taste",
+      "item": "coarse salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large skillet over medium heat until crisp. Drain it, reserving the skillet."
+    },
+    {
+      "step": 2,
+      "text": "Heat the butter and olive oil in the skillet over medium heat. Add the garlic, onion, and bacon, and cook until the onion begins to soften."
+    },
+    {
+      "step": 3,
+      "text": "Add the spinach and toss until evenly coated.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking until the spinach is tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Season with coarse salt and ground black pepper to taste, then serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "skillet",
+    "spinach"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72713/pan-fried-spinach/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "adf11bfd229f1f300a4cd90e213c77b6e4d6e382e88a5940454b84b9148e7024",
+    "normalized_text_hash": "ccd9f5be5862daa8a33e134e61bb3888713935d4da274ae74a747e985360a4e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:47:34.483Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecued-shredded-beef",
+  "name": "Barbecued Shredded Beef",
+  "subtitle": "Tender oven-braised beef with barbecue flavor",
+  "description": "Beef roast cooks slowly with onions, beer, barbecue sauce, and savory seasonings until tender enough to shred.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 300
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-roast",
+      "item": "beef roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "or-bottles-beer",
+      "item": "or bottles beer",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 6,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "liquid-smoke-flavoring",
+      "item": "liquid smoke flavoring",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "18 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 275°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the beef roast and chopped onions in an oven-safe cooking vessel."
+    },
+    {
+      "step": 3,
+      "text": "Combine the Worcestershire sauce, liquid smoke, garlic powder, black pepper, salt, and barbecue sauce. Pour the mixture over the roast."
+    },
+    {
+      "step": 4,
+      "text": "Add the beer and water, then stir to distribute the liquids around the roast."
+    },
+    {
+      "step": 5,
+      "text": "Cook at 275°F for 5 hours, or until the beef is tender and reaches at least 145°F internally. Let it rest for 3 minutes, then shred.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 6,
+      "text": "Combine the Worcestershire sauce and barbecue sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "barbecue",
+    "slow-cooked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "oven-safe cooking vessel",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14667/barbecued-shredded-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b99906651f2afbbdbb2f6b9ebc9d41c29e0eca49e7324dedbe922508eff4470",
+    "normalized_text_hash": "fdb536c9a92fcb62fd3f11ac75de8f39c2a5bebb0a8229463bb3ebcfab842471",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:03:33.432Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

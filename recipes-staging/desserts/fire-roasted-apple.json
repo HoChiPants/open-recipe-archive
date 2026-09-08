@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fire-roasted-apple",
+  "name": "Fire-Roasted Apple",
+  "subtitle": "A warm apple with brown sugar and cinnamon",
+  "description": "A simple campfire dessert featuring a tender Granny Smith apple sweetened with brown sugar and cinnamon.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "granny-smith-apple",
+      "item": "Granny Smith apple",
+      "quantity": 1,
+      "preparation": "cored"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the cooking fire or grill."
+    },
+    {
+      "step": 2,
+      "text": "Mix the brown sugar and ground cinnamon."
+    },
+    {
+      "step": 3,
+      "text": "Fill the cored apple with the cinnamon-sugar mixture."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the apple to the prepared heat and cook until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Serve warm and finish with the reserved brown sugar, if any."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "apple",
+    "campfire"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "campfire or grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27184/apples-by-the-fire/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "de9728dd0ad88b285073d5ba08d353e3fec60f61fa50fafcca38880ddaffe60b",
+    "normalized_text_hash": "2f5fbb13306954404eec98862219076d2f779cdfb15c7dff877a84c6c1a17caa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:22:12.939Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

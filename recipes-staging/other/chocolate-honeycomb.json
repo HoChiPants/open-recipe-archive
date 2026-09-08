@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-honeycomb",
+  "name": "Chocolate Honeycomb",
+  "subtitle": "Crisp caramelized honeycomb coated in chocolate",
+  "description": "Make a bubbly sugar-and-syrup candy, let it set, then finish the pieces with melted chocolate.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 20,
+    "unit": "cm sheet of honeycomb"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-for-the-tin",
+      "item": "butter for the tin"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "bicarbonate-of-soda",
+      "item": "bicarbonate of soda",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dark-or-milk-chocolate-broken-into-chunks",
+      "item": "dark or milk chocolate broken into chunks",
+      "quantity": 150,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Butter a 20 cm square tin and line it with baking parchment."
+    },
+    {
+      "step": 2,
+      "text": "Put the sugar and golden syrup in a large saucepan. Heat gently until melted, then boil without stirring until the mixture is deep golden and bubbling.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and quickly stir in the bicarbonate of soda. Pour into the prepared tin and leave undisturbed until firm.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Break the set honeycomb into pieces. Melt the chocolate gently, then dip or drizzle it over the pieces and allow the coating to set.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "candy",
+    "confection",
+    "homemade-sweets",
+    "edible-gifts",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "20 cm square tin",
+    "baking parchment",
+    "large saucepan",
+    "heatproof spatula",
+    "bowl for melting chocolate"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-honeycomb",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b4333201337ef100c1838d23bc5706a6689f15fd0b4c4cf2ccc92f60ace12d15",
+    "normalized_text_hash": "3d0d05e1aa4b1caa970878ffdfabcb59f180d785141337e46f6df59ede600c4d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:07:48.059Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

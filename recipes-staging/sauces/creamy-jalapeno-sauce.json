@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-jalapeno-sauce",
+  "name": "Creamy Jalapeno Sauce",
+  "subtitle": "Cool, tangy sauce with fresh jalapeno and cilantro",
+  "description": "Blend sour cream, jalapeno, ranch seasoning, garlic powder, and cilantro into a smooth sauce, then chill before serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-jalapeno-peppers",
+      "item": "fresh jalapeno peppers",
+      "quantity": 2,
+      "unit": "whole",
+      "preparation": "seeded, deveined and minced"
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dry-ranch-salad-dressing-mix",
+      "item": "dry ranch salad dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place all ingredients in a blender or food processor and process until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Refrigerate the sauce for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "sauce",
+    "dip",
+    "no-cook",
+    "spicy",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender or food processor",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55475/creamy-jalapeno/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "027117a981569e7b6d22a45786eb1c49f1b947878781e9d1d83027bd75d73c1a",
+    "normalized_text_hash": "946f49b279408abc48eea1606157f0adf302f7307ba8cb42c3459aa0390ede69",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:38:02.342Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

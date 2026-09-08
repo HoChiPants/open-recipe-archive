@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salted-caramel-sauce",
+  "name": "Salted Caramel Sauce",
+  "subtitle": "A smooth, buttery sauce with a touch of sea salt",
+  "description": "Cook sugar to a deep amber caramel, then blend in butter and cream for a pourable dessert sauce.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 5,
+      "unit": "tablespoons",
+      "preparation": "cut into slices"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the heavy cream and heavy whipping cream gently in a small saucepan; keep them nearby."
+    },
+    {
+      "step": 2,
+      "text": "Cook the sugar in a saucepan over medium heat until it begins to melt, stirring as needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Continue cooking until the sugar is fully melted and deep amber.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Remove the pan from the heat and whisk in the butter slices until melted."
+    },
+    {
+      "step": 5,
+      "text": "Gradually whisk in the warm creams, taking care as the caramel bubbles, until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Stir in the sea salt, then transfer the sauce to a heatproof container and cool before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "sauce",
+    "caramel",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "saucepan",
+    "whisk",
+    "heatproof container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229272/salted-caramel-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "75acc795fb617bef3cd9cb7cf29ed5db15513576ee052e38465e9607dc292e0e",
+    "normalized_text_hash": "50567b7c0a491c3403ad72edbe1f7b84a9a3d31169d7286fb61c82136bb8aa3e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:43:06.368Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

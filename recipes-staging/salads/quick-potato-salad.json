@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "quick-potato-salad",
+  "name": "Quick Potato Salad",
+  "subtitle": "A creamy salad with crisp vegetables and eggs",
+  "description": "Tender diced potatoes are combined with eggs, fresh vegetables, mayonnaise, and mustard for a simple chilled-style salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 3,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 0.5,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "celery-stalk",
+      "item": "celery stalk",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "low-fat-mayonnaise",
+      "item": "low-fat mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-yellow-mustard",
+      "item": "prepared yellow mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water seasoned with some of the salt and pepper to a simmer. Add the diced potatoes and cook until tender, about 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let excess moisture evaporate briefly."
+    },
+    {
+      "step": 3,
+      "text": "Place the potatoes, eggs, cucumber, tomato, celery, onion, and green onion in a bowl. Add the mayonnaise and mustard."
+    },
+    {
+      "step": 4,
+      "text": "Fold the mixture together until evenly coated, then adjust the salt and pepper to taste."
+    }
+  ],
+  "tags": [
+    "quick",
+    "potato-salad",
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/160623/quick-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f51a93e74ea0987c59c351c3623c2b223c436c0034f566ce4d52e394ffe1a7ff",
+    "normalized_text_hash": "e16d2ff9b67ce23d5e6aa6a7fe1b1d52e79bf1b2bf54173d4fea6b6ee6b80606",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:48:23.073Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-stuffed-mushrooms",
+  "name": "Shrimp-Stuffed Mushrooms",
+  "subtitle": "Creamy shrimp filling in baked mushroom caps",
+  "description": "Large mushroom caps are filled with cooked shrimp, crushed crackers, and a two-cheese mixture, then baked until the topping is melted.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "large-mushrooms",
+      "item": "large mushrooms",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "baby-shrimp",
+      "item": "baby shrimp",
+      "quantity": 0.75,
+      "unit": "pound",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "bacon-flavored-crackers",
+      "item": "bacon flavored crackers",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Clean the mushrooms, remove the stems, and arrange the caps in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the cooked shrimp, crushed crackers, softened cream cheese, and shredded Cheddar cheese."
+    },
+    {
+      "step": 4,
+      "text": "Fill each mushroom cap with the shrimp mixture and transfer the dish to the oven."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, until the cheese is melted and the filling is hot. Ensure the shrimp is opaque throughout.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "mushrooms",
+    "shrimp"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25487/shrimp-stuffed-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c2878949a9a35c95a709a9ac2a3a24ee1438fa9b30352ac1f15ca7f498a88159",
+    "normalized_text_hash": "969eedee8689ee67c137c21b2574c57172a71a8ab2b9ddde4cafaf1e0c79bb94",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:21:37.682Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pressure-cooker-mashed-potatoes",
+  "name": "Pressure Cooker Mashed Potatoes",
+  "subtitle": "Creamy mashed potatoes made with simple pantry staples",
+  "description": "Tender russet potatoes are pressure-cooked, drained, and mashed with warm butter, milk, salt, and white pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 3.5,
+      "unit": "pounds",
+      "preparation": "peeled and sliced 3/4 inch thick"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "white-pepper",
+      "item": "white pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the water and potatoes in a pressure cooker. Bring the liquid to a boil, secure the lid, and cook until the potatoes are fully tender, about 15 minutes total cooking time.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Release the pressure and let the cooker stand for 10 minutes before opening. Drain the potatoes thoroughly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Warm the butter and milk together for 5 minutes, then add them to the potatoes with the salt and white pepper.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Mash until smooth and transfer to a serving bowl."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "potatoes",
+    "pressure-cooker",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220853/pressure-cooker-mashed-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e35fee44d141101a9d1033743fa245db7ceff22b55c55e748174a8a2a32bce3",
+    "normalized_text_hash": "676086e74fced910f32055b8b371353adbff2d944bc4d1e5b0dccf6c61023cf6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:28:23.963Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

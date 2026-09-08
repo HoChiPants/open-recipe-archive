@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "curried-cauliflower",
+  "name": "Curried Cauliflower",
+  "subtitle": "Tender cauliflower in a creamy curry sauce with a crisp cracker topping",
+  "description": "A warm cauliflower side dish baked with a savory curry-seasoned sauce and buttery cracker crumbs.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "broken into small florets"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "curry-powder",
+      "item": "curry powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "wheat-crackers",
+      "item": "wheat crackers",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Boil the cauliflower florets until tender, then drain well."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the condensed soup, mayonnaise, milk, and curry powder."
+    },
+    {
+      "step": 4,
+      "text": "Combine the cauliflower with the sauce in a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Crush the wheat crackers and mix them with the melted butter; scatter the topping over the cauliflower."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "mixing bowl",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53195/curried-cauliflower/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1d3e59c7147dc61de6361d7952821dff571279f4c3a43d3550b5aaba10708dcd",
+    "normalized_text_hash": "53a9a21bd503235c421e4d8485f209b2fe71e8f645fa7d34bed5ca7600da8792",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:56:54.534Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

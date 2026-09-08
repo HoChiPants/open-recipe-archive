@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-strawberry-syrup",
+  "name": "Simple Strawberry Syrup",
+  "subtitle": "A bright fruit syrup for drinks, desserts, and breakfast dishes",
+  "description": "Cook strawberries with a simple sugar syrup until thick, then chill before serving.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "quartered"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and white sugar in a saucepan over medium heat, stirring until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Add the strawberries and bring the mixture to a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Simmer for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Continue simmering until the syrup thickens, about 10 minutes more.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and chill before serving."
+    }
+  ],
+  "tags": [
+    "strawberry",
+    "syrup",
+    "condiment",
+    "fruit",
+    "sweet"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223462/simple-strawberry-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9a58620d22261c2f06e32dbf6815a2924d8a8386a0042a8a9424047f9206cd28",
+    "normalized_text_hash": "bdff57dfb7680867c94b9a837fec557dc3e9ee3f7ccbabe5295cb5f3bdced325",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:29:20.873Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

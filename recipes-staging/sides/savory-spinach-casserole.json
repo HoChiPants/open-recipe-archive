@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "savory-spinach-casserole",
+  "name": "Savory Spinach Casserole",
+  "subtitle": "Creamy spinach baked with Parmesan",
+  "description": "A simple warm side dish combining spinach with a creamy cheese mixture and a browned Parmesan finish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.33300000429153,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese, milk, and Parmesan until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the frozen spinach and mix until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and bake at 350°F for 20 minutes, until hot throughout and lightly browned on top.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "casserole",
+    "spinach"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18326/savory-spinach-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6b6321a25cf583c929d8a524742c8d2010e4c7f0957cd6022d54fe3bb1c94e1f",
+    "normalized_text_hash": "bc406acb6e654bc97347cdfd6101c5c5c04ba8b750ea080d223c4a5a106d23e0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:56:06.379Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

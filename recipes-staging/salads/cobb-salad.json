@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cobb-salad",
+  "name": "Cobb Salad",
+  "subtitle": "A quick salad with chicken, bacon, egg, avocado, and tomatoes",
+  "description": "Combine crisp lettuce and fresh toppings with sliced cooked chicken, bacon, and set eggs, then finish with a sharp mustard dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "free-range-eggs",
+      "item": "free-range eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "rashers-streaky-bacon",
+      "item": "rashers streaky bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 20,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "heaped-tbsp-dijon-mustard",
+      "item": "heaped tbsp Dijon mustard",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "little-gem-lettuces",
+      "item": "Little Gem lettuces",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ripe-avocado-scooped-into-chunks",
+      "item": "ripe avocado scooped into chunks",
+      "quantity": "1/2",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "tomatoes-quartered",
+      "item": "tomatoes quartered",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "chicken-breast-about-150g",
+      "item": "chicken breast about 150g",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "cooked, sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan of simmering water and cook for 7 minutes, until the centers are fully set. Cool, peel, and set aside.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Grill the bacon for about 5 minutes, turning as needed, until cooked and crisp. Cool briefly, then chop or leave in pieces.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the olive oil, cider vinegar, and Dijon mustard until thick and combined."
+    },
+    {
+      "step": 4,
+      "text": "Cut the lettuces and arrange them with the avocado, tomatoes, and sliced cooked chicken."
+    },
+    {
+      "step": 5,
+      "text": "Quarter the cooled eggs, add them with the bacon, and drizzle the dressing over the salad."
+    }
+  ],
+  "tags": [
+    "salad",
+    "american",
+    "chicken-salad",
+    "bacon",
+    "quick-meal",
+    "lunch",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "eggs",
+    "sesame"
+  ],
+  "equipment": [
+    "saucepan",
+    "grill or broiler",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cobb-salad-buttermilk-ranch-dressing",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "41668fefa39740c02b033223db3100b9faf8f0f4dcc8d6d0c04e41bb5db80f13",
+    "normalized_text_hash": "fcf0dfcd5988020ac60ffed7d114522cfb7cf2b7a934334c9fba1eb78d8f2998",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:35:35.533Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

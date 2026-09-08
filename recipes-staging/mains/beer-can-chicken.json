@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-can-chicken",
+  "name": "Beer Can Chicken",
+  "subtitle": "Smoky whole chickens with a sweet-spiced rub",
+  "description": "Two whole chickens are seasoned with a brown sugar and paprika rub, positioned over half-full beer cans, and grilled with cherry wood smoke.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherry-wood-chips",
+      "item": "cherry wood chips",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dark-brown-sugar",
+      "item": "dark brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce, half full"
+    },
+    {
+      "ingredient_id": "3-pound-whole-chickens",
+      "item": "(3 pound) whole chickens",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Soak the cherry wood chips in water for 60 minutes, then drain them.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Heat the grill to 350°F. Stir together the brown sugar, salt, paprika, black pepper, and cayenne."
+    },
+    {
+      "step": 3,
+      "text": "Rub the chickens with vegetable oil and coat them evenly with the spice mixture."
+    },
+    {
+      "step": 4,
+      "text": "Set each half-full beer can upright and carefully position one chicken over each can. Place the chickens on the grill with the drained chips, cover, and cook for about 90 minutes.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 5,
+      "text": "Check the thickest part of each chicken with a food thermometer; continue cooking until it reaches 165°F. Remove the chickens carefully and rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "chicken",
+    "smoked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill with lid",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214619/bbq-beer-can-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e89994938b1c3079c6898c7cb83ae9d132f4643585bb8ab31bab916d656534e4",
+    "normalized_text_hash": "3a451835d893a73663ed959132c16afb4bec7042e8bbf9472fcfd609eb94e2a8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:29:39.570Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "savoy-cabbage-and-mushrooms",
+  "name": "Savoy Cabbage and Mushrooms",
+  "subtitle": "Tender cabbage and mushrooms simmered with broth",
+  "description": "A simple vegetable side combining sliced savoy cabbage and mushrooms with herbs and savory broth.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "savoy-cabbage",
+      "item": "savoy cabbage",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "dried-cilantro-leaves",
+      "item": "dried cilantro leaves",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large skillet over medium heat and add the olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the sliced cabbage and mushrooms. Stir and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the dried cilantro leaves and salt to taste, then pour in the vegetable broth."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 20 minutes, stirring occasionally, until the vegetables are cooked through.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267995/savoy-cabbage-and-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "762f48663f72a3ef30d2268671b0432b92bf7ea81dae1733874a89a9cf1061c2",
+    "normalized_text_hash": "c9e7249d231a7c4453e029dadba3cefbffb8666db4e6e25d7bb1a96873657740",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:56:43.678Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

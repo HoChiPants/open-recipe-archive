@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "all-butter-pound-cake",
+  "name": "All-Butter Pound Cake",
+  "subtitle": "A classic dense cake with a tender buttery crumb.",
+  "description": "Creamed butter and sugar form the base for this simple vanilla pound cake.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Grease and flour the baking pan using portions of the listed flour and butter."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the flour, baking powder, and salt."
+    },
+    {
+      "step": 3,
+      "text": "Beat the softened butter and sugar until light and well combined. Add the eggs one at a time, mixing after each addition."
+    },
+    {
+      "step": 4,
+      "text": "Add the flour mixture alternately with the milk, mixing just until incorporated. Stir in the vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the cake is set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool in the pan for 5 minutes, then transfer the cake to a rack and cool for 30 minutes before serving.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pound-cake",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "electric mixer",
+    "baking pan",
+    "cooling rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257278/kentucky-blue-ribbon-all-butter-pound-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5e5aa8a60048ee4c94bd6c0346d3025f6d8bcec97f2025370166996f78a48aa2",
+    "normalized_text_hash": "4e57756df934e56a58dd86f6d261d059ece5d8f3c66c92260162afe7053e6daa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:34:57.096Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

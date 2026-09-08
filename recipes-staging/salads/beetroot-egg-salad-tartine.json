@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beetroot-egg-salad-tartine",
+  "name": "Beetroot Egg Salad Tartine",
+  "subtitle": "A colorful open sandwich with creamy egg and beetroot salad",
+  "description": "A single-serving tartine topped with chopped eggs, cooked beetroot, tangy yogurt, mayonnaise, herbs, and seeds.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "beetroot-finely-chopped",
+      "item": "beetroot finely chopped",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "fat-free-greek-yogurt",
+      "item": "fat-free Greek yogurt",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "spring-onions-sliced",
+      "item": "spring onions sliced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cornichons-finely-chopped",
+      "item": "cornichons finely chopped",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "dill-plus-extra-to-serve",
+      "item": "dill plus extra to serve",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "slices-wholemeal-bread",
+      "item": "slices wholemeal bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "mixed-seeds",
+      "item": "mixed seeds",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "spinach-and-rocket-salad",
+      "item": "spinach and rocket salad",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan, cover with water, and cook until hard-boiled, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Cool the eggs, peel them, and chop them with the beetroot and cornichons."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the Greek yogurt and mayonnaise, then combine with the chopped beetroot mixture."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the sliced spring onions, chopped cornichons, and dill."
+    },
+    {
+      "step": 5,
+      "text": "Spoon the mixture over the bread and scatter with mixed seeds and extra dill."
+    },
+    {
+      "step": 6,
+      "text": "Serve with the spinach and rocket salad, if using."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "supper",
+    "beetroot",
+    "egg",
+    "tartine",
+    "single-serving"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beetroot-egg-salad-tartine",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0b76835c6acd5a2b6e328a0f80ee6a36ba9223600b266efe37c35de0c9b81674",
+    "normalized_text_hash": "57cdacf43d4320d87fd69bfba99a174502f89ba382e041227493c86965f64cc8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:26:01.149Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

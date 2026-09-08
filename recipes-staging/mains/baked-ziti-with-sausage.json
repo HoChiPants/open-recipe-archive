@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-ziti-with-sausage",
+  "name": "Baked Ziti with Sausage",
+  "subtitle": "A hearty pasta casserole with tomato sauce and three cheeses.",
+  "description": "Sausage, marinara, and ziti are layered with ricotta, mozzarella, and Pecorino Romano, then baked until bubbling and melted.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 105,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hot-italian-sausage",
+      "item": "hot Italian sausage",
+      "quantity": 0.75,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "sweet-italian-sausage",
+      "item": "sweet Italian sausage",
+      "quantity": 0.75,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-rosemary",
+      "item": "dried rosemary",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "24-ounce-jars-prepared-marinara-sauce",
+      "item": "(24 ounce) jars prepared marinara sauce",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ziti-pasta",
+      "item": "ziti pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "drizzle-olive-oil",
+      "item": "drizzle olive oil",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "whole-milk-ricotta-cheese",
+      "item": "whole-milk ricotta cheese",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cut into small cubes"
+    },
+    {
+      "ingredient_id": "grated-pecorino-romano-cheese",
+      "item": "grated Pecorino Romano cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flat-leaf-italian-parsley",
+      "item": "flat-leaf (Italian) parsley",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "chopped, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the sausages into small pieces. Heat the olive oil in a large pot over medium heat, then add the sausage and diced onion. Cook for 7 minutes, stirring, until the sausage is browned and reaches 160°F.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Stir in the oregano, thyme, and rosemary for 1 minute. Add the marinara sauce and water, stir to combine, and bring to a simmer.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Add the ziti and cook for 2 minutes, stirring occasionally. Remove from the heat and let stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 375°F. Lightly oil a baking dish with the drizzle olive oil."
+    },
+    {
+      "step": 5,
+      "text": "Combine the ricotta, mozzarella cubes, and Pecorino Romano. Layer the sauced pasta and cheese mixture in the prepared dish, finishing with the remaining sauce and cheese."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 35 minutes, until melted and bubbling and the center reaches 165°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Cool for 15 minutes, sprinkle with parsley, and serve.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "casserole",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/281646/the-best-baked-ziti/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c0636494172e9f9f0caeb9a500b01ae2ce628029e50d8e8a551829836b43f687",
+    "normalized_text_hash": "8cb8336365506a6224397045af03feb5f9be543e62b349ba332e6d2fbaaf4847",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:55:22.654Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-baked-potatoes",
+  "name": "Grilled Baked Potatoes",
+  "subtitle": "Tender foil-wrapped potatoes with crisp skins",
+  "description": "Russet potatoes are lightly oiled, seasoned, wrapped in foil, and grilled until tender for a simple American side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "sheets-aluminum-foil",
+      "item": "sheets aluminum foil",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Scrub the potatoes and pierce each several times with a fork."
+    },
+    {
+      "step": 3,
+      "text": "Rub the potatoes with olive oil and season with salt."
+    },
+    {
+      "step": 4,
+      "text": "Wrap each potato in a sheet of aluminum foil and place the packets on the grill."
+    },
+    {
+      "step": 5,
+      "text": "Grill, turning occasionally, until the potatoes are tender when pierced, about 60 minutes total.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "grilled",
+    "potatoes",
+    "easy-side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "grill",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265377/baked-potatoes-on-the-grill/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "78224cffdb9a3c7bd850e343d3ca24f9be1981526f77c6b4c29c3c9099183f54",
+    "normalized_text_hash": "23d60e4018a62dd7164136c20a5f155f6c181b16496a7ae3f1e624a280e7f2aa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:50:46.843Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

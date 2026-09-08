@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-cheese-muffins",
+  "name": "Bacon Cheese Muffins",
+  "subtitle": "Savory muffins with crisp bacon and Cheddar",
+  "description": "Tender, savory muffins combining bacon, shredded Cheddar, and a lightly seasoned batter.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon until crisp, about 10 minutes, then drain and crumble it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 400°F and coat a 24-cup muffin tin."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the flour, Cheddar, baking powder, garlic salt, and pepper in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "In a separate bowl, whisk the eggs, milk, and oil. Stir the wet mixture into the dry ingredients just until combined, then fold in the bacon."
+    },
+    {
+      "step": 5,
+      "text": "Divide the batter among the prepared muffin cups and bake for 20 minutes, until the centers are firm and reach 160°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "bacon",
+    "cheese",
+    "savory",
+    "muffins"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "24-cup muffin tin",
+    "mixing bowls",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229996/bacon-cheese-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "48de36ce7db331bbf2374c3f60353f9c605e9431c16d9db041e4df8e1fc3b4d0",
+    "normalized_text_hash": "b0364923711ff14316c212fa22aa83cabc31877615d7cb9b98c7108b61997a55",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:11.485Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

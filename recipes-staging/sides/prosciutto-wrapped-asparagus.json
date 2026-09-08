@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "prosciutto-wrapped-asparagus",
+  "name": "Prosciutto-Wrapped Asparagus",
+  "subtitle": "Tender asparagus with creamy cheese and savory prosciutto",
+  "description": "Asparagus spears are layered with softened cheese, wrapped in prosciutto, and baked until tender.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "prosciutto",
+      "item": "prosciutto",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "neufchatel-cheese",
+      "item": "Neufchatel cheese",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "spears-fresh-asparagus",
+      "item": "spears fresh asparagus",
+      "quantity": 12,
+      "preparation": "trimmed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Lay the prosciutto slices on a work surface and spread them with the softened Neufchatel cheese."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the trimmed asparagus spears evenly over the prosciutto and cheese, then layer and wrap the prosciutto around the asparagus."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the wrapped asparagus to a baking dish and bake until tender, about 15 minutes.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "asparagus",
+    "italian"
+  ],
+  "seasons": [
+    "spring",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/42704/prosciutto-wrapped-asparagus/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2c4199dfb262d4229f8c6d3563cd5196106edb76f5676e36479d0654b8490e7c",
+    "normalized_text_hash": "4578994e9cbc463ec907d734442aa48edf5cef7ab0c30850d6dffebf61e99b7b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:30:44.436Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

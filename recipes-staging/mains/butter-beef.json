@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-beef",
+  "name": "Butter Beef",
+  "subtitle": "Tender beef with a savory onion-seasoned sauce",
+  "description": "Beef stew meat cooks slowly with butter and dry onion soup mix until tender, creating a rich, savory main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-stew-meat",
+      "item": "beef stew meat",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "1-ounce-envelope-dry-onion-soup-mix",
+      "item": "(1 ounce) envelope dry onion soup mix",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cubed beef and butter in a covered cooking vessel."
+    },
+    {
+      "step": 2,
+      "text": "Sprinkle the dry onion soup mix evenly over the beef."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook for 4 hours, until the beef is tender and reaches at least 145°F internally.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 4,
+      "text": "Let the beef rest for 3 minutes, then stir the sauce and serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "slow-cooked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "covered cooking vessel",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73910/butter-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bbd61f20fec913e5098004078c3e514acee80b81f2d180e6e1241f969a941ea6",
+    "normalized_text_hash": "19334cab6830a950263f0651b9ac979f64796790f530b591f03ef54e26a30519",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:29:30.191Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

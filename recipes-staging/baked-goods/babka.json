@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "babka",
+  "name": "Babka",
+  "subtitle": "Cinnamon-walnut sweet yeast bread",
+  "description": "A tender braided yeast bread layered with cinnamon, brown sugar, and chopped walnuts.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 35,
+    "inactive_minutes": 200
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hot-milk-185-degrees-f-85-degrees-c",
+      "item": "hot milk (185 degrees F (85 degrees C))",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-43-degrees-c",
+      "item": "warm water (110 degrees F (43 degrees C))",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "packed-light-brown-sugar",
+      "item": "packed light brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sugar, butter, salt, and hot milk. Dissolve the yeast in the warm water, then stir it into the milk mixture."
+    },
+    {
+      "step": 2,
+      "text": "Add 2 eggs and enough flour to form a soft dough. Knead until smooth and elastic, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Place the dough in a prepared bowl, cover, and let rise until doubled, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Whisk 3 eggs with the brown sugar. Stir in the melted butter, cinnamon, and vanilla, then fold in the walnuts."
+    },
+    {
+      "step": 5,
+      "text": "Roll the dough into portions, spread with the filling, shape into loaves, and place in prepared pans. Cover and let rise again for about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Preheat the oven to 350°F. Brush the shaped loaves with the remaining melted butter."
+    },
+    {
+      "step": 7,
+      "text": "Bake until browned and set, about 35 minutes. Cool in the pans for 10 minutes, then transfer to a rack and cool completely before slicing.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "sweet-bread",
+    "yeast-bread",
+    "cinnamon",
+    "walnut",
+    "braided-bread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "loaf pans",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262291/basic-babka/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0dc625b6500d96203a2ba7e06e05bb10fe802a646e14e91f07a069fd4a28a26e",
+    "normalized_text_hash": "f9b91f29114f45372c10dcde439ef6b1f0af47da5c82e8d3af0e35aebbf14bf7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:37:19.145Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

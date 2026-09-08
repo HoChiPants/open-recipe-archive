@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-salad",
+  "name": "Ham Salad",
+  "subtitle": "A creamy, tangy spread with pickle relish and mustard",
+  "description": "Chopped cooked ham is combined with a seasoned mayonnaise mixture, then chilled for a make-ahead salad or sandwich filling.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cooked, chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "dried-minced-onion",
+      "item": "dried minced onion",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dill-pickle-relish",
+      "item": "dill pickle relish",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-mustard",
+      "item": "brown mustard",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped ham in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the mayonnaise, dried onion, pickle relish, and brown mustard until combined."
+    },
+    {
+      "step": 3,
+      "text": "Add the mayonnaise mixture to the ham and stir until evenly coated. Adjust with mayonnaise as needed."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for at least 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "salad",
+    "make-ahead",
+    "ham",
+    "sandwich-filling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large bowl",
+    "mixing spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/188333/winter-blossoms-often-requested-ham-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c12c94232601ca00333c3e794e2221fe08e8b9f8cbe8aa3882fe4a2238622c77",
+    "normalized_text_hash": "a088d9fa604ce027569991e299d7083a18cb14c3c4e9fb8ec0bb2d536eeca955",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:06:48.188Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-brined-chicken",
+  "name": "Beer-Brined Chicken",
+  "subtitle": "Juicy roast chicken with a spiced maple finish",
+  "description": "A whole chicken is brined with beer, citrus, and aromatics, then roasted upright over beer and finished with a smoky-sweet spice coating.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 80
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-about-2kg",
+      "item": "chicken (about 2kg)",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "can-beer-gluten-free",
+      "item": "can beer (gluten-free",
+      "quantity": 440,
+      "unit": "ml",
+      "preparation": "if needed)"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "mustard-seeds",
+      "item": "mustard seeds",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "black-peppercorns",
+      "item": "black peppercorns",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "unwaxed-lemons-sliced",
+      "item": "unwaxed lemons sliced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Slice the lemons. Combine the beer, salt, caster sugar, bay leaves, mustard seeds, black peppercorns, and lemons in a large saucepan; simmer until the salt and sugar dissolve. Cool the brine completely."
+    },
+    {
+      "step": 2,
+      "text": "Submerge the chicken in the cold brine, cover, and chill until thoroughly seasoned. Remove it from the brine and pat the skin very dry; let it stand while the oven heats."
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 400°F. Stir the olive oil, maple syrup, cayenne pepper, and ground cumin together."
+    },
+    {
+      "step": 4,
+      "text": "Pour the beer into a sturdy roasting pan or beer-can chicken holder. Set the chicken upright over it, brush with the spiced maple mixture, and roast for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Continue roasting until the thickest part of the breast and thigh reaches 165°F on a food thermometer.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Transfer the chicken to a board and rest for 10 minutes before carving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "chicken",
+    "roast-chicken",
+    "beer-brine",
+    "maple-glaze",
+    "main-course"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat",
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "large saucepan",
+    "refrigerator",
+    "oven",
+    "roasting pan or beer-can chicken holder",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beer-can-brined-chicken",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1d9f730f708df1c68f0766e7e8a70dda1388f99980a8ff00c238d0b0e6317025",
+    "normalized_text_hash": "3cf6dbeaf485faebaa942c40d5e885bd92f03a565f377d2a52e3a3e28a4925d4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:25:11.811Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

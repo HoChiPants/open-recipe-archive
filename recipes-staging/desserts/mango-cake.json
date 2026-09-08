@@ -1,0 +1,156 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-cake",
+  "name": "Mango Cake",
+  "subtitle": "A bright, lime-scented cake with a simple mango glaze.",
+  "description": "Mango, lime, and rum add tropical flavor to a tender yellow cake finished with confectioners’ sugar glaze.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-mango",
+      "item": "ripe mango",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "box",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lime-zest",
+      "item": "lime zest",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 0.5,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "golden-rum",
+      "item": "golden rum",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking pan as needed for the cake mix."
+    },
+    {
+      "step": 2,
+      "text": "Peel and cut the mango. Blend or mash it with the vegetable oil until smooth; reserve some mango for the glaze if desired."
+    },
+    {
+      "step": 3,
+      "text": "Combine the cake mix, eggs, water, mango mixture, lime zest, lime juice, and rum. Stir for 2 minutes, until evenly combined.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared pan and bake until set and a tester comes out clean, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Cool the cake in the pan for 5 minutes, then transfer it to a rack and cool completely.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "For the glaze, combine the remaining mango, lime zest, melted butter, and lime juice. Stir in the confectioners' sugar until smooth, then fold in the mango mixture."
+    },
+    {
+      "step": 7,
+      "text": "Spread the glaze over the cooled cake, cut into servings, and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "mango",
+    "lime",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan",
+    "blender or food processor",
+    "mixing bowl",
+    "measuring cups and spoons",
+    "cooling rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242236/easy-mango-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "989be0bc22111eac206e9dde588ad5361271cd4458a1df53a1668353927b23c9",
+    "normalized_text_hash": "bd9c6d5c31dd40c64aab830bf826da2e54428927339066149ce9090714cdae0f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:37:50.153Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

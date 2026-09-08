@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pesto-lasagna",
+  "name": "Pesto Lasagna",
+  "subtitle": "A layered spinach, pesto, and cheese bake",
+  "description": "Tender noodles are layered with sautéed spinach, pesto, seasoned ricotta, and creamy sauce, then baked until bubbling and fully set.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 45,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lasagna-noodles",
+      "item": "lasagna noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    },
+    {
+      "ingredient_id": "basil-pesto",
+      "item": "basil pesto",
+      "quantity": 7,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "ricotta-cheese",
+      "item": "ricotta cheese",
+      "quantity": 30,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "alfredo-style-pasta-sauce",
+      "item": "Alfredo-style pasta sauce",
+      "quantity": 9,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring salted water to a simmer. Add the lasagna noodles and cook for 10 minutes. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil and onion until the onion is tender. Stir in the spinach and warm through; set aside."
+    },
+    {
+      "step": 4,
+      "text": "Stir the pesto into the spinach mixture. In a separate bowl, combine the ricotta, egg, salt, pepper, nutmeg, mozzarella, and Parmesan."
+    },
+    {
+      "step": 5,
+      "text": "Layer noodles, spinach mixture, and ricotta mixture in a baking dish. Repeat as needed, finishing with noodles, ricotta mixture, mozzarella, Alfredo-style pasta sauce, and Parmesan."
+    },
+    {
+      "step": 6,
+      "text": "Bake until bubbling and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 55
+    },
+    {
+      "step": 7,
+      "text": "Let the lasagna rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "casserole",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "skillet",
+    "mixing bowl",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23425/pesto-lasagna/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8258f1229055d022d5269dee378d1a9a0803465ae1a098852d80b7b9eca7e015",
+    "normalized_text_hash": "2937dc8a646a81aa28c2d8ce66a7016f1769b13ef8423681f060cec09b04ad84",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:12:41.648Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

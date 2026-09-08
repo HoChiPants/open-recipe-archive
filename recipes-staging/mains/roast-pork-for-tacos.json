@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-pork-for-tacos",
+  "name": "Roast Pork for Tacos",
+  "subtitle": "Slow-roasted pork with green chilies and warm taco spices.",
+  "description": "Tender, seasoned pork shoulder roasted slowly, then shredded for tacos or other Mexican-style meals.",
+  "meal_type": "main",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pork-shoulder-roast",
+      "item": "pork shoulder roast",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "green-chilies",
+      "item": "green chilies",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "4 ounce, diced, drained"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "taco-seasoning",
+      "item": "taco seasoning",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F. Place the pork shoulder in a roasting pan."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the green chilies, chili powder, oregano, taco seasoning, and garlic. Spread the mixture over the pork."
+    },
+    {
+      "step": 3,
+      "text": "Roast for 4 hours, or until the center reaches at least 145°F on a food thermometer.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 4,
+      "text": "Rest the pork for 3 minutes, then shred it. Season with salt to taste and serve for tacos.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican",
+    "tacos",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72421/dees-roast-pork-for-tacos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9c97415a79593223a7f02a9ded31d8fa0364c29dbfa4fe91d00d65cf4b687020",
+    "normalized_text_hash": "41a22839764c8de4832211078e91fef228501d0313a60e122ef47dc7d881d74f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:01:55.919Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

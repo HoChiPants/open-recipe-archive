@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-and-pistachio-no-churn-ice-cream",
+  "name": "Cherry and Pistachio No-Churn Ice Cream",
+  "subtitle": "Creamy cherry ice cream with pistachio butter and toasted nuts",
+  "description": "A simple no-churn dessert combining thickened lemon cherries with a pistachio cream base and crunchy chopped pistachios.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-cherries-pitted",
+      "item": "fresh cherries pitted",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemon-zested-and-juiced",
+      "item": "lemon zested and juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cornflour",
+      "item": "cornflour",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "pistachio-butter",
+      "item": "pistachio butter",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "condensed-milk",
+      "item": "condensed milk",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "pistachios-shelled",
+      "item": "pistachios shelled",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "toasted and finely chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cherries, lemon zest and juice, sugar, and cornflour in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Cook over medium heat for 15 minutes, stirring occasionally, until the fruit mixture thickens.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Let the cherry mixture cool completely."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the double cream, pistachio butter, and condensed milk until soft peaks form."
+    },
+    {
+      "step": 5,
+      "text": "Fold the cooled cherry mixture into the cream base, then stir in the chopped pistachios."
+    },
+    {
+      "step": 6,
+      "text": "Transfer to a freezer-safe container and freeze until firm, about 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 7,
+      "text": "Let the ice cream stand at room temperature for 5 minutes before scooping.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "ice-cream",
+    "no-churn",
+    "cherry",
+    "pistachio"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cherry-pistachio-no-churn-ice-cream",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1b7475fbe5250649446072ca602fde814e25ae167bd9b70f82a9d026279e945e",
+    "normalized_text_hash": "a7a8cb03a00e94d9ecdac37b2d84374fe1f22d37df37b74e3b7ad0a902e65659",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:19:47.601Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-carob",
+  "name": "Hot Carob",
+  "subtitle": "Warm, lightly sweetened carob drink",
+  "description": "Milk, carob powder, honey, and vanilla combine into a quick warming beverage.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "carob-powder",
+      "item": "carob powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk and carob powder together in a small saucepan, stirring until smooth and hot, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir in the honey and vanilla extract. Serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "warm-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/204829/hot-carob/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b59c49bc557a04c2b515f223411a8e8c0bb5efe5f899b0e17a3d75b03c47520f",
+    "normalized_text_hash": "8c269144566a72a35f261eaeff3453405ba0656d98d0eab0a999e9fe358b8ae7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:51:22.575Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

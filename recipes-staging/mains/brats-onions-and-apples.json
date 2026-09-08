@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brats-onions-and-apples",
+  "name": "Brats, Onions, and Apples",
+  "subtitle": "Sausage simmered with sweet apples and onions",
+  "description": "Brown bratwurst, then simmer it with tender apples, onions, and beer for a savory-sweet skillet meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "bratwurst",
+      "item": "bratwurst",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 2,
+      "preparation": "cored and sliced"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "or-bottles-beer",
+      "item": "or bottles beer",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large skillet over medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the bratwurst and cook, turning occasionally, for 3 minutes. Transfer the brats to a plate.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the apples and sliced onion to the skillet. Stir, then cook the onion mixture until softened, about 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Return the bratwurst to the skillet, pour in the beer, and season with salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Bring to a simmer and cook until the brats are fully cooked and reach 160°F internally, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Serve the bratwurst with the apples and onions."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "skillet-meal",
+    "sausage",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237839/brats-onions-and-apples/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "71385725fc991b19db034e617b1e4cc9a635b6d0393ee32bb6f76b0688bca83a",
+    "normalized_text_hash": "9d573fba382ea1773483d4ee02e8dad3287517307c17f39ff4c8b2c7e51e023d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:08:36.642Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

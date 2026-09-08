@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "parmesan-crusted-tilapia",
+  "name": "Parmesan-Crusted Tilapia",
+  "subtitle": "A crisp, savory baked fish dinner",
+  "description": "Tilapia fillets are coated with seasoned Parmesan and baked until opaque and easily flaked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "tilapia-fillets",
+      "item": "tilapia fillets",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "drizzle-olive-oil",
+      "item": "drizzle olive oil",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the Parmesan, parsley, paprika, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Drizzle the tilapia with olive oil, then press the Parmesan mixture over the fillets to coat."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the coated fillets in a baking dish and bake for 12 minutes, until the fish reaches 145°F or is opaque and flakes easily with a fork.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228056/parmesan-crusted-tilapia-fillets/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d5e95248cfc0f0bc219dc6650deafa4b4020acd4d938c330ac34214d8d1e3bf",
+    "normalized_text_hash": "ada9a69ca27a7c76adce930c2eaa528dd3e02ad9e37b4a8d1501fb1fc24628e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:51:09.063Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

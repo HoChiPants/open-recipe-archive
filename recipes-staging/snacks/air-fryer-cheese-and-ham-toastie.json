@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-cheese-and-ham-toastie",
+  "name": "Air-Fryer Cheese and Ham Toastie",
+  "subtitle": "A crisp, melty toasted sandwich for one",
+  "description": "Butter-brushed bread filled with mustard, melted cheese, ham, and chives, finished in the air fryer.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "slices-sourdough-or-other-bread",
+      "item": "slices sourdough or other bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "english-mustard",
+      "item": "English mustard",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "grated-mature-cheddar-or-gruye-re",
+      "item": "grated mature cheddar or gruyère",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chives",
+      "item": "chives (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped",
+      "optional": true
+    },
+    {
+      "ingredient_id": "thick-slice-of-ham",
+      "item": "thick slice of ham",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 2,
+      "text": "Spread the mustard over one slice of bread. Add the cheese, ham, and chives, then top with the second slice."
+    },
+    {
+      "step": 3,
+      "text": "Spread the softened butter over the outside of both bread slices and place the sandwich in the air-fryer basket."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry for 10 minutes, turning if needed, until the bread is crisp and the cheese is melted. If the ham is an uncooked whole cut of pork, verify that it reaches 145°F, then rest it for 3 minutes before eating.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "snack",
+    "sandwich",
+    "air-fryer",
+    "cheese",
+    "ham",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "butter knife",
+    "cutting board",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-cheese-ham-toastie",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f7bdb570456b72a3a8eb40bfeac0525c5525044cdbfed23d5ecd0d8420b426cb",
+    "normalized_text_hash": "a3247968eb14b19c7541e2e614351c59a967872b36863a0ade57612bd21b4b9f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:22:34.323Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

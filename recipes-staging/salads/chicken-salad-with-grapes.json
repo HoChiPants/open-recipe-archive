@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-salad-with-grapes",
+  "name": "Chicken Salad with Grapes",
+  "subtitle": "A chilled chicken salad with crisp celery and sweet grapes",
+  "description": "Mix drained chicken with fresh vegetables, grapes, dill, and a tangy-sweet mayonnaise dressing, then serve in split croissants.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breast-chunks",
+      "item": "chicken breast chunks",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 ounce, drained"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-seedless-grapes",
+      "item": "red seedless grapes",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-dill",
+      "item": "fresh dill",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "croissants",
+      "item": "croissants",
+      "quantity": 8,
+      "preparation": "split"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "If the chicken is not fully cooked, cook it to an internal temperature of 165°F, then cool and drain it."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the mayonnaise, sugar, and vinegar until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine the chicken, celery, grapes, onion, dill, salt, and pepper. Fold in the dressing."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the salad into the split croissants."
+    },
+    {
+      "step": 5,
+      "text": "Chill the filled croissants for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "lunch",
+    "make-ahead",
+    "chilled",
+    "sandwich"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217831/brees-chicken-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "39e7bea136ecb90b484cfc5fd12be694870db422a862bf7acc1f57b9b57a7dcd",
+    "normalized_text_hash": "df02626414c50622c4faec392cfac65498ba11a080bc2489230ac0766de0cb37",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:15:18.007Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

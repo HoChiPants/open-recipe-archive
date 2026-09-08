@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-fudge-ice-cream-bar-dessert",
+  "name": "Hot Fudge Ice Cream Bar Dessert",
+  "subtitle": "A frozen layered dessert with warm chocolate-peanut sauce",
+  "description": "Ice cream sandwiches are layered with whipped topping, chocolate-peanut sauce, and salted peanuts, then frozen until firm and cut into bars.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 2,
+    "inactive_minutes": 63
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-syrup",
+      "item": "chocolate syrup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice-cream-sandwiches",
+      "item": "ice cream sandwiches",
+      "quantity": 19
+    },
+    {
+      "ingredient_id": "12-ounce-container-frozen-whipped-topping",
+      "item": "(12 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "salted-peanuts",
+      "item": "salted peanuts",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the chocolate syrup for 2 minutes. Stir in the peanut butter until smooth, then let the sauce cool.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Arrange the ice cream sandwiches in a serving dish, trimming them as needed to form an even layer."
+    },
+    {
+      "step": 3,
+      "text": "Spread the thawed whipped topping over the ice cream sandwiches."
+    },
+    {
+      "step": 4,
+      "text": "Drizzle or spread the cooled chocolate-peanut sauce over the topping, then add the salted peanuts."
+    },
+    {
+      "step": 5,
+      "text": "Freeze until firm, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cut into bars and serve immediately."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-dessert",
+    "ice-cream",
+    "chocolate",
+    "peanut-butter",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon",
+    "serving dish",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22728/hot-fudge-ice-cream-bar-dessert/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c838676f8c9d753278cae4437fa56c2c1172c65fc7f493ec211c53c70f0b4e5b",
+    "normalized_text_hash": "bac7f6332041a8c98322af57cd6e73a796567a63db82aec991b35cbe40bc69cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:52:46.187Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

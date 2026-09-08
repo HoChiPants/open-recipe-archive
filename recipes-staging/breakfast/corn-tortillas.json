@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-tortillas",
+  "name": "Corn Tortillas",
+  "subtitle": "Soft, pliable tortillas made with masa harina",
+  "description": "Make fresh corn tortillas by mixing, resting, shaping, and griddling a simple masa dough.",
+  "meal_type": "breakfast",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "masa-harina",
+      "item": "masa harina",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "hot-tap-water",
+      "item": "hot tap water",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "about 130 degrees F (55 degrees C)"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the masa harina, hot water, and salt. Stir until a dough forms, then knead until smooth, adding the remaining hot water as needed for a soft, workable dough."
+    },
+    {
+      "step": 2,
+      "text": "Cover the dough and let it rest for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Divide the dough into 10 equal portions. Press each portion between sheets of plastic or parchment until thin and round."
+    },
+    {
+      "step": 4,
+      "text": "Heat a dry skillet or griddle over medium-high heat."
+    },
+    {
+      "step": 5,
+      "text": "Cook the tortillas in batches until set and lightly browned in spots, about 1 minute per side, turning as needed.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Transfer cooked tortillas to a clean towel, fold the towel over them, and keep covered for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "corn-tortillas",
+    "mexican",
+    "breakfast",
+    "flatbread",
+    "masa-harina"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "skillet or griddle",
+    "tortilla press or flat-bottomed dish",
+    "plastic wrap or parchment",
+    "clean kitchen towel"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263455/chef-johns-corn-tortillas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d7048e9f254f8ffc901f653b14c8b512e122164d3a2fc5b48a7f5ece3d463576",
+    "normalized_text_hash": "a0a22cba88be5b37e78a1ace41dd851f9635951e10dd610e96583cd898d59f31",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:27:11.228Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

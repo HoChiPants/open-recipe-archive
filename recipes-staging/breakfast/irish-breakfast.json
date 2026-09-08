@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "irish-breakfast",
+  "name": "Irish Breakfast",
+  "subtitle": "A hearty skillet breakfast with bacon, eggs, tomatoes, mushrooms, and soda bread.",
+  "description": "Cook the components separately in one skillet, then serve them together while hot.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thick-slices-bacon",
+      "item": "thick slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "butter-or-margarine",
+      "item": "butter or margarine",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "whole-mushrooms",
+      "item": "whole mushrooms",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "slices-prepared-soda-bread",
+      "item": "slices prepared soda bread",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the bacon and soda bread so they are ready to cook, and preheat a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until browned and crisp. Transfer it to a plate, leaving the rendered fat in the skillet if desired."
+    },
+    {
+      "step": 3,
+      "text": "Add the butter or margarine. Sauté the tomatoes and mushrooms until heated through and lightly browned, then transfer them to the plate with the bacon."
+    },
+    {
+      "step": 4,
+      "text": "Warm or toast the soda bread in the skillet, then set it aside."
+    },
+    {
+      "step": 5,
+      "text": "Prepare the eggs in the skillet until the whites and yolks are fully set and the internal temperature reaches 160°F."
+    },
+    {
+      "step": 6,
+      "text": "Serve the eggs with the bacon, tomatoes, mushrooms, and soda bread."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "irish",
+    "skillet",
+    "savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "spatula",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15926/irish-breakfast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d3c3023fc3e18d352371821df46c6eb67a42a03dcbcaf4809a55f6d0bb49b1ab",
+    "normalized_text_hash": "c364c857300a21b923cc5e21ee42dc85c9cf7b058eded1b15ef88361b5f8739c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:14:02.664Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

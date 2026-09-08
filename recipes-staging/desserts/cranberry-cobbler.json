@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-cobbler",
+  "name": "Cranberry Cobbler",
+  "subtitle": "A tart cranberry dessert with a golden baked topping.",
+  "description": "Fresh cranberries are sweetened and topped with a simple butter-and-egg batter, then baked until lightly browned.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "fresh-cranberries",
+      "item": "fresh cranberries",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Toss the cranberries with half of the divided sugar and place them in the prepared dish."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the remaining sugar with the flour, melted butter, and eggs until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Spread the batter over the cranberries."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until lightly browned and the center is fully set.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cranberry",
+    "fruit-dessert",
+    "baked-dessert",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277337/cranberry-cobbler/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d4868fc3883906f7a493deef163ce7e41a5f5806e524710ce509021984c692f8",
+    "normalized_text_hash": "d818b0ea166bfec91d9a03d62a5673cd90638c765e33dd864a472516bee7c5a5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:21:31.412Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

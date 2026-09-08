@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buttercream-icing",
+  "name": "Buttercream Icing",
+  "subtitle": "Smooth vanilla frosting for cakes and cupcakes",
+  "description": "A simple vanilla buttercream finished with optional coloring and ready to spread or pipe.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "pure-vanilla-extract",
+      "item": "pure vanilla extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "food-coloring",
+      "item": "food coloring",
+      "quantity": 3,
+      "unit": "drops",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the room-temperature butter in a mixing bowl and whisk until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the sifted confectioners' sugar."
+    },
+    {
+      "step": 3,
+      "text": "Add the vanilla extract and whisk to combine."
+    },
+    {
+      "step": 4,
+      "text": "Add the milk and continue whisking the frosting until light and smooth, about 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the food coloring until evenly blended and smooth."
+    },
+    {
+      "step": 6,
+      "text": "Use the icing immediately to frost or pipe onto the desired dessert."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "buttercream",
+    "vanilla",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/174347/quick-and-almost-professional-buttercream-icing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5feb1b84ad3c1dffbdaa58cf9e592c7566bce5f5f64594f49e4e16b156b60598",
+    "normalized_text_hash": "fdacbcc718f855a498fc3b37529e3215b2f0b00ea91f492dd629334114d26b73",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:38:34.636Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

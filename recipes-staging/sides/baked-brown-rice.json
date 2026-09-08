@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-brown-rice",
+  "name": "Baked Brown Rice",
+  "subtitle": "Tender, hands-off brown rice from the oven",
+  "description": "Brown rice baked with boiling water, salt, and a little canola oil for a simple side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-brown-rice",
+      "item": "uncooked brown rice",
+      "quantity": 1.6666667461395,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Lightly coat a covered baking dish with the canola oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the brown rice and salt to the dish, then pour in the boiling water. Stir briefly and spread the rice into an even layer."
+    },
+    {
+      "step": 3,
+      "text": "Cover the dish tightly and bake for 60 minutes, until the water is absorbed and the rice is tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Let the rice stand briefly, then fluff with a fork and serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "rice",
+    "whole-grain",
+    "oven-baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "covered baking dish",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245916/no-fuss-perfect-baked-brown-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d97392d033232910b8d13d740e1d666f040bdc154680f02f6bcf2002f9604463",
+    "normalized_text_hash": "a4bca9b99be4fbdbd33484fc15052d39d05cb4dc64a208e7dfa6eba6a0c40307",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:15:41.004Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

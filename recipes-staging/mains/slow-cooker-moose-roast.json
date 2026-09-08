@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-moose-roast",
+  "name": "Slow Cooker Moose Roast",
+  "subtitle": "Tender moose roast with apple-juice gravy",
+  "description": "A simple slow-cooked moose roast seasoned with onion soup mix and apple juice.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 370
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "moose-roast",
+      "item": "moose roast",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "1-ounce-envelope-dry-onion-soup-mix",
+      "item": "(1 ounce) envelope dry onion soup mix",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "apple-juice",
+      "item": "apple juice",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium-high heat and add the vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the moose roast and brown it briefly on all sides."
+    },
+    {
+      "step": 3,
+      "text": "Place the roast in a slow cooker. Add the dry onion soup mix and apple juice."
+    },
+    {
+      "step": 4,
+      "text": "Cover and cook until tender, about 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 5,
+      "text": "Check the thickest part with a food thermometer; cook until it reaches 145°F, then rest for 3 minutes before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "roast",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "skillet",
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/48390/slow-cooker-moose-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "523ca7b04bb8502f8872b120dd166ff961b3385c6102a22abf8d87a49a974e6d",
+    "normalized_text_hash": "7e7c4de385550180d4f3aafc268fdc26f8ff6759029a4c46084b46c804efcbf6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:46:35.620Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

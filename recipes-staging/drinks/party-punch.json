@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "party-punch",
+  "name": "Party Punch",
+  "subtitle": "A bright citrus-pineapple punch finished with ginger ale",
+  "description": "Combine the juices and water, chill until cold, then add ginger ale just before serving for a lightly sparkling punch.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-orange-juice-concentrate",
+      "item": "frozen orange juice concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "46 fluid ounce"
+    },
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 1,
+      "unit": "liter"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the orange juice concentrate, water, and pineapple juice in a large punch bowl or pitcher; stir until blended."
+    },
+    {
+      "step": 2,
+      "text": "Chill the mixture until cold."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the ginger ale immediately before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "punch",
+    "citrus",
+    "pineapple",
+    "nonalcoholic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large punch bowl or pitcher",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32696/party-punch-v/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3c70a731252d83c6830891aaa77b3d65a45fb05080f81c984429fdb713bd8738",
+    "normalized_text_hash": "59289541b23a7e0ee6c196438b4ede9f26520d70ae46338a9f0e36d9767e1a42",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:52:02.053Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

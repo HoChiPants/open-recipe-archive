@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-beef",
+  "name": "Roast Beef",
+  "subtitle": "Slow-cooked beef with savory mushroom-broth gravy",
+  "description": "A simple long-cooked rump roast served with its rich mushroom and beef-broth sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rump-roast",
+      "item": "rump roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-beef-broth",
+      "item": "condensed beef broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the condensed mushroom soup and beef broth together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Place the rump roast in a slow cooker or covered cooking vessel, then pour the soup mixture over it."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on low for 8 hours, until the center reaches at least 145°F. Rest the roast for 3 minutes before slicing, and serve with the cooking sauce.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker or covered cooking vessel",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26583/awesome-roast-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "69f5bf90ed50c4e40ad37a1ceb297a731c2a68ae1ae03c60e9cb83131dc9f09b",
+    "normalized_text_hash": "715e4582cd15b721f95775d6f00817ca1e67a9985e2ef1152d690e1c22e46b4d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:36:39.514Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

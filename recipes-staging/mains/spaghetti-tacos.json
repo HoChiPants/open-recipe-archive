@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spaghetti-tacos",
+  "name": "Spaghetti Tacos",
+  "subtitle": "Angel hair pasta tucked into crisp taco shells",
+  "description": "A quick Italian-inspired dinner that combines sauced angel hair pasta with crunchy taco shells and Parmesan.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "angel-hair-pasta",
+      "item": "angel hair pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "28-ounce-jar-spaghetti-sauce",
+      "item": "(28 ounce) jar spaghetti sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "crisp-taco-shells",
+      "item": "crisp taco shells",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5.8 ounce"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a simmer, then cook the angel hair pasta for 5 minutes, or until boiling-water tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Drain the pasta and return it to the pot. Stir in the spaghetti sauce until evenly coated and heated through."
+    },
+    {
+      "step": 3,
+      "text": "Warm the taco shells briefly in the microwave, then fill them with the sauced pasta."
+    },
+    {
+      "step": 4,
+      "text": "Sprinkle with Parmesan cheese and serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "italian-inspired",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "microwave"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216053/spaghetti-tacos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0a17e986c3686c9bc0efd1af201161431748c1a1ab8bdb5e99f95af9569fb05b",
+    "normalized_text_hash": "78cb78a13ae5f30e3ba1953f149a7d7555efef880270d5b88f06d7fa515dd2ff",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:19:24.257Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

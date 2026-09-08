@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-sangria",
+  "name": "Fruit Sangria",
+  "subtitle": "A chilled red-wine punch with citrus and fresh fruit",
+  "description": "Combine sliced citrus, brandy, wine, and fruit, then chill before finishing with soda and orange juice.",
+  "meal_type": "drink",
+  "cuisine": "Spanish",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange",
+      "item": "orange",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "all-purpose-apples",
+      "item": "all purpose apples",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "pared, cored and sliced"
+    },
+    {
+      "ingredient_id": "cherries",
+      "item": "cherries",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "fresh-pineapple-chunks",
+      "item": "fresh pineapple chunks",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brandy",
+      "item": "brandy",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-red-wine",
+      "item": "dry red wine",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "750 milliliter"
+    },
+    {
+      "ingredient_id": "lemon-lime-soda-to-taste",
+      "item": "lemon-lime soda to taste",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "orange-juice-to-taste",
+      "item": "orange juice to taste",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Slice the orange, lemon, and lime. Place the citrus, apple, cherries, and pineapple in a large pitcher."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the brandy and let the fruit stand for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Add the red wine and orange juice, stir well, and chill until cold."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the lemon-lime soda just before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "sangria",
+    "spanish",
+    "red-wine",
+    "fruit-punch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "chef's knife",
+    "cutting board",
+    "large pitcher",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54562/sangria-by-the-pros/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4935ad2b25089731fc99cfd19f4d2c64c599e1ede001f763f0558079b9072ee6",
+    "normalized_text_hash": "8d0c603d8f63f86616cc332705d5709d62becc06819fb2b8b302b2c3f4cb8fc0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:45:06.057Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

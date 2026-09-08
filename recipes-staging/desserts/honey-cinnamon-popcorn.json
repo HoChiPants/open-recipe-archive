@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-cinnamon-popcorn",
+  "name": "Honey Cinnamon Popcorn",
+  "subtitle": "Sweet, lightly spiced stovetop popcorn",
+  "description": "Freshly popped corn is coated with honey, cinnamon, and salt for a quick sweet snack or dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coconut-oil",
+      "item": "coconut oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "popcorn-kernels",
+      "item": "popcorn kernels",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the coconut oil in a large covered pot over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the popcorn kernels, cover, and cook for about 5 minutes, shaking the pot occasionally, until the popping slows.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Transfer the popcorn to a large bowl. Add the honey, salt to taste, and ground cinnamon, then toss until evenly coated."
+    }
+  ],
+  "tags": [
+    "popcorn",
+    "sweet-snack",
+    "stovetop",
+    "quick-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large covered pot",
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230782/healthy-popcorn-treat/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2fe8ce077366bb98e5deac487e95286521280fd92c512c28a62a16ed546ef658",
+    "normalized_text_hash": "3093e972738b441fe5889a011c9689c3d8de0a0f57c0792b4af673aed463f872",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:28:26.220Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

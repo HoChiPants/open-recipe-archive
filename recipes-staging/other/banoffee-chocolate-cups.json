@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banoffee-chocolate-cups",
+  "name": "Banoffee Chocolate Cups",
+  "subtitle": "Chocolate cups with biscuit, banana, and dulce de leche",
+  "description": "Individual chocolate treats layered with crunchy biscuit, banana crumbs, and dulce de leche.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 2,
+    "inactive_minutes": 13
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dark-chocolate-chopped",
+      "item": "dark chocolate chopped",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chopped",
+      "item": "milk chocolate chopped",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mini-digestive-biscuits-or-some-crushed-digestive-biscuits",
+      "item": "mini digestive biscuits (or some crushed digestive biscuits)",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "banana-chips",
+      "item": "banana chips",
+      "quantity": 40,
+      "unit": "g",
+      "preparation": "finely crumbled"
+    },
+    {
+      "ingredient_id": "dulce-de-leche",
+      "item": "dulce de leche",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chocolate-curls-gold-sprinkles-or-edible-gold-leaf",
+      "item": "chocolate curls gold sprinkles or edible gold leaf",
+      "preparation": "to decorate (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set 12 mini digestive biscuits or crushed biscuit portions into small paper cups or molds."
+    },
+    {
+      "step": 2,
+      "text": "Melt the dark and milk chocolates together in the microwave, stirring every 30 seconds, until smooth; use a total of about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Spoon enough melted chocolate into each cup to cover the biscuit, then sprinkle with the finely crumbled banana chips. Let the chocolate cool and thicken slightly.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir the dulce de leche until smooth and spoon it over the chocolate and banana layers."
+    },
+    {
+      "step": 5,
+      "text": "Cover each cup with the remaining melted chocolate and add the optional decoration."
+    },
+    {
+      "step": 6,
+      "text": "Chill the cups until firm before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "banoffee",
+    "chocolate",
+    "no-bake",
+    "treat",
+    "edible-gift"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe bowl",
+    "12 small paper cups or molds",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banoffee-chocolate-cups",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ccba18cf4840ae30a45460f40928a15baa093b1bc13467a5584b2394ceab61a",
+    "normalized_text_hash": "d0bd5ee8142845364f5d9885340c695e55606e02d989340b461ab24152abad45",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:10:12.790Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

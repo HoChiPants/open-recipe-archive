@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crab-quiche",
+  "name": "Crab Quiche",
+  "subtitle": "A savory crab and Swiss cheese custard in a deep-dish crust.",
+  "description": "A simple baked quiche combining imitation crabmeat, Swiss cheese, and a creamy egg filling.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-deep-dish-pie-crust",
+      "item": "(9 inch) deep dish pie crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "swiss-cheese",
+      "item": "Swiss cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "imitation-crabmeat",
+      "item": "imitation crabmeat",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the beaten eggs, milk, mayonnaise, and cornstarch until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the Swiss cheese, imitation crabmeat, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Pour the filling into the deep-dish pie crust and place it on a baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 350°F for 40 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Let the quiche cool briefly before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "quiche",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12800/crab-quiche-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ae3a7101fb62b834f2c528ab76d0c83a69fe00e101d9d9a6f0b6da60cb4fd45e",
+    "normalized_text_hash": "99df910947e5c3ffc66af795c45c352dcaa25b2964e8cff9038e4b7a392f97bc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:25:43.259Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

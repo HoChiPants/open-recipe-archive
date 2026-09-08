@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-gyros",
+  "name": "Chicken Gyros",
+  "subtitle": "Spiced yogurt-marinated chicken with fresh vegetables",
+  "description": "Layered chicken thighs are marinated with yogurt, citrus, garlic, and warm spices, then cooked until tender and sliced for serving with onions and tomatoes.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 12,
+      "preparation": "skinless chicken thighs"
+    },
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemons-juiced",
+      "item": "lemons juiced",
+      "quantity": 2,
+      "preparation": "1/2 lemon zested"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "garlic-cloves-very-finely-grated-or-crushed",
+      "item": "garlic cloves very finely grated or crushed",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "sweet-paprika",
+      "item": "sweet paprika",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "red-onions-halved-and-finely-sliced",
+      "item": "red onions halved and finely sliced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "tomatoes-plum-work-well-halved-and-sliced",
+      "item": "tomatoes (plum work well) halved and sliced",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the yogurt, lemon juice and zest, olive oil, garlic, coriander, cumin, paprika, oregano, thyme, cayenne, crushed black pepper, and cinnamon in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Cut the chicken thighs into evenly sized pieces and combine them with the marinade. Cover and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Prepare the cooking setup and line up two skewers or supports so the chicken can be stacked securely."
+    },
+    {
+      "step": 4,
+      "text": "Layer the marinated chicken pieces tightly onto the skewers, keeping the stack stable."
+    },
+    {
+      "step": 5,
+      "text": "Prepare the cooking surface and cook the chicken stack for 45 minutes, until cooked through and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Remove the stack briefly and slice the browned outer chicken into thin strips."
+    },
+    {
+      "step": 7,
+      "text": "Return the stack to the heat and cook the sliced surface for 10 minutes, until browned and fully cooked.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 8,
+      "text": "Prepare the sliced onions and tomatoes, then serve them with the hot chicken."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "gyros",
+    "kebab",
+    "grilled",
+    "summer"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large bowl",
+    "whisk",
+    "two skewers or supports",
+    "grill or oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/big-barbecue-chicken-kebab",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "23fb5cc863228d809af44c5a2ec816df297a8f1d1b24b7e232953634e222f0e2",
+    "normalized_text_hash": "7cd40a126d0c85fd941e439771acdb1d879a0693e18dbd67d3eee543b0547816",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T18:25:48.226Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

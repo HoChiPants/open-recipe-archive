@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-pecan-cookies",
+  "name": "Butter Pecan Cookies",
+  "subtitle": "Tender cookies with toasted pecan flavor",
+  "description": "A simple American cookie made with brown sugar, butter, and pecans, chilled before baking for easy shaping and crisp edges.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.66666698455811,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "plus more for dusting"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecan-halves",
+      "item": "pecan halves",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Beat the softened butter, packed brown sugar, and egg until smooth and well combined."
+    },
+    {
+      "step": 2,
+      "text": "Add the flour and salt, then mix just until a dough forms. Stir in the pecan halves."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill the dough for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 375°F. Lightly dust a work surface with flour, then shape the chilled dough into cookies."
+    },
+    {
+      "step": 5,
+      "text": "Bake until golden brown and the centers are set, about 12 minutes. Cool before serving.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "cookies",
+    "baked-good"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9655/butter-pecan-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dd444f7635011b8e7635f629f0696410641a49446aec367d797d592e71544d97",
+    "normalized_text_hash": "c3463fadf5f6b93026f309c78adda04cf48049d6ac475b8585872304370c498d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:31:05.915Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

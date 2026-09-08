@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "turkey-in-a-bag",
+  "name": "Turkey in a Bag",
+  "subtitle": "A straightforward oven-roasted turkey with celery and onion",
+  "description": "Seasoned turkey roasts in a flour-dusted roasting bag with celery and onion for a simple holiday-style main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "12-pound-whole-turkey",
+      "item": "(12 pound) whole turkey",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 5,
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "turkey-bag",
+      "item": "turkey bag",
+      "quantity": 1,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the turkey bag according to its use instructions, add the flour, and shake to coat the inside. Place the bag in a roasting pan."
+    },
+    {
+      "step": 3,
+      "text": "Season the turkey with salt and ground black pepper, then place it in the floured bag. Add the celery and onions."
+    },
+    {
+      "step": 4,
+      "text": "Secure the bag as directed and transfer the pan to the oven."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 120 minutes, then continue baking until the thickest part of the turkey reaches 165°F on a food thermometer, about 180 minutes total.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Remove the pan from the oven and prepare the turkey for serving according to the bag instructions."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "turkey",
+    "roasted"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23157/turkey-in-a-bag/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d2eab27e3e651e1afb9a46f651ddd36aeaf8a629d126ab4ebd7dba6f59b58a5",
+    "normalized_text_hash": "c0a4d444cb8d17f4d4f06403dcfce4adc7c9d859b34e7b5a4f39304583b4222d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:27:39.061Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

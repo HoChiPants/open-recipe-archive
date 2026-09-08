@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-swirl-mince-pies",
+  "name": "Cinnamon Swirl Mince Pies",
+  "subtitle": "Flaky pastry cups with spiced mincemeat",
+  "description": "Twelve small puff-pastry pies layered with cinnamon sugar and filled with mincemeat, then chilled and baked until golden.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sheet-of-all-butter-puff-pastry",
+      "item": "sheet of all-butter puff pastry",
+      "quantity": 320,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": "1 1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter-for-the-tin",
+      "item": "butter for the tin (optional)",
+      "preparation": "melted",
+      "optional": true
+    },
+    {
+      "ingredient_id": "jar-mincemeat-check-the-label-if-you-re-vegetarian",
+      "item": "jar mincemeat (check the label if you're vegetarian)",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-beaten",
+      "item": "egg beaten",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a 12-cup tin, brushing it with the melted butter if using."
+    },
+    {
+      "step": 2,
+      "text": "Roll or shape the puff pastry into a broad sheet. Sprinkle evenly with the caster sugar and cinnamon, then roll the pastry into a thick log."
+    },
+    {
+      "step": 3,
+      "text": "Cut the log into 12 thick rounds and press each round into a tin cup to form a pastry shell."
+    },
+    {
+      "step": 4,
+      "text": "Fill the shells with the mincemeat and top or cover as appropriate with the remaining pastry."
+    },
+    {
+      "step": 5,
+      "text": "Chill the assembled pies for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Brush the pastry with the beaten egg and bake for 25 minutes, until golden and any exposed egg is fully set; verify the egg reaches 160°F.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "pastry",
+    "mincemeat",
+    "cinnamon",
+    "holiday",
+    "baked-treat"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "12-cup muffin tin",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cinnamon-swirl-mince-pies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c5996761176c3a21bc1f23c01235fa9a74cf140a39653f39adbaa64aadb93712",
+    "normalized_text_hash": "eb8e8ac9cc2944420a9170fa74b65430f6a2c4da0655da470a3982031f5e3106",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:29:30.033Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

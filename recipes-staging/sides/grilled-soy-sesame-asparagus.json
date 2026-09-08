@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-soy-sesame-asparagus",
+  "name": "Grilled Soy-Sesame Asparagus",
+  "subtitle": "Tender asparagus with a savory sesame glaze",
+  "description": "Asparagus is grilled until tender, then finished with a savory soy, garlic, brown sugar, and sesame coating.",
+  "meal_type": "side",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-asparagus",
+      "item": "fresh asparagus",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "toasted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a grill."
+    },
+    {
+      "step": 2,
+      "text": "Combine the toasted sesame oil, soy sauce, minced garlic, brown sugar, and toasted sesame seeds."
+    },
+    {
+      "step": 3,
+      "text": "Coat the trimmed asparagus evenly with the mixture."
+    },
+    {
+      "step": 4,
+      "text": "Grill the asparagus, turning as needed, until tender, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a serving dish and garnish with the remaining sesame oil and sesame seeds."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "asian"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86925/grilled-soy-sesame-asparagus/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "410a9e4d62fff1d7ece1376ff91a26b37918e1069abf491213aa89f643f73484",
+    "normalized_text_hash": "dae35f431e74d58ee4abe4e34deef92a058cc312ea455a61c566bce325d33860",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:11:40.801Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

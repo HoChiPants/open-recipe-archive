@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "yellow-rice-for-rice-cookers",
+  "name": "Yellow Rice for Rice Cookers",
+  "subtitle": "Savory golden rice with tomato and annatto seasoning",
+  "description": "A simple rice-cooker side dish combining long-grain rice, chicken stock, tomato sauce, and warm seasonings.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "long-grain-white-rice",
+      "item": "long-grain white rice",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sazon-seasoning-with-annatto",
+      "item": "sazon seasoning with annatto",
+      "quantity": 2,
+      "unit": "packet",
+      "preparation": ".18 ounce"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "cube-chicken-bouillon",
+      "item": "cube chicken bouillon",
+      "quantity": 1,
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the stock, rice, tomato sauce, oil, salt, seasoning, garlic powder, and crushed bouillon to the rice-cooker pot. Stir to distribute the seasonings."
+    },
+    {
+      "step": 2,
+      "text": "Close the cooker and run its white-rice cycle, or cook until the rice is tender, the liquid is absorbed, and the mixture reaches 165°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Let the rice stand briefly, then fluff and serve."
+    }
+  ],
+  "tags": [
+    "rice-cooker",
+    "yellow-rice",
+    "side-dish",
+    "savory",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "rice cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228475/yellow-rice-for-rice-cookers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b0ed252c7d9f52b2e5f753e7eae2829abe68baed9940603e75f81d4d693be2d8",
+    "normalized_text_hash": "16684bf8c6f0e2565f09c565915e608cd17208314c28e14d5f0d3656958757cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:11:24.400Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

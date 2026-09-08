@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "overnight-slow-cooker-bread",
+  "name": "Overnight Slow Cooker Bread",
+  "subtitle": "A simple yeast loaf with an overnight rise",
+  "description": "Mix a thick dough, let it rise overnight, then cook it in a slow cooker for a rustic homemade loaf.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 120,
+    "inactive_minutes": 720
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fine-salt",
+      "item": "fine salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "quick-rise-yeast",
+      "item": "quick-rise yeast",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine 3.5 cups flour, warm water, salt, and yeast in a bowl. Stir until a thick, sticky dough forms."
+    },
+    {
+      "step": 2,
+      "text": "Cover and let the dough rise at room temperature overnight, about 12 hours.",
+      "timer_minutes": 720
+    },
+    {
+      "step": 3,
+      "text": "Sprinkle the remaining flour over the dough and fold it in until the dough is manageable. Shape it into a round loaf."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the loaf to a parchment-lined slow cooker. Score the top and cover with the lid."
+    },
+    {
+      "step": 5,
+      "text": "Cook on high until the loaf is set and cooked through, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Remove the bread and cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "slow-cooker",
+    "overnight",
+    "yeast-bread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "slow cooker",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279727/overnight-slow-cooker-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "65f58dbc1a544129714ec4e466978ebbb239a448f8164094153b1a258edae9b1",
+    "normalized_text_hash": "a32f59f3356eb47db0563c55d856ef34e3d3cfb1e3f30a375ae3c673fb891453",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:44:04.066Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

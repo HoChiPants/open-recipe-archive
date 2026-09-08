@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-carbonara",
+  "name": "Chicken Carbonara",
+  "subtitle": "Creamy spaghetti with chicken and pancetta",
+  "description": "Spaghetti tossed with crisp pancetta, chicken, eggs, and finely grated cheese for a rich, savory dinner.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pack-spaghetti",
+      "item": "pack spaghetti",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "garlic-clove-halved",
+      "item": "garlic clove halved",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pack-pancetta",
+      "item": "pack pancetta",
+      "quantity": 77,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chicken-breast-cut-into-strips",
+      "item": "chicken breast cut into strips",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "grana-padano-finely-grated",
+      "item": "Grana Padano finely grated",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "plus extra to serve (wrap the rest tightly and it will keep for several weeks)"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the spaghetti according to the package directions until tender. Reserve some cooking water, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs with the grated Grana Padano in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in a large pan. Add the halved garlic, pancetta, and chicken strips; cook until the pancetta is browned and the chicken reaches 165°F at the thickest point. Remove the garlic."
+    },
+    {
+      "step": 4,
+      "text": "Add the drained spaghetti and butter to the pan, tossing to coat. Remove from the heat and quickly stir in the egg mixture, loosening with reserved pasta water as needed."
+    },
+    {
+      "step": 5,
+      "text": "Return the pan to low heat and stir gently until the sauce reaches 160°F and coats the pasta without scrambling. Serve with extra Grana Padano."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "pasta",
+    "spaghetti",
+    "carbonara",
+    "chicken",
+    "family-friendly"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carbonara-chicken",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "047800f9059e9eb8e8785d70ebc0f97e688d676a324f803d32b2f4d1ff78ca8e",
+    "normalized_text_hash": "e2ba98ceee7c88b6fef8a1e5097353361b77634019ff1a46a631b4b64cba8ed3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T23:42:06.121Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

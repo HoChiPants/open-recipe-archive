@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "party-franks",
+  "name": "Party Franks",
+  "subtitle": "Sweet-and-tangy cocktail sausages",
+  "description": "Cocktail wieners warmed in a simple grape jelly and yellow mustard sauce.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-jar-grape-jelly",
+      "item": "(8 ounce) jar grape jelly",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "8-ounce-jar-yellow-mustard",
+      "item": "(8 ounce) jar yellow mustard",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cocktail-wieners",
+      "item": "cocktail wieners",
+      "quantity": 1,
+      "unit": "pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the grape jelly and yellow mustard in a saucepan over medium heat. Stir until smooth and heated through."
+    },
+    {
+      "step": 2,
+      "text": "Add the cocktail wieners and stir to coat. Cook for 15 minutes, stirring occasionally, until the franks are hot.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22971/party-franks/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ff80730dcb429b9a02b93e888e38e01163cf0ea2aa68fdc606fc7597c7fb688",
+    "normalized_text_hash": "f16d4a6f2ecc7acba32520158959c918b25218049ea605af8a914ace015c724d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:51:50.127Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

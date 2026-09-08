@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-cod",
+  "name": "Baked Cod",
+  "subtitle": "Flour-coated cod with lemon and thyme",
+  "description": "Cod fillets are lightly coated in flour, briefly browned in olive oil, then finished in the oven with lemon and thyme.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cod-loin-fillets",
+      "item": "cod loin fillets",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lemon-sliced",
+      "item": "lemon sliced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bunch-of-thyme",
+      "item": "bunch of thyme",
+      "quantity": "1/2",
+      "unit": "small"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and warm the olive oil in an ovenproof skillet."
+    },
+    {
+      "step": 2,
+      "text": "Add the flour to a shallow dish and coat the cod fillets evenly."
+    },
+    {
+      "step": 3,
+      "text": "Place the coated cod in the skillet and cook until lightly golden brown, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Transfer the skillet to the oven. Arrange the sliced lemon and thyme around the fish."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cod is opaque, flakes easily, and reaches 145°F internally.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-cod",
+    "cod",
+    "fish",
+    "healthy",
+    "white-fish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dish",
+    "ovenproof skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baked-cod",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c636ffea5617c669ce1696ca9f7f35e25f98caf55b1588ee10602fcfedc2ecdb",
+    "normalized_text_hash": "2ec44f4bbd3f65d3b47c31807f8fc708a2c9e17210cff4cda430a07eb62146d7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:00:49.257Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

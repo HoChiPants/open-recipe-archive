@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "seafood-spaghetti",
+  "name": "Seafood Spaghetti",
+  "subtitle": "Mussels, prawns, tomatoes, and samphire in a pale-ale sauce",
+  "description": "Toss spaghetti with mussels, prawns, tomatoes, samphire, lemon, and butter for a bright seafood dinner.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cold-pressed-rapeseed-oil",
+      "item": "cold-pressed rapeseed oil",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-finely-chopped",
+      "item": "onion finely chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flat-leaf-parsley-leaves-picked-and-roughly-chopped",
+      "item": "flat-leaf parsley leaves picked and roughly chopped",
+      "quantity": 30,
+      "unit": "g",
+      "preparation": "stalks finely chopped"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-chopped",
+      "item": "garlic cloves finely chopped",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cherry-tomatoes-halved",
+      "item": "cherry tomatoes halved",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "british-mussels-cleaned-and-beards-removed-discard-mussels-that-don-t-close-when-tapped",
+      "item": "British mussels cleaned and beards removed (discard mussels that don’t close when tapped)",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "raw-king-prawns",
+      "item": "raw king prawns",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "british-pale-ale-ensure-it-s-not-too-dark-or-hoppy",
+      "item": "British pale ale (ensure it’s not too dark or hoppy)",
+      "quantity": 175,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "samphire",
+      "item": "samphire",
+      "quantity": 90,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemon-zested-and-juiced",
+      "item": "lemon zested and juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 25,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Boil the spaghetti in salted water until just tender, then drain. Set the raw prawns aside while the sauce is prepared."
+    },
+    {
+      "step": 2,
+      "text": "Warm the rapeseed oil in a wide pan for 5 minutes. Add the onion, chopped parsley stalks, and mussels; cook for 10 minutes, stirring as needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the garlic and tomatoes and cook for 3 minutes. Pour in the pale ale, add the prawns, and cook until the prawns are opaque and the mussels have opened, discarding any mussels that remain closed.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add the spaghetti, parsley leaves, samphire, lemon zest and juice, and butter. Toss until coated and the samphire is warmed through."
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "pasta",
+    "mussels",
+    "prawns",
+    "samphire"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "wide pan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/british-seafood-spaghetti",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7443811df530a0fb8cb1efad8fce448efb309679d0b1a0967fdbe91c45d84983",
+    "normalized_text_hash": "f6c8fa3f1b0ea8f738cc6e6bbda7db329e02e7d192ea7270a74815794f601697",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T08:58:10.012Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

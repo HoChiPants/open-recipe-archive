@@ -1,0 +1,83 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "margarita",
+  "name": "Margarita",
+  "subtitle": "A bright, balanced tequila-lime cocktail",
+  "description": "Combine tequila, orange liqueur, lime juice, and agave or syrup, then shake with ice for a chilled citrus-forward drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounce-gran-gala-triple-orange-liqueur",
+      "item": "fluid ounce Gran Gala Triple Orange Liqueur",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "fluid-ounces-corazon-blanco-tequila",
+      "item": "fluid ounces Corazon Blanco Tequila",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fluid-ounce-fresh-lime-juice",
+      "item": "fluid ounce fresh lime juice",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-agave-nectar-or-simple-syrup",
+      "item": "fluid ounce agave nectar or simple syrup",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the orange liqueur, tequila, fresh lime juice, and agave nectar or simple syrup to a shaker filled with ice."
+    },
+    {
+      "step": 2,
+      "text": "Shake until well chilled, then strain into a serving glass."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "tequila",
+    "citrus"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "ice",
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221143/the-ultimate-margarita/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e547c03e71143df6ae0b874c87d9732e71ebca0faf059aab7053c155ec122fca",
+    "normalized_text_hash": "fe504e8e67ba99c54bb0fbdac5612ca8aa607c28e461b8d50a279004d7b7b98f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:03:41.985Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

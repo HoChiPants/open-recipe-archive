@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-and-taleggio-rigatoni",
+  "name": "Broccoli and Taleggio Rigatoni",
+  "subtitle": "Creamy broccoli pasta with melted cheese",
+  "description": "A quick rigatoni dish with finely blitzed broccoli, Taleggio, Parmesan, nutmeg, and a drizzle of olive oil.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "broccoli-blitzed-in-a-food-processor-until-very-fine",
+      "item": "broccoli blitzed in a food processor until very fine",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "rigatoni",
+      "item": "rigatoni",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "parmesan-finely-grated",
+      "item": "parmesan finely grated",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "taleggio-cut-into-chunks",
+      "item": "taleggio cut into chunks",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "grating-of-nutmeg",
+      "item": "grating of nutmeg"
+    },
+    {
+      "ingredient_id": "olive-oil-for-drizzling-optional",
+      "item": "olive oil for drizzling"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the milk and finely blitzed broccoli together for 15 minutes, until the mixture is thickened and cohesive.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Cook the rigatoni in boiling water until al dente, then drain."
+    },
+    {
+      "step": 3,
+      "text": "Stir the rigatoni and Taleggio into the hot broccoli mixture and cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Stir in the Parmesan and nutmeg until the cheese has melted and the sauce is smooth."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to serving dishes, top with the remaining Taleggio, and drizzle with olive oil."
+    }
+  ],
+  "tags": [
+    "quick-dinner",
+    "pasta",
+    "broccoli",
+    "vegetarian",
+    "cheesy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "food processor",
+    "pot",
+    "colander"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/broccoli-taleggio-rigatoni",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3c611ad454a4b3ad3638c58544d73258d48e6cb8e2141fad1b30f199bb190bc3",
+    "normalized_text_hash": "dbf30ab6e5f5f701687821cca05223aaac4b307d63dbbe47ed6228d5c16f94fc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T10:23:20.304Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

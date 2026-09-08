@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-custard-pie",
+  "name": "Coconut Custard Pie",
+  "subtitle": "A simple blended coconut pie with warm nutmeg",
+  "description": "Blend the filling, pour it into a pie dish, and bake until the center is fully set for an easy custard-style dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Blend the milk, coconut, eggs, margarine, sugar, flour, and vanilla extract until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Pour the mixture into a pie dish and sprinkle the ground nutmeg over the surface."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, or until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "coconut",
+    "custard",
+    "pie"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "blender",
+    "pie dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12441/impossible-coconut-pie-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "34b7e17627ad65dd57a4c46ec28b8384809ad4d7801349ff41c07de93954c82f",
+    "normalized_text_hash": "a6264b464709bcabd40056c6cff39c5ef6988e394c0bb947a8b99f5ccad5c29f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:58:48.651Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crab-dip",
+  "name": "Crab Dip",
+  "subtitle": "Warm, creamy dip with lemon, garlic, and green onion",
+  "description": "A quick American-style crab dip made with softened cream cheese, savory seasoning, and diced imitation crabmeat.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 4
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "imitation-crabmeat",
+      "item": "imitation crabmeat",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the softened cream cheese in a mixing bowl and stir until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Mix in the lemon juice, Worcestershire sauce, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the garlic, green onions, and diced imitation crabmeat until evenly distributed."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a microwave-safe serving dish and heat for 4 minutes, stirring halfway, until warmed through.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "seafood",
+    "quick",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "microwave-safe serving dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12714/fantastic-crab-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "624a4ee2336480a13f42f81780325c45c49a5efd119eeca1fa9189cdc8f680df",
+    "normalized_text_hash": "5cc86f03525e2f287cb45f205d101b0447412a511069a6f00b1676720c62084e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:05:37.329Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-ice-cream",
+  "name": "Vanilla Ice Cream",
+  "subtitle": "A simple, creamy frozen dessert with classic vanilla flavor.",
+  "description": "Whisk the egg mixture with sugar, dairy, vanilla, and water, then freeze until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs until blended. Add the white sugar and salt, then whisk until thickened."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the milk, evaporated milk, vanilla extract, and water until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to an ice cream maker or freezer-safe container and freeze until firm, about 4 hours.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "vanilla",
+    "frozen"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "whisk",
+    "ice cream maker or freezer-safe container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21711/vanilla-ice-cream-vi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab5e9eb508c09747b93bd8a871248356e27a44ccd216df87d9972f536a9f7f76",
+    "normalized_text_hash": "f50859a186f2c541debf8d375a62cba9a9da454bf9e7a5d78ac4596a2a616269",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:27:20.700Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

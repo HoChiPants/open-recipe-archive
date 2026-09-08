@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "german-chocolate-caramel-pecan-cake",
+  "name": "German Chocolate Caramel Pecan Cake",
+  "subtitle": "A layered chocolate cake with caramel, pecans, and chocolate chips",
+  "description": "A rich, layered dessert combining chocolate cake, buttery caramel, chopped pecans, and semisweet chocolate chips.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "german-chocolate-cake-mix",
+      "item": "German chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "individually-wrapped-caramels",
+      "item": "individually wrapped caramels",
+      "quantity": 14,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare the cake mix according to the package directions, then divide the batter into two portions."
+    },
+    {
+      "step": 2,
+      "text": "Spread one portion in a prepared baking pan and bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Meanwhile, melt the caramels, evaporated milk, and butter together, stirring until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Pour the melted caramel mixture over the partially baked cake. Sprinkle with the pecans and semisweet chocolate chips."
+    },
+    {
+      "step": 5,
+      "text": "Spread the remaining batter over the top and bake until the cake is set, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Cool before cutting into servings."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "caramel",
+    "pecans",
+    "sheet-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "9-by-13-inch baking pan",
+    "mixing bowl",
+    "saucepan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7413/turtles-cake-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "08e6f0f5cf9571149690c40595b8dbf244d7cdc5b5de0022a8c1ee122c5c3a9b",
+    "normalized_text_hash": "e09058456302ee4e9a24236b1702dcd04f73d414dfdc3b04a959ed8b4e8f4d5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:31:32.401Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

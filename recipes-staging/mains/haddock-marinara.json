@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "haddock-marinara",
+  "name": "Haddock Marinara",
+  "subtitle": "Baked haddock with tomato sauce and melted mozzarella",
+  "description": "Haddock fillets bake in a savory tomato sauce and finish with a melted mozzarella topping.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 0.5,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-pasta-sauce",
+      "item": "(16 ounce) jar pasta sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "haddock-fillets",
+      "item": "haddock fillets",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce, drained"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Coat a baking dish with the olive oil. Add the onion, garlic, and pasta sauce, spreading them evenly."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the haddock fillets in the sauce and distribute the drained stewed tomatoes around them."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle the mozzarella over the fish and bake for 10 minutes, until melted and the haddock reaches 145°F internally or is opaque and flakes easily.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "baked",
+    "tomato-sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84425/haddock-marinara/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "57ee5f2b53a8c12be19180b67a62426cae8e29c144aed994ac675257cd9a8d55",
+    "normalized_text_hash": "df6ba021ba6020ce3cf389049cb91850d34c9e2a376fa82e2b3b7a998458eee2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:17:25.274Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "one-pan-chicken-dinner",
+  "name": "One-Pan Chicken Dinner",
+  "subtitle": "Baked chicken with green beans and potatoes",
+  "description": "Chicken, potatoes, and green beans bake together under a buttery Italian-seasoned coating for an easy family-style meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "preparation": "boneless chicken breast halves, halved"
+    },
+    {
+      "ingredient_id": "green-beans",
+      "item": "green beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 6,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "zesty-italian-salad-dressing-mix",
+      "item": "zesty Italian salad dressing mix",
+      "quantity": 1,
+      "unit": "packet",
+      "preparation": ".6 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the halved chicken breasts in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the drained green beans, potato chunks, and dressing mix. Add the melted butter and toss to coat."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the vegetable mixture around the chicken in the baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until the chicken reaches 165°F in the thickest part and the potatoes are tender.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "one-pan",
+    "baked",
+    "family-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239243/one-pan-chicken-dinner/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7ca96f8c5c32ee3f88826bf792ef6cceae151ac954b7250cf425babf597c9d01",
+    "normalized_text_hash": "6398cb2217ac7a79a06d422a3f52588f59b85b9d33ba97588a5ef25c48f66047",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:31:13.597Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

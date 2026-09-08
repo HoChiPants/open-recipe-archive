@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-apple-pancakes",
+  "name": "Air-Fryer Apple Pancakes",
+  "subtitle": "Tender pancakes with thin apple slices",
+  "description": "A quick air-fryer breakfast with lightly sweetened pancake batter and fresh apple.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "neutral-oil-for-the-tin",
+      "item": "neutral oil for the tin"
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "apple-cored-and-very-thinly-sliced",
+      "item": "apple cored and very thinly sliced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "berries-and-maple-syrup",
+      "item": "berries and maple syrup",
+      "preparation": "or ice cream, to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its pancake or baking setting. Lightly oil a small heatproof tin."
+    },
+    {
+      "step": 2,
+      "text": "Combine the self-raising flour, baking powder, and caster sugar. Whisk the egg and milk together, then add them to the dry ingredients and stir just until combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to the prepared tin and arrange the thinly sliced apple over the surface."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry for 4 minutes, then continue cooking until puffed, golden, and fully set in the center, about 15 minutes total. Confirm the center reaches 160°F.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Serve with the berries and maple syrup, or ice cream, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pancakes",
+    "apples",
+    "air-fryer"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "small heatproof tin",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-apple-pancakes-2",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1c9cbd4b032f1b42b25a5445ad77b74e77c455f0ca9cceab685069ca54ea64a2",
+    "normalized_text_hash": "d0ea36642751a819032642c30ebd5420d9d71cb713dd1a6d4dda97b67ed74869",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:20:29.138Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

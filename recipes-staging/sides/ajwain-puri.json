@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ajwain-puri",
+  "name": "Ajwain Puri",
+  "subtitle": "Crisp, seed-seasoned Indian fried bread",
+  "description": "A simple Indian side made from chapatti flour and ajwain or cumin seeds, shaped and fried until golden.",
+  "meal_type": "side",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chapatti-flour",
+      "item": "chapatti flour",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ajwain-or-cumin-seeds",
+      "item": "ajwain or cumin seeds",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "sunflower-oil-for-deep-frying",
+      "item": "sunflower oil for deep-frying"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chapatti flour and ajwain or cumin seeds."
+    },
+    {
+      "step": 2,
+      "text": "Knead the mixture into a dough for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into small puris."
+    },
+    {
+      "step": 4,
+      "text": "Preheat the sunflower oil for deep-frying."
+    },
+    {
+      "step": 5,
+      "text": "Fry the puris for about 1 minute, turning as needed, until golden brown.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "indian",
+    "ajwain",
+    "flatbread",
+    "indian-breads",
+    "puri"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "rolling pin",
+    "deep-fryer or heavy pot"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/ajwain-puri",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f84868ddf63911bd46ff1c9528b4da00547c33e9db5ccfa489fe8384960fe346",
+    "normalized_text_hash": "605d7f65d046b7b2d07e2dfcd07023bf93e6789f817d309867fd7b5d21abaa5d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:33:06.972Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

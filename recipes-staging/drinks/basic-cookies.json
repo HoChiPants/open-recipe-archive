@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-cookies",
+  "name": "Basic Cookies",
+  "subtitle": "Simple buttery cookies with optional spice or chocolate",
+  "description": "A straightforward dough made with softened butter, sugar, and flour, finished with optional spices or chocolate chips and baked until golden.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 25,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 110,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 275,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cinnamon-or-other-spices-optional",
+      "item": "cinnamon or other spices (optional)",
+      "quantity": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "white-or-milk-chocolate-chips-optional",
+      "item": "white or milk chocolate chips (optional)",
+      "quantity": 75,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking tray."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened butter until smooth, then mix in the caster sugar."
+    },
+    {
+      "step": 3,
+      "text": "Add the plain flour and mix to form a dough. Stir in the optional spices and chocolate chips, if using."
+    },
+    {
+      "step": 4,
+      "text": "Freeze the dough briefly, then shape it into small cookies and arrange them on the tray."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 12 minutes, until golden brown.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 6,
+      "text": "Allow the cookies to cool before serving."
+    }
+  ],
+  "tags": [
+    "cookies",
+    "biscuits",
+    "baking",
+    "easy",
+    "simple",
+    "afternoon-tea",
+    "treat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking tray",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/basic-cookies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8e6764d9c7bff4709c072a77480ed61ed15dafdd598db2ded07f9e6aeeec5e04",
+    "normalized_text_hash": "2faabe18bb6bfb6cbdbec71caceb55ba0cde5dbb24306f9ece7fac9fe4a399b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:13:13.630Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

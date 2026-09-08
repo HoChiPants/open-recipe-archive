@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-wafer-crust",
+  "name": "Chocolate Wafer Crust",
+  "subtitle": "A crisp chocolate base for chilled or baked pies",
+  "description": "Combine chocolate cookie crumbs with melted butter, press into a pie dish, and chill until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-cookie-crumbs",
+      "item": "chocolate cookie crumbs",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the chocolate cookie crumbs and melted butter together until evenly moistened."
+    },
+    {
+      "step": 2,
+      "text": "Press the mixture firmly and evenly over the bottom and up the sides of a pie dish."
+    },
+    {
+      "step": 3,
+      "text": "Chill until firm, then use or serve as desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "crust",
+    "no-bake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12255/chocolate-wafer-crust/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ccb13bff0d8bb4588fea346973f69ad88cdc1c6e97bae26435bad04393f27bcc",
+    "normalized_text_hash": "80c4bb467ece922c615433b037f18f0d4abec35abb9caa1d625c0adb3c98741e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:39:18.517Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "english-muffin-pizza",
+  "name": "English Muffin Pizza",
+  "subtitle": "Crisp muffin halves with sauce, cheese, and savory toppings",
+  "description": "English muffin halves are topped with pizza sauce, mozzarella, pepperoni, and cooked Italian sausage, then baked until the cheese melts.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "english-muffins",
+      "item": "English muffins",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, split"
+    },
+    {
+      "ingredient_id": "pizza-sauce",
+      "item": "pizza sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded"
+    },
+    {
+      "ingredient_id": "pepperoni",
+      "item": "pepperoni",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "4-ounce-link-cooked-italian-sausage",
+      "item": "(4 ounce) link cooked Italian sausage",
+      "quantity": 1,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Split the English muffins and arrange the halves cut-side up on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Spread pizza sauce over each muffin half."
+    },
+    {
+      "step": 4,
+      "text": "Top with shredded mozzarella, then add the sliced pepperoni and cooked Italian sausage."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, until the cheese is melted.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231522/english-muffin-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "04c071c1e2b7a21d52c6f612f8ee38bfebfed85fe191d03b7a3a97ed259afc05",
+    "normalized_text_hash": "f8957694cb30464da673ffec0486ea38c988a5b2eeb1ac58baf33f0f6c2ffc2c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:02:06.289Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

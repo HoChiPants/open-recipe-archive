@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breakfast-pizza",
+  "name": "Breakfast Pizza",
+  "subtitle": "A savory biscuit-crust breakfast topped with eggs, bacon, vegetables, and melted Cheddar.",
+  "description": "Bacon, scrambled eggs, and chopped vegetables are layered over a lightly baked biscuit crust, then finished with Cheddar until melted.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "refrigerated-biscuits-10-biscuits-per-can",
+      "item": "refrigerated biscuits (10 biscuits per can)",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking pan with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Cook the chopped bacon in a skillet over medium heat until browned and cooked through, about 10 minutes. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Press the biscuits into the prepared pan to form an even crust. Bake until lightly browned, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter in a skillet. Whisk the eggs, add them to the skillet, and stir until set, about 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Spread the eggs over the biscuit crust. Top with the bacon, onion, green bell pepper, and salt and pepper."
+    },
+    {
+      "step": 6,
+      "text": "Sprinkle the Cheddar over the top and bake until the cheese is melted and the egg layer is fully set, reaching 160°F in the center."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pizza",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "skillet",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218228/dads-breakfast-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d68bddc30048f86eeb9a64f547a6c0ebba85dbc1daf4311035f78c05b2921bb1",
+    "normalized_text_hash": "bf9ee37ad1cedad45eed4d2c453bf0c7ea4e299cadc315830670d8578adc877e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:58:06.715Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

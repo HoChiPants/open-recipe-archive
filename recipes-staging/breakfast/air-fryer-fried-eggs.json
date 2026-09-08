@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-fried-eggs",
+  "name": "Air Fryer Fried Eggs",
+  "subtitle": "Set whites and fully cooked centers with minimal effort",
+  "description": "Eggs cooked in a lightly oiled dish in the air fryer for a simple breakfast or side.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-or-sunflower-oil",
+      "item": "vegetable or sunflower oil",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly coat a small heatproof air-fryer-safe dish with the oil, then crack in the eggs."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Place the dish in the air fryer and cook the eggs for 8 minutes, or until the whites and centers are firm and fully set.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Carefully remove the dish and serve the eggs hot."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "side-dish",
+    "air-fryer",
+    "eggs",
+    "fried-eggs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "air fryer",
+    "small heatproof air-fryer-safe dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-fried-egg",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a06e23e3c287018b13de8c6bbb5b00436774ae034144789e0c4b09411ca55136",
+    "normalized_text_hash": "b7c68ea129815b8be5d0456a5bd91e09c84e44f89258174054e70e8aee72678a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:25:26.182Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

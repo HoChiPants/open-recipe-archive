@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-potato-bacon-soup",
+  "name": "Slow Cooker Potato-Bacon Soup",
+  "subtitle": "A creamy slow-cooked soup with crisp bacon and melted cheese",
+  "description": "Potatoes and onion simmer with broth until tender, then finish with a creamy flour mixture, cheese, bacon, and chives.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 375
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 9
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 7,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cheddar-monterey-jack-cheese-blend",
+      "item": "Cheddar-Monterey Jack cheese blend",
+      "quantity": 3.25,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "finely-chopped-fresh-chives",
+      "item": "finely chopped fresh chives",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a skillet over medium heat until crisp, about 10 minutes. Drain, crumble, and reserve for serving.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Cook the onion in the skillet for 5 minutes, until softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Transfer the onion, potatoes, garlic powder, and vegetable broth to a slow cooker. Cover and cook until the potatoes are tender, about 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 4,
+      "text": "Whisk the half-and-half and flour together until smooth. Stir the mixture into the slow cooker, then whisk or mash some of the potatoes to thicken the soup."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the divided cheese blend, reserving some for topping, until melted and combined."
+    },
+    {
+      "step": 6,
+      "text": "Ladle the soup into bowls and top with the reserved bacon, cheese, and chives."
+    }
+  ],
+  "tags": [
+    "slow-cooker",
+    "potato-soup",
+    "bacon",
+    "cheesy",
+    "comfort-food",
+    "dinner"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "slow cooker",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277373/slow-cooker-potato-bacon-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d897fa44e6b80b2e257ab1e6a874909179730d59b605cfa257a85e20c2557366",
+    "normalized_text_hash": "5d7628c6da5802e71cbb735bbb030e88642b73c14b214ff5976ca0fc3d5b169f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:49:09.699Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

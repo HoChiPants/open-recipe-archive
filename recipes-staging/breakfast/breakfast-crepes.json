@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breakfast-crepes",
+  "name": "Breakfast Crepes",
+  "subtitle": "Thin, tender crepes for a simple morning meal",
+  "description": "A basic French-style crepe batter cooked in a skillet until lightly set and ready to serve.",
+  "meal_type": "breakfast",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour, milk, and salt until smooth. Add the egg and whisk until fully combined."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat and coat its surface with melted fat."
+    },
+    {
+      "step": 3,
+      "text": "Pour in enough batter to make a thin crepe, tilting the skillet to spread it into a smooth layer."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the edges are set and the underside is lightly browned, then turn and cook the other side. The center should be fully set and reach 160°F."
+    },
+    {
+      "step": 5,
+      "text": "Let each crepe rest briefly before serving.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "crepes",
+    "french"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16216/breakfast-crepes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6e3bb18de8ce5aa8fc13c0cef109278b33f3752e16f384bbd4a078caa601324d",
+    "normalized_text_hash": "346b742cb51c797427f0c1ee0810a0dafb1370f6e446e4928d02fec1bc4c33b2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:11:49.254Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

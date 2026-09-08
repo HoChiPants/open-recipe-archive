@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "south-african-vetkoek",
+  "name": "South African Vetkoek",
+  "subtitle": "Golden fried yeast bread",
+  "description": "A simple South African fried bread made from a lightly sweetened yeast dough and cooked until golden.",
+  "meal_type": "baked-good",
+  "cuisine": "South African",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "inactive_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lukewarm-water",
+      "item": "lukewarm water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 7,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 3,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the lukewarm water, sugar, and yeast together. Let stand until the yeast is activated, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and salt in a large bowl. Add the yeast mixture and knead for 7 minutes, until the dough is smooth.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Cover the dough and let it rise in a warm place for 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Divide the dough into 12 portions and shape each into a smooth round. Lightly flour the portions, cover, and let them rest until set."
+    },
+    {
+      "step": 5,
+      "text": "Heat the frying oil to 350°F."
+    },
+    {
+      "step": 6,
+      "text": "Fry the dough portions in batches for about 3 minutes, turning as needed, until golden brown. Drain before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "snack",
+    "south-african",
+    "fried-bread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large bowl",
+    "deep heavy pot or deep fryer",
+    "food thermometer",
+    "slotted spoon",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245683/south-african-traditional-vetkoek-fried-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "46930ee5cb4dde6130a2fcefc7614cae9e78849a5f274de9b41a2d60928b3e52",
+    "normalized_text_hash": "ba83418741064c90c3e0ec34d3f56ad4f750b93802392e09f5d1eead577ecf3d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:11:18.827Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blue-cheese-potato-salad",
+  "name": "Blue Cheese Potato Salad",
+  "subtitle": "Tender potatoes with crisp bacon and tangy blue cheese",
+  "description": "A savory American potato salad combining tender red potatoes, bacon, green onions, vinegar, and crumbled blue cheese.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-new-potatoes",
+      "item": "red new potatoes",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "bunch-green-onions",
+      "item": "bunch green onions",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "blue-cheese",
+      "item": "blue cheese",
+      "quantity": 1.5,
+      "unit": "ounces",
+      "preparation": "crumbled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a pot, cover with water, and add the salt. Bring to a simmer and cook until tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool enough to handle, then cut them into bite-size pieces."
+    },
+    {
+      "step": 3,
+      "text": "Cook the bacon in a preheated skillet until crisp. Drain and crumble it."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the olive oil, green onions, white vinegar, and ground black pepper in a large bowl."
+    },
+    {
+      "step": 5,
+      "text": "Add the potatoes and bacon, toss to coat, and fold in the blue cheese."
+    }
+  ],
+  "tags": [
+    "potato-salad",
+    "american",
+    "lunch",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "skillet",
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25174/blue-cheese-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d3f0002fee395bb8af472a0271260f51d735f265891af7612d897b1d9a6522c1",
+    "normalized_text_hash": "fba6951db795b3e36c5b84ddbaaa17bcff9ff61f74aa131566d531c9a5075fd9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:54:46.385Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

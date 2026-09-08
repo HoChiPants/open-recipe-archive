@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "french-toast-waffles",
+  "name": "French Toast Waffles",
+  "subtitle": "Crisp, custardy brioche waffles with maple flavor",
+  "description": "Brioche pieces are soaked in a lightly sweetened egg mixture, then cooked in a waffle iron until golden.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "inch-thick-pieces-brioche",
+      "item": "inch thick pieces brioche",
+      "quantity": "4 1/2"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the waffle iron according to its standard setting."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the milk, eggs, maple syrup, vanilla, and salt until combined."
+    },
+    {
+      "step": 3,
+      "text": "Cut the brioche into the specified pieces and transfer them to the egg mixture. Turn to coat, then let stand for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Lightly coat the preheated waffle iron with cooking spray. Arrange the soaked brioche inside without overcrowding."
+    },
+    {
+      "step": 5,
+      "text": "Cook until golden brown, about 5 minutes, and repeat with the remaining pieces.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "waffles",
+    "french-toast",
+    "brioche",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "waffle iron",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246198/easy-french-toast-waffles/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ae52f06eb799d952dd77690a65ecafb3ed9b5e3ef1441e90533cf2c4a045ae83",
+    "normalized_text_hash": "8c9e5c242c47403e61dc869c8b48ff88372041ac643d33cf87109f8df6406d18",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:30.111Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

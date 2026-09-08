@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bruschetta-salad",
+  "name": "Bruschetta Salad",
+  "subtitle": "A chilled tomato, mozzarella, and basil salad",
+  "description": "Fresh tomatoes, mozzarella, basil, onion, and garlic are tossed with a simple oil-and-vinegar dressing, then chilled with crisp crushed bagel chips.",
+  "meal_type": "salad",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "roma-tomatoes",
+      "item": "Roma tomatoes",
+      "quantity": 6,
+      "preparation": "sliced into rounds"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cut into bite-size cubes"
+    },
+    {
+      "ingredient_id": "garlic-flavored-bagel-chips",
+      "item": "garlic-flavored bagel chips",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "torn-fresh-basil-leaves",
+      "item": "torn fresh basil leaves",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "light-olive-oil",
+      "item": "light olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cloves-garlic",
+      "item": "cloves garlic",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the tomatoes, mozzarella, crushed bagel chips, fresh basil, onion, olive oil, vinegar, garlic, dried basil, salt, and pepper in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Toss until evenly coated, then chill the salad for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "salad",
+    "italian-inspired",
+    "no-cook"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242506/bruschetta-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "97c1c9d70326e386f9222eb1187f468b3d3a05c1119831aa0319fb4b2b0a6cf0",
+    "normalized_text_hash": "102260b515ae2a1e249a1f36aa07e39aff97878ff7cf94289273c121d5d89c65",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:22:40.642Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

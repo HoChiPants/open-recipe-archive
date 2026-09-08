@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-snack-mix",
+  "name": "Caramel Snack Mix",
+  "subtitle": "A crisp, nutty snack coated in buttery caramel",
+  "description": "Cereal and nuts are baked with a simple brown-sugar caramel coating for a crunchy snack mix.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-corn-syrup",
+      "item": "white corn syrup",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "crispy-corn-and-rice-cereal",
+      "item": "crispy corn and rice cereal",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 275°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan over medium heat. Stir in the white corn syrup and packed brown sugar until combined and smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Place the crispy corn and rice cereal, pecans, and almonds in a large bowl. Pour the butter mixture over them and toss gently to coat."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mixture evenly in a large baking pan. Bake at 275°F for 60 minutes, stirring occasionally, until crisp and coated.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool the snack mix before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "crunchy",
+    "caramel",
+    "nuts",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "large mixing bowl",
+    "large baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14950/caramel-snack-mix/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a41f7ff014fa764fd399e3c9ac259cabb5c81d7eb471df17270dcf3c14273b89",
+    "normalized_text_hash": "b9dd393ff52e72f02f8904350bbcdde08f5b7a2dd669acc557be869a9bf83bf7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:53:08.357Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

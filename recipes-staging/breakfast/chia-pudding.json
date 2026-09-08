@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chia-pudding",
+  "name": "Chia Pudding",
+  "subtitle": "A simple chilled chia breakfast",
+  "description": "Mix chia seeds with milk and maple syrup, chill until thick, and finish with fruit.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "oat-milk-or-substitute-for-any-nut-milk",
+      "item": "oat milk or substitute for any nut milk",
+      "quantity": 125,
+      "unit": "ml",
+      "preparation": "rice milk or dairy milk"
+    },
+    {
+      "ingredient_id": "maple-syrup-plus-a-drizzle-to-serve",
+      "item": "maple syrup plus a drizzle to serve",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "fruit",
+      "item": "fruit",
+      "preparation": "such as berries, banana, kiwis or mango to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the chia seeds, milk, and maple syrup together in a serving container."
+    },
+    {
+      "step": 2,
+      "text": "Cover and chill until thick and set, about 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Top with fruit and add a drizzle of maple syrup before serving."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "chia",
+    "make-ahead",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "serving container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chia-pudding",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "16790c06a2785042f84038c50005ad7381a7e8a466d0699f2b42b25b32a8d832",
+    "normalized_text_hash": "b5b4889b28ea2645981159cb520380af9d2a46af6d950becd596deb2c6e41198",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:22:05.010Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 31,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

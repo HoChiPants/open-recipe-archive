@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pollo-guisado",
+  "name": "Pollo Guisado",
+  "subtitle": "Tender chicken and potatoes in a savory tomato broth",
+  "description": "A one-pot chicken stew simmered with aromatics, sofrito, potatoes, and warm spices, finished with a lightly thickened sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 95
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "cut up"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sofrito",
+      "item": "sofrito",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "sazon-seasoning",
+      "item": "sazon seasoning",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1.41 ounce"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large heavy pot over medium-high heat. Season the chicken with salt and pepper, add it with the chicken broth, and cook for 7 minutes, turning as needed. Transfer the chicken to a plate and reserve the broth in the pot.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Add the onion to the pot and cook until softened, about 5 minutes. Stir in the garlic and cook for 1 minute, then add the sofrito and cook for 3 minutes.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 3,
+      "text": "Return the chicken and reserved broth to the pot. Add the potatoes, tomato sauce, sazon seasoning, cumin, and bay leaf. Bring to a simmer."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer until the chicken and potatoes are tender, about 60 minutes. Check that the thickest chicken pieces reach 165°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Whisk the cold water and cornstarch together. Stir the slurry into the simmering stew and cook until the broth thickens, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Remove the bay leaf and serve the stew hot."
+    }
+  ],
+  "tags": [
+    "chicken",
+    "stew",
+    "one-pot",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "plate",
+    "small bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273883/pollo-guisado/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b61948b244295d06232e4c20916adca78082d2f0e6c592c8c6054f1afa568eb0",
+    "normalized_text_hash": "37049be5dfec996748a6bb752fbce6ef44247dee79937c17aba4088ffb0c757e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:26:29.076Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

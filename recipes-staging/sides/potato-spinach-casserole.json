@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-spinach-casserole",
+  "name": "Potato Spinach Casserole",
+  "subtitle": "Creamy potatoes with spinach and cheddar",
+  "description": "Tender potatoes and spinach are folded with sour cream, butter, and seasonings, then baked under a melted cheddar topping.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 7,
+      "unit": "large",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and drained"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water seasoned with the salt to a simmer. Add the potatoes and cook for about 15 minutes, until tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes, then combine them with the spinach, sour cream, butter, green onions, remaining salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle the Cheddar over the top and bake for 5 minutes, until melted.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "casserole",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25890/potato-spinach-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2029c8881db083a8c4a58090bf545701798508416a1efc8bd59dbc92d77af069",
+    "normalized_text_hash": "813d67ea9b60e90c1411cc168313b2df39524267741ab5b4cc8a88561e28dfaa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:50.833Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

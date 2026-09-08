@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-split",
+  "name": "Banana Split",
+  "subtitle": "A classic ice cream dessert with chocolate and cherries",
+  "description": "Layer banana, ice cream, and simple toppings for an easy single-serving dessert.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "scoops-ice-cream",
+      "item": "scoops ice cream",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream"
+    },
+    {
+      "ingredient_id": "chocolate-sauce-or-melted-chocolate",
+      "item": "chocolate sauce or melted chocolate",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cherries",
+      "item": "cherries",
+      "quantity": 3,
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "coloured-sprinkles",
+      "item": "coloured sprinkles"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the banana lengthwise and place the halves in a serving dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the three scoops of ice cream between the banana halves."
+    },
+    {
+      "step": 3,
+      "text": "Top with whipped cream, chocolate sauce or melted chocolate, pitted cherries, and coloured sprinkles."
+    },
+    {
+      "step": 4,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "banana",
+    "ice-cream",
+    "chocolate",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "knife",
+    "serving dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-banana-split",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aa237a218b299fdcb435cedc673be1d6042bfbcc68fe36faf0e83cc13a6d8984",
+    "normalized_text_hash": "f313798fce70d47ff1a4263d51abba27315a9b850519061fc8d18c4e8974c128",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:29:32.922Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

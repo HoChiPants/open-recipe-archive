@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-kugel",
+  "name": "Broccoli Kugel",
+  "subtitle": "A savory baked broccoli side with a tender center",
+  "description": "Thawed broccoli and sautéed onion are folded into a simple mayonnaise-and-egg batter, then baked until tender and set.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 110
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "frozen-chopped-broccoli",
+      "item": "frozen chopped broccoli",
+      "quantity": 2,
+      "unit": "bag",
+      "preparation": "16 ounce, thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the vegetable oil in a skillet. Add the sliced onion, stir for 5 minutes, and continue cooking until tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the mayonnaise, eggs, flour, salt, and pepper in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "Stir the tender onion and thawed broccoli into the mayonnaise mixture."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and bake for 90 minutes, until the broccoli is tender and the center is fully set; if checking with a thermometer, it should reach 160°F.",
+      "timer_minutes": 90
+    }
+  ],
+  "tags": [
+    "broccoli",
+    "kugel",
+    "baked-casserole",
+    "side-dish",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "large bowl",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212831/new-mom-broccoli-kugel/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9f1c763d21a9f18cba1af4018bc9bda21d75e71bc068ce2e2b0fde8ed63524d6",
+    "normalized_text_hash": "641ebc6db91cad5cb8c83d47adc1abc802875f753b7dc7986e4472e3f39c9b95",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:11:47.048Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bone-in-ham-with-pineapple-and-beer",
+  "name": "Bone-In Ham with Pineapple and Beer",
+  "subtitle": "A slow-roasted ham with sweet pineapple and a malty cooking liquid.",
+  "description": "Bake a large bone-in ham with pineapple and beer until fully heated and safely cooked, then garnish with the fruit before serving.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bone-in-ham",
+      "item": "bone-in ham",
+      "quantity": 20,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "20 ounce, sliced"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the bone-in ham in a large roasting pan."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the sliced pineapple over and around the ham."
+    },
+    {
+      "step": 4,
+      "text": "Pour the beer into the roasting pan."
+    },
+    {
+      "step": 5,
+      "text": "Cover the pan and bake for 8 hours, or until the ham reaches at least 145°F in the thickest part.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 6,
+      "text": "Remove the ham from the oven and rest for 3 minutes. Arrange the pineapple over the ham before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast",
+    "ham",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "large roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23619/bone-in-ham-cooked-in-beer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "786bc81816145a3b9041f286e6b5106a97a8e3714828ab630a0f38cdb09a78fb",
+    "normalized_text_hash": "30a7fff3af70709a539ae2273d9dce9168369299a3e871936c7b04677fc10b00",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:02:02.178Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

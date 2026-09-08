@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "holiday-eggnog-pie",
+  "name": "Holiday Eggnog Pie",
+  "subtitle": "A creamy custard pie with warm eggnog flavor",
+  "description": "A simple eggnog custard baked in a deep-dish crust until fully set, then cooled for clean slices.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "eggnog",
+      "item": "eggnog",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted and cooled slightly"
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-deep-dish-pie-crust",
+      "item": "(9 inch) unbaked deep dish pie crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar and flour. Whisk in the eggnog, beaten eggs, and vanilla until smooth, then stir in the melted, slightly cooled butter."
+    },
+    {
+      "step": 3,
+      "text": "Pour the filling into the unbaked deep-dish pie crust."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, or until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool the pie before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "custard-pie",
+    "holiday"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "9-inch deep-dish pie pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/94770/holiday-eggnog-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1cfe9abccf941b19ada5720cab8c38c6d918ab80d918fdd099704fe480e62ddc",
+    "normalized_text_hash": "3dee0fcf87a61d1d2566434c9a5dade1dd269c39020d1d1f4eb9ffcb89e585f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:34:54.129Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

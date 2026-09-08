@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coffee-ice-cream-terrine",
+  "name": "Coffee Ice Cream Terrine",
+  "subtitle": "Layered ice cream with dark chocolate and crunchy honeycomb",
+  "description": "A make-ahead frozen dessert combining coffee and vanilla ice cream with dark chocolate and a crisp honeycomb topping.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coffee-ice-cream",
+      "item": "coffee ice cream",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-ice-cream",
+      "item": "vanilla ice cream",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-the-tin",
+      "item": "vegetable oil for the tin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "dark-chocolate-roughly-chopped",
+      "item": "dark chocolate roughly chopped",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "coconut-oil",
+      "item": "coconut oil",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "honeycomb-or-maltesers",
+      "item": "honeycomb or Maltesers",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly oil a loaf tin with the vegetable oil. Let both ice creams soften until spreadable."
+    },
+    {
+      "step": 2,
+      "text": "Melt the dark chocolate with the coconut oil in a heatproof bowl over gently simmering water, stirring until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the softened coffee and vanilla ice creams together. Spread alternating layers of the ice cream mixture and melted chocolate in the tin."
+    },
+    {
+      "step": 4,
+      "text": "Freeze until firm.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Gently melt the remaining dark chocolate over simmering water. Unmold the terrine, spoon over the melted chocolate, and scatter with the crushed honeycomb or Maltesers."
+    },
+    {
+      "step": 6,
+      "text": "Slice into thick pieces and serve immediately."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "ice-cream",
+    "coffee",
+    "chocolate",
+    "make-ahead",
+    "frozen-dessert",
+    "terrine"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "loaf tin",
+    "heatproof bowl",
+    "saucepan",
+    "whisk",
+    "freezer",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coffee-ice-cream-terrine",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d999e90f330ecde629ccbdb542b1dc70af5b17f569a424f50e6f7e7f00866489",
+    "normalized_text_hash": "2755f738314f789112ff399a9f8d7664d64a1e68ced7ed68c770780517da11b9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:53:28.384Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-oatmeal-cookies",
+  "name": "Chocolate Oatmeal Cookies",
+  "subtitle": "Quick stovetop cookies with oats and coconut",
+  "description": "A simple chocolate cookie mixture is simmered briefly, combined with oats and coconut, then chilled until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "quick-oats",
+      "item": "quick oats",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "coconut",
+      "item": "coconut",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a tray or flat dish with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar, milk, butter, cocoa powder, and peanut butter in a saucepan over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a simmer and cook for 1 minute, stirring until smooth.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and stir in the quick oats, shredded coconut, and vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Drop the mixture onto the prepared tray in portions and let cool until firm.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chocolate",
+    "oatmeal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon",
+    "parchment paper",
+    "tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/274285/no-bake-chocolate-oatmeal-drop-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cd47851545ae664d3865ddfdd845116ef6d22c9806edd6ef24f3c542fce77d9a",
+    "normalized_text_hash": "d463fdc9b3b6702d6c4f618d692a7dd5c38a56ecbf1ccb8038489c0dac8ab08f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:39:42.368Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-pineapple-ice",
+  "name": "Orange-Pineapple Ice",
+  "subtitle": "A bright, creamy frozen fruit dessert",
+  "description": "Sweetened condensed milk, crushed pineapple, and orange soda combine into a simple make-ahead ice.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, crushed"
+    },
+    {
+      "ingredient_id": "orange-soda",
+      "item": "orange soda",
+      "quantity": 1,
+      "unit": "gallon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sweetened condensed milk, crushed pineapple, and orange soda in a large bowl, stirring until evenly mixed."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mixture to a freezer-safe container and freeze until firm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-dessert",
+    "fruit",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large bowl",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19901/orange-pineapple-ice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0a7320eb6a23a71098e4ee0cdb7bdfb94eb0072e571794592100e36c8be21bdc",
+    "normalized_text_hash": "e2c1b059cb44f65d67d3b7eaac01587427ae68ba5cf3c36775ca319ef2fa4c1d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:35:41.360Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

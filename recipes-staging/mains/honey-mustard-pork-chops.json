@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-mustard-pork-chops",
+  "name": "Honey Mustard Pork Chops",
+  "subtitle": "Skillet pork with a sweet-tangy glaze",
+  "description": "Boneless pork chops are seasoned, browned in butter, and finished with a simple honey-mustard sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-yellow-mustard",
+      "item": "prepared yellow mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "center-cut-boneless-pork-chops",
+      "item": "center-cut boneless pork chops",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "1/2-inch thick"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the honey and mustard together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Season the pork chops with garlic powder. Melt the butter in a skillet over medium heat, then add the chops."
+    },
+    {
+      "step": 3,
+      "text": "Cook for 3 minutes, turn the chops, and pour the honey-mustard mixture over them.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking for 5 minutes, turning or basting as needed, until the pork reaches 145°F in the thickest part.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and let the chops rest for 3 minutes before cutting and serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pork",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223296/honey-mustard-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d01c55b21f31e64bbe0cfc953b1264b5d46a896d77f1e176055b69b47af1dbae",
+    "normalized_text_hash": "7efffa3b947400aba485eb5201b258877d585e51a772096165c8cf878ae55ec9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:48:29.231Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

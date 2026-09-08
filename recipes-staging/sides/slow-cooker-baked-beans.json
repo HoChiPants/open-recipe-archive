@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-baked-beans",
+  "name": "Slow Cooker Baked Beans",
+  "subtitle": "Sweet, smoky beans with ham and vegetables",
+  "description": "Canned beans simmer with barbecue sauce, ketchup, brown sugar, mustard, vegetables, and cooked ham until thickened.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hickory-flavored-barbeque-sauce",
+      "item": "hickory-flavored barbeque sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-mustard",
+      "item": "dry mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "great-northern-beans",
+      "item": "great Northern beans",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "14.5 ounce, drained and rinsed"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "cooked, diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In the slow cooker, stir together the barbecue sauce, ketchup, brown sugar, and dry mustard until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the beans, bell pepper, onion, and cooked ham; stir until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on low for 8 hours, or until the beans are thickened.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "slow-cooker",
+    "beans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222258/slow-cooker-baked-beans-using-canned-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b608c40469ed9c972bda068146a124654f782e21a7879471184dc05a6a0909e2",
+    "normalized_text_hash": "405c8d8775a40096907016c3a4e1e17f72acb7c2ad4c872a42ffed3a480b6ff1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:37:56.795Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

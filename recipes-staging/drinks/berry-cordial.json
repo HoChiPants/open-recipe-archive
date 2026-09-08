@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "berry-cordial",
+  "name": "Berry Cordial",
+  "subtitle": "A sweet blackberry-infused vodka drink",
+  "description": "Combine blackberries, sugar, and vodka, then steep until the fruit flavors the spirit. Strain before serving.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 14817
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "blackberries",
+      "item": "blackberries",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 1,
+      "unit": "quart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sugar and blackberries in a clean, sealable container."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the vodka and seal the container. Gently shake or stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Store in a cool, dark place until the berries have infused the vodka and the sugar has dissolved.",
+      "timer_minutes": 14817
+    },
+    {
+      "step": 4,
+      "text": "Strain the cordial through a fine-mesh strainer into a clean container, pressing the berries gently to extract the liquid."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "cordial",
+    "blackberry",
+    "make-ahead"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "sealable container",
+    "fine-mesh strainer",
+    "clean storage container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53525/berry-cordial/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b0f3f507730cbb18b3c2b004165e5e51f33161da3059b7753a3895135d68c32a",
+    "normalized_text_hash": "0e71a992df2075aff66f08c67d10ab8746df9ef407d15538f4b630859995bb3e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:28:04.825Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

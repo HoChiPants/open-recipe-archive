@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-garlic-bread",
+  "name": "Roasted Garlic Bread",
+  "subtitle": "Crisp bread with creamy roasted garlic butter",
+  "description": "Roast garlic until soft, blend it with seasoned butter, and broil the mixture on Italian bread until golden.",
+  "meal_type": "baked-good",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heads-garlic",
+      "item": "heads garlic",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "1-pound-loaf-italian-bread",
+      "item": "(1 pound) loaf Italian bread",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Slice the tops from the garlic heads to expose the cloves, place them on foil, and drizzle with the olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Wrap the garlic in the foil and bake until softened, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Set the grill or broiler to high. Cut the bread in half lengthwise, then divide it into portions as desired."
+    },
+    {
+      "step": 4,
+      "text": "Squeeze the roasted garlic from its skins and stir it with the softened butter, Parmesan, and parsley."
+    },
+    {
+      "step": 5,
+      "text": "Spread the garlic butter over the cut sides of the bread and grill or broil until golden, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "bread",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "foil",
+    "grill or broiler"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75133/roasted-garlic-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f89366225e443443ef2293cd66a64292373e8a5ec39721978d108a7ad1630720",
+    "normalized_text_hash": "b66b14eae56c47c7df21ed247842cc4f7d4c13d0de1f8f9a3478e7aa2fdcdd3d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:12:23.905Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

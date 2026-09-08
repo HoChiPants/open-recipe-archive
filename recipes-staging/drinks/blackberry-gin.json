@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blackberry-gin",
+  "name": "Blackberry Gin",
+  "subtitle": "A fruit-forward gin infusion",
+  "description": "Blackberries and sugar lend color and sweetness to a simple gin-based drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "750ml"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blackberries-fresh-or-frozen",
+      "item": "blackberries (fresh or frozen)",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bottle-of-gin",
+      "item": "bottle of gin",
+      "quantity": 700,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the blackberries and sugar in a clean 750 ml container, then transfer the mixture into the container if needed."
+    },
+    {
+      "step": 2,
+      "text": "Add the gin, seal the container, and mix gently to distribute the ingredients."
+    },
+    {
+      "step": 3,
+      "text": "Prepare the mixture for serving by gently agitating it, then use the blackberries as directed or strain before pouring."
+    }
+  ],
+  "tags": [
+    "drink",
+    "alcoholic",
+    "blackberry",
+    "gin"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "750 ml bottle or jar"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blackberry-gin",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "05da5c7d9a4d8a5c93384f61fee9c57298d6de69ede8b408c30d77c1739bd2b8",
+    "normalized_text_hash": "3dd6803b763f012ad16981d02ac8714026459327ca0efd5465757876caf41796",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:37:07.041Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

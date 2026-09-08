@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cold-spaghetti-salad",
+  "name": "Cold Spaghetti Salad",
+  "subtitle": "A chilled pasta salad with tomatoes, olives, mushrooms, and Parmesan",
+  "description": "Toss tender spaghetti with a tangy dressing, vegetables, cheese, and chopped sausage, then chill before serving.",
+  "meal_type": "salad",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thin-spaghetti",
+      "item": "thin spaghetti",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "italian-salad-dressing",
+      "item": "Italian salad dressing",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "italian-style-diced-tomatoes",
+      "item": "Italian-style diced tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce, drained"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "pepperoni-sausage",
+      "item": "pepperoni sausage",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, chopped"
+    },
+    {
+      "ingredient_id": "4-ounce-jar-sliced-mushrooms",
+      "item": "(4 ounce) jar sliced mushrooms",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "3-ounce-jar-sliced-green-olives",
+      "item": "(3 ounce) jar sliced green olives",
+      "quantity": 1,
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "salad-seasoning-mix",
+      "item": "salad seasoning mix",
+      "quantity": 0.25,
+      "unit": "bottle",
+      "preparation": "2.62 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a simmer, add the spaghetti, and cook for 10 minutes, or until tender. Drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "If the pepperoni sausage is uncooked, cook it separately and verify with a food thermometer that it reaches 160°F before proceeding."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the drained spaghetti to a large bowl. Add the salad dressing and red wine vinegar, tossing to coat."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the Parmesan, tomatoes, onion, sausage, mushrooms, olives, and seasoning mix. Stir until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Cover and chill for 3 hours before serving.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "pasta-salad",
+    "cold-salad",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58892/cold-spaghetti-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1d118128c74115b2ad303fdcc2650b1e7c87dbec0098158a106f0fb85a7e53a",
+    "normalized_text_hash": "532b4e76d7e54aa41011d75ac19ebee680bf99fef8e8453202751bedc8f57cf4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:04:53.504Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

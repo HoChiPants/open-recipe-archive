@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-bread-ice-cream",
+  "name": "Brown Bread Ice Cream",
+  "subtitle": "Toasted bread and hazelnut ice cream",
+  "description": "A rich frozen dessert combining toasted wholemeal bread, hazelnuts, sweetened egg whites, and cream.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "wholemeal-bread",
+      "item": "wholemeal bread",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "hazelnuts-chopped",
+      "item": "hazelnuts chopped",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "demerara-sugar",
+      "item": "demerara sugar",
+      "quantity": 65,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 550,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cookies-to-serve-optional",
+      "item": "cookies to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the wholemeal bread, then combine it with the chopped hazelnuts, demerara sugar, and caster sugar."
+    },
+    {
+      "step": 3,
+      "text": "Grill the mixture until toasted, about 10 minutes, then cool until set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Whisk the egg whites with the demerara sugar and caster sugar over gentle heat until the mixture reaches 160°F, then remove from the heat and continue whisking until thick."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the wholemeal bread with the double cream until soft peaks form, then fold in the sweetened egg-white mixture."
+    },
+    {
+      "step": 6,
+      "text": "Freeze the mixture for 240 minutes.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 7,
+      "text": "Prepare the optional cookies and serve with the ice cream.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-dessert",
+    "ice-cream",
+    "hazelnut",
+    "bread-based"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "mixing bowls",
+    "whisk",
+    "food thermometer",
+    "freezer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/brown-bread-ice-cream",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "667e6c9254c658d0d70cfdd0cc351ca6a194a9f345b0b23c50f52ecdb732618d",
+    "normalized_text_hash": "42256ce82e690a853528939aeb79670e73aee9bb42268f1924a08d23fa559b8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T12:30:15.465Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

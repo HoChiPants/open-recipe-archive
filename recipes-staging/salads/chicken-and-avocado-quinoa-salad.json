@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-avocado-quinoa-salad",
+  "name": "Chicken and Avocado Quinoa Salad",
+  "subtitle": "A hearty quinoa salad with herbs, creamy dressing, and grilled chicken.",
+  "description": "Toss cooked quinoa and crisp vegetables with avocado, herbs, chicken, and a tangy green herb dressing for a substantial salad.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breast-fillets-if-thick-cut-them-in-half-horizontally",
+      "item": "chicken breast fillets if thick cut them in half horizontally",
+      "quantity": 600,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-barbecuing-or-griddling",
+      "item": "vegetable oil for barbecuing or griddling"
+    },
+    {
+      "ingredient_id": "quinoa",
+      "item": "quinoa",
+      "quantity": 400,
+      "unit": "g",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "round-lettuce-leaves-seperated",
+      "item": "round lettuce leaves seperated",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "celery-sticks-finely-chopped",
+      "item": "celery sticks finely chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cucumber-finely-chopped",
+      "item": "cucumber finely chopped",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "ripe-avocados-pitted",
+      "item": "ripe avocados pitted",
+      "quantity": 2,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "punnet-of-salad-cress-snipped",
+      "item": "punnet of salad cress snipped"
+    },
+    {
+      "ingredient_id": "dill-roughly-chopped",
+      "item": "dill roughly chopped",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "parsley-roughly-chopped",
+      "item": "parsley roughly chopped",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chives-roughly-chopped",
+      "item": "chives roughly chopped",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "tarragon-leaves-picked",
+      "item": "tarragon leaves picked",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 120,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "garlic-clove-crushed",
+      "item": "garlic clove crushed",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "anchovies-in-oil-drained-and-roughly-chopped",
+      "item": "anchovies in oil drained and roughly chopped",
+      "quantity": 3
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the dill, parsley, chives, tarragon, mayonnaise, olive oil, lemon juice, buttermilk, garlic, and anchovies until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Coat the chicken fillets lightly with vegetable oil. Heat a barbecue or griddle until hot."
+    },
+    {
+      "step": 3,
+      "text": "Griddle the chicken until browned and cooked through, turning as needed; check the thickest part with a food thermometer for 165°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Rest the chicken for 5 minutes, then slice.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Combine the quinoa, lettuce, celery, cucumber, avocado, and sliced chicken. Add the dressing and toss gently."
+    },
+    {
+      "step": 6,
+      "text": "Scatter the snipped salad cress over the salad and serve."
+    }
+  ],
+  "tags": [
+    "chicken-salad",
+    "quinoa-salad",
+    "avocado",
+    "green-salad",
+    "herb-dressing"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "blender or food processor",
+    "barbecue or griddle",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-avocado-quinoa-salad-with-green-goddess-buttermilk-dressing",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ba7094340726883a65fd1f2890529f7eefa014e099318951d1e417fa452ed903",
+    "normalized_text_hash": "bd0f25335b67409efa3b9f1a0bea2a3174eb8c605b3c1720b45127b5277d5407",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:24:38.377Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

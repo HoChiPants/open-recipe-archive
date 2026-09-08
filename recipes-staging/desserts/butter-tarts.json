@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-tarts",
+  "name": "Butter Tarts",
+  "subtitle": "Sweet raisin-and-nut tarts with a soft brown sugar filling",
+  "description": "Fill unbaked tart shells with raisins, chopped nuts, and a buttery brown sugar mixture, then bake until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "3-inch-unbaked-tart-shells",
+      "item": "(3 inch) unbaked tart shells",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts-or-pecans",
+      "item": "walnuts or pecans",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "corn-syrup",
+      "item": "corn syrup",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the 12 unbaked tart shells on a baking sheet. Divide the raisins and chopped walnuts or pecans among the shells."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the brown sugar, corn syrup, softened butter, beaten egg, vanilla extract, and salt until blended."
+    },
+    {
+      "step": 4,
+      "text": "Divide the filling among the shells over the raisins and nuts."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, until the centers are firm and reach 160°F.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dessert",
+    "tarts",
+    "baking",
+    "raisin",
+    "nut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240960/mrs-welchs-butter-tarts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "48ce37d90928a6723245611ff6e90fd3c5732bf3d46142994af15ea95ce417c2",
+    "normalized_text_hash": "94845d59a16ab672101ce47a62fa5a8b0c63b50a83ae82d29a477620ed980190",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:00:28.405Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

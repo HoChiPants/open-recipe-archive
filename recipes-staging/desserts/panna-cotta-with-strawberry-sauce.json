@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "panna-cotta-with-strawberry-sauce",
+  "name": "Panna Cotta With Strawberry Sauce",
+  "subtitle": "Silky chilled cream dessert with fresh berries",
+  "description": "A softly set Italian dessert served with a simple strawberry sauce.",
+  "meal_type": "dessert",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "25-ounce-envelope-unflavored-gelatin",
+      "item": "(.25 ounce) envelope unflavored gelatin",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "whipping-cream",
+      "item": "whipping cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 1,
+      "unit": "quart",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the milk into a bowl and sprinkle in the gelatin. Let it stand for 5 minutes to hydrate.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Heat the whipping cream and white sugar together until hot, stirring to dissolve the sugar."
+    },
+    {
+      "step": 3,
+      "text": "Stir the hydrated gelatin mixture into the hot cream and continue stirring for 3 minutes, until fully dissolved.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Stir in the vanilla extract, then divide the mixture among six serving dishes."
+    },
+    {
+      "step": 5,
+      "text": "Refrigerate until firmly set, about 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 6,
+      "text": "For the sauce, combine the quartered strawberries, white sugar, and water in a saucepan. Simmer for 10 minutes, stirring occasionally, until thickened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Cool the strawberry sauce, then prepare it for serving as a spoonable sauce."
+    },
+    {
+      "step": 8,
+      "text": "Serve the chilled panna cotta with the strawberry sauce."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "italian",
+    "chilled-dessert",
+    "strawberry"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "saucepan",
+    "six serving dishes",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/150221/panna-cotta-with-fresh-strawberry-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f83d90dbb543f3ef892f720a895f219e3f26ab95394249302893377f6bab2fea",
+    "normalized_text_hash": "103a882adf9c26f322a0cd8415082b061addc3a271580d799a708faf7ed03b49",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:49:09.409Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

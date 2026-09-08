@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cabbage-and-noodles",
+  "name": "Cabbage and Noodles",
+  "subtitle": "Buttery noodles tossed with tender cabbage and onion",
+  "description": "A simple savory side dish combining egg noodles with buttery sautéed cabbage and onion.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-noodles",
+      "item": "egg noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "preparation": "cored and chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a boil. Stir in the egg noodles and cook for 5 minutes, until tender and at least 160°F. Drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large skillet over medium heat. Add the onion and cook, stirring, for 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Add the cabbage and continue cooking and stirring for 8 minutes, until softened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Toss the drained noodles with the cabbage mixture. Season with salt and ground black pepper to taste, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "cabbage",
+    "noodles"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220717/cabbage-balushka-or-cabbage-and-noodles/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a67aa8e3635f3729d6349abd1bfaa828a68336af2d1eb0e0b8208388bcf9e883",
+    "normalized_text_hash": "91aef5f1ec57e0ab4510adeaa388fe20ff36760e72c4bc0e6f3b36408cf35da2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:38:16.371Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

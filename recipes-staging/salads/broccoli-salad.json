@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-salad",
+  "name": "Broccoli Salad",
+  "subtitle": "Crunchy broccoli salad with a creamy tangy dressing",
+  "description": "A chilled broccoli salad with raisins, bacon, and sunflower seeds for sweet-savory crunch.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "head-fresh-broccoli",
+      "item": "head fresh broccoli",
+      "quantity": 1,
+      "preparation": "cut into bite size pieces"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sunflower-seeds",
+      "item": "sunflower seeds",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a skillet over medium heat until crisp, about 15 minutes. Drain on paper towels, cool, and crumble.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Combine the broccoli, red onion, and raisins in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the white wine vinegar, sugar, and mayonnaise until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Pour the dressing over the broccoli mixture and toss until evenly coated. Chill until ready to serve."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the crumbled bacon and sunflower seeds just before serving."
+    }
+  ],
+  "tags": [
+    "broccoli",
+    "bacon",
+    "cold-salad",
+    "potluck",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "paper towels",
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16098/alysons-broccoli-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4cf03db41189dac812e6807d039c9309c6145abca72a8b3ae3fde49627fb454e",
+    "normalized_text_hash": "e95841d8c66e87cae6e98187edfe941034b91c550b8f4fc811319a2664aad821",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:49:46.087Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

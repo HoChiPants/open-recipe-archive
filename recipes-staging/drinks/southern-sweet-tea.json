@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "southern-sweet-tea",
+  "name": "Southern Sweet Tea",
+  "subtitle": "A chilled, generously sweetened iced tea",
+  "description": "Brew orange pekoe tea with sugar, then cool it over ice for a refreshing pitcher drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "gallon"
+    },
+    {
+      "ingredient_id": "tray-ice-cubes",
+      "item": "tray ice cubes",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "family-sized-teabags-of-orange-pekoe-tea",
+      "item": "family sized teabags of orange pekoe tea",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sugar in a large heatproof pitcher."
+    },
+    {
+      "step": 2,
+      "text": "Bring the water and cold water to a simmer, then pour the hot water over the tea bags in the pitcher."
+    },
+    {
+      "step": 3,
+      "text": "Steep the tea for 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Remove the tea bags and stir until the sugar dissolves."
+    },
+    {
+      "step": 5,
+      "text": "Add the ice cubes and stir until the tea is chilled. Serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "iced-tea",
+    "southern"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large heatproof pitcher",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/77555/good-ol-alabama-sweet-tea/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e8898777fe18fe7fc8c66a6502c7baeb1794e12f6dac8866b0a34d97d92888a5",
+    "normalized_text_hash": "b3af7dbc902ec5c31c9a3856b5b88d47401c5fd1ffc9eefc9fdb411f9530c206",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:47:40.470Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

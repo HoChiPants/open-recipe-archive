@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-pancakes",
+  "name": "Potato Pancakes",
+  "subtitle": "Crisp-edged pancakes with a tender potato center",
+  "description": "Grated potatoes and onion are bound with egg and flour, then pan-fried until golden and firm.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 200°F. Line a plate or pan with paper towels for draining."
+    },
+    {
+      "step": 2,
+      "text": "Grate the potatoes and yellow onion. Squeeze or drain thoroughly to remove excess moisture."
+    },
+    {
+      "step": 3,
+      "text": "Combine the drained vegetables with the beaten egg, salt, and pepper. Stir in the flour until the mixture is thick enough to hold its shape."
+    },
+    {
+      "step": 4,
+      "text": "Heat the vegetable oil in a skillet over medium-high heat. Add portions of the mixture, flattening each into a pancake."
+    },
+    {
+      "step": 5,
+      "text": "Sauté in batches until golden brown on both sides and firm in the center, reaching 160°F for the egg-containing mixture."
+    },
+    {
+      "step": 6,
+      "text": "Transfer cooked pancakes to the prepared pan and keep warm in the oven while frying the remaining mixture."
+    },
+    {
+      "step": 7,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "potato",
+    "pancakes",
+    "side-dish",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "box grater",
+    "mixing bowl",
+    "skillet",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14089/potato-pancakes-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "101eb933c6539178723c2156f0ca75bb39c912bed41841e800e94733f3d31723",
+    "normalized_text_hash": "921d09c4d6755d9f64a145e760e8fe8f699dee76eb6cb32d9a88cc33ceff867d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:18.369Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

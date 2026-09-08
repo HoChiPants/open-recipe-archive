@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-coconut-cake",
+  "name": "Creamy Coconut Cake",
+  "subtitle": "A chilled white cake layered with coconut cream and whipped topping.",
+  "description": "Bake a white cake, soak it with a coconut-milk mixture, and finish it with whipped topping and flaked coconut.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-cake-mix",
+      "item": "white cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "cream-of-coconut",
+      "item": "cream of coconut",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "16-ounce-container-frozen-whipped-topping",
+      "item": "(16 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare and bake the white cake mix according to the package directions. Cool the cake completely in its pan.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 2,
+      "text": "Stir together the cream of coconut, sweetened condensed milk, and flaked coconut."
+    },
+    {
+      "step": 3,
+      "text": "Pour the coconut mixture over the cooled cake, spreading it evenly so it can soak in."
+    },
+    {
+      "step": 4,
+      "text": "Spread the thawed whipped topping over the cake and chill before serving.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 5,
+      "text": "Cut into portions and serve cold."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "coconut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-by-13-inch baking pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23762/creamy-coconut-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a197ff62f055590539a097954f349fec51e2e1fac84bcdf4eab0006953778313",
+    "normalized_text_hash": "b41bfeaed1b9ee0b352931428b51021f66eddc65fbde28fd5cf16cab28c9f620",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:36:17.222Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

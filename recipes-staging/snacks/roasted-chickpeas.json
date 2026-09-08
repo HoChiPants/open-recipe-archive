@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-chickpeas",
+  "name": "Roasted Chickpeas",
+  "subtitle": "Crisp, smoky chickpeas with a gentle peppery kick",
+  "description": "A simple oven-roasted snack seasoned with smoked paprika, garlic, and cayenne.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chickpeas-garbanzo-beans",
+      "item": "chickpeas (garbanzo beans)",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": "1/4",
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": "1/8",
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pat the drained chickpeas very dry and let them air-dry for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 450°F."
+    },
+    {
+      "step": 3,
+      "text": "Toss the chickpeas with the olive oil. Mix the salt, smoked paprika, black pepper, cayenne, and garlic powder, then coat the chickpeas with the seasoning."
+    },
+    {
+      "step": 4,
+      "text": "Spread the chickpeas in a single layer on a baking sheet and roast until browned and crisp, stirring once during cooking, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "roasted",
+    "crispy",
+    "spiced"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/81548/roasted-chickpeas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f3fb82d7261989d30fa9357484756d32aed5d5fba4a026290d3e4d2a8aa68908",
+    "normalized_text_hash": "bf178d039d595255170998bac43bed1d5d9f943ab941fb877eff7d357990d476",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:12:06.857Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

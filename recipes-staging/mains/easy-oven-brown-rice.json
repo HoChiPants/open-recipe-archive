@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-oven-brown-rice",
+  "name": "Easy Oven Brown Rice",
+  "subtitle": "Tender brown rice baked with butter and salt",
+  "description": "A simple baked brown rice dish prepared with boiling water for an easy, hands-off side or main accompaniment.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-rice",
+      "item": "brown rice",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 3,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the brown rice, salt, and butter in a baking dish. Pour in the boiling water and stir."
+    },
+    {
+      "step": 3,
+      "text": "Cover the dish and bake for 60 minutes, or until the rice is tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "rice",
+    "baked",
+    "easy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230901/easy-oven-brown-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f8d61eb50859da75ff7a93c74a0e8a0dc0ee16d78b47f6fba2937b4c5a0e43c6",
+    "normalized_text_hash": "b4629957fca7078479ea88ad45216160a45e8ceb9ff8fb6bde7672704898930c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:40:11.035Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

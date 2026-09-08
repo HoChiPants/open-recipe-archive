@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-sour-cream-cake",
+  "name": "Apple Sour Cream Cake",
+  "subtitle": "A tender apple cake with a lightly tangy crumb",
+  "description": "Apples, sour cream, and rum make this moist cake suitable for slicing and serving as a simple dessert.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 440,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 480,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 7,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "soured-cream",
+      "item": "soured cream",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "rum",
+      "item": "rum",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "butter-melted",
+      "item": "butter melted",
+      "quantity": 20,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 10,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F (175°C). Butter the cake tin."
+    },
+    {
+      "step": 2,
+      "text": "Cut the apples into pieces. Toss them with the lemon juice, some of the caster sugar, and the icing sugar."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs with the remaining caster sugar and icing sugar until thick."
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the flour, baking powder, soured cream, melted butter, and rum until combined."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the apples in the prepared tin and spread the batter over them."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the cake is set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 7,
+      "text": "Cool briefly, then dust with icing sugar before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "apple",
+    "cake",
+    "baking",
+    "sour-cream"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "cake tin",
+    "mixing bowls",
+    "whisk",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/easy-polish-apple-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "058e7366b395cf0b1cf3025b0ff27dc37fd65c74a224c694c0784c778c5fbbac",
+    "normalized_text_hash": "011dc0161488fd788cdba220564481c589ed8b37804d3be05deb8007d0c69e70",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:39:39.933Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

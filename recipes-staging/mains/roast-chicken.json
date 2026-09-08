@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-chicken",
+  "name": "Roast Chicken",
+  "subtitle": "A straightforward lemon-roasted whole chicken",
+  "description": "A simple whole chicken roasted with lemon and kosher salt until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4-pound-whole-chicken",
+      "item": "(4 pound) whole chicken",
+      "quantity": 1,
+      "preparation": "rinsed"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the rinsed chicken in a roasting pan and put the lemon halves in the cavity."
+    },
+    {
+      "step": 3,
+      "text": "Season the chicken with kosher salt."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 60 minutes, or until a thermometer inserted into the thickest part of the meat reaches 165°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Let the chicken rest for 15 minutes before carving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast-chicken",
+    "lemon",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228848/stupid-simple-roast-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7ccaa82c4e92a38c88c659cb353d084bb844023a4afb36b3c59fcdb31a230edc",
+    "normalized_text_hash": "b4ade581e50f98686d1d47c6edcb37d10a46c4443c09648ac4132a7a41eb96a6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:06:28.390Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

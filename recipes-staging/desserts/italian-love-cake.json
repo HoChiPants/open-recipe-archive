@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-love-cake",
+  "name": "Italian Love Cake",
+  "subtitle": "Chocolate cake with a creamy ricotta layer",
+  "description": "A layered chocolate dessert with ricotta filling and a light chocolate pudding topping.",
+  "meal_type": "dessert",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-cake-mix",
+      "item": "chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "part-skim-ricotta-cheese",
+      "item": "part-skim ricotta cheese",
+      "quantity": 2,
+      "unit": "pints"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "instant-chocolate-pudding-mix",
+      "item": "instant chocolate pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.9 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "12-ounce-container-frozen-whipped-topping",
+      "item": "(12 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a baking pan according to the cake mix directions."
+    },
+    {
+      "step": 2,
+      "text": "Mix the chocolate cake mix, water, 2 eggs, and vegetable oil until combined, then whisk for 2 minutes. Transfer the batter to the prepared pan.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Blend the ricotta, sugar, vanilla, and remaining 2 eggs until smooth. Spoon the mixture evenly over the cake batter."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, until the center is set and a thermometer inserted into the egg-rich layer reads 160°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool the cake completely."
+    },
+    {
+      "step": 6,
+      "text": "Whisk the pudding mix and milk until thickened, then blend in the thawed whipped topping. Spread the topping over the cooled cake and transfer it to the refrigerator until ready to serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "ricotta",
+    "layer-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "baking pan",
+    "refrigerator",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7998/italian-love-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2a8097f3c5fc7859e13ac902122957636605215a21fe2ae922966cf1e72c783b",
+    "normalized_text_hash": "37d0a8d676f75e7390e74595ce58e050d1c26949afa67601da5753d91857ee82",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:18:35.559Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-white-cake",
+  "name": "Simple White Cake",
+  "subtitle": "A tender vanilla cake for sharing",
+  "description": "A straightforward white cake with a buttery crumb and light vanilla flavor.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1.75,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "table-salt",
+      "item": "table salt",
+      "quantity": "1/4",
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the baking pan and preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the white sugar and unsalted butter together for 4 minutes. Add the eggs one at a time, then combine with the vanilla extract.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the all-purpose flour, baking powder, and table salt. Add this mixture to the butter mixture alternately with the milk, combining until smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 350°F for 30 minutes, until the center is fully set and a tester comes out clean.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Cool the cake in the pan for 10 minutes, then cool completely before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "cake",
+    "american",
+    "baking",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17481/simple-white-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "34b735974b6460c59b6283b5aefe73f7e7a57460cea706bfc05a56ff17239aee",
+    "normalized_text_hash": "01d879c17dd26e997db591dd565925c6d4e742afb3336848d9180cc11d69a0fc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:30:17.498Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

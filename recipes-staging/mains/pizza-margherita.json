@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizza-margherita",
+  "name": "Pizza Margherita",
+  "subtitle": "Thin-crust pizza with tomato, mozzarella, and basil",
+  "description": "A simple yeast-risen pizza topped with sauce, fresh mozzarella, basil, olive oil, and sea salt.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "inactive_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "flour-for-dusting",
+      "item": "flour for dusting",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pizza-sauce",
+      "item": "pizza sauce",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "slices-fresh-mozzarella-cheese",
+      "item": "slices fresh mozzarella cheese",
+      "quantity": 20
+    },
+    {
+      "ingredient_id": "leaves-fresh-basil",
+      "item": "leaves fresh basil",
+      "quantity": 20
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the all-purpose flour and salt together. Combine the water, active dry yeast, and white sugar separately, then let the mixture stand until set."
+    },
+    {
+      "step": 2,
+      "text": "Add the yeast mixture to the flour mixture and stir until a dough forms. Knead on a lightly floured surface for 8 minutes, until smooth.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Coat the dough lightly with olive oil, transfer it to a warm place, and let it rise for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 500°F. Divide and shape the risen dough, then stretch it on a surface dusted with flour for dusting."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the dough to a baking surface, spread on the pizza sauce, and arrange the mozzarella and basil over it. Finish with olive oil and sea salt to taste."
+    },
+    {
+      "step": 6,
+      "text": "Bake for about 7 minutes, until the crust is golden brown and the cheese is melted.",
+      "timer_minutes": 7
+    }
+  ],
+  "tags": [
+    "pizza",
+    "dinner",
+    "vegetarian",
+    "yeast-dough"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking surface",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222197/authentic-pizza-margherita/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b21ef42830854473866ad5254bb84ec9f9e18092fd9e44c4156ccb4df8316a4c",
+    "normalized_text_hash": "087660756481dd231edd51210e93f9637cf65e56bfb0c2ba7409ce2123d35613",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:33:53.888Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

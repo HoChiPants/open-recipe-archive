@@ -1,0 +1,73 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-champagne-cocktail",
+  "name": "Cranberry Champagne Cocktail",
+  "subtitle": "A bright, sparkling drink with cranberry flavor",
+  "description": "Combine chilled brut Champagne with cranberry juice for a simple festive cocktail.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brut-champagne",
+      "item": "brut Champagne",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "cranberry-juice",
+      "item": "cranberry juice",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the brut Champagne into a serving glass."
+    },
+    {
+      "step": 2,
+      "text": "Add the cranberry juice and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "sparkling",
+    "cranberry"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "equipment": [
+    "Champagne flute"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/153024/poinsettias/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "89eb7872da217a3e504314435df8b0cfb8d2332ec63d090accabd1d3b80886bb",
+    "normalized_text_hash": "3903459922383a57f246dc6947be416f9411cab4a910de3b8818c1843cfb10ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:34:44.164Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

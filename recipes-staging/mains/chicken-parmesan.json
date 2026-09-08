@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-parmesan",
+  "name": "Chicken Parmesan",
+  "subtitle": "Crisp breaded chicken with tomato sauce and melted cheese",
+  "description": "Breaded chicken breasts are fried until golden, topped with sauce, basil, and cheeses, then baked until fully cooked and bubbling.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "panko-bread-crumbs",
+      "item": "panko bread crumbs",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more if needed"
+    },
+    {
+      "ingredient_id": "olive-oil-for-frying",
+      "item": "olive oil for frying",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "prepared-tomato-sauce",
+      "item": "prepared tomato sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella",
+      "item": "fresh mozzarella",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "cut into small cubes"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "grated-provolone-cheese",
+      "item": "grated provolone cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F. Flatten the chicken breasts to an even thickness and season both sides with salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Set out the flour, whisked eggs, and a mixture of panko, part of the Parmesan, and the provolone. Coat each chicken breast in flour, then egg, then the crumb mixture. Let the breaded chicken rest briefly.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Heat the frying olive oil in a skillet. Cook the chicken for about 2 minutes per side, until golden, then transfer it to a baking dish.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Spoon the tomato sauce over the chicken. Top with the remaining Parmesan, mozzarella, basil, provolone, and the olive oil."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cheese is melted and the chicken reaches 165°F at the thickest point on a food thermometer. Let it rest briefly before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian-inspired",
+    "chicken",
+    "baked",
+    "breaded"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223042/chicken-parmesan/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cde09e26acaf9f828778dbcf4ec9f637a6d9e6e8b0d61beab87369f45b71333f",
+    "normalized_text_hash": "1b4393e9c099c7b6d1cd1df7512bd35dba5364b11e13c15914ff0a87ad8eb123",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:12:22.351Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-sweet-potato-slices",
+  "name": "Cinnamon Sweet Potato Slices",
+  "subtitle": "Tender baked sweet potatoes with a buttery cinnamon-sugar coating",
+  "description": "Sliced sweet potatoes are baked until tender, then finished with melted butter and a warm cinnamon-sugar mixture.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "sweet-potatoes",
+      "item": "sweet potatoes",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and sliced 1/2 inch thick"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the sweet potato slices in the prepared dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the sugar and cinnamon. Sprinkle the mixture over the sweet potatoes."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Pour the melted butter over the slices and sprinkle with the remaining sugar-and-cinnamon mixture."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 15 minutes more, or until the sweet potatoes are tender.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "sweet-potatoes",
+    "cinnamon",
+    "baked",
+    "vegetarian-side-dish"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84002/cinnamon-sweet-potato-slices/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa3dbf9b426d23a17f4fecf708a332976870ffb0a79345399d61d3f2ff2f50a7",
+    "normalized_text_hash": "6abf0fd9333e953e4d349c94f40eef606d182dcc9fb447b10fca818d19e5c295",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:48:28.658Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

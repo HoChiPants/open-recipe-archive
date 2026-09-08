@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dairy-free-chocolate-pudding",
+  "name": "Dairy-Free Chocolate Pudding",
+  "subtitle": "Silky cocoa pudding made with soy milk",
+  "description": "A simple chocolate pudding thickened with cornstarch and served chilled.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "soy-milk",
+      "item": "soy milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the cornstarch and water into a smooth slurry. In a saucepan, combine the soy milk, sugar, cocoa powder, and vanilla extract."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the slurry into the saucepan mixture until evenly incorporated."
+    },
+    {
+      "step": 3,
+      "text": "Heat over medium heat, stirring constantly, until the mixture reaches a boil and thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and let the pudding cool briefly.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Divide between two serving dishes and chill until set, about 2 hours.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "chocolate",
+    "dairy-free"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "egg-free"
+  ],
+  "allergens": [
+    "soy",
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "saucepan",
+    "serving dishes"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20366/dairy-free-chocolate-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c5b2eccec6c17628dd19ef32536151e085b3360d1639548de1bf001faf6915da",
+    "normalized_text_hash": "0744f211223ba7b09ddf8f8406c238c6408124832df3ff22f9151a65e253344e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:00:10.883Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

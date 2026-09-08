@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-shortcake-2418201d",
+  "name": "Strawberry Shortcake",
+  "subtitle": "Macerated berries with cake and whipped cream",
+  "description": "Sliced strawberries are sweetened and chilled, then layered with sponge cake cups and whipped cream for a simple dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 1,
+      "unit": "quart",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-sponge-cake-dessert-cups",
+      "item": "prepared sponge cake dessert cups",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "7 ounce, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sliced strawberries in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the white sugar and stir to coat the berries. Chill for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Divide the sponge cake dessert cups among six servings and spoon the chilled strawberries over them."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the whipped cream, then add it to each serving to taste."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "no-bake"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241997/easy-strawberry-shortcake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "83750048c2576bdc80fcfc0f0e6165785632a5d8c253391a84ca3c437f2667f1",
+    "normalized_text_hash": "8ed356bb8f09e9846151750bd8e8b1d83a7436edb3e5fc7665089a99d2ad7424",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:48:43.734Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

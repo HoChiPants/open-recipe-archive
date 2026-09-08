@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-hawaiian-chicken",
+  "name": "Grilled Hawaiian Chicken",
+  "subtitle": "Teriyaki chicken with pineapple and brown-sugar glaze",
+  "description": "Chicken breasts are marinated, grilled, and finished with pineapple and a buttery, tangy glaze.",
+  "meal_type": "main",
+  "cuisine": "Hawaiian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "pineapple-rings",
+      "item": "pineapple rings",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "unsweetened-pineapple-juice",
+      "item": "unsweetened pineapple juice",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 6,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the teriyaki sauce, soy sauce, and Worcestershire sauce. Add the chicken, cover, and refrigerate for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Stir together the melted butter, brown sugar, pineapple juice, and the remaining marinade mixture. Simmer until slightly thickened, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Preheat an outdoor grill to medium heat and oil the grates."
+    },
+    {
+      "step": 4,
+      "text": "Remove the chicken from the marinade and discard the used marinade. Grill the chicken and pineapple rings, turning and brushing with the glaze, until the chicken reaches 165°F in the thickest part, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Serve the chicken with the grilled pineapple and remaining glaze."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "chicken",
+    "pineapple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "outdoor grill",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8503/hawaiian-chicken-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "06eed2ac760c7a3c1d66f7e0f645dd917fac3236c79badbeb3aa4248bad2c779",
+    "normalized_text_hash": "3d13708e844d32683047a1ed5bfb86374ae8e51b1a5bcb8304a359ee9c8cf72c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:07:02.407Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

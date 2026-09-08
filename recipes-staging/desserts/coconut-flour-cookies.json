@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-flour-cookies",
+  "name": "Coconut Flour Cookies",
+  "subtitle": "Soft peanut butter cookies with coconut flour",
+  "description": "Tender coconut flour cookies enriched with peanut butter and brown sugar, with optional chocolate chips.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coconut-flour",
+      "item": "coconut flour",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "coconut-oil-melted",
+      "item": "coconut oil melted",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips (optional)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and line a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the coconut flour, melted coconut oil, eggs, peanut butter, brown sugar, and baking powder. Fold in the chocolate chips if using."
+    },
+    {
+      "step": 3,
+      "text": "Divide the dough into 10 portions and shape each into a cookie on the prepared sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the cookies are thick, about 14 minutes.",
+      "timer_minutes": 14
+    },
+    {
+      "step": 5,
+      "text": "Let the cookies cool on the sheet for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "cookies",
+    "coconut-flour",
+    "peanut-butter",
+    "treat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "peanuts",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coconut-flour-cookies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9fd3c8d34d19cbc72c2c81883bbbe99815d69d361df1fff29b56e6d56846b7ad",
+    "normalized_text_hash": "d680482deb4dbf142b3d63973de61dae0766adc97445f704313da4cc80612f4e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:37:12.423Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

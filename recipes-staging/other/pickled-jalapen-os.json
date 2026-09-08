@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickled-jalapen-os",
+  "name": "Pickled Jalapeños",
+  "subtitle": "Tangy refrigerator peppers with a lightly sweet brine",
+  "description": "Thinly sliced jalapeños steep in a simple vinegar brine for a crisp, spicy condiment.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "smashed"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "thinly sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the vinegar, water, sugar, salt, and smashed garlic in a saucepan. Heat until steaming."
+    },
+    {
+      "step": 2,
+      "text": "Simmer until the sugar and salt dissolve."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sliced jalapeños and let them stand in the hot brine for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer the jalapeños to a clean heatproof container, then pour in the brine and garlic."
+    },
+    {
+      "step": 5,
+      "text": "Cool for 30 minutes, cover, and refrigerate before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "condiment",
+    "pickled",
+    "spicy",
+    "refrigerator-pickle"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "clean heatproof container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254513/pickled-jalapenos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cdebf4aa145251ae6f6af57d59eb0efb950ed4b97b00335acf3308156ca6c6d4",
+    "normalized_text_hash": "fc65ecc588167a89b4590395c7d63c33003aaaa04e9b1c5dbc66703f6359fad7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:17:05.487Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

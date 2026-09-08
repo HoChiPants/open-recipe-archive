@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buttermilk-pie",
+  "name": "Buttermilk Pie",
+  "subtitle": "A creamy lemon-scented custard pie with a nutmeg finish",
+  "description": "A classic American custard pie with buttermilk, lemon, and nutmeg baked in a single crust until golden and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "prepared-dough-for-1-9-inch-single-crust-pie",
+      "item": "prepared dough for 1 (9-inch) single crust pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-grated-nutmeg",
+      "item": "freshly grated nutmeg",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "zest-from-1-lemon",
+      "item": "Zest from 1 lemon"
+    },
+    {
+      "ingredient_id": "juice-from-1-lemon",
+      "item": "Juice from 1 lemon"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Shape the dough in a 9-inch pie pan, trim the edge, and fold it under to form a neat rim."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the crust to the oven and bake for 15 minutes. Set it aside to cool.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Combine the lemon zest and juice."
+    },
+    {
+      "step": 4,
+      "text": "Beat the room-temperature butter and sugar until combined, about 5 minutes. Add the flour and salt, then mix well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Stir in the eggs, one at a time, and whisk until smooth. Mix in the vanilla, nutmeg, lemon mixture, and buttermilk for about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Pour the filling into the cooled crust and bake at 350°F for 55 minutes, until golden brown and the center is fully set.",
+      "timer_minutes": 55
+    },
+    {
+      "step": 7,
+      "text": "Cool the pie, then chill it for 120 minutes before slicing.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "american",
+    "custard"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie pan",
+    "oven",
+    "mixing bowl",
+    "electric mixer",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/261410/chef-johns-buttermilk-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "40a0003b168a2a34959a4b675bee0568575a82b9fcd434dcd8266fae7f9aefc5",
+    "normalized_text_hash": "0a15feecb2bd1985aadf70d02b1a34b7d4eae6998150adcf33a5311539830b9a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:22:38.944Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

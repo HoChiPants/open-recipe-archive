@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-lassi",
+  "name": "Strawberry Lassi",
+  "subtitle": "A cool strawberry yogurt drink",
+  "description": "Blend ripe strawberries with sugar, milk, yogurt, and cardamom, then serve chilled over ice.",
+  "meal_type": "breakfast",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-strawberries",
+      "item": "ripe strawberries",
+      "quantity": 9,
+      "preparation": "rinsed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "low-fat-yogurt",
+      "item": "low-fat yogurt",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "ground-cardamon",
+      "item": "ground cardamon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the rinsed strawberries into pieces."
+    },
+    {
+      "step": 2,
+      "text": "Place the strawberries and sugar in a blender and blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the milk and yogurt; blend for 1 minute until creamy.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Pour into three serving glasses over the ice cubes and sprinkle with ground cardamon."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "indian"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141367/strawberry-lassi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0849435318f6aabaa6ecaebb8b34903b048ebeb3218133b74a1c2de628d39c30",
+    "normalized_text_hash": "c49c3ecae32dc5bb0faea5c40c6b353bb85d0e20e279a6b69ec823e81a727420",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:59:27.605Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-cheesecake",
+  "name": "Classic Cheesecake",
+  "subtitle": "A rich, creamy baked cheesecake with a softly set center",
+  "description": "A straightforward American cheesecake made with cream cheese, eggs, cream, and vanilla, baked until firm and chilled before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 4,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5,
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Grease and prepare a cheesecake pan with the room-temperature butter."
+    },
+    {
+      "step": 2,
+      "text": "Beat the cream cheese, white sugar, and heavy cream until smooth and well combined."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the room-temperature eggs separately, then gradually incorporate them into the cream cheese mixture."
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the remaining heavy cream, cornstarch, and vanilla extract until the batter is smooth."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and smooth the surface."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 60 minutes, until the cheesecake is firm and the center is fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 7,
+      "text": "Cool for 60 minutes, then chill until set before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "cheesecake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "cheesecake pan",
+    "mixing bowls",
+    "electric mixer or whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21592/very-very-very-good-cheesecake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d709c03eed907a8a14dbed282a3868889cbde6658974d25696fd8f17d090ff11",
+    "normalized_text_hash": "7a91d304f8c04250981961199f4fc8e8ee6abd8eca2c1e8ade9f23cdbeaa06cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:51:22.795Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

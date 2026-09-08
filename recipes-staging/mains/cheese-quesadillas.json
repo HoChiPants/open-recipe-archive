@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-quesadillas",
+  "name": "Cheese Quesadillas",
+  "subtitle": "Two-tortilla cheddar quesadillas",
+  "description": "Fill tortillas with shredded cheddar and heat until melted, then cut into portions.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "10-inch-flour-tortillas",
+      "item": "(10 inch) flour tortillas",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare a microwave-safe plate."
+    },
+    {
+      "step": 2,
+      "text": "Transfer both flour tortillas to the plate and add shredded cheddar cheese between them, or on one tortilla with the other covering it."
+    },
+    {
+      "step": 3,
+      "text": "Microwave until the cheese is fully melted, about 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Cut the cooked quesadilla into pieces to serve."
+    }
+  ],
+  "tags": [
+    "cheese",
+    "mexican-style",
+    "quick",
+    "lunch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe plate",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228115/2-minute-cheese-quesadillas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0f4cb89977bd4931c4d3d25e2ca7290413eb841f884757db8d868f637c13ef9d",
+    "normalized_text_hash": "a3ba8cd710a21739c8654ab0df29963092e0d9cc5b9d982063137740ad9ae12d",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:05:41.747Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

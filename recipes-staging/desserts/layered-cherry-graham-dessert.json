@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "layered-cherry-graham-dessert",
+  "name": "Layered Cherry Graham Dessert",
+  "subtitle": "A chilled dessert with creamy vanilla layers and cherry topping.",
+  "description": "Layer graham crackers with vanilla pudding and whipped topping, then finish with cherry pie filling and chill until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 185
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-crackers",
+      "item": "graham crackers",
+      "quantity": 14,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5.1 ounce"
+    },
+    {
+      "ingredient_id": "cold-milk",
+      "item": "cold milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "whipped-topping",
+      "item": "whipped topping",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the pudding mix and cold milk until thickened. Gently fold in the thawed whipped topping.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Arrange a layer of graham crackers in a 9-inch square dish. Spread half of the pudding mixture over them."
+    },
+    {
+      "step": 3,
+      "text": "Add another layer of graham crackers, followed by the remaining pudding mixture. Cover with the final graham crackers."
+    },
+    {
+      "step": 4,
+      "text": "Spread the cherry pie filling evenly over the top."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate until chilled and set, about 3 hours.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chilled",
+    "layered"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "9-inch square dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85942/easy-layered-delight/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b11faf5d4c4dcdb67dd58d6f1d7688817065269bbc95d394ab0723d7494837ca",
+    "normalized_text_hash": "abb2da46d4ea886bf3c6908ac13430e1ac2279725e6c59ab052339babdb58a1d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:35:48.057Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

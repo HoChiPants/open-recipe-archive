@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mustard-chicken",
+  "name": "Mustard Chicken",
+  "subtitle": "Baked chicken with a crisp onion coating",
+  "description": "Chicken breasts are coated in prepared mustard and French-fried onions, then baked until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "prepared-mustard",
+      "item": "prepared mustard",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "french-fried-onions",
+      "item": "French-fried onions",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the prepared mustard in a shallow dish. Place the French-fried onions in another shallow dish, then coat each chicken breast with mustard and press it into the onions."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the coated chicken to a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, or until the thickest part reaches 165°F and the chicken is cooked through.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "baked-chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "shallow dishes",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17105/mustard-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a3019fc73a27d9f316fbbed5569b0ee046fb2ee2f0d7975e79e510084b3cebf6",
+    "normalized_text_hash": "4e8dd8d0ff45db3c29e851b0fca68176cd15930e292c05c01cbf7c051ce5256f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:04:30.894Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

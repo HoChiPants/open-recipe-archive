@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-sour-cream-ice-cream",
+  "name": "Vanilla Sour Cream Ice Cream",
+  "subtitle": "A simple frozen dessert with tangy richness and vanilla flavor.",
+  "description": "Whisked egg whites, sugar, sour cream, and vanilla form a light mixture that is frozen and stirred for a smooth texture.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla",
+      "item": "vanilla"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg whites with the white sugar until the mixture reaches soft peaks."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the vanilla, then whisk in the sour cream until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "For food safety, use pasteurized egg whites for this no-cook preparation. If heat-treating the egg mixture instead, bring it to 160°F before chilling."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a freezer-safe container and freeze until partially set.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Stir the partially frozen mixture for 30 minutes, then return it to the freezer until firm.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-dessert",
+    "ice-cream",
+    "vanilla",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "freezer-safe container",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/35210/grannys-ice-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "073d69ede85857095eca072c15888f5706d7c108a2cd8a296826ab8637fd4e3e",
+    "normalized_text_hash": "0a80e309fbb779b2da3b9b32ae2175f32518cb421532d2b01ebe12c1428f03e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:56:14.561Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

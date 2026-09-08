@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-soup",
+  "name": "Tomato Soup",
+  "subtitle": "A smooth, savory tomato soup with a lightly creamy finish.",
+  "description": "Tomatoes, vegetables, broth, and herbs simmer together before being finished with a simple milk thickener.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 7,
+      "unit": "cups",
+      "preparation": "seeded, and chopped tomatoes"
+    },
+    {
+      "ingredient_id": "finely-chopped-carrots",
+      "item": "finely chopped carrots",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "finely-chopped-onion",
+      "item": "finely chopped onion",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "13.75 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "2-milk",
+      "item": "2% milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "celery-salt",
+      "item": "celery salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the carrots and onion in a large pot. Add the tomatoes, chicken broth, white sugar, sea salt, dried basil, celery salt, ground black pepper, and garlic powder."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer, then cook gently for 60 minutes, stirring occasionally, until the vegetables are tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a separate saucepan over medium heat. Whisk in the flour and cook until smooth and thick."
+    },
+    {
+      "step": 4,
+      "text": "Gradually add the milk, whisking constantly. Cook for 5 minutes, until thickened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Stir the milk mixture into the soup and continue heating until a thermometer registers 165°F throughout."
+    },
+    {
+      "step": 6,
+      "text": "Taste and adjust seasoning only if needed, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "tomato",
+    "vegetable",
+    "comfort-food",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218791/jersey-fresh-tomato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d7e63541ba9bdb323d4a68f4382e416cc227c4ba2c902243d49fdd02f89ad59b",
+    "normalized_text_hash": "c94a3b0839346bd160d601cca485044cfe137dac2f4a9f64461414a2004eb339",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:29:08.460Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

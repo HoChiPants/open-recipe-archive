@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vegetable-broth",
+  "name": "Vegetable Broth",
+  "subtitle": "Roasted vegetables simmered with herbs and spices",
+  "description": "A full-bodied broth made from roasted vegetables, fresh parsley, garlic, and whole spices.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-onions",
+      "item": "sweet onions",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "peeled and cut into wedges"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cored and quartered"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "turnips",
+      "item": "turnips",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "bunch-fresh-parsley",
+      "item": "bunch fresh parsley",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "black-peppercorns",
+      "item": "black peppercorns",
+      "quantity": 6,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 3,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "gallon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the onions, tomatoes, carrots, green bell pepper, and turnips in a roasting pan. Toss with the olive oil."
+    },
+    {
+      "step": 3,
+      "text": "Roast until the onions are tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer the roasted vegetables to a large stockpot. Add the celery, parsley, garlic, peppercorns, cloves, bay leaf, and water."
+    },
+    {
+      "step": 5,
+      "text": "Bring the mixture to a boil, then reduce the heat and simmer gently until the vegetables and aromatics have infused the broth, about 75 minutes.",
+      "timer_minutes": 75
+    },
+    {
+      "step": 6,
+      "text": "Strain the broth through a fine-mesh sieve before serving or using in another dish."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "vegetable-broth"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "large stockpot",
+    "fine-mesh sieve"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14033/worlds-greatest-vegetable-broth/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "68648d76daf3f5a4e508766e65322345ce0f8675e2b539e889b40594761e40fb",
+    "normalized_text_hash": "9d424b22035f3f0e5c682f91976a9505a17990c3f08ff79d78470ef6ca160b98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:09:26.680Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

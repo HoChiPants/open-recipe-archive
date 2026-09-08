@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-poached-eggs",
+  "name": "Air-Fryer Poached Eggs",
+  "subtitle": "Tender eggs prepared in individual ramekins",
+  "description": "Poach eggs in an air fryer for an easy breakfast with set whites and gently cooked centers.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-or-sunflower-oil",
+      "item": "vegetable or sunflower oil",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly oil two heatproof ramekins and crack one egg into each."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Place the ramekins in the basket and cook until the whites are set and each egg reaches 160°F in the center.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Carefully remove the ramekins and drain any excess liquid before serving."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "air-fryer",
+    "eggs",
+    "poached-eggs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "air fryer",
+    "two heatproof ramekins",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-poached-egg",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e20f2bd4af61fc7d3c8f656776ac321db2328cf3252ef58d30092543c0dc1f88",
+    "normalized_text_hash": "a58cdc6723a67c39913acb660c32a9d0cce1c88adfdf995dab71435bfec4f870",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:28:46.002Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

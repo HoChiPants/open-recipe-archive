@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-lime-honey-chicken",
+  "name": "Grilled Lime-Honey Chicken",
+  "subtitle": "Savory-sweet chicken with bright lime flavor",
+  "description": "Chicken breasts are coated in a soy, honey, lime, and garlic mixture, rested, then grilled until fully cooked.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, honey, oil, lime juice, and chopped garlic in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken and turn to coat evenly. Cover and refrigerate for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill to medium-high heat and lightly oil the grates if needed."
+    },
+    {
+      "step": 4,
+      "text": "Grill the chicken, turning as needed, for about 8 minutes, or until the thickest part reaches 165°F on a food thermometer.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Let the chicken rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "bowl",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25445/key-west-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4aa67668c6d689f6e40165af37c2ec40bdb520c16e903f0db75f84d77beeace4",
+    "normalized_text_hash": "c677024687ef5801c29d503030ca4ab755a63c4a0099a8f44fac81f3d83ba374",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:39:16.696Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

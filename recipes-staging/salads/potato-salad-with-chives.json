@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-salad-with-chives",
+  "name": "Potato Salad with Chives",
+  "subtitle": "Creamy potato salad with fresh chives",
+  "description": "Tender new potatoes are coated in a tangy sour-cream and mayonnaise dressing with fresh chives.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "new-potatoes",
+      "item": "new potatoes",
+      "quantity": 1.75,
+      "unit": "pounds",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the halved potatoes in a saucepan and cover with cold water. Bring to a simmer and cook until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool briefly."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the sour cream, mayonnaise, and chopped chives. Season with salt and freshly ground black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Fold the potatoes into the dressing until evenly coated. Garnish with fresh chives and serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "american",
+    "potatoes",
+    "chives",
+    "creamy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72677/potato-salad-with-chives/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e6e632f35316ccacebb59ad25eea0d89a20934a57db2d42a6f1ec405f2d40edc",
+    "normalized_text_hash": "8e3347d5925c72f6ad77f22bb4b0c7fc9a6a042edb8288e5bf288f7a260919eb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:47.612Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

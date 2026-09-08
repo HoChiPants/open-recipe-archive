@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cauliflower-rice-stir-fry",
+  "name": "Cauliflower Rice Stir-Fry",
+  "subtitle": "A quick vegetable side with scrambled egg",
+  "description": "Tender cauliflower rice is seasoned with garlic, ginger, and soy sauce, then combined with softly cooked egg for a savory side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "grated-fresh-ginger",
+      "item": "grated fresh ginger",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-riced-cauliflower-medley",
+      "item": "frozen riced cauliflower medley",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "lightly beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the sesame oil in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic and ginger; cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Add the frozen riced cauliflower medley and cook until tender, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the soy sauce and cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Transfer the cauliflower mixture to a bowl. Add the beaten eggs to the skillet and stir until fully set, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Return the cauliflower mixture to the skillet and combine with the cooked eggs for 1 minute.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "quick",
+    "savory",
+    "vegetable-side",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "large skillet",
+    "bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276608/cauliflower-rice-stir-fry/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f06146c74e85d28553924d222db6a3cc246bf06b1ebf23f5206f62ef03742419",
+    "normalized_text_hash": "9a0be109faa866bd041c1f3cec3ef34014b634f7606c6eaadbb58eb35a724933",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:03:05.453Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

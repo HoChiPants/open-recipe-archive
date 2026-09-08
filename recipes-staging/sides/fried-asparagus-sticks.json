@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-asparagus-sticks",
+  "name": "Fried Asparagus Sticks",
+  "subtitle": "Crisp, seasoned asparagus with lemon zest",
+  "description": "Trimmed asparagus is layered with seasoned buttermilk and flour, then fried until golden and finished with lemon zest.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 1.5,
+      "preparation": "zested"
+    },
+    {
+      "ingredient_id": "ground-paprika",
+      "item": "ground paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bunch-fresh-asparagus",
+      "item": "bunch fresh asparagus",
+      "quantity": 1,
+      "preparation": "trimmed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the vegetable oil in a large skillet over medium-high heat until ready for frying."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the buttermilk, paprika, and black pepper in a shallow bowl. Place the flour in a separate shallow dish."
+    },
+    {
+      "step": 3,
+      "text": "Coat the asparagus in flour, dip it into the seasoned buttermilk, then coat it again with flour. Arrange the coated spears in a single layer until ready to fry."
+    },
+    {
+      "step": 4,
+      "text": "Fry the asparagus in batches for about 4 minutes, turning as needed, until golden brown. Transfer to a serving dish and repeat with the remaining spears.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Finish with the lemon zest and serve hot."
+    }
+  ],
+  "tags": [
+    "snack",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "shallow bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220712/fried-asparagus-sticks/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5a001ef31df18e6dd5d4436749c30f8400cb8692ae05f63048f2618621401cee",
+    "normalized_text_hash": "303cfb6749753436c1876b9419c61c66e68bea386daadda7d492f1e101c4ded9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:24:35.952Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

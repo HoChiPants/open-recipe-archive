@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stabilized-whipped-cream",
+  "name": "Stabilized Whipped Cream",
+  "subtitle": "Light, firm cream for topping desserts",
+  "description": "Gelatin helps this lightly sweetened whipped cream hold its shape for serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "unflavored-gelatin",
+      "item": "unflavored gelatin",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the cold water into a small microwave-safe bowl. Sprinkle the gelatin over it and let stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Microwave the bloomed gelatin for 10 seconds, then whisk until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the heavy whipping cream with the sugar and vanilla extract until it begins to thicken."
+    },
+    {
+      "step": 4,
+      "text": "Gradually whisk in the gelatin mixture, then continue whisking until stiff peaks form."
+    },
+    {
+      "step": 5,
+      "text": "Chill the finished whipped cream for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "topping",
+    "whipped-cream"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "electric mixer or whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18041/stabilized-whipped-cream-icing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d822dda0796ed3f9cede359268e4da0a4c25d8358d1527260c0ac27ee6884943",
+    "normalized_text_hash": "7505cf54be545c77feefd0b5bc00ae9d123130ed709daf79d8afc46ea73e9b90",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:48:30.559Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

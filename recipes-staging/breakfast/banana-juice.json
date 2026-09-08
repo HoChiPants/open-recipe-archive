@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-juice",
+  "name": "Banana Juice",
+  "subtitle": "A creamy banana drink with pistachios and honey",
+  "description": "Blend milk, ripe bananas, pistachios, and honey into a smooth, lightly sweet drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ripe-bananas",
+      "item": "ripe bananas",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "slivered-shelled-pistachios",
+      "item": "slivered shelled pistachios",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the milk, bananas, pistachios, and honey to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend for 2 minutes, or until completely smooth.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231608/banana-juice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "01cc6b264b131b8ca50eefad9b0ebffcc268cfafc1ca4e6924b920888a93409c",
+    "normalized_text_hash": "cad8015ec1714387608d9994078a4350749cf967870765c208e04b054109956b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:58:35.706Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

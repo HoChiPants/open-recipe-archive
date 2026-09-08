@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-mushroom-omelet",
+  "name": "Spinach Mushroom Omelet",
+  "subtitle": "A savory omelet filled with tender vegetables and melted cheese.",
+  "description": "Eggs, spinach, mushrooms, tomato, and peppers make a colorful breakfast omelet with a light cheese topping.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "reduced-fat-cheddar-cheese",
+      "item": "reduced-fat Cheddar cheese",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "finely-chopped-red-bell-pepper",
+      "item": "finely chopped red bell pepper",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "torn-fresh-spinach",
+      "item": "torn fresh spinach",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-tomato",
+      "item": "fresh tomato",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg whites and egg in a bowl. Stir in both cheeses, salt, red pepper flakes, garlic powder, nutmeg, black pepper, and red bell pepper."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet and add the olive oil. Cook the mushrooms and green onions for 5 minutes, stirring, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the spinach and cook for 2 minutes, then stir in the tomato.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Pour the egg mixture over the vegetables and cook for 15 minutes, or until the center is firm and fully set; verify with a thermometer that it reaches 160°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Cut the omelet into portions and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "omelet",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "bowl",
+    "whisk",
+    "skillet",
+    "spatula",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222618/spinach-mushroom-omelet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a0004fe730126460fc77376ed4436f1f00777cc233ad0ac51f8c5bbc6b60b1f5",
+    "normalized_text_hash": "d87a0227d5735db30aed6784c841dd5fcfbf3b8c4adf34f7c817e1c74a93f286",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:43:21.878Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

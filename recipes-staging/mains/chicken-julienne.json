@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-julienne",
+  "name": "Chicken Julienne",
+  "subtitle": "Tender chicken strips in a creamy Parmesan sauce",
+  "description": "Chicken strips are coated, sauced, and baked until tender, then finished with paprika.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "boneless chicken breasts, cut into strips"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "dash",
+      "preparation": "for garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Dip the chicken strips in the melted butter, then coat them evenly with flour."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated chicken in a baking dish. Pour the remaining butter over it, if any."
+    },
+    {
+      "step": 4,
+      "text": "Add the lemon juice and season with salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the heavy cream, then add the Parmesan and paprika and whisk until combined."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, until the sauce is bubbling and the thickest chicken piece reaches 165°F on a food thermometer.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/146125/chicken-julienne/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3e51a5df0750e8a4f1320c87638ec76683e6f5705dfcb9418c56acd1d63555da",
+    "normalized_text_hash": "c3af09783671c9f4e61171505b49c83b2b30065554655ab48dcfc4c301a38555",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:08:24.199Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

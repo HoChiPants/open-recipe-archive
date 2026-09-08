@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-chicken-chili-with-salsa",
+  "name": "White Chicken Chili with Salsa",
+  "subtitle": "A creamy, slow-cooked chicken and bean chili",
+  "description": "Beans, salsa, pepperjack, and shredded chicken combine for a simple, hearty chili.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "48-ounce-jar-great-northern-beans",
+      "item": "(48 ounce) jar great Northern beans",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "16-ounce-jar-salsa",
+      "item": "(16 ounce) jar salsa",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pepperjack-cheese",
+      "item": "pepperjack cheese",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "white-meat-chicken",
+      "item": "white meat chicken",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the beans, salsa, pepperjack cheese, and shredded chicken in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Cook on low for 4 hours, until the cheese is melted and the chicken mixture reaches 165°F in the center.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Stir well before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chili",
+    "slow-cooker",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219880/white-chili-vi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e71390941dac17fdd085019fc6c8286bc7258c3be2cb9b38f0b2e9e164c8d72",
+    "normalized_text_hash": "9bacb4868a78557c323b27026afe127f9401718fcf577db6a6aa0abb4087cdf1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:02:14.780Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

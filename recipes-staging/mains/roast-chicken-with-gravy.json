@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-chicken-with-gravy",
+  "name": "Roast Chicken with Gravy",
+  "subtitle": "A simple roast chicken served with pan gravy",
+  "description": "Roast chicken over chopped vegetables with lemon and thyme, then turn the pan juices into a smooth gravy.",
+  "meal_type": "main",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 90,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion-roughly-chopped",
+      "item": "onion roughly chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "carrots-roughly-chopped",
+      "item": "carrots roughly chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "free-range-chicken-about-1-5kg-3lb-5oz",
+      "item": "free range chicken about 1.5kg/3lb 5oz",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon-halved",
+      "item": "lemon halved",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bunch-thyme",
+      "item": "bunch thyme (optional)",
+      "unit": "small",
+      "optional": true
+    },
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "chicken-stock-a-cube-is-fine",
+      "item": "chicken stock (a cube is fine)",
+      "quantity": 250,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven for roasting. Arrange the onion and carrots in a roasting pan, place the chicken on top, and pour in the chicken stock."
+    },
+    {
+      "step": 2,
+      "text": "Put the lemon halves and optional thyme inside the chicken. Rub the softened butter over the skin."
+    },
+    {
+      "step": 3,
+      "text": "Roast until the thickest part of the chicken reaches 165°F and the juices run clear.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Transfer the chicken to a board and let it rest before carving. Reserve the roasting pan and juices.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Set the roasting pan over medium heat if suitable for the stovetop. Stir in the flour, then gradually add the stock and pan juices."
+    },
+    {
+      "step": 6,
+      "text": "Stir for 2 minutes, then simmer until the gravy is thickened. Carve the chicken and serve with the gravy.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "main-course",
+    "british",
+    "chicken",
+    "roast-chicken",
+    "gravy",
+    "sunday-lunch"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "roasting pan",
+    "carving board",
+    "stovetop-safe pan or saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-roast-chicken-gravy",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ea8838a6504b8be2839a61fd6d7220f6b4e11fa1e13c5072f1473cbc1a4c870",
+    "normalized_text_hash": "3adbb7147c3224e55ae0154036cd4f2224bcd6d1f9d827a1054de452405fcd0d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:33:35.069Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

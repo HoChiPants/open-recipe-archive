@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "african-chicken-curry",
+  "name": "African Chicken Curry",
+  "subtitle": "Tomato-coconut chicken curry finished with lemon",
+  "description": "A simple stovetop curry with tender chicken in a lightly spiced tomato and coconut sauce.",
+  "meal_type": "main",
+  "cuisine": "African",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "whole-peeled-tomatoes",
+      "item": "whole peeled tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, drained"
+    },
+    {
+      "ingredient_id": "curry-powder",
+      "item": "curry powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "2-to-3-pound-whole-chicken",
+      "item": "(2 to 3 pound) whole chicken",
+      "quantity": 1,
+      "preparation": "bones and skin removed, cut into pieces"
+    },
+    {
+      "ingredient_id": "unsweetened-coconut-milk",
+      "item": "unsweetened coconut milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "juiced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large pot or deep skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the onion, garlic, and bay leaf. Cook, stirring often, until the onion is lightly browned."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the tomatoes, curry powder, and salt. Cook for 5 minutes, breaking up the tomatoes as they soften.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the chicken and simmer, stirring occasionally, for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Stir in the coconut milk and continue simmering until the sauce thickens slightly and the chicken reaches 165°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Remove the bay leaf, stir in the lemon juice, and serve."
+    }
+  ],
+  "tags": [
+    "chicken",
+    "curry",
+    "stovetop",
+    "dinner",
+    "tomato",
+    "coconut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot or deep skillet",
+    "stirring spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/47439/african-curry/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "32fa947044eed815af3c9488be23ad7bbccb14436ebe4ebbedbf3ec757f8c2c2",
+    "normalized_text_hash": "5f0ea697e31a00a17787c086a78f3c9048c4b68778df2d009c58389069c38ea8",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:16:04.589Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

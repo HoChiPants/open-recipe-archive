@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-knishes",
+  "name": "Potato Knishes",
+  "subtitle": "Tender potato filling wrapped in simple baked dough",
+  "description": "Seasoned mashed potatoes and sautéed onions are enclosed in egg dough and baked until golden.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 60,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 7,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes, salt, and warm water in a pot. Bring to a simmer and cook until tender, about 20 minutes. Drain.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil, add the onions, and cook for 5 minutes. Stir in the garlic, sugar, pepper, and remaining salt.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Mash the potatoes until smooth, then combine them with the onion mixture. Set aside."
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the eggs, salt, and warm water together. Stir in the flour, then knead for 8 minutes, until smooth.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 6,
+      "text": "Divide the dough into portions, roll or stretch each into a strip, and cut into pieces. Flatten each piece, add potato filling, and seal into a knish."
+    },
+    {
+      "step": 7,
+      "text": "Arrange the knishes on a baking sheet. Whisk the egg yolks with the milk and brush the tops."
+    },
+    {
+      "step": 8,
+      "text": "Bake for 45 minutes, until golden brown and the dough is fully set; the egg-containing center should reach 160°F.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "potato",
+    "baked",
+    "pastry",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "skillet",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212834/sarahs-knish/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d82905eea6686f1a72bf3bf471e5499896ebcada3d66e1e4a9d97edc7e72283c",
+    "normalized_text_hash": "162ef5cba894ae7c3b7ccf1fbb175fbea91baa8fd461e335bd9b9e655e47ba1a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:45:54.779Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

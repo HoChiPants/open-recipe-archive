@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cabbage-and-pasta",
+  "name": "Cabbage and Pasta",
+  "subtitle": "Buttery bow-tie pasta with tender cabbage",
+  "description": "A simple American side dish combining farfalle with buttery sautéed cabbage, onion, and garlic.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "farfalle-bow-tie-pasta",
+      "item": "farfalle (bow tie) pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer and season it with the salt."
+    },
+    {
+      "step": 2,
+      "text": "Add the farfalle and cook for 10 minutes, or until tender. Drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Heat the butter in a large skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Add the cabbage, onion, garlic, remaining salt, and pepper. Cook for 15 minutes, stirring occasionally, until the cabbage is tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Stir the drained pasta into the cabbage mixture and serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49245/cabbage-and-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f92d61e7651c7252e85038c628899f6416d14de8f515c2a65ef8e269ba898fe0",
+    "normalized_text_hash": "ad55be942121a6f2b3af92d3f09731e060b8efe22eae30f0d6c4d8a20fc68170",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:37:18.852Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

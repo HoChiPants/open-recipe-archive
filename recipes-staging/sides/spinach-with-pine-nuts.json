@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-with-pine-nuts",
+  "name": "Spinach with Pine Nuts",
+  "subtitle": "A quick savory green side with toasted pine nuts",
+  "description": "Wilted spinach is finished with olive oil, garlic, toasted pine nuts, and black pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "rinsed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "pine-nuts",
+      "item": "pine nuts",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the rinsed spinach in a large pot, cover, and heat for 3 minutes, until wilted.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a large skillet. Add the wilted spinach, toasted pine nuts, and minced garlic; cook for 2 minutes, stirring occasionally.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Serve seasoned with freshly ground black pepper."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15607/spinach-and-pine-nuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ac3dfdd2dc0298a5f1f162147c5bec0b58ec6a5e902edf08085a595ff842e9a0",
+    "normalized_text_hash": "6b2f10d1c9f44022fd86f8c41a0f6856cda467a56f9bed11c921ee0a5a2bd1d8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:41:35.194Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

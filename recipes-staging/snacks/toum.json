@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "toum",
+  "name": "Toum",
+  "subtitle": "Creamy Lebanese garlic dip",
+  "description": "A bold, airy garlic dip made by blending garlic with oil and lemon juice.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "juiced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Process the peeled garlic and salt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "With the processor running, add the vegetable oil gradually until the mixture is thick and creamy."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice until evenly combined, then serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip",
+    "garlic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/103733/toum/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "17dca141c99cfdc45d0f615b9cf999abadc5480b1c8199fabcbf489979bbe694",
+    "normalized_text_hash": "1a681ac55e65baa3166acdb68f07cef4e9da285395ba01431199aad208595cbd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:17:54.411Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

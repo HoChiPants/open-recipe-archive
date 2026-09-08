@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "passover-brownies",
+  "name": "Passover Brownies",
+  "subtitle": "Fudgy cocoa brownies with chopped walnuts",
+  "description": "A simple chocolate dessert made with matzo cake meal and walnuts.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "matzo-cake-meal",
+      "item": "matzo cake meal",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar and eggs until blended, then whisk in the vegetable oil."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the cocoa powder, matzo cake meal, and chopped walnuts until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Spread the batter in the prepared pan and bake until set, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "passover",
+    "chocolate",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10780/passover-pesach-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cd15f8289dc31d6459adcca73444f398cafe57d92aff7d74104d12328151ed0b",
+    "normalized_text_hash": "1c8d7751c2b55b991b4e41410ef5af8433498347f336ad7f5aa0f04f46c7428e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:02:09.736Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

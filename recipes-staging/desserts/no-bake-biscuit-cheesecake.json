@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-bake-biscuit-cheesecake",
+  "name": "No-Bake Biscuit Cheesecake",
+  "subtitle": "A creamy chilled cheesecake with a crisp biscuit base",
+  "description": "Build a buttery biscuit crust, fill it with a smooth cream-cheese mixture, and chill until set before decorating.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 120,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lotus-biscoff-biscuits-plus-a-few-extra-to-decorate",
+      "item": "Lotus Biscoff biscuits plus a few extra to decorate",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "smooth-lotus-biscoff-spread-plus-extra-to-decorate",
+      "item": "smooth Lotus Biscoff spread plus extra to decorate",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "soft-cheese",
+      "item": "soft cheese",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 4,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a cake tin with parchment. Crush the biscuits, reserving a few for decoration, and combine the crumbs with the melted butter. Press the mixture firmly into the base of the tin."
+    },
+    {
+      "step": 2,
+      "text": "Warm the spread briefly until smooth, then let it cool slightly."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the soft cheese until smooth. Add the cream, icing sugar, and most of the spread, then whisk until thick and well combined.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Spoon the filling over the biscuit base and smooth the surface. Chill for 5 hours, or until firm.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 5,
+      "text": "Warm the remaining spread until smooth, drizzle or spread it over the cheesecake, and finish with the reserved biscuits."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cheesecake",
+    "no-bake",
+    "chilled-dessert",
+    "biscuit-base"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "cake tin",
+    "parchment paper",
+    "microwave",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/biscoff-cheesecake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64200efbde5ae544e93977c80c293bc2f7d4ea3e1e69adb21fd6988080f9e69e",
+    "normalized_text_hash": "d36b35e2816fad4f9743dbd48c11019e5084c1c58acd737fd6d65183515b9234",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:33:34.850Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

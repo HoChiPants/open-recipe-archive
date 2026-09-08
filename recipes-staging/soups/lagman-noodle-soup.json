@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lagman-noodle-soup",
+  "name": "Lagman Noodle Soup",
+  "subtitle": "Beef, vegetables, and noodles in a warmly spiced broth",
+  "description": "A hearty noodle soup combining seared beef, tender vegetables, garlic, parsley, and thin noodles.",
+  "meal_type": "soup",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 85
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "beef-chuck",
+      "item": "beef chuck",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cut into strips"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "cut into thin strips"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "cut into 1-inch strips"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "unit": "small",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "thinly-sliced-celery",
+      "item": "thinly sliced celery",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "finely-chopped-parsley",
+      "item": "finely chopped parsley",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cloves-garlic",
+      "item": "cloves garlic",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "thin-chinese-noodles",
+      "item": "thin Chinese noodles",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large pot over medium heat. Add the onion and cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the beef, cumin, black pepper, and green bell pepper. Cook the beef for 5 minutes, stirring to brown it evenly; verify that it reaches at least 145°F, then allow a 3-minute rest before serving.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the tomato paste and carrot. Cook for 3 minutes, add the remaining pepper, and cook for 1 minute more.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Add the potatoes and celery, then cook for 5 minutes. Pour in the water and bring the mixture to a simmer.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Cover and simmer until the potatoes are tender, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Stir in the parsley and garlic. Continue simmering for 15 minutes, then season with the salt.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Cook the noodles in boiling salted water for 5 minutes, or until tender. Drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 8,
+      "text": "Divide the noodles among bowls and ladle the hot soup over them."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "noodles"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "pot for boiling noodles",
+    "colander",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257857/lagman-uzbek-noodle-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0a48ba6509612537ce2df21ce0ab3f2edd90ff15e584fb8d90e6b46cb2468e2d",
+    "normalized_text_hash": "eb7080586e04bdbc601ac3e52e2f5a36777348c99acb5c532e2c7c5fa96d2671",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:47:50.848Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

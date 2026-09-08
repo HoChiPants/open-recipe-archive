@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "whole-wheat-bread-pudding",
+  "name": "Whole Wheat Bread Pudding",
+  "subtitle": "A warm baked dessert with apple and raisins",
+  "description": "Whole wheat bread absorbs a cinnamon-vanilla custard, with chopped apple and raisins throughout, then bakes until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-day-old-whole-wheat-bread",
+      "item": "slices day-old whole wheat bread",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "low-fat-milk",
+      "item": "low-fat milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking dish with the melted butter."
+    },
+    {
+      "step": 2,
+      "text": "Tear or cut the bread into pieces and arrange it in the prepared dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the raisins and chopped apple, then scatter them over the bread."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the beaten eggs, milk, sugar, cinnamon, and vanilla until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Pour the custard evenly over the bread mixture, pressing gently so the bread is moistened."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "bread-pudding",
+    "apple",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222103/healthier-bread-pudding-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dc6de7919ec8ec33148d39626a42f44e5248179458878d3c1345f17a96c08c3b",
+    "normalized_text_hash": "2cb178eec3a1521a867076891bb8e7ce1d8ccaea4b2e12276ad5cf1c6d5fa25f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:26:16.696Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "four-cheese-tomato-and-basil-pizza",
+  "name": "Four-Cheese Tomato and Basil Pizza",
+  "subtitle": "Two crisp pizzas with tomatoes, basil, and four cheeses",
+  "description": "Pre-baked crusts are coated with seasoned olive oil, layered with cheese and sliced tomatoes, then baked until golden.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "roma-tomatoes",
+      "item": "Roma tomatoes",
+      "quantity": 8,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "12-inch-pre-baked-pizza-crusts",
+      "item": "(12 inch) pre-baked pizza crusts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "Mozzarella cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "fontina-cheese",
+      "item": "Fontina cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "fresh-basil-leaves",
+      "item": "fresh basil leaves",
+      "quantity": 10,
+      "preparation": "washed, dried"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the olive oil, minced garlic, and sea salt together. Set aside."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the sliced tomatoes in a single layer and let them stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 4,
+      "text": "Place the pre-baked pizza crusts on baking sheets."
+    },
+    {
+      "step": 5,
+      "text": "Brush the crusts with the seasoned oil. Sprinkle with mozzarella, Fontina, Parmesan, and feta."
+    },
+    {
+      "step": 6,
+      "text": "Top with the tomatoes and basil, then add the remaining cheeses."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 10 minutes, until the cheese is golden brown.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "italian-inspired",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheets"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5028dfb30e8e9e2b1b34c9a9bcc263a02c7a19805318b9a9046f6dc4a411fea2",
+    "normalized_text_hash": "59cb9896985f1c8cecf17d6b94a38d9ca63db78726b59630d9c282b648dfa0c2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:17:57.337Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

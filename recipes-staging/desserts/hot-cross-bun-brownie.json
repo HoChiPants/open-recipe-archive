@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-cross-bun-brownie",
+  "name": "Hot Cross Bun Brownie",
+  "subtitle": "A rich chocolate brownie with toasted spiced bun",
+  "description": "Melted chocolate, cocoa, and a hot cross bun create a dense brownie with optional marzipan pieces.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-roughly-chopped",
+      "item": "butter roughly chopped",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-roughly-chopped",
+      "item": "dark chocolate roughly chopped",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "hot-cross-bun-halved-through-the-middle",
+      "item": "hot cross bun halved through the middle",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chocolate-any-type",
+      "item": "chocolate any type",
+      "quantity": 40,
+      "unit": "g",
+      "preparation": "roughly chopped"
+    },
+    {
+      "ingredient_id": "marzipan-diced-optional",
+      "item": "marzipan diced (optional)",
+      "quantity": 75,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter, dark chocolate, and chopped chocolate together in short microwave intervals, stirring between each, until smooth. Let the mixture cool slightly."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer according to its instructions. Toast the halved hot cross bun for 4 minutes, then let it cool and cut it into bite-size pieces.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs and caster sugar until thick and pale. Stir in the cooled chocolate mixture, then fold in the flour, cocoa powder, toasted bun pieces, and marzipan if using."
+    },
+    {
+      "step": 4,
+      "text": "Spread the batter in a lined baking tin that fits the air fryer. Cook for about 30 minutes, until the center is firm and fully set; if checked with a thermometer, it should reach 160°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cool completely before cutting into 12 portions."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "air-fryer",
+    "brownies",
+    "chocolate",
+    "seasonal-baking"
+  ],
+  "seasons": [
+    "spring"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave",
+    "air fryer",
+    "baking tin",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-hot-cross-bun-brownie",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5bfd94acd00e06737b58d16342ca4e01e51287fd8ade116a34d6bd72924ee202",
+    "normalized_text_hash": "ef4e69b0ade17516b4f18b75a51e8a2982f5ab43a4fa1ded34b53c56a14b2469",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:26:28.714Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

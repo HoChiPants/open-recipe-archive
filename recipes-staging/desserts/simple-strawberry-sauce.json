@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-strawberry-sauce",
+  "name": "Simple Strawberry Sauce",
+  "subtitle": "A fresh, lightly sweetened berry topping",
+  "description": "Sliced strawberries rest with sugar until juicy, then chill into a simple sauce for desserts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 2,
+      "unit": "quarts",
+      "preparation": "cleaned, hulled and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cleaned, hulled, sliced strawberries in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the white sugar and stir gently to coat the berries."
+    },
+    {
+      "step": 3,
+      "text": "Let the mixture stand until the strawberries release their juices.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "strawberries",
+    "sauce",
+    "no-cook"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143008/simple-strawberry-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7e4bf9ebbe3ccb9fababfd29c09cae749f421cf9dc6637ffb486574af4678480",
+    "normalized_text_hash": "b085992e148c83f6047cdaa9e6ff3f21542b13387e5077145ed869d2d8dad40a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:29:18.447Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

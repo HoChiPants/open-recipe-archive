@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rum-and-tropical-juice-cocktail",
+  "name": "Rum and Tropical Juice Cocktail",
+  "subtitle": "A quick blend of rum, fruit juices, and grenadine",
+  "description": "Combine dark rum and amaretto with orange and pineapple juices, then finish with grenadine for a colorful mixed drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 3,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounce-dark-rum",
+      "item": "fluid ounce dark rum",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-amaretto-liqueur",
+      "item": "fluid ounce amaretto liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounces-orange-juice",
+      "item": "fluid ounces orange juice",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "fluid-ounces-pineapple-juice",
+      "item": "fluid ounces pineapple juice",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "grenadine-syrup",
+      "item": "grenadine syrup",
+      "quantity": 1,
+      "unit": "dash"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the dark rum and amaretto liqueur in a glass or shaker."
+    },
+    {
+      "step": 2,
+      "text": "Add the orange juice and pineapple juice, then stir or shake until blended."
+    },
+    {
+      "step": 3,
+      "text": "Add the grenadine syrup and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "glass or cocktail shaker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32266/mai-tai-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "07434dcd24fb9c23ddc40a03719013fe1c5c703fe3056c5a465d29d714664cc1",
+    "normalized_text_hash": "a17c8f0f9791550ca57abbc004f40a240f93ffe1692f8e689fd1563924be198a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:12:02.790Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

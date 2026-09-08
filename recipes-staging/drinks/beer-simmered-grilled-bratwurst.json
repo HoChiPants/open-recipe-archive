@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-simmered-grilled-bratwurst",
+  "name": "Beer-Simmered Grilled Bratwurst",
+  "subtitle": "Tender bratwurst with buttery onions and toasted buns",
+  "description": "Bratwurst are gently cooked with beer, onions, and garlic, then finished on the grill and served in buns.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 47
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "medium",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dark-beer",
+      "item": "dark beer",
+      "quantity": 4,
+      "unit": "bottle",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "fresh-bratwurst",
+      "item": "fresh bratwurst",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "hot-dog-buns",
+      "item": "hot dog buns",
+      "quantity": 10
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill to medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a grill-safe skillet or saucepan. Add the onions and cook until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the garlic and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the beer and bratwurst. Cook the bratwurst in the beer mixture until nearly cooked through."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the bratwurst to the grill and cook for 35 minutes, turning as needed, until the centers reach 160°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Grill the beer-coated bratwurst and buns for 15 minutes, turning the bratwurst and watching the buns closely.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Serve the bratwurst in the buns with the onions."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "sausages",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "grill-safe skillet or saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87053/sheboygan-grilled-brats/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0eb51a13529f47e9007c4460bd3cf82353dea969f7f0cffc274a5a8e86b73fa1",
+    "normalized_text_hash": "461d9b37936a08190e026fc7d4b505a6709b74b6cda63c31e221d9a950079ce0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:06:27.643Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-baked-salmon",
+  "name": "Cheesy Baked Salmon",
+  "subtitle": "Tender salmon with dill, scallions, and melted cheddar",
+  "description": "Seasoned salmon is baked until flaky, topped with green onions and cheddar, then returned to the oven until the cheese melts.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salmon-fillets",
+      "item": "salmon fillets",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 6,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F. Place the salmon fillets in a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Combine the crushed garlic, dill, salt, and pepper, then spread the mixture over the salmon."
+    },
+    {
+      "step": 3,
+      "text": "Bake the salmon for 20 minutes, or until it reaches 145°F and flakes easily with a fork.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Top the salmon with the chopped green onions and shredded Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 5 minutes more, until the cheese is melted.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked",
+    "salmon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/68925/cheesy-baked-salmon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "331d01be30d7e5f2f60c78ee7704542a7d99251a63f584daaac34048686e3848",
+    "normalized_text_hash": "f75aa973fe09d14e23a426f3f587e6a80d86dd1bb5ead856dc5169bd228634a4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:10:54.142Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

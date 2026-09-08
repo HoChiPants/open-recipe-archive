@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-pulled-pork-pizza",
+  "name": "Barbecue Pulled Pork Pizza",
+  "subtitle": "A cheesy pizza topped with tangy pork, pickles, and red onion",
+  "description": "Bake refrigerated pizza dough with barbequed pulled pork, crisp pickle slices, red onion, and melted mozzarella for a savory, tangy meal.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 18
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-pizza-dough",
+      "item": "refrigerated pizza dough",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "13.8 ounce"
+    },
+    {
+      "ingredient_id": "18-ounce-container-barbequed-pulled-pork",
+      "item": "(18 ounce) container barbequed pulled pork",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.25,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "dill-pickle-slices",
+      "item": "dill pickle slices",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the dough according to its package directions, then shape it into a pizza crust."
+    },
+    {
+      "step": 3,
+      "text": "Spread the barbequed pulled pork over the dough. Arrange the red onion and dill pickle slices on top, then cover with the mozzarella."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 18 minutes, until the cheese is melted and the pork reaches 145°F. Rest for 3 minutes before slicing.",
+      "timer_minutes": 18
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "pork",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet or pizza pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/173699/bbq-pork-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd3a264d19bc2b4779c1a00e0266b111323af2c887980c04849731f7f4f18dcd",
+    "normalized_text_hash": "e10e6dc0a77ef6a70fde0e23e460d908ed9a2ba4dd56db666a9d944750ca0115",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:13:57.276Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

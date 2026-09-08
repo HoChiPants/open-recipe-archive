@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-punch-ice-cream-float",
+  "name": "Fruit Punch Ice Cream Float",
+  "subtitle": "A bubbly punch topped with creamy vanilla ice cream",
+  "description": "Combine fruit punch and lemon-lime soda, then whisk in French vanilla ice cream for a festive, creamy drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 80,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fruit-punch",
+      "item": "fruit punch",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "46 fluid ounce"
+    },
+    {
+      "ingredient_id": "lemon-lime-flavored-carbonated-beverage",
+      "item": "lemon-lime flavored carbonated beverage",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "2 liter"
+    },
+    {
+      "ingredient_id": "french-vanilla-ice-cream",
+      "item": "French vanilla ice cream",
+      "quantity": 0.5,
+      "unit": "gallon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the fruit punch and lemon-lime beverage into a large punch bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the French vanilla ice cream until the mixture is combined and lightly frothy. Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "punch",
+    "nonalcoholic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large punch bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32684/candies-simply-great-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0a2d2be4313e9167f517bd0f21a5b8322cff9a3737c63a41f124d909e0c2971e",
+    "normalized_text_hash": "c6492c6326cdb48105ab53fcfa8d86856b79d48bba3336f16feef5931319e185",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:47:39.229Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

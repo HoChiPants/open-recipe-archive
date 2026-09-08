@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-potato-hummus",
+  "name": "Sweet Potato Hummus",
+  "subtitle": "A smooth roasted sweet potato and chickpea dip",
+  "description": "Roasted sweet potatoes add mellow sweetness to this creamy, lemon-spiced hummus.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-potatoes",
+      "item": "sweet potatoes",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "chickpea",
+      "item": "garbanzo beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained (reserve liquid) and rinsed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "tahini",
+      "item": "tahini",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-zest",
+      "item": "lemon zest",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-white-pepper",
+      "item": "ground white pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Prepare the sweet potatoes for roasting and cook until tender, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Let the sweet potatoes cool for 15 minutes, then cut them into chunks.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Add the garbanzo beans and olive oil to a food processor. Add the sweet potato, tahini, lemon juice, zest, cumin, coriander, white pepper, and salt."
+    },
+    {
+      "step": 4,
+      "text": "Blend until smooth, adding a little reserved bean liquid if needed to reach a creamy consistency."
+    }
+  ],
+  "tags": [
+    "snack",
+    "dip",
+    "appetizer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229920/sweet-potato-hummus/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f10d4f4262451c2c5da33860d62d162ae95e43de6c03f361acc9163aefb6579b",
+    "normalized_text_hash": "f6369ecbf0eb86b9b8054cc5d1d112e9934eb2635a54d365b156ab1a823f5295",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:29:51.827Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

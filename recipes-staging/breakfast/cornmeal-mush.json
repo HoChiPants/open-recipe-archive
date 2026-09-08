@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cornmeal-mush",
+  "name": "Cornmeal Mush",
+  "subtitle": "A warm, simple cornmeal porridge",
+  "description": "A basic savory cornmeal porridge made by combining cornmeal with water and salt, then cooking until thick and smooth.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cornmeal",
+      "item": "cornmeal",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a saucepan or cooking pot over medium heat for 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Combine the water, cornmeal, and salt in the preheated vessel, whisking until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Cook over medium heat, stirring frequently, until the mixture thickens into a smooth mush, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "porridge",
+    "cornmeal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan or cooking pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19583/cornmeal-mush/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "45012132cc64a4aece8948481937d034e2b00b29cfec6129ec3bf112015f4d94",
+    "normalized_text_hash": "6cf5649bc1ec02e0b20bb82e40a5d2f835ff6f9de01039da699eebbad48596a6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:11:10.203Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

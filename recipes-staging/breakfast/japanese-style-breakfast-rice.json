@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "japanese-style-breakfast-rice",
+  "name": "Japanese-Style Breakfast Rice",
+  "subtitle": "Warm rice with egg, scallions, and soy sauce",
+  "description": "A quick skillet breakfast combining cold cooked rice with egg, green onions, and savory soy sauce.",
+  "meal_type": "breakfast",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cold-cooked-rice",
+      "item": "cold cooked rice",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "sliced, or more to taste"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium heat and add the vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the cold cooked rice and egg, spreading them into an even layer. Cook for 3 minutes, until the egg begins to set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir and break up the rice, then cook for 2 minutes more, until the egg is fully set and reaches 160°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Stir in the green onions and soy sauce. Serve hot."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "rice",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245773/breakfast-rice-from-japan/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9bf7f47e6e64f84b0882b8ce2b021ef7509ba0a879a994bf56f1ad49db35eed8",
+    "normalized_text_hash": "11b523d072b9f12f554ef0e33c73fc3d2490844201d4c90e0153f6b045a7a684",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:19.954Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

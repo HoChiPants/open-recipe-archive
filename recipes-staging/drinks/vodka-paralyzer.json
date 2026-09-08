@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vodka-paralyzer",
+  "name": "Vodka Paralyzer",
+  "subtitle": "A chilled cola, coffee liqueur, vodka, and milk cocktail",
+  "description": "Build this creamy, fizzy cocktail over ice and finish with a maraschino cherry.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fluid-ounces-cola",
+      "item": "fluid ounces cola",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "fluid-ounce-coffee-flavored-liqueur",
+      "item": "fluid ounce coffee flavored liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-vodka",
+      "item": "(1.5 fluid ounce) jigger vodka",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounces-milk",
+      "item": "fluid ounces milk",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "maraschino-cherry",
+      "item": "maraschino cherry",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the cola, coffee flavored liqueur, and vodka."
+    },
+    {
+      "step": 3,
+      "text": "Add the milk and stir gently to combine."
+    },
+    {
+      "step": 4,
+      "text": "Garnish with the maraschino cherry and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "mixed-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "serving glass",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/152922/vodka-paralyzer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "87123eb2b08faab77042205a8c59ecb913ae8bb6d6401d6839449f20c7cae55f",
+    "normalized_text_hash": "d0453d2a71f6e2e4d2383e895de390da9ed59ce8970fce65b712ec98125afdea",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:52:48.048Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

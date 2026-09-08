@@ -1,0 +1,180 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-chicken-taco-soup",
+  "name": "Slow Cooker Chicken Taco Soup",
+  "subtitle": "A hearty bean-and-chicken soup with taco-seasoned vegetables",
+  "description": "Canned beans, corn, tomatoes, vegetables, and chicken simmer together for a filling taco-inspired soup, finished with fresh toppings and crushed tortilla chips.",
+  "meal_type": "soup",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 420,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomatoes-and-green-chiles",
+      "item": "tomatoes and green chiles",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10 ounce, diced, undrained"
+    },
+    {
+      "ingredient_id": "chili-beans",
+      "item": "chili beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "black-beans",
+      "item": "black beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "or-bottle-beer",
+      "item": "or bottle beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "taco-seasoning",
+      "item": "taco seasoning",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "reduced sodium"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "unit": "whole",
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "reduced-fat-cheddar-cheese",
+      "item": "reduced-fat Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "light-sour-cream",
+      "item": "light sour cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baked-tortilla-chips",
+      "item": "baked tortilla chips",
+      "quantity": 2,
+      "unit": "ounces",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the tomatoes and green chiles, chili beans, black beans, corn, beer, tomato sauce, onion, carrot, and taco seasoning to a slow cooker; stir to combine."
+    },
+    {
+      "step": 2,
+      "text": "Nestle the chicken breasts into the mixture, cover, and cook until the chicken reaches 165°F in the thickest part and is tender, about 7 hours.",
+      "timer_minutes": 420
+    },
+    {
+      "step": 3,
+      "text": "Transfer the chicken to a plate and let the soup stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Shred the chicken, return it to the slow cooker, and stir."
+    },
+    {
+      "step": 5,
+      "text": "Ladle the soup into bowls and top with Cheddar, cilantro, sour cream, and crushed tortilla chips."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican",
+    "slow-cooker",
+    "chicken-soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer",
+    "plate",
+    "forks",
+    "ladle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222109/healthier-slow-cooker-chicken-taco-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "636444456e3683483ab53a8fce156d373e62b6ab89eee33e0417424407b07680",
+    "normalized_text_hash": "dca6cff7d079e9c6a3a3855729c2b8338b4bd3200559f09835fb9d14ddcfff2f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:27:14.330Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

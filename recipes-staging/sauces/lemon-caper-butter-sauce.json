@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-caper-butter-sauce",
+  "name": "Lemon Caper Butter Sauce",
+  "subtitle": "A bright, buttery sauce with briny capers and fresh savory.",
+  "description": "Warm capers in butter, reduce with lemon juice, then finish with cold butter and herbs for a glossy sauce.",
+  "meal_type": "sauce",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "capers",
+      "item": "capers",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 2,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-savory",
+      "item": "fresh savory",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a small skillet over medium heat. Add the capers and sauté briefly."
+    },
+    {
+      "step": 2,
+      "text": "Add the lemon juice and cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Season with salt and ground black pepper to taste. Stir in the cold butter and chopped savory until the butter melts and the sauce is smooth.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "sauce",
+    "french"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237929/lemon-caper-butter-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ad40bb976976e1d3e39f6d7c8051be4cc80b7375ad4973423c088a60e3111352",
+    "normalized_text_hash": "c119e69fe3808a97ec5f27e7a22311dc7c2bcbdf4cb4e9f4a7bea461e78f351e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:36:23.391Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

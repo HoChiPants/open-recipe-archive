@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "yogurt-cake",
+  "name": "Yogurt Cake",
+  "subtitle": "A tender lemon-scented cake with a moist crumb",
+  "description": "A simple lemon yogurt cake baked until golden and cooled before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "lemon-extract",
+      "item": "lemon extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "8-ounce-container-lemon-flavored-yogurt",
+      "item": "(8 ounce) container lemon flavored yogurt",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Grease and flour a cake pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour, baking soda, and salt together in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Beat the butter and sugar until light and combined. Add the eggs one at a time, whisking after each addition."
+    },
+    {
+      "step": 4,
+      "text": "Mix in the lemon extract and lemon flavored yogurt."
+    },
+    {
+      "step": 5,
+      "text": "Add the dry ingredients to the wet mixture and stir just until combined."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to the prepared pan and smooth the top."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 60 minutes, until the cake is set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Cool the cake in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "cake pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17476/yogurt-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "125acd45790674a93c26b227b3b63d81fdc342846e7d6dea4eb0202373ccd3cf",
+    "normalized_text_hash": "a29b265b905a46a9831a7604af59f7941a487f75d8240b9c2cb21752bb16a176",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:11:09.908Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

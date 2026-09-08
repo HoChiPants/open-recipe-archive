@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-broccoli-quinoa",
+  "name": "Cheesy Broccoli Quinoa",
+  "subtitle": "Tender quinoa and broccoli finished with melted Cheddar",
+  "description": "A simple savory side dish combining fluffy quinoa, chopped broccoli, and Cheddar cheese in vegetable broth.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "broccoli",
+      "item": "broccoli",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "quinoa",
+      "item": "quinoa",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the broccoli, vegetable broth, and quinoa in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer, then cook for 20 minutes, or until the quinoa is tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Stir in the shredded Cheddar and cook for 3 minutes, until set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Season with salt and ground black pepper to taste."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "quinoa",
+    "broccoli"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230051/cheesy-broccoli-quinoa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "57f0e1810f9aab3144460978706ebbbbe2594e7d6327d5fd61387623183670f5",
+    "normalized_text_hash": "0ca9213d63475872dc9850157a3d8583ab55af0d8fce52f361fba6ab25ecfa2a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:11:10.705Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

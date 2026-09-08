@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "portuguese-muffins",
+  "name": "Portuguese Muffins",
+  "subtitle": "Soft, griddle-cooked yeast muffins",
+  "description": "Yeasted muffins enriched with milk, eggs, butter, and sugar, shaped thick and cooked until set.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "inactive_minutes": 135
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "25-ounce-envelope-active-dry-yeast",
+      "item": "(.25 ounce) envelope active dry yeast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted, cooled"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the yeast into the warm water with a portion of the white sugar and let stand until foamy, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Mix in the eggs, salt, milk, remaining sugar, and enough of the flour to form a soft dough."
+    },
+    {
+      "step": 3,
+      "text": "Work in the melted, cooled butter and knead in the remaining flour until the dough is smooth and elastic.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Cover and let the dough rise until doubled, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Divide the dough into 15 portions and shape each into a thick round. Place on a lightly floured surface, cover, and let rise until puffy, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Preheat a lightly greased griddle or skillet over medium-low heat. Cook the rounds in batches, turning as needed, until browned on both sides and the centers are fully set, reaching 160°F on a food thermometer."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "portuguese",
+    "yeast-bread",
+    "griddle-cooked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "griddle or skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/33121/portuguese-muffins-bolo-levedo/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "39dac3e33816abeb3f56913ae2374ede4976fb0bea45c4c061d2a0428938736d",
+    "normalized_text_hash": "798890ed6a1b4d0113d404119cfb5053a70c36f67106111c2db642ea63861576",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:24:49.340Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

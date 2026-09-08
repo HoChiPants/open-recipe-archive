@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "candied-kielbasa",
+  "name": "Candied Kielbasa",
+  "subtitle": "Sweet-and-tangy glazed sausage bites",
+  "description": "Thinly sliced kielbasa simmered in a brown sugar, ketchup, and horseradish glaze.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-horseradish",
+      "item": "prepared horseradish",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kielbasa-sausage",
+      "item": "kielbasa sausage",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "sliced thin"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the cooking vessel for 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Stir together the brown sugar, ketchup, and horseradish until combined."
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced kielbasa and toss to coat it evenly."
+    },
+    {
+      "step": 4,
+      "text": "Simmer the sausage and glaze for 60 minutes, until the sausage reaches 160°F internally and the glaze is hot and thickened.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "party-food",
+    "sausage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cooking vessel",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14809/candied-kielbasa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2f7423d6d940caf02a18d584fabe6ed0272dd0b4d501458411286ac45848582a",
+    "normalized_text_hash": "38980e789878e864cc41b30db63a0b3c56d3085408d9bcae6242c25a58ed2e1f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:48:13.512Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

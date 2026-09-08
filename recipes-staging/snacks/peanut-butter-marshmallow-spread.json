@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-marshmallow-spread",
+  "name": "Peanut Butter Marshmallow Spread",
+  "subtitle": "A quick no-cook peanut butter spread.",
+  "description": "Smooth peanut butter, marshmallow creme, and corn syrup are whisked into a sweet, creamy spread.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "light-corn-syrup",
+      "item": "light corn syrup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "smooth"
+    },
+    {
+      "ingredient_id": "marshmallow-creme",
+      "item": "marshmallow creme",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the light corn syrup, smooth peanut butter, and marshmallow creme in a bowl until completely combined and creamy."
+    },
+    {
+      "step": 2,
+      "text": "Serve as desired."
+    }
+  ],
+  "tags": [
+    "snack",
+    "no-cook",
+    "peanut-butter",
+    "spread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/140605/amish-peanut-butter/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9acc7bfd59b938b5e8614a7937650d4f6e328fc070ca1cda5ad5e5c7576814b3",
+    "normalized_text_hash": "7f83112ac65def9da04b6308b113b9b67b0c9cf90076ed7d8e8e78c027de9d66",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:03:50.765Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

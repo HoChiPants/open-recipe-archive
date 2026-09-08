@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-mustard-roast-chicken",
+  "name": "Honey Mustard Roast Chicken",
+  "subtitle": "Tangy glazed chicken with a smoky finish",
+  "description": "A whole chicken is marinated in a honey-mustard mixture, roasted until tender, and finished with green onions.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 50,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-mustard",
+      "item": "yellow mustard",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seasoned-rice-wine-vinegar",
+      "item": "seasoned rice wine vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sriracha",
+      "item": "Sriracha",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 3,
+      "unit": "teaspoons",
+      "preparation": "plus more as needed"
+    },
+    {
+      "ingredient_id": "4-5-pound-whole-chicken",
+      "item": "(4.5 pound) whole chicken",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mustard, honey, vinegar, Sriracha, paprika, pepper, and 3 teaspoons salt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the chicken for roasting by cutting along the backbone and opening it flat. Coat it with the marinade, cover, and refrigerate for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 425°F. Place the chicken in a roasting pan and pour the stock around it. Season with additional salt as needed."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 40 minutes, then brush the chicken with pan juices or remaining marinade and continue roasting for about 15 minutes, until the thickest parts reach 165°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Rest the chicken briefly, then carve and serve with the chopped green onions."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast-chicken",
+    "honey-mustard",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279544/honey-mustard-roast-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "688ba4072f7a5d4acea75c544e48626631c5965ca44b70ffaa2afd81343f82ae",
+    "normalized_text_hash": "0d82f0ab1e856e290af6b9632d686b2c35d1575a9a38d0e41d0ef4586504ab6b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:48:19.750Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 24,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

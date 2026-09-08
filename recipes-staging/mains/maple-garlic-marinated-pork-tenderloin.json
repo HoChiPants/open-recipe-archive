@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "maple-garlic-marinated-pork-tenderloin",
+  "name": "Maple-Garlic Marinated Pork Tenderloin",
+  "subtitle": "Sweet maple marinade with savory garlic and mustard",
+  "description": "Pork tenderloin is marinated in a maple-garlic mixture, then grilled until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-ground-black-pepper-to-taste",
+      "item": "fresh ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pork-tenderloin",
+      "item": "pork tenderloin",
+      "quantity": 1.5,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the Dijon mustard, sesame oil, minced garlic, black pepper, and maple syrup together. Coat the pork tenderloin with the marinade, cover, and chill for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Preheat the grill over medium heat for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Transfer the marinated pork tenderloin to the grill. Cook for about 25 minutes, turning as needed, until the center reaches 145°F on a food thermometer.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 4,
+      "text": "Remove the pork from the grill and let it rest for 3 minutes before slicing.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "grilling",
+    "pork",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/51997/maple-garlic-marinated-pork-tenderloin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a656207e0c7a12a6de0ae216330a6dd0fa52979e7d5f498f4d975babf1994d17",
+    "normalized_text_hash": "5cff394c41b1a5db2446433095c9bc13563367f91d31cc45305fda5326068cc0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:18:05.766Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stir-fried-sugar-snap-peas",
+  "name": "Stir-Fried Sugar Snap Peas",
+  "subtitle": "Crisp peas with garlic and soy sauce",
+  "description": "A quick vegetable side with bright snap peas, fragrant garlic, and savory soy sauce.",
+  "meal_type": "side",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar-snap-peas",
+      "item": "sugar snap peas",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "strings removed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large skillet over medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the olive oil and minced garlic. Cook for 2 minutes, stirring frequently.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the sugar snap peas and stir-fry for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Add the soy sauce, toss to coat, and cook until the peas are tender, about 2 minutes.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "lunch",
+    "side-dish",
+    "asian-inspired",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/258836/stir-fried-sugar-snap-peas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8572e0d3225218fa5d673bda6500559052a224d2c193d87874cfc1f1aa6cc6f7",
+    "normalized_text_hash": "49700ed65082d6024e04d13c7a35ea631ef828326c879aae541cfd72d3eabff2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:54:56.014Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

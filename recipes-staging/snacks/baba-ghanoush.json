@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baba-ghanoush",
+  "name": "Baba Ghanoush",
+  "subtitle": "Smoky eggplant dip with tahini and lemon",
+  "description": "Roasted eggplant is blended with tahini, lemon, garlic, and chili for a creamy dip finished with olive oil and parsley.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggplant",
+      "item": "eggplant",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "smashed"
+    },
+    {
+      "ingredient_id": "tahini-sauce",
+      "item": "tahini sauce",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "dried-parsley-flakes",
+      "item": "dried parsley flakes",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "for garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the eggplant and place it on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Roast until tender, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 4,
+      "text": "Let the eggplant cool until easy to handle, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Scoop the eggplant flesh into a bowl and combine it with the garlic, tahini sauce, lemon juice, red pepper flakes, salt, and dried parsley flakes."
+    },
+    {
+      "step": 6,
+      "text": "Stir in the olive oil, adjust to taste, and garnish with the remaining dried parsley flakes."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "north-african"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236310/traditional-baba-ghanoush/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "94a5b16bc64847b75343471e94800587b1051004e24373adc9f3b3c2c63a82ec",
+    "normalized_text_hash": "456373ab2ef302a9ab7d6fa152ca7db05e5d47eabffbcd248a61d26c48987248",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:18:26.174Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

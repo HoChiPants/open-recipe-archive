@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cafe-au-lait",
+  "name": "Café au lait",
+  "subtitle": "Coffee blended with warm steamed milk",
+  "description": "Combine strong coffee with an equal amount of steamed milk for a simple French-style coffee drink.",
+  "meal_type": "drink",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strong-coffee-such-as-espresso",
+      "item": "strong coffee (such as espresso)",
+      "quantity": 115,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "steamed-milk",
+      "item": "steamed milk",
+      "quantity": 115,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the strong coffee into a serving cup."
+    },
+    {
+      "step": 2,
+      "text": "Add the steamed milk and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "french",
+    "coffee",
+    "milky-coffee"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "serving cup"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cafe-au-lait",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f7b2c1bc20e5d6fc4c8f15c66dbaae130b9e49de8e0733ac9e274dafc950719c",
+    "normalized_text_hash": "ae47d63004ddb4030399fe85bd2bdec1fd8762f340234b42e47e9a3f54f68f55",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T21:39:50.478Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

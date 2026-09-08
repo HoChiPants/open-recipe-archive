@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pan-fried-tofu",
+  "name": "Pan-Fried Tofu",
+  "subtitle": "Crisp tofu with soy sauce and green onions",
+  "description": "Pressed extra-firm tofu is browned in a skillet, then finished with soy sauce and chopped green onions.",
+  "meal_type": "snack",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "extra-firm-tofu",
+      "item": "extra-firm tofu",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the tofu on a plate, top it with another plate or a flat weight, and let it drain and press for 20 minutes. Cut it into thick pieces.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Heat a skillet over medium-high heat. Add half the oil and cook the tofu until golden brown, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the remaining oil and green onions to the skillet. Stir briefly, return or keep the tofu in the pan, and add the soy sauce, turning the pieces to coat."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the tofu is heated through and the sauce clings to its surface, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "tofu",
+    "pan-fried",
+    "quick-snack",
+    "savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "skillet",
+    "plates",
+    "flat weight"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246936/simple-pan-fried-tofu/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f13228d20d7d2d6c7fcc4e2dd7cc1ec4a91a03da622be5dd732148fab3a351ee",
+    "normalized_text_hash": "d6a5653f1731b95c8cef9c7b4144a8922705511a31f2773462ef3751ef957d83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:28:10.759Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

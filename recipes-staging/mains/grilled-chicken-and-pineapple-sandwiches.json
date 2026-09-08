@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-chicken-and-pineapple-sandwiches",
+  "name": "Grilled Chicken and Pineapple Sandwiches",
+  "subtitle": "Juicy grilled chicken with sweet pineapple and melted cheese",
+  "description": "Marinated chicken is grilled and layered into toasted rolls with pineapple, cheese, lettuce, tomato, and creamy dressing.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hawaiian-style-marinade",
+      "item": "Hawaiian style marinade",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "4-ounce-skinless",
+      "item": "(4 ounce) skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves - pounded to 1/4 inch thickness"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "pineapple-rings",
+      "item": "pineapple rings",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "onion-rolls",
+      "item": "onion rolls",
+      "quantity": 6,
+      "preparation": "split"
+    },
+    {
+      "ingredient_id": "slices-provolone-cheese",
+      "item": "slices provolone cheese",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "leaves-romaine-lettuce",
+      "item": "leaves romaine lettuce",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "slices-tomato",
+      "item": "slices tomato",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "thousand-island-salad-dressing",
+      "item": "Thousand Island salad dressing",
+      "quantity": 6,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the marinade in a shallow dish. Add the chicken and turn to coat. Cover and refrigerate for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat a grill to medium-high heat and lightly coat the grates with cooking spray."
+    },
+    {
+      "step": 3,
+      "text": "Remove the chicken from the marinade and discard the used marinade. Grill the chicken for about 10 minutes, turning as needed, until a thermometer inserted into the thickest piece reads 165°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "During the last few minutes, grill the pineapple rings and tomato slices for about 2 minutes, toast the split rolls, and place the provolone on the chicken for about 1 minute, until melted.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Fill each roll with a chicken breast, pineapple ring, lettuce leaf, tomato slice, and melted cheese. Spread the dressing over the rolls and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "grilled",
+    "chicken",
+    "sandwich"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "shallow dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/163956/grilled-hawaiian-chicken-and-pineapple-sandwiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bca540ed2fdd1c6e12e97f67b0de40aabbc1a1fc9bf59309563ae4a89ecdba04",
+    "normalized_text_hash": "e24431f8bae30ba56edf967ecd7f074f3fb5dd15a7fc231560d2f75fb4bba839",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:06:54.539Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

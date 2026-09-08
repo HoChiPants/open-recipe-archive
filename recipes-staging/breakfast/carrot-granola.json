@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-granola",
+  "name": "Carrot Granola",
+  "subtitle": "Oat granola with carrot, walnuts, spice, and dried fruit",
+  "description": "A crisp, warmly spiced granola combining grated carrot, walnuts, honey, and sultanas.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "jumbo-oats",
+      "item": "jumbo oats",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mixed-spice",
+      "item": "mixed spice",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "walnuts-roughly-chopped",
+      "item": "walnuts roughly chopped",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "carrot-peeled-and-grated",
+      "item": "carrot peeled and grated",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "unsalted-butter-or-coconut-oil",
+      "item": "unsalted butter or coconut oil",
+      "quantity": 75,
+      "unit": "g",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "runny-honey",
+      "item": "runny honey",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sultanas",
+      "item": "sultanas",
+      "quantity": 100,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the oats, mixed spice, walnuts, and grated carrot in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir the melted butter or coconut oil with the honey, then add the mixture to the bowl and stir until the dry ingredients are evenly coated and the mixture is thick."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mixture over a lined baking sheet and bake for 40 minutes, stirring once halfway through, until golden and crisp.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Stir in the sultanas and let the granola cool before serving."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "granola",
+    "carrot",
+    "spiced",
+    "walnuts",
+    "sultanas"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "large bowl",
+    "lined baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrot-cake-granola",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "32fba5692160e65625231fb923aff5fcb34f56ece7f2d25a97b7375e29fa568f",
+    "normalized_text_hash": "df5555eac4b26064931a8407ded8302c8eb626b38479e0cd9248b2acc0e7c2bf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T00:01:26.196Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

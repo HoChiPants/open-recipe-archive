@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "acorn-squash-with-brown-sugar-butter",
+  "name": "Acorn Squash with Brown Sugar Butter",
+  "subtitle": "Tender squash with a simple sweet finish",
+  "description": "Microwaved acorn squash is seasoned and finished with melted butter and brown sugar.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "acorn-squash",
+      "item": "acorn squash",
+      "quantity": 1,
+      "preparation": "halved and seeded"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the halved, seeded squash to a microwave-safe dish and cut into manageable portions if needed."
+    },
+    {
+      "step": 2,
+      "text": "Microwave for 20 minutes, or until tender. Drain any excess liquid and season with salt and pepper.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Transfer the divided butter and brown sugar to a grill-safe dish. Grill for 5 minutes, until the butter is melted, then combine.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Spoon the melted brown sugar butter over the warm squash and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe dish",
+    "grill",
+    "grill-safe dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21827/nanas-acorn-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "55d8f8f942df7462d998e822d01337c96006c92ab14da886bcb6867e4ad2ba82",
+    "normalized_text_hash": "f586c3be51be9e6b776c5e87ef6b14bc1e76f2ef786ad8471eeeffbc8ecce748",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:07:45.232Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

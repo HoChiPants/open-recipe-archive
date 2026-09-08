@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-waldorf-salad",
+  "name": "Creamy Waldorf Salad",
+  "subtitle": "A crisp fruit-and-celery salad with creamy dressing",
+  "description": "Apples, grapes, raisins, celery, and walnuts are folded with whipped cream, mayonnaise, lemon, and nutmeg, then chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 1.5,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seedless-grapes",
+      "item": "seedless grapes",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "whipped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toss the chopped apples with the lemon juice."
+    },
+    {
+      "step": 2,
+      "text": "Add the celery, walnuts, raisins, and halved grapes to the apples."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the whipped cream and mayonnaise together until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Fold the dressing into the fruit mixture, then stir in the nutmeg."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "salad",
+    "american",
+    "fruit-salad",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13847/waldorf-salad-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c884c27c5a2f5c42933827fba6e374d6be48b52620c5d4b60a8cc2fe63d86002",
+    "normalized_text_hash": "bb0ab2b796e5725a28fc7195b79f950ead2c73102b84425ff30d578241adf812",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:45:35.421Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

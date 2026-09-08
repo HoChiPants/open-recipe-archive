@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-lassi",
+  "name": "Mango Lassi",
+  "subtitle": "A cool, creamy mango yogurt drink",
+  "description": "Blend ripe mangoes with yogurt, sugar, and ice for a smooth, refreshing drink.",
+  "meal_type": "drink",
+  "cuisine": "Indian Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mangos",
+      "item": "mangos",
+      "quantity": 2,
+      "preparation": "peeled, seeded and diced"
+    },
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the diced mangoes, yogurt, sugar, and ice to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth."
+    },
+    {
+      "step": 3,
+      "text": "Pour into two glasses and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "smoothie",
+    "mango"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32620/mango-lassi-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e2274f3ee7914ff617ae5196874c6f78ea2148d1670d3425636e2425af999be4",
+    "normalized_text_hash": "a629993110d120221e252608b29cdc9d55640cf68e3ff4ede41d25679259a4ee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:16:22.237Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

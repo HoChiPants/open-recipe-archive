@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "maple-sausage-gravy",
+  "name": "Maple Sausage Gravy",
+  "subtitle": "Creamy country-style gravy for breakfast",
+  "description": "A rich milk gravy made with maple sausage and a simple butter-flour roux.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "maple-flavored-sausage",
+      "item": "maple flavored sausage",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a skillet over medium heat. Cook the maple flavored sausage, breaking it into crumbles, until browned and the center reaches 160°F. Transfer the sausage to a plate."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in the skillet. Stir in the flour and cook until the mixture is smooth."
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk in the milk. Cook, whisking often, until the gravy thickens."
+    },
+    {
+      "step": 4,
+      "text": "Season with salt and pepper, then return the sausage to the skillet."
+    },
+    {
+      "step": 5,
+      "text": "Simmer gently, stirring occasionally, until thick and smooth.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "sausage",
+    "gravy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/51304/bills-sausage-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c4dc3cfb5f99d893bf448f458932d9c357e4fdc7d3c518d78dad6661dc9049a",
+    "normalized_text_hash": "eff838e61b2736049d85ad6176ed8f029c374c2a894abab0a8089ba7de99c26d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:45:18.606Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

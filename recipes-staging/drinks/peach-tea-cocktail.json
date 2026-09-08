@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-tea-cocktail",
+  "name": "Peach Tea Cocktail",
+  "subtitle": "An iced tea cocktail with vodka and peach schnapps.",
+  "description": "A quick, chilled peach-flavored tea drink for one.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes"
+    },
+    {
+      "ingredient_id": "iced-tea",
+      "item": "iced tea",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fluid-ounce-vodka",
+      "item": "fluid ounce vodka",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-peach-schnapps",
+      "item": "fluid ounce peach schnapps",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the iced tea, vodka, and peach schnapps. Stir gently and serve cold."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "iced-tea",
+    "vodka",
+    "peach",
+    "single-serving"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "serving glass",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223220/alcoholic-sweet-peach-tea/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3405d96803980b6cfb40f59a92647955f754bb1aa6bdae80aefff56287da5a24",
+    "normalized_text_hash": "6d7f4d6d090bd4dee23be1d837282b1fcd1f8c1016d72087b458b3010a2e6c53",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:37:18.055Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

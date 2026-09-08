@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-bean-curry-wraps",
+  "name": "Butter Bean Curry Wraps",
+  "subtitle": "Warm curry, crisp leaves, and raita in wholemeal wraps",
+  "description": "Fill wholemeal tortilla wraps with warm butter bean curry, salad leaves, and cool raita for a quick vegetarian meal.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 3
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "wholemeal-tortilla-wraps",
+      "item": "wholemeal tortilla wraps",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "the-butter-bean-curry-recipe-below",
+      "item": "the butter bean curry (recipe below)",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "handfuls-of-mixed-salad-leaves",
+      "item": "handfuls of mixed salad leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "the-raita-recipe-below",
+      "item": "the raita (recipe below)",
+      "quantity": "1/2"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the butter bean curry until hot throughout, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Lay the tortilla wraps flat and divide the salad leaves between them."
+    },
+    {
+      "step": 3,
+      "text": "Add the warm curry and raita to each wrap."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the sides, roll up firmly, and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "vegetarian",
+    "wraps",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat",
+    "milk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/butter-bean-curry-wraps",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cf7b4dbeeb51a23f8b25a78c9804d3d47b89e03ad7c6f5d04e2f5cbd97ee2b8e",
+    "normalized_text_hash": "4be46df445ae38023745fed825977895a5e1b21ca3c3b4d9acb473daac9e8ddc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T20:04:58.019Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

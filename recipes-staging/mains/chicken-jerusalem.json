@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-jerusalem",
+  "name": "Chicken Jerusalem",
+  "subtitle": "Baked chicken with mushrooms, artichokes, and cream sauce",
+  "description": "Chicken breasts are baked with stock, then finished with a creamy mushroom and artichoke sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "artichoke-hearts",
+      "item": "artichoke hearts",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce, drained"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Arrange the chicken in a baking dish and pour in the chicken stock."
+    },
+    {
+      "step": 2,
+      "text": "Bake until the chicken reaches 165°F in the thickest part, about 30 minutes. Transfer the chicken to a serving dish and reserve the stock.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Simmer the reserved stock with the garlic and onion until the onion softens. Stir in the white wine and cook until the mixture thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the mushrooms and artichoke hearts, and cook until the mushrooms are tender.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the heavy cream and simmer until the sauce thickens. Season with salt and pepper, then spoon the sauce over the chicken and serve.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-chicken",
+    "creamy-sauce",
+    "mushrooms",
+    "artichokes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19129/chicken-jerusalem-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6f69352bc17b73c3ce686722f019bc8e7ac6031cd213e81d33ba92b1232b9f3f",
+    "normalized_text_hash": "6d6b91a85466072c57cca44b86b0910f3c9977ab03063ef95249eb4ad7095e38",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:08:06.980Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-catfish-nuggets",
+  "name": "Fried Catfish Nuggets",
+  "subtitle": "Crisp, mustard-coated catfish pieces",
+  "description": "Catfish pieces are seasoned, chilled in mustard, lightly dredged, and fried until crisp and fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "catfish-fillets",
+      "item": "catfish fillets",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 1 1/2-inch pieces"
+    },
+    {
+      "ingredient_id": "dried-thyme-leaves",
+      "item": "dried thyme leaves",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "spicy-brown-mustard",
+      "item": "spicy brown mustard",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toss the catfish pieces with the thyme, then coat them evenly with the mustard. Cover and chill for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Heat the oil to 350°F in a deep, heavy pot."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the flour, salt, pepper, and baking soda in a shallow dish."
+    },
+    {
+      "step": 4,
+      "text": "Dredge the chilled catfish in the flour mixture, shaking off excess."
+    },
+    {
+      "step": 5,
+      "text": "Fry the pieces in batches for about 4 minutes, turning as needed, until golden brown and the thickest piece reaches 145°F or flakes easily.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 6,
+      "text": "Drain on a rack or paper towels, then serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "deep, heavy pot",
+    "food thermometer",
+    "shallow dish",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216591/fried-catfish-nuggets/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a39d70be045c77716ece7c06e93b8179a7f55befabed4cbbefa0a079ac86f6bc",
+    "normalized_text_hash": "979026af3b81748c6c40f9b220cde4c4a12267c5bab07ee9015e32d14a8396dd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:25:44.908Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

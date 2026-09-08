@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pa-o-de-queijo",
+  "name": "Pão de Queijo",
+  "subtitle": "Brazilian cheese rolls with a crisp exterior and tender center",
+  "description": "These gluten-free cheese rolls use tapioca starch for a chewy texture and Parmesan for savory flavor.",
+  "meal_type": "baked-good",
+  "cuisine": "Brazilian",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tapioca-starch",
+      "item": "tapioca starch",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the tapioca starch and salt in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Heat the oil, water, and milk until steaming, then pour the hot mixture over the starch. Stir until evenly moistened."
+    },
+    {
+      "step": 4,
+      "text": "Let the mixture cool and rest for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Mix in the shredded Parmesan and eggs until a cohesive dough forms."
+    },
+    {
+      "step": 6,
+      "text": "Shape the dough into 14 portions and arrange them on a baking sheet."
+    },
+    {
+      "step": 7,
+      "text": "Bake until puffed and lightly browned, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "snack",
+    "savory",
+    "cheese",
+    "brazilian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221430/brazilian-cheese-rolls-pao-de-queijo/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d6a60dfa5e123d5daf54a7bf2a73f6f607d5b5f2411624fe8b20c9b5fbe16bb",
+    "normalized_text_hash": "12b53f081c1851d9a84ab1be2e1572e3ed05e702e75bda27667c447feeee801b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:49:31.081Z",
+    "semantic_similarity": 18,
+    "structural_similarity": 42,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

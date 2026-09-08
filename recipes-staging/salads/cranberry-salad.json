@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-salad",
+  "name": "Cranberry Salad",
+  "subtitle": "A chilled cranberry, pineapple, and marshmallow salad",
+  "description": "Ground cranberries are sweetened, chilled, and folded with pineapple, marshmallows, pecans, and whipped cream for a cool, lightly textured salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 540
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cranberries",
+      "item": "cranberries",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "finely ground"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "20 ounce, crushed, drained"
+    },
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream",
+      "quantity": 1,
+      "unit": "pint",
+      "preparation": "beaten stiff"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the finely ground cranberries and sugar. Cover and refrigerate for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Beat the whipped cream to soft peaks."
+    },
+    {
+      "step": 3,
+      "text": "Drain any excess liquid from the cranberries, then combine them with the pineapple, marshmallows, pecans, and whipped cream."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the salad to a serving bowl, cover, and refrigerate for 1 hour before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "cranberry",
+    "chilled-salad",
+    "holiday",
+    "american"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15691/christmas-cranberry-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "87a1ed38644b5f74c0629963475d3606e2fe5cce7e7874946bfc545576e23c4a",
+    "normalized_text_hash": "039c24c865909660efceb5e42abd752a786ba35fe00a5bae16f3dddf41266eeb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:41:20.616Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

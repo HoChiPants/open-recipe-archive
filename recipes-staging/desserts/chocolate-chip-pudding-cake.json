@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-chip-pudding-cake",
+  "name": "Chocolate Chip Pudding Cake",
+  "subtitle": "Rich chocolate cake with a soft pudding crumb and chocolate chips",
+  "description": "A moist chocolate cake baked with pudding, sour cream, coffee liqueur, and semisweet chocolate chips.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dark-chocolate-cake-mix",
+      "item": "dark chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-chocolate-pudding-mix",
+      "item": "instant chocolate pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.9 ounce"
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "coffee-flavored-liqueur",
+      "item": "coffee flavored liqueur",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Grease and flour a tube or Bundt pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cake mix, pudding mix, sour cream, eggs, vegetable oil, and coffee flavored liqueur until smooth and thick."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the chocolate chips, then spread the batter evenly in the prepared pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, until the center is firm and reaches at least 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool in the pan for 10 minutes, then turn the cake out onto a rack and cool further before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "Bundt or tube pan",
+    "mixing bowl",
+    "whisk",
+    "rubber spatula",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8446/chocolate-cavity-maker-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "db17e2b53c8347b53d8ea27e5a6be8fcf21f0c851dce7b3eb41a8e6f62ef5f3c",
+    "normalized_text_hash": "4b86cd67d72dcbe6c0be4a636c80afd92cf1ab1f562b3b9a6660db754866d710",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:30:10.702Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

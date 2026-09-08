@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "foil-roasted-broccoli",
+  "name": "Foil-Roasted Broccoli",
+  "subtitle": "Tender broccoli with browned edges and Parmesan",
+  "description": "Broccoli roasts in a sealed foil packet, then finishes uncovered with Parmesan for a savory, lightly crisp topping.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "small-broccoli-florets",
+      "item": "small broccoli florets",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    },
+    {
+      "ingredient_id": "fresh-ground-black-pepper-to-taste",
+      "item": "fresh ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Toss the broccoli with the olive oil, sea salt, and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the broccoli on a large sheet of foil and fold the foil into a sealed packet."
+    },
+    {
+      "step": 4,
+      "text": "Place the packet on a baking sheet and bake for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Carefully open the packet, sprinkle the broccoli with Parmesan, and add more black pepper."
+    },
+    {
+      "step": 6,
+      "text": "Return the packet open to the oven and bake for 10 minutes, until the broccoli is tender and the cheese is melted.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetarian",
+    "roasted-vegetables",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "aluminum foil",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/266135/oven-roasted-broccoli-in-foil/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4a0776c03fb2a51a1f2ed626bb6eb00d4339fb4cd915af7b2e908db365f91e6d",
+    "normalized_text_hash": "820b07bd3a41f8b4a55e7d854f685b98277cb67d9e20bd8b1abe25ed3ac9bdb9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:41:57.040Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

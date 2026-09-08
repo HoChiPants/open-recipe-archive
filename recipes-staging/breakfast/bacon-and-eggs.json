@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-and-eggs",
+  "name": "Bacon and Eggs",
+  "subtitle": "Crisp bacon with simply seasoned eggs",
+  "description": "A straightforward breakfast of bacon and fully set eggs seasoned to taste.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the cooking appliance for the bacon."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until crisp, then drain it and reserve the rendered fat in the cooking vessel."
+    },
+    {
+      "step": 3,
+      "text": "Crack the eggs into the cooking vessel with the bacon fat and season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the eggs are firm and fully set, reaching 160°F in the center."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the eggs with the bacon and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "bacon",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "skillet or oven-safe cooking vessel"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87319/heart-attack-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "295bbe95ff7f4f1a9e23f58d54a310ec43ab6cd0e931ecfd475941da259d6cc9",
+    "normalized_text_hash": "261067a13b8becf783743cee8c2e7c3e7784e226c1ce4f70ed7e80789f583aa4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:28:55.358Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

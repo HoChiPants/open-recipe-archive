@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sausage-and-sauerkraut",
+  "name": "Sausage and Sauerkraut",
+  "subtitle": "Baked sauerkraut with browned bacon, onion, apple, and sliced sausage",
+  "description": "A hearty baked dish combining tangy sauerkraut with sweet apple, caraway, bacon, onion, and kielbasa.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 125
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sauerkraut",
+      "item": "sauerkraut",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "rinsed and drained"
+    },
+    {
+      "ingredient_id": "caraway-seeds",
+      "item": "caraway seeds",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kielbasa-sausage",
+      "item": "kielbasa sausage",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cut into 1-inch thick slices"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Coat a large baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sauerkraut, caraway seeds, brown sugar, and diced apple in the dish. Cover and bake for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Cook the bacon and onion in a skillet over medium heat until the bacon is browned and the onion is softened, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Stir the bacon and onion into the sauerkraut, then fold in the sliced kielbasa. Cover and bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Stir the sauerkraut mixture, uncover, and bake for 45 minutes, or until the sausage reaches 160°F in the center.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-dish-meal",
+    "sausage",
+    "sauerkraut"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "large baking dish",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216081/sausage-and-sauerkraut/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9677e87c171375efe59ad1ecee3979c76fa2986b588798675e0c43ba315e764c",
+    "normalized_text_hash": "51b4e4d6377b76334f79dd2101b21b852bb4feeaf658c633f55102b78a8bc775",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:47:44.389Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chia-gel",
+  "name": "Chia Gel",
+  "subtitle": "A simple, lightly thickened chia mixture",
+  "description": "Stir chia seeds into water, let them hydrate briefly, then chill until gelled.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 0.33333331346512,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and chia seeds in a bowl, stirring until evenly dispersed."
+    },
+    {
+      "step": 2,
+      "text": "Let the mixture stand for 1 minute, then stir again to break up any clumps.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Chill for 10 minutes, or until the mixture thickens into a gel.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "snack",
+    "american",
+    "chia",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon or whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222060/chia-gel/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9c27fdfa6bf04d9cddf43e25d0c45b37ed7ae3d5174429c6eeff95e048e05582",
+    "normalized_text_hash": "0a79b331d7561a5dd65382de4feabd316a951aa2046603ea9911ec1da7d8b044",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:52:12.310Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-blintzes",
+  "name": "Cheese Blintzes",
+  "subtitle": "Tender crepes with a citrus-scented cheese filling",
+  "description": "Fill lightly cooked crepes with sweetened ricotta and cream cheese, fold them, then bake until set and golden.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "ricotta-cheese",
+      "item": "ricotta cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "strained if wet"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "powdered-sugar",
+      "item": "powdered sugar",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "divided, or more as needed"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "zested"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the milk, flour, cold water, eggs, vegetable oil, white sugar, salt, vanilla extract, and part of the powdered sugar until smooth, about 2 minutes. Let the batter rest for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Whisk the ricotta, cream cheese, egg, remaining powdered sugar, lemon zest, and pinch of salt until combined. Chill the filling while the batter rests."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a lightly greased skillet over medium heat. Spray or coat it with cooking spray, add enough batter to make a thin crepe, and cook for about 1 minute, until set. Transfer it to a plate and repeat with the remaining batter.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 325°F. Place a portion of filling near the lower center of each crepe, fold in the sides, then fold it over to enclose the filling."
+    },
+    {
+      "step": 5,
+      "text": "Melt butter in an oven-safe skillet or baking dish over medium heat. Cook the folded blintzes for about 1 minute per side, until golden brown, then transfer them to the prepared dish.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Bake until the blintzes are firm and the filling reaches 160°F in the center.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 7,
+      "text": "Cool for 10 minutes and dust with the remaining powdered sugar, adding more as needed.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "crepes",
+    "cheese",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "blender",
+    "mixing bowl",
+    "skillet",
+    "oven-safe baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242406/chef-johns-cheese-blintzes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e2502cceb3c70be961036119465ec148d1649fa19152ceb8eddc260b125807f5",
+    "normalized_text_hash": "8d07816e2dc7bef90672286049cb416438079f9efc6ac1f11c35833f78b1e50d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:23:53.405Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

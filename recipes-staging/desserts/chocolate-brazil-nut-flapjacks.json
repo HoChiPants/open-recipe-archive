@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-brazil-nut-flapjacks",
+  "name": "Chocolate Brazil Nut Flapjacks",
+  "subtitle": "Chewy oat bars with dark chocolate and crunchy nuts",
+  "description": "A simple baked oat bar combining golden syrup, dark chocolate, cocoa, Brazil nuts, and optional cherries.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salted-butter-plus-extra-for-the-tin",
+      "item": "salted butter plus extra for the tin",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-melted",
+      "item": "dark chocolate melted",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "brazil-nuts-roughly-chopped",
+      "item": "brazil nuts roughly chopped",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocktail-cherries-roughly-chopped-optional",
+      "item": "cocktail cherries roughly chopped (optional)",
+      "quantity": 75,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and grease a baking tin with a little extra butter."
+    },
+    {
+      "step": 2,
+      "text": "Warm the butter, golden syrup, and brown sugar together until the sugar is dissolved. Stir in the melted chocolate."
+    },
+    {
+      "step": 3,
+      "text": "Mix in the cocoa powder, oats, chopped Brazil nuts, and optional cherries until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Press the mixture firmly into the prepared tin and bake for 25 minutes, until set.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Cool in the tin, then cut into 12 portions."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-oats",
+    "chocolate",
+    "brazil-nuts",
+    "oat-bars"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "baking tin"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/brazil-nut-chocolate-flapjacks",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8103c2af3ebad82e98267a5e988ecb55c2522c1bd3dc5dd0372c07f4c56a5fa2",
+    "normalized_text_hash": "e5fe391002ebcf9f9ab6400c5aa66872880dd6a4f1e7646bd635d2c6a6f5505c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:47:21.565Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

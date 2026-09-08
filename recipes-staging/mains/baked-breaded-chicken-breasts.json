@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-breaded-chicken-breasts",
+  "name": "Baked Breaded Chicken Breasts",
+  "subtitle": "Mayonnaise-coated chicken with a crisp seasoned crumb crust",
+  "description": "A straightforward oven-baked chicken dinner with a savory bread-crumb coating.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "italian-seasoned-bread-crumbs",
+      "item": "Italian seasoned bread crumbs",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Arrange a baking dish or sheet pan for the chicken."
+    },
+    {
+      "step": 2,
+      "text": "Season the chicken breast halves with salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Spread mayonnaise over each piece of chicken, then press into the Italian seasoned bread crumbs to coat. Place the coated chicken in the prepared pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the coating is browned and the thickest part of the chicken reaches 165°F on an instant-read thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "chicken",
+    "baked",
+    "breaded",
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish or sheet pan",
+    "instant-read thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55872/amazing-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8e0960a0331a497bc88d2a293c23727295e60d455b1e7d8dab0263c9d94d0405",
+    "normalized_text_hash": "3c6b4acac1732952cbaff0c10510485b25c608ce1de6acccd5192e36ef770ca0",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:50:22.917Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

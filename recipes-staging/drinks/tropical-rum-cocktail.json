@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tropical-rum-cocktail",
+  "name": "Tropical Rum Cocktail",
+  "subtitle": "A chilled blend of rum and tropical juices",
+  "description": "A simple rum cocktail combining coconut and golden rum with citrus and tropical fruit juices, finished with grenadine and a fruit garnish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "golden-rum",
+      "item": "golden rum",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "coconut-rum",
+      "item": "coconut rum",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lime-juiced",
+      "item": "lime juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "splash-of-grenadine",
+      "item": "splash of grenadine"
+    },
+    {
+      "ingredient_id": "pineapple-wedge-and-maraschino-cherry",
+      "item": "pineapple wedge and maraschino cherry",
+      "preparation": "to garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with ice."
+    },
+    {
+      "step": 2,
+      "text": "Add the golden rum, coconut rum, orange juice, pineapple juice, and juice from the lime. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Stir in a splash of grenadine."
+    },
+    {
+      "step": 4,
+      "text": "Garnish with the pineapple wedge and maraschino cherry."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "rum",
+    "tropical",
+    "fruit-juice",
+    "grenadine",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "equipment": [
+    "serving glass",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bahama-mama",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "94a23027ebf201194a622e50c2d03b5bd806d6342a2c1759ad93eb20cd02c6dd",
+    "normalized_text_hash": "5eaf0ebac1f3158aa700e27c5813669377779ffd7e34de0de9d5a4086c854dd8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T03:58:24.197Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

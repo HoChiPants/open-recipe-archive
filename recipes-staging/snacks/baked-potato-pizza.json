@@ -1,0 +1,171 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato-pizza",
+  "name": "Baked Potato Pizza",
+  "subtitle": "Crisp crust topped with seasoned potatoes, bacon, and melted cheese",
+  "description": "A savory pizza-style snack layered with creamy ranch sauce, seasoned potatoes, bacon, onions, and two cheeses.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 80,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "pizza-crust-mix",
+      "item": "pizza crust mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "6.5 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-italian-seasoning",
+      "item": "dried Italian seasoning",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ranch-dressing",
+      "item": "Ranch dressing",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F. Prepare the potatoes and bake until tender, about 50 minutes. Cool briefly, then cut into pieces.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 2,
+      "text": "Reduce the oven temperature to 400°F. Cook the bacon for about 10 minutes, then drain and crumble.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Mix the pizza crust mix with the water. Knead for 8 minutes, until smooth, then rest for 5 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough and transfer it to a baking surface. Bake for 6 minutes, until firm.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Combine the potatoes with the melted butter, garlic powder, and Italian seasoning. Stir together the sour cream and Ranch dressing."
+    },
+    {
+      "step": 6,
+      "text": "Spread the sauce mixture over the crust. Add the seasoned potatoes, bacon, green onions, mozzarella, and Cheddar."
+    },
+    {
+      "step": 7,
+      "text": "Bake for about 20 minutes, until the cheeses are melted. Rest for 5 minutes before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking surface"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222587/baked-potato-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "27027531c075f22f3c0e364b6009e0873fdb1f13623b9ce6bf9d38c9f8402d73",
+    "normalized_text_hash": "05db9a4ceb768d9604dc8aa4e0ad1bcc724f3b67c616e7092407b9e13f47cb15",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:50:32.275Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-bacon-and-pickle-pizza",
+  "name": "Garlic, Bacon, and Pickle Pizza",
+  "subtitle": "A crisp, cheesy pizza with savory bacon and tangy dill pickles.",
+  "description": "Garlic-brushed pizza crust layered with melted cheeses, bacon, pickle chips, red pepper flakes, and fresh dill.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "prepared-pizza-crust",
+      "item": "prepared pizza crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pepper-jack-cheese",
+      "item": "pepper Jack cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6,
+      "preparation": "cooked and crumbled"
+    },
+    {
+      "ingredient_id": "hamburger-dill-pickle-chips",
+      "item": "hamburger dill pickle chips",
+      "quantity": 15,
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "fresh-dill",
+      "item": "fresh dill",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Place the prepared pizza crust on a baking sheet, brush it with the olive oil, and scatter the minced garlic over the surface."
+    },
+    {
+      "step": 2,
+      "text": "Bake the crust for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Top with the pepper Jack, Cheddar, and crushed red pepper flakes. Bake until the cheese melts, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Scatter the crumbled bacon and pickle chips over the pizza. Return it to the oven and bake until hot and the crust edges are crisp, about 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Garnish with the chopped fresh dill and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272815/garlicky-bacon-and-pickle-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1290932c806355e1cd6a98452d5ea5f7bcf8233cc11bd0becc0d829b0db511e",
+    "normalized_text_hash": "46db1fe781185d57d47c29a194dc51c09e28728ce749d9c6dbf709e1507bb34d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:38:38.845Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

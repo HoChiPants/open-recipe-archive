@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-balsamic-basil-chicken",
+  "name": "Honey-Balsamic Basil Chicken",
+  "subtitle": "Tender chicken strips with a sweet-tangy skillet glaze",
+  "description": "Quickly sauté seasoned chicken, then finish it with fresh basil, honey, and balsamic vinegar for a simple two-serving meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "chicken-tenderloin-strips",
+      "item": "chicken tenderloin strips",
+      "quantity": 6,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Season the chicken strips with the salt and black pepper, then add them to the skillet."
+    },
+    {
+      "step": 3,
+      "text": "Cook, stirring occasionally, until the chicken reaches 165°F in the thickest pieces, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the basil, honey, and balsamic vinegar. Cook briefly until the chicken is coated, then serve."
+    }
+  ],
+  "tags": [
+    "quick-dinner",
+    "skillet-meal",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234415/luckys-quickie-chickie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "218097bd6e0dd4bf8730f44a649b938a156d1a01027529d8843e4416a2aef1d8",
+    "normalized_text_hash": "8901b1187ab7c3ce14695af5387711fa45b46eec30e59d1867dd4b2436cc8fb5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:08:41.194Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

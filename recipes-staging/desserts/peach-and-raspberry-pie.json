@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-and-raspberry-pie",
+  "name": "Peach and Raspberry Pie",
+  "subtitle": "A buttery double-crust pie filled with peaches and raspberries.",
+  "description": "Juicy peaches and tart raspberries bake beneath a crisp, sugared crust for a classic fruit dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "peeled, pitted, and sliced"
+    },
+    {
+      "ingredient_id": "fresh-raspberries",
+      "item": "fresh raspberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "9-inch-pie-crusts",
+      "item": "(9 inch) pie crusts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened and cut into pieces"
+    },
+    {
+      "ingredient_id": "coarse-granulated-sugar",
+      "item": "coarse granulated sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Let the sliced peaches stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Combine the white sugar, flour, and cinnamon. Add the peaches and raspberries and toss to coat."
+    },
+    {
+      "step": 4,
+      "text": "Fit one crust into a 9-inch pie pan and add the fruit mixture. Dot the surface with the butter."
+    },
+    {
+      "step": 5,
+      "text": "Cover with the second crust, seal and crimp the edges, and cut vents in the top. Sprinkle with the coarse granulated sugar."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, until the crust is golden brown.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "fruit-pie",
+    "baking",
+    "summer-dessert"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/88278/peach-a-berry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "95c555f30422fdc57c02600bc52251eaa1c76eef92ac66733b4cb09c448fb7fa",
+    "normalized_text_hash": "a8a19e8ceac88b69a2d28824c710e50493e76bcbd8c9d403d96c40ac0548f85e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:56:56.384Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

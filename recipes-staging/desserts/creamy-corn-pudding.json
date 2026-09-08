@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-corn-pudding",
+  "name": "Creamy Corn Pudding",
+  "subtitle": "A sweet, custardy corn bake with maple and cayenne",
+  "description": "Thawed corn is blended with eggs, milk, flour, and seasonings, then enriched with cream and melted butter and baked until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-yellow-corn",
+      "item": "frozen yellow corn",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "thawed and drained"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt-cut-in-half-if-using-fine-salt",
+      "item": "kosher salt (cut in half if using fine salt)",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted, divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Grease a baking dish with part of the melted butter."
+    },
+    {
+      "step": 2,
+      "text": "Blend the corn, maple syrup, eggs, milk, salt, cayenne, flour, and baking powder for about 3 minutes, until smooth.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Whisk the heavy cream with the remaining melted butter, then stir it into the corn mixture."
+    },
+    {
+      "step": 4,
+      "text": "Pour the mixture into the prepared dish and bake for 60 minutes, or until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Let the pudding rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "corn",
+    "pudding",
+    "baked-dessert",
+    "american",
+    "southern-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "blender",
+    "mixing bowl",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256288/chef-johns-creamy-corn-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "59fbc88f869301dcedceee1153d1904102ead9e1448ecd9c83bdbeae97dd94d4",
+    "normalized_text_hash": "156fb413bfc970c164e0e294c32edd3774dfc6b255c17da273311b19414aef2f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:28:55.810Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

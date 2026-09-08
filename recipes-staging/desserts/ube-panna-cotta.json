@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ube-panna-cotta",
+  "name": "Ube Panna Cotta",
+  "subtitle": "Silky purple-yam custard with coconut milk",
+  "description": "A softly set panna cotta blending tender ube with coconut milk and a lightly sweetened dairy base.",
+  "meal_type": "dessert",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "inactive_minutes": 195
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ube-purple-yam",
+      "item": "ube (purple yam)",
+      "quantity": 1,
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "coconut-milk",
+      "item": "coconut milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "unflavored-gelatin",
+      "item": "unflavored gelatin",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the peeled ube to a saucepan, cover with water, and bring to a simmer. Cook until tender, about 20 minutes, then drain and cool for 10 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Combine the ube, coconut milk, sugar, and 1 cup of the whole milk. Blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the remaining 0.5 cup whole milk and the blended mixture to a saucepan. Sprinkle in the gelatin and let it stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Warm the mixture gently for 5 minutes, stirring until the gelatin dissolves; do not boil.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Pour into six serving dishes and refrigerate until set, about 3 hours.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dessert",
+    "panna-cotta",
+    "ube",
+    "coconut-milk"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender",
+    "six serving dishes",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260763/ube-panna-cotta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e0755322e5f1eaa8382f093dda60c754809fef2a451d8635424d56f4954f8dbf",
+    "normalized_text_hash": "35b44ec07aa7a97473092c5004d5b3c2acb30498904b55b0ace0f1e3d3dbbab5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:33:59.137Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

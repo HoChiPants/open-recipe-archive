@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pretzel-crust",
+  "name": "Pretzel Crust",
+  "subtitle": "A crisp, buttery-sweet base with pretzel flavor",
+  "description": "Mix softened margarine, brown sugar, and crushed pretzels, then bake until set for a simple snack crust.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pretzels",
+      "item": "pretzels",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the softened margarine, brown sugar, and crushed pretzels until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Press the mixture into the prepared baking pan in an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 10 minutes, until the crust is set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Let the crust cool before portioning or using."
+    }
+  ],
+  "tags": [
+    "snack",
+    "pretzel",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19437/pretzel-crust/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6cdcdb75add06b950c518b06b4fe2f50a81dd89b76487acb9b1ab85c05fdeb65",
+    "normalized_text_hash": "e3b83deea1c6397151cfb9cdb42870ea6a1c9387be1b31fc323434a543cf3da5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:29:35.549Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

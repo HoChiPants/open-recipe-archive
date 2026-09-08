@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-overnight-oats",
+  "name": "Banana Overnight Oats",
+  "subtitle": "A creamy oat breakfast with banana, nut butter, and almond topping",
+  "description": "Mash banana into a no-cook oat mixture, portion it, and finish with crunchy almonds and optional yogurt.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bananas-peeled",
+      "item": "bananas peeled",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-cinnamon-plus-a-pinch-to-serve",
+      "item": "ground cinnamon plus a pinch to serve",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "milk-of-your-choice-plus-a-splash",
+      "item": "milk of your choice plus a splash",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "peanut-or-almond-butter-plus-extra-to-serve",
+      "item": "peanut or almond butter plus extra to serve",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "flaked-or-chopped-almonds",
+      "item": "flaked or chopped almonds",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "natural-yogurt-to-serve-optional",
+      "item": "natural yogurt to serve (optional)",
+      "quantity": "2-4",
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mash the bananas in a bowl until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the oats, cinnamon, maple syrup, milk, and nut butter. Stir until evenly combined and creamy."
+    },
+    {
+      "step": 3,
+      "text": "Divide between two serving containers and top with the almonds, reserved cinnamon, extra nut butter, and optional yogurt."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "no-cook",
+    "oats",
+    "banana",
+    "overnight-oats"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "fork or potato masher",
+    "spoon",
+    "2 serving containers"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banana-overnight-oats",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6eb484ec256d8d1ad564caa31da68a834be1d44db5d4027206465964db8fc6ca",
+    "normalized_text_hash": "69c1b71319fc47e8287b5df01ae203604e0eaf8f8865c12caebe125e08c9eca7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:09:09.563Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

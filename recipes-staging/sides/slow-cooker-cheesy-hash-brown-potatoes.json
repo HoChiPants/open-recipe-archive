@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-cheesy-hash-brown-potatoes",
+  "name": "Slow Cooker Cheesy Hash Brown Potatoes",
+  "subtitle": "Creamy, golden potatoes with melted Cheddar",
+  "description": "Frozen hash browns cook slowly with buttery soup, sour cream, and Cheddar for a rich, comforting side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-shredded-hash-brown-potatoes",
+      "item": "frozen shredded hash brown potatoes",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "30 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the frozen hash brown potatoes in a slow cooker and pour the melted butter over them."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the condensed soup with the sour cream, then add the mixture and shredded Cheddar to the slow cooker. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on the slow-cooker setting for 4 hours, stirring once after 2 hours, until hot throughout and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "slow-cooker",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268693/slow-cooker-cheesy-hash-brown-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c0ead7408617e5fe52ed9a7a561dbaadee0aa96b7c9552b086f557ff6003cdb0",
+    "normalized_text_hash": "f14af2bd3e4bd1ecbed5f0648d1cb968c3016d5a1a9f435796f14693036f1b89",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:41:09.811Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

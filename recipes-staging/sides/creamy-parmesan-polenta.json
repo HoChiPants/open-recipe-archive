@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-parmesan-polenta",
+  "name": "Creamy Parmesan Polenta",
+  "subtitle": "A warm, savory polenta side with Parmesan and pepper",
+  "description": "Warm cubed polenta with broth, then finish it with Parmesan, pepper, and paprika for a creamy, flavorful side dish.",
+  "meal_type": "side",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "polenta",
+      "item": "polenta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18 ounce, cut into 1/2-inch cubes"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cubed polenta and chicken broth in a saucepan and heat until steaming hot, reaching 165°F on a food thermometer."
+    },
+    {
+      "step": 2,
+      "text": "Cook for 5 minutes, stirring occasionally, until the polenta is hot and softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the Parmesan, black pepper, and paprika. Serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "polenta",
+    "italian-inspired",
+    "cheesy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242008/creamy-parmesan-polenta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab6cfaa6380718fdaaac21e88ff120bf2afbb3943378cb70a113651a1ef2f724",
+    "normalized_text_hash": "ad7fa1216fd64a844cc1ac3044e1cab75b7a6f711eab2008046eb0cfe9fa5ebb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:40:58.665Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

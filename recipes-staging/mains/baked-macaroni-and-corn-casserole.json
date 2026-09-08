@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-macaroni-and-corn-casserole",
+  "name": "Baked Macaroni and Corn Casserole",
+  "subtitle": "A creamy corn casserole with tender macaroni and melted cheese.",
+  "description": "Combine canned corn, macaroni, butter, and cubed processed cheese food, then bake until hot and golden brown.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "creamed-corn",
+      "item": "creamed corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.75 ounce"
+    },
+    {
+      "ingredient_id": "corn",
+      "item": "corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "11.25 ounce"
+    },
+    {
+      "ingredient_id": "macaroni",
+      "item": "macaroni",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "processed-cheese-food",
+      "item": "processed cheese food",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cubed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the creamed corn, corn, and macaroni in a baking dish. Add the butter and cubed processed cheese food, stirring to distribute evenly."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 30 minutes, then stir.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Continue baking until the casserole is hot and golden brown, about 30 minutes more.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "baked-pasta",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11665/lucys-mac-and-corn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d3d969fb86da4b85c9e5d68a201a7f5a533b43cf5b32daac7abd4788b13e1e4d",
+    "normalized_text_hash": "4222784b3a39f0bb52dd9687695b790edb5f4847aabbb8823ed7e5ffb89ccc2e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:08:57.811Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

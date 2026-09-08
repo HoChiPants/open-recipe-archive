@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-custard-pies",
+  "name": "Coconut Custard Pies",
+  "subtitle": "Two simple pies with a sweet coconut filling",
+  "description": "A smooth buttermilk and coconut custard baked in unbaked pie crusts until golden and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-pie-crusts",
+      "item": "(9 inch) unbaked pie crusts",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs and sugar until smooth. Blend in the buttermilk and melted butter, then stir in the coconut and vanilla."
+    },
+    {
+      "step": 3,
+      "text": "Divide the filling between the two unbaked pie crusts."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 50 minutes, until golden brown and the centers are fully set; a thermometer should read at least 160°F.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "coconut",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "9-inch pie pans"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24101/grandmas-coconut-pies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ccbb2c9f5bbe38198e73b293988bfac162d915e73e04afc95fd0a6bde022953",
+    "normalized_text_hash": "aae8d27076e9844aece13ae88363952a8ce218d8f4b4d48c5a136eb035880739",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:50:56.806Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 31,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

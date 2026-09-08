@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-porridge",
+  "name": "Chocolate Porridge",
+  "subtitle": "Creamy oat porridge with dates and cacao",
+  "description": "Blend oats, dates, and milk for a naturally sweet base, then cook with cacao until thick. Add optional yogurt and maple syrup at serving.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dates-stoned",
+      "item": "dates stoned",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "milk-any-will-work",
+      "item": "milk any will work",
+      "quantity": "500-600",
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cacao-or-good-quality-cocoa-powder",
+      "item": "cacao or good quality cocoa powder",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "yogurt-and-maple-syrup",
+      "item": "yogurt and maple syrup",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the oats, dates, and milk until the mixture is thick and smooth."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a saucepan over medium heat, then add the blended mixture and cacao powder."
+    },
+    {
+      "step": 3,
+      "text": "Stir continuously until the porridge is thick and heated through, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Serve warm with yogurt and maple syrup, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "chocolate",
+    "porridge"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-porridge",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fe9e6364379c5cc20942c6d846d669a0831566e07780a3f32ba48e70da07138f",
+    "normalized_text_hash": "f4eda2bec00cbb51bdc18dc05240d6a9c56d23f0dc26b1d3b7bc21f3b59d854a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:10:36.289Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

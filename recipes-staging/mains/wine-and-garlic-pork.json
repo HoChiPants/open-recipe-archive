@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "wine-and-garlic-pork",
+  "name": "Wine and Garlic Pork",
+  "subtitle": "Tender pork marinated with red wine, vinegar, garlic, and herbs",
+  "description": "Marinate cubed pork in a seasoned wine-and-vinegar mixture, then bake and finish it in hot oil for a browned, savory main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "inactive_minutes": 2880
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "red-wine",
+      "item": "red wine",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 7,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 8,
+      "unit": "whole",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "3-pound-boneless-pork-shoulder",
+      "item": "(3 pound) boneless pork shoulder",
+      "quantity": 1,
+      "preparation": "cut into 1-inch cubes"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the red wine vinegar, red wine, garlic, pepper, salt, cloves, bay leaves, and thyme in a nonreactive container."
+    },
+    {
+      "step": 2,
+      "text": "Add the pork and turn to coat. Cover and refrigerate for 48 hours.",
+      "timer_minutes": 2880
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pork and marinade to a baking dish and bake for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Drain the pork and discard the marinade."
+    },
+    {
+      "step": 6,
+      "text": "Heat the vegetable oil in a skillet over medium-high heat. Add the pork and cook, stirring occasionally, for 15 minutes, until browned and the center reaches 145°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Rest the pork for 3 minutes, then serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-dish",
+    "pork",
+    "wine",
+    "garlic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking dish",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223185/wine-and-garlic-pork-portuguese-vina-dosh/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c244251508d0a1f447e3eedb87f9c7ad0bd95c60f464c169bb6255d0781a96c9",
+    "normalized_text_hash": "eaf6123f9eb70b28ef336f34b4629f6e8b22694abbf7436a06df1e4d9205d917",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:06:33.264Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

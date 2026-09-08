@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-vegetable-beef-soup",
+  "name": "Spicy Vegetable Beef Soup",
+  "subtitle": "A hearty beef soup with vegetables, herbs, and rotelle pasta.",
+  "description": "Tender beef, mixed vegetables, tomatoes, and pasta simmer together in a seasoned broth with a mild cayenne kick.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "rump-roast",
+      "item": "rump roast",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "frozen-mixed-vegetables",
+      "item": "frozen mixed vegetables",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cayenne-pepper",
+      "item": "ground cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "rotelle-pasta",
+      "item": "rotelle pasta",
+      "quantity": 6,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the vegetable oil in a large pot over medium-high heat. Cut the rump roast into bite-size pieces and brown them in the pot. Transfer the beef to a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the onion and garlic to the pot. Cook, stirring, until the onion is tender.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Return the beef to the pot. Add the water, beef broth, stewed tomatoes, frozen mixed vegetables, celery, mushrooms, oregano, thyme, basil, parsley, and cayenne pepper."
+    },
+    {
+      "step": 4,
+      "text": "Bring the soup to a gentle simmer. Cover and cook until the beef is tender and reaches at least 145°F on a food thermometer; for whole-cut beef, allow a 3-minute rest.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Stir in the rotelle pasta and cook until tender.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "beef",
+    "vegetable-soup",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer",
+    "bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26469/spicy-vegetable-beef-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3593d7834cbc38c86585cb3b572d5b5abab74cc6d7b665ab15153d65f37d162",
+    "normalized_text_hash": "1850f6b6fb2a16f60dc6a424f6b8345635260eca8abe9163c2e50af49c4ba91a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:39:47.264Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

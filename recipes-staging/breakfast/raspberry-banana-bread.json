@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raspberry-banana-bread",
+  "name": "Raspberry Banana Bread",
+  "subtitle": "A tender quick bread with berries, banana, and warm spice",
+  "description": "Thawed raspberries and ripe banana add fruit flavor and moisture to this lightly spiced loaf.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-unsweetened-raspberries",
+      "item": "frozen unsweetened raspberries",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "ripe-banana",
+      "item": "ripe banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-extract",
+      "item": "lemon extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Drain the thawed raspberries as needed and mash the banana."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the raspberries, banana, sugar, eggs, and oil for 3 minutes, until set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "In a separate bowl, combine the flour, cinnamon, baking soda, salt, and nutmeg."
+    },
+    {
+      "step": 5,
+      "text": "Stir the dry mixture into the fruit mixture just until combined, then stir in the lemon extract."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to a prepared loaf pan."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 60 minutes, until the loaf is set in the center.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Cool for 10 minutes before slicing.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick-bread",
+    "banana-bread",
+    "raspberry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowls",
+    "whisk",
+    "loaf pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228442/raspberry-banana-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3780a2ae6fc79d7ae2baa6f21b9ee21f3a074bbad0a68318f7c70437b2cdf65e",
+    "normalized_text_hash": "2422987774cbeeef702c7086a3c3ada6c3654cb81356616f04f766a49efdec6d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:53:06.878Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

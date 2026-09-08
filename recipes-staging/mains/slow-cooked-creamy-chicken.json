@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooked-creamy-chicken",
+  "name": "Slow-Cooked Creamy Chicken",
+  "subtitle": "Tender chicken in a simple creamy sauce",
+  "description": "Boneless chicken breasts cook slowly beneath a smooth blend of condensed soups and sour cream for an easy, comforting main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken breast halves in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cream of chicken soup, cream of celery soup, and sour cream in a bowl until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Pour the sauce over the chicken, cover, and cook for 8 hours, or until the thickest piece reaches 165°F.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "dinner",
+    "easy",
+    "slow-cooker",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17607/no-time-to-cook-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "efe44b6c8205c65e1e238804b27db8a09bae2ccb23aa62b4def0e96837943488",
+    "normalized_text_hash": "569f94c568ec72b9827d54eb50683ba684ff3c344c689d8d6696728222dd0050",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:17:26.689Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

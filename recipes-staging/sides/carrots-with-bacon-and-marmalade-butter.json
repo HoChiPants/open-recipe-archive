@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrots-with-bacon-and-marmalade-butter",
+  "name": "Carrots with Bacon and Marmalade Butter",
+  "subtitle": "Tender carrots with a savory-sweet butter topping",
+  "description": "Cook sliced carrots until tender, then finish them with crisp bacon, softened butter, and fine-shred marmalade.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rashers-smoked-streaky-bacon",
+      "item": "rashers smoked streaky bacon",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fine-shred-marmalade",
+      "item": "fine-shred marmalade",
+      "quantity": "1 1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "carrots-halved-down-the-centre-and-sliced-on-an-angle",
+      "item": "carrots halved down the centre and sliced on an angle",
+      "quantity": 800,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the bacon for 4 minutes, turning as needed, until crisp. Set aside to cool, then chop or crumble.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 2,
+      "text": "Mix the cooled bacon with the softened butter and marmalade."
+    },
+    {
+      "step": 3,
+      "text": "Place the carrots in boiling water and simmer for 6 minutes, or until tender.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Drain the carrots and toss with the bacon butter until melted and evenly coated."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "carrots",
+    "bacon",
+    "marmalade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrots-with-bacon-marmalade-butter",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0ca9effcc445723b88896f975a15e118c4ab67e2bef6161951b372108ce86137",
+    "normalized_text_hash": "a9ba421d3614d9eaf70c88b74c6844a1c2232d8b2e51d8258c47c234ecf0cddb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T00:36:12.789Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mashed-cauliflower-bake",
+  "name": "Mashed Cauliflower Bake",
+  "subtitle": "A creamy, cheesy vegetable side with a golden finish",
+  "description": "Tender cauliflower is blended with cream cheese, Parmesan, garlic, and seasonings, then baked with Cheddar until melted.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "4 ounce, softened"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded, or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water to a simmer. Add the cauliflower and cook for about 10 minutes, until tender; drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the cauliflower, softened cream cheese, Parmesan, and Cheddar until smooth. Stir in the garlic powder and season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and add the remaining shredded Cheddar over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until the cheese is melted.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetable"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232089/mashed-cauliflower-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e1f091aa4b484bd4d0f00cb71d15bb00555e720614c39438be6173eb749d2255",
+    "normalized_text_hash": "b6f92ebacda6625063c5fc96c7b2fa4087a5bb2817efb54c1e1b9d7d3573c75c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:26:12.389Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

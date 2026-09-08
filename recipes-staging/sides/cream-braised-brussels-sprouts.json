@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-braised-brussels-sprouts",
+  "name": "Cream-Braised Brussels Sprouts",
+  "subtitle": "Tender sprouts in a bright, silky cream sauce",
+  "description": "Quartered Brussels sprouts are gently braised in cream, then finished with lemon juice for balance.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brussels-sprouts",
+      "item": "Brussels sprouts",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "trimmed and quartered"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat. Add the Brussels sprouts and sea salt, and cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Pour in the heavy cream and bring it to a gentle simmer. Cover and cook for 35 minutes, or until the sprouts are tender.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice. Taste and adjust with the listed sea salt or lemon juice as needed, then serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/185140/cream-braised-brussels-sprouts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "83d6af9b56db2675e6297baa243e365ae1ba80b73546919b2625c27e044ca2d2",
+    "normalized_text_hash": "49bfd46a9a05d4e4d4add93e5ebc417ea47a46e287d647098ac7e2d89ea7c3c6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:24:49.675Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

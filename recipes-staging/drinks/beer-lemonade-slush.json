@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-lemonade-slush",
+  "name": "Beer Lemonade Slush",
+  "subtitle": "A frosty blend of beer, vodka, and lemonade",
+  "description": "Blend the ingredients with ice for a cold, smooth drink served immediately.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "or-bottle-beer",
+      "item": "or bottle beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "fluid-ounces-vodka",
+      "item": "fluid ounces vodka",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the ice cubes to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Add the beer, vodka, and frozen lemonade concentrate."
+    },
+    {
+      "step": 3,
+      "text": "Blend until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Pour into four glasses and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "blended",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "equipment": [
+    "blender",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19747/summer-beer-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1ccc88684f87cfc9d95b99f47fbc5f1d510fd75d8a845903642f799bb94b8ce3",
+    "normalized_text_hash": "ebd8f763cf3dd23c811d008dda4e63584c06c0815bc540fe2959f5e98711b190",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:09:05.552Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

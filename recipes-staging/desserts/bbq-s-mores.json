@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bbq-s-mores",
+  "name": "BBQ S'mores",
+  "subtitle": "Warm chocolate and marshmallow biscuit sandwiches",
+  "description": "A simple barbecue dessert made by warming chocolate and marshmallows between crisp tea biscuits.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rich-tea-biscuits",
+      "item": "rich tea biscuits",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "thin-squares-milk-chocolate",
+      "item": "thin squares milk chocolate",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "marshmallows-mixture-of-pink-and-white",
+      "item": "marshmallows mixture of pink and white",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place six biscuits on a heat-safe surface. Top each with one chocolate square and one marshmallow, then cover with the remaining biscuits."
+    },
+    {
+      "step": 2,
+      "text": "Cook the assembled s'mores on the barbecue until the chocolate softens and the marshmallows are warmed through.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Let cool briefly, then serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "barbecue",
+    "biscuits",
+    "marshmallow",
+    "s-mores"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "barbecue",
+    "heat-safe surface"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bbq-smores",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc420cc5252ed2e0a6e6e81a5b1d09a8509fe8e04f7b34ac3eba040823d548c0",
+    "normalized_text_hash": "8ca97d94cd97b8574adeb7516aaa71834afe75115c596f0d2ebd9ded209e154a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:15:50.392Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-cucumber-onion-salad",
+  "name": "Tomato Cucumber Onion Salad",
+  "subtitle": "A crisp, tangy salad with fresh vegetables and simple vinaigrette",
+  "description": "Combine diced cucumber, tomato, and red onion with a bright olive oil and red wine vinegar dressing for an easy Greek-style salad.",
+  "meal_type": "salad",
+  "cuisine": "Greek",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "fresh-tomato",
+      "item": "fresh tomato",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "white-pepper",
+      "item": "white pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cucumber, tomato, red onion, olive oil, red wine vinegar, and white pepper in a bowl; toss to combine."
+    },
+    {
+      "step": 2,
+      "text": "Season with the salt and mix gently."
+    },
+    {
+      "step": 3,
+      "text": "Chill the salad before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "salad",
+    "greek",
+    "vegetarian",
+    "vegan",
+    "fresh"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223397/tomato-cucumber-onion-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5198df4e8479217a512c51750c0721ebb3593e126ae3036a32845f37fe9d532d",
+    "normalized_text_hash": "8d07b6fded584b4a8ca25b1ce05815046f179ca3d66b58bcdf9c9761cb156d63",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:14:49.211Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

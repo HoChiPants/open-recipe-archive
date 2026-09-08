@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-machine-monkey-bread",
+  "name": "Bread Machine Monkey Bread",
+  "subtitle": "Soft cinnamon-raisin pull-apart bread",
+  "description": "A sweet pull-apart bread made with a bread-machine dough, cinnamon sugar, raisins, and brown sugar glaze.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 25,
+    "inactive_minutes": 145
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the water and 2 tablespoons softened margarine to the bread-machine pan. Add the flour, cinnamon, salt, and white sugar, then place the yeast on top. Run the dough cycle and let the dough rest until set."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven to 375°F. Prepare a baking pan."
+    },
+    {
+      "step": 3,
+      "text": "Melt the 1 cup margarine with the packed brown sugar, stirring with the raisins until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Cut the dough into small pieces. Coat the pieces with the white sugar and packed brown sugar, then layer them in the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Pour the margarine mixture over the dough and bake for 25 minutes, until golden brown.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Cool briefly, then serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baked",
+    "sweet",
+    "bread-machine"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6864/monkey-bread-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3f7e1923efc3390484b208193e3c9631468e8fd2258eb94933ab48d4d44112e5",
+    "normalized_text_hash": "b35eabc1a41a65cbb4a71dfa667762e635f047ba069e94cc6e765664cc9f0797",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:10:16.190Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-mozzarella-salad",
+  "name": "Tomato Mozzarella Salad",
+  "subtitle": "Sliced tomatoes and mozzarella with basil and balsamic dressing",
+  "description": "Arrange tomatoes and mozzarella with fresh basil, then finish with a simple balsamic dressing and olive oil.",
+  "meal_type": "salad",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the sliced tomatoes and mozzarella on a serving platter."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the balsamic vinegar, salt, and black pepper together. Drizzle in the olive oil while whisking to combine."
+    },
+    {
+      "step": 3,
+      "text": "Spoon the dressing over the tomatoes and mozzarella, sprinkle with the minced basil, and serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "italian",
+    "tomato",
+    "mozzarella",
+    "basil"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "serving platter",
+    "small bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222659/tomato-mozzarella-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "75a0ca91a76d8ae695ebad6701081dc2eb289f814d9fc1ae41b20d7d70539612",
+    "normalized_text_hash": "2a3c05296da603bca83d0ec323cf5c992861ef6f68026a46e758c3a0a33fc444",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:15:05.292Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

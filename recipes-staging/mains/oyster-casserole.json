@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oyster-casserole",
+  "name": "Oyster Casserole",
+  "subtitle": "A creamy baked oyster and corn casserole with a buttery cracker topping.",
+  "description": "Layer canned oysters, cream-style corn, and seasoned buttery crackers in a baking dish, then bake until hot, bubbling, and set.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "saltine-crackers",
+      "item": "saltine crackers",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "16 ounce, crushed"
+    },
+    {
+      "ingredient_id": "oysters",
+      "item": "oysters",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cream-style-corn",
+      "item": "cream-style corn",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.75 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Lightly prepare a baking dish for the casserole."
+    },
+    {
+      "step": 2,
+      "text": "Drain the oysters and cut them into pieces. Stir the cream and Worcestershire sauce together."
+    },
+    {
+      "step": 3,
+      "text": "Combine the crushed crackers with the melted butter."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cream-style corn to the baking dish and layer in the oysters and cracker mixture, drizzling the cream mixture between the layers."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, then continue baking for 30 minutes, until bubbling, hot throughout, and the oysters are opaque.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "casserole",
+    "oysters",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowls"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12867/oyster-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "915cbd42d223e3bd3bee70bb304a5803860e7dd064ad386e8fd163d1240c6dee",
+    "normalized_text_hash": "8595481ab293bc77547140eccacb7093282ce6072ddb347f4c3213248f4b42f0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:44:21.259Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

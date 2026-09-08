@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-a-la-cre-me",
+  "name": "Chicken à la Crème",
+  "subtitle": "Tender chicken in a simple cream sauce",
+  "description": "A quick French-style skillet dish of seasoned chicken finished in a thickened cream sauce.",
+  "meal_type": "main",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-breast-tenderloins-or-strips",
+      "item": "chicken breast tenderloins or strips",
+      "quantity": 1.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "pint"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Season the chicken with salt and pepper, add it to the skillet, and cook for 10 minutes, turning as needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the heavy cream until smooth, then add it to the skillet with the chicken."
+    },
+    {
+      "step": 4,
+      "text": "Simmer until the cream thickens and the chicken reaches 165°F at the thickest point.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "french",
+    "skillet",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/48873/chicken-a-la-creme/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f69c2d42f0c5babcd8709411c4f5cef3e2572dfaac6f59f8083163888213d9b1",
+    "normalized_text_hash": "5adeb1e98c5b9a85732a963001e5d8761d176e6582bce69829543cb50c1c2c00",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:52:55.513Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

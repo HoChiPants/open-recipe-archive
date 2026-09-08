@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cuba-libre",
+  "name": "Cuba Libre",
+  "subtitle": "A chilled rum-and-cola cocktail with fresh lime",
+  "description": "Build this simple highball over ice, then brighten it with lime juice and stir.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "fluid-ounces-rum",
+      "item": "fluid ounces rum",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fluid-ounces-cola",
+      "item": "fluid ounces cola",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Add the rum and cola."
+    },
+    {
+      "step": 3,
+      "text": "Add the fresh lime juice and stir gently to combine."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "rum",
+    "cola",
+    "lime"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/160599/classic-cuba-libre/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "384868bfef6860a5f75c1590e1e377f8b9211652d988f953f6245bfcb8732541",
+    "normalized_text_hash": "2dd0c34be37a1991bf99942612b59eadd20e98866bb429f7315a729c8eb62d13",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:52:20.969Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-bake-cereal-cookies",
+  "name": "No-Bake Cereal Cookies",
+  "subtitle": "Crispy peanut butter treats set without an oven",
+  "description": "A quick stovetop mixture of sugar, corn syrup, peanut butter, and crispy rice cereal portioned into cookies and cooled until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-corn-syrup",
+      "item": "white corn syrup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "crispy-rice-cereal",
+      "item": "crispy rice cereal",
+      "quantity": 6,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a tray or work surface with parchment or lightly grease it; no oven preheating is needed."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar and corn syrup in a saucepan and bring to a simmer, stirring until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and stir in the peanut butter until evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the crispy rice cereal until coated."
+    },
+    {
+      "step": 5,
+      "text": "Spoon the mixture into 12 portions on the prepared surface and shape as needed."
+    },
+    {
+      "step": 6,
+      "text": "Let the cookies cool until firm.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "cookies",
+    "peanut-butter",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon",
+    "parchment paper or tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9852/no-bake-cereal-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5b3c5801463c6f95c1476bb5bf13c58c82f7bf3c1245fa25cfd5357c884c5c53",
+    "normalized_text_hash": "ca72c23eedaab58da44773d910e88dc9d923e2b16125066d8179789fb938f067",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:13:42.515Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

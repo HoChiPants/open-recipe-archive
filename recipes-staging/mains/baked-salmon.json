@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-salmon",
+  "name": "Baked Salmon",
+  "subtitle": "Simple oven-roasted salmon for four",
+  "description": "Salmon fillets are brushed with oil or butter, roasted until opaque and flaky, and served with optional herbs, lemon, and broccoli.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless-salmon-fillets",
+      "item": "skinless salmon fillets",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil-or-melted-butter",
+      "item": "olive oil or melted butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "herbs-lemon-slices-and-steamed-long-stem-broccoli",
+      "item": "herbs lemon slices and steamed long-stem broccoli",
+      "preparation": "chopped, to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and arrange the salmon fillets in a baking dish or on a lined baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Brush the fillets with the olive oil or melted butter."
+    },
+    {
+      "step": 3,
+      "text": "Roast for 15 minutes, or until the salmon is opaque and reaches 145°F in the thickest part, then serve with the optional herbs, lemon slices, and broccoli.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "salmon",
+    "easy",
+    "gluten-free"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish or baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baked-salmon",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4328938961d05fe71a5b7cecf212df4a45e7051f539245a36a50135b7c37d6ab",
+    "normalized_text_hash": "958c84f767885c94d059e9dc74222a16e3fe15992d24b6c5b9ae1dc7cc530fe4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:04:38.844Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-knots",
+  "name": "Garlic Knots",
+  "subtitle": "Herbed yogurt dough baked until lightly browned",
+  "description": "Quick garlic knots made with Greek yogurt dough, Italian seasoning, and a buttery garlic-parsley finish.",
+  "meal_type": "baked-good",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "whole-fat-plain-greek-yogurt",
+      "item": "whole fat plain Greek yogurt",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "granulated-garlic",
+      "item": "granulated garlic",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "italian-seasoning",
+      "item": "Italian seasoning",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-granules",
+      "item": "garlic granules",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 500°F. Lightly oil a baking sheet with the olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Mix the flour, yogurt, granulated garlic, Italian seasoning, salt, and garlic granules until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the dough to a lightly floured surface and knead until smooth, adding a little of the listed flour to prevent sticking.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Roll or pat the dough into a flat rectangle, then cut it into eight strips. Tie each strip into a knot and place the knots on the prepared baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake until lightly browned.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 6,
+      "text": "Combine the melted butter, dried parsley, granulated garlic, and garlic granules, then brush or spoon the mixture over the hot knots."
+    }
+  ],
+  "tags": [
+    "bread",
+    "italian",
+    "garlic",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8398187/two-ingredient-dough-garlic-knots/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "77d3e2e1d792301f00d51a2d4a9328de2d0448acc3f0293b2803c55199699a70",
+    "normalized_text_hash": "3cde23bd06027ad67ddca7bf9906e672888e829ec6040be9d883c83ec8d4ecac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:33:30.591Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

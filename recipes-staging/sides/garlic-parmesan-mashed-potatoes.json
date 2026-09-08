@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-parmesan-mashed-potatoes",
+  "name": "Garlic Parmesan Mashed Potatoes",
+  "subtitle": "Smooth, savory potatoes with garlic and Parmesan",
+  "description": "Tender potatoes are mashed with garlicky butter, milk, Parmesan, and parsley for a rich side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 5,
+      "unit": "pounds",
+      "preparation": "peeled and quartered"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "low-fat-milk",
+      "item": "low-fat milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes and sea salt in a large pot and add enough water to cover. Bring to a simmer and cook until the potatoes are tender, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 2,
+      "text": "While the potatoes cook, melt the butter in a saucepan over medium heat. Add the garlic and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes, then return them to the pot. Add the butter and garlic mixture, milk, Parmesan, parsley, sea salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Mash until smooth, then serve warm."
+    }
+  ],
+  "tags": [
+    "potatoes",
+    "mashed-potatoes",
+    "garlic",
+    "parmesan",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275060/creamy-garlic-parmesan-mashed-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5a44beee502fc50ddeddacdffc39bba4578284106fc68decb850c807446c5611",
+    "normalized_text_hash": "d7e5c70a969bc2feabff1db6b4ba85a866ae650aae483bb1609820a69c29eb47",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:36:44.924Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

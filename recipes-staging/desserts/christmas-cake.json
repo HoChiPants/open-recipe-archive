@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "christmas-cake",
+  "name": "Christmas Cake",
+  "subtitle": "Rich fruit cake finished in the air fryer",
+  "description": "A compact fruit cake combining soaked dried fruit, warm spice, citrus, and a tender almond-rich batter.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sultanas",
+      "item": "sultanas",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dried-apricots-roughly-chopped",
+      "item": "dried apricots roughly chopped",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "glace-cherries-halved",
+      "item": "glacé cherries halved",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mixed-peel",
+      "item": "mixed peel",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-mixed-spice",
+      "item": "ground mixed spice",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "brandy-or-rum",
+      "item": "brandy or rum",
+      "quantity": 4,
+      "unit": "tbsp",
+      "preparation": "plus extra for feeding"
+    },
+    {
+      "ingredient_id": "orange-zested-and-juiced",
+      "item": "orange zested and juiced",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "salted-butter-at-room-temperature",
+      "item": "salted butter at room temperature",
+      "quantity": 200,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-almonds",
+      "item": "ground almonds",
+      "quantity": 65,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the raisins, sultanas, apricots, cherries, mixed peel, brandy or rum, orange zest and juice, golden syrup, and ground mixed spice in a bowl. Set aside while preparing the batter."
+    },
+    {
+      "step": 2,
+      "text": "Grease a suitable cake tin with some of the butter. Beat the remaining butter with the brown sugar until smooth, then whisk in the eggs one at a time. Fold in the flour and ground almonds, followed by the fruit mixture."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the air fryer according to its cake-baking setting. Spoon the batter into the prepared tin and level the surface."
+    },
+    {
+      "step": 4,
+      "text": "Bake in the air fryer for 120 minutes, covering the top if it browns too quickly. The center should be firm and fully set; verify with a thermometer at 160°F if needed.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Leave the cake in the tin briefly, then transfer it to a rack and cool completely."
+    },
+    {
+      "step": 6,
+      "text": "Pierce the cooled cake lightly and brush or spoon over extra brandy or rum. Store airtight and repeat the feeding as desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "air-fryer",
+    "fruit-cake",
+    "spiced-cake",
+    "holiday-baking"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "cake tin",
+    "mixing bowl",
+    "electric mixer or whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-christmas-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "06107d9c20dad0e63e0aa471295c5513348d339f210052e450378ef42a03067e",
+    "normalized_text_hash": "07e8fced98ea3b5fe1314a8279cc6ce0ecbc41b01cb40f7e7f2b71afabf758c2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:24:02.722Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

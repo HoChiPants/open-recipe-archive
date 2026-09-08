@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tequila-lime-grilled-shrimp",
+  "name": "Tequila-Lime Grilled Shrimp",
+  "subtitle": "Cilantro-lime shrimp with a light tequila kick",
+  "description": "Shrimp marinated with lime, cilantro, garlic, and spices, then threaded onto skewers and grilled until opaque and fully cooked.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shrimp",
+      "item": "shrimp",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "tequila",
+      "item": "tequila",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bamboo-skewers",
+      "item": "bamboo skewers",
+      "quantity": 4,
+      "preparation": "soaked in water for 20 minutes"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the shrimp, cilantro, lime juice, garlic, tequila, cayenne, and salt in a bowl. Add the olive oil and toss to coat."
+    },
+    {
+      "step": 2,
+      "text": "Cover and chill the shrimp for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to medium-high heat. Thread the shrimp onto the soaked skewers."
+    },
+    {
+      "step": 4,
+      "text": "Grill the skewers, turning once, until the shrimp are opaque, firm, and reach 145°F internally, about 3 minutes total.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "grilling",
+    "seafood"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "grill",
+    "bowl",
+    "bamboo skewers",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/60111/margarita-grilled-shrimp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1ef992d5ba50fa8de9858595eb3fdfe1d9a26736541fc9d47bc8c1a668cc05cc",
+    "normalized_text_hash": "d7298574628cffd5d4fa2d628bbd2b3a3aefa6d79362c9fa6806159fda5e1df6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:20:20.577Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

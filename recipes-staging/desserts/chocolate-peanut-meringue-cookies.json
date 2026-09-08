@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-peanut-meringue-cookies",
+  "name": "Chocolate Peanut Meringue Cookies",
+  "subtitle": "Crisp, airy cookies with chocolate and peanuts",
+  "description": "Light meringue cookies baked slowly until firm, then cooled for a delicate crisp texture.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 300,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salted-peanuts",
+      "item": "salted peanuts",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and line a baking sheet with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Beat the egg whites and salt until foamy. Gradually add the sugar and continue beating until the mixture is glossy and holds firm peaks."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the vanilla, chocolate chips, and peanuts. Spoon the mixture into 36 portions on the prepared sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the cookies are dry and firm, with the center reaching 160°F.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 5,
+      "text": "Turn off the oven and leave the cookies inside until cooled and crisp. Transfer them to a rack and cool for 40 minutes before serving.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "meringue",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs",
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "electric mixer",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22841/forgotten-cookies-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8a157ed05217c8491811c6d294390cb06a9d6389d235056abb67770e49c7c226",
+    "normalized_text_hash": "3a7f1d2fa848696ce44ac7b06eb3922b4c39e1b4b42d5b1c40eb935ce4af95cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:18:13.322Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

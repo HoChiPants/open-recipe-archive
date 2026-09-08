@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "custard-buttercream",
+  "name": "Custard Buttercream",
+  "subtitle": "Silky buttercream with a cooked custard base",
+  "description": "A smooth, lightly rum-scented frosting made by combining cooled egg custard with whipped butter.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1.3333333730698,
+      "unit": "cups",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "rum",
+      "item": "rum",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg in a heatproof bowl. Combine the sugar and milk in a saucepan and warm over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk the hot milk mixture into the egg. Return the mixture to the saucepan and cook, stirring constantly, until it reaches 160°F and thickens enough to coat a spoon.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Transfer the custard to a bowl, cover its surface, and chill until completely cool.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Whisk the room-temperature butter until pale and fluffy.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Add the cooled custard gradually, whisking until smooth. Whisk in the vanilla extract and rum."
+    },
+    {
+      "step": 6,
+      "text": "Use immediately or keep chilled until ready to spread."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "buttercream",
+    "custard-based",
+    "cake-topping"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof bowl",
+    "whisk",
+    "food thermometer",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262379/custard-buttercream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1cb25e04d7474c5119486cf2b0294169743576f03ee1b5f0cd94ff2508729662",
+    "normalized_text_hash": "110f8415fccb6ccd655776159ca885a6f5cf714605bdf7c95839d3fe78113b25",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:57:49.241Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

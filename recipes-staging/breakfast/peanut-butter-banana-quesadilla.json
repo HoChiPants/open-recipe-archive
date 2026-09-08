@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-banana-quesadilla",
+  "name": "Peanut Butter Banana Quesadilla",
+  "subtitle": "Warm tortillas with creamy peanut butter and banana",
+  "description": "A quick breakfast quesadilla with a lightly browned tortilla exterior and a soft banana filling.",
+  "meal_type": "breakfast",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "8-inch-flour-tortillas",
+      "item": "(8 inch) flour tortillas",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread the peanut butter over the tortillas, leaving a small edge clear. Arrange the sliced banana on one half of each tortilla, then fold the tortillas over the filling."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat and coat it lightly with cooking spray. Cook the folded quesadillas until lightly browned, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Cut each quesadilla into portions and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230756/peanut-butter-banana-quesadilla/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d2d65ecc5bcb1c46a173411e9195eb05054369824eae2961bc5a1b2ebc0bd08f",
+    "normalized_text_hash": "acaa25abc5e71dbeb4ccb458ac4b495cda60c74dad06267f6bc7d4f7eeee2540",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:59:11.152Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

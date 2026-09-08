@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-ziti-with-ground-turkey",
+  "name": "Baked Ziti with Ground Turkey",
+  "subtitle": "A hearty layered pasta casserole with savory turkey and melted cheese",
+  "description": "Tender ziti is combined with seasoned turkey sauce, sour cream, and layered cheeses, then baked until bubbling and melted.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ziti-pasta",
+      "item": "ziti pasta",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lean-ground-turkey",
+      "item": "lean ground turkey",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "26-ounce-jars-spaghetti-sauce",
+      "item": "(26 ounce) jars spaghetti sauce",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "provolone-cheese",
+      "item": "provolone cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "reduced-fat-sour-cream",
+      "item": "reduced-fat sour cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Cook the ziti according to the package directions for 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Cook the onion and lean ground turkey together for 7 minutes, breaking up the meat, until the turkey reaches 165°F on a food thermometer.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Stir in the spaghetti sauce and carrot. Simmer for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Combine the cooked ziti, sauce mixture, provolone, sour cream, mozzarella, and Parmesan in the prepared dish. Arrange the cheeses as needed for even coverage."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until the casserole is hot and the cheese is melted.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-pasta",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222084/healthier-baked-ziti-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f3c592c4d68095777a8c4d4d6f210aec1ea36a7d3c1882e0c3822421be24ecd1",
+    "normalized_text_hash": "2f24bceeacb2be4549df3ae75ae3197be86c265d8f530723664fd7a23132ec21",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:53:34.216Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

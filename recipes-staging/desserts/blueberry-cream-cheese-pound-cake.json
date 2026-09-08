@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-cream-cheese-pound-cake",
+  "name": "Blueberry Cream Cheese Pound Cake",
+  "subtitle": "A tender cake with blueberries and vanilla cream cheese flavor",
+  "description": "A simple blueberry pound cake made with yellow cake mix, cream cheese, and fresh blueberries.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, room temperature"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "blueberries",
+      "item": "blueberries",
+      "quantity": 1.25,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Prepare a suitable cake pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Combine the yellow cake mix and sugar in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, room-temperature cream cheese, and vanilla until smooth. Add the oil and whisk until incorporated."
+    },
+    {
+      "step": 4,
+      "text": "Add the wet mixture to the dry ingredients and whisk for 4 minutes, until evenly blended.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Gently stir in the blueberries, then transfer the batter to the prepared pan."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 325°F for 45 minutes, until the cake is set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Cool in the pan for 10 minutes, then let the cake cool completely before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "blueberries",
+    "cream-cheese",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "cake pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25967/blueberry-cream-cheese-pound-cake-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3f97e9f5c01a5f80e9a2d1e162e5146bbb5ce7d11e657864e9cfde6393a1d79f",
+    "normalized_text_hash": "8d8dc0ca279454d41abd5ff1d579342d69fd939089991c066de282194fcb8b31",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:57:07.043Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

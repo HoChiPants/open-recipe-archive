@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-eggplant-stir-fry",
+  "name": "Chicken Eggplant Stir-Fry",
+  "subtitle": "Tender chicken and vegetables in a savory skillet dish",
+  "description": "Salted eggplant, chicken, mushrooms, spinach, garlic, and soy sauce come together in a quick, balanced stir-fry.",
+  "meal_type": "main",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggplant",
+      "item": "eggplant",
+      "quantity": 0.5,
+      "unit": "large",
+      "preparation": "sliced into rounds"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves, cut into cubes"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 4,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toss the eggplant rounds with the salt and let them rest for 5 minutes. Pat dry if needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Heat the canola oil in a large skillet over medium-high heat. Cook the eggplant until lightly browned, then transfer it to a plate."
+    },
+    {
+      "step": 3,
+      "text": "Add the cubed chicken, garlic, and soy sauce to the skillet. Stir-fry until the chicken is cooked through and reaches 165°F in the thickest pieces.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Add the mushrooms and black pepper. Cook, stirring, until the mushrooms are tender.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Return the eggplant to the skillet and add the spinach. Stir until the spinach is wilted and everything is heated through.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stir-fry",
+    "chicken",
+    "vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221252/chicken-eggplant-stir-fry/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd2b0bb71020c1711d586e4a819d366e90a94a4e999f9b492bc1295dff731fce",
+    "normalized_text_hash": "968897fa46d6e226e9f17c22369e3bf8a9c2198d8b074bc8406aa138ecc39eac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:03:56.174Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

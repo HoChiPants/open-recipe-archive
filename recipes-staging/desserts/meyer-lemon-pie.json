@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "meyer-lemon-pie",
+  "name": "Meyer Lemon Pie",
+  "subtitle": "A bright, smooth lemon custard in a flaky pastry shell.",
+  "description": "A simple American dessert combining Meyer lemon juice, eggs, sugar, and melted butter in an unbaked pastry shell, then baking until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "fluid-ounces-meyer-lemon-juice",
+      "item": "fluid ounces Meyer lemon juice",
+      "quantity": 3.75
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "9-inch-pastry-shell",
+      "item": "(9 inch) pastry shell",
+      "quantity": 1,
+      "preparation": "unbaked"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the ingredients and preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Blend the sugar, eggs, and Meyer lemon juice until smooth.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Blend in the melted butter."
+    },
+    {
+      "step": 4,
+      "text": "Pour the filling into the unbaked pastry shell."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 350°F until the center is fully set; if checked with a thermometer, it should reach 160°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Let the pie rest until set before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "lemon",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "blender or mixer",
+    "9-inch pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221034/meyer-lemon-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00cdccbf04bd60367738aa70656abb83becb6e2962710b346b023189e2820ac1",
+    "normalized_text_hash": "980467d086496639e3a1498feb507994b8ca9441283d5dcabcb6e6ec5f4e7cfd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:38:58.494Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

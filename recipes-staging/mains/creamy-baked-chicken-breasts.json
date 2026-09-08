@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-baked-chicken-breasts",
+  "name": "Creamy Baked Chicken Breasts",
+  "subtitle": "Tender chicken in a simple savory cream sauce",
+  "description": "Boneless chicken breasts bake in seasoned cream of chicken soup and milk for an easy American main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "poultry-seasoning",
+      "item": "poultry seasoning",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 10.5,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Arrange the chicken breast halves in a baking dish and season with the poultry seasoning."
+    },
+    {
+      "step": 2,
+      "text": "Stir the condensed soup and milk together, then pour the mixture evenly over the chicken."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the chicken reaches 165°F at the thickest point and the sauce is hot, about 40 minutes.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8858/cream-of-chicken-breasts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4fe0263c93d642682131698df52041724f30598d6c6a9f3274f9f664d1bcbfc0",
+    "normalized_text_hash": "7b8a8c687ef68dc10f86064cf79961eee989ecd8f0be8b6b44b403b814dca06c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:28:19.009Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

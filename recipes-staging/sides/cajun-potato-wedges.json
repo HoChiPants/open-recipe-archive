@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cajun-potato-wedges",
+  "name": "Cajun Potato Wedges",
+  "subtitle": "Crisp, seasoned wedges with garlic and paprika",
+  "description": "Oven-baked potato wedges coated in olive oil, garlic, and warm Cajun-style spices.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-garlic",
+      "item": "fresh garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Wash and dry the potatoes, then cut each into even wedges."
+    },
+    {
+      "step": 2,
+      "text": "Combine the olive oil, minced garlic, salt, black pepper, onion powder, and paprika. Toss the potato wedges in the seasoned oil until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the wedges in a single layer on a baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, turn the wedges, and continue baking until tender inside and browned at the edges, about 25 minutes more.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "snack",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223408/cajun-potato-wedges/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a96ac1efcee9b6c56ff550325a6a2dbd8f7437b9af3139061829afead68db8c2",
+    "normalized_text_hash": "58055acbe7c6c51201808e9253c160b4bca2f16a1b9e90bd47da7832be37a863",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:42:33.072Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

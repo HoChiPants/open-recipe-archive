@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "plain-potato-soup",
+  "name": "Plain Potato Soup",
+  "subtitle": "A simple, creamy potato soup",
+  "description": "Tender potatoes are cooked, mashed, and finished with warm evaporated milk and butter for a straightforward soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "water-to-cover",
+      "item": "water to cover"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a pot and add enough water to cover. Bring to a simmer and cook until tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes, then mash or prepare them to the desired texture for the soup."
+    },
+    {
+      "step": 3,
+      "text": "Warm the evaporated milk and butter together in the pot over low heat, without boiling."
+    },
+    {
+      "step": 4,
+      "text": "Return the potatoes to the pot and stir with the warm milk mixture until combined. Season with salt and pepper to taste."
+    }
+  ],
+  "tags": [
+    "soup",
+    "potato",
+    "american",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17876/plain-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dbb421bf0e96aeeb2f00c4d67bbb1285f4984928e3f597f1e164de4fa9a2fd11",
+    "normalized_text_hash": "208b0934be41229f65bb21bd1ef8bdb8d903a5763927ce22c4996884bd401d40",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:24:33.990Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-mojo-beef",
+  "name": "Grilled Mojo Beef",
+  "subtitle": "Citrus-marinated skirt steak with garlic and herbs",
+  "description": "Skirt steak is marinated with citrus, garlic, and warm spices, then grilled and finished with cilantro, onion, and lime.",
+  "meal_type": "main",
+  "cuisine": "Cuban",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-skirt-steak",
+      "item": "beef skirt steak",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "navel-orange",
+      "item": "navel orange",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "limes",
+      "item": "limes",
+      "quantity": 3,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "plus more for drizzling"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "finely minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "fresh-chopped-cilantro",
+      "item": "fresh chopped cilantro",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "coarse-salt-for-finishing",
+      "item": "coarse salt for finishing",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lime-wedges-for-serving",
+      "item": "Lime wedges for serving"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the skirt steak into pieces that fit the grill. Whisk the orange juice, lime juice, olive oil, garlic, kosher salt, cumin, black pepper, oregano, and cayenne in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Coat the steak with the marinade and add the sliced onion. Transfer to a covered container and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Heat a grill to high. Remove the steak from the marinade and cook for about 4 minutes per side, or until the thickest piece reaches 145°F on a food thermometer.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Transfer the steak to a cutting board and rest for 3 minutes. Slice against the grain.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Toss the onion and cilantro with a drizzle of olive oil and the finishing salt. Spoon over the sliced steak and serve with lime wedges."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "beef",
+    "citrus",
+    "cuban"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "grill",
+    "mixing bowl",
+    "food thermometer",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254948/chef-johns-grilled-mojo-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "51a6c5a9dd9e5949662cbba792d91afebec93278d918be594a9827939d66b4d4",
+    "normalized_text_hash": "3ffea100450d39e29c444579d0e8b78cdf8310fd3fcde311a2268f62c0b592f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:32:36.929Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

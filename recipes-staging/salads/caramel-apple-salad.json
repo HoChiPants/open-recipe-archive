@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-apple-salad",
+  "name": "Caramel Apple Salad",
+  "subtitle": "A chilled blend of apples, pineapple, and peanuts",
+  "description": "Combine whipped topping, crushed pineapple, and butterscotch pudding for a creamy base, then fold in apples and peanuts before chilling.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, crushed"
+    },
+    {
+      "ingredient_id": "instant-butterscotch-pudding-mix",
+      "item": "instant butterscotch pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "skinless-peanuts",
+      "item": "skinless peanuts",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the thawed whipped topping, crushed pineapple, and pudding mix in a large bowl until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the chopped apples and peanuts until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "apple",
+    "fruit-salad",
+    "chilled",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238469/easy-caramel-apple-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "58e7964c89e46262d12c02900e56aee0dc2ca53a436baa1691346a6005f462ef",
+    "normalized_text_hash": "453ebe46851e029b18f11711cdd862cfe9f42babef3ce51de70ae4a82e7b8158",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:24:10.354Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

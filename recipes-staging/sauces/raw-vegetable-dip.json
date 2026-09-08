@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raw-vegetable-dip",
+  "name": "Raw Vegetable Dip",
+  "subtitle": "Creamy herb dip for fresh vegetables",
+  "description": "A quick, savory dip combining sour cream, mayonnaise, fresh herbs, onion, and seasoned salt. Chill before serving with raw vegetables.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-dill",
+      "item": "fresh dill",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the sour cream, mayonnaise, minced onion, parsley, dill, and seasoned salt to a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the mixture is evenly combined, then chill before serving."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip",
+    "vegetables",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229126/moms-famous-raw-vegetable-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c7c400f89dc607e6f59cd2821527a72d2f43c0433d5ac2fa6816a621d3d6e11",
+    "normalized_text_hash": "fa137e21c046327d63702963c16103fa81a8b82d76ef4116a2e1313e5ba9cc5d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:52:07.301Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

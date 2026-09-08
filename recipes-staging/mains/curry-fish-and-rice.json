@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "curry-fish-and-rice",
+  "name": "Curry Fish and Rice",
+  "subtitle": "One-pan rice with peas, almonds, and white fish",
+  "description": "Tender curried rice cooks with white fish, peas, onion, and sliced almonds for a simple savory main dish.",
+  "meal_type": "main",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "curry-powder",
+      "item": "curry powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "white-rice",
+      "item": "white rice",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-white-fish-fillets",
+      "item": "frozen white fish fillets",
+      "quantity": 2,
+      "preparation": "unthawed"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the water, onion, butter, curry powder, and salt for about 2 minutes, until the butter melts.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Stir in the rice, unthawed fish fillets, and thawed peas, then sprinkle the sliced almonds over the top."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook for about 20 minutes, until the rice is tender and the fish is opaque and flakes easily. Verify the fish reaches 145°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Gently combine the rice and peas, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "rice",
+    "one-pan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "covered cooking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232584/curry-fish-and-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "50ed435e78a9a9ae65b33443861eb6bac666e17700ccbc5479a6d7752b3474e2",
+    "normalized_text_hash": "ae20691dc81f3ece3321faef84c3d5704f0ecea37fd7754d7cd399b9214dad6a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:57:40.947Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

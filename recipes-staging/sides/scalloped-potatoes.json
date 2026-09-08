@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scalloped-potatoes",
+  "name": "Scalloped Potatoes",
+  "subtitle": "Tender potatoes with a creamy Cheddar topping",
+  "description": "Potatoes are pressure-cooked until tender, coated in a seasoned cheese sauce, and briefly browned under the broiler.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yukon-gold-or-red-potato",
+      "item": "Yukon gold or red potato",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 1/4-inch slices"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "nutmeg",
+      "item": "nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sliced potatoes, vegetable broth, and salt in an electric pressure cooker. Secure the lid and cook at high pressure for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Allow the pressure to release naturally for 15 minutes, then vent any remaining pressure. Transfer the potatoes to a broiler-safe dish.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Whisk the heavy cream, garlic powder, black pepper, nutmeg, and half of the Cheddar in the cooker. Cook, stirring, until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Preheat the broiler. Pour the cheese sauce over the potatoes and sprinkle with the remaining Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Broil until the cheese is melted and browned.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "potatoes",
+    "pressure-cooker",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "electric pressure cooker",
+    "broiler-safe baking dish",
+    "broiler"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263876/best-instant-pot-scalloped-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6f82cd80ebe020dfa8a9607b3a9721680f20f062485a1c92b557e18d8a3bee92",
+    "normalized_text_hash": "5be90cb1c32f687490895b056bbfbf869a6fa99ebd691ba17a104cbb50e692d2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:35:23.691Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-lassi",
+  "name": "Banana Lassi",
+  "subtitle": "A cool, creamy banana yogurt drink",
+  "description": "Blend ripe bananas with yogurt, milk, ice, and sugar for a smooth Indian-inspired drink.",
+  "meal_type": "drink",
+  "cuisine": "Indian Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "over-ripe-bananas",
+      "item": "over-ripe bananas",
+      "quantity": 2,
+      "preparation": "broken into chunks"
+    },
+    {
+      "ingredient_id": "thick-plain-yogurt",
+      "item": "thick plain yogurt",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the bananas, yogurt, milk, ice cubes, and sugar to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth. Add more milk to taste, if desired, and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "blended",
+    "banana"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238362/banana-lassi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cfd8bcc021af9d387ea5d17aa2273a0f947f7c1258dd7da46d0725116b34ad7f",
+    "normalized_text_hash": "3d8cac5fe88c341c66b744fec9eb9dfd8f18d1a557e56ba98a60646918aaa650",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:58:41.241Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "five-ingredient-chocolate-chip-cookies",
+  "name": "Five-Ingredient Chocolate Chip Cookies",
+  "subtitle": "Simple drop cookies with a soft, chocolate-studded crumb.",
+  "description": "An easy batch of classic chocolate chip cookies made from five pantry basics.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "semi-sweet-chocolate-chips",
+      "item": "semi-sweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare baking sheets."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the brown sugar and softened butter until smooth. Whisk in the eggs."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the all-purpose flour just until combined, then fold in the semi-sweet chocolate chips."
+    },
+    {
+      "step": 4,
+      "text": "Portion the dough onto the prepared baking sheets."
+    },
+    {
+      "step": 5,
+      "text": "Bake until golden brown with firm, fully set centers.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Let the cookies cool before serving."
+    }
+  ],
+  "tags": [
+    "chocolate-chip-cookies",
+    "drop-cookies",
+    "easy-baking",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheets",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244642/5-ingredient-easy-chocolate-chip-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f8630e15efdc416719f3046fa69fd3fd0757881467c55e4899f8fb9a8cde8e88",
+    "normalized_text_hash": "d2ccf75cb805ca454181570028369250a91512b7b45028535317a14e954e4b32",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:05:00.330Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

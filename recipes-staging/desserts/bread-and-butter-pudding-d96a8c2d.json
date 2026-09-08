@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-and-butter-pudding-d96a8c2d",
+  "name": "Bread and Butter Pudding",
+  "subtitle": "A warm, custardy pudding with raisins and nutmeg",
+  "description": "Layer buttered white bread with raisins, soak it in a rich egg custard, and bake until set. Serve warm with optional ice cream.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 8,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "caster-sugar-plus-extra-to-top-the-pudding",
+      "item": "caster sugar plus extra to top the pudding",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "slices-white-bread-crusts-removed",
+      "item": "slices white bread crusts removed",
+      "quantity": 16
+    },
+    {
+      "ingredient_id": "unsalted-butter-softened",
+      "item": "unsalted butter softened",
+      "quantity": 75,
+      "unit": "g",
+      "preparation": "for spreading"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "nutmeg-for-grating",
+      "item": "nutmeg for grating",
+      "quantity": "1/4-1/2",
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "ice-cream-to-serve",
+      "item": "ice cream to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking dish. Warm the double cream until steaming and just below a boil."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg yolks with the caster sugar until smooth. Gradually whisk in the warm cream to make a custard.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Butter the bread slices, then arrange them in layers in the baking dish, scattering raisins and finely grated nutmeg between the layers."
+    },
+    {
+      "step": 4,
+      "text": "Pour the custard evenly over the bread. Press the layers gently into the custard and let the pudding stand so the bread absorbs it.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle the top with the extra caster sugar and bake until puffed and the center is firm and fully set.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Rest briefly, then serve warm with ice cream if desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bread-pudding",
+    "baked-dessert",
+    "custard",
+    "raisins",
+    "nutmeg"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-bread-butter-pudding",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a3d5547e597d0ab84f20b3f17b5bfe81b7a94e67f2b339824853be09a8e66a13",
+    "normalized_text_hash": "ccdc7804e58ed47321a27164bafaa86261fa7f0bf290ad67b0d7937eaedb81ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:29:38.730Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

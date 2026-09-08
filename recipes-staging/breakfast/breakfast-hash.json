@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breakfast-hash",
+  "name": "Breakfast Hash",
+  "subtitle": "Crisp potatoes with bacon, pepper, eggs, and feta",
+  "description": "A skillet breakfast of lightly browned potatoes and bacon topped with red pepper, baked eggs, feta, and parsley.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes-cut-into-2cm-cubes-about-450g",
+      "item": "potatoes cut into 2cm cubes (about 450g)",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "rashers-back-bacon",
+      "item": "rashers back bacon",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "red-pepper-cut-into-2cm-cubes",
+      "item": "red pepper cut into 2cm cubes",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "feta-crumbled",
+      "item": "feta crumbled",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-of-parsley-finely-chopped",
+      "item": "handful of parsley finely chopped",
+      "unit": "small"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the potatoes and red pepper into 2cm cubes. Preheat the oven to 400°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Heat an oven-safe skillet over medium heat. Add the bacon and cook until set, about 4 minutes. Transfer it briefly to a plate, leaving the rendered fat in the skillet.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Add the potatoes and cook, stirring occasionally, until tender and lightly browned, about 9 minutes.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 4,
+      "text": "Stir in the red pepper and cook for 3 minutes. Return the bacon to the skillet and stir for 2 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Add the potatoes, red pepper, and crumbled feta to the skillet if needed, then make four wells and crack in the eggs. Bake until the whites and centers are fully set, or the eggs reach 160°F.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 6,
+      "text": "Scatter with the chopped parsley and serve hot."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "skillet-meal",
+    "weekend-breakfast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/breakfast-hash",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6dca0bf27f86f2b3cf80a4c332e597b9144cb5fb625c9b78103beaa5f68f69db",
+    "normalized_text_hash": "ac4a1d4741df1c47c8ccd4809a3615a067d8b60c78c82eff6669632f60414c0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T05:44:08.045Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

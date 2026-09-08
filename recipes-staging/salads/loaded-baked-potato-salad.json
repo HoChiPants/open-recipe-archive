@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "loaded-baked-potato-salad",
+  "name": "Loaded Baked Potato Salad",
+  "subtitle": "Roasted potatoes with bacon, cheese, and chives",
+  "description": "Roasted potato cubes are cooled, folded with a creamy cheese dressing and bacon, then chilled for a make-ahead salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "pounds",
+      "preparation": "unpeeled, cut into 1-inch cubes"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "colby-monterey-jack-cheese",
+      "item": "Colby-Monterey Jack cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bunch-chives",
+      "item": "bunch chives",
+      "quantity": 1,
+      "preparation": "diced, divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F and coat a baking sheet with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the potatoes on the sheet, season with salt and pepper, and roast until tender, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 3,
+      "text": "Let the potatoes cool for 15 minutes. Meanwhile, cook the bacon until crisp, about 10 minutes; drain and crumble.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir together the sour cream, mayonnaise, onion, most of the cheese, and most of the chives."
+    },
+    {
+      "step": 5,
+      "text": "Fold the cooled potatoes and bacon into the dressing. Top with the remaining cheese and chives."
+    },
+    {
+      "step": 6,
+      "text": "Cover and refrigerate for 4 hours before serving.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "make-ahead",
+    "potato-salad"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "skillet",
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254567/loaded-baked-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03ffe711305cee5713c5f68fb4c773943a4e557bc2bcef7db1defd2b40825d39",
+    "normalized_text_hash": "5f26f730861dc60c20a99830623d6a50458799591ccf05b56ca13800171052f6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:03:36.581Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

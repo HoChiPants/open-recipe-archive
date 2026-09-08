@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spaghetti-with-bacon",
+  "name": "Spaghetti with Bacon",
+  "subtitle": "A quick pasta dinner with crisp bacon and fresh parsley",
+  "description": "Tender spaghetti is tossed with olive oil, bacon, garlic, and parsley for a savory, uncomplicated meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 8,
+      "preparation": "cut into 1/4 inch pieces"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-flat-leaf-parsley",
+      "item": "fresh flat-leaf parsley",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a boil. Add the spaghetti and cook until tender, about 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Drain the spaghetti and set it aside."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a large skillet over medium heat and warm the olive oil. Add the bacon and cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add the garlic and continue cooking the bacon mixture for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Toss the spaghetti with the bacon mixture and chopped parsley until evenly coated."
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "bacon",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214576/spaghetti-with-bacon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c0fa8243808efd701fb7a36047de85681df26a0ae71cc068ee3752483f4a2c73",
+    "normalized_text_hash": "5754486240e97f331402db036c2b15d05085a10f9ec71ddfe7be0203e891d219",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:19:40.643Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

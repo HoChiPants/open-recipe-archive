@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bbq-chicken-thighs",
+  "name": "BBQ Chicken Thighs",
+  "subtitle": "Tender pressure-cooked chicken with a caramelized barbecue finish",
+  "description": "Chicken thighs are pressure-cooked with celery and barbecue sauce, then briefly grilled for a browned, sticky exterior.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "skin-on",
+      "item": "skin-on",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "bone-in chicken thighs"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set the pressure cooker to sauté and preheat. Add the vegetable oil, then brown the chicken thighs briefly, skin-side down first.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chicken to a plate. Add the chicken stock and scrape up any browned bits from the pot."
+    },
+    {
+      "step": 3,
+      "text": "Return the chicken to the pot. Add the celery and half of the barbecue sauce, keeping the sauce from coating the bottom directly."
+    },
+    {
+      "step": 4,
+      "text": "Seal the cooker and cook at high pressure until the chicken reaches 165°F in the thickest part, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Let the pressure release naturally for 15 minutes, then release any remaining pressure carefully.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Preheat the grill or broiler. Transfer the chicken to a heatproof pan and brush with the remaining barbecue sauce.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 7,
+      "text": "Grill until the skin is browned and lightly caramelized, about 5 minutes. Serve hot.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "barbecue",
+    "pressure-cooker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "grill or broiler",
+    "heatproof pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272405/instant-pot-bbq-chicken-thighs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3bd0509d653632d4b767899b94853108b4ffa94ca91a197aab0d7a01ceb2174",
+    "normalized_text_hash": "28787b29071c83a2e7022c08ca63211c36ad126dad0293fa5b011bd28d56f1bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:01:28.966Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

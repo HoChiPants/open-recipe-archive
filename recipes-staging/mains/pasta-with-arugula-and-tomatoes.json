@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pasta-with-arugula-and-tomatoes",
+  "name": "Pasta with Arugula and Tomatoes",
+  "subtitle": "Spaghetti with warm tomatoes, peppery greens, and Parmesan",
+  "description": "Toss spaghetti with garlic-sautéed cherry tomatoes and wilted arugula, then finish with Parmesan.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 10,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes",
+      "item": "cherry tomatoes",
+      "quantity": 1,
+      "unit": "pint",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "arugula",
+      "item": "arugula",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5 ounce, torn"
+    },
+    {
+      "ingredient_id": "shaved-parmesan-cheese",
+      "item": "shaved Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a boil. Cook the spaghetti for 12 minutes, or until tender, then drain.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil with the minced garlic for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the halved cherry tomatoes and cook for 7 minutes, until lightly browned. Season with salt and freshly ground black pepper.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Stir in the torn arugula until warmed and slightly wilted."
+    },
+    {
+      "step": 5,
+      "text": "Combine the drained spaghetti with the tomato mixture and olive oil. Serve topped with shaved Parmesan cheese."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "vegetarian",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/266888/pasta-with-arugula-and-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8a271b12aefdabca1fdc5f63270a2cccd339afeb3a6ca45a088fb9eb4fd7cd4e",
+    "normalized_text_hash": "086748b33b882237ff14b5f8cdb9413f442d7be0215c828daec5f45848b303e5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:54:50.018Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

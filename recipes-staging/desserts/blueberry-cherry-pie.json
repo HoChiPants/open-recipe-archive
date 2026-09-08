@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-cherry-pie",
+  "name": "Blueberry Cherry Pie",
+  "subtitle": "A double-crust pie filled with cinnamon-scented berries and cherries.",
+  "description": "Juicy cherries and blueberries are folded into a lightly spiced filling, enclosed in pastry, and baked until golden and bubbling.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherries",
+      "item": "cherries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "blueberries",
+      "item": "blueberries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "rinsed and drained"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "recipe-pastry-for-a-9-inch-double-crust-pie",
+      "item": "recipe pastry for a 9 inch double crust pie",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sugar, flour, and cinnamon. Add the cherries and blueberries, then stir in the lemon juice."
+    },
+    {
+      "step": 2,
+      "text": "Fit half of the pastry into a 9-inch pie plate and fill with the fruit mixture."
+    },
+    {
+      "step": 3,
+      "text": "Dot the filling with butter. Cover with the remaining pastry, seal the edge, and cut vents in the top crust."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 375°F for 60 minutes, until the crust is golden and the filling is bubbling.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool the pie before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie plate",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12341/blueberry-cherry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8fb08ceaa8791c67c5cdccfc61c367bf70f1299d51e074c23e8026ba5b426e83",
+    "normalized_text_hash": "9f45d3e0a0c3d3536113aafef1853976fed4bd5e946eac6ce1f9579d2f69bc4c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:56:39.553Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

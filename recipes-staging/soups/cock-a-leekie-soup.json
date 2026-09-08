@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cock-a-leekie-soup",
+  "name": "Cock-a-leekie Soup",
+  "subtitle": "A hearty chicken and leek soup with smoky bacon and prunes.",
+  "description": "Chicken, bacon, carrots, celery, and leeks are simmered with thyme, bay, and prunes for a warming soup served with bread.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "chicken-jointed-into-pieces",
+      "item": "chicken jointed into pieces",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "smoked-bacon-lardon",
+      "item": "smoked bacon lardon",
+      "quantity": 180,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "carrots-chopped",
+      "item": "carrots chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "celery-sticks",
+      "item": "celery sticks",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "leeks-washed-and-cut-into-thick-rounds-tops-reserved",
+      "item": "leeks washed and cut into thick rounds (tops reserved)",
+      "quantity": "1-2"
+    },
+    {
+      "ingredient_id": "splash-of-white-wine-optional",
+      "item": "splash of white wine"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "bunch-thyme-sprigs",
+      "item": "bunch thyme sprigs",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "stoned-prunes",
+      "item": "stoned prunes",
+      "quantity": "15-20"
+    },
+    {
+      "ingredient_id": "good-quality-bread-to-serve",
+      "item": "good-quality bread to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large heavy pot over medium heat and add the vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Sauté the chicken pieces until golden brown on all sides, then transfer them to a plate."
+    },
+    {
+      "step": 3,
+      "text": "Add the bacon, carrots, and celery to the pot and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Return the chicken to the pot, add the white wine, bay leaves, and thyme, and bring to a gentle simmer."
+    },
+    {
+      "step": 5,
+      "text": "Simmer until the chicken is tender and reaches 165°F at the thickest part.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Transfer the chicken to a plate and let it cool enough to handle. Remove the meat from the bones and shred it."
+    },
+    {
+      "step": 7,
+      "text": "Return the shredded chicken to the pot, add the leek rounds and reserved tops, and stir in the prunes."
+    },
+    {
+      "step": 8,
+      "text": "Simmer until the leeks are tender and the soup is heated through.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 9,
+      "text": "Remove the bay leaves, thyme stems, and leek tops. Serve hot with bread."
+    }
+  ],
+  "tags": [
+    "scottish",
+    "chicken-soup",
+    "leek-soup",
+    "bacon",
+    "comfort-food",
+    "lunch",
+    "main-course"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "plate",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cock-leekie-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a0d69b957782efea5e510ed735a5c2c46069c881f11fb969da0dcacbed62d042",
+    "normalized_text_hash": "216f39cc08d5957f0c2fe574ddb80925042dc16076d1f51664ec2f0dbabfb908",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:35:52.073Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

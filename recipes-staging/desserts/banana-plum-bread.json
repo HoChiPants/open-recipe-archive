@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-plum-bread",
+  "name": "Banana Plum Bread",
+  "subtitle": "A tender fruit bread with ripe banana and chopped plums",
+  "description": "A softly textured American quick bread combining mashed bananas with juicy chopped plums and a lightly sweet crumb.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "mashed-ripe-bananas",
+      "item": "mashed ripe bananas",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "plums",
+      "item": "plums",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "pitted and chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, baking powder, and baking soda in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Beat the sugar and softened margarine until blended. Whisk in the eggs, then stir in the mashed bananas."
+    },
+    {
+      "step": 4,
+      "text": "Stir the dry ingredients into the banana mixture until smooth, then fold in the chopped plums."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a prepared loaf pan."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 60 minutes, until golden brown and a tester inserted in the center comes out clean.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "quick-bread",
+    "banana",
+    "plum",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "loaf pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215139/banana-plum-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1d9b7ada515cfe9caf630e615eefa3a1dfe46137642efaa67e9fde5113390a53",
+    "normalized_text_hash": "b19a184ec6ce9fdc0fc63c356c7469753765d911a99d98f0ac06b594d926b12d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:59:52.963Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

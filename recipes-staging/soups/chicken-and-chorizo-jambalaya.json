@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-chorizo-jambalaya",
+  "name": "Chicken and Chorizo Jambalaya",
+  "subtitle": "A hearty one-pot rice dish with chicken, chorizo, and peppers",
+  "description": "Chicken, chorizo, vegetables, tomatoes, and rice simmer together in a seasoned stock for a flavorful, filling meal.",
+  "meal_type": "soup",
+  "cuisine": "Spanish",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "chicken-breasts-chopped",
+      "item": "chicken breasts chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "onion-diced",
+      "item": "onion diced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "red-pepper-thinly-sliced",
+      "item": "red pepper thinly sliced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed",
+      "item": "garlic cloves crushed",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "chorizo-sliced",
+      "item": "chorizo sliced",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cajun-seasoning",
+      "item": "Cajun seasoning",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "long-grain-rice",
+      "item": "long grain rice",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "can-plum-tomato",
+      "item": "can plum tomato",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 350,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large pot. Add the chopped chicken and cook for 8 minutes, stirring, until a thermometer inserted into the thickest piece reads 165°F. Transfer the chicken to a plate.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Cook the diced onion in the pot for 4 minutes, stirring occasionally, until softened.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced pepper, crushed garlic, sliced chorizo, and Cajun seasoning. Cook for 5 minutes, stirring, until fragrant and the chorizo is heated through.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the chicken, rice, plum tomatoes, and chicken stock."
+    },
+    {
+      "step": 5,
+      "text": "Bring to a gentle simmer, cover, and cook for 25 minutes, or until the rice is tender and the chicken is hot throughout.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-pot",
+    "rice-dish",
+    "chicken",
+    "chorizo",
+    "easy",
+    "stew"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-chorizo-jambalaya",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ac4eccd4295e22580dab5b09792aa892c9b85b13c8683f521bb0097901c3243",
+    "normalized_text_hash": "d1b5525d7d6ec076484cd69698caf8e5f97ef6b1ea556ea433d7c6ee29bb5404",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:42:08.331Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

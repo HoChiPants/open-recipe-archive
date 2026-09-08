@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-zabaglione",
+  "name": "Strawberry Zabaglione",
+  "subtitle": "Warm Marsala custard over macerated berries",
+  "description": "Macerated strawberries are finished with a light, whisked Marsala zabaglione for an Italian-style dessert.",
+  "meal_type": "dessert",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "hulled, halved and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dry-marsala-wine",
+      "item": "dry Marsala wine",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the strawberries with 1 teaspoon sugar. Cover and refrigerate for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat the broiler. Whisk the egg yolks, 3 tablespoons sugar, and Marsala in a heatproof bowl."
+    },
+    {
+      "step": 3,
+      "text": "Set the bowl over a saucepan of gently simmering water, making sure its base does not touch the water. Whisk continuously until thick, airy, and the mixture reaches 160°F.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Divide the strawberries between two heatproof serving dishes and spoon the zabaglione over them."
+    },
+    {
+      "step": 5,
+      "text": "Broil briefly until the topping is lightly browned, then serve immediately."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "italian",
+    "strawberries",
+    "custard",
+    "marsala"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "refrigerator",
+    "heatproof bowl",
+    "saucepan",
+    "whisk",
+    "heatproof serving dishes",
+    "broiler"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246464/chef-johns-zabaglione/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7edba8ca847c54fad435cd1f802d7663b1db72ba29095ad133e45e49686bee43",
+    "normalized_text_hash": "40bdfe38d912dfbf241ce70b70fb97a90db9ca9972edf3b77aac4e2ac805e8d5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:46:46.272Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

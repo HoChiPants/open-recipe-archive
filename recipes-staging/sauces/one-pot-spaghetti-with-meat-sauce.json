@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "one-pot-spaghetti-with-meat-sauce",
+  "name": "One-Pot Spaghetti with Meat Sauce",
+  "subtitle": "A skillet supper with tomato sauce and Parmesan",
+  "description": "Italian sausage, onion, garlic, and broken spaghetti simmer together in tomato-basil sauce for a simple one-pot meal.",
+  "meal_type": "sauce",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ground-italian-sausage",
+      "item": "ground Italian sausage",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "26-ounce-jar-tomato-basil-pasta-sauce",
+      "item": "(26 ounce) jar tomato-basil pasta sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "italian-seasoning",
+      "item": "Italian seasoning",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "spaghetti-noodles",
+      "item": "spaghetti noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, broken in half"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese-for-serving",
+      "item": "freshly grated Parmesan cheese for serving",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the sausage, onion, and garlic to a large pot or deep skillet over medium heat. Cook for about 8 minutes, breaking up the sausage, until it reaches 160°F and is cooked through.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Drain excess grease. Stir in the pasta sauce, water, and Italian seasoning, then bring the mixture to a simmer."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the broken spaghetti. Simmer, stirring occasionally, for about 20 minutes, until the noodles are tender and cooked through.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Serve topped with the Parmesan cheese."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot or deep skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/269004/one-pot-spaghetti-with-meat-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "af14e673c0865dafc2b8c6a0b4b32986c59dca916eda95cc7690c0b1abc0e96b",
+    "normalized_text_hash": "e706169cf3a2e3aabecabdf0888b6a15ecdc15e808dba49ed9c62c3c4b34e1be",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:32:00.695Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

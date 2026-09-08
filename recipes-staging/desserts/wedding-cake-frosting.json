@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "wedding-cake-frosting",
+  "name": "Wedding Cake Frosting",
+  "subtitle": "Smooth butter-and-shortening frosting for cakes and cupcakes",
+  "description": "A simple American frosting made by blending butter and shortening with milk, vanilla, and confectioners' sugar until smooth.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "clear-imitation-vanilla-extract",
+      "item": "clear imitation vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 8,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the butter and shortening together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the milk, clear imitation vanilla extract, and confectioners' sugar."
+    },
+    {
+      "step": 3,
+      "text": "Whisk until the frosting is smooth and evenly combined."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7410/wedding-cake-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dc06d22428fe205bba5bfff079699b1abc4b61bf80656381bd610dd3c595905a",
+    "normalized_text_hash": "af26829deb204ce9df159e2263710ed136581b41d7164c600556d6504cd88c98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:58:05.372Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 28,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

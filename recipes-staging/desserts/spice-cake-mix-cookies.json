@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spice-cake-mix-cookies",
+  "name": "Spice Cake Mix Cookies",
+  "subtitle": "Soft cookies with raisins and walnuts",
+  "description": "A quick batch of warmly spiced cookies made with cake mix, raisins, and chopped walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spice-cake-mix",
+      "item": "spice cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F and prepare a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Combine the cake mix, beaten eggs, and vegetable oil until a thick dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the raisins and chopped walnuts."
+    },
+    {
+      "step": 4,
+      "text": "Portion the dough onto the prepared baking sheet, leaving space between portions."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 12 minutes, until the cookies are set.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "spice",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237600/cake-mix-spice-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a4dd50d48e25565197a557391e3525c07a9446a36860b9dfb6d5002946e6e67e",
+    "normalized_text_hash": "b6c481c35eaceea432b5901cad16736fd44a04992770aa488aeaccccc41d769c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:44:15.417Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

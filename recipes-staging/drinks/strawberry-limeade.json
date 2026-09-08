@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-limeade",
+  "name": "Strawberry Limeade",
+  "subtitle": "A bright, chilled strawberry-citrus drink",
+  "description": "Blend strawberries, lime juice, water, and sugar until smooth, then serve over ice for a refreshing homemade limeade.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-sliced-strawberries",
+      "item": "frozen sliced strawberries",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cubes-ice",
+      "item": "cubes ice",
+      "quantity": 5
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the lime juice, cold water, white sugar, and frozen sliced strawberries to a blender. Blend until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Divide the limeade among glasses and add the cubes ice before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "limeade",
+    "strawberry",
+    "refreshing"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141083/strawberry-limeade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1185b1229598133ddc870e0db3a516c6fc0e6a88ec5d90ffa3b436d9d29cf059",
+    "normalized_text_hash": "ab72420aff575830e14eac470e25948a7b405907ffc3cf611f536febbd584fc6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:59:40.189Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

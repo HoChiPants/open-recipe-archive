@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-stewed-apples",
+  "name": "Cinnamon-Stewed Apples",
+  "subtitle": "Tender apples with cinnamon and raisins",
+  "description": "Warm cinnamon-scented apples served with yogurt and optional maple syrup.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-eating-apples-about-600g",
+      "item": "sweet eating apples (about 600g)",
+      "quantity": 5,
+      "preparation": "such as Gala or Fuji, peeled, cored and chopped"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fat-free-greek-or-non-dairy-yogurt-to-serve",
+      "item": "fat-free Greek or non-dairy yogurt to serve",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup (optional)",
+      "quantity": 4,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped apples, cinnamon, and raisins in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Cook over medium-low heat for 15 minutes, stirring occasionally, until the apples are tender and lightly stewed.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Divide among four servings and top with yogurt. Drizzle with maple syrup if using."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "apples",
+    "cinnamon",
+    "raisins",
+    "stewed-fruit",
+    "lighter-dessert"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cinnamon-stewed-apple",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a927dde8314ef40335a2356c4c01a3d0a9b3b6f01e623c7ba82280918834e313",
+    "normalized_text_hash": "401940e0a7724e4feb1c71ffa67d6f4e2fe9768cdc98fa090d579339ba98a674",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:28:58.851Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

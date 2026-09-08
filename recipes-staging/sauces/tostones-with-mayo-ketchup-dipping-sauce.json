@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tostones-with-mayo-ketchup-dipping-sauce",
+  "name": "Tostones with Mayo Ketchup Dipping Sauce",
+  "subtitle": "Crisp twice-fried green plantains with a garlicky dip",
+  "description": "Green plantains are fried until tender, flattened, and fried again until crisp, then served with a chilled mayonnaise-ketchup sauce.",
+  "meal_type": "sauce",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "clove-garlic",
+      "item": "clove garlic",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "pressed"
+    },
+    {
+      "ingredient_id": "canola-oil-for-frying",
+      "item": "canola oil for frying",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "green-plantains",
+      "item": "green plantains",
+      "quantity": 2,
+      "preparation": "peeled and cut into 1 1/2-inch chunks"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the mayonnaise, ketchup, pressed garlic, and garlic salt. Cover and chill for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Heat the canola oil to 350°F in a deep, heavy pan."
+    },
+    {
+      "step": 3,
+      "text": "Fry the plantain chunks for 7 minutes, turning as needed. Drain and let cool briefly.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Flatten each plantain chunk into a thick round."
+    },
+    {
+      "step": 5,
+      "text": "Fry the flattened plantains for 7 minutes, turning once, until crisp and golden. Drain well.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 6,
+      "text": "Serve the tostones with the chilled dipping sauce."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "fried",
+    "plantains"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "deep, heavy pan",
+    "slotted spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217983/tostones-twice-fried-green-plantains-with-mayo-ketchup-dipping-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cb32b736776eb6255a03a71f10f5c212085e84d26ec11c5579d68ad0b500bef3",
+    "normalized_text_hash": "c9d220367cc68c77bbe92cd3c6470aa18b0a36d1f5abada29dfd450fd73d0b08",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:17:41.878Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

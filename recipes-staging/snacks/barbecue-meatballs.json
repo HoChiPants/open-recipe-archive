@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-meatballs",
+  "name": "Barbecue Meatballs",
+  "subtitle": "A simple slow-cooked party snack",
+  "description": "Frozen meatballs simmer gently in a tangy barbecue and ketchup sauce until hot and coated.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "18 ounce"
+    },
+    {
+      "ingredient_id": "frozen-meatballs",
+      "item": "frozen meatballs",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the barbecue sauce, frozen meatballs, and ketchup in a slow cooker. Stir to coat."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook on low for 4 hours, stirring once if convenient, until the meatballs are hot throughout and reach 160°F internally.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "party-food",
+    "slow-cooker",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14942/bbq-meatballs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0cac62cb5d489271d16ff8ed492472d72f3fa6e514ce46559076dd3f3b19032e",
+    "normalized_text_hash": "fa85774a7dd74c321eed24f7174947a42c97aeb0effce8d8a577d31d7b239d97",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:13:26.530Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "irish-fried-cabbage-with-bacon",
+  "name": "Irish Fried Cabbage with Bacon",
+  "subtitle": "Tender cabbage with crisp bacon and pepper",
+  "description": "A simple skillet side combining finely chopped cabbage, savory bacon drippings, crisp bacon, and black pepper.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "bacon-drippings",
+      "item": "bacon drippings",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "cored and finely chopped"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large skillet over medium heat until crisp, about 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Transfer the bacon to a plate. Drain the skillet, reserving 0.25 cup of the drippings."
+    },
+    {
+      "step": 3,
+      "text": "Add the cabbage and reserved drippings to the skillet. Cook until the cabbage is tender, about 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Return the bacon to the skillet and stir with the cabbage for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Season with ground black pepper to taste and serve hot."
+    }
+  ],
+  "tags": [
+    "cabbage",
+    "bacon",
+    "skillet",
+    "side-dish",
+    "irish-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large skillet",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220584/fried-irish-cabbage-with-bacon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c07abfe6246cc15f6b2ccafee3f75817315c41fffea1c0714d7489fc899b38b7",
+    "normalized_text_hash": "7b9282be2c11b92eb27f59706811a193378568d9f74a99a38b044043bb157d4b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:14:42.666Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

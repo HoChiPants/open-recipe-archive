@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-salad",
+  "name": "Fruit Salad",
+  "subtitle": "Chilled fruit with peach filling",
+  "description": "A simple chilled salad combining fresh fruit with peach pie filling for a lightly sweet finish.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 1,
+      "unit": "pint",
+      "preparation": "cleaned, hulled and sliced"
+    },
+    {
+      "ingredient_id": "seedless-grapes",
+      "item": "seedless grapes",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "kiwis",
+      "item": "kiwis",
+      "quantity": 3,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 3,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "peach-pie-filling",
+      "item": "peach pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the strawberries, grapes, kiwis, and bananas in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the peach pie filling and fold gently until the fruit is evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "fruit",
+    "no-cook",
+    "chilled",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14147/very-easy-fruit-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "19fe91c1f564f2b714b056619d85516d899cc7e3a25af6f5ae0892718ba8b40e",
+    "normalized_text_hash": "fc79ecf4de57e8df49b71520ce996b7bdc4b44c65e0b0d1f8cfbba8a74bab3a8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:51:09.097Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

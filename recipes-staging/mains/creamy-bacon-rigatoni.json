@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-bacon-rigatoni",
+  "name": "Creamy Bacon Rigatoni",
+  "subtitle": "Rigatoni in a smooth cheese sauce with bacon, ham, and peas",
+  "description": "Tender rigatoni is combined with a creamy Parmesan sauce, crisp bacon, diced ham, and green peas for a hearty American-style main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rigatoni-pasta",
+      "item": "rigatoni pasta",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, cut into cubes"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "freshly-shredded-parmesan-cheese",
+      "item": "freshly shredded Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-green-peas",
+      "item": "fresh green peas",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced cooked"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a boil. Cook the rigatoni for 13 minutes, then drain.",
+      "timer_minutes": 13
+    },
+    {
+      "step": 2,
+      "text": "Meanwhile, heat a skillet and cook the diced bacon for 10 minutes, until set and browned. Stir in the garlic and cook briefly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the milk, cream cheese, softened butter, and Parmesan in a saucepan over gentle heat. Simmer, stirring, until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Add the bacon, peas, and diced cooked ham to the sauce. Cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Combine the drained rigatoni with the sauce and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "creamy",
+    "bacon",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228310/quick-and-creamy-pasta-carbonara/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f772fd350509f13648a3f906258c8846ed5de65a985af8265ea40b08f55112cb",
+    "normalized_text_hash": "e90cb574847517101aa78de66bfe2d6c6c34777bb3fbdd70a119717187fb3e51",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:38:54.927Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

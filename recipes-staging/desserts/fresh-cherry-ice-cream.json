@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-cherry-ice-cream",
+  "name": "Fresh Cherry Ice Cream",
+  "subtitle": "Creamy churned ice cream with ripe cherries",
+  "description": "A simple American-style ice cream combining a sweet cream base, vanilla, almond extract, and fresh cherries.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 140
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-cherries",
+      "item": "fresh cherries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "pits removed and cut in half"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the heavy cream, milk, and white sugar. Stir until the sugar dissolves, then mix in the vanilla and almond extracts."
+    },
+    {
+      "step": 2,
+      "text": "Add the cherries and whisk the mixture in an ice cream maker for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Transfer the churned ice cream to a freezer-safe container and freeze until firm."
+    },
+    {
+      "step": 4,
+      "text": "Serve once firm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "ice-cream",
+    "cherry",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "ice cream maker",
+    "freezer-safe container",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143665/vanilla-cherry-ice-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "27c31d438192207cfbfc29fcae6878fbd32224964fecbe285b62c75ba4ad78bf",
+    "normalized_text_hash": "3a23052ff287a227cf9706ba9d106f4b23c0760c9511bd455fd480ae2d1b1f17",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:20:42.194Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

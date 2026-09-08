@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-salad-with-olives",
+  "name": "Egg Salad with Olives",
+  "subtitle": "A creamy, peppery salad with briny olive flavor",
+  "description": "Chopped hard-cooked eggs are folded with seasoned mayonnaise and pimento-stuffed green olives for an easy salad or sandwich filling.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pimento-stuffed-green-olives",
+      "item": "pimento-stuffed green olives",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan, cover with water, and bring to a boil. Boil until hard-cooked, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Cool the eggs briefly, peel them, and cut them into small pieces."
+    },
+    {
+      "step": 3,
+      "text": "Combine the eggs, mayonnaise, black pepper, and paprika. Stir until smooth, then fold in the chopped olives."
+    },
+    {
+      "step": 4,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "egg-salad",
+    "lunch",
+    "sandwich-filling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16632/egg-salad-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "db0d9752850083d60474159edcf6ed684323c397ed29dc7130c5a99df6395f93",
+    "normalized_text_hash": "a2c4f248108df45d488a5411a9284877e33c250600d57b634d72c233a3585418",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:55:27.806Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

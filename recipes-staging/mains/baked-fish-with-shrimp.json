@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-fish-with-shrimp",
+  "name": "Baked Fish with Shrimp",
+  "subtitle": "Tender snapper baked in a creamy Parmesan sauce",
+  "description": "Red snapper fillets are layered with cooked shrimp, covered in a simple milk-based sauce, and baked until opaque and flaky.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-snapper-fillets",
+      "item": "red snapper fillets",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "medium-shrimp",
+      "item": "medium shrimp",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cooked, peeled and deveined"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan. Whisk in the flour and salt, then gradually whisk in the milk. Cook, stirring, until the sauce is thickened."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the fish in a baking dish and coat it with the sauce. Distribute the cooked shrimp over the fish, spoon on any remaining sauce, and sprinkle with Parmesan."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes, until the fish is opaque, flakes easily, and reaches 145°F on a food thermometer.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "baked",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "fish",
+    "shellfish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12736/baked-fish-with-shrimp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "60bcf4fdda7ffa64e7b096d2053f176d2b04e0718b60c27521dec29c6782b54c",
+    "normalized_text_hash": "ddcdaaabd6d29f594e3d23e288d41cf16a74710d3e8ea2084cb460d04953e747",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:47:30.583Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

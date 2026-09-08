@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bavarian-sauerkraut",
+  "name": "Bavarian Sauerkraut",
+  "subtitle": "Tangy sauerkraut with onion and caraway",
+  "description": "A warm, savory sauerkraut side dish balanced with brown sugar, stock, sherry, and caraway.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon-drippings",
+      "item": "bacon drippings",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "finely-chopped-onion",
+      "item": "finely chopped onion",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sauerkraut",
+      "item": "sauerkraut",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "16 ounce, undrained"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cooking-sherry",
+      "item": "cooking sherry",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "caraway-seeds",
+      "item": "caraway seeds",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the bacon drippings in a large saucepan over medium heat. Add the onion and cook, stirring, for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Transfer the undrained sauerkraut to the saucepan and stir in the chicken stock, cooking sherry, brown sugar, and caraway seeds."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a gentle simmer, then cook until heated throughout and a food thermometer registers 165°F.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "german",
+    "sauerkraut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228631/bavarian-sauerkraut/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d760469cb6983c181c71b04b396301a23ba4ab1325abe3961aee45f6d5e72292",
+    "normalized_text_hash": "2e5ec893f430c912d7ad7e0ba0fb01a52056524ce6bcd94e81a387f01cb575ae",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:11:05.452Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

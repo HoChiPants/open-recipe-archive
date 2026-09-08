@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-pudding",
+  "name": "Banana Pudding",
+  "subtitle": "Creamy layered pudding with bananas and wafers",
+  "description": "A chilled American dessert layered with vanilla pudding, bananas, wafers, and a creamy topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 6,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "vanilla-wafers",
+      "item": "vanilla wafers",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the instant vanilla pudding mix, milk, and sweetened condensed milk until evenly moistened. Chill for 15 minutes to set.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Stir the chilled pudding mixture until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the sour cream and thawed whipped topping together, then fold in the sliced bananas."
+    },
+    {
+      "step": 4,
+      "text": "Layer vanilla wafers and the pudding mixture in a serving dish, then transfer and arrange the remaining wafers on top."
+    },
+    {
+      "step": 5,
+      "text": "Chill until ready to serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21310/aunt-bettys-banana-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "69e589afbcd896d2cc087d8ff87a0630d8195e7063330ce711b54521571adcae",
+    "normalized_text_hash": "0489cafc280f1310eeb18f968f854d7a7b5a658c657afbaebbb58fe67f3b7766",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:31:01.716Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

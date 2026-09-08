@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "single-crust-peach-pie",
+  "name": "Single Crust Peach Pie",
+  "subtitle": "A simple peach pie with warm nutmeg filling",
+  "description": "Sweet peaches are folded into a lightly spiced butter-sugar mixture and baked in a single pastry crust until golden.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "inactive_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "recipe-pastry-for-a-9-inch-single-crust-pie",
+      "item": "recipe pastry for a 9 inch single crust pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 6,
+      "preparation": "pitted, skinned, and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the softened butter and sugar together, then mix in the flour and nutmeg until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Place the pastry in a 9-inch pie dish. Add half of the peaches, spread over half of the filling mixture, then repeat with the remaining peaches and filling."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 450°F, then reduce the oven temperature to 350°F and continue baking for 40 minutes, until the crust is golden brown.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-pie",
+    "peach",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12307/single-crust-peach-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1a5230269bb52d168fa9ac43451a136661826b98d04e9d2783f049e3c3561c39",
+    "normalized_text_hash": "9202e9292c85a0a253566164d330a1eb98abb1723ddc4c3ce7629c7121f2015e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:31:49.872Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-blueberry-pie",
+  "name": "Peach Blueberry Pie",
+  "subtitle": "A double-crust pie filled with peaches and blueberries.",
+  "description": "Juicy peaches and blueberries are combined with lemon, sugar, tapioca, and salt, then baked in a flaky pastry crust until golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pastry-for-a-double-crust-9-inch-pie",
+      "item": "pastry for a double-crust 9-inch pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "peaches",
+      "item": "peaches",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "blueberries",
+      "item": "blueberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "quick-cooking-tapioca",
+      "item": "quick-cooking tapioca",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "cut into pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Fit half of the pastry into a 9-inch pie dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the peaches, blueberries, and lemon juice in a bowl."
+    },
+    {
+      "step": 4,
+      "text": "Mix the sugar, tapioca, and salt, then stir into the fruit."
+    },
+    {
+      "step": 5,
+      "text": "Let the filling stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Spoon the filling into the pastry and dot with the margarine pieces."
+    },
+    {
+      "step": 7,
+      "text": "Cover with the remaining pastry, seal and crimp the edges, and cut vents in the top."
+    },
+    {
+      "step": 8,
+      "text": "Bake at 425°F until the crust is golden brown, about 45 minutes.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "fruit-pie"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "mixing bowl",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223282/peach-blueberry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "826861eb63cafd8643b5c5dc3a77d9242aef9d3bff3a2b0be73fd02a36775bbd",
+    "normalized_text_hash": "7fe94f4b89d93480983436b3c8b847f7479c3956ecedaa8b0c2a8a0c01c6d0f7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:57:21.499Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "christmas-martini",
+  "name": "Christmas Martini",
+  "subtitle": "A bourbon cocktail with cherry and spiced fruit syrup",
+  "description": "Bourbon and cherry brandy are chilled with ice, then finished with a warm dried-fruit syrup flavored with cinnamon.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "(with leftover syrup)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 3
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bourbon",
+      "item": "bourbon",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cherry-brandy",
+      "item": "cherry brandy",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "dark-brown-soft-sugar",
+      "item": "dark brown soft sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mixed-dried-fruit",
+      "item": "mixed dried fruit",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": "1/2"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the dark brown soft sugar and mixed dried fruit in a small saucepan over low heat, stirring until the sugar begins to soften.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Add the cinnamon stick and continue warming gently until the fruit mixture becomes syrupy. Remove from the heat."
+    },
+    {
+      "step": 3,
+      "text": "Fill a cocktail shaker with ice. Add the bourbon and cherry brandy, then shake until well chilled."
+    },
+    {
+      "step": 4,
+      "text": "Strain into a chilled martini glass and finish with a small spoonful of the fruit syrup."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "bourbon",
+    "cherry-brandy",
+    "holiday-drink",
+    "winter-cocktail",
+    "dried-fruit"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "equipment": [
+    "small saucepan",
+    "cocktail shaker",
+    "martini glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/christmas-martini",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "76b84fe54de3b7e630e10be70d6277c64243f08ccdc379e19ca7f4cd9f94dee2",
+    "normalized_text_hash": "515b4ba1a18f64d5c33f29193ea12abe5575ea19014e440050d9541499f4485e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:21:24.955Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

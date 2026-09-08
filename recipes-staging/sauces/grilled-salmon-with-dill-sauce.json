@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-salmon-with-dill-sauce",
+  "name": "Grilled Salmon with Dill Sauce",
+  "subtitle": "Grilled salmon paired with a tangy dill mayonnaise sauce",
+  "description": "A simple grilled salmon serving with a lightly sweetened mustard-dill sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-dill",
+      "item": "fresh dill",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped, or to taste"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 3,
+      "unit": "pinches",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salmon-fillet",
+      "item": "salmon fillet",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "skin on"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the mayonnaise, dill, Dijon mustard, and brown sugar until combined."
+    },
+    {
+      "step": 3,
+      "text": "Brush the grill surface with the vegetable oil and place the salmon fillet skin-side down."
+    },
+    {
+      "step": 4,
+      "text": "Grill the salmon until opaque, easily flaked, and 145°F in the thickest part.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 5,
+      "text": "Serve the grilled salmon with the dill sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "salmon",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229972/grilled-salmon-with-dill-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5be0b6ca6517f8add87ce52c55f21293af0023cecf46b738a651daf86c15b453",
+    "normalized_text_hash": "140bc2bda80842089b3ba80d533d0393429a050e12f33fce0d3bd0a587e6a47d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:10:24.281Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

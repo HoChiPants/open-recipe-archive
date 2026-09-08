@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "liver-and-bacon",
+  "name": "Liver and Bacon",
+  "subtitle": "Crisp bacon with seasoned calves' liver",
+  "description": "Bacon and seasoned liver are cooked together for a savory main dish.",
+  "meal_type": "main",
+  "cuisine": "French Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "calves-liver",
+      "item": "calves' liver",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "pork-flavored-seasoning-coating-mix-e-g",
+      "item": "pork flavored seasoning coating mix (e.g.",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5.5 ounce, SHAKE-N-BAKE)"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and place the bacon in a suitable baking dish or pan."
+    },
+    {
+      "step": 2,
+      "text": "Combine the pork-flavored seasoning coating mix with the sliced calves' liver, turning the slices until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated liver with the bacon and place the pan in the preheated oven."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the liver reaches 145°F in the center, then let it rest for 3 minutes. Cook the bacon for the final 2 minutes as needed for crispness.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "french-inspired",
+    "liver",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "baking dish or pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70582/liver-and-bacon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "69e15e9a2ac20cb80f2e188b67adf591c28005f28199a2de850a22ced4061aa5",
+    "normalized_text_hash": "5c67a374bf26dfae6dfba5eeff32c05f2c5c59dc30e40ab888e461757e904a23",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:03:44.010Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

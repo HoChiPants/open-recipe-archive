@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lentils-with-tomatoes",
+  "name": "Lentils with Tomatoes",
+  "subtitle": "Tender lentils simmered with tomatoes and sautéed vegetables",
+  "description": "A simple, savory lentil side dish with green pepper, onion, and chopped tomatoes.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "dry-lentils",
+      "item": "dry lentils",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "seeded, and chopped tomatoes"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and lentils in a pot. Bring to a boil, then cook until the lentils begin to soften, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Drain the lentils and set them aside."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in the pot over medium heat. Add the bell pepper, onion, and salt and pepper; cook until the vegetables are tender."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the tomatoes and drained lentils. Simmer until the lentils are fully tender and the mixture is thickened, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "lentils",
+    "tomatoes",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/69027/lentils-with-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e88f7b92de5d8d8ee2bac6a911e9fc7c342dd735fce0aea76f18248fd8822760",
+    "normalized_text_hash": "a5a818640f54f4daaabe19a45a0ecb185d24553176fbf50c92de5f119a51dfc5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:00:51.560Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

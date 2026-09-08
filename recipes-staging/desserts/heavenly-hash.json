@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "heavenly-hash",
+  "name": "Heavenly Hash",
+  "subtitle": "A chilled rice, fruit, and marshmallow dessert",
+  "description": "Tender rice combines with pineapple, cherries, marshmallows, and sweetened whipped cream for a cool, airy dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 145
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "uncooked-white-rice",
+      "item": "uncooked white rice",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "crushed, drained"
+    },
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "4-ounce-jar-maraschino-cherries",
+      "item": "(4 ounce) jar maraschino cherries",
+      "quantity": 1,
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the water to a simmer in a saucepan. Stir in the rice, cover, and cook gently for 20 minutes, or until tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Let the cooked rice cool completely."
+    },
+    {
+      "step": 3,
+      "text": "Combine the cooled rice, drained pineapple, marshmallows, and halved cherries in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the heavy cream until thickened. Fold in the confectioners' sugar."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the sweetened cream into the rice mixture until evenly combined."
+    },
+    {
+      "step": 6,
+      "text": "Cover and chill for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "rice-dessert",
+    "chilled-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "large mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46435/heavenly-hash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce7631186225ac5ebb8c39a52444ff8fe534a2a26ad848ba2e87c4d86f9fcf72",
+    "normalized_text_hash": "007294883986d5e2728425a5ebf76edd9ba8bb958eb160aa33a35aaf6204c912",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:30:19.003Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

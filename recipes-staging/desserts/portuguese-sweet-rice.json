@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "portuguese-sweet-rice",
+  "name": "Portuguese Sweet Rice",
+  "subtitle": "Creamy rice pudding with a lightly sweet custard finish",
+  "description": "A simple stovetop rice pudding made with milk, sugar, rice, and beaten eggs.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "uncooked-white-rice",
+      "item": "uncooked white rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk and sugar together in a large saucepan until steaming, then stir in the rice."
+    },
+    {
+      "step": 2,
+      "text": "Simmer gently, stirring occasionally, until the rice is tender and the mixture is thick and creamy.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Whisk a little of the hot rice mixture into the beaten eggs, then stir the egg mixture back into the saucepan. Continue cooking until the pudding reaches 160°F or has a firm, fully set consistency."
+    },
+    {
+      "step": 4,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "portuguese",
+    "rice-pudding"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20305/portuguese-sweet-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "887113acbbefd3449a991af1e5a553116cabd9c03c34d8c79a08249e53846a5a",
+    "normalized_text_hash": "9631b0e4d3a27fb07ddeafc61cafd075e452263152c8d9aa94fd4fdb0df81d29",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:24:44.505Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

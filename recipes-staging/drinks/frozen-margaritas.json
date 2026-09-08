@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "frozen-margaritas",
+  "name": "Frozen Margaritas",
+  "subtitle": "A frosty lime-and-tequila cocktail",
+  "description": "Blend limeade, tequila, triple sec, and ice until smooth, then serve with an optional lime garnish.",
+  "meal_type": "drink",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "crushed, or as needed"
+    },
+    {
+      "ingredient_id": "frozen-limeade-concentrate",
+      "item": "frozen limeade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "fluid-ounces-tequila",
+      "item": "fluid ounces tequila",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "fluid-ounces-triple-sec",
+      "item": "fluid ounces triple sec",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "lime-wedges-for-garnish-optional",
+      "item": "lime wedges for garnish (Optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare a blender for use."
+    },
+    {
+      "step": 2,
+      "text": "Add the frozen limeade concentrate, tequila, triple sec, and ice."
+    },
+    {
+      "step": 3,
+      "text": "Blend until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Pour into serving glasses and garnish with lime wedges, if desired."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "frozen",
+    "lime",
+    "tequila"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "blender",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32649/margaritas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4967b31de7e15a075e2c2e755c78bd4ccee91a2b89b37cb0b7415d1902f06897",
+    "normalized_text_hash": "82d25581678540220a642e6394ba057f350ec5230e2a1324b88876b56443a9b9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:29:43.049Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

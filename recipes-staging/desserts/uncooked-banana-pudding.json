@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "uncooked-banana-pudding",
+  "name": "Uncooked Banana Pudding",
+  "subtitle": "A creamy layered banana dessert with crisp wafer cookies",
+  "description": "Combine a tangy vanilla pudding mixture with sliced bananas and wafer cookies for an easy chilled-style dessert assembled without cooking.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5 ounce"
+    },
+    {
+      "ingredient_id": "vanilla-wafer-cookies",
+      "item": "vanilla wafer cookies",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the milk, sour cream, thawed whipped topping, and pudding mix until smooth and fully combined."
+    },
+    {
+      "step": 2,
+      "text": "Arrange a layer of vanilla wafer cookies in a serving dish. Add a layer of the pudding mixture, then arrange sliced bananas over it."
+    },
+    {
+      "step": 3,
+      "text": "Repeat the cookie, pudding, and banana layers until the ingredients are used. Serve once assembled."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-cook",
+    "banana",
+    "layered"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "serving dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18992/uncooked-banana-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1fd6f680920380384517a92db4d94460aaa0b5124b7b1393a5bff0683308120",
+    "normalized_text_hash": "30e7736c41c1fd7144c5c70f63226f1826073a1f2c0ddf826dda9dd423f3433e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:38:32.400Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-cake",
+  "name": "Almond Cake",
+  "subtitle": "A tender, lemon-scented cake with a crisp almond topping.",
+  "description": "Creamed butter and sugar form the base for this gluten-free almond cake, finished with flaked almonds and a light dusting of icing sugar.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 200,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemon-zested",
+      "item": "lemon zested",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract (optional)",
+      "quantity": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "ground-almonds",
+      "item": "ground almonds",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "gluten-free-self-raising-flour",
+      "item": "gluten-free self-raising flour",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flaked-almonds",
+      "item": "flaked almonds",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and grease a cake tin with some of the extra butter."
+    },
+    {
+      "step": 2,
+      "text": "Beat the softened butter, golden caster sugar, and icing sugar until light and creamy, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the lemon zest and eggs, then mix until combined. Stir in the almond extract, if using."
+    },
+    {
+      "step": 4,
+      "text": "Add the gluten-free self-raising flour, ground almonds, and flaked almonds. Fold just until evenly incorporated."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared tin and bake for 45 minutes, or until the center is firm and fully set.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Cool the cake before removing it from the tin, then dust with icing sugar."
+    }
+  ],
+  "tags": [
+    "almond-cake",
+    "gluten-free",
+    "dessert",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "cake tin",
+    "electric mixer or whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/almond-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bef784fbfb3376fc0f1dc8f0dbf1084773601250fabd94130de06c86c9206dbb",
+    "normalized_text_hash": "910d2be6a47193a3318d724228c285ff8d3c2ae5873754e037542980567f4f33",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:34:32.859Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

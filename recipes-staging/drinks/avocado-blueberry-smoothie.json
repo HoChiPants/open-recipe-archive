@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "avocado-blueberry-smoothie",
+  "name": "Avocado Blueberry Smoothie",
+  "subtitle": "A creamy berry smoothie with avocado and almond milk",
+  "description": "Blend frozen blueberries, yogurt, almond milk, water, and avocado into a smooth, refreshing drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-blueberries",
+      "item": "frozen blueberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "6-ounce-container-plain-greek-style-yogurt",
+      "item": "(6 ounce) container plain Greek-style yogurt",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "almond-milk",
+      "item": "almond milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 0.25,
+      "preparation": "peeled, pitted, and diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add all ingredients to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth, scraping down the sides if needed."
+    },
+    {
+      "step": 3,
+      "text": "Pour into a glass and serve immediately."
+    }
+  ],
+  "tags": [
+    "smoothie",
+    "breakfast-drink",
+    "fruit-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222293/avocado-blueberry-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "93b996e9b763bb1da5354a030d2f695ec212f8d90636c670441dfd736bb7ab99",
+    "normalized_text_hash": "baf7ecede3257e50a97017e8785b72755fdc269bfeff900e10cd849952985b26",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:35:09.965Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

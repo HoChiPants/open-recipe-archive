@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-baked-eggs",
+  "name": "Cheesy Baked Eggs",
+  "subtitle": "A creamy, savory egg bake with melted pepper Jack.",
+  "description": "Beaten eggs, cottage cheese, flour, salt, and shredded pepper Jack bake into a hearty casserole for breakfast or brunch.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "pepper-jack-cheese",
+      "item": "pepper Jack cheese",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "16-ounce-container-cottage-cheese",
+      "item": "(16 ounce) container cottage cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Use the melted butter to grease a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the beaten eggs, pepper Jack, cottage cheese, flour, and salt until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to the prepared baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until the center is firm and fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Let the casserole rest briefly, then serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "american",
+    "egg-bake",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/126012/cheesy-baked-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1dffcdefecc8ef5223fd5996001d15af00ee35b3976e958e02a54204e1cd4edb",
+    "normalized_text_hash": "8cf5b656970c35ff95bb3c1a54306057b8a992ba300444ef0f6b8b7aae9d0e98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:10:29.261Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-venison-backstrap",
+  "name": "Grilled Venison Backstrap",
+  "subtitle": "Cider-marinated venison wrapped in bacon",
+  "description": "Venison chunks are soaked in apple cider, coated with barbecue sauce, wrapped with bacon, and grilled until safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "inactive_minutes": 270
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "venison-backstrap",
+      "item": "venison backstrap",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 2-inch chunks"
+    },
+    {
+      "ingredient_id": "apple-cider",
+      "item": "apple cider",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 2,
+      "unit": "bottle",
+      "preparation": "12 ounce, your choice"
+    },
+    {
+      "ingredient_id": "thick-sliced-bacon",
+      "item": "thick sliced bacon",
+      "quantity": 1.5,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the venison in a container, cover with the apple cider, and chill for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Drain the venison, coat it with the barbecue sauce, cover, and chill for 3 hours.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 3,
+      "text": "Remove the venison from refrigeration and let it stand for 30 minutes. Preheat the grill and prepare it for grilling.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Wrap the venison pieces with bacon and secure as needed. Grill for about 20 minutes, turning as needed, until the thickest piece reaches 160°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Rest briefly, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "venison",
+    "bacon-wrapped",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "refrigerator",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/50931/grilled-venison-backstrap/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "db800130e2665e48e9c6af592375cc13fca37e5734e7fd9839ef100ec3675fc6",
+    "normalized_text_hash": "fa36479f8af77a6bde144e386c773d104b1647f9787164007a91666b90471182",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:12:46.463Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

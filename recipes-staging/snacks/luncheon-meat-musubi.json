@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "luncheon-meat-musubi",
+  "name": "Luncheon Meat Musubi",
+  "subtitle": "Seasoned rice and browned luncheon meat wrapped in nori",
+  "description": "Compact rice snacks layered with savory glazed luncheon meat and wrapped in dry seaweed.",
+  "meal_type": "snack",
+  "cuisine": "Hawaiian",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "inactive_minutes": 270
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-short-grain-white-rice",
+      "item": "uncooked short-grain white rice",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "rice-vinegar",
+      "item": "rice vinegar",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "oyster-sauce",
+      "item": "oyster sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "12-ounce-container-fully-cooked-luncheon-meat-such-as-spam",
+      "item": "(12 ounce) container fully cooked luncheon meat (such as Spam)",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sheets-sushi-nori-dry-seaweed",
+      "item": "sheets sushi nori (dry seaweed)",
+      "quantity": 5
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the rice with the water until tender. Stir in the rice vinegar and let the rice cool until it is set enough to shape.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 2,
+      "text": "Combine the remaining water, soy sauce, oyster sauce, and white sugar in a small saucepan. Simmer, stirring, until the sugar dissolves and the mixture is combined."
+    },
+    {
+      "step": 3,
+      "text": "Slice the luncheon meat into 10 pieces. Heat the vegetable oil in a skillet, add the slices, and cook until lightly browned, turning once.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Cut each nori sheet into two strips. Transfer the browned meat to a plate and let it cool briefly."
+    },
+    {
+      "step": 5,
+      "text": "Shape the rice into 10 thick portions. Top each portion with a slice of luncheon meat, brush or spoon on the sauce, and wrap with a nori strip."
+    },
+    {
+      "step": 6,
+      "text": "Serve immediately or after the nori has softened slightly around the rice."
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "rice",
+    "nori",
+    "luncheon-meat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "soy"
+  ],
+  "equipment": [
+    "rice cooker or saucepan",
+    "small saucepan",
+    "skillet",
+    "knife",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49785/spam-musubi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "682b05c8c7d5df11dd7b2b1dc9b6ff3f9fb54ec7c7cd38757182bea5b41389f0",
+    "normalized_text_hash": "f649fc519dcb00415b0a97fa4b6be0ccffcfeeb5b63f96aa00ebd1f475abd607",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:20:47.279Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

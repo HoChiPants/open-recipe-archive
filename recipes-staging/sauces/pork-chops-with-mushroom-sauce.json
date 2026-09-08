@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pork-chops-with-mushroom-sauce",
+  "name": "Pork Chops with Mushroom Sauce",
+  "subtitle": "Tender pork in a creamy mushroom topping",
+  "description": "Pork chops are cooked briefly, then finished with a smooth mushroom-and-sour-cream sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pork-chops",
+      "item": "pork chops",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "pint"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the cooking equipment according to its settings."
+    },
+    {
+      "step": 2,
+      "text": "Cook the pork chops for 3 minutes, then drain them. Continue cooking as needed until a thermometer inserted into the thickest part reads 145°F; rest for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Place the pork chops in the cooking vessel. Whisk together the condensed cream of mushroom soup and sour cream, then pour the mixture over the chops."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer gently for 60 minutes, until the sauce is hot and the pork reaches the safe endpoint.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pork",
+    "mushroom-sauce",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "cooking vessel",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21728/pork-chops-with-sour-cream-and-mushroom-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7944d28ef9dda3efb046fbea4a93583531686edf53d0d6b486a504c35c9f0bf8",
+    "normalized_text_hash": "e792e1030b1303bf75d53231ba176f970aed1de597d30c56029b2d70416ec731",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:19:40.500Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

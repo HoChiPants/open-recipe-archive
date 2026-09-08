@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "frozen-citrus-cocktail",
+  "name": "Frozen Citrus Cocktail",
+  "subtitle": "A make-ahead citrus slush finished with sparkling soda.",
+  "description": "A batch-style frozen citrus drink with vodka, brandy, juice concentrates, cherries, and fizzy soda.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brandy",
+      "item": "brandy",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-orange-juice-concentrate",
+      "item": "frozen orange juice concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "10-ounce-jars-maraschino-cherries",
+      "item": "(10 ounce) jars maraschino cherries",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "grapefruit-flavored-soda",
+      "item": "grapefruit flavored soda",
+      "quantity": 32,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "fluid-ounces-lemon-lime-flavored-carbonated-beverage",
+      "item": "fluid ounces lemon-lime flavored carbonated beverage",
+      "quantity": 67
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a large freezer-safe container, combine the vodka, brandy, orange juice concentrate, lemonade concentrate, maraschino cherries, and grapefruit flavored soda."
+    },
+    {
+      "step": 2,
+      "text": "Freeze until slushy and firm, stirring or whisking once or twice as it freezes.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 3,
+      "text": "Let the frozen mixture stand briefly until scoopable, then whisk until evenly slushy."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the lemon-lime flavored carbonated beverage just before serving."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "frozen-drink",
+    "citrus",
+    "batch-drink",
+    "make-ahead"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large freezer-safe container",
+    "whisk",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14901/adult-slushies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce3b6241cf0913b9121f10d2bfcf28498247077c215b299ef42d8fab6c1a039d",
+    "normalized_text_hash": "abba04485ed5db7cd3ad61824690774f263a0080517cf3b290a23c81a97216e8",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:14:38.837Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

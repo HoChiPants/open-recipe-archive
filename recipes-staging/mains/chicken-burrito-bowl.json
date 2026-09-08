@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-burrito-bowl",
+  "name": "Chicken Burrito Bowl",
+  "subtitle": "A simple bowl of grilled chicken, rice, beans, corn, and fresh toppings.",
+  "description": "Build a satisfying burrito-style bowl with seasoned grilled chicken, warm beans and corn, rice, lettuce, and creamy salsa toppings.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "white-corn-kernels",
+      "item": "white corn kernels",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, drained"
+    },
+    {
+      "ingredient_id": "black-beans",
+      "item": "black beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "long-grain-white-rice",
+      "item": "long-grain white rice",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "lettuce",
+      "item": "lettuce",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "8-ounce-jar-salsa",
+      "item": "(8 ounce) jar salsa",
+      "quantity": 0.33333334326744
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a grill to medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Season the chicken with garlic powder, salt, and pepper. Drain the beans."
+    },
+    {
+      "step": 3,
+      "text": "Grill the chicken for 6 minutes, turning as needed, until cooked through and the thickest part reaches 165°F.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Rest the chicken briefly, then cut it into bite-size pieces."
+    },
+    {
+      "step": 5,
+      "text": "Warm the corn and black beans in a skillet over medium heat for 5 minutes; season with salt and pepper.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Divide the cooked rice between two bowls. Add the warm corn and beans, chopped lettuce, and chicken."
+    },
+    {
+      "step": 7,
+      "text": "Stir together the sour cream, shredded cheese, and salsa, then spoon the mixture over the bowls."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican-inspired",
+    "chicken",
+    "rice-bowl"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "skillet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245568/naked-chicken-burrito-bowl/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "72ece8ff3d35c5c4010af000d92bba67470e653343616f6fe5a847f359523a0b",
+    "normalized_text_hash": "fcef22aa2b0cfa520c228ee0aa19d337a7b568208040cfe280f77ccd4df19676",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:07:30.840Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

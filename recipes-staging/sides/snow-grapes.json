@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "snow-grapes",
+  "name": "Snow Grapes",
+  "subtitle": "Chilled grapes in a creamy vanilla dressing",
+  "description": "A cool, creamy grape side dish prepared ahead and served chilled.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "seedless-grapes",
+      "item": "seedless grapes",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the grapes and place them in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sour cream, cream cheese, sugar, and vanilla until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Fold the grapes into the dressing until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "make-ahead",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/150051/snow-grapes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "188f2574244bc8fea1f6dbcbb373a6015b962db85c81a5ab8110e3023a2fb39e",
+    "normalized_text_hash": "00d3b9c98f5cb1f4b1428f7f183802f8179c6c00d0658372fa59b3a85549f7f6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:04:59.599Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

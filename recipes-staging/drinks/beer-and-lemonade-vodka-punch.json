@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-and-lemonade-vodka-punch",
+  "name": "Beer and Lemonade Vodka Punch",
+  "subtitle": "A large-batch citrus beer cocktail",
+  "description": "Combine beer, vodka, and thawed lemonade concentrate for a simple party-size punch.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 55,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 1
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "or-bottles-keystone-light-beer",
+      "item": "or bottles Keystone Light beer",
+      "quantity": 30,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 1.75,
+      "unit": "liters"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 ounce, thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the beer, vodka, and thawed lemonade concentrate into a large beverage container."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the lemonade concentrate is evenly incorporated."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "punch",
+    "large-batch",
+    "citrus",
+    "party-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large beverage container",
+    "long spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/71260/strip-and-go-naked/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1c79c5af2a14c72e49654299a825c5693ab15ceca108b2f91b78efff290f335",
+    "normalized_text_hash": "af9662c3da3d14d0a04c26f9331a860d8fa28bd43a38e1963eb46da46c9297fe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:02:35.171Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

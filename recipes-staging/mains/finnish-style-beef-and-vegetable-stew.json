@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "finnish-style-beef-and-vegetable-stew",
+  "name": "Finnish-Style Beef and Vegetable Stew",
+  "subtitle": "A hearty one-pot stew with tender beef and root vegetables.",
+  "description": "Beef cooks with onion, potatoes, carrots, and celery in a buttery broth finished with a simple flour slurry.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 175
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "sticks"
+    },
+    {
+      "ingredient_id": "boneless-beef-roast",
+      "item": "boneless beef roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4.5,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large heavy pot over medium heat. Add the beef roast and cook, turning as needed, until browned on the outside."
+    },
+    {
+      "step": 2,
+      "text": "Add 4 cups of the water, onion, salt, and pepper. Cover and cook gently for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Add the potatoes, carrots, and celery. Cover and simmer until the vegetables are tender and the beef reaches at least 145°F internally, then rest the beef for 3 minutes before slicing or serving."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the remaining 0.5 cup water with the flour until smooth. Stir the mixture into the pot and cook for 15 minutes, stirring occasionally, until the broth thickens.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "stew",
+    "beef",
+    "one-pot",
+    "vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16889/finnish-style-mojakka/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6fd27f2ee596ab9bc6530c0aae6b8f0562e653b5c4832c3fad9b1b18c78af424",
+    "normalized_text_hash": "8365d88ab64aa5492356ea1da480d332daf31fe8cbc453dd87349c6ed1bf9bad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:12:13.660Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

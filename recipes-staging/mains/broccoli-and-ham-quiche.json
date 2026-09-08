@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-and-ham-quiche",
+  "name": "Broccoli and Ham Quiche",
+  "subtitle": "A savory baked custard with broccoli, ham, and Cheddar",
+  "description": "Tender broccoli and diced ham fill a Cheddar-studded egg custard in an unbaked pie crust.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-broccoli-florets",
+      "item": "frozen broccoli florets",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "diced cooked"
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-pie-crust",
+      "item": "(9 inch) unbaked pie crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the frozen broccoli in a microwave-safe dish, prepare it according to the package directions, and microwave for 5 minutes. Drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a skillet. Add the onion and garlic and cook for 5 minutes, until softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir the broccoli, onion mixture, and ham together, then spread the mixture in the unbaked pie crust."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the Cheddar, milk, beaten eggs, and black pepper together. Pour the mixture into the crust and sprinkle with smoked paprika."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, or until the center is firm and fully set and a thermometer inserted into the filling registers 160°F.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "quiche",
+    "american",
+    "broccoli",
+    "ham"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave-safe dish",
+    "skillet",
+    "mixing bowl",
+    "9-inch pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236274/easy-broccoli-and-ham-quiche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2130564cf28c0158c33018105717b2d55d82b2a22d3913300a2633001fd7b5e9",
+    "normalized_text_hash": "b1e7a37981dc1cbe86c0f25e546129fabc4ec93bccd145dad5cfbaf06f98f38c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:23:17.247Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

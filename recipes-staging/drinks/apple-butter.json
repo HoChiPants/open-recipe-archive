@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-butter",
+  "name": "Apple Butter",
+  "subtitle": "Slow-cooked apples with warm spice",
+  "description": "A rich, smooth apple spread made by slowly cooking chopped apples, spices, and sugar until deeply concentrated.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 4,
+    "unit": "x 250g jars"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples-chopped-into-small-pieces-no-need-to-peel-or-core",
+      "item": "apples chopped into small pieces (no need to peel or core)",
+      "quantity": 2,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "cider-or-use-the-same-amount-of-water-or-apple-juice",
+      "item": "cider or use the same amount of water or apple juice",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemons-juiced",
+      "item": "lemons juiced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cinnamon-sticks",
+      "item": "cinnamon sticks",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "star-anise",
+      "item": "star anise",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "thumb-sized-piece-of-ginger-roughly-chopped",
+      "item": "thumb-sized piece of ginger roughly chopped"
+    },
+    {
+      "ingredient_id": "few-whole-cloves",
+      "item": "few whole cloves"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "granulated sugar",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Put the apples, cider, cinnamon, star anise, ginger, and cloves in a large heavy pot. Bring to a gentle simmer and cook for 30 minutes, stirring occasionally, until the apples are soft.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Remove the whole spices. Stir in the lemon juice, granulated sugar, and brown sugar."
+    },
+    {
+      "step": 3,
+      "text": "Continue cooking uncovered over low heat for 2 hours, stirring from time to time, until the apples are very thick and darkened.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Blend the mixture until smooth, then spoon it into clean jars. Cool before covering and refrigerating."
+    }
+  ],
+  "tags": [
+    "apple-spread",
+    "fruit-preserve",
+    "spiced-fruit",
+    "breakfast-topping",
+    "dessert-sauce",
+    "fall-recipe"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-butter",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ff72bdc4d4aecf66caa711c3a5909fe5ff5f50bd676552ee159914992ad22fee",
+    "normalized_text_hash": "f4a85e1f9735122b62c1ed0b96b685aed438d93d408d811e66b3eb428d3e5311",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:37:10.036Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

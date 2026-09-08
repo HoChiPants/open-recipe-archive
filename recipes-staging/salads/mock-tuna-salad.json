@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mock-tuna-salad",
+  "name": "Mock Tuna Salad",
+  "subtitle": "A creamy chickpea salad with pickle relish and mustard",
+  "description": "Mash chickpeas and mix them with mayonnaise, mustard, relish, and green onions for a quick savory salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garbanzo-beans-chickpeas",
+      "item": "garbanzo beans (chickpeas)",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "19 ounce, drained and mashed"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "spicy-brown-mustard",
+      "item": "spicy brown mustard",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sweet-pickle-relish",
+      "item": "sweet pickle relish",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the mashed chickpeas, mayonnaise, mustard, relish, and chopped green onions in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir until evenly combined, then season with salt and pepper to taste."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "no-cook",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "fork or potato masher",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16659/mock-tuna-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e899e7e7ad54744b083fcb1ae2537313591e5439e2b5aec917f2b60a3681aed1",
+    "normalized_text_hash": "3011cf15e094ec359f60071893547c6a51060f879d79944d71fc87aac0017629",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:47:30.067Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

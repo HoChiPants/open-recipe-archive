@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-praline-cookies",
+  "name": "Pecan Praline Cookies",
+  "subtitle": "Crisp crackers with a buttery pecan topping",
+  "description": "A simple baked dessert made by coating graham crackers with brown sugar, butter, cream of tartar, and chopped pecans.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 35,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-crackers",
+      "item": "graham crackers",
+      "quantity": 35
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-of-tartar",
+      "item": "cream of tartar",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the graham crackers in a single layer on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Combine the brown sugar, butter, and cream of tartar until evenly mixed. Add the chopped pecans."
+    },
+    {
+      "step": 4,
+      "text": "Spread the pecan mixture over the graham crackers."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Cool on the baking sheet for 3 minutes, then transfer and separate into servings.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dessert",
+    "snack",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10303/pecan-praline-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "13125edcf6075e813784a49925bcd22dbedc319d782c16e033db4b8cdf1f71d2",
+    "normalized_text_hash": "4c5282f2b58b5162123f23d1af9cd09ca013525cac58f77b7df5f6fa2b99dba7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:04:38.111Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

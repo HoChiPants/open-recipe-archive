@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-wild-rice-casserole",
+  "name": "Chicken and Wild Rice Casserole",
+  "subtitle": "A creamy baked chicken and rice dinner",
+  "description": "Tender wild rice, chicken, green beans, pimentos, and water chestnuts are combined with a creamy dressing and baked until hot.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 80
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "uncooked-wild-rice",
+      "item": "uncooked wild rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "cubed chicken breast meat"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "4-ounce-jar-diced-pimento-peppers",
+      "item": "(4 ounce) jar diced pimento peppers",
+      "quantity": 1,
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "french-style-green-beans",
+      "item": "French-style green beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce, drained"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water-chestnuts",
+      "item": "water chestnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "drained and chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, wild rice, and water chestnuts in a saucepan. Cook until the rice is tender, about 50 minutes.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the cooked rice mixture, chicken, soup, pimento peppers, onion, green beans, mayonnaise, and salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until hot throughout and the chicken mixture reaches 165°F in the center.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "chicken",
+    "wild-rice",
+    "casserole",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23737/chicken-spectacular/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "53cf1c33951a71e69bae1ea2bd4c3e16e5c2ca525cfb4d6bd63bc6bbfea16a24",
+    "normalized_text_hash": "9cdcf32339a60e5b782226548a0db72c0c3d2b100c7e893f601f6392b33f0064",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:16:34.090Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-stuffed-mushrooms",
+  "name": "Bacon-Wrapped Stuffed Mushrooms",
+  "subtitle": "Creamy mushroom bites with crisp bacon",
+  "description": "Mushrooms are filled with seasoned cream cheese and green onions, wrapped in bacon, and baked until cooked through.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 20,
+      "preparation": "stems removed"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced, cut in half"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the chopped green onions into the softened cream cheese."
+    },
+    {
+      "step": 3,
+      "text": "Fill each mushroom cap with the cream cheese mixture."
+    },
+    {
+      "step": 4,
+      "text": "Wrap each filled mushroom with half a bacon slice and arrange the mushrooms in a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, until the bacon is cooked through.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "bacon",
+    "stuffed-mushrooms"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54795/bacon-wrapped-stuffed-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5b249becb721a97fb9a8516803af346b7b7f94b43a2601eede2603081c66ef33",
+    "normalized_text_hash": "9aade6dfaf0e0ff82b987dd9204b5ac3d32b3d2c03d350abb6d7ca1f5742086f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:41:05.462Z",
+    "semantic_similarity": 28,
+    "structural_similarity": 36,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

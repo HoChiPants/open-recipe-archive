@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-basil-salad",
+  "name": "Cucumber Basil Salad",
+  "subtitle": "A chilled chopped vegetable salad with spinach and basil.",
+  "description": "Fresh cucumber, tomato, spinach, basil, onion, and garlic are seasoned simply and chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-baby-spinach",
+      "item": "fresh baby spinach",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "campari-tomatoes",
+      "item": "campari tomatoes",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "seeded and minced"
+    },
+    {
+      "ingredient_id": "seedless-cucumbers",
+      "item": "seedless cucumbers",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled and minced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "cracked-black-pepper",
+      "item": "cracked black pepper",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Finely chop the spinach and combine it with the basil, tomatoes, cucumbers, red onion, and garlic in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Season with the salt and cracked black pepper, stirring until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate until well chilled, then serve.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "salad",
+    "chilled",
+    "vegetable",
+    "cucumber",
+    "tomato",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large bowl",
+    "knife",
+    "cutting board",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241932/amazing-cucumber-basil-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cdcc1f34d121b473ad5a9899ab359cfc6a67b59c92b7390b138e85c764ba14e4",
+    "normalized_text_hash": "c3447d98339e0ff31f540fed9b2a57cf865c9374ecb4cd78742b987d9090d48a",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:51:34.952Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

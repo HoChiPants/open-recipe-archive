@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-snowball",
+  "name": "Classic Snowball",
+  "subtitle": "A creamy advocaat and lemonade cocktail with a bright citrus option",
+  "description": "Serve this simple sparkling advocaat drink over ice with a cherry garnish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lime-juice-or-lime-cordial-optional",
+      "item": "lime juice or lime cordial (optional)",
+      "quantity": "10-15",
+      "unit": "ml",
+      "optional": true
+    },
+    {
+      "ingredient_id": "advocaat",
+      "item": "advocaat",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sparkling-lemonade",
+      "item": "sparkling lemonade",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice-to-serve",
+      "item": "ice to serve"
+    },
+    {
+      "ingredient_id": "maraschino-cherry",
+      "item": "maraschino cherry",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with ice. Add the lime juice or lime cordial, if using."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the advocaat and sparkling lemonade, then stir gently to combine."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the maraschino cherry and serve immediately."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "sparkling-drink",
+    "advocaat",
+    "retro-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "serving glass",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-snowball",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eded8be003d00e7fc23077f72ecacb28af75949b6c38bebf0f850788a31cb0dc",
+    "normalized_text_hash": "57b15a184118585aee96a5a818d313669e0b71317b32ddcee3c5470c491c3844",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:33:42.772Z",
+    "semantic_similarity": 20,
+    "structural_similarity": 30,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

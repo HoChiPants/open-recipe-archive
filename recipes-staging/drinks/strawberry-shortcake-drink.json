@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-shortcake-drink",
+  "name": "Strawberry Shortcake Drink",
+  "subtitle": "A creamy strawberry cocktail blended until smooth",
+  "description": "A chilled strawberry-and-vanilla drink with amaretto, vodka, and a whipped cream finish.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "fluid-ounces-amaretto-liqueur",
+      "item": "fluid ounces amaretto liqueur",
+      "quantity": 1.25
+    },
+    {
+      "ingredient_id": "1-2-cup-scoops-vanilla-ice-cream",
+      "item": "(1/2 cup) scoops vanilla ice cream",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "fluid-ounce-vanilla-flavored-vodka",
+      "item": "fluid ounce vanilla-flavored vodka",
+      "quantity": 0.25
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-strawberry",
+      "item": "fresh strawberry",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the strawberries, amaretto, ice cream, vanilla extract, vodka, and whipped cream together briefly."
+    },
+    {
+      "step": 2,
+      "text": "Add the crushed ice and blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the remaining ice cream, whipped cream, and fresh strawberry together, then finish the drink with the mixture."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "strawberry",
+    "blended"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220193/strawberry-shortcake-drink/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a1b075cd44ae991f31d59cfa8415ec6e7cb2f7dbbc266708a9adbfe34a2dcaea",
+    "normalized_text_hash": "880b57ba9d4186cee1f1464142b6245eac3aecf420e4071ca3b4e24627ed11a7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:02:04.540Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

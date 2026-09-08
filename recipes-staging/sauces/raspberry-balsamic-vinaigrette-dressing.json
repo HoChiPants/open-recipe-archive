@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raspberry-balsamic-vinaigrette-dressing",
+  "name": "Raspberry Balsamic Vinaigrette Dressing",
+  "subtitle": "A sweet-tart berry dressing for salads and vegetables",
+  "description": "Whisk vinegars, sugar, garlic, and mustard together, then blend in oil and chill before serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "raspberry-balsamic-vinegar",
+      "item": "raspberry balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "honey-dijon-mustard",
+      "item": "honey Dijon mustard",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the raspberry balsamic vinegar, balsamic vinegar, brown sugar, minced garlic, and honey Dijon mustard until combined."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the vegetable oil until the dressing is blended."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241621/raspberry-balsamic-vinaigrette-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1aed3a1850638b3d8fb312df382eb859615dae2ca193b9d1e5399e9ce183e0c8",
+    "normalized_text_hash": "3710d58c46520f74d0f2069fdba594320836a471ac08b4f050c3e85c03c7cd59",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:52:58.925Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

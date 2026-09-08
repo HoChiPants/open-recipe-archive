@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "warm-apple-lemon-drink",
+  "name": "Warm Apple Lemon Drink",
+  "subtitle": "A simple warm blend of apple, lemon, and honey",
+  "description": "Combine fruit juice, hot water, lemon juice, and honey for a quick warming drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple-juice",
+      "item": "apple juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "hot-water",
+      "item": "hot water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the apple juice and hot water into a cup. Add the lemon juice and honey."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the honey dissolves, then serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "warm-drink",
+    "apple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "cup"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229319/teddy-bear-juice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8f4d3571db3b3bffdd2481420983d4c497ae2d307b387fe21891cc599aa31092",
+    "normalized_text_hash": "1af23b7724f7e9b79316c4eb3271abed8f93583c827a7982bb66a2d6d84b3f73",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:41:24.649Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

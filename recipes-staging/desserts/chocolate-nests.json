@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-nests",
+  "name": "Chocolate Nests",
+  "subtitle": "Crunchy chocolate treats for a festive dessert table",
+  "description": "Melted milk and dark chocolate bind crisp cornflakes into small nests, finished with icing sugar and optional decorations.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk-chocolate-broken-into-pieces",
+      "item": "milk chocolate broken into pieces",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-broken-into-pieces",
+      "item": "dark chocolate broken into pieces",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cornflakes",
+      "item": "cornflakes",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "icing-sugar-for-dusting",
+      "item": "icing sugar for dusting"
+    },
+    {
+      "ingredient_id": "paper-cupcake-cases",
+      "item": "paper cupcake cases"
+    },
+    {
+      "ingredient_id": "decorative-robins-optional",
+      "item": "decorative robins optional",
+      "preparation": "find these in stores with the Christmas decorations",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set 12 paper cupcake cases on a tray."
+    },
+    {
+      "step": 2,
+      "text": "Place the milk chocolate and dark chocolate in a microwave-safe bowl. Microwave until melted, stirring between intervals.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the cornflakes to the melted chocolate and stir until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Divide the mixture among the cupcake cases, shaping each portion into a nest. Add the optional decorative robins."
+    },
+    {
+      "step": 5,
+      "text": "Chill until the nests are set.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Dust with icing sugar before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "no-bake",
+    "cornflakes",
+    "christmas"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe bowl",
+    "tray"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-robins-nests",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "56fc9598cb4c9c1dc87a79df945dcb0b81f946594b8f8489ca009f925f12ae23",
+    "normalized_text_hash": "75d29c9dccbc7ca35c2468f3cfc2d9b515b2be4932a3ca7599a1e12a3ee43b0b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:11:21.070Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

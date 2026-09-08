@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-denver-omelet",
+  "name": "Baked Denver Omelet",
+  "subtitle": "A savory oven-baked egg dish with ham, peppers, and cheese.",
+  "description": "Sautéed onion, green pepper, and ham are combined with seasoned eggs, milk, and Cheddar, then baked until fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped cooked"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in an oven-safe skillet over medium heat. Add the onion, green bell pepper, and salt and pepper; cook, stirring, for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chopped cooked ham and cook briefly to warm it."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs and milk in a bowl, then stir in the shredded Cheddar cheese."
+    },
+    {
+      "step": 5,
+      "text": "Pour the egg mixture over the vegetables and ham. Transfer the skillet to the oven if needed."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 25 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "eggs",
+    "ham",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229780/baked-denver-omelet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "862d9d23ebc9db3e7b98d1ce33768a253c5af175c1018ad4853815be2e36deb8",
+    "normalized_text_hash": "22c60064ee4ebcc45936f9ff219ad6b02c579469d265fc8feca33bd1084c5a27",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:46:58.038Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

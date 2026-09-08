@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cube-steak-with-gravy",
+  "name": "Cube Steak with Gravy",
+  "subtitle": "Pan-seared steaks with creamy skillet gravy",
+  "description": "Coat cube steaks in a seasoned flour mixture, cook them in butter, then turn the remaining coating into a simple milk gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cube-steaks",
+      "item": "cube steaks",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour, cornstarch, pepper, salt, and additional salt and pepper to taste in a shallow bowl. Set aside some of the mixture for the gravy."
+    },
+    {
+      "step": 2,
+      "text": "Coat each cube steak in the seasoned mixture, shaking off excess."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a large skillet with the butter over medium-high heat, about 350°F."
+    },
+    {
+      "step": 4,
+      "text": "Cook the steaks for 3 minutes per side, or until a thermometer inserted into the thickest part reaches 145°F. Transfer to a plate and rest for 3 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Let the skillet cool briefly, then add the milk and reserved flour mixture. Whisk over medium heat until smooth and thickened, about 15 minutes; season to taste.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Return the steaks to the skillet and spoon the gravy over them before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "skillet",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "shallow bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240123/cube-steak-with-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7f07e6a3989f8e9e53402e28b0042be78a489062c1b28a6de2047bbb54663c34",
+    "normalized_text_hash": "e64c081a4c6eec09d104c86b3118674874e3ef6676f5f42267694a3fd447b08b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:54:39.065Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

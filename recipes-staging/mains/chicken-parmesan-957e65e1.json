@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-parmesan-957e65e1",
+  "name": "Chicken Parmesan",
+  "subtitle": "Saucy baked chicken with melted cheese and spaghetti",
+  "description": "Chicken breasts bake in seasoned pasta sauce, then are finished with melted cheeses and served alongside spaghetti.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pasta-sauce",
+      "item": "pasta sauce",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cracker-barrel-finely-shredded-100-parmesan-cheese",
+      "item": "CRACKER BARREL Finely Shredded 100% Parmesan Cheese",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "boneless-skinless-chicken-breasts",
+      "item": "boneless skinless chicken breasts",
+      "quantity": 6,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 330,
+      "unit": "grams",
+      "preparation": "uncooked"
+    },
+    {
+      "ingredient_id": "cracker-barrel-shredded-mozzarella-cheese",
+      "item": "CRACKER BARREL Shredded Mozzarella Cheese",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Pour the pasta sauce into a baking dish and stir in the Parmesan, reserving a little for the topping."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken breasts in the sauce and turn them to coat completely."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 30 minutes, or until a thermometer inserted into the thickest part of each breast reads 165°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "While the chicken bakes, cook the spaghetti according to the package directions and drain."
+    },
+    {
+      "step": 6,
+      "text": "Top the chicken with the reserved Parmesan and the mozzarella."
+    },
+    {
+      "step": 7,
+      "text": "Return the dish to the oven for 5 minutes, until the mozzarella is melted.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 8,
+      "text": "Serve the chicken and sauce with the drained spaghetti."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "chicken",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer",
+    "pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246099/easy-chicken-parmesan/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21301189fc9ae2e413b4962acca06e1042cce59e5fc8fb3ad58eade5216c20db",
+    "normalized_text_hash": "76e3e1e8546513f74f125382e091fd67e8e77152e4b3928fd1505d90e8e77f06",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:26:16.039Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

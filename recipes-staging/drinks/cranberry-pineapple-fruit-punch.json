@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-pineapple-fruit-punch",
+  "name": "Cranberry-Pineapple Fruit Punch",
+  "subtitle": "A bright, minty fruit drink served over ice",
+  "description": "Combine cranberry and pineapple juices with chopped fruit and mint for a colorful, refreshing punch.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "litre"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cranberry-juice",
+      "item": "cranberry juice",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "orange-sliced",
+      "item": "orange sliced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "handful-of-mint-leaves",
+      "item": "handful of mint leaves"
+    },
+    {
+      "ingredient_id": "apple-cored-and-chopped",
+      "item": "apple cored and chopped",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the cranberry juice and pineapple juice into a large pitcher. Add the chopped pineapple, mint leaves, and apple."
+    },
+    {
+      "step": 2,
+      "text": "Stir gently to combine, then add the sliced orange and ice. Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "non-alcoholic",
+    "fruit-punch",
+    "cranberry",
+    "pineapple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pitcher",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/crangria",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3c5b918f132fcfb044f198e3ae2885c83978567660173d82e1607e88b31d350c",
+    "normalized_text_hash": "c9534a98bc64136478777cdf5d79cd9f6bc7418f032c7f4f192891f240f8b072",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:16:40.478Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

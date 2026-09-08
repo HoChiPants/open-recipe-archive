@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "french-dressing",
+  "name": "French Dressing",
+  "subtitle": "Sweet-tangy dressing with onion and garlic",
+  "description": "A smooth, sweet-tart dressing made by whisking oil, ketchup, vinegar, and aromatics together.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the white sugar, ketchup, vinegar, finely chopped onion, and Worcestershire sauce in a bowl until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Mince or press the garlic and whisk it into the mixture."
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk in the vegetable oil until the dressing is evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a covered container and chill before serving."
+    }
+  ],
+  "tags": [
+    "dressing",
+    "condiment",
+    "american",
+    "salad-topping"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "covered container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232759/homemade-french-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e8094ae5ef642c8dfb526bc50fd830471c9f3967291af518dfc6532a721e5e8c",
+    "normalized_text_hash": "8d5e2ce18f985d77694c7fdda5afcd143f8eb2e924dd09544ef9dc2d2fa03e5f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:39:13.831Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

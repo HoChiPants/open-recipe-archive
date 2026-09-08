@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sriracha-pickled-eggs",
+  "name": "Sriracha Pickled Eggs",
+  "subtitle": "Spicy refrigerator-pickled eggs with onion",
+  "description": "Hard-boiled eggs chilled in a tangy vinegar and sriracha brine with sliced onion.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 2895
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "sriracha-hot-sauce",
+      "item": "sriracha hot sauce",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hard-boiled-eggs",
+      "item": "hard-boiled eggs",
+      "quantity": 12,
+      "preparation": "peeled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the vinegar, water, sliced onion, sriracha, and sea salt in a saucepan. Warm the sriracha with the mixture as it heats."
+    },
+    {
+      "step": 2,
+      "text": "Bring the brine to a simmer, then remove it from the heat.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Place the peeled hard-boiled eggs in a clean heatproof container and pour the warm brine over them."
+    },
+    {
+      "step": 4,
+      "text": "Cool, cover, and refrigerate the eggs until fully chilled and flavored, about 48 hours 15 minutes.",
+      "timer_minutes": 2895
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "spicy",
+    "pickled-eggs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242425/sriracha-pickled-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab53ec50e2a52fe11ef3b078089b589d92edda313a1355bdbcb3539aeb64ac08",
+    "normalized_text_hash": "30a77729cb029051c463751c96b5d5c2f9522d924d76e2fa7706f0f29b68b450",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:47:42.291Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

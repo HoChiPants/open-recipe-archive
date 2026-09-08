@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "labneh",
+  "name": "Labneh",
+  "subtitle": "Strained Yogurt Spread",
+  "description": "A thick, tangy yogurt spread seasoned with salt and finished with olive oil.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 16,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the yogurt and salt together until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mixture to a cheesecloth-lined strainer set over a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate until the yogurt is thick and set, about 24 hours.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 4,
+      "text": "Transfer the strained yogurt to a bowl and stir in the olive oil."
+    },
+    {
+      "step": 5,
+      "text": "Serve chilled."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "lebanese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "cheesecloth",
+    "fine-mesh strainer",
+    "bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/83303/labneh-lebanese-cream-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "83bb69c27196a9159aeb8bbf3e239a7dc2bfebd96e2d6a98cf6356d4f5aa3a4e",
+    "normalized_text_hash": "be1a23ba6c2993b9da6a388f1567d0aa03d8ee98efd35b4dbd0f08fb15420009",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:46:26.117Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

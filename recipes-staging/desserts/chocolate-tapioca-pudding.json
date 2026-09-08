@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-tapioca-pudding",
+  "name": "Chocolate Tapioca Pudding",
+  "subtitle": "A smooth stovetop pudding with cocoa and chocolate.",
+  "description": "Cook quick tapioca with sweetened milk, egg, cocoa, and chopped chocolate, then chill until softly set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "quick-cooking-tapioca",
+      "item": "quick-cooking tapioca",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chocolate",
+      "item": "chocolate",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk, tapioca, and sugar in a saucepan. Heat over medium, stirring frequently, until the mixture begins to thicken and the tapioca is tender, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Whisk the chopped chocolate and cocoa powder together. Gradually whisk some hot pudding into the beaten egg, then return the egg mixture to the saucepan. Cook, stirring constantly, until the pudding reaches 160°F and is fully set enough to coat a spoon."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chocolate-cocoa mixture and vanilla extract until smooth and blended."
+    },
+    {
+      "step": 4,
+      "text": "Cool the pudding for 20 minutes, then portion and serve.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pudding",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219820/chocolate-tapioca-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "815cdee5f2437f8ff6de7a1c57404cc904112a907613a4d6bc161dc46f75bf8c",
+    "normalized_text_hash": "c993ae59a8c0ed196a7395fc60c352d1cdf854159122f19c0f00dc288cc89b30",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:38:49.951Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

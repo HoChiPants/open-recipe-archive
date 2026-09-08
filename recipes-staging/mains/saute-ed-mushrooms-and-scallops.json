@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "saute-ed-mushrooms-and-scallops",
+  "name": "Sautéed Mushrooms and Scallops",
+  "subtitle": "Tender bay scallops with seasoned mushrooms",
+  "description": "A quick skillet main dish combining browned mushrooms, aromatics, and bay scallops in butter.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "bay-scallops",
+      "item": "bay scallops",
+      "quantity": 9,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the mushrooms, cumin, and black pepper. Sauté for 5 minutes, until lightly browned.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the onion and garlic, then sauté for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the bay scallops and stir for about 3 minutes, until opaque and cooked through.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "skillet",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/274447/sauteed-mushrooms-and-scallops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aae6b22b869719e91b6798475ffb9cbc2bfd7cdeb0ddf8d426993e98698ec5b0",
+    "normalized_text_hash": "9b120b63f7bd531e55a603e73ce9062f8616273ebcd7236859ac7976c1ea8bf8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:53:41.518Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

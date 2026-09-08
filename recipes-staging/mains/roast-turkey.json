@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-turkey",
+  "name": "Roast Turkey",
+  "subtitle": "Stuffed turkey roasted with butter and stock",
+  "description": "A large stuffed turkey roasted at a moderate temperature, with stock added to keep the pan moist.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 240,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "18-pound-whole-turkey",
+      "item": "(18 pound) whole turkey",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "prepared-stuffing",
+      "item": "prepared stuffing",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "turkey-stock",
+      "item": "turkey stock",
+      "quantity": 1.5,
+      "unit": "quarts",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Set a roasting rack in a roasting pan."
+    },
+    {
+      "step": 2,
+      "text": "Remove the turkey giblets if present. Rinse the turkey and pat it dry, then place it on the rack."
+    },
+    {
+      "step": 3,
+      "text": "Loosely fill the cavity with the prepared stuffing. Rub the turkey with softened butter and season with salt and freshly ground black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Pour part of the divided turkey stock into the roasting pan. Roast the turkey, uncovered, for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Add more of the divided turkey stock to the pan as needed during roasting. Continue roasting until the thickest part of the thigh and the center of the stuffing each reach 165°F on a food thermometer.",
+      "timer_minutes": 210
+    },
+    {
+      "step": 6,
+      "text": "Transfer the turkey to a carving board and let it rest before carving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "roast-turkey",
+    "holiday",
+    "dinner",
+    "american",
+    "poultry"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "roasting rack",
+    "food thermometer",
+    "carving board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/56348/a-simply-perfect-roast-turkey/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "31afe550779be6d77db60d7cc3a3ac151e5f4b77d4d039b90a71eb61465cdd08",
+    "normalized_text_hash": "b259b65933a1b7828b7539c58c4531a50d8772dd1690ba127930b2aa19e5826d",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:08:08.753Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

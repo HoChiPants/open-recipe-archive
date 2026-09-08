@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-tortilla-chips",
+  "name": "Corn Tortilla Chips",
+  "subtitle": "Crisp, salted wedges for dipping or snacking",
+  "description": "Fry corn tortilla wedges until golden and crisp, then season while warm.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "6-inch-corn-tortillas",
+      "item": "(6 inch) corn tortillas",
+      "quantity": 12,
+      "preparation": "cut into 6 wedges each"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the frying oil to 375°F in a deep, heavy pan, using a thermometer to monitor the temperature."
+    },
+    {
+      "step": 2,
+      "text": "Fry the tortilla wedges in batches for about 2 minutes, turning as needed, until crisp and lightly golden. Drain on paper towels.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Season the hot chips with salt to taste and serve."
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "mexican-inspired",
+    "fried",
+    "crispy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "deep heavy pan",
+    "food thermometer",
+    "tongs",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23936/corn-tortilla-chips/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e093e24b587920ef492b36307691137d282b527a9a24e6ac02270fe755a07fec",
+    "normalized_text_hash": "6d516587f9395d513bb82e6d3f43aec41197fe6c4602359a13b0fbc0109ae6c0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:09:47.495Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

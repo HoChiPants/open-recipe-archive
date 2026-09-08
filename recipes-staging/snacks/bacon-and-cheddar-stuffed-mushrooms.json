@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-and-cheddar-stuffed-mushrooms",
+  "name": "Bacon and Cheddar Stuffed Mushrooms",
+  "subtitle": "Savory mushroom caps with a crisp bacon-cheese filling",
+  "description": "Mushroom caps filled with bacon, onion, butter, and melted Cheddar, then baked until hot and golden.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "crimini-mushrooms",
+      "item": "crimini mushrooms",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until crisp. Transfer it to a plate, cool slightly, and crumble."
+    },
+    {
+      "step": 3,
+      "text": "Clean the mushrooms, remove the stems, and arrange the caps in a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter in a skillet over medium heat. Add the onion and cook until softened."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the crumbled bacon and half of the Cheddar until combined."
+    },
+    {
+      "step": 6,
+      "text": "Spoon the filling into the mushroom caps and sprinkle with the remaining Cheddar."
+    },
+    {
+      "step": 7,
+      "text": "Bake until the mushrooms are tender and the cheese is melted.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "mushrooms",
+    "bacon",
+    "cheddar",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21061/bacon-and-cheddar-stuffed-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d49f65ef7c918bb343284946985111dce9e7acc0f3e98f94f621d76fe68bffa3",
+    "normalized_text_hash": "b0fdf4cc334ef252e2296973e1137519706d73eb4f05777d52a2470c0873701e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:37:17.931Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

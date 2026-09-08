@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "campfire-baked-potatoes",
+  "name": "Campfire Baked Potatoes",
+  "subtitle": "Foil-wrapped potatoes cooked over an open fire",
+  "description": "Butter-softened baking potatoes are wrapped in foil and cooked over a campfire until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sheets-heavy-duty-aluminum-foil",
+      "item": "sheets heavy-duty aluminum foil",
+      "quantity": 8
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse and dry the potatoes, then prick each one several times with a fork."
+    },
+    {
+      "step": 2,
+      "text": "Spread softened butter over the potatoes. Wrap each potato securely in two sheets of heavy-duty aluminum foil."
+    },
+    {
+      "step": 3,
+      "text": "Place the foil packets in hot campfire coals or on a grate over the fire. Cook until the potatoes are tender when pierced with a knife, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Carefully open the packets and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "campfire",
+    "fork",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/106518/campfire-baked-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "689f979888f25a2bbc2b2480d7f1120c3fac011ab183b97214be9264bb402226",
+    "normalized_text_hash": "f4bff2a45b485e4dcdf528e4edc6d9dbc27f89cc581d296855552f99c8c7ad46",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:47:37.578Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

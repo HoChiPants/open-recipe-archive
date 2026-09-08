@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spiced-pumpkin-seeds",
+  "name": "Spiced Pumpkin Seeds",
+  "subtitle": "Crisp, savory roasted seeds",
+  "description": "Pumpkin seeds coated with buttery margarine, savory seasonings, and Worcestershire sauce, then slowly baked until crisp.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "raw-whole-pumpkin-seeds",
+      "item": "raw whole pumpkin seeds",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 275°F."
+    },
+    {
+      "step": 2,
+      "text": "In a bowl, stir together the melted margarine, salt, garlic salt, and Worcestershire sauce. Add the pumpkin seeds and toss until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Spread the seasoned seeds in an even layer on a baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, stirring once or twice, until crisp and lightly browned.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "american",
+    "savory",
+    "baked"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13839/spiced-pumpkin-seeds/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2cbff6aeecdfbaabf60a07672e5f02cdf79527e9826db8424c6951edbc68e588",
+    "normalized_text_hash": "1e2af0d3e69ccb2615eae4efebd9552ba1aace7fa3b3b2dd346597ae93f2d1d1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:24:40.597Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

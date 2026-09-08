@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "foil-wrapped-vegetables",
+  "name": "Foil-Wrapped Vegetables",
+  "subtitle": "Tender seasonal vegetables cooked in sealed foil packets",
+  "description": "Sliced potatoes, onion, green beans, and fresh herbs are seasoned, oiled, and baked in foil packets until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "new-potatoes",
+      "item": "new potatoes",
+      "quantity": 2.5,
+      "unit": "pounds",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "sweet-potato",
+      "item": "sweet potato",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "vidalia-onions",
+      "item": "Vidalia onions",
+      "quantity": 2,
+      "preparation": "sliced 1/4 inch thick"
+    },
+    {
+      "ingredient_id": "fresh-green-beans",
+      "item": "fresh green beans",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cut into 1 inch pieces"
+    },
+    {
+      "ingredient_id": "sprig-fresh-rosemary",
+      "item": "sprig fresh rosemary",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sprig-fresh-thyme",
+      "item": "sprig fresh thyme",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven. Combine the new potatoes, sweet potato, onions, green beans, rosemary, and thyme in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add 2 tablespoons olive oil and season with salt and pepper; toss to coat."
+    },
+    {
+      "step": 3,
+      "text": "Lay out large sheets of foil and divide the vegetables among them. Drizzle with the remaining olive oil, then fold and seal the foil into packets."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the packets on a baking sheet and bake for 30 minutes, or until the potatoes and vegetables are tender.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "aluminum foil",
+    "baking sheet",
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25478/foil-wrapped-veggies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5cdaa842812952575f991465864f7580aee0dacdcdccdf62adb9e7cedf030115",
+    "normalized_text_hash": "4199d75922b25ec3b79894a277c6247101218ae6f8e40b09edb0c305abd293b1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:16:46.551Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 30,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

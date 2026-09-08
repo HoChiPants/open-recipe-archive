@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "deep-fried-turkey",
+  "name": "Deep-Fried Turkey",
+  "subtitle": "Crisp-skinned turkey seasoned simply and fried until fully cooked.",
+  "description": "A whole turkey is seasoned with salt and pepper, lowered carefully into hot peanut oil, then drained and rested before carving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-oil-for-frying",
+      "item": "peanut oil for frying",
+      "quantity": 3.5,
+      "unit": "gallons"
+    },
+    {
+      "ingredient_id": "10-pound-whole-turkey",
+      "item": "(10 pound) whole turkey",
+      "quantity": 1,
+      "preparation": "neck and giblets removed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set up the fryer outdoors on a stable, nonflammable surface, away from buildings and anything overhead. Keep a fire extinguisher suitable for grease fires nearby."
+    },
+    {
+      "step": 2,
+      "text": "Pat the turkey completely dry. Check that it is fully thawed, and remove the neck and giblets if needed."
+    },
+    {
+      "step": 3,
+      "text": "Season the turkey inside and out with the salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Add the peanut oil to the fryer, keeping the level below the fill line, and heat it to 350°F."
+    },
+    {
+      "step": 5,
+      "text": "Turn off the burner briefly. Wearing protective gloves, place the turkey on the fryer rack and lower it slowly into the oil. Relight the burner only after the turkey is settled and the oil is stable."
+    },
+    {
+      "step": 6,
+      "text": "Fry at 350°F until the thickest part of the breast and innermost part of the thigh reach 165°F on a food thermometer, about 35 minutes total; adjust the heat as needed to maintain the oil temperature.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Turn off the burner before carefully lifting the turkey from the oil. Drain it on the rack, then let it rest for 15 minutes before carving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "deep-fried",
+    "turkey"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "peanuts"
+  ],
+  "equipment": [
+    "outdoor turkey fryer",
+    "fryer rack",
+    "long-handled thermometer",
+    "food thermometer",
+    "protective heat-resistant gloves"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215412/simple-deep-fried-turkey/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1accd57360559c83d10a22d3df38aa2a275d9effa59a6cb0ec16fa8d7332f230",
+    "normalized_text_hash": "eb68be4cd56980a15abc9191801f8bbf49e4d6872fbf440e73c94506ba51fe44",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:26:39.059Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

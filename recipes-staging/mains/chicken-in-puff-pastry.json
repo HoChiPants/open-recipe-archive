@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-in-puff-pastry",
+  "name": "Chicken in Puff Pastry",
+  "subtitle": "Creamy chicken wrapped in flaky pastry",
+  "description": "Chicken breasts filled with chive cream cheese and enclosed in puff pastry shells for a golden baked main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "4-ounce-skinless",
+      "item": "(4 ounce) skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "cream-cheese-with-chives",
+      "item": "cream cheese with chives",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "puff-pastry-shells",
+      "item": "puff pastry shells",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Season the chicken with salt and pepper. Heat the vegetable oil in a skillet over medium-high heat, add the chicken, and cook for 5 minutes, turning as needed. Stir in the cream cheese with chives until warmed and combined.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Prepare the puff pastry shells according to their shape, then open or flatten them enough to fill. Spoon the chicken and cream cheese mixture into the shells and fold the pastry over the filling to enclose it."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the filled pastries to a baking sheet and bake until golden brown and the chicken reaches 165°F at the center.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "pastry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27951/nancys-chicken-in-puff-pastry/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b9f52669da3757a98115a77b49680a5335eee6bc48060686484ccd29cdf6c571",
+    "normalized_text_hash": "b40c0b89bc7e7dfce657134bf7240e47485f2a830b70af94a8bad83d43537fb3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:08:02.511Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

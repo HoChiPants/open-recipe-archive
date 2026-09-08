@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-bellini",
+  "name": "Peach Bellini",
+  "subtitle": "A sparkling peach cocktail for one",
+  "description": "Peach purée topped with champagne and finished with a fresh peach garnish.",
+  "meal_type": "drink",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pureed-peaches",
+      "item": "pureed peaches",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fluid-ounces-champagne",
+      "item": "fluid ounces champagne",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "peach-slice",
+      "item": "peach slice",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the pureed peaches into a champagne glass."
+    },
+    {
+      "step": 2,
+      "text": "Add the champagne and stir gently to combine."
+    },
+    {
+      "step": 3,
+      "text": "Cut the peach slice if needed and place it on the rim as a garnish."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "sparkling",
+    "peach"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "champagne glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228767/peach-bellini/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "09d6cfd8aa17ea8952b0dfc932fa2276e515e3df43070abb10186ec1aac0d217",
+    "normalized_text_hash": "b52b8bab42cc587058b27ddad1bdbed503084d8e685c11ea69e6bd6fea98a79b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:57:11.700Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

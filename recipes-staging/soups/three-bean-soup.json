@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "three-bean-soup",
+  "name": "Three Bean Soup",
+  "subtitle": "A hearty soup of beans, peppers, and tomatoes",
+  "description": "A simple American soup that combines three types of beans with sautéed peppers, onion, tomatoes, and broth.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "yellow-bell-pepper",
+      "item": "yellow bell pepper",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "black-beans",
+      "item": "black beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "kidney-beans",
+      "item": "kidney beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "pinto-beans",
+      "item": "pinto beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "tomatoes-with-green-chile-peppers",
+      "item": "tomatoes with green chile peppers",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce, diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil in a large pot over medium heat. Add the onion, green bell pepper, yellow bell pepper, and tomatoes with green chile peppers."
+    },
+    {
+      "step": 2,
+      "text": "Stir and cook until the vegetables begin to soften.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the chicken broth, black beans, kidney beans, and pinto beans. Stir to combine."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the soup is hot and steaming. If the broth contains poultry, use a food thermometer to verify the soup reaches 165°F.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "soup",
+    "beans",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25754/three-bean-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c6c40d4d24780566396efdca468822d0a97a126497ec7722e97fa3ac866cffc",
+    "normalized_text_hash": "824c3eaa4394fa8d10460b54b98e7602315c138824fd931240d80677303b8c82",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:06:20.480Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

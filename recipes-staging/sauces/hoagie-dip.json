@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hoagie-dip",
+  "name": "Hoagie Dip",
+  "subtitle": "A creamy deli-style dip with cheese, meats, and fresh toppings",
+  "description": "Combine a seasoned mayonnaise base with sliced cheese, deli meats, onion, lettuce, and tomatoes, then serve with torn hoagie rolls for dipping.",
+  "meal_type": "sauce",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "processed-american-cheese",
+      "item": "processed American cheese",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cooked, thinly sliced"
+    },
+    {
+      "ingredient_id": "genoa-salami",
+      "item": "Genoa salami",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "head-iceberg-lettuce",
+      "item": "head iceberg lettuce",
+      "quantity": 0.5,
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "hoagie-rolls",
+      "item": "hoagie rolls",
+      "quantity": 12,
+      "preparation": "torn into pieces for dipping"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the mayonnaise and dried oregano together in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the sliced processed American cheese and thinly sliced Genoa salami for assembly."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mayonnaise mixture to a serving dish and stir in the sliced cheese."
+    },
+    {
+      "step": 4,
+      "text": "Add the diced onion, shredded lettuce, and diced tomatoes, stirring until combined."
+    },
+    {
+      "step": 5,
+      "text": "Serve with the torn hoagie roll pieces for dipping."
+    }
+  ],
+  "tags": [
+    "dip",
+    "appetizer",
+    "no-cook",
+    "deli-style"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "serving dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23938/hoagie-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e2ab6e8c03d4cf4bf623c234b5b71ad0850a85bf043255492eb4d63d73fe441",
+    "normalized_text_hash": "9bc8883bf9d00db9d93d239b75573ad1667e98be6adb73823d54341bd3283ea4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:34:08.394Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

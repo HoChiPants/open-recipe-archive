@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "graham-cracker-cream-pie",
+  "name": "Graham Cracker Cream Pie",
+  "subtitle": "A chilled vanilla pudding pie with a light whipped topping",
+  "description": "An easy no-bake dessert made with vanilla pudding, milk, and whipped topping in a graham cracker crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-prepared-graham-cracker-crust",
+      "item": "(9 inch) prepared graham cracker crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "frozen-whipped-topping",
+      "item": "frozen whipped topping",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the milk into a mixing bowl and add the instant vanilla pudding mix. Whisk until combined."
+    },
+    {
+      "step": 2,
+      "text": "Let the pudding mixture stand for 10 minutes to thicken.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Fold in the thawed whipped topping until evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the filling into the prepared graham cracker crust and smooth the top."
+    },
+    {
+      "step": 5,
+      "text": "Chill for at least 90 minutes before serving.",
+      "timer_minutes": 90
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "no-bake",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15638/graham-cracker-cream-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a50f42f52ad5dae352af73e69fb56e0fe47d7a444957c413c526a3aa837120f2",
+    "normalized_text_hash": "0c2d354251eff4d1cfd26b88830395eaa7e90a03e9a064946a18daeb4d9e4e8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:48:33.124Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

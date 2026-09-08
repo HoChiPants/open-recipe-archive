@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "german-style-quark",
+  "name": "German-Style Quark",
+  "subtitle": "Creamy cultured dairy spread made in the oven",
+  "description": "Bake whole-milk buttermilk with cream, drain it into a thick curd, and whisk until smooth.",
+  "meal_type": "other",
+  "cuisine": "German",
+  "yield": {
+    "quantity": 28,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 135,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-milk-buttermilk",
+      "item": "whole-milk buttermilk",
+      "quantity": 0.5,
+      "unit": "gallon"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 200°F."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the buttermilk to an oven-safe baking dish and combine it with the heavy whipping cream."
+    },
+    {
+      "step": 3,
+      "text": "Cook until the mixture forms a thick curd, about 120 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Transfer the buttermilk curds to a cheesecloth-lined strainer and drain for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Whisk the drained mixture until smooth, then prepare for serving."
+    }
+  ],
+  "tags": [
+    "quark",
+    "german",
+    "dairy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "oven-safe baking dish",
+    "cheesecloth-lined strainer",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237361/easy-made-german-quark/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8baac5ff083ac0090bbdb6964d8bc6ea3a88cab03d30b1a8ae73e2d1ff777f4d",
+    "normalized_text_hash": "07557696a3662045417b84756bd83adc28fc40cc24c6b74a54e1dae707c23f63",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:37:32.997Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

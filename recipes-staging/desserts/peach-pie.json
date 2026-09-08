@@ -1,0 +1,177 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-pie",
+  "name": "Peach Pie",
+  "subtitle": "Juicy peaches in a flaky double crust",
+  "description": "A classic American fruit pie made with fresh peaches, a lightly spiced filling, and a crisp pastry crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 85,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-freestone-peaches",
+      "item": "fresh freestone peaches",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "tiny-pinch-salt",
+      "item": "tiny pinch salt",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "pastry-for-a-10-inch-double-crust-pie",
+      "item": "pastry for a 10-inch double crust pie",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "cut into tiny pieces"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the peaches with half of the cup of sugar and the salt. Let stand for 30 minutes, then drain the accumulated juices into a saucepan.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Add the lemon juice to the peach juices and simmer briefly. Remove from the heat and let cool while preparing the filling."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the remaining cup sugar with the flour and cornstarch. Stir the mixture into the peaches with the cayenne and cinnamon, coating the fruit evenly."
+    },
+    {
+      "step": 5,
+      "text": "Line a 10-inch pie plate with half of the pastry. Add the peach filling and dot it with the butter."
+    },
+    {
+      "step": 6,
+      "text": "Cut the remaining pastry into strips or shapes, arrange it over the filling, and seal and crimp the edges."
+    },
+    {
+      "step": 7,
+      "text": "Whisk the cream with the remaining tablespoon sugar and brush it over the pastry."
+    },
+    {
+      "step": 8,
+      "text": "Bake until the crust is golden and the filling is bubbling, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 9,
+      "text": "Cool the pie before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-pie",
+    "peaches",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "10-inch pie plate",
+    "saucepan",
+    "whisk",
+    "pastry brush"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239145/chef-johns-peach-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a48e07ad8e21dde789925f865be020fa27d7f9e6ab01808a4d4cc84502e9977b",
+    "normalized_text_hash": "af93b8a73a9868b3a73798810b526595c71a3220d4b1f8cd9f9e2939f75c2927",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:38:26.439Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

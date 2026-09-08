@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-french-toast",
+  "name": "Sweet French Toast",
+  "subtitle": "Crisp cornflake-coated toast with maple and cinnamon",
+  "description": "Bread slices are dipped in a maple-cinnamon custard, coated with crumbled cornflakes, and pan-cooked until golden. Dust with confectioners' sugar before serving.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 2.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cornflakes-cereal",
+      "item": "cornflakes cereal",
+      "quantity": 0.33300000429153,
+      "unit": "cup",
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the milk, eggs, maple syrup, vanilla extract, and cinnamon in a shallow bowl until combined."
+    },
+    {
+      "step": 2,
+      "text": "Spread the crumbled cornflakes in a separate shallow dish."
+    },
+    {
+      "step": 3,
+      "text": "Heat a skillet over medium heat and add the vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Dip each bread slice in the egg mixture, turning to coat, then press it into the cornflakes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Cook the coated bread in batches until golden brown, about 5 minutes per batch, turning as needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Dust with the confectioners' sugar and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "french-toast",
+    "cornflake-coating"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow bowls",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21726/sweet-french-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ca705021e543e83db133b0d8b1b00ea0ddfe828e801debfa27b7ea3566a95e67",
+    "normalized_text_hash": "da5101704fa8cf11b9dfa9e64a7b6748a5c2a667f43c18ba48dbf9ff472db98a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:25:15.754Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

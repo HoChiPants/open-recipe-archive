@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sausage-with-red-cabbage",
+  "name": "Sausage with Red Cabbage",
+  "subtitle": "Tender cabbage and apple with savory sausage",
+  "description": "A hearty skillet meal combining tangy red cabbage, sweet apple, onion, and browned kielbasa.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-red-cabbage",
+      "item": "head red cabbage",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "preparation": "cored and diced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 3,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "wine-vinegar",
+      "item": "wine vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kielbasa-sausage",
+      "item": "kielbasa sausage",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into 1 inch pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cabbage, apple, lemon juice, water, and part of the salt in a saucepan. Simmer until the cabbage begins to soften."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a large skillet for 15 minutes. Add the butter and cook the onion until softened.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Add the cabbage mixture, remaining salt, pepper, vinegar, and sausage to the skillet. Cook until the cabbage is tender and the sausage reaches 160°F internally.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Toss the sausage through the cabbage and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "skillet-meal",
+    "sausage",
+    "cabbage"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22397/sausage-smothered-in-red-cabbage/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "003877ecfbdd9032bae6777f1677f480d30edc99cb1761e30337a152a37c565c",
+    "normalized_text_hash": "da41df0301017dd66bbf677ec09832badda8a85f66a385dfeff17043633cd013",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:51:19.545Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

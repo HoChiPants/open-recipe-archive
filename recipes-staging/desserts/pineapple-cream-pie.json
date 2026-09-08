@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-cream-pie",
+  "name": "Pineapple Cream Pie",
+  "subtitle": "A chilled pineapple custard pie with a buttery finish",
+  "description": "Cook a simple pineapple custard, fill a baked crust, and chill until set for a cool, creamy dessert.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, crushed, drained"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "9-inch-baked-pie-crust",
+      "item": "(9 inch) baked pie crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm a saucepan over medium heat. Whisk together the sugar, flour, and salt."
+    },
+    {
+      "step": 2,
+      "text": "Gradually add the milk, stirring continuously, and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the pineapple, egg yolks, and butter. Continue cooking and stirring for 5 minutes, until thick and the mixture reaches 160°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Pour the filling into the baked pie crust and refrigerate for 3 hours, until set.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "pineapple",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237829/grandma-ts-pineapple-cream-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ebac09bd08f9a83fb99277a67bcfe06111bc804ed2f45783f562c6845fa53618",
+    "normalized_text_hash": "6929b513c95af9f7f9f123887b3a3173cabd82fd5e90fa11b306241ff0162d02",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:54:55.415Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

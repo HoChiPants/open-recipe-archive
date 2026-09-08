@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-burger-sauce",
+  "name": "Classic Burger Sauce",
+  "subtitle": "A tangy, creamy sauce for burgers",
+  "description": "Combine mayonnaise, ketchup, chopped cornichons, and mustard for a quick condiment with creamy texture and balanced tanginess.",
+  "meal_type": "sandwich",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cornichons-drained-and-finely-chopped",
+      "item": "cornichons drained and finely chopped",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "american-mustard",
+      "item": "American mustard",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the mayonnaise, ketchup, cornichons, and mustard together in a small bowl until evenly combined."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "burger-sauce",
+    "burgers",
+    "sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "small bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-burger-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3467a97ab29dde5a712b5410b6b4c45e69ac92f2435c4d9407bb430c6dd6bdd4",
+    "normalized_text_hash": "9a8254ece20d4f5b22a9dbc221592510dcdd890c6d5b3e80ced8a7f6d32b220c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:29:42.353Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

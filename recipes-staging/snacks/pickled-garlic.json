@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickled-garlic",
+  "name": "Pickled Garlic",
+  "subtitle": "Tangy garlic with sweet pepper",
+  "description": "Garlic and red bell pepper steep in a sweet, vinegar-based pickling liquid for a sharp, snackable condiment.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 15,
+    "inactive_minutes": 30240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.66000002622604,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-dry-mustard",
+      "item": "ground dry mustard",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "celery-seed",
+      "item": "celery seed",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the peeled garlic and chopped red bell pepper in a clean heatproof container."
+    },
+    {
+      "step": 2,
+      "text": "Combine the vinegar and sugar in a saucepan over medium heat. Stir in the dry mustard and celery seed."
+    },
+    {
+      "step": 3,
+      "text": "Bring the vinegar mixture to a simmer and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Pour the hot liquid over the garlic and pepper, then let the mixture cool."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate for 21 days before serving.",
+      "timer_minutes": 30240
+    }
+  ],
+  "tags": [
+    "snack",
+    "condiment",
+    "pickled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25544/pickled-garlic/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "504f9cca6b89d0cbcf70eea4fda9f752e046bdbddf6c38b93eef7dba8b023fb9",
+    "normalized_text_hash": "8d57171278404c2c007e845eee59933a13877133f154ae3da3de74b1f1a2b204",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:16:48.412Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

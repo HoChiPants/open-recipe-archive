@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "clam-sauce-with-linguine",
+  "name": "Clam Sauce with Linguine",
+  "subtitle": "A savory clam sauce for pasta",
+  "description": "Tender linguine is paired with clams, garlic, onion, butter, and white wine in a simple savory sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-linguine",
+      "item": "dried linguine",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "clams",
+      "item": "clams",
+      "quantity": 4,
+      "unit": "can",
+      "preparation": "6.5 ounce, minced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-white-wine",
+      "item": "dry white wine",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of salted water to a boil. Cook the linguine for about 11 minutes, until tender, then drain.",
+      "timer_minutes": 11
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a saucepan over medium heat. Add the onion and garlic and cook for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Drain the clams. Stir them into the saucepan with the butter, white wine, and salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Simmer the sauce for about 20 minutes, until thickened.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Serve the clam sauce over the drained linguine."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18148/the-best-clam-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "405013f5998e7cae05261b0d2212570a8314ceb866545cee8f516c487c8e5e16",
+    "normalized_text_hash": "0570d434c585b0bc4376d4621d3c453f609211d1139ffc7e8059c4e06a158242",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:56:10.646Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "steamed-garlic-prawns",
+  "name": "Steamed Garlic Prawns",
+  "subtitle": "Shell-on prawns with a savory garlic sauce",
+  "description": "Large prawns are steamed with minced garlic, light soy sauce, and brandy until opaque and ready to serve.",
+  "meal_type": "main",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tiger-prawns-with-shell",
+      "item": "tiger prawns with shell",
+      "quantity": 20,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "light-soy-sauce",
+      "item": "light soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 5,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "brandy",
+      "item": "brandy",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the shell-on prawns for steaming and arrange them in a heatproof dish."
+    },
+    {
+      "step": 2,
+      "text": "Combine the light soy sauce, minced garlic, and brandy."
+    },
+    {
+      "step": 3,
+      "text": "Pour the sauce over the prawns and place the dish in a steamer."
+    },
+    {
+      "step": 4,
+      "text": "Steam until the prawns are opaque throughout, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the prawns to a serving dish and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chinese",
+    "steamed",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "shellfish",
+    "soy"
+  ],
+  "equipment": [
+    "steamer",
+    "heatproof dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19514/steamed-garlic-prawns-chinese-style/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "43d761e897fcd5bc067dd6afa322f2aeb4ecf16068c7fa9aa7378317c2a22418",
+    "normalized_text_hash": "4f0d69affd195ef3bdf3619b1abf9395880d1ebcbb3cf3069e4f49d0070650be",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:51:55.667Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

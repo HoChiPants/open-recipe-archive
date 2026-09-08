@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-shards",
+  "name": "Chocolate Shards",
+  "subtitle": "Three chocolates, melted and set into crisp pieces",
+  "description": "A simple layered chocolate confection made by melting three chocolates, spreading them thin, and cutting the set slab into shards.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dark-chocolate",
+      "item": "dark chocolate",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk-chocolate",
+      "item": "milk chocolate",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "white-chocolate",
+      "item": "white chocolate",
+      "quantity": 25,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the dark, milk, and white chocolates in a microwave-safe bowl. Microwave in short bursts, stirring between each, until melted and smooth; avoid overheating."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the melted chocolate to a parchment-lined tray."
+    },
+    {
+      "step": 3,
+      "text": "Spread it into a thin, even layer and lightly swirl the surface if desired."
+    },
+    {
+      "step": 4,
+      "text": "Cool until completely set."
+    },
+    {
+      "step": 5,
+      "text": "Cut or break the firm chocolate into shards."
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "dessert",
+    "confectionery",
+    "decoration"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe bowl",
+    "parchment-lined tray",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-shards",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9bbf492a6ec87871483f6613db235aa7d47240ab5a4e39a3d5e036a2775db0df",
+    "normalized_text_hash": "d04feb3ba1bc38310d396b093719583ca02c2647861fb2e7cd104ab6361b92f0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:13:01.409Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

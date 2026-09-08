@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-carnitas",
+  "name": "Beef Carnitas",
+  "subtitle": "Slow-roasted beef with chile and warm spices",
+  "description": "Chuck roast is seasoned with green chiles, garlic, oregano, cumin, and chili powder, then slowly roasted until tender enough to shred.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chuck-roast",
+      "item": "chuck roast",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "green-chile-peppers",
+      "item": "green chile peppers",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4 ounce, chopped"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the chuck roast in an oven-safe baking dish or pot."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the green chiles, chili powder, oregano, cumin, garlic, and salt, then spread the mixture over the roast."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 4 hours, or until the beef reaches at least 145°F and is tender enough to shred.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 5,
+      "text": "Let the roast rest for 3 minutes, then shred the meat before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican-inspired",
+    "beef",
+    "slow-roasted",
+    "shredded-meat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven-safe baking dish or pot",
+    "food thermometer",
+    "forks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16901/ronaldos-beef-carnitas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6f66311abf5c1db1527acb429393b3a3cf420b4f80fbb88134a01ac9bf0f188a",
+    "normalized_text_hash": "7354f129945eb99f3f2bf4e6c9d219942de2a0fd3fefcf491908f8fee06564e0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:27:40.108Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

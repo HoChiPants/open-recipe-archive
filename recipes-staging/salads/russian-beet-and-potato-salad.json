@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "russian-beet-and-potato-salad",
+  "name": "Russian Beet and Potato Salad",
+  "subtitle": "A chilled salad of tender vegetables, pickles, and dill",
+  "description": "Boiled beets, potatoes, and carrots are combined with diced pickles, green onions, and a simple oil-vinegar dressing, then chilled before serving.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beets",
+      "item": "beets",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "dill-pickles",
+      "item": "dill pickles",
+      "quantity": 3,
+      "unit": "small",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "champagne-vinegar",
+      "item": "champagne vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 3,
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the beets in water until tender, about 30 minutes. Drain and let cool.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Simmer the potatoes and carrots separately or together until tender, about 20 minutes. Drain and cool.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Peel and cut the cooled beets, potatoes, and carrots into bite-size pieces."
+    },
+    {
+      "step": 4,
+      "text": "Combine the vegetables with the diced dill pickles and chopped green onions."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the vegetable oil, champagne vinegar, and salt together, then pour over the salad and toss to coat."
+    },
+    {
+      "step": 6,
+      "text": "Chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "salad",
+    "side-dish",
+    "russian",
+    "eastern-european",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "mixing bowl",
+    "knife",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213106/russian-beet-and-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0e45416b09f679b8332596f963d3578142efafca8e7bdd3707ed3f21dd630eee",
+    "normalized_text_hash": "9e18f26e96a3c4184d60d0307b2b970d6d342a0f0e7513defd3faa72542159c2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:34:08.487Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

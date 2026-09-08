@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "overnight-chia-oats",
+  "name": "Overnight Chia Oats",
+  "subtitle": "A creamy make-ahead oat breakfast",
+  "description": "Combine oats, mashed banana, chia seeds, and vanilla almondmilk, then chill until thick for an easy overnight breakfast.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "almond-breeze-vanilla-almondmilk",
+      "item": "Almond Breeze Vanilla almondmilk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the almondmilk, rolled oats, mashed banana, and chia seeds together in a container until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 8 hours, or until the oats and chia seeds are thick.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "no-cook",
+    "make-ahead",
+    "overnight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl or lidded container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/269573/overnight-chia-oats/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "232eabebe7ef0d906d8eeef1c6ae0df6b54489425a30eb9f3eef7f4b4243a63b",
+    "normalized_text_hash": "202b40b7ec7e4b54014c5dac3e9f1309c65f128f6379affeec52f6d3e132d3bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:43:36.529Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

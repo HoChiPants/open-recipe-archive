@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-pumpkin-pie",
+  "name": "Creamy Pumpkin Pie",
+  "subtitle": "A warmly spiced custard pie with a smooth pumpkin filling.",
+  "description": "Combine mashed pumpkin, condensed milk, eggs, and spices in a deep-dish crust, then bake until the center is fully set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-pumpkin",
+      "item": "fresh pumpkin",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cooked and mashed"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "9-inch-deep-dish-pie-crust",
+      "item": "(9 inch) deep dish pie crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the pumpkin, condensed milk, and eggs together. Stir in the cinnamon, ginger, nutmeg, and salt until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Pour the filling into the deep-dish pie crust."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 425°F for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Reduce the oven temperature to 350°F and continue baking for 40 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pumpkin",
+    "pie",
+    "american"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23771/creamy-pumpkin-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5cc2f2a30d8dc6c592589eb2facc48954df12e69a195efb58aa2e411f5ec833e",
+    "normalized_text_hash": "06db0f1afb717713b08e7b9e996b78e79793c719e7e44fe9cf1a895020d6fc88",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:41:50.209Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

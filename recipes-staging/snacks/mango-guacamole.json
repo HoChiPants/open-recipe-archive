@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-guacamole",
+  "name": "Mango Guacamole",
+  "subtitle": "Creamy avocado dip with bright mango and lime",
+  "description": "A fresh, sweet-savory guacamole combining mashed avocado with mango, onion, lime, garlic, cilantro, and salt.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "avocados",
+      "item": "avocados",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "peeled and pitted"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mango",
+      "item": "mango",
+      "quantity": 1,
+      "preparation": "peeled, pitted, and chopped"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mash the peeled, pitted avocados in a bowl until mostly smooth, leaving some small pieces for texture."
+    },
+    {
+      "step": 2,
+      "text": "Add the chopped red onion, mango, lime juice, minced garlic, salt, and cilantro. Stir until evenly combined, then serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221288/savory-mango-guacamole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9b9191915e43337c307975fe5c53458a50a77cc94124b25302088a12595ea64e",
+    "normalized_text_hash": "079b4a6ef33d15420ec7a039b38037ed3ed28dc34c1dd1a8dbabffecb569dc78",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:55:16.363Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

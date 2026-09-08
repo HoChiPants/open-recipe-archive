@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-chicken-salad",
+  "name": "Barbecue Chicken Salad",
+  "subtitle": "Grilled chicken over greens with beans, corn, and a tangy dressing",
+  "description": "A hearty American-style salad with barbecue-coated chicken, crisp lettuces, vegetables, and a creamy barbecue dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "head-red-leaf-lettuce",
+      "item": "head red leaf lettuce",
+      "quantity": 1,
+      "preparation": "rinsed and torn"
+    },
+    {
+      "ingredient_id": "head-green-leaf-lettuce",
+      "item": "head green leaf lettuce",
+      "quantity": 1,
+      "preparation": "rinsed and torn"
+    },
+    {
+      "ingredient_id": "fresh-tomato",
+      "item": "fresh tomato",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "bunch-cilantro",
+      "item": "bunch cilantro",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, drained"
+    },
+    {
+      "ingredient_id": "black-beans",
+      "item": "black beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "french-fried-onions",
+      "item": "French fried onions",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "2.8 ounce"
+    },
+    {
+      "ingredient_id": "ranch-dressing",
+      "item": "Ranch dressing",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a grill to medium-high. Grill the chicken, turning as needed, until it reaches 165°F at the thickest part; allow it to rest for 10 minutes, then slice.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 2,
+      "text": "In a large serving bowl, toss together the red leaf lettuce, green leaf lettuce, tomato, cilantro, corn, and black beans. Scatter the French fried onions over the salad."
+    },
+    {
+      "step": 3,
+      "text": "Stir the Ranch dressing and barbeque sauce together until smooth. Toss the sliced chicken with the barbeque sauce, then arrange it over the salad and serve with the dressing."
+    }
+  ],
+  "tags": [
+    "chicken-salad",
+    "grilled-chicken",
+    "barbecue",
+    "american",
+    "main-dish"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "instant-read thermometer",
+    "large bowl",
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72631/amys-barbecue-chicken-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e637c62e7791834dcaa43b9e4e5d3a2fbd16f95e54f5b53a12c244cad3daf789",
+    "normalized_text_hash": "23e700aff381d7432f6cf73302eec55d99dcf57feac92f6905acb35793c22451",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:04:20.261Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

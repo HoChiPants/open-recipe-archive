@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-pound-cake",
+  "name": "Cherry Pound Cake",
+  "subtitle": "A tender cream-cheese cake studded with cherries",
+  "description": "A classic baked dessert with a rich cream-cheese batter, almond and vanilla flavor, and pockets of bright maraschino cherries.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 80
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "maraschino-cherries",
+      "item": "maraschino cherries",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "drained and halved"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Combine the 2 cups flour, baking powder, and salt in a bowl. Toss the drained cherry halves with the ¼ cup flour in a separate bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the butter, cream cheese, and sugar until smooth. Add the eggs, vanilla extract, and almond extract, then whisk until fully blended."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the dry mixture into the wet mixture until just combined. Fold in the floured cherries."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 80 minutes, until the center is firm and the cake reaches at least 160°F on a food thermometer.",
+      "timer_minutes": 80
+    },
+    {
+      "step": 6,
+      "text": "Let the cake cool in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "baking",
+    "cherry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "baking pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/52607/cherry-pound-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "99e0dcd477840710e7f3e1c35611230270ec7364a7250c74a8bfbd49be34e762",
+    "normalized_text_hash": "8a64674c59b167153c52fa23e621c1c94359fffc0ca6f2cf6b825476e478645f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:49:36.649Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

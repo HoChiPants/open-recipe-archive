@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-smoked-turkey",
+  "name": "Honey-Smoked Turkey",
+  "subtitle": "Herb-rubbed turkey finished with a honey glaze",
+  "description": "Smoke a whole turkey over mesquite with fresh herbs and spices, then brush it with honey for a savory-sweet finish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 165
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mesquite-wood-chips",
+      "item": "mesquite wood chips",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "fresh-sage",
+      "item": "fresh sage",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "celery-salt",
+      "item": "celery salt",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "12-pound-whole-turkey",
+      "item": "(12 pound) whole turkey",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "12-ounce-jar-honey",
+      "item": "(12 ounce) jar honey",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a smoker or covered grill for indirect cooking. Prepare the mesquite wood chips according to the equipment instructions."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sage, black pepper, celery salt, and basil. Rub the turkey with the vegetable oil, then coat it evenly with the herb mixture."
+    },
+    {
+      "step": 3,
+      "text": "Place the turkey breast-side up in the smoker or on the indirect-heat side of the grill. Add the wood chips and cook for about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Continue smoking and add more wood chips as needed. After the first hour, brush the turkey with honey and continue cooking until the thickest part of the breast and thigh reaches 165°F, about 165 minutes total.",
+      "timer_minutes": 105
+    },
+    {
+      "step": 5,
+      "text": "Brush with the remaining honey near the end of cooking, then transfer the turkey to a cutting board and rest briefly before carving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "smoked",
+    "turkey",
+    "poultry"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "smoker or covered grill",
+    "meat thermometer",
+    "cutting board",
+    "basting brush"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20764/honey-smoked-turkey/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "adb1f426d183b0602e3a10e2b4573c4572056b6d8d4967594b2481bf3ea7c5b9",
+    "normalized_text_hash": "229b6e2c40b299b4ba8cbd886e9f3cc25352a8ffbcc967f9db9c2883ec1dad6b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:49:51.743Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

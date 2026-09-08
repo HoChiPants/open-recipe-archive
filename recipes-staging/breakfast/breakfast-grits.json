@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breakfast-grits",
+  "name": "Breakfast Grits",
+  "subtitle": "Creamy cheddar grits for a warm, savory breakfast",
+  "description": "Tender hominy grits finished with sharp Cheddar, butter, and black pepper.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hominy-grits",
+      "item": "hominy grits",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the water and salt to a simmer in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the hominy grits. Continue whisking for 1 minute to prevent lumps.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Cook the grits, stirring frequently, until tender and thickened.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir in the shredded Cheddar, butter, and black pepper until the cheese and butter are melted and fully incorporated."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "grits",
+    "cheddar",
+    "southern-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14020/breakfast-grits/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "19ed6e6dfa77be9db8a352b1d4a68af565b7941d9e2560823ca05858dfc65658",
+    "normalized_text_hash": "e4e3ada8a33e2358e72db703774d96c9f864c8bebfc603cfafae6718eea58a72",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:02.767Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

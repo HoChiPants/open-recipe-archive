@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-spinach-and-tomato-pasta",
+  "name": "Creamy Spinach and Tomato Pasta",
+  "subtitle": "A quick baked-cheese pasta with greens and tomatoes",
+  "description": "Melted cheese, spinach, tomatoes, and onion coat pasta for a creamy, savory meal finished with Parmesan.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "x-150g-boursin-cheese",
+      "item": "x 150g Boursin cheese",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cherry-tomatoes",
+      "item": "cherry tomatoes",
+      "quantity": 20
+    },
+    {
+      "ingredient_id": "red-onion-finely-diced",
+      "item": "red onion finely diced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "few-sprigs-thyme-optional",
+      "item": "few sprigs thyme optional",
+      "optional": true
+    },
+    {
+      "ingredient_id": "frozen-spinach",
+      "item": "frozen spinach",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "pasta",
+      "item": "pasta",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "parmesan-finely-grated",
+      "item": "parmesan finely grated",
+      "quantity": 25,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven. Place the cheese, cherry tomatoes, diced onion, and optional thyme in an oven-safe baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the frozen spinach and bake until the cheese has melted, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Meanwhile, cook the pasta in boiling water until tender, about 12 minutes. Drain well.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Stir the pasta into the melted cheese and spinach mixture, then fold through the tomatoes and grated Parmesan."
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "creamy",
+    "spinach",
+    "tomatoes",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven-safe baking dish",
+    "large pot",
+    "colander",
+    "grater"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boursin-pasta",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b061a85f97a3c5ae765280bdcfc04d3f24737d01d9f67b0894f4cba866df53a0",
+    "normalized_text_hash": "ba648834516dcffebb6603915a5189295533700748ee83cd9668b9cfebdd52e7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:44:57.167Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

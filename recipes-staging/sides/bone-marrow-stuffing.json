@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bone-marrow-stuffing",
+  "name": "Bone Marrow Stuffing",
+  "subtitle": "Savory breadcrumb stuffing with herbs and diced marrow",
+  "description": "A rich, herb-flecked stuffing made with sautéed onion, bone marrow, and crisp white breadcrumbs.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rapeseed-oil",
+      "item": "rapeseed oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-finely-chopped",
+      "item": "onion finely chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dried-white-breadcrumbs",
+      "item": "dried white breadcrumbs",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bone-marrow-meat-ask-your-butcher-for-this-cut-into-2cm-dice",
+      "item": "bone marrow meat (ask your butcher for this) cut into 2cm dice",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bunch-thyme-leaves-finely-chopped",
+      "item": "bunch thyme leaves finely chopped",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "bunch-parsley-roughly-chopped",
+      "item": "bunch parsley roughly chopped",
+      "unit": "small"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and lightly grease a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Heat the rapeseed oil in a pan. Add the onion and diced bone marrow meat, then sauté for 10 minutes, until the onion softens and the meat is cooked through.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Combine the sautéed mixture with the breadcrumbs, thyme, and parsley. Transfer to the prepared dish and spread evenly."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 35 minutes, until golden brown and the center reaches 165°F.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "stuffing",
+    "side-dish",
+    "bone-marrow",
+    "herbs",
+    "roast-accompaniment"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "frying pan",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bone-marrow-stuffing",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "02433ef31a8a8da01e09862e34c1e686efd8c127267cc0f4e504bc68ac68d694",
+    "normalized_text_hash": "3be78addeefb410737948ced6b1c691f2f7ea8ba8e264347f59b5264a93509e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:43:06.454Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

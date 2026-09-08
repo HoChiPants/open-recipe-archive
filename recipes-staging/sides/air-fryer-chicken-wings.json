@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-chicken-wings",
+  "name": "Air Fryer Chicken Wings",
+  "subtitle": "Crisp wings with your choice of seasoning",
+  "description": "Seasoned chicken wings cooked in an air fryer and served with optional dipping sauce.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-wings",
+      "item": "chicken wings",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "sunflower-or-olive-oil",
+      "item": "sunflower or olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "seasoning-of-your-choice-use-salt-and-pepper",
+      "item": "seasoning of your choice (use salt and pepper",
+      "preparation": "or 1/2-1 tsp of either smoky BBQ, ras-el-hanout, garlic granules, celery salt or garam masala)"
+    },
+    {
+      "ingredient_id": "dipping-sauce-to-serve-optional",
+      "item": "dipping sauce to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 2,
+      "text": "Toss the chicken wings with the oil and chosen seasoning until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the wings in the air-fryer basket and cook for 35 minutes, or until tender.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking for 5 minutes, then verify that the thickest pieces reach 165°F with a food thermometer.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Serve hot with the optional dipping sauce."
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "chicken",
+    "wings",
+    "side-dish",
+    "snack",
+    "buffet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fried-chicken-wings",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "795c1754582f4399db0257d453597656b0aa99f4bedb8c273b8164e3dc67ba20",
+    "normalized_text_hash": "dcf116062f64e786bcfcd4e0d3c7694343a0857858fa4909b4106efcf8ab0e1e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:23:06.550Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "watermelon-sherbet",
+  "name": "Watermelon Sherbet",
+  "subtitle": "Cool, creamy watermelon dessert",
+  "description": "Fresh watermelon is blended with lemon, sweetened, set with gelatin, and folded with whipped cream before freezing.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "inactive_minutes": 270
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "seedless-watermelon",
+      "item": "seedless watermelon",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "25-ounce-envelope-unflavored-gelatin",
+      "item": "(.25 ounce) envelope unflavored gelatin",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "chilled-heavy-cream",
+      "item": "chilled heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the watermelon, sugar, lemon juice, salt, and cold water. Stir well and let stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Blend the watermelon mixture until smooth, then transfer it to a saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Add the gelatin, warm the mixture over low heat, and cook for 2 minutes, stirring until the gelatin dissolves.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Chill the watermelon mixture for 2 hours, or until cold.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Whisk the chilled heavy cream until thick and soft peaks form."
+    },
+    {
+      "step": 6,
+      "text": "Fold the whipped cream into the chilled watermelon mixture."
+    },
+    {
+      "step": 7,
+      "text": "Freeze until firm, about 2 hours, then serve.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "frozen-dessert",
+    "watermelon"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "saucepan",
+    "whisk",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215568/watermelon-sherbet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6929f72790cc0906c148f4d1b1fb01e4f4ad3a10e3e126d040b23d8cf4abe2ab",
+    "normalized_text_hash": "5fc2f3991aa4fec7b3c1d1580efb97dfefb9ddaffd58318e4a52e7cbb21e2657",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:57:49.132Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

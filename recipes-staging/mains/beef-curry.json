@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-curry",
+  "name": "Beef Curry",
+  "subtitle": "Slow-simmered beef with warm spices and tomato",
+  "description": "A rich, gently spiced curry of tender braising steak in a tomato-based sauce, finished with garam masala, cream, and coriander.",
+  "meal_type": "main",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "oil",
+      "item": "oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "braising-steak",
+      "item": "braising steak",
+      "quantity": 500,
+      "unit": "g",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-chopped",
+      "item": "onion chopped",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed",
+      "item": "garlic cloves crushed",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "thumb-sized-piece-of-ginger-finely-grated",
+      "item": "thumb sized piece of ginger finely grated",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "hot-chilli-powder",
+      "item": "hot chilli powder",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "turmeric",
+      "item": "turmeric",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cardamom-pods-crushed",
+      "item": "cardamom pods crushed",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "can-chopped-tomatoes",
+      "item": "can chopped tomatoes",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "beef-stock",
+      "item": "beef stock",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garam-masala",
+      "item": "garam masala",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream (optional)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "bunch-coriander-roughly-chopped",
+      "item": "bunch coriander roughly chopped",
+      "quantity": "1/2",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "naan-bread-or-rice",
+      "item": "naan bread or rice",
+      "preparation": "to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil and butter in a heavy pot over medium heat. Add the onion and cook for about 15 minutes, stirring occasionally, until golden brown.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Stir in the garlic, ginger, chilli powder, turmeric, ground coriander, cardamom, and half of the chopped coriander. Cook briefly until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Add the diced beef and stir to coat. Pour in the tomatoes, beef stock, and sugar, then bring to a gentle simmer.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer gently for about 2 hours, stirring occasionally, until the beef is tender. Confirm the beef reaches at least 145°F, then rest it for 3 minutes before serving.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Mix in the garam masala and optional cream. Taste and adjust the consistency with a brief uncovered simmer if needed."
+    },
+    {
+      "step": 6,
+      "text": "Serve with the remaining chopped coriander and naan bread or rice."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "indian",
+    "beef",
+    "curry",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "heavy pot with lid",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beef-curry",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9064ca11d7cb25f748d7cd04b92dbe3a581499b95c86e38567169ff2bdc90932",
+    "normalized_text_hash": "18b7fff04afa9a5004b739684e66a173e196b22f3bd404c63d8d4dfcfd1fd9d9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:18:48.666Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

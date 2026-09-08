@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "horseradish-cream-sauce",
+  "name": "Horseradish Cream Sauce",
+  "subtitle": "A tangy, creamy accompaniment for savory dishes",
+  "description": "Combine horseradish, mayonnaise, mustard, and lightly sweetened whipped cream for a cool, pungent sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-horseradish",
+      "item": "prepared horseradish",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "whipped to soft peaks"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-black-pepper-to-taste",
+      "item": "salt and black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the mayonnaise, prepared horseradish, and Dijon mustard together until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the whipped cream with the sugar, salt, and black pepper until seasoned, then fold it into the horseradish mixture until smooth."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "american",
+    "condiment"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213941/horseradish-cream-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7012efe5063a09e6081fc9e3f9d9f120cafc0829e8d7a858de867f1ad9383328",
+    "normalized_text_hash": "7ad48c8d969e37c0d4277ee5654244382efda5e2321a89281acdbeb3b8526897",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:50:31.076Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

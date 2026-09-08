@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dijon-roasted-cauliflower",
+  "name": "Dijon Roasted Cauliflower",
+  "subtitle": "Tender florets with a savory mustard coating",
+  "description": "Cauliflower is coated with Dijon mustard, aromatics, and oil, then roasted until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "shallot",
+      "item": "shallot",
+      "quantity": 1,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced, or more to taste"
+    },
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into florets"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the Dijon mustard and vegetable oil in a large bowl until smooth. Stir in the shallot and garlic."
+    },
+    {
+      "step": 3,
+      "text": "Add the cauliflower, season with salt and pepper, and toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cauliflower to a baking dish or sheet pan and bake for about 45 minutes, until tender.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "roasted-vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "oven",
+    "large bowl",
+    "baking dish or sheet pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240109/dijon-roasted-cauliflower/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9f24cc86696611e3835fce85a370c15b4ede262c4096ea7bf3bac59bfd5472c4",
+    "normalized_text_hash": "dc50ef96aca1ba4e31a829bb9680f43dbec2f5c56625246daca87db78a977498",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:06:58.066Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

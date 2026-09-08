@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-chimichangas",
+  "name": "Chicken Chimichangas",
+  "subtitle": "Crisp tortillas filled with seasoned chicken, peppers, beans, and cheese",
+  "description": "Chicken, vegetables, green chillies, and cheese are wrapped in tortillas with optional refried beans, then baked or fried and served with enchilada sauce and garnishes.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-plus-60ml-if-frying-rather-than-baking",
+      "item": "vegetable oil plus 60ml (if frying rather than baking)",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "skinless-and-boneless-chicken-thigh-fillets",
+      "item": "skinless and boneless chicken thigh fillets",
+      "quantity": 5,
+      "preparation": "or about 300g leftover cooked chicken"
+    },
+    {
+      "ingredient_id": "onion-chopped",
+      "item": "onion chopped",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "red-pepper-roughly-chopped",
+      "item": "red pepper roughly chopped",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "green-chillies-from-a-jar",
+      "item": "green chillies from a jar",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese-grated-plus-extra-for-serving",
+      "item": "Monterey Jack cheese grated plus extra for serving",
+      "quantity": 85,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "chipotle-chilli-powder",
+      "item": "chipotle chilli powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "flour-tortillas",
+      "item": "flour tortillas",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "can-refried-beans-optional",
+      "item": "can refried beans (optional)",
+      "quantity": 400,
+      "unit": "g",
+      "optional": true
+    },
+    {
+      "ingredient_id": "red-enchilada-sauce",
+      "item": "red enchilada sauce",
+      "quantity": 240,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "soured-cream-and-a-handful-of-chopped-coriander",
+      "item": "soured cream and a handful of chopped coriander",
+      "preparation": "to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat 3 tbsp oil in a skillet over medium heat. Cook the chicken and half of the chopped green chillies until the chicken reaches 165°F internally, about 8 minutes. If using leftover cooked chicken, warm it through instead.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Add the onion and red pepper; cook until softened, about 5 minutes. Stir in the garlic powder, cumin, and chipotle chilli powder.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Shred or chop the chicken and combine it with the vegetables, remaining green chillies, and 85 g Monterey Jack."
+    },
+    {
+      "step": 4,
+      "text": "Warm the tortillas until pliable. Spread optional refried beans over each tortilla, add the chicken mixture, and fold in the sides and roll tightly."
+    },
+    {
+      "step": 5,
+      "text": "For baking, heat the oven to 400°F and arrange the chimichangas seam-side down on a baking sheet. Brush with the cooking oil and bake for about 25 minutes, turning once if needed, until crisp.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "For frying instead, heat the remaining 60 ml oil in a skillet and fry the chimichangas seam-side down, turning as needed, until crisp and hot throughout."
+    },
+    {
+      "step": 7,
+      "text": "Serve with red enchilada sauce, extra Monterey Jack, soured cream, and chopped coriander."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "tex-mex",
+    "chicken",
+    "tortillas",
+    "baked",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chimichanga",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "303b310d76e0f10cb634922179e32558a5240f1c3c014e742a7f59cf5659dfa7",
+    "normalized_text_hash": "3ed99b8d4513caefa5ad8cd6c4c228b0728533b6f1c6292a6ffaa298f9ee7528",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:40:59.229Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

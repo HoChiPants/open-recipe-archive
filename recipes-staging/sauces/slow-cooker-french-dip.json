@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-french-dip",
+  "name": "Slow Cooker French Dip",
+  "subtitle": "Tender beef sandwiches with warm au jus",
+  "description": "Slow-cooked sirloin is sliced and served on hoagie rolls with melted provolone and savory au jus.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-sirloin-roast",
+      "item": "beef sirloin roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "dry-au-jus-mix",
+      "item": "dry au jus mix",
+      "quantity": 1,
+      "unit": "packet",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "1-ounce-slices-provolone-cheese",
+      "item": "(1 ounce) slices provolone cheese",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "hoagie-rolls",
+      "item": "hoagie rolls",
+      "quantity": 8,
+      "preparation": "split lengthwise"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beef sirloin roast in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the water and dry au jus mix together, then pour the mixture over the roast."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the beef is tender and reaches at least 145°F in the thickest part. Remove it and let it rest for 3 minutes.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 4,
+      "text": "Slice the rested beef thinly against the grain."
+    },
+    {
+      "step": 5,
+      "text": "Fill the split hoagie rolls with beef and provolone cheese. Serve with the cooking liquid for dipping."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "slow-cooker",
+    "sandwich",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "slow cooker",
+    "measuring cup",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/99904/easiest-slow-cooker-french-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "833645dcf386729c768f9f0908fed820f39dcd39f16aa90d9e9461cf4f8b29ad",
+    "normalized_text_hash": "639aac4622c34d4cb2ac6139e46753635931b3700e12f4e1dccb7390bd8cef1a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:17:06.449Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

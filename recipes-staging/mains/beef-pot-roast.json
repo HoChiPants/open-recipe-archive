@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-pot-roast",
+  "name": "Beef Pot Roast",
+  "subtitle": "Slow-roasted beef with tender vegetables",
+  "description": "A savory oven-roasted pot roast served with potatoes, carrots, and onion.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 250
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "4-pound-beef-pot-roast",
+      "item": "(4 pound) beef pot roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dry-mustard",
+      "item": "dry mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 3,
+      "preparation": "peeled and cut into 2-inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Heat the vegetable oil in a large oven-safe pot over medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Sear the beef pot roast in the hot oil for 3 minutes, turning as needed.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Mix the brown sugar, salt, dry mustard, and black pepper. Coat the roast with the mixture."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the potatoes, carrots, and onion around the roast. Add the vinegar and water."
+    },
+    {
+      "step": 5,
+      "text": "Cover the pot and roast for 4 hours, or until the thickest part of the beef reaches 145°F.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 6,
+      "text": "Transfer the roast to a board and rest for at least 3 minutes before slicing. Serve with the vegetables.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "beef",
+    "one-pot"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "large oven-safe pot",
+    "food thermometer",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230980/my-favorite-pot-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5adf70118b1bd460a1f540a6f6819908f83069324105c759cc82487af04d4365",
+    "normalized_text_hash": "4e31944bc803ba4675ca3d231c2b5fa90449b77cd4aaf5ab787e2f9b7f0aadfb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:05:47.048Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

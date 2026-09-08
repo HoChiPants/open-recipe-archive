@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-corn",
+  "name": "Hot Corn",
+  "subtitle": "Creamy baked corn with jalapeño and cheddar",
+  "description": "A warm, cheesy corn casserole with a mild jalapeño kick, ready for a family-style side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 4,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "12-ounce-jar-jalapeno-peppers",
+      "item": "(12 ounce) jar jalapeno peppers",
+      "quantity": 1,
+      "preparation": "drained and diced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the cream cheese, butter, milk, and Cheddar in a saucepan, stirring until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine the drained corn and diced jalapeños with the cheese mixture, then whisk until evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a baking dish and bake until hot and bubbling, about 35 minutes.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24333/hot-corn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cf2ba1e10ceea5069227a8782d91d7b4ab487ba20d824948e0c71de04b569f41",
+    "normalized_text_hash": "1990fe37f80636e19b4204fed90bb9d7ccf51bfe29714e2427d796fda0bfcdef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:51:39.302Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

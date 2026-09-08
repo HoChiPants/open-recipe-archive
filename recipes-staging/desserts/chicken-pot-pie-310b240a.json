@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-pot-pie-310b240a",
+  "name": "Chicken Pot Pie",
+  "subtitle": "Creamy chicken and vegetables in a flaky double crust",
+  "description": "A savory American pie filled with creamy chicken, mixed vegetables, and softened cream cheese.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "diced chicken meat"
+    },
+    {
+      "ingredient_id": "frozen-mixed-vegetables",
+      "item": "frozen mixed vegetables",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    },
+    {
+      "ingredient_id": "9-inch-frozen-pie-crusts",
+      "item": "(9 inch) frozen pie crusts",
+      "quantity": 2,
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the condensed cream of chicken soup and softened cream cheese until smooth. Stir in the diced chicken and thawed mixed vegetables."
+    },
+    {
+      "step": 3,
+      "text": "Line a 9-inch pie plate with one thawed crust and spread in the filling. Cover with the second crust, seal the edges, and cut several vents in the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the crust is golden and the filling reaches 165°F in the center, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Let the pie rest briefly before slicing and serving."
+    }
+  ],
+  "tags": [
+    "american",
+    "chicken",
+    "savory-pie",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie plate",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15699/terrys-favorite-easy-chicken-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e43cddf688df62f12a99a0524331f5b9e83c632a6e39cbb7a46df99d2931afb2",
+    "normalized_text_hash": "cb3ad56bcdeaedab0f7d88fccf3cedaf8a9f8816023b6a8a4cf207e6b5c8563a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:45:52.424Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

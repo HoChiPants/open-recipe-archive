@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-risotto",
+  "name": "Chicken Risotto",
+  "subtitle": "Creamy pressure-cooker risotto with seasoned chicken",
+  "description": "A savory chicken risotto finished with Parmesan and parsley.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "skinless chicken thighs, chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "arborio-rice",
+      "item": "Arborio rice",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dry-white-wine",
+      "item": "dry white wine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 4.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "sprig-fresh-parsley",
+      "item": "sprig fresh parsley",
+      "quantity": 1,
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the oregano, thyme, paprika, 0.5 teaspoon salt, and 0.25 teaspoon pepper. Season the chopped chicken with the mixture."
+    },
+    {
+      "step": 2,
+      "text": "Set an electric pressure cooker to sauté. Warm the butter and olive oil until the butter melts."
+    },
+    {
+      "step": 3,
+      "text": "Add the chicken and cook until browned and cooked through, reaching 165°F in the thickest pieces. Transfer it to a plate."
+    },
+    {
+      "step": 4,
+      "text": "Add the onion and cook for 2 minutes. Stir in the garlic and cook briefly until fragrant.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Add the remaining butter and rice. Stir for 3 minutes to coat the grains.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Pour in the wine and cook for 2 minutes, stirring and scraping up any browned bits.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Stir in the onion, chicken stock, and cooked chicken. Lock the lid and cook under high pressure for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 8,
+      "text": "Let the pressure release naturally for 15 minutes, then release any remaining pressure carefully. Open the cooker once the pressure indicator has dropped.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 9,
+      "text": "Stir in the Parmesan. Season with salt and pepper to taste, garnish with parsley, and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "risotto",
+    "pressure-cooker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "electric pressure cooker",
+    "measuring spoons",
+    "wooden spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/278852/instant-pot-chicken-risotto/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "43b95be249da7f716b2d657f3449cf881cdfe347b0544cefdb69c521d0710c5d",
+    "normalized_text_hash": "61690fc52b35af2a02970c4e2ab39fc96636cd3db340c206f7fb93ed3b7f1676",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:03:52.722Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

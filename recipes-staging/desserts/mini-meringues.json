@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mini-meringues",
+  "name": "Mini Meringues",
+  "subtitle": "Light, crisp bites with a soft vanilla finish",
+  "description": "Small French-style meringues made from whipped egg whites, sugar, and vanilla, baked until crisp and fully set.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "inactive_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "superfine-sugar",
+      "item": "superfine sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F. Line a baking sheet with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites until foamy, then continue until they form firm peaks."
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk in the superfine sugar until the mixture is smooth and glossy."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the vanilla extract. Portion the meringue into 12 small mounds on the prepared sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, until dry and firm; for food safety, confirm an egg-based center reaches 160°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Turn off the oven and let the meringues cool inside for 25 minutes before serving.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dessert",
+    "french",
+    "meringue",
+    "vanilla",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19890/mini-meringues/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "abe3cd6042baecb702c661f9b9cf218f099673fa95b456421880e917f41360b3",
+    "normalized_text_hash": "2dd37ec7da0e8767e2ded693fb082c1ba681205b296dfb3025310fc4c841ffb9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:43:47.882Z",
+    "semantic_similarity": 24,
+    "structural_similarity": 32,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

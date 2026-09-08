@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "california-roll",
+  "name": "California Roll",
+  "subtitle": "Salmon, crab, avocado, and roe wrapped in nori",
+  "description": "A concise sushi roll combining cooked salmon, crab, avocado, seasoned rice, and roe in a sheet of nori.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh",
+      "item": "fresh",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "sushi-grade salmon fillet 1cm thick, skinned and boned (ask your fishmonger to do this for you)"
+    },
+    {
+      "ingredient_id": "sheet-of-nori",
+      "item": "sheet of nori",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "handful-cooked-sushi-rice-roughly-80g",
+      "item": "handful cooked sushi rice roughly 80g",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "tobiko-flying-fish-roe-or-masago-capelin-roe",
+      "item": "tobiko (flying fish roe) or masago (capelin roe)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "alternatively black or white sesame seeds"
+    },
+    {
+      "ingredient_id": "wasabi-optional",
+      "item": "wasabi (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "avocado-stoned-and-skin-removed",
+      "item": "avocado stoned and skin removed",
+      "quantity": "1/2",
+      "preparation": "sliced into 1cm pieces"
+    },
+    {
+      "ingredient_id": "white-crabmeat",
+      "item": "white crabmeat",
+      "quantity": 40,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the salmon until it reaches 145°F in the thickest part, or is opaque and flakes easily. Cool slightly, then separate into pieces.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Place the nori sheet on a bamboo mat or clean work surface. Spread the cooked sushi rice evenly over it, leaving a small strip uncovered at one edge."
+    },
+    {
+      "step": 3,
+      "text": "Sprinkle the roe or sesame seeds over the rice. Turn the sheet rice-side down if using an inside-out roll."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the salmon, crabmeat, avocado, and optional wasabi in a line near one edge."
+    },
+    {
+      "step": 5,
+      "text": "Roll firmly around the filling, tucking the edge in as you go. Moisten the uncovered nori strip to seal."
+    },
+    {
+      "step": 6,
+      "text": "Use a sharp, damp knife to cut the roll into pieces and serve."
+    }
+  ],
+  "tags": [
+    "sushi",
+    "seafood",
+    "salmon",
+    "crab",
+    "avocado",
+    "lunch",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "shellfish",
+    "sesame"
+  ],
+  "equipment": [
+    "bamboo mat",
+    "food thermometer",
+    "sharp knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-california-roll",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "42b6b82dc11a49a49872061034f40a8d689d65aa1deb996015f072c9f3bac88e",
+    "normalized_text_hash": "c4d39f38014e7d44354359ed08d3c05516af6f0e8a8b56ef47feed6ec82b91bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:30:11.308Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

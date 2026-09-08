@@ -1,0 +1,166 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-asparagus-and-cheddar-egg-bake",
+  "name": "Ham, Asparagus, and Cheddar Egg Bake",
+  "subtitle": "A savory egg casserole with vegetables, ham, and two cheeses.",
+  "description": "This American-style breakfast bake combines thawed asparagus, ham, peppers, and onion with a seasoned egg batter, then finishes with a melted cheese topping.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 25,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped cooked"
+    },
+    {
+      "ingredient_id": "frozen-cut-asparagus",
+      "item": "frozen cut asparagus",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-bell-peppers",
+      "item": "red bell peppers",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-tarragon",
+      "item": "dried tarragon",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Prepare a baking dish for the casserole."
+    },
+    {
+      "step": 2,
+      "text": "Combine the ham, asparagus, onion, red bell peppers, and black pepper in the prepared dish."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, milk, flour, Parmesan, tarragon, and salt until smooth. Pour the mixture over the ham and vegetables."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, until the center is nearly set.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle the Parmesan and Cheddar over the top, then bake for 5 minutes more, until the cheeses melt and the egg center is firm and fully set.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Let the bake rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "egg-casserole",
+    "ham",
+    "asparagus",
+    "baked-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24140/cheesy-ham-and-asparagus-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "500877f42674fba11303c84c74b7f83939ee1c78d4bb70a33c961d4918d4d1c9",
+    "normalized_text_hash": "ea09c478f228d3c6477a1b32fa99f5f12621b604cb055724a5e107c57277a6f0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:13:04.660Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

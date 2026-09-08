@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crawfish-chowder",
+  "name": "Crawfish Chowder",
+  "subtitle": "A creamy crawfish soup with corn and green onions",
+  "description": "A rich, gently spiced chowder combining crawfish, vegetables, creamy soups, and half-and-half.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bunch-green-onions",
+      "item": "bunch green onions",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-crawfish",
+      "item": "frozen crawfish",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cleaned"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-potato-soup",
+      "item": "condensed cream of potato soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, drained"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt 0.25 cup butter in a large pot over medium heat. Add the chopped green onions and cook until tender."
+    },
+    {
+      "step": 2,
+      "text": "In a separate skillet, melt 0.5 cup butter. Add the cleaned crawfish and sauté for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Warm the potato soup, mushroom soup, drained corn, softened cream cheese, and half-and-half in the pot, stirring until combined."
+    },
+    {
+      "step": 4,
+      "text": "Add the green onions and crawfish to the soup mixture. Stir in the cayenne pepper."
+    },
+    {
+      "step": 5,
+      "text": "Blend the chowder for 5 minutes, keeping it hot and stirring as needed.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "chowder",
+    "crawfish",
+    "creamy-soup",
+    "seafood",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23572/crawfish-chowder/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0a0723f330b404cfcd357909aabd5e548e6432b1af901f3ea271777c0e48e0b5",
+    "normalized_text_hash": "12d99ba3a5fa50da6ad59125d5267f820ff73818f4cf8f9b4e4c414b33c6bbe1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:25:03.171Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

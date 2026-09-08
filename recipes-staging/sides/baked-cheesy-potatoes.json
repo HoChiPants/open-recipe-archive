@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-cheesy-potatoes",
+  "name": "Baked Cheesy Potatoes",
+  "subtitle": "A creamy, savory potato casserole with bacon",
+  "description": "Thawed hash brown potatoes are combined with melted cheese, mayonnaise, onion, and bacon bits, then baked until hot and golden.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "processed-cheese",
+      "item": "processed cheese",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "frozen-hash-brown-potatoes",
+      "item": "frozen hash brown potatoes",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "2 pound, thawed"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "3-ounce-jar-real-bacon-bits",
+      "item": "(3 ounce) jar real bacon bits",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the processed cheese until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the thawed hash brown potatoes, mayonnaise, and chopped onion. Add the bacon bits and melted cheese, mixing until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and bake at 350°F for 60 minutes, until hot throughout and lightly browned.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "potato-casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25858/baked-cheesy-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f8573e0e753dc001d2dc462b4944133180ac9afccbb5e9ef21a317288a8509a1",
+    "normalized_text_hash": "bb10bf90c3f86bba86510c7e45e23f130d2a3c6894b143cedf18a384d9d44a9e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:44:44.276Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

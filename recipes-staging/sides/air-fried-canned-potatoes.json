@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fried-canned-potatoes",
+  "name": "Air-Fried Canned Potatoes",
+  "subtitle": "Crisp, golden potatoes with minimal prep",
+  "description": "Drain, dry, oil, and air-fry canned potatoes for an easy crisp-edged side dish.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 28
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "can-peeled-potatoes-in-water",
+      "item": "can peeled potatoes in water",
+      "quantity": 560,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sunflower-or-vegetable-oil",
+      "item": "sunflower or vegetable oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Drain the potatoes thoroughly and pat them dry. Toss with the oil until evenly coated."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Arrange the potatoes in the air-fryer basket in an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry for 25 minutes, shaking or turning the potatoes periodically, until golden and crisp outside.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "air-fryer",
+    "potatoes",
+    "canned-potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-roasted-canned-potatoes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8250207f8a39fbce38b0d6608ec345791a64301ab22e75a59c33285ac444df0d",
+    "normalized_text_hash": "447f2b918e2c6065ccde10b2150812d15a5b8c68a003a8895f52b7c7e44741f4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:21:42.718Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

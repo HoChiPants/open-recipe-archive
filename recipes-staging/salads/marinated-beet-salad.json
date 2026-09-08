@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "marinated-beet-salad",
+  "name": "Marinated Beet Salad",
+  "subtitle": "Sweet-tangy beets with red onion",
+  "description": "Canned beets and red onion soak in a warm mustard-vinegar dressing for a chilled salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-beets",
+      "item": "whole beets",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-mustard",
+      "item": "prepared mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the beets into bite-size pieces and combine them with the diced red onion."
+    },
+    {
+      "step": 2,
+      "text": "Heat the sugar and prepared mustard together for 10 minutes, stirring until combined.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the white wine vinegar to make the dressing."
+    },
+    {
+      "step": 4,
+      "text": "Pour the dressing over the beets and onion, then transfer to the refrigerator to marinate for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 5,
+      "text": "Serve chilled."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "make-ahead",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15620/marinated-beet-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1f95df10a8c5d0203e3d1f8608297052e44265ea109822458665fabdc6f3de20",
+    "normalized_text_hash": "1ae242e1236b9a494b01452ebeea1abc5a7a7d607a324f3a9e48ffbd1aa319f7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:21:22.052Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

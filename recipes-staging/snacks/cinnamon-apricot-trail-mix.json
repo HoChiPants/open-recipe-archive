@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-apricot-trail-mix",
+  "name": "Cinnamon-Apricot Trail Mix",
+  "subtitle": "A quick blend of popcorn, fruit, seeds, walnuts, and warm spice",
+  "description": "Combine crunchy popcorn and walnuts with sweet dried apricots, toasted seeds, and cinnamon for a simple single-serving snack.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "popcorn",
+      "item": "popcorn",
+      "quantity": 5,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dried-apricots-shredded",
+      "item": "dried apricots shredded",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "three-seed-mix",
+      "item": "three-seed mix",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "walnut-halves-snapped-in-half",
+      "item": "walnut halves snapped in half",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "a-few-pinches-of-ground-cinnamon-to-taste",
+      "item": "a few pinches of ground cinnamon to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the popcorn, shredded apricots, toasted seed mix, and walnut pieces to a small bowl."
+    },
+    {
+      "step": 2,
+      "text": "Sprinkle with cinnamon to taste and toss until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "snack",
+    "trail-mix",
+    "apricots",
+    "dried-fruit",
+    "popcorn",
+    "seeds",
+    "walnuts",
+    "cinnamon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "small bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cinnamon-apricot-trail-mix",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "38bd98cc022de95c3331f53679eb246045e88d9daf9fdfe3b2e0d740c58e9e24",
+    "normalized_text_hash": "061f0f234450d364c23422ae0f00be921366fdc9eb3f991e3788d88f3b72edd3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:27:23.443Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "steamed-artichokes",
+  "name": "Steamed Artichokes",
+  "subtitle": "Tender artichokes with lemon and garlic",
+  "description": "Whole artichokes are steamed with lemon juice, garlic, and bay leaf until the leaves and hearts are tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "artichokes",
+      "item": "artichokes",
+      "quantity": 2,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Trim the artichokes, removing the tough outer leaves and cutting off the tops."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the bay leaf and arrange the lemon juice, garlic, and bay leaf in the steaming liquid."
+    },
+    {
+      "step": 3,
+      "text": "Place the artichokes in a steamer over the simmering liquid, cover, and cook until tender when pierced, about 25–30 minutes.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "steamed",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "knife",
+    "steamer basket",
+    "saucepan",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221940/simple-steamed-artichokes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8a5a12cd2dd0d5488ed6cb9af25449b8732d8d0c3eeb08754e3c83971e61af88",
+    "normalized_text_hash": "7e520230ea06be0a733176122b832d8edba7d278a7a84e91aa86da1512e82594",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:29:06.927Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

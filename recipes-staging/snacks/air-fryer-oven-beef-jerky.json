@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-oven-beef-jerky",
+  "name": "Air Fryer Oven Beef Jerky",
+  "subtitle": "Seasoned beef strips slowly dried in an air fryer oven.",
+  "description": "A simple homemade beef jerky prepared with cured, seasoned London broil and dried at low heat.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 180,
+    "inactive_minutes": 540
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "london-broil",
+      "item": "London broil",
+      "quantity": 4,
+      "unit": "pounds",
+      "preparation": "thinly sliced and fat removed"
+    },
+    {
+      "ingredient_id": "jerky-seasoning",
+      "item": "jerky seasoning",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cure",
+      "item": "cure",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cure",
+      "item": "cure",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the jerky seasoning and both amounts of cure. Coat the sliced London broil evenly with the mixture."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate the seasoned beef.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Preheat the air fryer oven to 160°F and arrange the beef strips in a single layer with space between them."
+    },
+    {
+      "step": 4,
+      "text": "Dry the beef until firm, dry to the touch, and pliable. Check that the thickest pieces reach at least 145°F, then let them rest for 3 minutes.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 5,
+      "text": "Cool the jerky completely before serving or storing.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "beef",
+    "jerky",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279345/air-fryer-oven-beef-jerky/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ef3ee19123fb31f38e2f7e6ce6819abcfaedbcdd49d766d2d6a5e90427ac31c4",
+    "normalized_text_hash": "f4a2fe7abc85f0aaa9b5b74092e2763a373985572c77c4244ac83b74ad2177fe",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:31:18.833Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

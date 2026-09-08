@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sugar-free-frosting",
+  "name": "Sugar-Free Frosting",
+  "subtitle": "Creamy pudding-based frosting for cakes and cupcakes",
+  "description": "A quick, smooth frosting made by thickening sugar-free pudding with milk, blending it with cream cheese, and folding in whipped topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar-free-instant-pudding-mix",
+      "item": "sugar-free instant pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1.4 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-container-lite-frozen-whipped-topping",
+      "item": "(8 ounce) container lite frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the sugar-free instant pudding mix with the milk until combined and thickened."
+    },
+    {
+      "step": 2,
+      "text": "Beat the cream cheese until smooth, then mix in the thickened pudding mixture until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the thawed lite frozen whipped topping until the frosting is uniform and airy."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "sugar-free",
+    "no-cook",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "electric mixer or sturdy spoon",
+    "rubber spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17580/sugar-free-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1d3a4a350ef1ee23ca7f926d448fb7c65c1733f9284747a07a2308ec40e66054",
+    "normalized_text_hash": "cee5d9d3d879ececcff78accbf11ff1302afda2894d07c00ede386514b6eb8ee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:08:23.222Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coffee-walnut-eton-mess",
+  "name": "Coffee-Walnut Eton Mess",
+  "subtitle": "Cream, meringue, cake, and walnuts with coffee flavor",
+  "description": "A quick layered dessert combining softly whipped coffee cream with crushed meringue, cake cubes, and walnuts.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 2
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 400,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "coffee-essence",
+      "item": "coffee essence",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "walnut-halves",
+      "item": "walnut halves",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "meringue-nests",
+      "item": "meringue nests",
+      "quantity": 2,
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "coffee-walnut-cake-cut-into-cubes",
+      "item": "coffee walnut cake cut into cubes",
+      "quantity": 120,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the double cream and icing sugar until soft peaks form."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the coffee essence, vanilla extract, and cake cubes."
+    },
+    {
+      "step": 3,
+      "text": "Let the walnut halves and cake cubes stand for 2 minutes to cool and set.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Fold the walnut halves and crushed meringue into the cream mixture, then divide among four servings."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "coffee",
+    "eton-mess",
+    "meringue",
+    "walnuts",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "rubber spatula",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coffee-walnut-eton-mess",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "071a5482ad2cf4da14c09593b1df85e42e67077af72cf5f311e1197f9c3097d7",
+    "normalized_text_hash": "f1da0ea0492ac1454f76c7b6a546912d9657f88dba082510a607965c7a6d7b02",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:53:29.872Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

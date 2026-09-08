@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "yellow-cake-cream-cheese-bars",
+  "name": "Yellow Cake Cream Cheese Bars",
+  "subtitle": "A buttery cake base topped with a sweet, tangy cream cheese layer.",
+  "description": "These dessert bars combine a rich yellow cake crust with a smooth cream cheese topping, baked until fully set for clean slicing.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "15.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 8,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a baking pan for the batter."
+    },
+    {
+      "step": 2,
+      "text": "Mix the yellow cake mix with 2 eggs, the butter, and vanilla extract until a thick dough forms. Press it evenly into the pan."
+    },
+    {
+      "step": 3,
+      "text": "Beat the remaining 2 eggs with the confectioners' sugar and cream cheese until smooth. Spread this mixture over the cake layer."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 35 minutes, until the center is firm and reaches at least 160°F when checked with a food thermometer.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Cool, then cut into bars."
+    }
+  ],
+  "tags": [
+    "cake",
+    "dessert",
+    "bars",
+    "american",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7869/neiman-marcus-cake-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "952295ec79f3cc161c78bba6448afc89ed6a865ed9bf52bffbf6f6cacd97964c",
+    "normalized_text_hash": "b5bec74c8ef201adc8f9bc8448226e0c57a4d04659f3551393bbb8af210fd000",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:10:08.627Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

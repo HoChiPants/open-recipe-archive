@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-whiskey-sour",
+  "name": "Cranberry Whiskey Sour",
+  "subtitle": "A tart, frothy bourbon cocktail",
+  "description": "Cranberry and lemon juices balance bourbon in a lightly sweetened sour with a foamy egg-white finish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "bourbon",
+      "item": "bourbon",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cranberry-juice",
+      "item": "cranberry juice",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "agave-or-honey",
+      "item": "agave or honey",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the bourbon, cranberry juice, agave or honey, lemon juice, and egg white in a shaker. For safety, use a food thermometer to verify that the egg-containing mixture reaches 160°F before serving."
+    },
+    {
+      "step": 2,
+      "text": "Shake vigorously without ice to aerate the egg white."
+    },
+    {
+      "step": 3,
+      "text": "Add ice, shake again until chilled, and strain into two glasses."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "bourbon",
+    "cranberry",
+    "whiskey-sour"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cranberry-whiskey-sour",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c27c1cff1bfe9b3da48607991a2823dcf30f4dfe4c3b6a1da5b4631240fbbc4f",
+    "normalized_text_hash": "27b92961f3cf720c25c34368133193200288e10738b74a0f6f57a43bd9304122",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:17:10.425Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

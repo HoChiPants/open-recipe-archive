@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-cheese-and-caramelized-onion-quiche",
+  "name": "Bacon, Cheese, and Caramelized Onion Quiche",
+  "subtitle": "A savory egg custard with crisp bacon and sweet onions",
+  "description": "A flaky baked quiche layered with caramelized onion, bacon, cream cheese, and Cheddar.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 105,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-pie-crust",
+      "item": "(9 inch) unbaked pie crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Cook the bacon for 10 minutes, then drain and cool for 10 minutes before crumbling.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Fit the pie crust into a 9-inch pie dish. Brush it with the beaten egg, prick the bottom, and blind-bake for 15 minutes. Remove any weights and bake 5 minutes more.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a skillet over medium heat. Add the onion and stir for 5 minutes, then continue cooking until tender and caramelized, about 40 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Whisk the 2 eggs, sour cream, softened cream cheese, and Cheddar until combined. Mix in the salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Spread the caramelized onion in the crust, add the cheese mixture, and scatter the bacon over the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the center is firm and reaches 160°F on a food thermometer, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Cool the quiche for 10 minutes before slicing.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "quiche",
+    "savory-pie",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie dish",
+    "skillet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273436/bacon-cheese-and-caramelized-onion-quiche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bb0541f2b1d581bd63f6896b79966659ca4eae22105e616d089d2284d9c12500",
+    "normalized_text_hash": "8ca56bbca8824ba6ebd7ebd7a9f519b6cedea550ebb8ed4df80c4c29b3a7460a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:12.222Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sugar-free-graham-cracker-crust",
+  "name": "Sugar-Free Graham Cracker Crust",
+  "subtitle": "A crisp baked base for chilled or baked desserts",
+  "description": "Crushed graham crackers and melted butter form a simple crust baked until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 8,
+    "inactive_minutes": 1
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-cracker-squares",
+      "item": "graham cracker squares",
+      "quantity": 16,
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the crushed graham cracker squares and melted butter until evenly moistened."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a pie pan and press it firmly over the bottom and up the sides."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 350°F until the crust is set, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Let the crust cool for 1 minute before filling.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "pie-crust",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "pie pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17083/graham-cracker-crust-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5de8335c8a2bf8bc07b9a484880813269d311eb1558c82627988c30b0842a5f2",
+    "normalized_text_hash": "80340f828982579c02d3bffdee81ee6194d5dc953a5e6a46da5c4460fa734378",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:08:30.742Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-loaf",
+  "name": "Orange Loaf",
+  "subtitle": "Tender citrus loaf with a simple orange glaze",
+  "description": "A lightly nutty loaf flavored with fresh orange juice and zest, finished with a sweet citrus glaze.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fresh-orange-juice",
+      "item": "fresh orange juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-orange-zest",
+      "item": "grated orange zest",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a loaf pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the flour, baking powder, salt, and chopped walnuts."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the margarine and 1 cup sugar until blended, then whisk in the eggs one at a time."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the fresh orange juice and grated orange zest. Add the flour mixture and mix just until combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the loaf is set and a tester comes out clean.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Combine the orange juice, ¼ cup sugar, and grated orange zest in a small saucepan. Warm until the sugar dissolves, then set aside."
+    },
+    {
+      "step": 7,
+      "text": "Pour the orange mixture over the warm loaf and let it cool for 10 minutes before slicing.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "snack",
+    "baking",
+    "orange",
+    "loaf-cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat",
+    "tree-nuts",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowls",
+    "whisk",
+    "small saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6912/orange-loaf/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8a742a086fc715eaa25bd94e6d796d71ed27987abbcb31a7b347054c96dba6d4",
+    "normalized_text_hash": "7e62fa9e7655956726e9b131dd7fea768908eb2e44f4ea893d23db9fa13d8194",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:34:52.150Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

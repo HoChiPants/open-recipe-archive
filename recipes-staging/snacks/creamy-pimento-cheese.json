@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-pimento-cheese",
+  "name": "Creamy Pimento Cheese",
+  "subtitle": "A chilled cheddar-and-pimento spread",
+  "description": "A creamy, tangy cheese spread with sharp Cheddar, diced pimentos, and a light garlic note.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "extra-sharp-cheddar-cheese",
+      "item": "extra-sharp Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "4-ounce-jar-diced-pimentos",
+      "item": "(4 ounce) jar diced pimentos",
+      "quantity": 1,
+      "preparation": "drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese and shredded Cheddar together until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "In a separate bowl, whisk the mayonnaise with the garlic powder, then fold it into the cheese mixture."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the drained diced pimentos until distributed throughout."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for at least 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "cheese-spread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70890/creamy-pimento-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d4224746290a3878544b1aeddc659dfa94e4e789cbab8ddc3f2fa9ebf5c7d926",
+    "normalized_text_hash": "9c55089218a40e3afb385702af5450e815257c1a246a77d35ac2bb483a2e862c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:40:45.381Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-stewed-tomatoes",
+  "name": "Italian Stewed Tomatoes",
+  "subtitle": "Tender tomatoes with basil and vegetables",
+  "description": "A simple vegetable side of chopped tomatoes simmered with celery, onion, bell pepper, sugar, and basil.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 24,
+      "unit": "large",
+      "preparation": "peeled, seeded and chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the peeled, seeded, and chopped tomatoes, celery, onion, and green bell pepper."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a large saucepan, then add all ingredients and stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Cook for 10 minutes, stirring occasionally, until the vegetables are tender and the tomatoes are stewed.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "italian",
+    "tomatoes",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21092/italian-stewed-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1024893699a011844b3d451dfe2600e1ee1b894aa770dcb0e2b58b864ab90584",
+    "normalized_text_hash": "70a3b730d7eb1ee0f381969615f5da4023224cfcba2b472d011a1476b4d67216",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:20:57.806Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

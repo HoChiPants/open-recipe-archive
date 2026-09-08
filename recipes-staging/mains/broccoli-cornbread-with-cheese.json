@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-cornbread-with-cheese",
+  "name": "Broccoli Cornbread with Cheese",
+  "subtitle": "A savory baked cornbread with broccoli and cheddar",
+  "description": "This tender, cheesy cornbread combines thawed broccoli, onion, and cottage cheese in a simple baked side or main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cottage-cheese",
+      "item": "cottage cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "corn-bread-muffin-mix",
+      "item": "corn bread/muffin mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8.5 ounce"
+    },
+    {
+      "ingredient_id": "frozen-chopped-broccoli",
+      "item": "frozen chopped broccoli",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, cottage cheese, melted butter, and Cheddar cheese until combined."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the corn bread/muffin mix. Fold in the thawed broccoli and chopped onion."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to a prepared baking dish and bake until the center is firm and set, about 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Let the cornbread cool for 10 minutes before slicing and serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "broccoli",
+    "cornbread",
+    "cheese",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231966/broccoli-cornbread-with-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "933c47ddeeb75f269ea4fc61a4021b611bcbd4b7423ad6d4cf29c24e36c9d137",
+    "normalized_text_hash": "786c037d442da3e38888d4b0fb82cf58c59a41a46c3975fad2f48d129307d4f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:14:35.430Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

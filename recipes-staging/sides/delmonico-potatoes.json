@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "delmonico-potatoes",
+  "name": "Delmonico Potatoes",
+  "subtitle": "Creamy layered potatoes with cheese and herbs",
+  "description": "Partially boiled potatoes are chilled, layered with seasoned butter, sour cream, milk, and shredded processed cheese, then baked until lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 70,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 5,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.375,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "processed-cheese",
+      "item": "processed cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water seasoned with the salt to a simmer. Add the potatoes and cook for 10 minutes, until boiling and partially tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes, let them cool, and chill them for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter with the minced onion, dried parsley, and ground black pepper."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the sour cream and milk together."
+    },
+    {
+      "step": 6,
+      "text": "Layer the chilled potatoes in a baking dish. Add the melted butter and onion mixture, then pour the sour cream mixture over the top."
+    },
+    {
+      "step": 7,
+      "text": "Sprinkle the shredded processed cheese over the potatoes and bake for 60 minutes, until lightly browned and the center is fully hot.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "potatoes",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15012/delmonico-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d91a77d325248c8c8f8f6329b9becaf1c4b1056e95b09ee00b340ffe7898567e",
+    "normalized_text_hash": "10fe5427e6f884c1ba28be53b9293492971d1c4bd6699a78bb8ac6be3e15f474",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:05:08.787Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

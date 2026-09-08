@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "flaming-beer-cocktail",
+  "name": "Flaming Beer Cocktail",
+  "subtitle": "A warm-looking beer cocktail with amaretto and high-proof rum",
+  "description": "Combine beer, amaretto liqueur, and high-proof rum in a heatproof glass, then extinguish the flame completely before serving.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fluid-ounce-amaretto-liqueur",
+      "item": "fluid ounce amaretto liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounce-151-proof-rum",
+      "item": "fluid ounce 151 proof rum",
+      "quantity": 0.25
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the beer into a heatproof glass, leaving space at the top."
+    },
+    {
+      "step": 2,
+      "text": "Add the amaretto liqueur, then carefully float the rum over the surface."
+    },
+    {
+      "step": 3,
+      "text": "If flaming, use a long lighter in a clear, heat-safe area and keep your face and hands away from the glass."
+    },
+    {
+      "step": 4,
+      "text": "Extinguish the flame completely before handling or drinking."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "beer-cocktail",
+    "flaming-cocktail",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "heatproof glass",
+    "long lighter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24223/flaming-doctor-pepper-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8bf86d15f5827d0347d47e125e223766ff4d0253ded8ab5493f378902d4dbf02",
+    "normalized_text_hash": "eec3020fa44bb41a57b4b1a768829f23eaac04266bada34fb829010e269455e5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:14:09.982Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

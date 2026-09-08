@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "twenty-four-hour-salad",
+  "name": "Twenty-Four-Hour Salad",
+  "subtitle": "A chilled layered salad for make-ahead meals.",
+  "description": "Layer crisp vegetables, peas, a sweet mayonnaise topping, cheese, and bacon bits, then chill overnight before serving.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "iceberg-lettuce",
+      "item": "iceberg lettuce",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "frozen-green-peas",
+      "item": "frozen green peas",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "thawed and drained"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "bacon-bits",
+      "item": "bacon bits",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "3 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a serving dish, layer the lettuce, celery, bell pepper, onions, and peas. Spread the mayonnaise over the vegetables, then sprinkle with the sugar and shredded Cheddar."
+    },
+    {
+      "step": 2,
+      "text": "Top with the bacon bits."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 24 hours before serving.",
+      "timer_minutes": 1440
+    }
+  ],
+  "tags": [
+    "make-ahead",
+    "chilled",
+    "lunch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18544/twenty-four-hour-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7124347671bc3e9772258e635675b9f7bb61a9feff342968d977faac163b8538",
+    "normalized_text_hash": "cb07fd348fbefa035ba22539aa09404d05adf9135b4da766b09ab2659adf351f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:32:45.162Z",
+    "semantic_similarity": 18,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

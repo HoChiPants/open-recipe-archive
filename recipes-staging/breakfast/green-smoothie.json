@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-smoothie",
+  "name": "Green Smoothie",
+  "subtitle": "A creamy spinach-and-banana breakfast blend",
+  "description": "Blend dairy, fruit, peanut butter, spinach, and ice into a smooth, cool drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fat-free-milk",
+      "item": "fat-free milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fat-free-plain-yogurt",
+      "item": "fat-free plain yogurt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "frozen and chunked"
+    },
+    {
+      "ingredient_id": "natural-peanut-butter",
+      "item": "natural peanut butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-spinach",
+      "item": "fresh spinach",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the milk and yogurt to a blender, then add the banana, peanut butter, spinach, and ice."
+    },
+    {
+      "step": 2,
+      "text": "Blend until the mixture is completely smooth and serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222708/green-monster-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eedcd616da1f991eac1de0b4978f8009aaa5a46ee141914119ab554372430ab7",
+    "normalized_text_hash": "3729d4b6a535f5d0808b63172c15ebbc772029860899ceca4ed724ad3aef0cc6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:01:43.870Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

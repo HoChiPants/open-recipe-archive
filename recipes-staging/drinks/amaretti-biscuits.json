@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "amaretti-biscuits",
+  "name": "Amaretti Biscuits",
+  "subtitle": "Chewy almond biscuits with lemon zest",
+  "description": "Small almond biscuits flavored with lemon zest and optional almond liqueur, finished with icing sugar.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemons-zested",
+      "item": "lemons zested",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 120,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-almonds",
+      "item": "ground almonds",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "almond-liqueur-such-as-amaretto-optional",
+      "item": "almond liqueur such as amaretto (optional)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "icing-sugar-plus-extra-for-dusting",
+      "item": "icing sugar plus extra for dusting",
+      "quantity": 5,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg whites to stiff peaks, about 5 minutes. Gradually whisk in the caster sugar and icing sugar until smooth and glossy.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir the ground almonds, lemon zest, optional almond liqueur, and the remaining sugar mixture together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Fold the almond mixture into the whipped whites until a smooth dough forms. Cover and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven and prepare a baking tray. Shape the chilled dough into 15 small biscuits and dust with icing sugar."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until lightly colored and the centers are firm and fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Transfer the biscuits to a rack and let them cool for 10 minutes. Dust with additional icing sugar before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "biscuits",
+    "almond",
+    "lemon",
+    "afternoon-tea"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray",
+    "wire rack",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/amaretti-biscuits",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "491ea889fd11450e3b0021c7ba258cd7daa849612c4a5e6caa80358047450db4",
+    "normalized_text_hash": "c0eceedad7a8c992b9d3b1caa5487a4a259b3ed64564111ce0d1d4d3915383f9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:35:57.525Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

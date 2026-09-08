@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raspberry-blackberry-smoothie",
+  "name": "Raspberry Blackberry Smoothie",
+  "subtitle": "A cool, creamy berry blend",
+  "description": "Blend banana, berries, vanilla yogurt, honey, and ice into a smooth fruit drink for two.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "blackberries",
+      "item": "blackberries",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-raspberries",
+      "item": "fresh raspberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "6-ounce-container-vanilla-yogurt",
+      "item": "(6 ounce) container vanilla yogurt",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the banana, blackberries, raspberries, vanilla yogurt, honey, and ice cubes in a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, then pour into two glasses and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "smoothie",
+    "fruit",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/203239/raspberry-blackberry-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1d121e0e3533f59740f5a63dfac55d381fac1bf278fcc640f16786a113eda5a",
+    "normalized_text_hash": "c4803cc40be4d8b2bb54b92d2efd0caeeaab0d5bb59021424412cac7626da845",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:53:08.521Z",
+    "semantic_similarity": 12,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-vegetable-salad",
+  "name": "Green Vegetable Salad",
+  "subtitle": "Blanched vegetables with lemon-mustard dressing",
+  "description": "A crisp salad of seasonal green vegetables, fresh herbs, radishes, and cabbage tossed with a bright lemon dressing.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 8,
+    "unit": "(or 4-6 with leftovers)"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "asparagus-spears",
+      "item": "asparagus spears",
+      "quantity": 8,
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "green-beans-halved",
+      "item": "green beans halved",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "long-stem-broccoli-chopped-into-2cm-lengths",
+      "item": "long-stem broccoli chopped into 2cm lengths",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "peas-fresh-or-frozen",
+      "item": "peas fresh or frozen",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "radishes-sliced",
+      "item": "radishes sliced",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "pointed-cabbage-shredded",
+      "item": "pointed cabbage shredded",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "spring-onions-sliced",
+      "item": "spring onions sliced",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "handful-of-mint-leaves",
+      "item": "handful of mint leaves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the olive oil, Dijon mustard, and lemon juice together to make the dressing."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pan of water to a simmer. Add the asparagus and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the green beans, broccoli, and peas, then cook for 4 minutes, until tender-crisp.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Drain the vegetables well. Toss them with the radishes, cabbage, spring onions, and chopped mint."
+    },
+    {
+      "step": 5,
+      "text": "Add the dressing, toss to coat, and serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "green-vegetables",
+    "side-dish",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pan",
+    "colander",
+    "small bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/allotment-salad",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c4e76ac677d58c51f3331ea486264bb24cfb0cdc605cdbda0e97ecea10c20846",
+    "normalized_text_hash": "c3e39d9b5279dd9a3b34a851e71f96d42b885900d0bd0e2a9b014be6195e231b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:34:12.027Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

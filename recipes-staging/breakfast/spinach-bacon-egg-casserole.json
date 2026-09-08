@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-bacon-egg-casserole",
+  "name": "Spinach Bacon Egg Casserole",
+  "subtitle": "A savory baked breakfast with spinach, bacon, peppers, and two cheeses.",
+  "description": "Crisp bacon and tender vegetables are folded into seasoned eggs, then baked with spinach and shredded cheese until set.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and drained"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "finely-shredded-asiago-cheese",
+      "item": "finely shredded Asiago cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon in a skillet for about 10 minutes, until crisp. Transfer it to a plate, cool briefly, and cut it into pieces.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Cook the bell pepper, onion, and black pepper in the same skillet for about 10 minutes, until tender. Stir in the spinach and bacon.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs with the milk, garlic salt, and black pepper until combined. Stir in the bacon, Monterey Jack, and Asiago."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the spinach mixture in the prepared dish and pour the egg mixture over it."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, until the center is firm and fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "casserole",
+    "eggs",
+    "spinach",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking dish",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241279/spinach-bacon-egg-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ca55586b0aa61bc030f3fdb2858bd91275962591f692af2e81eae9a618425657",
+    "normalized_text_hash": "521724076684b4cea9e471c09b36a935c97912547b3358546687b967d4be98d1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:41:57.501Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

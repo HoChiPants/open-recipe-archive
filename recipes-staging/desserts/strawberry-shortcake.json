@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-shortcake",
+  "name": "Strawberry Shortcake",
+  "subtitle": "Tender biscuits layered with berries and whipped cream",
+  "description": "Bake a lightly sweet shortcake, macerate fresh strawberries, and assemble with vanilla whipped cream for a classic fruit dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "plus more for topping"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "plus more for brushing"
+    },
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 4,
+      "unit": "pints",
+      "preparation": "hulled and quartered"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 3,
+      "unit": "drops"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Melt the butter and stir it for 3 minutes as directed by the preparation method; let it cool slightly.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour and 0.25 cup sugar in a bowl. Stir in the melted butter, milk, and 0.25 cup cream until combined."
+    },
+    {
+      "step": 3,
+      "text": "Turn the dough onto a lightly floured surface, shape it into a thick round, and cut it into portions. Transfer to a baking sheet, brush with additional cream, and sprinkle with sugar."
+    },
+    {
+      "step": 4,
+      "text": "Bake until golden brown, about 18 minutes, then transfer the shortcakes to a rack to cool.",
+      "timer_minutes": 18
+    },
+    {
+      "step": 5,
+      "text": "Toss the quartered strawberries with 0.5 cup sugar and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Whisk 0.75 cup cream with 1 tablespoon sugar and the vanilla until soft peaks form."
+    },
+    {
+      "step": 7,
+      "text": "Split the cooled shortcakes, fill with strawberries and their juices, and top with whipped cream and additional strawberries."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244201/chef-johns-classic-strawberry-shortcake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "14e06178da2edbc6abdff47ce47148640effb985cad31ecb37db81b487d3444b",
+    "normalized_text_hash": "bab1fff138047bb643fc4122d5821aa4314243eb1bbb6ddcb245fd611324c93a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:26:56.044Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

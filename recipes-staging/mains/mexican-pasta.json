@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-pasta",
+  "name": "Mexican Pasta",
+  "subtitle": "Shell pasta with beans, corn, salsa, and taco-seasoned vegetables",
+  "description": "A quick skillet pasta combining tender shells with black beans, vegetables, tomatoes, salsa, and sliced olives.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "seashell-pasta",
+      "item": "seashell pasta",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sweet-corn-kernels",
+      "item": "sweet corn kernels",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "black-beans",
+      "item": "black beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "and-diced-tomatoes",
+      "item": "and diced tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, peeled"
+    },
+    {
+      "ingredient_id": "salsa",
+      "item": "salsa",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "black-olives",
+      "item": "black olives",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "taco-seasoning-mix",
+      "item": "taco seasoning mix",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a simmer. Add the pasta and cook for 10 minutes, or until tender. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a large skillet. Add the onions, bell pepper, and salt and pepper; cook for 10 minutes, until lightly browned.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the corn, black beans, diced tomatoes, salsa, olives, taco seasoning mix, and additional salt and pepper. Cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Combine the sauce mixture with the drained pasta and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "vegetarian",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21518/mexican-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "04100a78493d18c03fb8eea79926d5654b5aaa68b83f792ac632f3e84a8e1b92",
+    "normalized_text_hash": "695e21b291c3d35d69b009a8a78e459e927881079056b1938d6c3566459b8bb3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:36:31.059Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

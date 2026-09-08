@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-and-cheese-pierogi",
+  "name": "Potato and Cheese Pierogi",
+  "subtitle": "Wonton-wrapped potato dumplings with bacon and chives",
+  "description": "A savory potato and farmer’s cheese filling is folded into wonton wrappers, simmered, and finished with bacon, sour cream, and chives.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 75,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "bacon-drippings",
+      "item": "bacon drippings",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 0.5,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "yukon-gold-potatoes",
+      "item": "Yukon Gold potatoes",
+      "quantity": 5,
+      "unit": "medium",
+      "preparation": "peeled and halved"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "farmer-s-cheese",
+      "item": "farmer’s cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "or any cheese blend"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "wonton-wrappers",
+      "item": "wonton wrappers",
+      "quantity": 50,
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet with the butter. Add the bacon, bacon drippings, and onion; stir for 8 minutes, then set aside.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Place the potatoes in a pot with salt, pepper, and water. Simmer until tender, about 20 minutes, then drain and mash until smooth.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Let the potatoes cool for 10 minutes. Mix in the cayenne, one egg, and farmer’s cheese. Chill the filling for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Whisk the remaining egg with the water. Lay out the wonton wrappers and place filling in the center of each. Brush the edges with the egg mixture, fold to seal, and press out excess air."
+    },
+    {
+      "step": 5,
+      "text": "Bring salted water to a boil. Simmer the dumplings for 3 minutes, until the wrappers are tender and the filling reaches 160°F or is fully set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Drain the dumplings. Warm the bacon, drippings, and onion for 2 minutes, then whisk with the sour cream and chives. Serve the dumplings with the sauce.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "dumplings",
+    "potatoes",
+    "cheese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "pot",
+    "potato masher",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229273/cheater-pierogi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "27fc7d031036010b11da42c3cc5ae3010c76c666d286a6e36536a42c690dab94",
+    "normalized_text_hash": "0b667989088de4868ab8fac5fe03969d55c1fe9b51ef2a1110b504c38bcfa489",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:05:05.575Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

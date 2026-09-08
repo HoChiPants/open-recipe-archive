@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "maple-mayonnaise-dip",
+  "name": "Maple Mayonnaise Dip",
+  "subtitle": "A quick sweet-and-creamy dip for fries",
+  "description": "Combine mayonnaise and maple syrup for a smooth dip with sweet maple flavor.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the mayonnaise and maple syrup together in a bowl until smooth and evenly combined."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "dip",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228788/creamy-maple-dip-for-sweet-potato-fries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "510a5b751f4069ba8368c9bd1cb02f92cb475de9021b3fdf09dab0f493c86112",
+    "normalized_text_hash": "0d4475f1651a7c214b41b9bcea2f1bbc96ceedab74f882429cbbce5dd7caf34f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:39:24.846Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

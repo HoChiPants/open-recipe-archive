@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bbq-chuck-roast",
+  "name": "BBQ Chuck Roast",
+  "subtitle": "Slow-roasted beef with savory barbecue sauce",
+  "description": "Chuck roast is marinated in a beer-enriched barbecue and teriyaki mixture, then roasted until tender and safely cooked.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "inactive_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "5-pound-chuck-roast",
+      "item": "(5 pound) chuck roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "or-bottle-beer",
+      "item": "or bottle beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "thinly-sliced-fresh-ginger-root",
+      "item": "thinly sliced fresh ginger root",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "coarsely-ground-black-pepper",
+      "item": "coarsely ground black pepper",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the barbecue sauce, teriyaki sauce, beer, garlic, ginger, onion, pepper, and salt. Add the roast, coat well, cover, and refrigerate for 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 2,
+      "text": "Transfer the roast and marinade to a roasting pan. Preheat the oven and bring the marinade to a simmer in a saucepan for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Return the simmered sauce to the pan, cover the roast, and roast until the thickest part reaches 145°F on a food thermometer.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Rest the roast for 3 minutes, then slice and serve with the sauce.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "roast",
+    "barbecue"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "roasting pan",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/30490/bbq-chuck-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0da9650e9ead3c697cc97f2ce16e12690da5b02270f8dd001292c0f1dd04195b",
+    "normalized_text_hash": "ea56c46d3f72f2b2f02a4803cdc6f9134715d6fbd50ed3161a5ba62af386545d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:13:14.547Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

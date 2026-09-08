@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "citrus-bitters-oysters",
+  "name": "Citrus-Bitters Oysters",
+  "subtitle": "Fresh oysters with preserved lemon and orange",
+  "description": "A quick oyster starter topped with preserved lemon, bitters, and fresh orange juice.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 3,
+    "unit": "oysters each)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "preserved-lemon-finely-chopped",
+      "item": "preserved lemon finely chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bitters",
+      "item": "bitters",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "fresh-orange-juice",
+      "item": "fresh orange juice",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "oysters",
+      "item": "oysters",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the preserved lemon, bitters, and fresh orange juice."
+    },
+    {
+      "step": 2,
+      "text": "Spoon the mixture over the oysters and serve immediately."
+    }
+  ],
+  "tags": [
+    "starter",
+    "oysters",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cocktail-club-oysters",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e5fc74d3e244793df7d38a66819831044386d1bbfb9af7cea8aed417f3091240",
+    "normalized_text_hash": "9d41b2b31562fd86181bb54d7fab0f213fe80385a4418098ba9e81c10d163bd1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:35:47.386Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 24,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

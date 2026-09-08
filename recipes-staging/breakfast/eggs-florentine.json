@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "eggs-florentine",
+  "name": "Eggs Florentine",
+  "subtitle": "A savory skillet breakfast with spinach and mushrooms",
+  "description": "Sautéed mushrooms, garlic, and spinach folded into seasoned eggs with cream cheese for a rich, quick breakfast.",
+  "meal_type": "breakfast",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-spinach",
+      "item": "fresh spinach",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "unit": "large",
+      "preparation": "slightly beaten"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "cut into small pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium heat with the butter."
+    },
+    {
+      "step": 2,
+      "text": "Add the mushrooms and garlic. Stir for 1 minute, then add the spinach and cook for 3 minutes, until wilted.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Stir in the beaten eggs and season with salt and ground black pepper. Cook, stirring gently, until the eggs are firm and reach 160°F or have a fully set center."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the cream cheese until smooth, about 5 minutes, then incorporate it into the finished eggs.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "spinach",
+    "mushrooms",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238685/eggs-florentine/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6a5460fa8903c5726034ff3334f86564377e41d2db550c025361b4eedb168dbd",
+    "normalized_text_hash": "55c9e3c3b645ca180eda63a71c5f35b2bbfb2f08eb3cdb05dc100893e37f57c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:58:39.408Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

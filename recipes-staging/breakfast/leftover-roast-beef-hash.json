@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "leftover-roast-beef-hash",
+  "name": "Leftover Roast Beef Hash",
+  "subtitle": "A skillet-style hash with tender potatoes and vegetables",
+  "description": "Microwave the potatoes until tender, then combine them with roast beef and vegetables for a quick, savory hash.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "1-2-inch-cubes-roast-beef",
+      "item": "1/2-inch cubes roast beef",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a microwave-safe dish and microwave for 8 minutes, or until tender.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Cut the tender potatoes into bite-size pieces and combine them with the roast beef, onion, bell pepper, and mushrooms."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 4,
+      "text": "Coat a baking dish with the vegetable oil and transfer the hash mixture to it."
+    },
+    {
+      "step": 5,
+      "text": "Cook for 5 minutes, then prepare or portion the hash as desired.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "If the roast beef was not previously cooked, verify that it reaches 145°F and rest it for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "brunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "microwave-safe dish",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255275/leftover-roast-beef-hash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2233ed56420d8a8b8d8ce6095e8c922bf3e35032cdad984c9cd310e7ea8a981d",
+    "normalized_text_hash": "22fc9f34c9bdaa5f2186f6e8d2f08be3d2a409f5eafd41651d8642a889a03cdb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:53:18.344Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

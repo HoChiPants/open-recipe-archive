@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-green-smoothie",
+  "name": "Banana Green Smoothie",
+  "subtitle": "A cool, creamy blend with spinach, fruit, and yogurt",
+  "description": "Blend spinach, banana, carrot, yogurt, ice, and honey into a smooth breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baby-spinach-leaves",
+      "item": "baby spinach leaves",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "peeled and cut into large chunks"
+    },
+    {
+      "ingredient_id": "plain-fat-free-greek-yogurt",
+      "item": "plain fat-free Greek yogurt",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the spinach, banana, carrot, yogurt, ice, and honey to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "beverage",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233980/breakfast-banana-green-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9e2f142095adcbd8f0f7fea619839fca6ef6b4e78ca476806c4ce412208e0893",
+    "normalized_text_hash": "6a81664e855745c27ca1381a6f35541c010e18e1e7c887a0f46e94aa6b1a82e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:11:17.259Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

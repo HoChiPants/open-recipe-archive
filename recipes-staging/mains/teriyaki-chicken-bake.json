@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "teriyaki-chicken-bake",
+  "name": "Teriyaki Chicken Bake",
+  "subtitle": "Baked chicken with creamy sauce, cheese, and savory toppings",
+  "description": "Chicken breasts are browned, coated with a two-sauce mixture, topped with cheese and savory garnishes, then baked until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "teriyaki-basting-sauce",
+      "item": "teriyaki basting sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ranch-style-salad-dressing",
+      "item": "Ranch-style salad dressing",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "bacon-bits",
+      "item": "bacon bits",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "3 ounce"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped, for garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Heat the vegetable oil in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Brown the chicken breasts lightly in the skillet, about 5 minutes, turning as needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Transfer the chicken to a baking dish. Stir together the teriyaki basting sauce and Ranch-style salad dressing, then pour the mixture over the chicken."
+    },
+    {
+      "step": 4,
+      "text": "Top with the Cheddar cheese, green onions, and bacon bits."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, or until the thickest chicken breast reaches 165°F on a food thermometer.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Garnish with the fresh parsley and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9038/anniversary-chicken-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b57940d803b989947b12bf8e1f63e71ea173ff4c303cf20d24b4080930f2b127",
+    "normalized_text_hash": "e678dd955646a25ae9ce185af9441a6ea153eb69296fdca72492823980c15cae",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:15:49.895Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

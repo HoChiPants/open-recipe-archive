@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-latte",
+  "name": "Caramel Latte",
+  "subtitle": "Warm coffee with sweet caramel and vanilla",
+  "description": "A simple caramel latte made by gently simmering sweetened milk and combining it with coffee.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar-free-caramel-topping",
+      "item": "sugar-free caramel topping",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "caramel-sauce",
+      "item": "caramel sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "coffee",
+      "item": "coffee",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk, brown sugar, and caramel sauce in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Heat until simmering, then maintain a gentle simmer for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the sugar-free caramel topping, caramel sauce, and vanilla extract until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the coffee and serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "coffee",
+    "caramel",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260904/homemade-caramel-latte/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "10cac64e8dfb15b972d5c9d79aa511492a5a6ed4ebadd0a676b62d81d24b857f",
+    "normalized_text_hash": "1c18b9d1f87097891bc98261fb36d0477a63313dcbfcdb0b781e2b43d3f9ced4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:36:48.661Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

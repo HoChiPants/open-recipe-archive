@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rocky-road",
+  "name": "Rocky Road",
+  "subtitle": "A chilled chocolate-peanut treat with marshmallows",
+  "description": "Melt chocolate with peanut butter, fold in marshmallows, and chill until firm for an easy bar-style dessert.",
+  "meal_type": "dessert",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 4,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the semisweet chocolate chips and peanut butter together, stirring until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the miniature marshmallows until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a pan and spread it into an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Chill for 60 minutes, or until set.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cut into pieces and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "british",
+    "no-bake",
+    "chocolate",
+    "peanut-butter"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "pan",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10881/rocky-road/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f9cdfd29d2e7055c40c4d8707c19822633c7ab0870082c20a22bf1db75e7137f",
+    "normalized_text_hash": "762a23ada030d6ee69854c04cd324b5fbb406a52e1ea98978cb0c2fff7c1d332",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:24:59.988Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

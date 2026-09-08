@@ -1,0 +1,156 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "jibarito",
+  "name": "Jibarito",
+  "subtitle": "Crisp plantain sandwich with seasoned steak",
+  "description": "Fried green plantain halves serve as the bread for a warm steak sandwich layered with cheese, tomato, lettuce, and mayonnaise.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "green-plantain",
+      "item": "green plantain",
+      "quantity": 1,
+      "preparation": "peeled and halved lengthwise"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "beef-skirt-steak",
+      "item": "beef skirt steak",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "cut into thin strips"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 0.25,
+      "unit": "medium",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "cumin",
+      "item": "cumin",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "slice-processed-american-cheese",
+      "item": "slice processed American cheese",
+      "quantity": 1,
+      "preparation": "cut in half"
+    },
+    {
+      "ingredient_id": "slices-tomato",
+      "item": "slices tomato",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "leaves-lettuce",
+      "item": "leaves lettuce",
+      "quantity": 3
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the frying oil and vegetable oil to 350°F in separate pans or in sequence. Fry the plantain halves for 2 minutes, then drain.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Flatten each plantain half, return it to the 350°F oil, and fry for about 3 minutes until golden brown. Drain well.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Heat the remaining 2 tablespoons vegetable oil in a skillet. Add the garlic, steak, onion, cumin, and oregano; cook until the steak reaches 145°F, then rest for 3 minutes."
+    },
+    {
+      "step": 4,
+      "text": "Place one fried plantain half on a plate and layer with mayonnaise, half the cheese, tomato, steak mixture, remaining cheese, tomato, and lettuce."
+    },
+    {
+      "step": 5,
+      "text": "Top with the second plantain half, press gently, and cut to serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "sandwich",
+    "beef",
+    "plantain"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "deep skillet or fryer",
+    "skillet",
+    "thermometer",
+    "tongs",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/82389/jibarito/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bebf67eb3e928d9af7005509e3a1bc946fa97ff5bddcb487b2a2303af4fc56e7",
+    "normalized_text_hash": "8b335b111f7b9b438a291ba09d54404be250b502cb970b4e7c04ad05cf4ac061",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:28:49.208Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

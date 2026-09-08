@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-nuggets",
+  "name": "Chicken Nuggets",
+  "subtitle": "Crisp Parmesan-coated chicken bites",
+  "description": "Tender chicken pieces are coated in seasoned crumbs and Parmesan, then baked until crisp and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "italian-seasoned-bread-crumbs",
+      "item": "Italian seasoned bread crumbs",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the chicken breasts into nugget-sized pieces."
+    },
+    {
+      "step": 3,
+      "text": "Combine the bread crumbs, Parmesan, basil, thyme, and salt in a shallow dish."
+    },
+    {
+      "step": 4,
+      "text": "Dip each chicken piece in the melted butter, then turn it in the crumb mixture to coat."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the coated pieces in a single layer on a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, until the chicken is cooked through and reaches 165°F in the thickest piece.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "baked",
+    "chicken",
+    "family-friendly"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "shallow dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8849/baked-chicken-nuggets/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d281bd55bea22884b368ac441c5d93c22831efed205580323eead671b2944b63",
+    "normalized_text_hash": "a1c3a03ae764838b6d0dbbac30bcb836f053d11bde7641c5be4710c73ef624f3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:37:37.463Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

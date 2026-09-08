@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "black-forest-breakfast-bowl",
+  "name": "Black Forest Breakfast Bowl",
+  "subtitle": "A cool, chocolate-fruit oat bowl with creamy soya yogurt.",
+  "description": "Thawed dark-fruit mix, oats, and soya yogurt form a smooth base, finished with almond butter, dark chocolate, toasted seeds, and optional mint.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bag-black-forest-frozen-fruit-mix-thawed",
+      "item": "bag black forest frozen fruit mix thawed",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 180,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fortified-soya-yogurt",
+      "item": "fortified soya yogurt",
+      "quantity": 800,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "almond-butter",
+      "item": "almond butter",
+      "quantity": 6,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "85-dark-chocolate-chopped",
+      "item": "85% dark chocolate chopped",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "three-seed-mix",
+      "item": "three-seed mix",
+      "quantity": 6,
+      "unit": "tsp",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "handful-of-mint-leaves",
+      "item": "handful of mint leaves (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the thawed fruit, oats, and soya yogurt in a bowl or blender; mix until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Divide the mixture among six serving bowls. Add the almond butter and chopped dark chocolate, then sprinkle with the toasted seed mix."
+    },
+    {
+      "step": 3,
+      "text": "Chill until ready to serve, then garnish with mint leaves if using."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "breakfast-bowl",
+    "fruit",
+    "oats",
+    "porridge",
+    "soya-yogurt",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "soy",
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl or blender",
+    "serving bowls"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/black-forest-breakfast-bowl",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "588761de9b15b274628564732dac4e12825329e06af2b043c521ea29932fe8a2",
+    "normalized_text_hash": "fdc3ff05cf77697c3628100d95d5c2a7a1a2d5c899a26a0d231e68f216e7eeec",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:35:40.518Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

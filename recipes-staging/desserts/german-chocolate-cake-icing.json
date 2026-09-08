@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "german-chocolate-cake-icing",
+  "name": "German Chocolate Cake Icing",
+  "subtitle": "A warm coconut-pecan topping for cake",
+  "description": "Butter, brown sugar, coconut, pecans, and milk are simmered into a thick, spoonable icing.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1.3333333730698,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the butter in a saucepan over medium heat until melted."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the brown sugar, coconut, chopped pecans, and milk until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a simmer, stirring frequently."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 3 minutes, stirring, until thickened.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Use the warm icing to top the cake."
+    }
+  ],
+  "tags": [
+    "cake-topping",
+    "coconut",
+    "pecan",
+    "icing"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240082/easy-german-chocolate-cake-icing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aa6f11ab4e6a2a0c9f7d440ae41908cb055ac5fce34ec9fa0933f597016f1dc1",
+    "normalized_text_hash": "0db6a07a824cfd68e85f35d0f0c192161a50cfc1d52791db43590805bdf66c2c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:32:32.943Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

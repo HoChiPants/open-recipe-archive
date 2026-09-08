@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "onion-pasta",
+  "name": "Onion Pasta",
+  "subtitle": "Tender pasta with golden onions and basil",
+  "description": "A savory pasta side combining caramelized onions, butter, basil, and pepper in a light bouillon sauce.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 5,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-bouillon",
+      "item": "chicken bouillon",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "uncooked-pasta",
+      "item": "uncooked pasta",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cooked according to package directions"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil and butter in a large skillet. Add the onions and cook, stirring occasionally, until golden brown."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the basil, black pepper, water, and chicken bouillon. Cook for 10 minutes, reaching 165°F on a food thermometer.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the cooked pasta and toss until evenly coated and hot."
+    }
+  ],
+  "tags": [
+    "pasta",
+    "onions",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11868/onion-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a38518b8582267e0314a3464f9a37e876ea882fa7df321c9ebc4b83a391c4e78",
+    "normalized_text_hash": "30e96547571be14526d95f4a674909c4bf66df5b4e34d9ec7f402e0742ae461f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:33:11.755Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

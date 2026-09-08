@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-pasta",
+  "name": "Garlic Pasta",
+  "subtitle": "Penne with herb, garlic, and Parmesan oil",
+  "description": "Tender penne is tossed with fragrant garlic oil, fresh herbs, red pepper flakes, and Parmesan for a simple Italian side dish.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-penne-pasta",
+      "item": "dry penne pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "head-garlic",
+      "item": "head garlic",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-oregano",
+      "item": "fresh oregano",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a simmer, then add the penne and cook for 10 minutes, or until tender. Drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "While the pasta cooks, warm the olive oil in a skillet over medium heat. Add the chopped garlic and cook for 12 minutes, stirring occasionally, until fragrant and lightly golden.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 3,
+      "text": "Stir the parsley, basil, oregano, and red pepper flakes into the garlic oil and warm briefly."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the drained pasta to the skillet and toss to coat evenly. Let stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Add the Parmesan and toss again before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "italian",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21339/garlic-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3e64e87b810875e71c7b3782e40dc58bd10a1f80ae4d4b3a291db78816e9076d",
+    "normalized_text_hash": "9795bdcc3409bebb016b037ef04a7f1b2634b3f29820a38c2a199cc9f63be342",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:37:14.948Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

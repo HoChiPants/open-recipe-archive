@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-pea-salad",
+  "name": "Bacon Pea Salad",
+  "subtitle": "A creamy salad with crisp bacon, peas, celery, and Cheddar",
+  "description": "Tender peas, crunchy vegetables, cheese, and bacon are tossed in a lightly sweet mayonnaise dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "fresh-green-peas",
+      "item": "fresh green peas",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "20 ounce"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a skillet over medium heat for 10 minutes, turning as needed, until crisp. Drain on paper towels, then crumble.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk the mayonnaise, honey, white sugar, salt, and pepper in a bowl until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine the peas, celery, Cheddar, onion, and crumbled bacon in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "Add the dressing and toss until the ingredients are evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "salad",
+    "side-dish",
+    "potluck",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "paper towels",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234068/bacon-pea-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "855de48bd45672ecf0f8f47e8204b48827de9d17c07fea51654ad12bd6d16e36",
+    "normalized_text_hash": "6a843f5fbed45106bbbb6e0c5ce8de800edd1069af4db7a3f168b393fa933c5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:59.149Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

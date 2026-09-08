@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-fruit-dip",
+  "name": "Easy Fruit Dip",
+  "subtitle": "A creamy, cherry-scented dip for fresh fruit",
+  "description": "Whisk together a fluffy marshmallow base, softened cream cheese, and cherry juice, then chill before serving with fruit.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "marshmallow-creme",
+      "item": "marshmallow creme",
+      "quantity": 16,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "maraschino-cherry-juice",
+      "item": "maraschino cherry juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the marshmallow creme and softened cream cheese together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mixture to a serving bowl and whisk in the maraschino cherry juice."
+    },
+    {
+      "step": 3,
+      "text": "Chill until ready to serve."
+    }
+  ],
+  "tags": [
+    "fruit-dip",
+    "dessert",
+    "snack",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16618/easy-fruit-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c8ce4e85f331d11adc26f37b7f03cb1cd071a92b323f262f4ae896069b416355",
+    "normalized_text_hash": "24ef0b81c6fa999eb881b2d5ac80cd89dca5091d6a5dac89d757b4f030586b0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:56.695Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

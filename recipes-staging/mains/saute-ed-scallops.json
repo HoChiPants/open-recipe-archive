@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "saute-ed-scallops",
+  "name": "Sautéed Scallops",
+  "subtitle": "Golden scallops with garlic and rosemary butter",
+  "description": "Quickly sauté scallops in butter infused with garlic and fresh rosemary until golden, firm, and opaque.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-rosemary",
+      "item": "sprigs fresh rosemary",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "scallops",
+      "item": "scallops",
+      "quantity": 1,
+      "unit": "pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the butter in a skillet over medium heat until melted."
+    },
+    {
+      "step": 2,
+      "text": "Add the crushed garlic and rosemary sprigs; cook briefly to infuse the butter."
+    },
+    {
+      "step": 3,
+      "text": "Add the scallops and sauté until golden brown on the first side.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Turn the scallops and cook until firm and opaque throughout.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Remove the garlic and rosemary sprigs, then serve the scallops with the infused butter."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "quick",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12827/sauteed-scallops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2cff276f647db1309cbac28d99df0825e78970b644b1b31b6beb137b5eaf3d24",
+    "normalized_text_hash": "a13a1196e6ea8f757bac90201c43406c63ba34970fb2b811ab0aea78382fe4b1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:53:43.729Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

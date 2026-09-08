@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-candy-bar-cake",
+  "name": "Chocolate Candy Bar Cake",
+  "subtitle": "A tender chocolate cake with creamy pecan topping and chopped milk chocolate.",
+  "description": "Bake a pudding-enriched chocolate cake, cool it completely, and finish it with a cream cheese whipped topping, pecans, and candy pieces.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 25,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "devil-s-food-cake-mix",
+      "item": "devil's food cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "15.25 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "12-ounce-container-frozen-whipped-topping",
+      "item": "(12 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "1-5-ounce-bars-milk-chocolate-candy",
+      "item": "(1.5 ounce) bars milk chocolate candy",
+      "quantity": 4,
+      "preparation": "coarsely chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Prepare a baking pan for the cake."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cake mix, milk, vegetable oil, eggs, and pudding mix until combined. Stir in half of the chopped candy and whisk the batter for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to the prepared pan and bake for 25 minutes, or until the center is set and a tester comes out clean.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 4,
+      "text": "Cool the cake in the pan for 5 minutes, then let it cool completely for about 30 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Whisk the cream cheese, confectioners' sugar, and white sugar until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Fold in the thawed whipped topping, pecans, and remaining chopped candy."
+    },
+    {
+      "step": 7,
+      "text": "Spread the topping over the cooled cake and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "cake",
+    "pecans",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowls",
+    "whisk",
+    "rubber spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25590/chocolate-candy-bar-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "32e857b027eba6e1f8657c547ac0e9d2bfb0667e321cb48dc270bdc389ff488e",
+    "normalized_text_hash": "730a47b09fe05d7e829fc436e4fa03219177cbe5d66f6ed84895122b91c0dfcf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:29:51.028Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

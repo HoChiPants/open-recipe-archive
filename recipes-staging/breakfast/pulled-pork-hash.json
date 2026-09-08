@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pulled-pork-hash",
+  "name": "Pulled Pork Hash",
+  "subtitle": "A crisp skillet breakfast made with pork, potatoes, and onion.",
+  "description": "Sauté onion in butter, then warm pulled pork and diced baked potatoes with a mild pepper seasoning for a quick savory hash.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "pulled-pork-without-sauce",
+      "item": "pulled pork without sauce",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cooked, chopped"
+    },
+    {
+      "ingredient_id": "leftover-baked-potatoes",
+      "item": "leftover baked potatoes",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium heat and add the butter."
+    },
+    {
+      "step": 2,
+      "text": "Add the chopped onion and stir for 2 minutes, until the butter melts and the onion softens.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the pulled pork and cook for 2 minutes to warm it.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Stir in the diced potatoes, salt, black pepper, and cayenne pepper. Cook for 5 minutes, stirring occasionally, until hot throughout; if checking, reheat the pork to 165°F.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "skillet",
+    "leftovers",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "stirring spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235372/pulled-pork-hash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f03d5a70c1210c7899866df51132849975a1181d190db21e75b726e54bbe39b0",
+    "normalized_text_hash": "04cdea494fd32fd3a4c0c380bae87250d38219835e8e9eb61671516d22218e3d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:31:15.875Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

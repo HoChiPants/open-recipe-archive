@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-pork-chops",
+  "name": "Grilled Pork Chops",
+  "subtitle": "Soy-garlic marinated pork chops from the grill",
+  "description": "Boneless pork chops marinated with soy sauce, lemon pepper, garlic, and oil, then grilled until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "light-soy-sauce",
+      "item": "light soy sauce",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-pepper-seasoning",
+      "item": "lemon pepper seasoning",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "boneless-pork-loin-chops",
+      "item": "boneless pork loin chops",
+      "quantity": 6,
+      "preparation": "trimmed of fat"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, soy sauce, oil, lemon pepper seasoning, and garlic. Coat the pork chops with the marinade, cover, and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Preheat the grill to medium-high heat. Remove the chops from the marinade and discard the marinade."
+    },
+    {
+      "step": 3,
+      "text": "Grill the chops, turning once, until browned and a thermometer inserted into the thickest part reads 145°F.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Rest the pork for 3 minutes, then serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "pork",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223405/best-grilled-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "51d668086fb8a2665d44031e426513a084b882594ec7d4dd12091401bc32e730",
+    "normalized_text_hash": "06dcf946f81859f97e9bfe432bdd673bc1e27861b7ae1d7ac21b6e2beb0a2f76",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:34:37.759Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

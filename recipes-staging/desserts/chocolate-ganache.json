@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-ganache",
+  "name": "Chocolate Ganache",
+  "subtitle": "A smooth two-ingredient chocolate topping",
+  "description": "Warm cream transforms semisweet chocolate chips into a rich ganache that sets firm enough to cut.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 1,
+    "inactive_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the semisweet chocolate chips in a heatproof bowl."
+    },
+    {
+      "step": 2,
+      "text": "Heat the heavy whipping cream in a saucepan until hot and just beginning to steam; do not boil.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Pour the hot cream over the chocolate chips and whisk until smooth and fully combined.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Transfer the ganache to a suitable pan and chill until firm.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cut into pieces to serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "ganache",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof bowl",
+    "whisk",
+    "pan",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244431/super-simple-perfect-chocolate-ganache/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e048742701a0614b3671695fe11be75f8b29831c21bed2865c2115f01f513ce5",
+    "normalized_text_hash": "eb6f547a4f7ea7ad98562573041aff69604e8a5081287cfa5ed13e7f4b7bcc16",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:15:42.974Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

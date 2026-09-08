@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blender-tomato-salsa",
+  "name": "Blender Tomato Salsa",
+  "subtitle": "A bright, smooth salsa made in minutes",
+  "description": "Blend canned tomatoes with fresh chile, onion, cilantro, lemon juice, and salt, then chill before serving.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 28,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.4 ounce, diced"
+    },
+    {
+      "ingredient_id": "jalapeno-chile",
+      "item": "jalapeno chile",
+      "quantity": 1,
+      "preparation": "seeds and ribs removed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 0.5,
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "bunch-cilantro-leaves",
+      "item": "bunch cilantro leaves",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the tomatoes, jalapeno, onion, cilantro, lemon juice, and salt to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, pausing to scrape down the sides if needed. Adjust the lemon juice and salt to taste."
+    },
+    {
+      "step": 3,
+      "text": "Refrigerate the salsa for at least 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "salsa",
+    "dip",
+    "snack",
+    "blender",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/157991/easy-blender-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "be84d238295b412311634d2697fe703560e33784f1acce442c952c7140e157fe",
+    "normalized_text_hash": "afa77655ba4c7fa0538e8e86767429f89c657f5d55f053054bc5f65beaef415c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:22:44.192Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

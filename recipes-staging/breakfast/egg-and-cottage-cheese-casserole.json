@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-and-cottage-cheese-casserole",
+  "name": "Egg and Cottage Cheese Casserole",
+  "subtitle": "A savory baked breakfast with cheese, chiles, and bacon",
+  "description": "A hearty egg casserole combining cottage cheese, Monterey Jack, green chiles, and bacon in a tender, set bake.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "cottage-cheese",
+      "item": "cottage cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 10,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "green-chiles",
+      "item": "green chiles",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4 ounce, diced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "crumbled-bacon",
+      "item": "crumbled bacon",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F and coat a suitable baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the cottage cheese, beaten eggs, shredded Monterey Jack, diced green chiles, melted butter, flour, cooked bacon, and baking powder until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Pour the mixture into the prepared dish and spread it level."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 400°F for 15 minutes, then lower the oven to 350°F and continue baking for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Check that the center is firm and reaches 160°F on a food thermometer before serving."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "egg-casserole",
+    "baked-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241166/fast-and-fabulous-egg-and-cottage-cheese-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "463cdfcf80ef259c2641137b20f0b44982af1770c128992f17d7ede592751dcb",
+    "normalized_text_hash": "67a39160789cfff3d7c9060e4bcc652808d956883123e1d022d3282c22d03dea",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:06:45.200Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

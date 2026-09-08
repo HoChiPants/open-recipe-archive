@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-potato-casserole",
+  "name": "Creamy Potato Casserole",
+  "subtitle": "A cheesy, creamy bake for a crowd",
+  "description": "Frozen hash browns are folded into a rich sour cream and potato-soup mixture, topped with Cheddar, and baked until hot and bubbling.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-potato-soup",
+      "item": "condensed cream of potato soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-hash-brown-potatoes",
+      "item": "frozen hash brown potatoes",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "2 pound"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.33300000429153,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the sour cream, condensed cream of potato soup, and butter until combined."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the frozen hash brown potatoes, 1 cup of the Cheddar cheese, and the green onions. Season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and sprinkle the remaining 1 cup Cheddar over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 45 minutes, until hot and bubbling.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "potatoes",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15025/creamy-potato-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aefbe70550e0e64c5d7559cec6151a81f61a076a0d1a638e644a870a04e633f5",
+    "normalized_text_hash": "b0fd998114b7a47e8c2505e855305ed0291ff2f53e33925d2075d3ef84a00cfd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:41:30.108Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

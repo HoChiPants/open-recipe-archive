@@ -1,0 +1,83 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-lemonade",
+  "name": "Strawberry Lemonade",
+  "subtitle": "A bright, fruit-filled chilled drink",
+  "description": "Combine thawed lemonade concentrate and water, then stir in partially thawed strawberries for an easy pitcher drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce, thawed"
+    },
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, partially thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the water and thawed lemonade concentrate into a pitcher, stirring until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Add the partially thawed strawberries and stir to distribute them throughout the lemonade."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "strawberry",
+    "lemonade",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "pitcher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32509/easy-strawberry-lemonade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c942ea51c83c646df82e92f299bb33f52fbe812a0f304f35ded791a3d851d7c3",
+    "normalized_text_hash": "00b811cb3f2e9ea31884f5c965aa0e8b4362fe7eff56281d4c487bdd4626fa66",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:48:29.844Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

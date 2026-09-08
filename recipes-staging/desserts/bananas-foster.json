@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bananas-foster",
+  "name": "Bananas Foster",
+  "subtitle": "Warm caramelized bananas with rum sauce and ice cream",
+  "description": "Bananas simmer briefly in a buttery brown-sugar rum sauce, then are served warm with walnuts and vanilla ice cream.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dark-brown-sugar",
+      "item": "dark brown sugar",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rum",
+      "item": "rum",
+      "quantity": 3.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 3,
+      "preparation": "peeled and sliced lengthwise and crosswise"
+    },
+    {
+      "ingredient_id": "coarsely-chopped-walnuts",
+      "item": "coarsely chopped walnuts",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-ice-cream",
+      "item": "vanilla ice cream",
+      "quantity": 1,
+      "unit": "pint"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a skillet over medium heat. Stir in the brown sugar, rum, vanilla extract, and cinnamon until combined."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a gentle simmer and cook until the sugar dissolves into a smooth sauce."
+    },
+    {
+      "step": 3,
+      "text": "Add the bananas and walnuts. Cook for 2 minutes, turning the bananas gently to coat them in the sauce.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Spoon the warm bananas and sauce over the vanilla ice cream and serve immediately."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "warm-fruit",
+    "quick-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "skillet",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24705/bananas-foster-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4194e0b98153d176f412cc9459fb5adce0f324b690c33b1c8c85a566d925c599",
+    "normalized_text_hash": "380f0b3999727d187efd7b81c9c3a4e103c7dad834560cf07f75ca67be26287d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:01:23.144Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-artichokes",
+  "name": "Grilled Artichokes",
+  "subtitle": "Tender artichokes with lemon-garlic oil",
+  "description": "Artichokes are briefly simmered with lemon, seasoned with garlic and pepper, then grilled until lightly charred.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "artichokes",
+      "item": "artichokes",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the artichokes for cooking and cut them as needed. Place the quartered lemon in a pot of water and bring it to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Add the artichokes and simmer for 15 minutes, until tender enough to pierce. Drain well.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill. Stir together the olive oil, chopped garlic, salt, and ground black pepper. Prepare the lemon and artichokes with the garlic mixture."
+    },
+    {
+      "step": 4,
+      "text": "Grill the artichokes for 10 minutes, turning as needed, until lightly charred and heated through.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Serve with the grilled lemon and garlic from the seasoning mixture."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "appetizer",
+    "italian",
+    "grilled",
+    "artichokes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/57899/grilled-garlic-artichokes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d105fd3f9024938a9da12433283d3808c3d4b094911e4ea33dc9210417fd8127",
+    "normalized_text_hash": "64d17710011f1e1abce3498e1f417837a5aaed1d7be21e89f35a812acb4f559f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:02:37.057Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

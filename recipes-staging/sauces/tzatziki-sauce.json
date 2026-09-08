@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tzatziki-sauce",
+  "name": "Tzatziki Sauce",
+  "subtitle": "Creamy yogurt dip with cucumber, dill, lemon, and garlic",
+  "description": "A cool, tangy yogurt sauce with grated cucumber and fresh herbs, suited to dipping or serving alongside savory dishes.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 600
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "16-ounce-container-low-fat-plain-yogurt",
+      "item": "(16 ounce) container low-fat plain yogurt",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "preparation": "peeled, seeded, and grated"
+    },
+    {
+      "ingredient_id": "fresh-dill",
+      "item": "fresh dill",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a strainer with cheesecloth or a clean kitchen towel. Add the yogurt, place it over a bowl, and refrigerate for 8 hours to drain.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Place the grated cucumber in a strainer and let it drain for 2 hours, pressing gently to remove excess liquid.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Combine the drained yogurt and cucumber with the dill, lemon juice, garlic, salt, and pepper. Stir until evenly mixed."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "condiment",
+    "sauce",
+    "american",
+    "greek"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "strainer",
+    "cheesecloth or clean kitchen towel",
+    "bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233156/tzatziki-sauce-yogurt-and-cucumber-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2a1931166d218672f5676782d4f32e38ce69ab3d741ba3cc90350c7c3f8ef89d",
+    "normalized_text_hash": "0870c71809462c6a6406059a36e75a3f4757ce578c9e4dada0000ad196c550de",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:33:44.708Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

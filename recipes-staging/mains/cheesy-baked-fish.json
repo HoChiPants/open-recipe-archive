@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-baked-fish",
+  "name": "Cheesy Baked Fish",
+  "subtitle": "Cod with a creamy cheese topping",
+  "description": "Cod bakes over buttery onions beneath a savory mayonnaise and cheese topping.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "skin-on-fresh-cod",
+      "item": "skin-on fresh cod",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "provolone-cheese",
+      "item": "provolone cheese",
+      "quantity": 2.5,
+      "unit": "tablespoons",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2.5,
+      "unit": "tablespoons",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a baking dish for 5 minutes, then arrange the sliced onion in the dish and season with seasoned salt.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Place the cod over the onions. Stir together the mayonnaise, Parmesan, provolone, mozzarella, and parsley, then spread the mixture over the fish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, or until the fish reaches 145°F and flakes easily with a fork.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255951/cheesy-baked-fish/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "02a362090e3764129ed58ab6b0f97a0ca4d013a9b6a1f16b5bf38b540e95ee1b",
+    "normalized_text_hash": "f27d73e3ccae2035fe9b1f5a66f4ec6e8ee73dfbe9d67ab43303a2b6d341453f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:10:41.230Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

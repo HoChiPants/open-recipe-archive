@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "marinated-portobello-mushrooms",
+  "name": "Marinated Portobello Mushrooms",
+  "subtitle": "Savory baked mushroom caps with balsamic marinade",
+  "description": "Large portobello caps soak in a garlic-balsamic marinade before baking until tender.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-wine",
+      "item": "cooking wine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dark-soy-sauce",
+      "item": "dark soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "portobello-mushroom-caps",
+      "item": "portobello mushroom caps",
+      "quantity": 2,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the cooking wine, dark soy sauce, balsamic vinegar, olive oil, and minced garlic."
+    },
+    {
+      "step": 2,
+      "text": "Place the portobello mushroom caps in the marinade and let them stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 400°F and arrange the marinated caps in a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes, then continue baking until the mushrooms are tender.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked",
+    "mushrooms",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/169278/savannahs-best-marinated-portobello-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03daf8e82ed643b92a2e4b67b6818bb04f08cc5f27e77a11683fba6f599035e7",
+    "normalized_text_hash": "cd470cd8914b8491f3ebc41db38d10d6318bdd16f2e391a2586fb50740c5b3fd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:54:41.194Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

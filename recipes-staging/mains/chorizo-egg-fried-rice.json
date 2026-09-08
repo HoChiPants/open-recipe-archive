@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chorizo-egg-fried-rice",
+  "name": "Chorizo Egg-Fried Rice",
+  "subtitle": "A quick skillet meal with crisp vegetables, peas, and egg",
+  "description": "Chorizo adds savory depth to this fast fried rice, balanced with spring onions, carrot, peas, and softly set egg.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chorizo-finely-chopped",
+      "item": "chorizo finely chopped",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bunch-spring-onions-sliced",
+      "item": "bunch spring onions sliced",
+      "quantity": 1,
+      "preparation": "green and white parts separated"
+    },
+    {
+      "ingredient_id": "carrot-grated-no-need-to-peel",
+      "item": "carrot grated (no need to peel)",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed-or-finely-grated",
+      "item": "garlic cloves crushed or finely grated",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-or-sunflower-oil",
+      "item": "vegetable or sunflower oil (optional)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "rice",
+      "item": "rice",
+      "quantity": 300,
+      "unit": "g",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "eggs-beaten",
+      "item": "eggs beaten",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "soy-sauce-or-crispy-chilli-oil-to-serve-optional",
+      "item": "soy sauce or crispy chilli oil to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a large skillet over medium-high heat. Add the chorizo and cook until browned and cooked through, reaching 160°F on a food thermometer, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the spring onion whites and grated carrot. Cook until the carrot softens, about 5 minutes. Add the garlic and stir briefly.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the peas and cook until hot, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the cooked rice and toss until evenly mixed and heated through. Add the beaten eggs and stir until fully set, reaching 160°F."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the spring onion greens and serve with soy sauce or crispy chilli oil, if desired."
+    }
+  ],
+  "tags": [
+    "fried-rice",
+    "quick-dinner",
+    "family-meal",
+    "one-pan-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chorizo-egg-fried-rice",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "adf5c9fb151b3c0a544cc806feed262e74c5a03bececa1003058e4348b38d38d",
+    "normalized_text_hash": "663c937d67c4d6e2c29c90e3bc8e66be49607f5199e63c5dcf9cbdb64ee1e9b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:15:20.142Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

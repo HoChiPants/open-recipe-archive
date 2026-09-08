@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-rolls",
+  "name": "Ham Rolls",
+  "subtitle": "Cream cheese and green onion ham roll-ups",
+  "description": "A simple savory appetizer made by filling ham with softened cream cheese and green onions, then slicing it into bite-size rolls.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-cooked-ham",
+      "item": "slices cooked ham",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 5
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the green onions into thin pieces."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Lay the ham slices flat and spread them with the cream cheese. Scatter the green onions over the filling."
+    },
+    {
+      "step": 4,
+      "text": "Roll each ham slice tightly around the filling, then cut the rolls into bite-size pieces."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "no-cook",
+    "party-food",
+    "ham",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23943/ham-rolls/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "49ad2942d5dfd15c0c13422cc5200092f1fc13620307d597dffa69ba916a83f3",
+    "normalized_text_hash": "d99f9bee27dfad50b56cd069289a76bb91f5259f6ebc94ef2db42a8efda9b8f4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:20:54.492Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

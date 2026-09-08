@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dill-garlic-chicken-sandwich",
+  "name": "Dill-Garlic Chicken Sandwich",
+  "subtitle": "Creamy herb chicken layered with crisp lettuce and tomato",
+  "description": "Toasted French bread holds tender dill-garlic chicken, a creamy spread, lettuce, and sliced tomato for a simple summer sandwich.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 4,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "minced, divided"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "leaves-lettuce",
+      "item": "leaves lettuce",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "thick-slices-french-bread",
+      "item": "thick slices French bread",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the cream cheese with half of the dill and half of the minced garlic until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Rub the chicken with the remaining dill and garlic."
+    },
+    {
+      "step": 3,
+      "text": "Warm a skillet over medium heat and cook the chicken for about 8 minutes per side, or until the thickest part reaches 165°F. Rest briefly, then slice.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Butter the French bread and toast it in the skillet for about 2 minutes per side, until lightly browned.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Spread the cream cheese mixture over the toasted bread. Layer the chicken, tomato, and lettuce between the slices and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american",
+    "chicken",
+    "sandwich"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87144/divine-summertime-chicken-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0831d10f79165ac1057325ae0b2bc23884128162a18734e265ab48a33245f5fb",
+    "normalized_text_hash": "06a88a43ec6de39beda1c991aaaaf1cc71f25e243f4d855cdc0c17ae54cd8a14",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:09:33.115Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-root-beer-pulled-pork",
+  "name": "Slow Cooker Root Beer Pulled Pork",
+  "subtitle": "Tender shredded pork with root beer and garlic",
+  "description": "Pork shoulder cooks slowly with root beer, liquid smoke, salt, and garlic until tender enough to shred.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4-pound-pork-shoulder-roast",
+      "item": "(4 pound) pork shoulder roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "coarse-kosher-salt",
+      "item": "coarse kosher salt",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "or-bottle-root-beer",
+      "item": "or bottle root beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "liquid-smoke-flavoring",
+      "item": "liquid smoke flavoring",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "4 fluid ounce, or to taste"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the pork shoulder in a slow cooker and season it with the salt."
+    },
+    {
+      "step": 2,
+      "text": "Add the root beer, liquid smoke flavoring, and garlic."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on low for 8 hours, or until the pork is tender and reaches at least 145°F internally.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pork to a cutting board and rest for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Shred the pork with two forks and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "pork",
+    "pulled-pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "cutting board",
+    "two forks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241143/slow-cooker-root-beer-pulled-pork/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9cfbe6b026918ea310825e0056a3f43951fe5efb1872898da942e8c9b076c204",
+    "normalized_text_hash": "6b1541b3421dffd4a8fe2ca85f244c9375cffd880994c1d79e6a07f5d8d457ad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:50:10.744Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

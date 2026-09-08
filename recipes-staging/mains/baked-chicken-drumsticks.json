@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-chicken-drumsticks",
+  "name": "Baked Chicken Drumsticks",
+  "subtitle": "Oven-roasted drumsticks with cumin and smoked paprika",
+  "description": "Chicken drumsticks are coated in olive oil and a savory spice mixture, then baked until browned and safely cooked through.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-drumsticks",
+      "item": "chicken drumsticks",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garlic-granules",
+      "item": "garlic granules",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven."
+    },
+    {
+      "step": 2,
+      "text": "Combine the olive oil, cumin, smoked paprika, oregano, garlic granules, and black pepper. Coat the chicken drumsticks evenly with the mixture."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the drumsticks to a baking dish or sheet and bake for 20 minutes. Continue baking until cooked through and the thickest part reaches 165°F on a food thermometer, about 40 minutes total.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-chicken",
+    "chicken-drumsticks",
+    "oven-roasted"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet or baking dish",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baked-chicken-drumsticks",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "af5ae647cad9c35feec1eefc38b9aa1d0f6a56c166a2e111fee0a039569ecef6",
+    "normalized_text_hash": "3336f6eab876e19a2591ad49008c93285dc8dabd2287417870832ef305e24019",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:00:33.865Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

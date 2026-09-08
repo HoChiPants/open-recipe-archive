@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "serrano-hot-sauce",
+  "name": "Serrano Hot Sauce",
+  "subtitle": "Bright, Tangy Chile Condiment",
+  "description": "Blend fresh serranos with garlic, salt, and vinegar, then briefly cook and chill for a sharp, pourable sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 100,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "serrano-chile-peppers",
+      "item": "serrano chile peppers",
+      "quantity": 14,
+      "preparation": "stemmed"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "smashed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the serrano peppers, garlic, and kosher salt in a blender. Process until coarsely combined."
+    },
+    {
+      "step": 2,
+      "text": "Add the vinegar and blend until completely smooth, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a saucepan and cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Transfer the sauce to a clean container and refrigerate for 24 hours.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 5,
+      "text": "Stir before serving."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "hot-sauce",
+    "serrano",
+    "spicy",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "saucepan",
+    "refrigerator",
+    "storage container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256617/serrano-hot-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "020268b59511b23c1906863af59c3f684fcc1bdcba608e92e7368020a92f0f20",
+    "normalized_text_hash": "2e1311073b0f72f10ae69cdb9d137d61fb2cdc8dd9ecd2384ee6760e0cb13765",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:03:48.869Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

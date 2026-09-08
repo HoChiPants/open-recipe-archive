@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "polish-noodles",
+  "name": "Polish Noodles",
+  "subtitle": "Tender noodles simmered in savory broth",
+  "description": "Kluski noodles cooked in seasoned chicken broth for a simple, comforting side dish.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "49.5 fluid ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or as desired"
+    },
+    {
+      "ingredient_id": "chicken-soup-base",
+      "item": "chicken soup base",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "kluski-noodles",
+      "item": "kluski noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chicken broth, water, and chicken soup base in a large pot."
+    },
+    {
+      "step": 2,
+      "text": "Bring the broth mixture to at least 165°F, stirring to dissolve the soup base."
+    },
+    {
+      "step": 3,
+      "text": "Add the kluski noodles and simmer until tender, stirring occasionally.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "noodles",
+    "broth-based",
+    "comfort-food",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246178/easy-polish-noodles/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1b6ec9249dcda769cce3c8aee56c62ee923204be91b9d5789c8664c3f8ef8140",
+    "normalized_text_hash": "a7ec2875f43052d8fe408be7c66dcd5d0c593ac7af71a8b6eec704374a9e6628",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:42:07.274Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

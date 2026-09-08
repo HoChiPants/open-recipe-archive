@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-tiffin",
+  "name": "Chocolate Tiffin",
+  "subtitle": "A crisp biscuit and raisin slice with a smooth chocolate topping",
+  "description": "Combine cocoa, syrup, and butter with crushed biscuits and raisins, then finish with a two-chocolate topping and chill until set.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 2,
+    "inactive_minutes": 3
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-cubed",
+      "item": "butter cubed",
+      "quantity": 150,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 6,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "biscuits-crushed",
+      "item": "biscuits crushed",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-of-raisins",
+      "item": "handful of raisins"
+    },
+    {
+      "ingredient_id": "milk-chocolate",
+      "item": "milk chocolate",
+      "quantity": 110,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate",
+      "item": "dark chocolate",
+      "quantity": 110,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Grease a tin with the extra butter and line it if desired."
+    },
+    {
+      "step": 2,
+      "text": "Melt the cubed butter with the caster sugar, golden syrup, and cocoa powder until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the crushed biscuits and raisins until evenly coated, then press the mixture firmly into the prepared tin."
+    },
+    {
+      "step": 4,
+      "text": "Microwave the milk chocolate and dark chocolate in short bursts, stirring between each, until melted and smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Spread the melted chocolate over the biscuit mixture."
+    },
+    {
+      "step": 6,
+      "text": "Chill until firm, then cut into 12 servings."
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "biscuit-dessert",
+    "no-bake",
+    "afternoon-tea",
+    "sweet-treat",
+    "raisins"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "tin",
+    "microwave-safe bowl",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-tiffin",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aee8396a81e7d51e88d65ca5e596da1cbd260a91ccc563d2a81f5d97ad25c635",
+    "normalized_text_hash": "cfb6dee99b34ac7604837cc0bcb3bb35466274d254fd6b169eec287b82a9ab73",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:13:48.533Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lavender-sugar-cookies",
+  "name": "Lavender Sugar Cookies",
+  "subtitle": "Tender cookies with a light floral note",
+  "description": "Mix a simple butter-based dough with lavender, shape into cookies, and bake until golden and fully set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lavender-flowers",
+      "item": "lavender flowers",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the flour, sugar, and baking powder."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the softened butter until the mixture is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Add the egg, vanilla extract, and lavender flowers; mix until combined."
+    },
+    {
+      "step": 5,
+      "text": "Portion the dough onto a baking sheet and bake for about 10 minutes, until golden brown and fully set in the center. The egg-containing cookies should reach 160°F.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "lavender",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231318/the-best-lavender-sugar-cookies-ever/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b7c88fe877cef3ff2d8067d18ba0a3be06e3bf4301c8e6d9a8ee44df309ab6b",
+    "normalized_text_hash": "b9ccb3c47423905d2704c2e8d5ffcf9c650e8ae278f4a910e1600ef07e8a6600",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:57:09.080Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

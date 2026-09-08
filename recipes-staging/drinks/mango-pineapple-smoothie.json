@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-pineapple-smoothie",
+  "name": "Mango Pineapple Smoothie",
+  "subtitle": "A creamy tropical fruit drink",
+  "description": "Blend mango, pineapple juice, banana, yogurt, milk, and coconut cream into a smooth, refreshing beverage.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vanilla-yogurt",
+      "item": "vanilla yogurt",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "unsweetened-pineapple-juice",
+      "item": "unsweetened pineapple juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mango",
+      "item": "mango",
+      "quantity": 1,
+      "preparation": "peeled, seeded, and chopped"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 0.5,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "nonfat-milk",
+      "item": "nonfat milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-of-coconut",
+      "item": "cream of coconut",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk all ingredients together until smooth."
+    }
+  ],
+  "tags": [
+    "smoothie",
+    "fruit-drink",
+    "tropical"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75129/mango-pineapple-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7a16748961dd39fa36a4d04a3a433f2c2a8d944d646a9fb123eeab9c96f5161f",
+    "normalized_text_hash": "7d4145db74caba9d6fcbf0af092d2d6c571bfdb0d61163f4c5ddc6dd736d4050",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:16:45.881Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

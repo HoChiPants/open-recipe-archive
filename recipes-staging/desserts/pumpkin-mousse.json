@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-mousse",
+  "name": "Pumpkin Mousse",
+  "subtitle": "A light, spiced pumpkin dessert with a creamy finish",
+  "description": "Melted marshmallows create a smooth pumpkin base, folded with sweetened whipped cream and chilled until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "marshmallows",
+      "item": "marshmallows",
+      "quantity": 24
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "canned-pumpkin",
+      "item": "canned pumpkin",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pumpkin-pie-spice",
+      "item": "pumpkin pie spice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over low heat. Add the marshmallows, milk, canned pumpkin, and pumpkin pie spice; stir until the marshmallows are melted and the mixture is smooth."
+    },
+    {
+      "step": 2,
+      "text": "Remove from the heat and stir in the vanilla extract. Let the pumpkin mixture cool for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Beat the confectioners' sugar and heavy cream until stiff peaks form."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the cooled pumpkin mixture until smooth, then gently fold in the whipped cream."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mousse to serving dishes and chill until firm, about 2 hours.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pumpkin",
+    "spiced",
+    "no-bake"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "electric mixer",
+    "serving dishes",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212348/quick-and-easy-pumpkin-mousse/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e013016263006bd0f0e576508e0a8a4ce94a1375f8c550e4d8c4893deadbbe37",
+    "normalized_text_hash": "082b625c2bcfbda932dbb321d4d1360fefe0cff0333dd774205596ae777ce8c8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:42:01.803Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

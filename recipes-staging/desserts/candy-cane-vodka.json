@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "candy-cane-vodka",
+  "name": "Candy Cane Vodka",
+  "subtitle": "A simple peppermint-infused vodka for festive sipping",
+  "description": "Crushed candy canes dissolve into vodka during chilling, creating a sweet peppermint drink.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 500,
+    "unit": "ml"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "candy-canes",
+      "item": "candy canes",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 500,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Crush the candy canes into small pieces and place them in a clean sealable jar."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the vodka, seal the jar, and chill for 5 hours, shaking occasionally until the candy has dissolved.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 3,
+      "text": "Strain the infused vodka if needed, then serve chilled."
+    }
+  ],
+  "tags": [
+    "infused-vodka",
+    "peppermint",
+    "holiday-drink",
+    "alcoholic-beverage"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "equipment": [
+    "sealable jar",
+    "strainer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/candy-cane-vodka",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7edcfe81d50c0df40c1d403ddb7e84637b1ade1f96601fd34315799ed5a68440",
+    "normalized_text_hash": "ffb2353482a5015fafd99d323c1bd32667579d010a21e722d44b39b3959e863e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:09:21.923Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

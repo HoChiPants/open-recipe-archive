@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ginger-salad-dressing",
+  "name": "Ginger Salad Dressing",
+  "subtitle": "Creamy carrot dressing with savory ginger flavor",
+  "description": "Blend carrot, mayonnaise, ginger, soy sauce, and sugar into a smooth dressing for salads or vegetables.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the carrot, mayonnaise, ground ginger, soy sauce, and white sugar to a blender or food processor."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, scraping down the sides as needed."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "salad-dressing",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "blender or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/145838/jesses-ginger-salad-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7a3e9b9ed403de65c76b544a5cce019fa0063b1286e3dc07aefbbcef4250982c",
+    "normalized_text_hash": "3d89e82d277469080ec16bf30788a7dad3efbae17b275b44638bbd64fea0bc15",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:28:30.307Z",
+    "semantic_similarity": 15,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

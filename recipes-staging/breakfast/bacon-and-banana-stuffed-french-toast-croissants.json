@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-and-banana-stuffed-french-toast-croissants",
+  "name": "Bacon and Banana Stuffed French Toast Croissants",
+  "subtitle": "Crisp croissants filled with bacon and banana",
+  "description": "Golden croissants stuffed with smoky bacon and sliced banana, coated in maple egg custard, and served with a dusting of icing sugar and maple syrup.",
+  "meal_type": "breakfast",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "croissants",
+      "item": "croissants",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "slices-of-crispy-smoked-bacon",
+      "item": "slices of crispy smoked bacon",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "knob-of-butter",
+      "item": "knob of butter"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Split each croissant horizontally, keeping the halves connected if possible. Fill with the bacon and sliced banana."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, milk, and 2 teaspoons maple syrup in a shallow dish."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a large skillet over medium heat and melt the butter. Dip each filled croissant briefly into the egg mixture, turning to coat."
+    },
+    {
+      "step": 4,
+      "text": "Cook the croissants in the skillet until browned on both sides and the custard is fully set, reaching 160°F in the center.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately with icing sugar and the remaining maple syrup."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "french-toast",
+    "croissant",
+    "bacon",
+    "banana",
+    "maple-syrup",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dish",
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bacon-banana-stuffed-french-toast-croissants",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2c187bae385ed541f14f56623e3fcb8a444ad164b670fc735b3614cf4f08ed10",
+    "normalized_text_hash": "ab2dba1324e5733d187921e74c384561f0551130ad19ac44e463d4f9e883671a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T03:57:50.031Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "frozen-beef-stew",
+  "name": "Frozen Beef Stew",
+  "subtitle": "A hearty pressure-cooked stew with tender vegetables",
+  "description": "Frozen beef and vegetables cook with herbs, broth, and wine, then finish with a quick cornstarch slurry for a thick, savory stew.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 85
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "avocado-oil",
+      "item": "avocado oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "dry-red-wine",
+      "item": "dry red wine",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "thyme",
+      "item": "thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "beef-stew-meat",
+      "item": "beef stew meat",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "1 pound, cubed, frozen"
+    },
+    {
+      "ingredient_id": "baking-potato",
+      "item": "baking potato",
+      "quantity": 5,
+      "unit": "large",
+      "preparation": "peeled and cut into 3/4-inch pieces"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 6,
+      "unit": "medium",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "celery-ribs",
+      "item": "celery ribs",
+      "quantity": 3,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set an electric pressure cooker to sauté and heat the avocado oil. Add the onion and garlic; cook, stirring, for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Pour in the red wine and simmer for 3 minutes, scraping up any browned bits.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the broth, thyme, parsley, oregano, bay leaf, salt, pepper, and tomato paste. Stir in the frozen beef, potatoes, carrots, and celery."
+    },
+    {
+      "step": 4,
+      "text": "Seal the cooker and pressure-cook until the cycle reaches its set endpoint, about 45 minutes. Allow the cooker to release pressure for 15 minutes, then continue with the remaining 10-minute release period.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Open the cooker safely and verify that the beef reaches 145°F in the center; rest it for 3 minutes before serving.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Whisk the water and cornstarch together. Stir the slurry into the stew, return to sauté, and cook until thickened, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 7,
+      "text": "Remove the bay leaf and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stew",
+    "beef",
+    "pressure-cooker",
+    "one-pot"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "electric pressure cooker",
+    "food thermometer",
+    "small bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265281/instant-pot-stew-using-frozen-meat/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21ce83fe79137686484dbc0e8862d00febc45b4752b4432827ac9f1711697e60",
+    "normalized_text_hash": "a79f64440fc7914f24edb11af5d2e52c0a3410086648813dab7fc821fd3caaca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:12:50.107Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

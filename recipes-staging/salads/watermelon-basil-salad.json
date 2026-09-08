@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "watermelon-basil-salad",
+  "name": "Watermelon Basil Salad",
+  "subtitle": "Chilled watermelon with lemon and chili",
+  "description": "A refreshing fruit salad combining sweet watermelon, fresh basil, bright lemon juice, and a lightly spicy seasoning.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "basil-leaves",
+      "item": "basil leaves",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "watermelon",
+      "item": "watermelon",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stack the basil leaves, roll them tightly, and slice into thin ribbons. Cut the watermelon into cubes if needed."
+    },
+    {
+      "step": 2,
+      "text": "Combine the watermelon and basil in a serving bowl. Drizzle with the lemon juice."
+    },
+    {
+      "step": 3,
+      "text": "Mix the kosher salt and chili powder, then sprinkle over the watermelon. Toss gently to coat."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "salad",
+    "fruit",
+    "american",
+    "vegetarian",
+    "vegan",
+    "chilled"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "chef's knife",
+    "cutting board",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254422/watermelon-basil-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5fd946faeb7c80882d38283b2380aebbe4d29765b1e36bb14d9322e9f7aee86f",
+    "normalized_text_hash": "1f3cad403a598183eae5e115cc372ddb294599574203f7112dc37ac832357509",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:56:18.685Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

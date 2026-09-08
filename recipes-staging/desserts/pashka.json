@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pashka",
+  "name": "Pashka",
+  "subtitle": "Chilled cottage cheese and cream cheese dessert",
+  "description": "A rich, gently lemon-vanilla dessert with almonds and currants, finished by chilling until firm.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "8-ounce-container-cottage-cheese",
+      "item": "(8 ounce) container cottage cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "finely-chopped-blanched-almonds",
+      "item": "finely chopped blanched almonds",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "currants",
+      "item": "currants",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon-extract",
+      "item": "lemon extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese, cottage cheese, sour cream, and melted butter until well combined."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the sugar, almonds, currants, vanilla extract, and lemon extract."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a container."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "dessert",
+    "russian",
+    "eastern-european"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/33145/pashka/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "db4bf4166387a8561b7e5ee9f7bcc5a45b0691d8f14591e944e56ee597601cfc",
+    "normalized_text_hash": "24bc983a017fc0583e813c2b106d133b2b3aef497cb0ba4646a6db8ec74ecbe2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:52:11.374Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

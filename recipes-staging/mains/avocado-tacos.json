@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "avocado-tacos",
+  "name": "Avocado Tacos",
+  "subtitle": "Warm corn tortillas with creamy avocado filling",
+  "description": "Mashed avocado, onion, garlic salt, cilantro, and jalapeño sauce make a quick filling for gently baked corn tortillas.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "avocados",
+      "item": "avocados",
+      "quantity": 3,
+      "preparation": "peeled, pitted, and mashed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "6-inch-corn-tortillas",
+      "item": "(6 inch) corn tortillas",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "bunch-fresh-cilantro-leaves",
+      "item": "bunch fresh cilantro leaves",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper-sauce",
+      "item": "jalapeno pepper sauce",
+      "preparation": "to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the mashed avocados, diced onions, and garlic salt until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the corn tortillas in layers in a baking dish, separating them as needed so they can warm evenly."
+    },
+    {
+      "step": 4,
+      "text": "Bake the tortillas for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Transfer the warm tortillas to a serving surface and fill or top them with the avocado mixture."
+    },
+    {
+      "step": 6,
+      "text": "Finish with the chopped cilantro and jalapeño pepper sauce to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "tacos",
+    "vegetarian",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/41638/avocado-tacos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6a00b724c115fe78a59625b83015fc7cefb864e3aa2471bf473e6ad977ef92d6",
+    "normalized_text_hash": "be8c3e3e2d54161714ebe73d9c18659327a393e4365a8c0759d7b1dba88529db",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:35:50.969Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

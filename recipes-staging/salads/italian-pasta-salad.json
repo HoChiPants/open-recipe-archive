@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-pasta-salad",
+  "name": "Italian Pasta Salad",
+  "subtitle": "A chilled pasta salad with salami, olives, peppers, onion, and Parmesan",
+  "description": "Toss cooked rotelli with two dressings, Parmesan, and sliced vegetables for a savory salad that chills before serving.",
+  "meal_type": "salad",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rotelli-pasta",
+      "item": "rotelli pasta",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "creamy-salad-dressing",
+      "item": "creamy salad dressing",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "italian-style-salad-dressing",
+      "item": "Italian-style salad dressing",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salami",
+      "item": "salami",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "black-olives",
+      "item": "black olives",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "2 ounce, sliced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "julienned"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the rotelli pasta in boiling water until tender, then drain and cool."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the creamy salad dressing, Italian-style salad dressing, and Parmesan cheese."
+    },
+    {
+      "step": 3,
+      "text": "Combine the pasta, salami, bell pepper, olives, and red onion with the dressing mixture."
+    },
+    {
+      "step": 4,
+      "text": "Stir until evenly coated, then cover and chill for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "pasta-salad",
+    "lunch",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl",
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14451/salami-lovers-italian-pasta-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "072bd070a87032ce59137602d9665f4b2494d8a8fc97f8fcda386d1fe3a39116",
+    "normalized_text_hash": "a77434f644e193b414c34afec1cbc1ef5bf5e23cb69acbbabf94a09b8aa40fde",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:37:32.685Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

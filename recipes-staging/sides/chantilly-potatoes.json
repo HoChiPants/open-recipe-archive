@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chantilly-potatoes",
+  "name": "Chantilly Potatoes",
+  "subtitle": "Creamy baked potatoes with Swiss cheese",
+  "description": "Mashed potatoes are enriched with cream, seasoned, topped with Swiss cheese, and baked until hot and lightly browned.",
+  "meal_type": "side",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "mashed-potatoes",
+      "item": "mashed potatoes",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-swiss-cheese",
+      "item": "grated Swiss cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Butter a baking dish with the teaspoon of butter, or use as much as needed to coat it."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the mashed potatoes to a bowl. Whisk in the heavy cream, then fold in half of the Swiss cheese and season with salt and freshly ground black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Spread the potato mixture in the prepared dish and sprinkle the remaining Swiss cheese over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until heated through and the cheese is melted and lightly browned, about 25 minutes.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "french"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277625/chantilly-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1ce709491da5d853ab00dbedd4e7cdcb996dc0478643d2fe4733dffc3cb2d447",
+    "normalized_text_hash": "5668b2a2cf9790c96609d47b181700bfc504ecc91ef141d8d6559a0c60651dd7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:04:34.432Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-cheese-ball",
+  "name": "Chicken Cheese Ball",
+  "subtitle": "A creamy, savory make-ahead snack",
+  "description": "Seasoned cream cheese and chicken form a shareable ball finished with chopped pecans.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "chunk-chicken",
+      "item": "chunk chicken",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "If the chicken requires heating, warm it to an internal temperature of 165°F, measured with a food thermometer, then cool before mixing."
+    },
+    {
+      "step": 2,
+      "text": "Stir the softened cream cheese, ranch dressing mix, and drained chicken together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into a ball and coat it evenly with the chopped pecans."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate until firm.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "make-ahead",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20715/chicken-cheese-ball/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "15a5381d1293fe8fffdf05f7ff44564ccf4901fbaaf1a65e4213cb5411e62ded",
+    "normalized_text_hash": "d0f4ce98d55b398e378c66c8e485756d00f03a648f8bb57d00dc67a8b552b922",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:02:55.539Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

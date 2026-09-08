@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-spice-coffee-creamer",
+  "name": "Pumpkin Spice Coffee Creamer",
+  "subtitle": "A maple-sweetened creamer with warm pumpkin spice flavor",
+  "description": "Make a smooth homemade creamer for stirring into hot or iced coffee.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 28,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 14,
+      "unit": "ounces",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pumpkin-pie-spice",
+      "item": "pumpkin pie spice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk maple syrup, pumpkin puree, pumpkin pie spice, vanilla, and half of the cream in a microwave-safe bowl until blended."
+    },
+    {
+      "step": 2,
+      "text": "Microwave the mixture for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir in the remaining cream and sweetened condensed milk until smooth and uniform."
+    },
+    {
+      "step": 4,
+      "text": "Pour into a container and use in coffee as desired."
+    }
+  ],
+  "tags": [
+    "drink",
+    "american",
+    "coffee",
+    "pumpkin-spice"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "whisk",
+    "microwave-safe bowl",
+    "container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236748/homemade-coffee-creamer-pumpkin-spice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ff97ce8e5aa199b9eb2a905fda9f21290bedc0ce9f459be00438c899f68f383",
+    "normalized_text_hash": "55e5df5903822591614f3beb6246ca7c11048acddb385dd43d04b2a4ef16b3fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:38:39.274Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

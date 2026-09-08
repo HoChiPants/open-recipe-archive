@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-bologna-casserole",
+  "name": "Fried Bologna Casserole",
+  "subtitle": "Creamy mashed potatoes layered with browned bologna and Cheddar",
+  "description": "Browned bologna and onion-seasoned mashed potatoes bake together under a melted Cheddar topping for a hearty four-serving casserole.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bologna",
+      "item": "slices bologna",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "warm-mashed-potatoes",
+      "item": "warm mashed potatoes",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bologna in a skillet for 1 minute, turning as needed, then drain.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in the skillet. Add the chopped onion and sauté for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir the onion into the warm mashed potatoes and transfer the mixture to a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the bologna over the potatoes and cover with the shredded Cheddar."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until the cheese is melted and the casserole reaches 165°F in the center when checked with a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165356/fried-bologna-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2a6c357344e52b982c6977b5c0c573301b6dcd7e10bc77a9f4d5253009386772",
+    "normalized_text_hash": "95dac6c83a85bdd1423b8807b52b901ffddd3aaa2ff30fc953ff38459f137f9f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:24:44.680Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

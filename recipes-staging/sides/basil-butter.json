@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basil-butter",
+  "name": "Basil Butter",
+  "subtitle": "A cool, herb-flecked butter for spreading or finishing",
+  "description": "Blend fresh basil, garlic, pepper, and butter, then chill until firm for a simple savory condiment.",
+  "meal_type": "side",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "leaves-fresh-basil",
+      "item": "leaves fresh basil",
+      "quantity": 15
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the basil leaves, garlic, and black pepper in a food processor or mixing bowl. Process or finely combine until the basil and garlic are well broken down."
+    },
+    {
+      "step": 2,
+      "text": "Add the butter and mix until the ingredients are evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Chill the basil butter until firm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "condiment",
+    "french",
+    "italian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "food processor or mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/104938/basil-butter/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b4e0724b7e1d423720f22f3ae9d07e4d45531e00777e2e433a3a80c23f1129f1",
+    "normalized_text_hash": "e3f1e948def65ee421742bd4b8644ecf967d94264db4f0ecc554990693faba4f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:08:30.229Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bone-broth",
+  "name": "Bone Broth",
+  "subtitle": "A long-simmered beef broth with roasted bones and vegetables.",
+  "description": "Roast beef bones with tomato paste, then simmer them with vegetables and aromatics for a deeply savory broth.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 1470
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "beef-bones",
+      "item": "beef bones",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "cool-water",
+      "item": "cool water",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "thickly sliced"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Coat a roasting pan with cooking spray, add the tomato paste and beef bones, and turn to coat."
+    },
+    {
+      "step": 2,
+      "text": "Bake the bones for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Transfer the roasted bones to a large pot. Add the cool water, onions, carrots, garlic, and bay leaves."
+    },
+    {
+      "step": 4,
+      "text": "Bring to a gentle simmer, then cook for 24 hours, adding water as needed to keep the bones covered. Use a food thermometer to confirm any meat attached to the bones reaches 145°F, then allow a 3-minute rest before serving.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 5,
+      "text": "Strain the broth and chill it before serving or storing."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "dinner",
+    "beef",
+    "broth",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241013/bone-broth/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b885550a8f01bb869ac0afe414fb25c28f95e24e3f32f4b44772cdab0b4b2fc1",
+    "normalized_text_hash": "eee5ce36218a1f958cb35aa2613f854e41c639024e0de57385eceb9b0e5b66b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:01:46.372Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

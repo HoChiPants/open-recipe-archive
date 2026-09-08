@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-turnovers",
+  "name": "Blueberry Turnovers",
+  "subtitle": "Flaky pastries with a bright berry filling",
+  "description": "Crescent-roll pastries filled with fresh blueberries, finished with confectioners' sugar and vanilla frosting.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-crescent-rolls",
+      "item": "refrigerated crescent rolls",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "fresh-blueberries",
+      "item": "fresh blueberries",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "prepared-vanilla-frosting",
+      "item": "prepared vanilla frosting",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Separate the crescent rolls and arrange the pieces on a baking sheet. Place blueberries in the center of each piece and sprinkle with confectioners' sugar."
+    },
+    {
+      "step": 3,
+      "text": "Fold the dough over the filling and press the edges closed. Bake until the pastries are puffed and lightly golden, about 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Cool the turnovers for 5 minutes. Dust with the remaining confectioners' sugar and add the prepared vanilla frosting before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "pastry",
+    "blueberries",
+    "fruit-dessert"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/147378/blueberry-turnovers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c1a59da34ed1df0ccfa94f278963d494c4a4bf3bf2b87dd2cd05aa1f2c060d84",
+    "normalized_text_hash": "658015a1cfa5e5b9170e50337e2e7fe5ea9b5c9b9c90c8f71e5a60292d2983a6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:59:31.589Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

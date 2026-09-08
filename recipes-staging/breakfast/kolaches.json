@@ -1,0 +1,156 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kolaches",
+  "name": "Kolaches",
+  "subtitle": "Soft yeast pastries filled with fruit preserves",
+  "description": "Tender, lightly sweet yeast pastries shaped around a small spoonful of fruit preserves and baked until golden.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "inactive_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "scalded-milk",
+      "item": "scalded milk",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 4,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "lemon-extract",
+      "item": "lemon extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fruit-preserves",
+      "item": "fruit preserves",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Beat the shortening and sugar together until smooth. Stir in the salt, scalded milk, beaten egg yolks, and lemon extract; cool until lukewarm."
+    },
+    {
+      "step": 2,
+      "text": "Stir the yeast into the lukewarm milk mixture and let it stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the flour gradually, mixing until a soft dough forms. Knead or work the dough until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Cover the dough and let it rise for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Divide the dough into 36 portions, shape them into smooth rounds, and place them on prepared baking sheets. Let rest for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Make a shallow indentation in each round and fill it with fruit preserves. Let the shaped pastries rest for 15 minutes while the oven heats to 450°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Bake for 15 minutes, until golden brown and the centers reach 160°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 8,
+      "text": "Transfer the kolaches to a rack and cool for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "yeast-pastry",
+    "fruit-filled",
+    "baked-good"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "baking sheets",
+    "food thermometer",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7008/kolaches-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c179f32107565dd0294981976631f89cb3c60a39337156dd65d27f2d47f2be98",
+    "normalized_text_hash": "be50a3eb6cab6ab15b7d83f259b765d6207aae58ab649aba5b13c26ee66d0347",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:43:57.941Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

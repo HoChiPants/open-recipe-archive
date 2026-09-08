@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stuffed-potatoes",
+  "name": "Stuffed Potatoes",
+  "subtitle": "Twice-baked potatoes with cheesy onion dip",
+  "description": "Baked potatoes are filled with Cheddar and sour cream and onion dip, then returned to the oven until hot and lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream-and-onion-dip",
+      "item": "(16 ounce) container sour cream and onion dip",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bake the potatoes for 45 minutes, until cooked through.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 3,
+      "text": "Cut the potatoes open. Add the Cheddar and sour cream and onion dip, then combine the filling."
+    },
+    {
+      "step": 4,
+      "text": "Return the filled potatoes to the oven and bake for 30 minutes, until hot and the cheese is melted.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "potatoes",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24754/stuffed-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f361478b5986132a6e1c964c03328c4735f3dd440ee6684c006dab6acf53b230",
+    "normalized_text_hash": "c96d732e7201191dd30d5056fbc291d808ebde6c90f8202b0f4c8198b921b78c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:05:43.153Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

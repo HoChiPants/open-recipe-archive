@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooked-goose",
+  "name": "Slow-Cooked Goose",
+  "subtitle": "Tender goose with vegetables, mushrooms, and herbs",
+  "description": "Goose cooks slowly with creamy soups, vegetables, mushrooms, and fresh herbs for a savory main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bunch-celery",
+      "item": "bunch celery",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "baby-carrots",
+      "item": "baby carrots",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, chopped"
+    },
+    {
+      "ingredient_id": "cream-of-celery-soup",
+      "item": "cream of celery soup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-of-chicken-soup",
+      "item": "cream of chicken soup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-of-mushroom-soup",
+      "item": "cream of mushroom soup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cut-up-mushrooms",
+      "item": "cut-up mushrooms",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-sage-leaves",
+      "item": "fresh sage leaves",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "fresh-rosemary",
+      "item": "fresh rosemary",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-thyme",
+      "item": "fresh thyme",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "10-pound-goose",
+      "item": "(10 pound) goose",
+      "quantity": 2,
+      "preparation": "cut up"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the celery, carrots, three soups, mushrooms, sage, rosemary, and thyme together in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Add the cut-up goose and turn the pieces to coat them with the mixture."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on low until the goose is tender, about 6 hours; verify that the thickest pieces reach 165°F with a food thermometer.",
+      "timer_minutes": 360
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "slow-cooker",
+    "goose"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229864/slow-cooked-goose/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1d32bd2edb054b3a00e6246a8446ccfd4cd8eed68142e2aa577dd1f6e8dd651",
+    "normalized_text_hash": "4d1dd0bff8e1e563b0a318be4c9cf84041d14a5fde993d1972854bc6b73fdf46",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:36:39.632Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

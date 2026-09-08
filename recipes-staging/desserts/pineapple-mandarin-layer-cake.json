@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-mandarin-layer-cake",
+  "name": "Pineapple Mandarin Layer Cake",
+  "subtitle": "A chilled fruit-filled cake with creamy vanilla topping",
+  "description": "Bake a yellow cake, split it into layers, and fill it with a creamy mixture of pineapple, mandarin oranges, pudding, and whipped topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 25,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pineapple-with-juice",
+      "item": "pineapple with juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "20 ounce, crushed"
+    },
+    {
+      "ingredient_id": "mandarin-oranges",
+      "item": "mandarin oranges",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "8 ounce, drained"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare and bake the yellow cake mix as directed on the package, using two round cake pans. Bake until set, about 25 minutes; cool completely.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 2,
+      "text": "Beat the cream cheese with the confectioners' sugar until smooth. Stir in the crushed pineapple with its juice, drained mandarin oranges, and instant vanilla pudding mix."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the thawed whipped topping until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Cut each cooled cake layer horizontally to make four layers. Transfer one layer to a serving plate and spread with part of the filling. Repeat with the remaining cake layers and filling, ending with filling on top."
+    },
+    {
+      "step": 5,
+      "text": "Garnish with the reserved pineapple and mandarin oranges, then chill before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "layer-cake",
+    "fruit-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "two round cake pans",
+    "mixing bowl",
+    "electric mixer",
+    "serving plate",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7903/million-dollar-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ed4aba837bb9eeb574a6dfd6e5b9a2de7c4de2fe2772c10dc09d9345e2f9f7ad",
+    "normalized_text_hash": "2d99f601ac17071a98a707437580bb7fcd36e6a033e0b7693a87b4d72bf57479",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:42:07.315Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

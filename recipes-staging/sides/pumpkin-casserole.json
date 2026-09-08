@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-casserole",
+  "name": "Pumpkin Casserole",
+  "subtitle": "A warmly spiced baked pumpkin side",
+  "description": "A tender, lightly sweet pumpkin casserole with cinnamon and vanilla.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 11,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 2,
+      "unit": "pinches"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter. Combine it with the pumpkin puree, evaporated milk, sugar, flour, eggs, vanilla, and cinnamon until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Pour the mixture into the prepared dish and bake for 60 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "pumpkin"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9184/pumpkin-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fb18c0451eae9e6337586ebd01389cd8289a2e74c45a52df3a76caf9b05b0f95",
+    "normalized_text_hash": "02224e229049f8f99c35c215fa88a622e9e2caeee878b4c99724959a8b3e7454",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:32:50.513Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

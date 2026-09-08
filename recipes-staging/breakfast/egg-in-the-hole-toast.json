@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-in-the-hole-toast",
+  "name": "Egg-in-the-Hole Toast",
+  "subtitle": "Buttery toast with a set egg center",
+  "description": "Bread is cut to hold an egg, browned in butter, and finished until the egg is fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slice-bread",
+      "item": "slice bread",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut a hole from the center of the bread. Brush or coat the bread with the melted butter."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat, then cook the bread and cut-out piece until golden brown, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Turn the bread, crack the egg into the opening, and season with salt."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the egg begins to set, about 1 minute, then transfer to a preheated oven and continue cooking until the center is firm and reaches 160°F.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "egg",
+    "toast",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "knife",
+    "skillet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24527/sunshine-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ac824ecb342ce9a9964e2a02343d78f277ac38b584b6cf10ac7842b53a974aaa",
+    "normalized_text_hash": "d04b53a97702bb8ce9c39a64c880f2bd29067e8986d9735170c2aae400eddf9a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:13:22.141Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

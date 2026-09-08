@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-salad-with-mayonnaise-dressing",
+  "name": "Potato Salad with Mayonnaise Dressing",
+  "subtitle": "A chilled American salad with tender potatoes, eggs, and creamy dressing.",
+  "description": "Boiled potatoes are cooled, combined with chopped eggs and onion, then dressed with mayonnaise and celery salt before chilling.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 35,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yukon-gold-potatoes",
+      "item": "Yukon Gold potatoes",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "scrubbed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "hard-boiled-eggs",
+      "item": "hard-boiled eggs",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "celery-salt",
+      "item": "celery salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the scrubbed potatoes in a large pot, add the salt, and cover with water. Bring to a boil and cook until tender, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool until easy to handle, then cut them into bite-size pieces."
+    },
+    {
+      "step": 3,
+      "text": "Combine the potatoes, chopped eggs, diced onion, mayonnaise, celery salt, and black pepper. Toss gently until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for at least 60 minutes, then serve cold.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "potato-salad",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275112/shorecooks-potato-salad-with-mayonnaise-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1795d152b219641cc02c12d763751905ea40bb0f69db64b5b18140c108067f66",
+    "normalized_text_hash": "d645022ca51f2c03083ea87731fec5fbc7494679901b4efddbcc505b31bfa189",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:11:08.999Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

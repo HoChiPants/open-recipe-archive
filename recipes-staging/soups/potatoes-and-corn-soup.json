@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potatoes-and-corn-soup",
+  "name": "Potatoes and Corn Soup",
+  "subtitle": "A simple vegetable soup with tender potatoes, corn, and fresh chives.",
+  "description": "Potatoes, celery, onion, and corn simmer together for a comforting soup finished with chives.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "unit": "medium",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 6,
+      "preparation": "chopped, leaves reserved"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cubes-chicken-bouillon",
+      "item": "cubes chicken bouillon",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15.25 ounce, drained"
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes, celery, and onion in a large pot. Add the cooking liquid needed to cover the vegetables and stir in the bouillon cubes."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer, then cook until the potatoes are tender, about 20 minutes. For safety, ensure the soup reaches at least 165°F if any raw animal protein or egg is present.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Stir in the drained corn and reserved celery leaves, then warm through for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat, fold in the chives, and serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "vegetable",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70492/potatoes-and-corn-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9682499e15e5da47b2dd48610f13988c8590107d9484f76a188bbe128ea90cbb",
+    "normalized_text_hash": "adfcf82405513797cb0f5b564778e463f642f58768c2394b8620ca760a6b04ee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:27:34.516Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

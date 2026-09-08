@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bagna-ca-uda",
+  "name": "Bagna Càuda",
+  "subtitle": "Warm garlic, anchovy, and sardine dip",
+  "description": "A savory Italian dip made by gently cooking minced garlic with oil, preserved fish, and butter. Serve warm for dipping.",
+  "meal_type": "snack",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "anchovy-fillets-packed-in-olive-oil",
+      "item": "anchovy fillets packed in olive oil",
+      "quantity": 4,
+      "unit": "can",
+      "preparation": "2 ounce, drained"
+    },
+    {
+      "ingredient_id": "sardines-packed-in-olive-oil",
+      "item": "sardines packed in olive oil",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "4 ounce, drained"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm a heavy saucepan over low heat and add the vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the minced garlic and cook for 5 minutes, until golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the drained anchovies, sardines, and butter. Stir continuously for 15 minutes, until the fish reaches 145°F and the mixture is smooth.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a serving vessel and serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "italian",
+    "dip",
+    "warm-dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "heavy saucepan",
+    "food thermometer",
+    "serving vessel"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/132646/bagna-calda-italian-garlic-anchovy-sardine-appetizer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dceab5a2ed53d6006d996a86871afc33fb8217ef902103b056a5a7e756114b1c",
+    "normalized_text_hash": "3f72890dba7cea260b5dd6b556d582eeceac5efdbaa2f63ad8d159a2448f3f87",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:41:47.780Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

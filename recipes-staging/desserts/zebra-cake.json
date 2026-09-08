@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zebra-cake",
+  "name": "Zebra Cake",
+  "subtitle": "A chilled, striped wafer-and-cream dessert",
+  "description": "Layer chocolate wafer cookies with vanilla-sweetened whipped cream, then chill until the cookies soften and the cake slices cleanly.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "chocolate-wafer-cookies",
+      "item": "chocolate wafer cookies",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "9 ounce"
+    },
+    {
+      "ingredient_id": "grated-chocolate",
+      "item": "grated chocolate",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whip the heavy cream until it begins to thicken. Add the confectioners' sugar and vanilla extract, then continue whipping to stiff peaks."
+    },
+    {
+      "step": 2,
+      "text": "Arrange a layer of chocolate wafer cookies in a serving dish. Spread with whipped cream and repeat the layers until the ingredients are used, finishing with whipped cream."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 4,
+      "text": "Top with grated chocolate, cut into portions, and serve cold."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "no-bake",
+    "icebox-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220495/zebra-cake-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e84ad59be918094d112c6790be4c3ae8a5a26a569ef3c0bfd4d83a2326acb79",
+    "normalized_text_hash": "7da68a87108debb5d6147ac25b3e01c2c3d73430d0792d4120cc7d05e7a9d5bf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:13:08.779Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

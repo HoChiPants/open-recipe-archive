@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pressure-cooker-creamy-mushroom-soup",
+  "name": "Pressure-Cooker Creamy Mushroom Soup",
+  "subtitle": "A rich mushroom soup finished with thyme and cream.",
+  "description": "Sautéed mushrooms, aromatics, broth, and sherry cook under pressure, then receive a creamy flour thickener before serving.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sherry",
+      "item": "sherry",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set the pressure cooker to sauté. Melt the butter, then cook the onion for 3 minutes. Add the garlic and cook for 2 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the mushrooms and cook until they begin to soften, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Pour in the chicken broth and sherry. Stir in the thyme, Worcestershire sauce, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Secure the lid and cook at high pressure for 5 minutes. Allow a 15-minute natural release, then vent any remaining pressure.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Set the cooker to sauté or simmer. Whisk the flour and heavy cream together until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Stir the cream mixture into the simmering soup and cook until thickened, about 3 minutes. Verify the soup reaches 165°F with a food thermometer.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 7,
+      "text": "Taste and adjust with the reserved salt and pepper amounts as desired. Serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "mushroom",
+    "pressure-cooker",
+    "creamy",
+    "dinner"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "electric pressure cooker",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270423/instant-pot-creamy-mushroom-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "546d882de509fb730df65e74499af01074adfb345ca2de2446dd5bc24c34b913",
+    "normalized_text_hash": "9a1ae98874b3c8a09a6361c238ebd5683489f9c3f8dd094f55d0821a26446af2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:04:30.416Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

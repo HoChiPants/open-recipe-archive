@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizza-without-red-sauce",
+  "name": "Pizza Without Red Sauce",
+  "subtitle": "A savory pesto-based pizza with vegetables and feta",
+  "description": "A crisp pizza crust layered with a garlicky pesto mixture, fresh vegetables, herbs, Parmesan, and feta.",
+  "meal_type": "sauce",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sun-dried-tomato-pesto",
+      "item": "sun-dried tomato pesto",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-basil-leaves",
+      "item": "dried basil leaves",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "unbaked-pizza-crust",
+      "item": "unbaked pizza crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "bunch-fresh-spinach",
+      "item": "bunch fresh spinach",
+      "quantity": 1,
+      "preparation": "torn"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-jalapeno-pepper",
+      "item": "fresh jalapeno pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "feta-cheese",
+      "item": "feta cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "6 ounce, crumbled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven according to the pizza crust instructions and place the unbaked crust on a pizza pan or baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the melted butter, olive oil, garlic, pesto, basil, oregano, Parmesan, and feta until combined."
+    },
+    {
+      "step": 3,
+      "text": "Spread the mixture over the crust, then arrange the tomato, spinach, onion, and jalapeno on top."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the Parmesan and feta over the vegetables."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the crust is cooked through and lightly browned, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Slice and serve warm."
+    }
+  ],
+  "tags": [
+    "pizza",
+    "vegetarian",
+    "pesto",
+    "vegetable",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "pizza pan or baking sheet",
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24368/pizza-without-the-red-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5b589ab7586d769fcd0826f61284e0dad34057fe1b7507c8c80d0166be3fca56",
+    "normalized_text_hash": "ab7a97d74d52cfc36e615963f9610c9c37a27d75cd377ffefcfb524b8f2dc110",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:25:04.500Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

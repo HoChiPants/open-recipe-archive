@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-burgundy",
+  "name": "Beef Burgundy",
+  "subtitle": "Tender beef braised with red wine, mushrooms, and onions",
+  "description": "Small pieces of beef are browned, coated in flour, and slowly simmered with broth, red wine, herbs, mushrooms, and onions until tender.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "round-steak",
+      "item": "round steak",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into small pieces"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dry-red-wine",
+      "item": "dry red wine",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-marjoram",
+      "item": "dried marjoram",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 3,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large oven-safe pot over medium-high heat. Brown the beef in batches, then return all the beef to the pot."
+    },
+    {
+      "step": 2,
+      "text": "Sprinkle in the flour and stir until the beef is evenly coated. Gradually add the beef broth, stirring to form a smooth sauce."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the red wine, salt, marjoram, thyme, and pepper. Bring the mixture to a simmer."
+    },
+    {
+      "step": 4,
+      "text": "Cover the pot and simmer gently for 2 hours, stirring occasionally, until the beef is tender and reaches at least 145°F; rest whole-cut beef for 3 minutes before serving.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Add the mushrooms and onions, then continue cooking until the vegetables are tender and the sauce is hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "braised",
+    "stew"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large oven-safe pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23342/beef-burgundy-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3a6a11e34f4102e54da267315eafb0afe6c0ec5f7f06c2dc4e4a16a7a4dfa441",
+    "normalized_text_hash": "033705510a8ff845f33c445abe83fb3043e8fe7caba8d1770946395dfecad424",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:17:43.440Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

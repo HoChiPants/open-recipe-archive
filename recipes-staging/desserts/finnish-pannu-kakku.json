@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "finnish-pannu-kakku",
+  "name": "Finnish Pannu Kakku",
+  "subtitle": "A tender oven-baked pancake for six",
+  "description": "Mix a simple egg-and-milk batter, bake it in a buttered dish, and let it rest briefly before serving.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Prepare the butter in the baking dish so the surface is coated."
+    },
+    {
+      "step": 2,
+      "text": "Stir the sugar, flour, baking powder, and salt together. Add the beaten eggs and milk, then mix until the batter is uniform."
+    },
+    {
+      "step": 3,
+      "text": "Pour the batter into the prepared dish and bake for 20 minutes, until puffed and the center is fully set; verify a raw egg dish reaches 160°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Let the pancake stand for 5 minutes, then serve.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-pancake",
+    "finnish",
+    "scandinavian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17210/finnish-pannu-kakku/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ade92e887cff277e5b42059ec7dbb1b09c07842f417336c4a1d954eafd432eae",
+    "normalized_text_hash": "a3c5971911c9ead9f4d1c9bdf8c0974e101c23162b8c1ca6ddcb814b9d2957e6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:12:26.503Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

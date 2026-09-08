@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "linguine-and-clam-sauce",
+  "name": "Linguine and Clam Sauce",
+  "subtitle": "A quick pasta dinner with garlic, clams, and Parmesan",
+  "description": "Linguine is tossed with a buttery garlic sauce, minced clams, parsley, and Parmesan for a savory 5-serving meal.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "linguini-pasta",
+      "item": "linguini pasta",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "clams",
+      "item": "clams",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "6.5 ounce, minced, drained with juice reserved"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of salted water to a boil. Add the linguine and cook for 10 minutes, or until tender. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Meanwhile, heat the olive oil and butter in a large skillet. Add the garlic and parsley, and cook for 5 minutes, stirring frequently.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the clams and their reserved juice. Season with salt and pepper, and heat until the clams are opaque and the sauce is hot."
+    },
+    {
+      "step": 4,
+      "text": "Add the drained linguine to the skillet and toss with the Parmesan until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "seafood",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19307/linguine-and-clam-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "78fca4407317ad03cfebd1fa5bb563de5043b6de28b615a8b98453c23414cb78",
+    "normalized_text_hash": "74b12630c3918c9ec18d2c3e65a21acdf0811d5a23e7ef7ee106d9d57225863b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:02:34.161Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

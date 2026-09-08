@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-crackers",
+  "name": "Pecan Crackers",
+  "subtitle": "Crisp graham crackers with a buttery pecan topping",
+  "description": "Graham crackers are layered with chopped pecans and covered in a simmered butter-sugar mixture before baking until crisp.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 25,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-crackers",
+      "item": "graham crackers",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Arrange the graham crackers in a single layer on a baking sheet and scatter the pecans over them."
+    },
+    {
+      "step": 2,
+      "text": "Heat the sugar, butter, and margarine together in a saucepan until melted and simmering. Simmer for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Pour the hot mixture evenly over the crackers and pecans."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 12 minutes, then cool completely on the baking sheet before serving.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "graham-crackers",
+    "pecans",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking sheet",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22330/pecan-crackers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2040816296b86174c72cb79d4509b0fce866c3800fef4b909a571c3c87571fbc",
+    "normalized_text_hash": "288f8e9280ed9a3bf724a459e917b0b87844681d3aca85098d43d748bc920cd8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:03:52.947Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

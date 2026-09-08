@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-bacon-wrapped-corn-on-the-cob",
+  "name": "Grilled Bacon-Wrapped Corn on the Cob",
+  "subtitle": "Seasoned corn wrapped in crisp bacon",
+  "description": "Corn is seasoned, wrapped in bacon, enclosed in foil, and grilled until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ears-corn",
+      "item": "ears corn",
+      "quantity": 10,
+      "preparation": "husked and cleaned"
+    },
+    {
+      "ingredient_id": "cajun-seasoning-to-taste",
+      "item": "Cajun seasoning to taste"
+    },
+    {
+      "ingredient_id": "salt-and-black-pepper-to-taste",
+      "item": "salt and black pepper to taste"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 pound, sliced"
+    },
+    {
+      "ingredient_id": "12x8-inch-sheets-aluminum-foil",
+      "item": "12x8-inch sheets aluminum foil",
+      "quantity": 10
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Season the cleaned corn with Cajun seasoning, salt, and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Wrap each ear with bacon, then enclose each one in a sheet of aluminum foil."
+    },
+    {
+      "step": 4,
+      "text": "Grill the foil-wrapped corn for 10 minutes, turning as needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Continue grilling with the bacon-wrapped corn for about 45 minutes, turning occasionally, until the corn is tender.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Carefully open the foil and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "grilled"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "equipment": [
+    "grill",
+    "aluminum foil"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/202467/grilled-bacon-wrapped-corn-on-the-cob/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a07c519cb6b30fc493cbc6af4fd1cccac44c97f4f6961502324e20224ba8966f",
+    "normalized_text_hash": "fa0653cc7153264c17d640db4b6a35f596b58ee66466f9751df3658d5553da68",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:03:15.138Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

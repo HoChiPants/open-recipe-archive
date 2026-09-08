@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-spinach-smoothie",
+  "name": "Green Spinach Smoothie",
+  "subtitle": "A creamy fruit-and-spinach blend",
+  "description": "Blend spinach, fruit, and vanilla yogurt into a smooth, refreshing drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-spinach-leaves",
+      "item": "fresh spinach leaves",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "cut in chunks"
+    },
+    {
+      "ingredient_id": "grapes",
+      "item": "grapes",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "6-ounce-tub-vanilla-yogurt",
+      "item": "(6 ounce) tub vanilla yogurt",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 0.5,
+      "preparation": "cored and chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the spinach, banana, grapes, vanilla yogurt, and apple to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Pour into two glasses and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "smoothie",
+    "fruit",
+    "spinach",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/90329/groovy-green-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c1a0ae45ee17e499c96517dc228de913760116f33e7de828a60db9ee3e7c602",
+    "normalized_text_hash": "20166d2eb50d8f8003defd5d2cd0f64a87155a81699fa3d0490c6349e3d3691f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:13:24.803Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

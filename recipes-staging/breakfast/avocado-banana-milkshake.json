@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "avocado-banana-milkshake",
+  "name": "Avocado Banana Milkshake",
+  "subtitle": "A creamy fruit shake sweetened with honey",
+  "description": "Blend ripe avocado, banana, milk, and honey into a smooth, refreshing drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ripe-avocado",
+      "item": "ripe avocado",
+      "quantity": 1,
+      "preparation": "peeled and pitted"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the milk, avocado, banana, and honey to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "breakfast",
+    "snack",
+    "beverage",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237804/simple-avocado-milkshake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce053b346e715fed16bf1b1301de1e14ddd96857cd2518024f250d94eb4fab6c",
+    "normalized_text_hash": "32eefde186beb1af5308c63bba23b2c2bcbdd180764bf5d0311c9b84cefb8169",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:22:54.273Z",
+    "semantic_similarity": 16,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

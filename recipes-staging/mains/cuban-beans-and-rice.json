@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cuban-beans-and-rice",
+  "name": "Cuban Beans and Rice",
+  "subtitle": "A hearty baked rice dish with beans and vegetables",
+  "description": "Rice, kidney beans, tomato paste, and sautéed vegetables combine into a filling one-dish meal.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kidney-beans",
+      "item": "kidney beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, drained with liquid reserved"
+    },
+    {
+      "ingredient_id": "uncooked-white-rice",
+      "item": "uncooked white rice",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and lightly oil a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a skillet. Add the onion, bell pepper, and garlic; cook until the vegetables begin to soften."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the salt and tomato paste and cook briefly until the paste is evenly distributed.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the beans and rice, then stir to combine. Pour in the reserved bean liquid and mix evenly."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to the prepared baking dish and cook until the rice is tender and the liquid has been absorbed.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-dish",
+    "beans",
+    "rice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21574/cuban-beans-and-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "08ea0dadb07cf77085725dbfb58b807ab698015f0665221be52efb746a2e55bf",
+    "normalized_text_hash": "a58638f034de04f0356edc9d4f08e30a222ecaffb66b6b7ac8c25f32c0874521",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:53:21.498Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

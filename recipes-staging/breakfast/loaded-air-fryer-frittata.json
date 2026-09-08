@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "loaded-air-fryer-frittata",
+  "name": "Loaded Air-Fryer Frittata",
+  "subtitle": "A savory egg bake with crisp bacon, cheddar, and herbs.",
+  "description": "A compact breakfast frittata layered with bacon, bread, melted cheddar, and fresh herbs.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rashers-streaky-smoked-bacon",
+      "item": "rashers streaky smoked bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "slice-of-white-bread-torn-into-small-pieces",
+      "item": "slice of white bread torn into small pieces",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "or 40g fresh white breadcrumbs"
+    },
+    {
+      "ingredient_id": "finely-chopped-parsley-or-chives",
+      "item": "finely chopped parsley or chives",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparation": "plus extra to serve"
+    },
+    {
+      "ingredient_id": "chilli-flakes-optional",
+      "item": "chilli flakes (optional)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "mature-cheddar-grated",
+      "item": "mature cheddar grated",
+      "quantity": 40,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the bacon and bread pieces in the air fryer and cook for 7 minutes, until the bacon is crisp and the bread is toasted.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Drain the bacon and bread, reserving the olive oil for greasing the cooking dish."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs with the bread, parsley or chives, and optional chilli flakes."
+    },
+    {
+      "step": 5,
+      "text": "Cut the bacon into pieces. Grease a suitable air-fryer dish with the olive oil, then add the egg mixture and bacon."
+    },
+    {
+      "step": 6,
+      "text": "Cook for 12 minutes, until the center is firm and fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 7,
+      "text": "Top with the grated cheddar and cook for 2 minutes, until melted. Scatter with extra herbs before serving.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "frittata",
+    "eggs",
+    "bacon",
+    "cheddar",
+    "air-fryer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "air-fryer-safe cooking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-loaded-frittata-with-bacon-cheddar",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6c442925364c052b301d5d4e6248a8781edd44eab7f9f847fa1970643038c0cb",
+    "normalized_text_hash": "5101cd888d689d3d721c752873cffd7c37e849b559030aa304d98e8493cdab36",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:27:04.596Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

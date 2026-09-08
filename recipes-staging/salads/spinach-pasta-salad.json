@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-pasta-salad",
+  "name": "Spinach Pasta Salad",
+  "subtitle": "Farfalle with spinach, feta, olives, and lemon dressing",
+  "description": "A bright, savory pasta salad combining tender farfalle, fresh spinach, feta, olives, onion, and a garlicky lemon dressing.",
+  "meal_type": "salad",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "farfalle-pasta",
+      "item": "farfalle pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "baby-spinach",
+      "item": "baby spinach",
+      "quantity": 10,
+      "unit": "ounces",
+      "preparation": "rinsed and torn into bite-size piece"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese-with-basil-and-tomato",
+      "item": "crumbled feta cheese with basil and tomato",
+      "quantity": 2,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "black-olives",
+      "item": "black olives",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained and chopped"
+    },
+    {
+      "ingredient_id": "italian-style-salad-dressing",
+      "item": "Italian-style salad dressing",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Boil the farfalle with the garlic salt until tender, following the package’s cooking time. Drain well.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Place the spinach, feta, red onion, olives, and drained pasta in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the dressing, garlic, lemon juice, remaining garlic salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Pour the dressing over the salad and toss until the spinach and pasta are evenly coated."
+    }
+  ],
+  "tags": [
+    "salad",
+    "pasta",
+    "vegetarian",
+    "italian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16142/spinach-pasta-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1edab12a965130bd834e48e6dd5d9b3064147a28e45ed8dfad4949c9f11a3bcd",
+    "normalized_text_hash": "8de117c37b333345659ad567e8c489b7a5cf3089ce893ce52b6134ffd9bf1873",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:43:36.244Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

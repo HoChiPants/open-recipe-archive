@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-rice-pudding",
+  "name": "Classic Rice Pudding",
+  "subtitle": "Creamy rice pudding with cherries and cinnamon",
+  "description": "A gently cooked rice pudding finished with vanilla, cinnamon, dried cherries, and butter, then chilled until cold.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "uncooked-long-grain-white-rice",
+      "item": "uncooked long-grain white rice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.3333333730698,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg-yolk",
+      "item": "egg yolk",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "dried-cherries",
+      "item": "dried cherries",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, rice, and salt in a saucepan. Bring to a simmer, cover, and cook until the rice is tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Stir in the milk and sugar. Cook gently, stirring often, until the mixture thickens, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and stir in the vanilla and cinnamon."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the egg yolk in a bowl. Gradually whisk in some of the hot pudding, then return the mixture to the saucepan and cook gently, stirring, until it reaches 160°F and the center is fully set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Stir in the cherries and butter. Transfer the pudding to a serving dish, cool, and chill until cold.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dessert",
+    "rice-pudding",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257425/chef-johns-classic-rice-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cb21745fa269c82cbcf7e53767973599bbe382d851f4698171000150412f1cfa",
+    "normalized_text_hash": "9602194d2da9198b54da9a705ffe978880e0f2f1c5ee1bb7c291fc33f5c51622",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:26:50.318Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

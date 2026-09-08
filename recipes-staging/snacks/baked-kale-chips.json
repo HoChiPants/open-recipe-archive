@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-kale-chips",
+  "name": "Baked Kale Chips",
+  "subtitle": "Crisp, lightly salted greens from the oven",
+  "description": "Tender kale leaves are coated with olive oil, seasoned with sea salt, and baked until crisp.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bunch-kale",
+      "item": "bunch kale",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flaked-sea-salt",
+      "item": "flaked sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F."
+    },
+    {
+      "step": 2,
+      "text": "Remove the kale stems and tear the leaves into thick, bite-size pieces. Wash and dry the leaves thoroughly."
+    },
+    {
+      "step": 3,
+      "text": "Toss the kale with the olive oil until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the leaves in a single layer on a baking sheet and sprinkle with the sea salt."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, or until crisp.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "american",
+    "baked",
+    "vegetarian",
+    "vegan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/176957/baked-kale-chips/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "46fc903c308d2b6ffb3420a8e2b3e3061d2cb22fd602080ed5dd5c36a4818032",
+    "normalized_text_hash": "5feb10dbe84a64678021a2ae8251bf79fec7f11b7525a305323a68d39c5c0a41",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:48:42.003Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

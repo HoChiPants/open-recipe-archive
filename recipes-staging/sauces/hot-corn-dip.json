@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-corn-dip",
+  "name": "Hot Corn Dip",
+  "subtitle": "A warm, creamy dip with corn, tomatoes, and green chiles",
+  "description": "Combine two kinds of corn, tomatoes with green chiles, softened cream cheese, and simple seasonings, then bake until hot and creamy.",
+  "meal_type": "sauce",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-corn",
+      "item": "white corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "yellow-corn",
+      "item": "yellow corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "tomatoes-with-green-chile-peppers",
+      "item": "tomatoes with green chile peppers",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce, diced, drained"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, diced and softened"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-cilantro-to-taste",
+      "item": "fresh cilantro to taste",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the drained white corn, yellow corn, and tomatoes with green chile peppers. Add the softened cream cheese, chili powder, garlic powder, and chopped cilantro, mixing until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish and bake for 30 minutes, until hot and creamy throughout.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "corn",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26823/hot-corn-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "224abb76194a665442345e3c516f15328ccb4f89b260c9ffb9417821f0fbcfe5",
+    "normalized_text_hash": "3b07af4ab0194c9354b867eb94e6b32213e09d7ad7847153c8c3818eea24ac28",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:51:36.683Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

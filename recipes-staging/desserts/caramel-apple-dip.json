@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-apple-dip",
+  "name": "Caramel Apple Dip",
+  "subtitle": "Warm caramel blended with sweetened cream cheese",
+  "description": "A quick dessert dip combining melted caramel with creamy brown-sugar cream cheese.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "individually-wrapped-caramels",
+      "item": "individually wrapped caramels",
+      "quantity": 16,
+      "preparation": "unwrapped"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the unwrapped caramels and water in a heatproof saucepan or microwave-safe bowl. Heat, stirring often, until smooth and fully melted.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cream cheese and brown sugar together until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Let the caramel cool briefly, then fold it into the cream cheese mixture until combined."
+    },
+    {
+      "step": 4,
+      "text": "Serve warm or at room temperature."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "dip",
+    "caramel",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "heatproof saucepan or microwave-safe bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21587/caramel-apple-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "48eb0b5d2daab2b1659ae900d9530f0c2a903808083303106b91d32882f0c06c",
+    "normalized_text_hash": "6f7648e9d27cb8172872c148484287e59ac8b314d91a0cf9b6cc33d4988cb5a4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:51:48.771Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

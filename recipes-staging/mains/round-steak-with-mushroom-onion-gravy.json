@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "round-steak-with-mushroom-onion-gravy",
+  "name": "Round Steak with Mushroom-Onion Gravy",
+  "subtitle": "Tender baked steak in a savory creamy gravy",
+  "description": "Thin-cut round steak is baked slowly with mushroom soup, French onion soup, and water until tender and richly sauced.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 130
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thin-cut-round-steak",
+      "item": "thin cut round steak",
+      "quantity": 1.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-french-onion-soup",
+      "item": "condensed French onion soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the round steak into serving-size pieces and arrange them in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the mushroom soup, French onion soup, and water until smooth, then pour the mixture over the steak."
+    },
+    {
+      "step": 4,
+      "text": "Cover the dish and bake for 120 minutes, until the steak reaches at least 145°F in the thickest part. Rest for 3 minutes before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "comfort-food",
+    "baked"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26647/round-steak-and-gravy-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "62ed9763fa60e6a9d37a3b37c636d13d134f907fc1273b46fd7d5c6e13e2c4e4",
+    "normalized_text_hash": "f181d5f2c9dd935c1f2cce8d6e07dca55302c79c45aeb738d81d339bbefa13d0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:31:28.670Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-bake-granola-bars",
+  "name": "No-Bake Granola Bars",
+  "subtitle": "A chilled oat-and-peanut-butter snack",
+  "description": "Mix oats, flaxseed, fruit, chocolate, nuts, peanut butter, and honey into a sliceable bar mixture, then chill until firm.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chunky-natural-peanut-butter",
+      "item": "chunky natural peanut butter",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-flaxseed",
+      "item": "ground flaxseed",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-cranberries",
+      "item": "dried cranberries",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir all ingredients together until evenly distributed and the mixture holds together."
+    },
+    {
+      "step": 2,
+      "text": "Press the mixture into an even layer in a suitable dish or pan."
+    },
+    {
+      "step": 3,
+      "text": "Chill until firm, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Cut into 12 bars and serve."
+    }
+  ],
+  "tags": [
+    "no-bake",
+    "granola-bars",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "dish or pan",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232057/no-bake-granola-bars/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "89081bed8598d45e4ab94ce0bfcedaaaf8df008313e68a431af5429fc039691b",
+    "normalized_text_hash": "38a02f4560345a60cd86b8908122b484be1b947a5bd5f519748defc5ecf5a5be",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:14:22.693Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

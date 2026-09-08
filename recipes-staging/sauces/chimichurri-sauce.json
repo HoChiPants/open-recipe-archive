@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chimichurri-sauce",
+  "name": "Chimichurri Sauce",
+  "subtitle": "Fresh herb sauce with garlic, chile, and vinegar",
+  "description": "A bright, herb-forward condiment made by combining chopped herbs, aromatics, olive oil, and vinegar.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bunch-of-coriander-finely-chopped",
+      "item": "bunch of coriander finely chopped",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "bunch-of-flat-leaf-parsley-chopped",
+      "item": "bunch of flat-leaf parsley chopped",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "garlic-cloves-very-finely-chopped",
+      "item": "garlic cloves very finely chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sweet-onion-finely-diced",
+      "item": "sweet onion finely diced",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "green-chilli-or-red-chilli",
+      "item": "green chilli (or red chilli)",
+      "quantity": 1,
+      "preparation": "deseeded and finely chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar-or-white",
+      "item": "red wine vinegar (or white",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparation": "if you prefer)"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the coriander, parsley, garlic, onion, and chopped chile in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the olive oil and vinegar until evenly mixed. Taste and adjust the seasoning if needed."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "herb-sauce",
+    "quick",
+    "summer",
+    "steak-sauce"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "chef's knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chimichurri-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bbe183a64b7d45aab9dc9ae4bf0d92ad6426b668c3b32bc70a5054d3c970f7f7",
+    "normalized_text_hash": "cadcc6292881007aa5942b424a6706e16ad61b164789d44548ea3213cd180b8c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:00:01.561Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

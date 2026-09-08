@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "freezer-dirty-martini",
+  "name": "Freezer Dirty Martini",
+  "subtitle": "A chilled olive-brined cocktail prepared ahead in one batch.",
+  "description": "Combine the ingredients, freeze until thoroughly chilled, then pour and garnish with olives.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 1,
+      "unit": "liter"
+    },
+    {
+      "ingredient_id": "fluid-ounces-vermouth",
+      "item": "fluid ounces vermouth",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "fluid-ounces-water",
+      "item": "fluid ounces water",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fluid-ounces-olive-brine",
+      "item": "fluid ounces olive brine",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "olives-for-garnish",
+      "item": "olives for garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the vodka, vermouth, water, and olive brine in a freezer-safe container; stir to mix."
+    },
+    {
+      "step": 2,
+      "text": "Cover and freeze for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Pour into serving glasses and garnish with olives."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "make-ahead",
+    "freezer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "freezer-safe container",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8482689/big-batch-freezer-dirty-martini/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "801c32d3fe283dcf999712d313c3b3165eedc96e959a3eb25d602e16192d8073",
+    "normalized_text_hash": "755c7f11381eefaf5f0b8458516feaaea28055b59e4620fef4b23ffaf500624a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:42:57.165Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

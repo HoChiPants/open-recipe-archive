@@ -1,0 +1,156 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-of-chicken-soup",
+  "name": "Cream of Chicken Soup",
+  "subtitle": "A smooth, warming soup made with leftover chicken and vegetables.",
+  "description": "Soften the vegetables, simmer them with stock and chicken, then blend with cream and serve with crusty bread.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sunflower-oil-or-vegetable-oil",
+      "item": "sunflower oil or vegetable oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onions-roughly-chopped",
+      "item": "onions roughly chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "celery-sticks-roughly-chopped",
+      "item": "celery sticks roughly chopped",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "leeks-roughly-chopped",
+      "item": "leeks roughly chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "handful-parsley-leaves-and-stems-separated-and-chopped",
+      "item": "handful parsley leaves and stems separated and chopped",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed-or-chopped",
+      "item": "garlic cloves crushed or chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 275,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "litre-chicken-stock",
+      "item": "litre chicken stock",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "leftover-cooked-chicken",
+      "item": "leftover cooked chicken",
+      "quantity": 550,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "crusty-bread-to-serve",
+      "item": "crusty bread to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil in a large pot. Add the onions, celery, leeks, and chopped parsley leaves, and cook until softened, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic and stir for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Pour in the wine and simmer for 6 minutes to reduce slightly.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Add the parsley stems, bay leaves, chicken stock, and cooked chicken. Bring to a simmer and cook until the vegetables are tender, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat, discard the parsley stems and bay leaves, and let the soup cool for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Blend the soup until smooth. Whisk in the cream, then reheat gently until the chicken reaches 165°F on a food thermometer."
+    },
+    {
+      "step": 7,
+      "text": "Serve hot with crusty bread."
+    }
+  ],
+  "tags": [
+    "budget",
+    "chicken",
+    "leftover-chicken",
+    "soup"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "blender",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cream-chicken-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c6608f74fcfb8f482cfb90e67d46a68e74d64f804f8baadc2286eab719ab4cc5",
+    "normalized_text_hash": "51d0bf1f46b6516f941536b2674984cc8ce02a170ec1b9c9a1d1cbb96ae1bcc7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:17:47.422Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

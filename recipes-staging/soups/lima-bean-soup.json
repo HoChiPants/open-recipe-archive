@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lima-bean-soup",
+  "name": "Lima Bean Soup",
+  "subtitle": "A hearty vegetable soup with tender lima beans",
+  "description": "Dry lima beans are soaked, then simmered with sautéed vegetables and vegetable bouillon for a warming soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 125,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-lima-beans",
+      "item": "dry lima beans",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "leek",
+      "item": "leek",
+      "quantity": 1,
+      "preparation": "bulb only, chopped"
+    },
+    {
+      "ingredient_id": "shallots",
+      "item": "shallots",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cubes-vegetable-bouillon",
+      "item": "cubes vegetable bouillon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring 4 cups water to a simmer. Add the lima beans and cook for 3 minutes. Remove from the heat, cover, and let stand for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Drain the beans. Heat the olive oil in a large pot, then sauté the carrots, leek, shallots, celery, and bouillon cubes until the vegetables begin to soften."
+    },
+    {
+      "step": 3,
+      "text": "Add the drained beans and cook with the vegetables for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add 8 cups water and bring the soup to a boil, stirring until the bouillon dissolves."
+    },
+    {
+      "step": 5,
+      "text": "Reduce the heat and simmer until the beans and vegetables are tender, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "vegetarian",
+    "soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "large pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12907/luscious-lima-bean-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a8b2d730852278312f83fcf0a92e327aece09c1980d95cd75fbc72782ba7fc1f",
+    "normalized_text_hash": "00f3fffbf420c82f4fa7c7d155755cbf6fb894c1f5ee9d9f32b20e8a94bf38e9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:09:16.683Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

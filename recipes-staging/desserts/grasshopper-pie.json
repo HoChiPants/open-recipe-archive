@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grasshopper-pie",
+  "name": "Grasshopper Pie",
+  "subtitle": "A chilled chocolate-mint pie with a fluffy cream filling",
+  "description": "A no-bake pie made with a chocolate cookie crust and a smooth marshmallow-mint filling folded with whipped cream.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-sandwich-cookies",
+      "item": "chocolate sandwich cookies",
+      "quantity": 25
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "marshmallow-fluff",
+      "item": "marshmallow fluff",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "creme-de-menthe-liqueur",
+      "item": "creme de menthe liqueur",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "whipping-cream",
+      "item": "whipping cream",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Crush the chocolate sandwich cookies into fine crumbs. Stir in the melted butter until evenly moistened."
+    },
+    {
+      "step": 2,
+      "text": "Press the crumb mixture firmly over the bottom and up the sides of a pie dish to form the crust."
+    },
+    {
+      "step": 3,
+      "text": "Stir the marshmallow fluff and creme de menthe liqueur together until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the whipping cream to soft peaks, then fold it gently into the marshmallow mixture."
+    },
+    {
+      "step": 5,
+      "text": "Spread the filling into the crust and smooth the surface."
+    },
+    {
+      "step": 6,
+      "text": "Freeze until firm, about 2 hours, then let stand briefly before slicing.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "mint",
+    "no-bake",
+    "frozen-dessert",
+    "pie"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "food processor or rolling pin",
+    "mixing bowls",
+    "electric mixer",
+    "pie dish",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17612/creme-de-menthe-grasshopper-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3b8aaf7b9676b299d513653a5a602c60af1561b3c31da40850cecbbbbf9bfb74",
+    "normalized_text_hash": "782930011e3fa83db369076ecb72f8fd5f2f8f6aebbe15768d9496c8dfc7ed82",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:56:40.144Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

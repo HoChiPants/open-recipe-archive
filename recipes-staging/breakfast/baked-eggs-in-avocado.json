@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-eggs-in-avocado",
+  "name": "Baked Eggs in Avocado",
+  "subtitle": "A simple warm breakfast with creamy avocado and crisp bacon",
+  "description": "Eggs bake directly in avocado halves, then finish with herbs, seasoning, and crumbled bacon.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "preparation": "halved and pitted"
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "chopped, or to taste"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "sea-salt-and-ground-black-pepper-to-taste",
+      "item": "sea salt and ground black pepper to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "slices-cooked-bacon",
+      "item": "slices cooked bacon",
+      "quantity": 2,
+      "preparation": "crumbled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Scoop a little flesh from each avocado half to make room for an egg, keeping the halves intact."
+    },
+    {
+      "step": 3,
+      "text": "Place the avocado halves in a small baking dish and crack one egg into each cavity."
+    },
+    {
+      "step": 4,
+      "text": "Season with the chives, parsley, salt, and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, or until the egg centers are firm and reach 160°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Top with the crumbled bacon and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baked-eggs",
+    "avocado",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240744/paleo-baked-eggs-in-avocado/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd6a421a1788860ccabd165a2606ae8113100316ee26c227bc8f68e3a5cd38ab",
+    "normalized_text_hash": "8d97f3026996c41dbb9da7755b9e4dfa59b8685c93c0f01ba7d8d87b134bba24",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:45:53.901Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

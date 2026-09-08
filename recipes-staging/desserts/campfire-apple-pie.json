@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "campfire-apple-pie",
+  "name": "Campfire Apple Pie",
+  "subtitle": "A quick warm apple-filled bread treat",
+  "description": "Softened butter and apple pie filling turn sliced white bread into a simple golden campfire-style dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1-ounce-slices-white-bread",
+      "item": "(1 ounce) slices white bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "apple-pie-filling",
+      "item": "apple pie filling",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread the softened butter over one side of each bread slice."
+    },
+    {
+      "step": 2,
+      "text": "Place the apple pie filling between the bread slices with the buttered sides facing outward."
+    },
+    {
+      "step": 3,
+      "text": "Cook in a hot skillet or pie iron until the bread is golden brown, about 4 minutes, turning as needed.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "dessert",
+    "apple",
+    "quick",
+    "campfire"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet or pie iron"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/107321/campfire-apple-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b30ec289f840ced9f173a702592f33e9d07555b5f985a71e329e6b1acd726a0b",
+    "normalized_text_hash": "d7d55492497bd9cb25b9af9c900c7060bcf2b2238e7c78415fdb40afc636a15e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:47:07.125Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

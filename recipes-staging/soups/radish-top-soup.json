@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "radish-top-soup",
+  "name": "Radish Top Soup",
+  "subtitle": "A creamy soup made with radish greens and sliced radishes",
+  "description": "Sautéed onion, potatoes, and radish greens simmer with chicken broth, then blend with cream for a smooth soup finished with fresh radishes.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "unit": "medium",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "raw-radish-greens",
+      "item": "raw radish greens",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "radishes",
+      "item": "radishes",
+      "quantity": 5,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large pot over medium heat. Add the onion and cook, stirring, until tender."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the potatoes and radish greens, then pour in the chicken broth."
+    },
+    {
+      "step": 3,
+      "text": "Bring to a simmer and cook until the vegetables are tender and the soup reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Blend the soup until smooth using an immersion blender or a countertop blender."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the heavy cream and warm gently without boiling."
+    },
+    {
+      "step": 6,
+      "text": "Ladle into bowls and top with the sliced radishes."
+    }
+  ],
+  "tags": [
+    "soup",
+    "radishes",
+    "creamy",
+    "vegetable-soup"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "immersion blender or countertop blender",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/38036/radish-top-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1f02456f2a7d3dd2cf6bd36dc97ddaa2b0e2ef01e28016d956d78657dc05dd45",
+    "normalized_text_hash": "26a126759eae916ef231c090645588e81cfb45c92916db6ab7a99956bffaccc1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:51:10.561Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

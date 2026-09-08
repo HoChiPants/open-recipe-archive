@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-syrup",
+  "name": "Honey Syrup",
+  "subtitle": "Bright lemon-infused syrup for drizzling and sweetening",
+  "description": "A simple Greek-style syrup made by gently cooking honey with water, lemon juice, and zest.",
+  "meal_type": "other",
+  "cuisine": "Greek",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-lemon-zest",
+      "item": "grated lemon zest",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the honey, water, lemon juice, and lemon zest in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a boil over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Reduce the heat and simmer until slightly thickened, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "condiment",
+    "greek",
+    "syrup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17465/honey-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ffe6fb3e4c33354eb48b7c0cbb040242d6b70a3c5b596b19286ad7d2ddc9af81",
+    "normalized_text_hash": "9fca6f6d9f085cebbcd61684f5c761e5ee3d10542bafc534a1f83130488e85e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:49:51.274Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

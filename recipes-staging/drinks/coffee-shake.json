@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coffee-shake",
+  "name": "Coffee Shake",
+  "subtitle": "A chilled coffee drink blended with vanilla and chocolate",
+  "description": "Blend coffee, milk, vanilla, sugar, ice, and chocolate syrup into a smooth cold shake.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "instant-coffee-granules",
+      "item": "instant coffee granules",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "chocolate-syrup",
+      "item": "chocolate syrup",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the coffee granules, milk, vanilla extract, sugar, ice cubes, and chocolate syrup to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "coffee",
+    "blended"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62558/coffee-shake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "653c84d25f1325d363275c4a68f958e1ba8b00152abebb521a73ac0aafa16b55",
+    "normalized_text_hash": "386ae5ede4a6e7fcb142690a37831ee2216c85985963b7e495d4e5a8e9755484",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:02:11.903Z",
+    "semantic_similarity": 16,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

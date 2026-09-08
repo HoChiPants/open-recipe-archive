@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-chicken-sandwiches",
+  "name": "Barbecue Chicken Sandwiches",
+  "subtitle": "Baked chicken, bacon, Swiss, and avocado on toasted rolls",
+  "description": "Chicken breasts are baked with barbecue sauce, bacon, and Swiss cheese, then assembled in hoagie rolls with Ranch dressing and avocado.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "hoagie-rolls",
+      "item": "hoagie rolls",
+      "quantity": 2,
+      "preparation": "split lengthwise"
+    },
+    {
+      "ingredient_id": "ranch-dressing",
+      "item": "Ranch dressing",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "slices-swiss-cheese",
+      "item": "slices Swiss cheese",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "peeled, pitted and diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Coat the chicken breast halves with the barbeque sauce and place them in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Top the chicken with the bacon and Swiss cheese."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes, checking that the chicken reaches 165°F in the thickest part.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Cut the bacon into pieces."
+    },
+    {
+      "step": 6,
+      "text": "Spread the Ranch dressing inside the hoagie rolls."
+    },
+    {
+      "step": 7,
+      "text": "Fill the rolls with the baked chicken, bacon, melted Swiss cheese, and diced avocado."
+    },
+    {
+      "step": 8,
+      "text": "Return the assembled sandwiches to the oven until the cheese is fully melted.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "chicken",
+    "sandwich"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/82770/dans-favorite-chicken-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d01192dcb4e19b862364b0b964922f8e73e6cf160b7991fd5e155b4501413495",
+    "normalized_text_hash": "318fb071628ed073414bb91c42190ae60d80343c641fdc243f79ef2ac28587f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:59:53.397Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

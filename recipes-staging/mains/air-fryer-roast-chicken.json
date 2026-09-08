@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-roast-chicken",
+  "name": "Air-Fryer Roast Chicken",
+  "subtitle": "Crisp-skinned chicken with a smoky herb rub",
+  "description": "A whole chicken coated in oil and a simple smoked paprika, herb, and garlic seasoning, then roasted in the air fryer until fully cooked.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-chicken",
+      "item": "whole chicken",
+      "quantity": 2.25,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dried-mixed-herbs",
+      "item": "dried mixed herbs",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garlic-granules",
+      "item": "garlic granules",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pat the chicken dry. Rub it all over with the vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Mix the smoked paprika, dried mixed herbs, and garlic granules, then coat the chicken evenly with the mixture."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the air fryer to 375°F for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Place the chicken in the air fryer and cook for 30 minutes. Turn the chicken, then continue cooking until the thickest part of the breast and thigh reaches 165°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Rest briefly before carving and serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer-chicken",
+    "roast-chicken",
+    "whole-chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-roast-chicken",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d4a7723855f75206f4f121cef80a4c20c6056a9ac42141bbd77b3877fab02fc1",
+    "normalized_text_hash": "47b66d30d7fee11ccd208747dcf5e2e9004b6579f4e89919937cd1f5027b4ef3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:29:45.759Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

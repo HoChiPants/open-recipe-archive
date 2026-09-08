@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "alfredo-sauce",
+  "name": "Alfredo Sauce",
+  "subtitle": "A creamy cheese sauce with a hint of nutmeg",
+  "description": "Melt butter into cream, blend in Italian cheeses, and finish with egg yolk for a rich, smooth sauce.",
+  "meal_type": "sauce",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fluid-ounces-heavy-whipping-cream",
+      "item": "fluid ounces heavy whipping cream",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-romano-cheese",
+      "item": "grated Romano cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "egg-yolk",
+      "item": "egg yolk",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the butter in a saucepan over medium-low heat until melted."
+    },
+    {
+      "step": 2,
+      "text": "Add the heavy cream, Parmesan, Romano, nutmeg, and salt. Stir gently over low heat until the cheeses melt and the sauce is smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the egg yolk and continue heating gently until fully combined and the sauce reaches 160°F."
+    },
+    {
+      "step": 4,
+      "text": "Serve immediately, finishing with the remaining grated Parmesan."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "italian-inspired",
+    "creamy",
+    "stovetop"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12065/classic-alfredo-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "641d4be7cb54b12613ab256993121313840160c9bb50a9720a872cfa4c1a5402",
+    "normalized_text_hash": "54f4ac95e921ebbcbdd3905d2fd37964639c1376e9a08e006d8030c543cae537",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:50:30.321Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

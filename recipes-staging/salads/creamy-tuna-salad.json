@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-tuna-salad",
+  "name": "Creamy Tuna Salad",
+  "subtitle": "A cool, crisp tuna salad with a smooth dressing",
+  "description": "Cream cheese and mayonnaise coat flaky tuna, carrot, and bell pepper for an easy lunch salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "ounces",
+      "preparation": "softened, or as needed"
+    },
+    {
+      "ingredient_id": "solid-white-tuna-packed-in-water",
+      "item": "solid white tuna packed in water",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "5 ounce, drained and flaked"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 0.5,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper-to-taste",
+      "item": "freshly ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mayonnaise and softened cream cheese until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the drained, flaked tuna, carrot, diced red bell pepper, and black pepper until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "The canned tuna requires no cooking. If using uncooked fish in another preparation, cook it to 145°F, or until opaque and easily flaked."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "no-cook",
+    "quick",
+    "tuna",
+    "salad"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237259/creamy-and-crunchy-tuna-salad-supreme/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cd4da25d7be8272e5010f6545d2ea36b448631482ca8c9f226feaa186dbc43e5",
+    "normalized_text_hash": "e7d1546d3ece4472e56de36b686fe68fbbbb49cc91389aab7bd7b9613c57a035",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:31:01.999Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

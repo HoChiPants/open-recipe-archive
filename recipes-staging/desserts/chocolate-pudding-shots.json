@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-pudding-shots",
+  "name": "Chocolate Pudding Shots",
+  "subtitle": "Creamy chocolate treats with a spirited finish",
+  "description": "A quick chilled dessert made by blending chocolate pudding with Irish cream, vodka, and whipped topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cold-milk",
+      "item": "cold milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "instant-chocolate-pudding-mix",
+      "item": "instant chocolate pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.9 ounce"
+    },
+    {
+      "ingredient_id": "irish-cream-liqueur",
+      "item": "Irish cream liqueur",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the cold milk and pudding mix for 2 minutes, until smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "In a separate bowl, whisk the Irish cream, vodka, and thawed whipped topping until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir the two mixtures together until evenly blended, then portion into 16 small serving cups."
+    },
+    {
+      "step": 4,
+      "text": "Chill until set before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "no-cook",
+    "make-ahead",
+    "adult-only"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "16 small serving cups"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233741/chocolate-pudding-shots/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3db95ffb0a07f8f5b0fdf0bf8837ec39a46eea62de8fdf52bcd8132036b586d",
+    "normalized_text_hash": "e0edfa041bfe72ef9ad2b39bae1273ae96009199176bb95d2af7d530a9f2c24e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:37:40.755Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

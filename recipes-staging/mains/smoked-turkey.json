@@ -1,0 +1,159 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "smoked-turkey",
+  "name": "Smoked Turkey",
+  "subtitle": "Hickory-smoked turkey with garlic, apple, and onion",
+  "description": "Season a whole turkey with garlic and spices, fill the cavity with aromatics, and smoke it over hickory until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 540,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "10-pound-whole-turkey",
+      "item": "(10 pound) whole turkey",
+      "quantity": 1,
+      "preparation": "neck and giblets removed"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cola-flavored-carbonated-beverage",
+      "item": "cola-flavored carbonated beverage",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "hickory-wood-chips",
+      "item": "hickory wood chips",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the smoker to 250°F. Prepare it for indirect smoking with hickory wood chips."
+    },
+    {
+      "step": 2,
+      "text": "Pat the turkey dry. Combine the garlic, seasoned salt, garlic powder, and salt, then rub the mixture over the turkey and inside the cavity."
+    },
+    {
+      "step": 3,
+      "text": "Place the turkey in the smoker. Put the apple and onion in the cavity, and add the cola-flavored beverage to the smoker’s liquid pan as appropriate for the smoker."
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter and use it to baste the turkey during smoking, adding more hickory chips as needed to maintain smoke."
+    },
+    {
+      "step": 5,
+      "text": "Smoke for about 9 hours, maintaining the smoker near 250°F. Begin checking near the end of cooking; the turkey is ready when a food thermometer registers 165°F in the thickest breast and innermost thigh.",
+      "timer_minutes": 540
+    },
+    {
+      "step": 6,
+      "text": "Transfer the turkey to a serving dish and rest for 20 minutes before carving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "smoked",
+    "turkey",
+    "american",
+    "holiday"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "smoker",
+    "food thermometer",
+    "basting brush"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16984/turkey-in-a-smoker/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "49adb41b42812afafe30bddb63619a20c4ef5f374cab1287aa82e4487a984d36",
+    "normalized_text_hash": "8b34ec5ab04a670fc1149c7c58d9b491645684db84a8f86b748c7ef82f2ee383",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:28:03.408Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

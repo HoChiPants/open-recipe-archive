@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-cookies",
+  "name": "Banana Cookies",
+  "subtitle": "Soft cinnamon cookies with ripe banana",
+  "description": "Tender banana cookies with brown sugar, cinnamon, and an optional raisin, chocolate chip, or pecan addition.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 24,
+    "unit": "cookies"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-muscovado-sugar",
+      "item": "light brown muscovado sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "ripe-banana-mashed",
+      "item": "ripe banana mashed",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bicarbonate-of-soda",
+      "item": "bicarbonate of soda",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "item": "cinnamon",
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "raisins-chocolate-chips-or-pecan-nuts-optional",
+      "item": "raisins chocolate chips or pecan nuts (optional)",
+      "quantity": 50,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter, then whisk it with the sugar. Stir in the egg and mashed banana until combined."
+    },
+    {
+      "step": 3,
+      "text": "Mix the flour, bicarbonate of soda, and cinnamon separately, then stir the dry mixture into the wet mixture. Fold in the optional raisins, chocolate chips, or pecans."
+    },
+    {
+      "step": 4,
+      "text": "Transfer 24 portions of dough to the prepared baking sheet, spacing them apart."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 12 minutes, until the cookies are set and no wet batter remains; the center should reach 160°F for food safety.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 6,
+      "text": "Cool the cookies on the sheet until set."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "banana-baking",
+    "cinnamon",
+    "easy-baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banana-cookies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8fba14c14551cbf15c0ba8e672145dd0cfe3067341e7ae362d4424e74a0c6574",
+    "normalized_text_hash": "d08487f252d71fbd79c937b78a63212ae1f99e4f6772057f31ab16869a343254",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:08:22.421Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

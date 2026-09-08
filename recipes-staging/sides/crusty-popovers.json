@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crusty-popovers",
+  "name": "Crusty Popovers",
+  "subtitle": "Light, crisp-edged baked rolls",
+  "description": "These British-style popovers use a simple egg batter and divided melted butter for a crisp exterior and airy center.",
+  "meal_type": "side",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted - divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Place a popover pan in the oven while it heats."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs and milk together. Add the flour and salt, then whisk until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Carefully remove the hot pan and grease its cups with part of the melted butter. Divide the batter among the cups, then use the remaining butter as directed by the divided portions."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the popovers are puffed and crusty.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "british",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "popover pan",
+    "oven",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229318/easy-and-delicious-crusty-popovers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "929450985d1141e6e18ddcf054ac09ee33e928973f975c1b55afd0e74219208f",
+    "normalized_text_hash": "157550ca7f57f4d63ef22ef9f62b44b9d1079f543896df15ce2c07e6f2bc0d27",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:17:56.904Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

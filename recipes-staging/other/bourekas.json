@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bourekas",
+  "name": "Bourekas",
+  "subtitle": "Cheese-filled puff pastry with savory accompaniments",
+  "description": "Crisp puff pastry parcels filled with a savory cheese mixture, finished with sesame seeds and served with eggs, harissa, and pickled cucumbers.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "crumbled-feta",
+      "item": "crumbled feta",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cottage-cheese",
+      "item": "cottage cheese",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mature-cheddar-grated",
+      "item": "mature cheddar grated",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "eggs-separated-and-beaten",
+      "item": "eggs separated and beaten",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ready-rolled-puff-pastry",
+      "item": "ready-rolled puff pastry",
+      "quantity": 320,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": "1-2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "hard-boiled-eggs",
+      "item": "hard-boiled eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "harissa",
+      "item": "harissa"
+    },
+    {
+      "ingredient_id": "pickled-cucumbers",
+      "item": "pickled cucumbers",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F and line a baking sheet with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Combine the feta, cottage cheese, and grated cheddar. Separate and beat the eggs, then mix the beaten eggs into the cheese mixture until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Unroll the puff pastry and cut it into six equal pieces. Place filling in the center of each piece, fold the pastry over, and seal the edges firmly."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the pastries on the baking sheet. Brush with the beaten egg and sprinkle with sesame seeds."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 25 minutes, until puffed and golden brown and the filling reaches 160°F in the center.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Cool briefly, then serve with the hard-boiled eggs, harissa, and sliced pickled cucumbers."
+    }
+  ],
+  "tags": [
+    "savory-pastry",
+    "cheese",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "mixing bowl",
+    "pastry brush"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bourekas",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21813e83bfa1caa904e498eae9872993a67ee6da44be875971b92c0280af6417",
+    "normalized_text_hash": "aaeda5aa6c181f6235000a0f889a7d24b1d72e800e5a02162b0a8b1d8ead678d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:45:17.207Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

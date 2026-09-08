@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tea-cakes",
+  "name": "Tea Cakes",
+  "subtitle": "Simple vanilla tea cakes with crisp golden edges",
+  "description": "A straightforward butter-and-vanilla bake with a tender crumb and lightly browned finish.",
+  "meal_type": "dessert",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the baking powder and baking soda together."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the softened butter and white sugar until smooth and well combined."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the flour, vanilla extract, and prepared leaveners to form a dough."
+    },
+    {
+      "step": 5,
+      "text": "Prepare the baking powder and baking soda as directed, if needed to ensure they are evenly combined."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the tea cakes are lightly browned, about 10 minutes.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chinese",
+    "tea-cakes",
+    "baked-good"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230025/tea-cakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9886cb628a091eccb8a6652e3f903bd7c89f4c0d1f59bb351f0f40fdafdd16a2",
+    "normalized_text_hash": "897355c86594cc585beddd0931018fc6287b902c58a8ad65d8020594bfa08b86",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:40:36.899Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

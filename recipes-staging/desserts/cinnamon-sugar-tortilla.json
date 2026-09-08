@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-sugar-tortilla",
+  "name": "Cinnamon-Sugar Tortilla",
+  "subtitle": "A warm, crisp cinnamon-sugar dessert",
+  "description": "A single flour tortilla coated with buttery spread and cinnamon sugar, shaped and warmed in the microwave.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "10-inch-flour-tortilla",
+      "item": "(10 inch) flour tortilla",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter-flavored-spread",
+      "item": "butter-flavored spread",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cinnamon-sugar",
+      "item": "cinnamon sugar",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the flour tortilla on a microwave-safe plate and spread the butter-flavored spread over it."
+    },
+    {
+      "step": 2,
+      "text": "Sprinkle the cinnamon sugar evenly over the tortilla."
+    },
+    {
+      "step": 3,
+      "text": "Shape the tortilla as desired, then microwave until warm and lightly crisp."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "quick",
+    "microwave",
+    "cinnamon",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/139032/cinnamon-sugar-tortilla-delight/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1b93288e4cda9fe8633e2cce86da54e2c7896433096980af7d5cf6b4894b8cd4",
+    "normalized_text_hash": "54c145f655940ed6f37739a9d80d0c2982aa4b040b4ab87bc491faf55326a100",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:48:22.950Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

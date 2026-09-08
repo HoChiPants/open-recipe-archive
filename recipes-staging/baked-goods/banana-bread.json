@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-bread",
+  "name": "Banana Bread",
+  "subtitle": "Moist spiced loaf with browned butter",
+  "description": "A tender banana loaf made with very ripe bananas, warm spices, and nutty browned butter.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "very-ripe-bananas",
+      "item": "very ripe bananas",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a loaf pan."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan, then simmer it with the brown sugar for 10 minutes. Remove from the heat and let it cool for 15 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Mash the bananas in a mixing bowl. Stir in the cooled butter mixture, white sugar, egg, and vanilla."
+    },
+    {
+      "step": 4,
+      "text": "Whisk together the flour, baking soda, cinnamon, and nutmeg. Fold the dry mixture into the banana mixture just until combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 45 minutes, until the center is firm and reaches 160°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Cool before slicing and serving."
+    }
+  ],
+  "tags": [
+    "banana",
+    "quick-bread",
+    "snack",
+    "spiced"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "whisk",
+    "loaf pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242314/browned-butter-banana-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "210c6cfb41a685bb961477f1e8cd35eb4051d960d50d63c3373431b16e9466e2",
+    "normalized_text_hash": "aebb8576993cda74c2c8bf7317af6f01d8d7aac24cf43bde7bd2a854f79388f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:22:03.694Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

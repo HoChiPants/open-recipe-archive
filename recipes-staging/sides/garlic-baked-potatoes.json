@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-baked-potatoes",
+  "name": "Garlic Baked Potatoes",
+  "subtitle": "Crisp-skinned potatoes with savory garlic seasoning",
+  "description": "Whole baking potatoes are coated with seasoned olive oil and roasted until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "scrubbed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the olive oil, garlic salt, and salt and pepper together in a small bowl."
+    },
+    {
+      "step": 3,
+      "text": "Coat the scrubbed potatoes evenly with the seasoned oil."
+    },
+    {
+      "step": 4,
+      "text": "Place the potatoes on a baking sheet and bake for 60 minutes, until tender when pierced.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "baked-potatoes",
+    "garlic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "small bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73191/garlic-baked-potato/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "10f898c388d48efd1f68d699274f7aede989ca699cf4b7eee02ff94fa0a15002",
+    "normalized_text_hash": "ab1d05ccae5da5dd6b5e74fc51185f1351d3f889744ba4d4835284d42e562563",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:34:54.241Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

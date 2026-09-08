@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-sugared-pecans",
+  "name": "Cinnamon-Sugared Pecans",
+  "subtitle": "A crisp, warmly spiced pecan snack",
+  "description": "Pecans coated in sweet cinnamon mixture and baked until crisp.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 250°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg white and water until foamy. Stir in the white sugar, then add the pecans and coat evenly."
+    },
+    {
+      "step": 3,
+      "text": "Combine the white sugar, ground cinnamon, and salt, then stir the mixture into the coated pecans."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pecans to a baking pan and bake for 60 minutes, stirring every 15 minutes, until dry and crisp and the egg coating reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Let the pecans cool before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "sweet",
+    "baked",
+    "pecans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27157/pecan-snack/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3727fcc055ca7b82d71c385fca0967e60f49dbb9eea0e1d01527da90bd30fbd0",
+    "normalized_text_hash": "b0779af3eafc0454d8c8e489935d0037329871b00b9198d8f1e0aa98c27aa49f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:05:10.107Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

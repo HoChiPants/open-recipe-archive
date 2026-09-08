@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brussels-sprouts",
+  "name": "Brussels Sprouts",
+  "subtitle": "Quick lemon-skillet sprouts",
+  "description": "Thinly sliced Brussels sprouts are quickly cooked in butter and olive oil, then finished with lemon juice and seasoning.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "brussels-sprouts",
+      "item": "Brussels sprouts",
+      "quantity": 12,
+      "preparation": "trimmed and thinly sliced"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a skillet with the butter and olive oil for 2 minutes, until the butter melts.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Add the Brussels sprouts and lemon juice, stir to coat, and cook until the sprouts are tender."
+    },
+    {
+      "step": 3,
+      "text": "Season with salt and pepper, then serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "quick",
+    "skillet",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221966/truly-delicious-brussels-sprouts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b4f70f0422aa786e41a2137fd4a5b6ca266acec388777ea6adb22564b97f3b3c",
+    "normalized_text_hash": "5d812ed2b8bc1f1434b5f4ea093b40f902d0562feb6a032f453579163a85713e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:23:47.195Z",
+    "semantic_similarity": 28,
+    "structural_similarity": 32,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

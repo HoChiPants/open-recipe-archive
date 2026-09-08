@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salsa-verde",
+  "name": "Salsa Verde",
+  "subtitle": "Bright, tangy green tomato salsa",
+  "description": "A fresh Mexican-inspired salsa made with simmered green tomatoes, jalapeños, lime, onion, and cilantro.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green-tomatoes",
+      "item": "green tomatoes",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "fresh-jalapeno-chilies",
+      "item": "fresh jalapeno chilies",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "red-tomato",
+      "item": "red tomato",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "cilantro",
+      "item": "cilantro",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the green tomatoes and red tomato in a saucepan, cover with water, and bring to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Cook until the tomatoes are softened, about 15 minutes. Drain well and transfer to a blender or food processor.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Add the jalapeños, chopped onion, lime juice, salt and pepper, and chopped cilantro. Pulse until the salsa reaches the desired texture."
+    },
+    {
+      "step": 4,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "salsa"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/66782/mexina-salsa-verde/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c3a8a799ab6b59ec2e29d70c7d4e353b851c9a95f0eb564ab327ea077ac801a2",
+    "normalized_text_hash": "b47dc680f3fd0139e0c2dc6d2f2ef983f267e7c4d3088ffee6cc38f9662c6261",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:38:37.518Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

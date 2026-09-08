@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-grilled-pork-chops",
+  "name": "Pineapple Grilled Pork Chops",
+  "subtitle": "Sweet-savory grilled pork with pineapple",
+  "description": "Pork chops marinated with pineapple, brown sugar, soy sauce, and garlic, then grilled and served with the fruit.",
+  "meal_type": "main",
+  "cuisine": "Asian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pineapple-rings",
+      "item": "pineapple rings",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, juice drained and reserved"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pork-chops",
+      "item": "pork chops",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the pineapple rings, brown sugar, soy sauce, and garlic powder in a shallow dish. Add the pork chops, turn to coat, and refrigerate.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Preheat the grill. Remove the pork chops from the marinade and season with the black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Grill the pork chops and pineapple rings, turning as needed, until the pork reaches 145°F in the center.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pork to a plate and let it rest for 3 minutes. Serve with the grilled pineapple rings.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "pork",
+    "pineapple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "shallow dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218070/pineapple-grilled-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "131bb0989974eb27664ecbe0b21fc91849d1ccf51dfd082ed148a9dce5b06807",
+    "normalized_text_hash": "34a679a552c11a61c02165bb86dad96fa9648e170b16cd6410bdddd23133b96b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:19:59.241Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

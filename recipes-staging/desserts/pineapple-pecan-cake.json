@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-pecan-cake",
+  "name": "Pineapple Pecan Cake",
+  "subtitle": "A moist fruit-and-nut cake for sharing",
+  "description": "A simple American dessert combining crushed pineapple, pecans, and vanilla in a tender baked cake.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, crushed, with juice"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, sugar, and baking soda in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the beaten eggs, crushed pineapple with its juice, and vanilla until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the chopped pecans."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a baking pan."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 35 minutes, until the center is fully set.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Cool before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "pineapple",
+    "pecans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23055/pineapple-pecan-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab024cc43fa0d3a44c67b5bc8c75301b4d2e8dc52319672fc496b0e1a7446071",
+    "normalized_text_hash": "8609e37fa676c1f28f672d5f114f0ad2386bb52d1b214ce0c76fbf990df3bbb4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:20:05.539Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

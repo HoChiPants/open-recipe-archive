@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broiled-lobster-tails",
+  "name": "Broiled Lobster Tails",
+  "subtitle": "Paprika-butter lobster with lemon",
+  "description": "Lobster tails are broiled with seasoned melted butter and served with lemon wedges.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lobster-tails",
+      "item": "lobster tails",
+      "quantity": 2,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "ground-paprika",
+      "item": "ground paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-white-pepper-to-taste",
+      "item": "salt and ground white pepper to taste"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "cut into wedges"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the broiler."
+    },
+    {
+      "step": 2,
+      "text": "Cut the lobster tails lengthwise and place them on a broiler-safe pan."
+    },
+    {
+      "step": 3,
+      "text": "Stir the melted butter, paprika, salt, and white pepper together, then spoon the mixture over the lobster."
+    },
+    {
+      "step": 4,
+      "text": "Broil until lightly browned and the lobster meat is opaque and firm, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Serve with the lemon wedges."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "broiled",
+    "lobster",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "broiler",
+    "broiler-safe pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/34638/broiled-lobster-tails/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eb4944fe373674f08904bb99e10e54e41b042347e428a20e98d8de43c4d5ccf7",
+    "normalized_text_hash": "d1d6aa792725a54870d351cf47a98fb122ba9ea3231f9f6ca55fccb7555a8f7a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:16:50.313Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

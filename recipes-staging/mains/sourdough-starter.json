@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sourdough-starter",
+  "name": "Sourdough Starter",
+  "subtitle": "A simple potato-flake starter for homemade bread",
+  "description": "Combine the listed ingredients to create a starter, allow it to rest, then refrigerate and refresh as needed.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 4990
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "instant-mashed-potato-flakes",
+      "item": "instant mashed potato flakes",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2.25,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the instant mashed potato flakes, white sugar, warm water, and active dry yeast together in a clean container."
+    },
+    {
+      "step": 2,
+      "text": "Cover loosely and let the mixture rest at room temperature for 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 3,
+      "text": "Refrigerate the starter after the rest period."
+    },
+    {
+      "step": 4,
+      "text": "When refreshing the starter, stir in the listed potato flakes, sugar, and warm water, then cover and let it rest before returning it to the refrigerator."
+    }
+  ],
+  "tags": [
+    "starter",
+    "bread-baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "clean storage container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6677/sourdough-starter-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1fbf28ec25260648de5b6375cb7a19234f608f58e2e525377a902487706fe46b",
+    "normalized_text_hash": "a1b2d1b4823108f317e6ca022770d847250233240efab1e4c3b2d3315d4aa38b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:11:02.606Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

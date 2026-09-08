@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-breakfast-casserole",
+  "name": "Bacon Breakfast Casserole",
+  "subtitle": "A savory egg bake with bacon, potatoes, vegetables, and Cheddar",
+  "description": "Crisp bacon and sliced potatoes anchor this hearty breakfast casserole, finished with eggs, vegetables, mushrooms, and melted Cheddar.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 3,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 5,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Cook the bacon in a skillet over medium heat until crisp, about 10 minutes. Drain and crumble it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk the milk, eggs, seasoned salt, and ground black pepper until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the bacon, Cheddar cheese, onion, and green bell pepper until evenly combined.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Arrange the sliced potatoes and mushrooms in a baking dish, then pour the egg mixture over them."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, then continue baking for about 30 minutes, until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "egg-casserole",
+    "bacon",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245951/bacon-breakfast-casserole-gluten-free/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "abeef470607434a5fb07b55f868fa13faf3671fd1a4bede3f0d3bdf6714a28c6",
+    "normalized_text_hash": "b7b9899609a38753203399351ef39447b6439f930d2c23b8372405720a3fa282",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:37:59.267Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

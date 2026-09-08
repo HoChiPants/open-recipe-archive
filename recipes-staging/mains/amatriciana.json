@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "amatriciana",
+  "name": "Amatriciana",
+  "subtitle": "Linguine with bacon-tomato sauce",
+  "description": "A quick Italian-style pasta with smoky bacon, tomatoes, basil, and Parmesan.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "linguine-pasta",
+      "item": "linguine pasta",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "uncooked"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large skillet over medium heat until crisp. Drain the bacon, reserving a little of the drippings in the skillet.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Cook the onion in the skillet until softened. Stir in the garlic and red pepper flakes and cook briefly until fragrant.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the stewed tomatoes and simmer, breaking them up with a spoon as needed. Return the bacon to the sauce.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Meanwhile, cook the linguine in boiling water until tender, then drain."
+    },
+    {
+      "step": 5,
+      "text": "Toss the drained linguine with the sauce and basil. Serve topped with Parmesan."
+    }
+  ],
+  "tags": [
+    "italian",
+    "pasta",
+    "tomato",
+    "bacon",
+    "weeknight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "pot",
+    "colander",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11704/amatriciana/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e5430bccaeb7ee4f653a8f87f949e7c1e892bb7588fda35efb106409d2d6f06c",
+    "normalized_text_hash": "bbaf8c7aca58c9f15dfcba1bab3ead12cb5549b1f6384b8976aced0506ca8fff",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:50:12.495Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

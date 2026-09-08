@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-broccoli-bake",
+  "name": "Ham and Broccoli Bake",
+  "subtitle": "Creamy pasta casserole with broccoli and melted cheese",
+  "description": "Whole wheat rotini combines with broccoli, diced ham, and Alfredo sauce for a comforting baked dinner.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-wheat-rotini-pasta",
+      "item": "whole wheat rotini pasta",
+      "quantity": 14,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "frozen-broccoli",
+      "item": "frozen broccoli",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fully-cooked-ham",
+      "item": "fully cooked ham",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "15-ounce-jar-alfredo-sauce",
+      "item": "(15 ounce) jar Alfredo sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "2-milk",
+      "item": "2% milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "colby-monterey-jack-cheese",
+      "item": "Colby-Monterey Jack cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the rotini in boiling water for 10 minutes, then drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Microwave the frozen broccoli according to the package directions."
+    },
+    {
+      "step": 4,
+      "text": "Heat the olive oil in a skillet. Add the broccoli and diced ham, and stir for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the ham and broccoli mixture to a baking dish. Stir in the Alfredo sauce and milk."
+    },
+    {
+      "step": 6,
+      "text": "Add the drained pasta and black pepper, stirring until evenly coated. Sprinkle the shredded cheese over the top."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 30 minutes, until the cheese is melted and the casserole is hot throughout.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "baking dish",
+    "microwave"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/211166/ham-and-broccoli-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "974fdb9aba55c627e5b4239a4f2413149a647798e3bd465357f7a51ebdcedec3",
+    "normalized_text_hash": "9512e52909d733331561b390bbe7e9c4eaac2978e7f15e45ebce1d8d4fa60a35",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:18:44.660Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caipirinha",
+  "name": "Caipirinha",
+  "subtitle": "A bright lime and cachaça cocktail",
+  "description": "Muddled lime and sugar form the base of this refreshing Brazilian-style drink, finished with cachaça and plenty of ice.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "limes-chopped-into-wedges",
+      "item": "limes chopped into wedges",
+      "quantity": 2,
+      "preparation": "plus extra lime wedges to serve (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cachac-a",
+      "item": "cachaça",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Divide the lime wedges and sugar among four glasses. Muddle until the lime releases its juice and the sugar begins to dissolve."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the cachaça and stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Fill the glasses with ice, stir briefly, and serve with extra lime wedges if desired."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "alcoholic-drink",
+    "cachac-a",
+    "lime"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "four glasses",
+    "muddler"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/caipirinha",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "104f32fa360ead3718d794f6a826251cde0a985b233e5892f02b832afc6301d8",
+    "normalized_text_hash": "5a5f3af35b128e3841bb327619029ad5cd6b6941bb245a79384905b6ee7162f5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T21:28:16.273Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

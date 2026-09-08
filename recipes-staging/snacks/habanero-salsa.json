@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "habanero-salsa",
+  "name": "Habanero Salsa",
+  "subtitle": "A bright, fiery salsa with citrus and cilantro",
+  "description": "Blend cooked aromatics, chiles, tomatoes, lime, and cilantro into a bold salsa, then chill before serving.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 80,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-jalapeno-peppers",
+      "item": "fresh jalapeno peppers",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "green-chile-pepper",
+      "item": "green chile pepper",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "7 ounce, diced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "limes",
+      "item": "limes",
+      "quantity": 2,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "canned-tomatoes",
+      "item": "canned tomatoes",
+      "quantity": 7,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "habanero-pepper",
+      "item": "habanero pepper",
+      "quantity": 1,
+      "preparation": "seeded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the jalapeños, onion, garlic, cilantro, lime juice, diced green chile, tomatoes, and seeded habanero."
+    },
+    {
+      "step": 2,
+      "text": "Roast the black pepper in a dry pan until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Cook the jalapeños, onions, garlic, sugar, salt, and roasted pepper until the aromatics soften, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Let the cooked mixture cool completely.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Transfer the cooled mixture to a blender or food processor. Add the green chile, cilantro, lime juice, tomatoes, and habanero."
+    },
+    {
+      "step": 6,
+      "text": "Blend or pulse until the salsa reaches the desired texture. Chill before serving."
+    }
+  ],
+  "tags": [
+    "salsa",
+    "appetizer",
+    "mexican",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "dry skillet",
+    "saucepan",
+    "blender or food processor",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/38886/habanero-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "41e6ad1596f05450493eafe008ee23c158e8f7124caaaaf26aa45ccbe947137f",
+    "normalized_text_hash": "55b087871c9653443f4f10a0585aaf7cc1a6bb6b1735c902d2ae30f0c81663ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:17:36.933Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

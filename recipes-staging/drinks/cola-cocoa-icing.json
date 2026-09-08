@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cola-cocoa-icing",
+  "name": "Cola Cocoa Icing",
+  "subtitle": "A glossy cocoa icing with chopped walnuts",
+  "description": "A rich butter-and-cocoa icing flavored with cola, vanilla, and walnuts.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cola-flavored-carbonated-beverage",
+      "item": "cola-flavored carbonated beverage",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cola-flavored beverage, cocoa powder, and butter in a saucepan. Simmer until the butter melts and the mixture is smooth."
+    },
+    {
+      "step": 2,
+      "text": "Place the confectioners' sugar and vanilla extract in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Pour the warm cocoa mixture over the sugar and vanilla, then stir until smooth. Fold in the chopped walnuts and use as icing."
+    }
+  ],
+  "tags": [
+    "icing",
+    "cocoa",
+    "walnuts",
+    "american-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7935/coco-cola-icing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "af8e9712d9383e32b063a67857c9d260fb88d4d09246f6973e52bd4bcbf85977",
+    "normalized_text_hash": "7c3aedee9bc913350f397e8fb8135a5de1937ee97ee49a5d9bc0c019b1c86bd0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:57:23.347Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "jelly-bean-nests",
+  "name": "Jelly Bean Nests",
+  "subtitle": "Crisp noodle treats shaped into simple nests",
+  "description": "A quick no-bake dessert made by folding chow mein noodles into a buttery marshmallow mixture, then chilling them until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chow-mein-noodles",
+      "item": "chow mein noodles",
+      "quantity": 4,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large saucepan over low heat. Add the miniature marshmallows and stir until smooth and fully melted."
+    },
+    {
+      "step": 2,
+      "text": "Remove from the heat and fold in the chow mein noodles until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Spoon the mixture into 12 portions on a lined tray. Shape each portion into a nest with a shallow center."
+    },
+    {
+      "step": 4,
+      "text": "Chill for 60 minutes, or until firm.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "marshmallow",
+    "chow-mein-noodles",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large saucepan",
+    "wooden spoon",
+    "lined baking tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19730/jelly-bean-nests/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1e035fc7c3576799ed1c4a9a3808244dd009b3585487434555ee5bf2bd7b4ae8",
+    "normalized_text_hash": "994d9621356853759a126709cc9070e78c1bff957e32af0ce8fc0348220f7578",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:26:52.401Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

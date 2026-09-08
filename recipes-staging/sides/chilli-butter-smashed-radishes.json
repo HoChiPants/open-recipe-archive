@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chilli-butter-smashed-radishes",
+  "name": "Chilli-Butter Smashed Radishes",
+  "subtitle": "Tender radishes with warm chilli butter and lemon",
+  "description": "Smashed radishes are cooked in golden chilli butter until tender, then finished with lemon juice.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "(as a side)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chilli-flakes-optional",
+      "item": "chilli flakes",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "radishes-leaves-removed",
+      "item": "radishes leaves removed",
+      "quantity": 500,
+      "unit": "g",
+      "preparation": "smashed with the flat edge of a knife (or halved/quartered if you find this hard to do)"
+    },
+    {
+      "ingredient_id": "2-lemon-juiced",
+      "item": "⁄2 lemon juiced",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat. Stir in the chilli flakes and cook until the butter turns golden brown."
+    },
+    {
+      "step": 2,
+      "text": "Add the smashed radishes and toss to coat. Cook for 15 minutes, turning occasionally, until tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and stir in the lemon juice. Serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "vegetables",
+    "radishes",
+    "chilli-butter"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chilli-butter-smashed-radishes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "874482feb5ef194963123124ccd552b5ccdd1a72e6c58fb13a1fda14b9ace6b7",
+    "normalized_text_hash": "97452ed39b7ec6cab2e64d491a9cdb62d0a99d1b245ce1329d3c039a474b676a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:57:55.354Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemony-cream-of-chicken-soup",
+  "name": "Lemony Cream of Chicken Soup",
+  "subtitle": "Creamy chicken soup brightened with lemon",
+  "description": "A simple chicken and rice soup made creamy with chicken soup and finished with lemon juice.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "48-ounce-containers-chicken-broth",
+      "item": "(48 ounce) containers chicken broth",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "chicken-chunks",
+      "item": "chicken chunks",
+      "quantity": 4,
+      "unit": "can",
+      "preparation": "12 ounce, drained"
+    },
+    {
+      "ingredient_id": "white-rice",
+      "item": "white rice",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream-of-chicken-soup",
+      "item": "cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "26 ounce"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chicken broth, drained chicken chunks, and cream of chicken soup in a large pot. Bring the mixture to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the white rice and simmer until the rice is tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice. Continue cooking until heated through and the soup reaches 165°F, about 10 minutes.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "soup",
+    "chicken",
+    "rice",
+    "lemon",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232419/lemony-cream-of-chicken-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c4c4424dbfb93b95aa720010292b32b1c256dc89eecf10f343aa56f929eb5934",
+    "normalized_text_hash": "5d13288d0d8b2967342882e2ef6590e3e476b9b66105168440980e1e0d17be48",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:59:23.130Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-peanut-butter-fudge",
+  "name": "Creamy Peanut Butter Fudge",
+  "subtitle": "Smooth, rich squares with classic peanut butter flavor",
+  "description": "A simple American-style fudge made by blending melted butter and peanut butter with powdered sugar, salt, and vanilla, then chilling until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 64,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "powdered-sugar",
+      "item": "powdered sugar",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "creamy-peanut-butter",
+      "item": "creamy peanut butter",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the powdered sugar by sifting it into a large mixing bowl."
+    },
+    {
+      "step": 2,
+      "text": "Warm the butter and peanut butter together in a saucepan until melted and combined, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the kosher salt and vanilla extract."
+    },
+    {
+      "step": 4,
+      "text": "Pour the warm mixture over the powdered sugar and mix until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the fudge mixture to a lined pan and spread it evenly."
+    },
+    {
+      "step": 6,
+      "text": "Chill until firm, about 60 minutes, then cut into squares.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "candy",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "sifter",
+    "lined pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276663/grandmas-creamy-peanut-butter-fudge/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fe216bcecac7d02714f0df5f3b9eebdd386d2d9cf6810626bd366a7bfc6fb813",
+    "normalized_text_hash": "b54e55f02d6f57de62b4156c756ddc468edd2a3e5f702e57ea4fa282458fb047",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:51:12.566Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

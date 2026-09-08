@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-ranch-parmesan-pasta-salad",
+  "name": "Bacon Ranch Parmesan Pasta Salad",
+  "subtitle": "Chilled bow-tie pasta with crisp bacon and vegetables",
+  "description": "A creamy pasta salad combining ranch dressing, bacon, fresh vegetables, and shredded Parmesan.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "farfalle-bow-tie-pasta",
+      "item": "farfalle (bow tie) pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "prepared-ranch-dressing",
+      "item": "prepared ranch dressing",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "stalk-celery",
+      "item": "stalk celery",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer. Add the farfalle and cook for 12 minutes, or until tender.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Drain the pasta, let it cool, transfer it to a bowl, and chill."
+    },
+    {
+      "step": 3,
+      "text": "Cook the bacon for about 10 minutes, or until crisp. Drain, cool, and cut it into pieces.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Combine the bacon, ranch dressing, red onion, carrot, celery, and Parmesan in a large bowl."
+    },
+    {
+      "step": 5,
+      "text": "Add the chilled pasta and stir until evenly coated."
+    },
+    {
+      "step": 6,
+      "text": "Chill the pasta salad for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "lunch",
+    "pasta-salad",
+    "make-ahead",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "skillet",
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214672/ranch-bacon-and-parmesan-pasta-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e2ebd4b0be7c115d2a64093c6ee8470e423203cbcf1c7f34b252bf32ce36b220",
+    "normalized_text_hash": "c7333d92ec67913f79e3d13ecd791e8d5f5caa01ad5766b105f66e350630206d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:52:09.460Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

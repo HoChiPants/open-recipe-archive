@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "deviled-eggs",
+  "name": "Deviled Eggs",
+  "subtitle": "Creamy, tangy egg halves with a gentle peppery kick",
+  "description": "Hard-cooked eggs are filled with a smooth mayonnaise-based mixture flavored with Worcestershire, horseradish, and hot pepper sauce, then finished with parsley and paprika.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cream-style-horseradish-sauce",
+      "item": "cream-style horseradish sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 1,
+      "unit": "drop",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "dried-parsley-flakes",
+      "item": "dried parsley flakes",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "for garnish"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "for garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs in a saucepan, cover with water, and bring to a simmer. Cook until hard-set, about 15 minutes, then cool completely in cold water.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Peel the eggs, cut them in half lengthwise, and transfer the yolks to a bowl. Arrange the whites on a serving platter."
+    },
+    {
+      "step": 3,
+      "text": "Mash the yolks until smooth. Stir in the mayonnaise, Worcestershire sauce, cream-style horseradish sauce, hot pepper sauce, and salt and pepper until creamy."
+    },
+    {
+      "step": 4,
+      "text": "Spoon or pipe the filling into the egg-white halves. Chill for 30 minutes, then garnish with parsley flakes and paprika.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american",
+    "deviled-eggs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "serving platter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/171616/perfect-deviled-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6eece57ba01fa4e5f1ae566e9e62f820c0b537c52e9bf15899ea2041883ff858",
+    "normalized_text_hash": "fa69d97ce7525f2fe9bdb686d221c1fc289992b39500275bfa20bb0fada2d018",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:08:47.629Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

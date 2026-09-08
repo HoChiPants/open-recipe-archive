@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-spritz",
+  "name": "Apple Spritz",
+  "subtitle": "A crisp sparkling apple cocktail",
+  "description": "Combine apple cider and Aperol over ice, then add prosecco and optional soda water for a refreshing spritz.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "red-apple-slices-to-garnish",
+      "item": "red apple slices to garnish",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "aperol",
+      "item": "Aperol",
+      "quantity": 80,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "apple-cider",
+      "item": "apple cider",
+      "quantity": 140,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "prosecco",
+      "item": "prosecco",
+      "quantity": 80,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "soda-water-for-topping-up-optional",
+      "item": "soda water for topping up (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill two glasses with ice. Divide the Aperol and apple cider between them and stir gently."
+    },
+    {
+      "step": 2,
+      "text": "Top each glass with prosecco and optional soda water."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the apple slices and serve."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "apple-cider",
+    "sparkling-wine",
+    "holiday"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "2 glasses",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-spritz",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4ad8fe5a6ad50bcf8e906c66267926297a5b9584ab8094543f1593be995d87ea",
+    "normalized_text_hash": "f7f06f8d43f6e424af63f427d21aed77a7d49a2a28aa2ca3a252164ed1db6d90",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:39:35.555Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

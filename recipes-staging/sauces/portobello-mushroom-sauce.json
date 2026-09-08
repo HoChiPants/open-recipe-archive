@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "portobello-mushroom-sauce",
+  "name": "Portobello Mushroom Sauce",
+  "subtitle": "A creamy mushroom sauce with port wine and basil",
+  "description": "Tender diced portobello mushrooms simmer with port wine and cream, then finish with fresh basil for a rich, spoonable sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "portobello-mushrooms",
+      "item": "portobello mushrooms",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "port-wine",
+      "item": "port wine",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the butter in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the diced portobello mushrooms and stir until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the port wine and bring the mixture to a simmer."
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the heavy cream, then simmer until the sauce thickens. Stir in the chopped fresh basil and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "sauce",
+    "mushrooms"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/82166/portobello-mushroom-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c4f79e5b60e08bec420bc362437ac8f3f871691e578c41d1c2b65b4efba09397",
+    "normalized_text_hash": "ceb52becf32b918033c5750299562d4d045023f02f2a1dba992642e67465ae27",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:23:48.315Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

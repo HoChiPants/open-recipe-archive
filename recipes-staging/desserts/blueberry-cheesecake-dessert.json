@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-cheesecake-dessert",
+  "name": "Blueberry Cheesecake Dessert",
+  "subtitle": "A chilled cheesecake dessert with a graham cracker base and blueberry topping.",
+  "description": "A baked cream cheese layer rests on a buttery graham cracker crust, then cools beneath blueberry filling and whipped topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 28,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "graham-crackers",
+      "item": "graham crackers",
+      "quantity": 36,
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "blueberry-pie-filling",
+      "item": "blueberry pie filling",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "frozen-whipped-topping",
+      "item": "frozen whipped topping",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Prepare the butter, then combine it with the white sugar and crushed graham crackers. Press the mixture into a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs. In a separate bowl, beat the cream cheese, white sugar, vanilla extract, and eggs until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the cream cheese mixture to the crust and spread the blueberry pie filling over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the center is fully set, about 20 minutes. For food safety, verify the egg-containing center reaches 160°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Cool the dessert completely, then add the remaining blueberry pie filling and spread the thawed whipped topping over it."
+    },
+    {
+      "step": 6,
+      "text": "Chill for at least 60 minutes before slicing and serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "cheesecake",
+    "blueberry",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowls",
+    "whisk",
+    "electric mixer or sturdy spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12090/blueberry-or-cherry-dessert/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "061638b07a8b17bfb0fa4dc0369f230c51ec90e34db9e135c053b78ccbb3ee8a",
+    "normalized_text_hash": "a4a4c622eb3827886fe9bbdf65bfd9b87678eab9c938bff1af5b891984ae734b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:59:14.695Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

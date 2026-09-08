@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rhubarb-lemonade",
+  "name": "Rhubarb Lemonade",
+  "subtitle": "Tart rhubarb syrup with bright lemon flavor",
+  "description": "Simmer rhubarb with sugar, lemon peel, and lemon juice, then strain the cooked mixture into a smooth, tangy lemonade base.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 8,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "grated-lemon-peel",
+      "item": "grated lemon peel",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the rhubarb, sugar, grated lemon peel, and lemon juice in a large saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer over medium heat, then cook for 10 minutes, stirring occasionally, until the rhubarb is very soft.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Pour the mixture through a fine-mesh strainer into a heatproof bowl, pressing the rhubarb gently to extract the liquid."
+    },
+    {
+      "step": 4,
+      "text": "Cool the strained lemonade before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "lemonade",
+    "rhubarb",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "fine-mesh strainer",
+    "heatproof bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214111/rhubarb-lemonade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "45083e795c296b82c2ea86eaa8aaee4d7b91d7dd1928077b7cdc3437c881757f",
+    "normalized_text_hash": "8862f24c0a07d78b7549d60ff1300e31ebf4aceb10fac80c0ea4de5b37bfe686",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:02:12.388Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

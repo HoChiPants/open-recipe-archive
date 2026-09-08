@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-chocolate-bars",
+  "name": "Peanut Butter Chocolate Bars",
+  "subtitle": "A chilled peanut butter base finished with a smooth chocolate layer",
+  "description": "Press a sweet peanut butter mixture into a pan, cover it with melted chocolate, and chill until firm before cutting into bars.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "creamy-peanut-butter",
+      "item": "creamy peanut butter",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the confectioners' sugar, peanut butter, melted margarine, brown sugar, and vanilla until evenly blended."
+    },
+    {
+      "step": 2,
+      "text": "Press the mixture into an even layer in a suitable pan."
+    },
+    {
+      "step": 3,
+      "text": "Melt the chocolate chips gently over simmering water, stirring until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Spread the melted chocolate over the peanut butter layer."
+    },
+    {
+      "step": 5,
+      "text": "Chill until firm, about 30 minutes, then cut into 24 bars.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "peanut-butter",
+    "chocolate",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spatula",
+    "pan",
+    "heatproof bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230560/easy-buckeye-bars/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64a85ee5eead8d21ec03c7faa08be53071a5ec428c84102bc73daa25dd4d97ea",
+    "normalized_text_hash": "239aee9765b6c38c68223331bb6c11638a70e899cbbad1c846bfbb68d2fe9ea9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:23:38.038Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

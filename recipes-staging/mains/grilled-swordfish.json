@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-swordfish",
+  "name": "Grilled Swordfish",
+  "subtitle": "Teriyaki-marinated swordfish with garlic margarine",
+  "description": "Swordfish steaks are briefly marinated in teriyaki sauce, grilled, and finished with softened garlic margarine.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-swordfish-steaks",
+      "item": "(8 ounce) swordfish steaks",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill. Combine the softened margarine with the garlic powder."
+    },
+    {
+      "step": 2,
+      "text": "Coat the swordfish steaks with the teriyaki sauce and let them stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Grill the steaks, turning once, until the fish reaches 145°F or is opaque and flakes easily.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Serve the grilled swordfish with the garlic margarine."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "seafood",
+    "swordfish",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75115/grilled-swordfish/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "01bbdd91f00089865641b9717f9802c89c22339a55d60ceb4f8e83a321ae64df",
+    "normalized_text_hash": "09e92b62e6ffea66d015c4ffc870d3cf8bd3e6603a58cb464aac58008dc3ad62",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:11:59.713Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

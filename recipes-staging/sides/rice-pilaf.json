@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rice-pilaf",
+  "name": "Rice Pilaf",
+  "subtitle": "Toasted vermicelli with seasoned long-grain rice",
+  "description": "A simple stovetop pilaf made with browned vermicelli, white rice, butter, and savory seasoning.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-bouillon-granules",
+      "item": "chicken bouillon granules",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "broken-pieces-vermicelli-pasta",
+      "item": "broken pieces vermicelli pasta",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "long-grain-white-rice",
+      "item": "long grain white rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "greek-seasoning",
+      "item": "Greek seasoning",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the chicken bouillon granules into the water until dissolved."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan over medium heat. Add the vermicelli and stir until golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour in the bouillon mixture, then stir in the rice, black pepper, salt, and Greek seasoning."
+    },
+    {
+      "step": 4,
+      "text": "Bring to a simmer, cover, and cook until the rice is tender and the liquid reaches 165°F.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "rice",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220674/anns-rice-pilaf/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2b746ab3a66cbe4e3dd1006cb554cf6d758515330d2d9aa653ec324bd53ef8c2",
+    "normalized_text_hash": "90dc0e136701753b639a1beb77cca1572be4dc82e30f8057c03eb5ffdb8dc17c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:15:34.386Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

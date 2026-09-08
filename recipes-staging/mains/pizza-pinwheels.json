@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizza-pinwheels",
+  "name": "Pizza Pinwheels",
+  "subtitle": "Crescent dough spirals with pepperoni and mozzarella",
+  "description": "Roll crescent dough around pepperoni and mozzarella, bake until golden, and serve with warm pizza sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-crescent-roll-dough",
+      "item": "refrigerated crescent roll dough",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "slices-pepperoni",
+      "item": "slices pepperoni",
+      "quantity": 24
+    },
+    {
+      "ingredient_id": "pizza-sauce",
+      "item": "pizza sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Transfer the crescent roll dough to a work surface and shape it into an even rectangle."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the pepperoni over the dough and sprinkle with the shredded mozzarella."
+    },
+    {
+      "step": 3,
+      "text": "Roll the dough into a log, then cut it into 8 even pinwheels."
+    },
+    {
+      "step": 4,
+      "text": "Place the pinwheels on a baking sheet and bake for 14 minutes, or until golden brown.",
+      "timer_minutes": 14
+    },
+    {
+      "step": 5,
+      "text": "Serve the pinwheels with pizza sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pizza",
+    "kid-friendly"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23702/pizza-pinwheels/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3a8aefa65f2ec7db8aeaf807a1eceaf3a332281dd79d6c39dda8d22510ac62d0",
+    "normalized_text_hash": "791b64a3acb4c5b9060c5ea396f37c8633e255cbc382f4661cef654fc3a6fb9d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:23:27.776Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "greek-horiatiki-salad",
+  "name": "Greek Horiatiki Salad",
+  "subtitle": "A crisp tomato, cucumber, olive, and feta salad",
+  "description": "Combine ripe vegetables with oregano, olive oil, and feta, then let the flavors meld before serving.",
+  "meal_type": "salad",
+  "cuisine": "Greek",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 5,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "greek-black-olives",
+      "item": "Greek black olives",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "feta-cheese",
+      "item": "feta cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the tomatoes into bite-size pieces and place them in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the red onion, sea salt, and dried oregano; toss gently."
+    },
+    {
+      "step": 3,
+      "text": "Let the tomato mixture stand for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Add the green bell pepper, cucumber, black olives, and olive oil, and toss to combine."
+    },
+    {
+      "step": 5,
+      "text": "Cut the feta into pieces and arrange it over the salad before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "salad",
+    "greek"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/278767/greek-horiatiki-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d14bac91d0c32d88523822fa94606885582807feecc51d5b690327c95f000154",
+    "normalized_text_hash": "2f417e0f682d5af80f38fab061587e36a62adeacc8e4426e7eb9a4de2733cf60",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:58:27.238Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

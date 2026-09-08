@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "campfire-skillet-breakfast",
+  "name": "Campfire Skillet Breakfast",
+  "subtitle": "A hearty one-pan breakfast with crisp bacon, potatoes, eggs, and cheese.",
+  "description": "Cook bacon with potatoes and onion, then finish the skillet with set eggs and melted Cheddar.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 17
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large skillet until set and lightly crisp."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the potatoes and onion, coating them with the bacon drippings."
+    },
+    {
+      "step": 3,
+      "text": "Cook for 12 minutes, stirring occasionally, until the potatoes are tender.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Pour in the beaten eggs and stir for 2 minutes, until fully set; egg dishes should reach 160°F or have a firm center.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle the shredded Cheddar over the skillet and serve when melted."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "one-pan",
+    "skillet",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/105678/campfire-skillet-breakfast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "790ac97751121124ae9d0f19b60015f05f5c180e9650e42b162b0871cc8d5f42",
+    "normalized_text_hash": "69caaa12372e1d80ed5f6a2968113c6f2ad24eb08dd7d748343506ee978abec2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:47:20.683Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

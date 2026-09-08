@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-salad",
+  "name": "Egg Salad",
+  "subtitle": "Chopped eggs folded with a creamy chive-mustard dressing.",
+  "description": "A simple chilled egg salad for sandwiches, wraps, or a bed of greens.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 12,
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "low-fat-mayonnaise",
+      "item": "low-fat mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "celery-salt",
+      "item": "celery salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-paprika",
+      "item": "ground paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Chop the hard-cooked eggs, reserving a small portion if desired for garnish."
+    },
+    {
+      "step": 2,
+      "text": "In a large bowl, stir together the mayonnaise, chives, mustard, celery salt, paprika, kosher salt, and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the chopped eggs until evenly coated. Serve chilled."
+    }
+  ],
+  "tags": [
+    "egg-salad",
+    "cold-salad",
+    "make-ahead",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "cutting board",
+    "knife",
+    "large bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240974/a-healthy-egg-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0f9e1dbaa6b9120263b549eff51787b98bdf1cfa0de9285639427eac423c2960",
+    "normalized_text_hash": "b0a52b62693a7eb264f71107e714dcaab5bff635e0517db30fed1ac75c46c40d",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:07:41.306Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

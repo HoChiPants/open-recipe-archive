@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-clafoutis",
+  "name": "Cherry Clafoutis",
+  "subtitle": "A tender French baked custard with cherries",
+  "description": "A simple French dessert combining vanilla-infused milk, cherries, and a smooth egg batter, baked until set and lightly sugared.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-bean",
+      "item": "vanilla bean",
+      "quantity": 0.5,
+      "preparation": "split"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cherries-with-pits",
+      "item": "cherries (with pits)",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk and split vanilla bean. Let stand for 60 minutes, then remove the vanilla bean.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 3,
+      "text": "Butter a baking dish and arrange the cherries in it. Warn diners that the cherries contain pits."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the flour, pinch of salt, and 1/2 cup sugar together. Add the eggs and whisk until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the heavy cream, then gradually add the infused milk. Continue until the batter is smooth."
+    },
+    {
+      "step": 6,
+      "text": "Pour the batter over the cherries and bake for 45 minutes, until the center is firm and fully set.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Sprinkle with the remaining 2 tablespoons sugar. Cool until set, then serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "french",
+    "baked-custard",
+    "cherry-dessert"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "whisk",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/259161/clafoutis-aux-cerises-classic-clafouti/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "719e6fdeee74ee8367dab02d51b237e3d14ec13c3aab953151cf8087bdaeb894",
+    "normalized_text_hash": "aaef66f358141e269d235c678c22dda3424989d909bd4c6241f841bb11b1ed52",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:49:27.577Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

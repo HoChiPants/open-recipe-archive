@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pan-fried-green-beans",
+  "name": "Pan-Fried Green Beans",
+  "subtitle": "Savory green beans with garlic and sesame",
+  "description": "Fresh green beans are cooked until firm-tender, then tossed with garlic, soy sauce, balsamic vinegar, and a touch of sugar.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-green-beans",
+      "item": "fresh green beans",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "light-soy-sauce",
+      "item": "light soy sauce",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the light soy sauce, balsamic vinegar, and white sugar until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Place the green beans and 1 tablespoon of the soy sauce mixture in a large skillet. Cover and simmer for 5 minutes, stirring once, until the beans are firm-tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Uncover the skillet and let any excess liquid cook off. Push the beans to one side, add the sesame oil, and warm it over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Add the garlic to the oil and cook briefly until fragrant, then toss it with the beans."
+    },
+    {
+      "step": 5,
+      "text": "Pour in the remaining soy sauce mixture and stir until the beans are evenly coated and heated through."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetable",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "large skillet",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/100800/dads-pan-fried-green-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2bda453f061d2c608a26b5c0f3c814989ad2243ba7b2ebf7d8506cbb368884a2",
+    "normalized_text_hash": "074b224cb59a260bf0fd7f115accbdcd4dc016ddd84f68526de03273a81d82b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:59:21.441Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

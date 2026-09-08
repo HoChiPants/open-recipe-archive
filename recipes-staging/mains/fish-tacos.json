@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fish-tacos",
+  "name": "Fish Tacos",
+  "subtitle": "Crisp fish, cabbage, and salsa in warm corn tortillas",
+  "description": "Bake breaded fish sticks until crisp and safely cooked, then serve them in lightly sautéed corn tortillas with cabbage, tartar sauce, and salsa.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "breaded-frozen-fish-sticks",
+      "item": "breaded frozen fish sticks",
+      "quantity": 30
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "corn-tortillas",
+      "item": "corn tortillas",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "finely-shredded-red-cabbage",
+      "item": "finely shredded red cabbage",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "tartar-sauce",
+      "item": "tartar sauce",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salsa",
+      "item": "salsa",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Arrange the frozen fish sticks in a single layer and bake for 20 minutes, or until golden brown and the thickest piece reaches 145°F internally and flakes easily when checked with a thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Warm the vegetable oil in a skillet over medium heat. Sauté the corn tortillas briefly until pliable and lightly warmed, then drain them."
+    },
+    {
+      "step": 3,
+      "text": "Fill each tortilla with baked fish and finely shredded red cabbage. Top with tartar sauce and salsa, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "quick",
+    "fish-tacos"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "eggs",
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58559/quick-and-easy-fish-tacos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5144f2505ffee789cde09dc1062c63d8620fcf7876175591e9a4dda0765cb3c6",
+    "normalized_text_hash": "f821ee627a24bb939f0254200e93f9a5eb9d6bb8c559f2ba50690179987973cd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:40:30.457Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

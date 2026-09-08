@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ants-on-a-log",
+  "name": "Ants on a Log",
+  "subtitle": "Celery sticks filled with peanut butter and raisins",
+  "description": "A simple no-cook snack made by filling celery with peanut butter and topping it with raisins.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the celery stalks into serving-size pieces."
+    },
+    {
+      "step": 2,
+      "text": "Spread peanut butter into the center of each celery piece."
+    },
+    {
+      "step": 3,
+      "text": "Press raisins onto the peanut butter and serve."
+    }
+  ],
+  "tags": [
+    "snack",
+    "no-cook",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23953/ants-on-a-log/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a74afa0273f7192381043e4e169ed1e719777e10700aa4b69cd61cf11cc02282",
+    "normalized_text_hash": "c136a94b9146077d6e3feae927ea5173f254373dfe53f3625e9167550d9a41a5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:16:00.256Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "whole-wheat-bread",
+  "name": "Whole Wheat Bread",
+  "subtitle": "A simple loaf with a tender crumb and hearty wheat flavor.",
+  "description": "Mix, knead, rise, shape, and bake a straightforward whole-wheat loaf for slicing and serving.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 40,
+    "inactive_minutes": 140
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "whole-wheat-flour",
+      "item": "whole wheat flour",
+      "quantity": 3.5,
+      "unit": "cups",
+      "preparation": "or more as needed, divided"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the warm water, honey, and yeast together in a large bowl. Let stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add 3 cups of the flour, olive oil, and salt. Stir until a shaggy dough forms, adding the remaining flour as needed. Rest for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough on a lightly floured surface for 7 minutes, until smooth.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Place the dough in an oiled bowl, cover, and let rise until doubled, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough into a loaf and place it in a prepared loaf pan. Cover and let rise for another 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 45 minutes, until golden brown.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 8,
+      "text": "Remove from the pan and cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "whole-wheat",
+    "yeast-bread",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large bowl",
+    "loaf pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272420/easy-100-whole-wheat-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "571ec4eb25f1d2feff71eda3376097f83ff7bc64a80fce3623fb25807ef4086f",
+    "normalized_text_hash": "62c945288299e9096a1267367b5aa43be5dcdd20f42405efa1935452d685d950",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:17:19.533Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-rum-fizz",
+  "name": "Pineapple Rum Fizz",
+  "subtitle": "A chilled pineapple and spiced rum highball",
+  "description": "A simple tropical-style drink combining pineapple juice, spiced rum, and lemon-lime soda over ice.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fluid-ounces-pineapple-juice",
+      "item": "fluid ounces pineapple juice",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-spiced-rum",
+      "item": "(1.5 fluid ounce) jigger spiced rum",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon-lime-flavored-carbonated-beverage",
+      "item": "lemon-lime flavored carbonated beverage",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the pineapple juice and spiced rum."
+    },
+    {
+      "step": 3,
+      "text": "Top with the lemon-lime carbonated beverage and stir gently."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "rum",
+    "pineapple",
+    "quick"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/89043/captains-vacation/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9e81f5079dc0cc1039171aec125ac310501202ce548e560ac32f99fb782f59f0",
+    "normalized_text_hash": "6479b6a249fe71afa4af66ef42f12785a2619b78a09b97938b457fa21586f5bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:51:03.809Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

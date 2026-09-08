@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-dipped-strawberries",
+  "name": "Chocolate-Dipped Strawberries",
+  "subtitle": "Fresh strawberries coated in smooth melted chocolate",
+  "description": "Dip ripe strawberries in melted dark chocolate, add an optional chocolate drizzle, and let the coating set before serving.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 4
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dark-chocolate-roughly-chopped",
+      "item": "dark chocolate roughly chopped",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "white-and-milk-chocolate-roughy-chopped-optional",
+      "item": "white and milk chocolate roughy chopped (optional)",
+      "quantity": 30,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Wash the strawberries and dry them thoroughly so the chocolate adheres."
+    },
+    {
+      "step": 2,
+      "text": "Place the dark chocolate and optional white and milk chocolate in a heatproof bowl over gently simmering water. Stir until melted, using short microwave bursts if needed to finish melting.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Dip each strawberry into the melted chocolate, allowing excess to drip back into the bowl."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the dipped strawberries to a lined tray. Drizzle with the optional chocolate, if desired, and leave until the coating is set."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "treat",
+    "chocolate",
+    "strawberries",
+    "valentine-s-day"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "heatproof bowl",
+    "saucepan",
+    "microwave",
+    "lined tray"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-dipped-strawberries",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "798b4648e9a18c3f8a4234c764a4e67763921ba4c59c98d44a2a57ae2737f47d",
+    "normalized_text_hash": "863c1e897ca83b6caa7d8a0455f731f2577b952fa411e8ee101203a05339e57d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:06:10.419Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

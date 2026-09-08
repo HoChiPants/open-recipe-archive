@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-vegetable-soup",
+  "name": "Tomato Vegetable Soup",
+  "subtitle": "A simple vegetable soup with tomato and oregano",
+  "description": "Tomato juice, mixed vegetables, and oregano simmer together for an easy, comforting soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomato-juice",
+      "item": "tomato juice",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "32 fluid ounce"
+    },
+    {
+      "ingredient_id": "frozen-mixed-vegetables",
+      "item": "frozen mixed vegetables",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the tomato juice, frozen mixed vegetables, water, oregano, salt, and pepper in a pot."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer over medium heat, then simmer for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Taste and adjust the salt and pepper before serving."
+    }
+  ],
+  "tags": [
+    "soup",
+    "tomato",
+    "vegetable",
+    "easy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15260/colenes-easy-tomato-vegetable-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "584409c51813dc2cc5dc9b37c7243fcd230c4b2542d2113142fa483439bfa520",
+    "normalized_text_hash": "f8f7abdcf61661cfc5c584a6e5c14e1a2fb1ce13ae9cce59b0557b9c211b4f0b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:04:39.801Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

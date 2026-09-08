@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-angel-food-cake",
+  "name": "Pineapple Angel Food Cake",
+  "subtitle": "Pineapple Angel Food Cake from two pantry items",
+  "description": "A straightforward baked cake made by folding crushed pineapple into angel food cake mix, baking until golden, then allowing it to rest and set before slicing.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "20 ounce, crushed, in juice"
+    },
+    {
+      "ingredient_id": "angel-food-cake-mix",
+      "item": "angel food cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "In a bowl, combine the crushed pineapple and angel food cake mix until evenly distributed, about 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to a prepared baking pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 350°F until the top is golden brown, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Cool the cake on a rack, then allow it to stand for 120 minutes so it sets.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Prepare the cake for service, then cut into portions."
+    },
+    {
+      "step": 7,
+      "text": "Serve."
+    }
+  ],
+  "tags": [
+    "baked-cake",
+    "pineapple",
+    "quick-dessert",
+    "easy-dessert",
+    "two-ingredient"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking pan",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283630/2-ingredient-pineapple-angel-food-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f6cfea9832094ea67302e2b25ed0bf73f735b073b969d7362622db97b4a87800",
+    "normalized_text_hash": "8ea4138666c7d98752ccf2fac836fec7e443966e7617c9c09bcd3f33a7fc03c1",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:05:35.253Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

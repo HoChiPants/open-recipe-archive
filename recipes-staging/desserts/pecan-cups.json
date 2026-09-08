@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-cups",
+  "name": "Pecan Cups",
+  "subtitle": "Tender pastry shells with a rich pecan filling",
+  "description": "Small baked pastry cups filled with brown sugar, egg, vanilla, and chopped pecans.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 3,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 0.66666698455811,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare 18 small baking cups or muffin-pan wells."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cream cheese and 0.5 cup butter until combined. Mix in the flour to form a soft dough, then divide it among the cups and press it over the bottoms and sides."
+    },
+    {
+      "step": 3,
+      "text": "Combine the 1 tablespoon butter and brown sugar. Stir in the beaten egg and vanilla, then blend until smooth. Fold in the pecans."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the filling into the pastry shells. Bake at 350°F for 30 minutes, until the centers are firm and fully set; if checked with a thermometer, the egg mixture should reach 160°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cool completely before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "southern"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "muffin pan or small baking cups",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15016/pecan-cups/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c04cab5c7cabd5f8e8604016246d72aa7f20da4450391795990a0236d3097f5a",
+    "normalized_text_hash": "51219d83c7e397f1c316c912788a09f4a89cf5143b1856b8ec2a537970e35bde",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:04:05.707Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

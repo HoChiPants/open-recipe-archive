@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-cinnamon-peaches",
+  "name": "Air Fryer Cinnamon Peaches",
+  "subtitle": "Warm caramelized peaches served with vanilla ice cream",
+  "description": "Tender air-fried peach halves with a quick cinnamon-butter topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "firm-peach",
+      "item": "firm peach",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "halved and pitted"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "light-brown-sugar",
+      "item": "light brown sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "scoops-vanilla-ice-cream",
+      "item": "scoops vanilla ice cream",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the peach halves cut-side up in the air-fryer basket. Cook until softened and lightly browned, about 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Melt the unsalted butter in a microwave-safe bowl. Stir in the light brown sugar and ground cinnamon, then microwave briefly until the sugar begins to dissolve."
+    },
+    {
+      "step": 4,
+      "text": "Brush the peach halves with the cinnamon butter and air-fry until tender and glazed, about 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Let the peaches cool for 5 minutes, then serve with the scoops vanilla ice cream.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "peaches",
+    "cinnamon",
+    "dessert",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "air fryer",
+    "microwave-safe bowl",
+    "pastry brush"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8472779/air-fryer-grilled-peaches-with-cinnamon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "95c87d960a77580613afc8344f131b6415c1d7653775312aa0c1db840124cddb",
+    "normalized_text_hash": "4e9b89f8553529dcc7e0eeeacbc60d98376ecfa84fcf99b14ff94f4d5fa32abb",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:26:46.228Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

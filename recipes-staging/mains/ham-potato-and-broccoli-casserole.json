@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-potato-and-broccoli-casserole",
+  "name": "Ham, Potato and Broccoli Casserole",
+  "subtitle": "A creamy baked dish with crisp potato layers",
+  "description": "Frozen fries, broccoli, and cubed ham are layered with a creamy mushroom sauce and Parmesan, then baked until hot and golden.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-french-fries",
+      "item": "frozen French fries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "frozen-chopped-broccoli",
+      "item": "frozen chopped broccoli",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "cubed ham"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the frozen French fries in the bottom of a casserole dish, then layer the frozen chopped broccoli and cubed ham over them."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the condensed cream of mushroom soup, milk, and mayonnaise. Pour the mixture over the layered ingredients and sprinkle with Parmesan cheese."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the casserole is hot throughout and the top is lightly browned, about 40 minutes.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "ham",
+    "broccoli",
+    "potatoes",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "casserole dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25644/ham-potato-and-broccoli-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b2b02fddf263dec9c89681bfd90e0ae85029eda11f8efa2c0437d77e189b71c",
+    "normalized_text_hash": "630d531a11d1a510174f3ffbf23770829f2bb50066fdac8c9428c49e3661d502",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:20:40.317Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "artichoke-spread",
+  "name": "Artichoke Spread",
+  "subtitle": "Warm, creamy artichoke dip for sharing",
+  "description": "A savory baked spread combining artichokes, cream cheese, Parmesan, mayonnaise, garlic, and dill.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "artichoke-hearts",
+      "item": "artichoke hearts",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce, drained"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Process the drained artichoke hearts until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the artichokes with the cream cheese, Parmesan, mayonnaise, garlic, and dill until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until hot and lightly set.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "food processor",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22305/artichoke-spread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ea8bd77e9f56b7bc307595e485a2085e3739deda76665606933ecba8692d6e8",
+    "normalized_text_hash": "0346fff7c75564419403176b009aeec1e060e4e07abb0a315247da6a02d4687c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:25:07.824Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

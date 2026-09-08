@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-apples-and-onions",
+  "name": "Fried Apples and Onions",
+  "subtitle": "Buttery skillet apples and onions with brown sugar and cinnamon",
+  "description": "A sweet-savory apple and onion side cooked in butter until tender and lightly caramelized.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 4,
+      "preparation": "peeled, cored, and sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "cut into matchstick-sized pieces"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the apples and onion. Cook, stirring often, until they begin to soften.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Stir in the brown sugar and cinnamon. Continue cooking until the apples are tender and the onions are soft and lightly caramelized.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat, cool slightly, and serve warm."
+    }
+  ],
+  "tags": [
+    "apple",
+    "onion",
+    "skillet",
+    "sweet-savory",
+    "side-dish"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233719/almanzos-fried-apples-n-onions/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e19b1c5bb10b213018ca7c61587eac536d52bc23317060a95810eb5ee7e665b2",
+    "normalized_text_hash": "46d64fb783000b60fa14db75638a15a8c1a9f4bcebb350baf429934b2b82f949",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:44:27.223Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

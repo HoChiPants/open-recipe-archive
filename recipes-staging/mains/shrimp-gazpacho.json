@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-gazpacho",
+  "name": "Shrimp Gazpacho",
+  "subtitle": "A chilled tomato, vegetable, and shrimp soup",
+  "description": "Combine tomato and clam juice with chopped vegetables, cilantro, lemon juice, and cooked shrimp for a refreshing chilled soup.",
+  "meal_type": "main",
+  "cuisine": "Spanish",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounces-tomato-and-clam-juice-cocktail",
+      "item": "fluid ounces tomato and clam juice cocktail",
+      "quantity": 64
+    },
+    {
+      "ingredient_id": "shrimp",
+      "item": "shrimp",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "cooked, peeled and deveined"
+    },
+    {
+      "ingredient_id": "avocados",
+      "item": "avocados",
+      "quantity": 4,
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumbers",
+      "quantity": 2,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "bunch-cilantro",
+      "item": "bunch cilantro",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the tomato and clam juice, shrimp, avocados, tomatoes, cucumbers, red onion, cilantro, lemon juice, salt, and pepper. Use shrimp that is cooked and opaque."
+    },
+    {
+      "step": 2,
+      "text": "Chill the gazpacho until cold, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "spanish"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "allergens": [
+    "fish",
+    "shellfish"
+  ],
+  "equipment": [
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/142970/shrimp-gazpacho/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "74f0bb1f686aeb213b4b10b5a29246b63f84a130e1153262bc025bb0bb6a50a5",
+    "normalized_text_hash": "c11cc64a2d952a031ccda8e75bbc3bdef5e18ae2530dd3338da0e7daf6b90cd2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:17:33.110Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-dip",
+  "name": "Shrimp Dip",
+  "subtitle": "A creamy chilled dip with shrimp and crisp vegetables",
+  "description": "Combine a smooth cream cheese base with shrimp, onion, and celery, then chill before serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "and-peeled-shrimp",
+      "item": "and peeled shrimp",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "cooked"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the softened cream cheese and mayonnaise together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the chopped onion, celery, and cooked shrimp until evenly distributed."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "shellfish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14818/best-ever-shrimp-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3627fadc8a626b3b34befd5f55c1efcef089a6c6758592576fb100ab167cb11",
+    "normalized_text_hash": "194c9bf6c706791ea422461b603e38dbf7d4b17e59777810c937d3c8dcf81b99",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:34:23.942Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

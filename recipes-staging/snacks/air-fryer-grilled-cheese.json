@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-grilled-cheese",
+  "name": "Air Fryer Grilled Cheese",
+  "subtitle": "Crisp buttered bread with melted sharp Cheddar",
+  "description": "A simple single-serving grilled cheese made quickly in the air fryer.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "slices-sharp-cheddar-cheese",
+      "item": "slices sharp Cheddar cheese",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 380°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the butter over one side of each slice of bread. Place the cheese between the unbuttered sides to form a sandwich."
+    },
+    {
+      "step": 3,
+      "text": "Air-fry the sandwich until the bread is golden brown and the cheese has melted, turning once during cooking.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "grilled-cheese",
+    "cheese-sandwich",
+    "quick-snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8381341/air-fryer-grilled-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1d2913ff6d05ee50db658991e332294dc88bb1e5b13054decd0991f5bb839bd8",
+    "normalized_text_hash": "eb7bf7249ef027bad1ea543ffa3a92f915403ecf27e9c7e38c833b2921889da1",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:26:33.217Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

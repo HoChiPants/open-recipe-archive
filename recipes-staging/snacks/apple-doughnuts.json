@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-doughnuts",
+  "name": "Apple Doughnuts",
+  "subtitle": "Crisp apple rings with honeyed soft cheese",
+  "description": "Turn crunchy apple slices into a simple no-cook snack with a creamy honey topping, optional nut butter, and colorful sprinkles.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soft-cheese",
+      "item": "soft cheese",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "apples-use-a-crunchy-eating-variety",
+      "item": "apples (use a crunchy eating variety)",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "almond-or-peanut-butter-optional",
+      "item": "almond or peanut butter (optional)",
+      "quantity": "3-4",
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "coloured-sprinkles-to-decorate",
+      "item": "coloured sprinkles to decorate"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the soft cheese and honey together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Cut the apples into thick rounds, then remove the cores to make rings."
+    },
+    {
+      "step": 3,
+      "text": "Spread the honeyed cheese over the apple rings. Add small spoonfuls of the optional almond or peanut butter."
+    },
+    {
+      "step": 4,
+      "text": "Finish with colored sprinkles and serve immediately."
+    }
+  ],
+  "tags": [
+    "snack",
+    "apples",
+    "no-cook",
+    "kid-friendly",
+    "fruit"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "peanuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-doughnuts",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "11946281a2f2e62c3d7cb1f3fac72fcfce550ecb73d8757272091e0daa53be68",
+    "normalized_text_hash": "7cf009927e320df421402dcd46b4f793ec704b1c0c24b52e78829651e7d98ddb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:38:19.484Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fig-and-onion-spread",
+  "name": "Fig and Onion Spread",
+  "subtitle": "A sweet-tangy spread for snacks and appetizers",
+  "description": "Slow-cooked onion and fresh figs combine with balsamic vinegar and sugar for a rich, spoonable spread.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-black-mission-figs",
+      "item": "fresh Black Mission figs",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "aged-balsamic-vinegar",
+      "item": "aged balsamic vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the chopped onion and cook for 25 minutes, stirring occasionally, until softened.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chopped figs and cook for 15 minutes, stirring occasionally.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a saucepan with the balsamic vinegar and cook for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Stir in the sugar, adjusting to taste, and serve warm or cooled."
+    }
+  ],
+  "tags": [
+    "snack",
+    "spread",
+    "condiment",
+    "appetizer",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large skillet",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234218/fig-and-onion-spread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f7c88d07c3ed44f7bcabd2fd605384f65ce4db285c74b0528989f45c14d5147f",
+    "normalized_text_hash": "f6e81a2795e21177b5d8630ce1a5ae9b09b278d3ba07e3b0e44c6372ca0c3c15",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:10:34.768Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cola-and-grenadine-drink",
+  "name": "Cola and Grenadine Drink",
+  "subtitle": "A chilled cola drink with a cherry finish",
+  "description": "Build this simple nonalcoholic drink over ice, sweeten it with grenadine, and finish with a maraschino cherry.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "grenadine-syrup",
+      "item": "grenadine syrup",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "or-bottle-cola-flavored-carbonated-beverage",
+      "item": "or bottle cola-flavored carbonated beverage",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "maraschino-cherry",
+      "item": "maraschino cherry",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Add the grenadine, then pour in the cola-flavored carbonated beverage."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the maraschino cherry and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "nonalcoholic",
+    "cola",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/180798/roy-rogers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64d4ab7dd031f06d52dc66fe93d3007ae6b91f16a21f3eda9b5fd539a63f0142",
+    "normalized_text_hash": "6796dbc2ae8c90d6e99128ea49c34981daa6e3894a59a230eadab5d2cb2c092b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:32:27.375Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

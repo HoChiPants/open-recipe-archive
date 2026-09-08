@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-ribbon-pie",
+  "name": "Chocolate Ribbon Pie",
+  "subtitle": "A chilled pie with creamy cheesecake and chocolate pudding layers",
+  "description": "A simple no-bake dessert combining sweetened cream cheese, whipped topping, and chocolate pudding in a chocolate crumb crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "instant-chocolate-pudding-mix",
+      "item": "instant chocolate pudding mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3.9 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "9-inch-prepared-chocolate-cookie-crumb-crust",
+      "item": "(9 inch) prepared chocolate cookie crumb crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Beat the softened cream cheese, sugar, and 1 tablespoon milk until smooth, about 2 minutes. Fold in half of the whipped topping.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Spread the cream cheese mixture evenly in the prepared chocolate cookie crumb crust."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the pudding mix and 2 cups milk until thick, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Spread the pudding over the cream cheese layer, then cover with the remaining whipped topping."
+    },
+    {
+      "step": 5,
+      "text": "Refrigerate until set, about 4 hours.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "whisk",
+    "9-inch pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24119/chocolate-ribbon-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "136c627e3015d828c0bd1226a3632f3ecd1acfcd270cbed8120b8e1c818c991e",
+    "normalized_text_hash": "67045f34037130151da3b8ecddd4846080bc4d23b7adedf2d4b1fe53f608d0e0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:37:56.764Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

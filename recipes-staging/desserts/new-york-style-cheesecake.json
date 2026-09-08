@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "new-york-style-cheesecake",
+  "name": "New York-Style Cheesecake",
+  "subtitle": "Creamy cheesecake with a buttery graham cracker crust",
+  "description": "A rich baked cheesecake with a smooth sour cream filling and crisp crumb crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 225,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-cracker-crumbs",
+      "item": "graham cracker crumbs",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the graham cracker crumbs, melted butter, and part of the white sugar until evenly moistened. Press the mixture over the bottom of a cheesecake pan, then bake for 10 minutes. Set aside.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Beat the cream cheese, remaining white sugar, and sour cream until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs, cornstarch, and vanilla extract together, then add them to the cream cheese mixture and blend until combined."
+    },
+    {
+      "step": 5,
+      "text": "Pour the filling over the crust and smooth the surface."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Turn off the oven and leave the cheesecake inside for 180 minutes.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 8,
+      "text": "Cool, then slice and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "cheesecake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "cheesecake pan",
+    "mixing bowls",
+    "electric mixer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7533/new-york-cheesecake-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "533dd52a269c085ed012e2b04520505e952bf530cf2a224842aa25e758713e3a",
+    "normalized_text_hash": "849d10acceecf105454af39da8611de64b460067ca06fb2355771149fecf6c9d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:39:41.379Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

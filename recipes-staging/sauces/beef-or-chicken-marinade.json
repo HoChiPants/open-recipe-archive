@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-or-chicken-marinade",
+  "name": "Beef or Chicken Marinade",
+  "subtitle": "A savory-sweet marinade with ginger and green onion",
+  "description": "Whisk together this balanced soy, honey, vinegar, and spice marinade for beef or chicken, then chill it before use.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "coarsely-ground-black-pepper",
+      "item": "coarsely ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, honey, vinegar, garlic powder, ginger, oil, green onions, and black pepper in a bowl until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the marinade to a covered container."
+    },
+    {
+      "step": 3,
+      "text": "Refrigerate for 4 hours before using it to marinate beef or chicken.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "condiment",
+    "sauce",
+    "american",
+    "marinade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "covered container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20759/beef-or-chicken-marinade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "340e20749c122853829d4f49d6bdb86b89288719c8e0a7cb1f0fa3098c8f22b5",
+    "normalized_text_hash": "1ff8706706a9a7b20cfeab5a0c93f459626aa59138c31f420df021f05ed883de",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:19:31.525Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

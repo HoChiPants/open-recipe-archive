@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stewed-tomatoes",
+  "name": "Stewed Tomatoes",
+  "subtitle": "A sweet, savory baked tomato side",
+  "description": "Whole tomatoes are combined with torn stale bread, sugar, butter, and seasonings, then baked until tender.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-peeled-tomatoes",
+      "item": "whole peeled tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "28 ounce, with liquid"
+    },
+    {
+      "ingredient_id": "slices-stale-bread",
+      "item": "slices stale bread",
+      "quantity": 3,
+      "preparation": "torn into pieces"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the tomatoes with their liquid, bread, sugar, melted butter, salt, and pepper. Stir until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, until tender.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "baked",
+    "tomatoes",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/198232/stewed-tomatoes-gobbledygook/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "495db097d15a8350d036c59f6d3ba446a5e51a81d3be896ce226a4d6970e2377",
+    "normalized_text_hash": "4321eb0b6aedaaab019bc1e6cb6d7d23692b201b60cf9b65567810781e4b36a5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:53:05.912Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

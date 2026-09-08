@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "red-potato-salad",
+  "name": "Red Potato Salad",
+  "subtitle": "A creamy salad with tender potatoes, eggs, celery, and green onions.",
+  "description": "Boiled red potatoes and eggs are folded with crisp vegetables and a tangy mayonnaise dressing, then chilled before serving.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "unpeeled-red-potatoes",
+      "item": "unpeeled red potatoes",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the unpeeled red potatoes in a pot, cover with water, and add the salt. Bring to a simmer and cook for about 20 minutes, until tender when pierced.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes, let them cool enough to handle, and cut them into bite-size pieces."
+    },
+    {
+      "step": 3,
+      "text": "Place the eggs in a saucepan, cover with water, and bring to a boil. Cook for 12 minutes, then cool, peel, and chop them.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Whisk the mayonnaise, sliced green onions, milk, distilled white vinegar, salt, and ground black pepper until combined."
+    },
+    {
+      "step": 5,
+      "text": "Combine the potatoes, eggs, and sliced celery in a large bowl. Add the dressing and fold gently until evenly coated."
+    },
+    {
+      "step": 6,
+      "text": "Cover and chill for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "potato-salad",
+    "make-ahead",
+    "picnic",
+    "lunch"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27070/new-red-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fe0a3738c63c657b9e2a625cf3aa75a5f96c150d250a2a16dd88e890f755d462",
+    "normalized_text_hash": "6d36f7240314f3ef717b19235ba8611ae8a92cc63f7bcdf64b333890585fbd09",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:12:05.521Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

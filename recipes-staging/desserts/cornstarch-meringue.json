@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cornstarch-meringue",
+  "name": "Cornstarch Meringue",
+  "subtitle": "Light baked meringue with a tender center",
+  "description": "A simple French-style meringue stabilized with a cooked cornstarch mixture, whipped egg whites, and sugar, then briefly baked.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the cornstarch with the cold water until smooth. Stir in the boiling water, then cook and stir until the mixture reaches a boil. Cool completely."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites until foamy. Gradually add the white sugar and continue whisking until the meringue is thick and holds its shape."
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the cooled cornstarch mixture, vanilla extract, and salt until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the meringue to a baking dish or lined pan and shape as desired."
+    },
+    {
+      "step": 5,
+      "text": "Bake at 350°F for 10 minutes, then confirm the center is firm and fully set and reaches 160°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Cool for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "french",
+    "meringue",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "saucepan",
+    "baking dish or lined baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12321/never-ever-fail-meringue/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3dc794018006a5b3c3c9a5218942f7d4a3d8cc806e8256e5c8f80f3dbb2e273a",
+    "normalized_text_hash": "3a5084f8055e4e769e4a567d3bd587a1f74d1faa1457e7af8c65c4673dec50ec",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:10:18.337Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

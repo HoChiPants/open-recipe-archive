@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "amaro-spritz",
+  "name": "Amaro Spritz",
+  "subtitle": "A bitter, bubbly aperitif with citrus aroma",
+  "description": "Build this sparkling aperitif over ice and finish with an orange peel twist.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 4,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "handful-of-ice",
+      "item": "handful of ice"
+    },
+    {
+      "ingredient_id": "campari",
+      "item": "Campari",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "dry-prosecco",
+      "item": "dry prosecco",
+      "quantity": 90,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sparkling-water",
+      "item": "sparkling water",
+      "quantity": 15,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "orange-peel-twist",
+      "item": "orange peel twist",
+      "preparation": "to garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the Campari and dry prosecco, then add the sparkling water."
+    },
+    {
+      "step": 3,
+      "text": "Stir gently and garnish with the orange peel twist."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "aperitif",
+    "spritz",
+    "sparkling-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/campari-spritz",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "58c488f9d323ca0c31d6429f966939f87e0a49e3a03823d16484c2be25b1ba3f",
+    "normalized_text_hash": "80d929d1af6b9adb68cd7faecbba55f3bbbdfc932586e634b2773d7049abde92",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:07:08.757Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

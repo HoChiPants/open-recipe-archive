@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-walnut-salad",
+  "name": "Blueberry Walnut Salad",
+  "subtitle": "A fresh salad with berries, walnuts, feta, and raspberry vinaigrette.",
+  "description": "Toss crisp greens with sweet blueberries, crunchy walnuts, and raspberry vinaigrette, then finish with crumbled feta.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mixed-salad-greens",
+      "item": "mixed salad greens",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "fresh-blueberries",
+      "item": "fresh blueberries",
+      "quantity": 1,
+      "unit": "pint"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "raspberry-vinaigrette-salad-dressing",
+      "item": "raspberry vinaigrette salad dressing",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the mixed salad greens, blueberries, walnuts, and raspberry vinaigrette to a large salad bowl. Toss gently until evenly coated."
+    },
+    {
+      "step": 2,
+      "text": "Scatter the crumbled feta cheese over the salad and serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "lunch",
+    "quick",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "large salad bowl",
+    "salad tongs"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72721/blueberry-walnut-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d775eb9d02eeb5eef16498a44f54fb6b154a81deb02455b96112f9d2446e273e",
+    "normalized_text_hash": "1a2a040d31eeb53aff3efb0bf598867f9bfc66e32bdeb6da66fbee00276f2621",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:59:51.363Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

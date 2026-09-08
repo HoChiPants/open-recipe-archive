@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raisin-butter-tarts",
+  "name": "Raisin Butter Tarts",
+  "subtitle": "Sweet raisin-filled pastry shells",
+  "description": "Small baked tarts with a buttery brown-sugar filling, vanilla, lemon, and raisins.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon-extract",
+      "item": "lemon extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "3-inch-unbaked-tart-shells",
+      "item": "(3 inch) unbaked tart shells",
+      "quantity": 8
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Whisk the egg with the brown sugar and salt until blended."
+    },
+    {
+      "step": 2,
+      "text": "Mix in the vanilla extract, lemon extract, and melted butter. Fold in the raisins."
+    },
+    {
+      "step": 3,
+      "text": "Divide the filling among the unbaked tart shells and arrange them on a baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 400°F for 10 minutes, then reduce the oven to 350°F without removing the tarts.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Continue baking for 25 minutes, until the centers are firm and reach 160°F on a food thermometer.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "tarts"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23770/butter-tarts-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d6ad645fcd125c6e9a16c5e93695da2c9d7279b05d2562d94599dc549a16f93b",
+    "normalized_text_hash": "d3ea2ab920622382918f031d0d615873e1300efc715840263ceb0dcc332fd17a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:25:10.769Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

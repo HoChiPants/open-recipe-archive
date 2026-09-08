@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-vegetables",
+  "name": "Roasted Vegetables",
+  "subtitle": "Colorful vegetables roasted until tender and browned",
+  "description": "A simple mixed vegetable side with caramelized edges and savory seasoning.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brussels-sprouts",
+      "item": "Brussels sprouts",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "large-yukon-gold-potato-chunks",
+      "item": "large Yukon Gold potato chunks",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "large-rainbow-carrot-chunks",
+      "item": "large rainbow carrot chunks",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cauliflower-florets",
+      "item": "cauliflower florets",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-beets",
+      "item": "red beets",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "shallot-chunks",
+      "item": "shallot chunks",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Season the Brussels sprouts with salt and pepper, then transfer them to a roasting pan. Roast for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Drain any excess moisture from the pan."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the potatoes, carrots, cauliflower, beets, shallots, olive oil, and additional salt and pepper. Spread the vegetables in an even layer."
+    },
+    {
+      "step": 5,
+      "text": "Roast until all the vegetables are cooked through and browned, about 45 minutes.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "roasted-vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235479/perfectly-roasted-vegetable/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "493f25978ec7417c7b8975f2a4394b14de15551812c8bed47ae4ae5e41b73fac",
+    "normalized_text_hash": "28420c24f84238038ab3ee46dd38546e4ea87eb2bf488c6970f88629d2babea6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:10:46.595Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

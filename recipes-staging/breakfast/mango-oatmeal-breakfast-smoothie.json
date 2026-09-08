@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-oatmeal-breakfast-smoothie",
+  "name": "Mango Oatmeal Breakfast Smoothie",
+  "subtitle": "A creamy fruit-and-oat smoothie for one",
+  "description": "Blend mango, banana, yogurt, oats, and orange juice into a smooth, filling breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-mango-chunks",
+      "item": "frozen mango chunks",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 0.5,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "oats",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the orange juice, frozen mango, banana chunks, yogurt, and oats to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241023/mango-oatmeal-breakfast-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bf3fcfc2025b1bdba22f0e521e2f6f4510e376a0715f932df93b41de91750e5b",
+    "normalized_text_hash": "77531eec359a195a9a1cad802c5fda59e47cac8189d2cb8c0d95436b13ca60fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:16:25.660Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

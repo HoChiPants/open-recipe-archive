@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butter-roasted-cauliflower",
+  "name": "Butter-Roasted Cauliflower",
+  "subtitle": "Tender florets with golden, buttery edges",
+  "description": "Large cauliflower florets are coated with melted butter and seasoning, then roasted until tender and lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "preparation": "cut into large florets"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted, or more to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the cauliflower florets in a baking dish or on a rimmed baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Drizzle with the melted butter and season with salt and ground black pepper. Toss to coat."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 30 minutes, then continue roasting until the cauliflower is tender, about 10 minutes more.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "roasted-vegetables",
+    "cauliflower",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "rimmed baking sheet or baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239869/butter-roasted-cauliflower/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc2eb32ca769942aafbce0b3168ff07d51861edf6a4784ec446345a40db0b095",
+    "normalized_text_hash": "f883f7bb37ee018873639d963326efce08c6893bab0289acce8cbf20d190dd5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:31:18.315Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sour-cream-scalloped-potatoes",
+  "name": "Sour Cream Scalloped Potatoes",
+  "subtitle": "Tender potatoes baked with creamy soup, sour cream, and cheddar",
+  "description": "Boiled potatoes are combined with a rich sour-cream sauce, topped with cheddar, and baked until tender and heated through.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 12,
+      "unit": "large",
+      "preparation": "peeled and halved"
+    },
+    {
+      "ingredient_id": "cream-of-chicken-soup",
+      "item": "cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the potatoes in a saucepan, season with salt and pepper, cover with water, and simmer for 15 minutes, or until tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes, let them cool briefly, then cut them into bite-size pieces."
+    },
+    {
+      "step": 4,
+      "text": "Whisk together the soup, sour cream, and half of the shredded cheddar. Season with salt and pepper, then fold in the potatoes."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and sprinkle the remaining cheddar over the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until bubbling and heated through; the center should reach 165°F.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "potato",
+    "casserole",
+    "comfort-food",
+    "holiday-side"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "colander",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230229/easy-sour-cream-scalloped-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa5c43a9c64836096796a210e8646ca4348b4c52c296d068ffb1ce27e8fdec5e",
+    "normalized_text_hash": "fb250591abe7e162b3dbcb095d2425258d76f9977076fb32758ef476746b8d49",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:47:24.228Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

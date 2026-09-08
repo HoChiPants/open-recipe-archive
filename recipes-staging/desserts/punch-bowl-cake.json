@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "punch-bowl-cake",
+  "name": "Punch Bowl Cake",
+  "subtitle": "A chilled, layered cake dessert with fruit, pudding, coconut, and whipped topping.",
+  "description": "Bake a yellow cake, then layer it with vanilla pudding, fruit, coconut, whipped topping, and walnuts in a punch bowl. Chill before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "5 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "20 ounce, crushed, drained"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 6,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "frozen-whipped-topping",
+      "item": "frozen whipped topping",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare and bake the yellow cake mix according to the package directions, then cool completely and cut into pieces.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Whisk the pudding mixes with the milk until smooth and thickened."
+    },
+    {
+      "step": 3,
+      "text": "Place a layer of cake pieces in a punch bowl. Add layers of pudding, bananas, cherry pie filling, pineapple, and coconut; repeat as needed."
+    },
+    {
+      "step": 4,
+      "text": "Spread the whipped topping over the assembled dessert and sprinkle with walnuts."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate until thoroughly chilled before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "layered-dessert",
+    "fruit-dessert",
+    "chilled-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "punch bowl",
+    "mixing bowl",
+    "whisk",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8297/punch-bowl-cake-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "730980627a8240898125737c42f3693bcb5179b7e140ecd4984a1c4dd25c0eb7",
+    "normalized_text_hash": "af2a4bd156462dcaf6c124b290721d18c5651149a45e593872d690b109d83561",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:37:49.062Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-chicken-with-salsa-and-cheddar",
+  "name": "Mexican Chicken with Salsa and Cheddar",
+  "subtitle": "Oven-baked chicken finished with salsa and melted cheese",
+  "description": "Seasoned chicken breasts bake under a savory salsa topping and shredded Cheddar for a simple weeknight main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salsa",
+      "item": "salsa",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly coat a baking dish with cooking spray and preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the minced garlic, salt, black pepper, and cumin. Rub the mixture over the chicken breasts."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken in the prepared dish and bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Spoon the salsa over the chicken and cover with the shredded Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Continue baking until the cheese is melted and the chicken reaches 165°F in the thickest part, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "baked-chicken",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8597/quick-and-easy-mexican-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "65a85f4388b9b58c8e57db10bbb14159e32743fc01ec023fedde0f49d7cdace8",
+    "normalized_text_hash": "cb4d690bd12a1100c4c24b0460b8564b042147a926eb19895c24e0871c44ef0e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:41:09.300Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

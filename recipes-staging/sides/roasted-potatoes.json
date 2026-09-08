@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-potatoes",
+  "name": "Roasted Potatoes",
+  "subtitle": "Crisp-edged potatoes with rosemary and garlic",
+  "description": "Parboil halved potatoes with aromatics, then roast them with olive oil and cayenne until golden and crisp.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "new-yellow-potatoes",
+      "item": "new yellow potatoes",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-rosemary",
+      "item": "sprigs fresh rosemary",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "whole, peeled, bruised"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a pot with the rosemary, salt, garlic, and bay leaves. Add enough water to cover, bring to a simmer, and cook until the potatoes are just tender."
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 375°F and prepare a baking sheet.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes, remove the rosemary and bay leaves, and return the potatoes to the pot. Toss with the olive oil, cayenne pepper, and kosher salt, stirring gently to roughen the surfaces."
+    },
+    {
+      "step": 4,
+      "text": "Spread the potatoes on the baking sheet and roast until golden brown.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "roasted-vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255019/special-roasted-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "82b51a2d97e40ec9d4c851b381ddf862ad62bef59733a387f94c572535907eb7",
+    "normalized_text_hash": "31398221cd2fbee8e420e212baa28d3106a18115cc5503f5fd5a85a041c6773e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:22:51.304Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

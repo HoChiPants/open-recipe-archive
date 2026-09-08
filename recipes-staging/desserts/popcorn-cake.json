@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "popcorn-cake",
+  "name": "Popcorn Cake",
+  "subtitle": "A crunchy, marshmallow-bound popcorn treat",
+  "description": "Popcorn, peanuts, and candy-coated chocolate pieces are folded into a buttery marshmallow mixture, molded, and chilled until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "popped-popcorn",
+      "item": "popped popcorn",
+      "quantity": 4,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "candy-coated-chocolate-pieces",
+      "item": "candy-coated chocolate pieces",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "peanuts",
+      "item": "peanuts",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.33333298563957,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "marshmallows",
+      "item": "marshmallows",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "nonstick-cooking-spray",
+      "item": "nonstick cooking spray"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the popped popcorn, peanuts, and candy-coated chocolate pieces in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter and marshmallows together in a saucepan over low heat, stirring until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Pour the melted marshmallow mixture over the popcorn mixture and fold until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Coat a cake pan with nonstick cooking spray and vegetable oil, then transfer the mixture to the pan and press it into an even layer."
+    },
+    {
+      "step": 5,
+      "text": "Chill until firm, about 60 minutes, then cut into servings.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "popcorn",
+    "no-bake",
+    "marshmallow",
+    "party-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "saucepan",
+    "cake pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9375/popcorn-cake-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ea3685a796e7c6fc1f1b90e4a1a5619047d158c29f9a363990e688ca7253e5e8",
+    "normalized_text_hash": "ebc987548b0292d642ee4952f61417d972dba6c806870e580d0bc41dd9216c46",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:28:02.226Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

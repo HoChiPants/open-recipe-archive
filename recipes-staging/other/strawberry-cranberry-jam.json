@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-cranberry-jam",
+  "name": "Strawberry-Cranberry Jam",
+  "subtitle": "A bright, tart fruit spread for toast and pastries",
+  "description": "Strawberries and cranberries cook with pectin and sugar into a vivid, sweet-tart jam.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 96,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 2.5,
+      "unit": "quarts",
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "fresh-or-frozen-cranberries",
+      "item": "fresh or frozen cranberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, coarsely chopped"
+    },
+    {
+      "ingredient_id": "powdered-fruit-pectin",
+      "item": "powdered fruit pectin",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "2 ounce"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 5,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Coarsely chop the strawberries and cranberries."
+    },
+    {
+      "step": 2,
+      "text": "Combine the fruit, pectin, and margarine in a large pot. Bring the mixture to a full boil, stirring frequently, and boil for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sugar until dissolved. Return the mixture to a full boil and cook for 1 minute, stirring constantly.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat, skim off any foam, and portion the hot jam into clean heat-safe containers. Let cool before serving."
+    }
+  ],
+  "tags": [
+    "jam",
+    "fruit-spread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "wooden spoon",
+    "clean heat-safe containers"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/50823/sparkling-holiday-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d96774829e137a07bc3c27c86a96e8076fe92c5be5a810a2e461255499ea98b4",
+    "normalized_text_hash": "a4240677c4eaec1be6cd0930a00568b213df7be4ffb89365dd850760d34c7f89",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:22:16.134Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

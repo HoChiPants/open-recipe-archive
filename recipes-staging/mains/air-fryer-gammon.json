@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-gammon",
+  "name": "Air-Fryer Gammon",
+  "subtitle": "Glazed gammon with simple serving options",
+  "description": "Cook a small gammon joint in the air fryer, coat it with a sweet mustard glaze, then rest and slice for serving.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "unsmoked-gammon-joint-around-750g",
+      "item": "unsmoked gammon joint (around 750g)",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "honey-or-maple-syrup",
+      "item": "honey or maple syrup",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "bread",
+      "item": "bread",
+      "preparation": "sliced, butter and pineapple salsa (optional, see right), to serve",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Let the gammon joint stand at room temperature for 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Stir the Dijon mustard and honey or maple syrup together."
+    },
+    {
+      "step": 3,
+      "text": "Coat the gammon evenly with the glaze."
+    },
+    {
+      "step": 4,
+      "text": "Preheat the air fryer according to its settings."
+    },
+    {
+      "step": 5,
+      "text": "Cook the gammon in the air fryer for 60 minutes, until cooked through and a thermometer inserted in the center reads at least 145°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Rest the cooked joint for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Slice the gammon and serve with the sliced bread, butter, and optional pineapple salsa."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer",
+    "gammon",
+    "ham",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "sesame",
+    "milk"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl",
+    "food thermometer",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-gammon",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "007d26b3f319be3b9e1c7c0c45d2d6035e8ad65ad417218a4b3fd868e36c281e",
+    "normalized_text_hash": "55fce94788b8cf34efd187a65c3cfcdd92fea3bdb119d61fa23042e334cff3c7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:25:45.027Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

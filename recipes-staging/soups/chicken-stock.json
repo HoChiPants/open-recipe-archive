@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-stock",
+  "name": "Chicken Stock",
+  "subtitle": "A clear, savory base for soups, sauces, and grains",
+  "description": "Simmer chicken with vegetables, herbs, and spices, then strain the concentrated broth for later cooking.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 1,
+    "unit": "litre"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-carcasses-or-wings",
+      "item": "chicken carcasses or wings",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "carrot-cut-into-chunks",
+      "item": "carrot cut into chunks",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "onion-skin-on",
+      "item": "onion skin on",
+      "quantity": 1,
+      "preparation": "cut into quarters"
+    },
+    {
+      "ingredient_id": "leek-cut-into-chunks",
+      "item": "leek cut into chunks",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "of-celery-cut-into-chunks",
+      "item": "of celery cut into chunks",
+      "quantity": 1,
+      "unit": "stick"
+    },
+    {
+      "ingredient_id": "garlic-clove-bashed",
+      "item": "garlic clove bashed",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bouquet-garni-of-2-parsley-stalks",
+      "item": "bouquet garni of 2 parsley stalks",
+      "preparation": "2 sprigs of thyme and 1 bay leaf, tied with string"
+    },
+    {
+      "ingredient_id": "peppercorns",
+      "item": "peppercorns",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "1-clove",
+      "item": "1 clove",
+      "quantity": 1,
+      "unit": "clove"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken, carrot, onion, leek, celery, garlic, bouquet garni, peppercorns, and clove in a large pot. Cover with cold water."
+    },
+    {
+      "step": 2,
+      "text": "Bring just to a boil, skim any foam from the surface, then reduce the heat and simmer gently for 3 hours. Ensure the poultry reaches at least 165°F.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 3,
+      "text": "Strain the stock through a fine sieve, discarding the solids."
+    },
+    {
+      "step": 4,
+      "text": "Cool promptly, then refrigerate or use as needed."
+    }
+  ],
+  "tags": [
+    "chicken-stock",
+    "homemade-stock",
+    "soup-base",
+    "broth",
+    "easy",
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "fine-mesh sieve",
+    "string"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-stock",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "28c8316d9ff6cd3782f0a1b6e86b81efe841dde25e9e75d62e78a814b8a916e2",
+    "normalized_text_hash": "14aa3d67a3d80b1aeaa1f6ce464434accd541c323cb60dec21f86916ab59b10a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:52:10.914Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

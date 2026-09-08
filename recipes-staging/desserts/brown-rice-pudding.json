@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-rice-pudding",
+  "name": "Brown Rice Pudding",
+  "subtitle": "Creamy rice pudding with raisins",
+  "description": "A warm, lightly sweet pudding made with brown rice, milk, raisins, and vanilla.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "uncooked-brown-rice",
+      "item": "uncooked brown rice",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "low-fat-milk",
+      "item": "low-fat milk",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and brown rice in a covered saucepan. Bring to a boil, then cook until the rice is tender.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Stir in the divided milk, sugar, and salt. Continue cooking until the mixture thickens.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk some of the hot pudding into the beaten egg, then return the mixture to the saucepan. Stir in the raisins and remaining milk."
+    },
+    {
+      "step": 4,
+      "text": "Cook gently, stirring constantly, until the pudding reaches 160°F and remains thick.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and stir in the butter and vanilla extract. Serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "rice-pudding",
+    "brown-rice",
+    "raisin"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "covered saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219442/healthier-creamy-rice-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00274bedd24b29914f14cc2e908d43d083ed1e75e282661770908ba8a884a6bc",
+    "normalized_text_hash": "4ac7fe399ff5d34afe8150bf777742e972373c0b71cf33446ec8ddd57d772c81",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:26:51.258Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

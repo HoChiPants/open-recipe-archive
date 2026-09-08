@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-chicken-nachos",
+  "name": "Baked Chicken Nachos",
+  "subtitle": "Layered tortilla chips with beans, chicken, cheese, and fresh toppings",
+  "description": "Crisp tortilla chips are layered with seasoned-style refried beans, tender chicken, pepper Jack, and green onions, then baked until the cheese melts and finished with sour cream.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-skinless",
+      "item": "(8 ounce) skinless",
+      "quantity": 1,
+      "preparation": "boneless chicken breast half"
+    },
+    {
+      "ingredient_id": "refried-beans",
+      "item": "refried beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.25 ounce"
+    },
+    {
+      "ingredient_id": "corn-tortilla-chips",
+      "item": "corn tortilla chips",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "grated-pepper-jack-cheese",
+      "item": "grated pepper Jack cheese",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the chicken until the thickest part reaches 165°F, about 10 minutes. Let it cool briefly, then shred or chop it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir the refried beans until smooth, then combine them with the chicken."
+    },
+    {
+      "step": 4,
+      "text": "Arrange half of the tortilla chips in a baking dish. Add half of the bean mixture, cheese, and green onions, then repeat the layers."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cheese is fully melted and the layers are hot, about 18 minutes.",
+      "timer_minutes": 18
+    },
+    {
+      "step": 6,
+      "text": "Let the nachos stand briefly and serve with sour cream."
+    }
+  ],
+  "tags": [
+    "nachos",
+    "baked-appetizer",
+    "tex-mex",
+    "chicken",
+    "shareable"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143048/stevens-baked-nachos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5fa73217a3792953afc699cf2b259023ef29500e553db81d90a100147dd59c03",
+    "normalized_text_hash": "1e86e29c6a3407f1bb6a902f52fb6d837fd85ee236f44ba402e6b91968165aa9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:52:39.620Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

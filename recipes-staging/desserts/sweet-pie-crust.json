@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-pie-crust",
+  "name": "Sweet Pie Crust",
+  "subtitle": "A buttery, lightly sweetened pastry shell",
+  "description": "Use this chilled-butter dough for sweet pies and tarts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chilled"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ice-water",
+      "item": "ice water",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the flour and sugar in a mixing bowl."
+    },
+    {
+      "step": 2,
+      "text": "Cut the chilled butter into the flour mixture until the mixture forms coarse crumbs."
+    },
+    {
+      "step": 3,
+      "text": "Add the ice water and mix just until the dough begins to hold together."
+    },
+    {
+      "step": 4,
+      "text": "Knead the dough briefly until cohesive, taking care not to overwork it."
+    },
+    {
+      "step": 5,
+      "text": "Chill the dough before rolling and using it for a pie crust.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "pie",
+    "pastry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "pastry cutter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12171/moms-pie-crust/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6e82aab0f0474900db069fddfe985689966f7bdd492b3648816c88d125623d06",
+    "normalized_text_hash": "1c4a47a054c5aa2bdb43ba734257e96b5406d14b174ed93f0489d0ec45791ee6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:53:10.530Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

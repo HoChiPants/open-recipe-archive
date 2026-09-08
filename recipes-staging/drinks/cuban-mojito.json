@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cuban-mojito",
+  "name": "Cuban Mojito",
+  "subtitle": "A minty lime rum cooler for two",
+  "description": "Muddle lime, mint, and sugar, then combine with rum, crushed ice, and club soda for a bright, refreshing cocktail.",
+  "meal_type": "drink",
+  "cuisine": "Cuban",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "cut into 4 wedges"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-mint",
+      "item": "sprigs fresh mint",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "crushed, or as needed"
+    },
+    {
+      "ingredient_id": "white-rum",
+      "item": "white rum",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "club-soda",
+      "item": "club soda",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Divide the sugar, lime wedges, and mint between two glasses. Gently muddle to release the lime juice and mint aroma."
+    },
+    {
+      "step": 2,
+      "text": "Fill the glasses with crushed ice, then divide the rum between them."
+    },
+    {
+      "step": 3,
+      "text": "Top with club soda and stir each drink to combine. Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "rum",
+    "mint",
+    "lime"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "equipment": [
+    "two serving glasses",
+    "muddler",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/152219/cuban-mojito/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a3693718285f2e1b8a6c5a5cc2a00cefe4fea198ee80f7253e4be40653057ae8",
+    "normalized_text_hash": "c123d5cc8e00bcdc3a38a4ace0f5018a6e69e52e8807fbc474d33a92bddf5885",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:53:42.170Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

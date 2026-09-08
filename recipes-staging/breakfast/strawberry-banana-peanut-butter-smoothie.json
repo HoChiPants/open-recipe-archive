@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-banana-peanut-butter-smoothie",
+  "name": "Strawberry Banana Peanut Butter Smoothie",
+  "subtitle": "A creamy fruit smoothie with nutty richness",
+  "description": "Blend yogurt, banana, strawberries, peanut butter, and ice into a smooth, refreshing breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "nonfat-plain-yogurt",
+      "item": "nonfat plain yogurt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 4,
+      "preparation": "hulled"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 10
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the yogurt, banana, hulled strawberries, and peanut butter to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Add the ice and blend until completely smooth."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink",
+    "fruit"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/150121/strawberry-banana-peanut-butter-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ce23b36a8ac941c6511473a6e0775f965eeeb114f0ab8ebf48b4158fd143eb0",
+    "normalized_text_hash": "991c3dcd567c08c26e0df9173591ac37bb3d9951e06dbd8b87747076297834e9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:57:19.407Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

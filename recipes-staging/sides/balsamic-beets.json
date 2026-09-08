@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "balsamic-beets",
+  "name": "Balsamic Beets",
+  "subtitle": "Tender shredded beets with tangy balsamic flavor",
+  "description": "Shredded beets are gently cooked in butter and water, then finished with balsamic vinegar and simple seasoning.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bunch-beets",
+      "item": "bunch beets",
+      "quantity": 1,
+      "preparation": "trimmed and peeled"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Shred the trimmed, peeled beets."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan over medium heat. Add the beets and stir for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour in the water, cover if needed, and simmer the beets until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Stir in the balsamic vinegar and season with salt and ground black pepper to taste."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "beets"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "grater or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241494/easy-tasty-beets/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f78db24ada64ff08979d75bb3c5d91a53b6d6f6f610edd8ee29ce1d37682ff7f",
+    "normalized_text_hash": "c29483a92539405a5146253e54f43f8e735943d5478bbf61e721fbb7a6b97faf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:50:08.900Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

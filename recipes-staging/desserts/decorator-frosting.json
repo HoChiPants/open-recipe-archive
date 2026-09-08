@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "decorator-frosting",
+  "name": "Decorator Frosting",
+  "subtitle": "Smooth red frosting for decorating",
+  "description": "A simple butter-based frosting colored red and ready for decorating cakes and cookies.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.66666698455811,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "red-food-coloring",
+      "item": "red food coloring",
+      "quantity": 4,
+      "unit": "drops"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened butter, confectioners' sugar, and milk for 4 minutes, until smooth and combined.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the vanilla extract and red food coloring until evenly blended."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the frosting for decorating."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "decorating",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11184/decorator-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "536e9ad2b2cbca536281f97f0e73f97885097667583d25c66aa9dbdf2ec4cbfe",
+    "normalized_text_hash": "addeb3bc0d7e6ebfa7faf70fb89f6e8ce4d3fdc6b7e4affc90dae3878a5b93e2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:01:42.467Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

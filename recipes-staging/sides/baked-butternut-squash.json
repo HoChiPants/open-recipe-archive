@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-butternut-squash",
+  "name": "Baked Butternut Squash",
+  "subtitle": "Tender roasted squash finished with butter and seasoning",
+  "description": "Bake halved butternut squash until tender, then cut or scoop the flesh and season it with butter, salt, and pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butternut-squash",
+      "item": "butternut squash",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "halved lengthwise and seeded"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "cut into pieces"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the squash halves in a baking dish with the cut sides facing up."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the squash is tender when pierced with a fork, about 90 minutes.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 4,
+      "text": "Cut the cooked squash into pieces or scoop the flesh from the skins."
+    },
+    {
+      "step": 5,
+      "text": "Add the butter pieces and season with salt and ground black pepper to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "squash"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/159433/baked-butternut-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "54008d77cdf7aa6ad578d7f16c1eaf16caf16a0395b3154d965cb4bca283f588",
+    "normalized_text_hash": "6df33063842a62b9af86b1d9491b575ea37649bdbe09cc591650b436c0c03262",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:44:27.341Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

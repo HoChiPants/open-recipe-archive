@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-cream-custard",
+  "name": "Chocolate Cream Custard",
+  "subtitle": "Silky chocolate custard with whipped cream",
+  "description": "A simple chocolate custard made by combining melted chocolate and cream with tempered egg yolks, then finishing it with whipped cream.",
+  "meal_type": "dessert",
+  "cuisine": "French Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "light-cream",
+      "item": "light cream",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "4-ounce-bar-sweet-baking-chocolate",
+      "item": "(4 ounce) bar sweet baking chocolate",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2,
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the light cream, chopped chocolate, and sugar in a saucepan over low heat, stirring until the chocolate is melted and the mixture is smooth."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg yolks and vanilla in a heatproof bowl. Gradually whisk in the warm chocolate mixture to temper the yolks."
+    },
+    {
+      "step": 3,
+      "text": "Return the mixture to the saucepan and cook over low heat, stirring constantly, until thickened and it reaches 160°F."
+    },
+    {
+      "step": 4,
+      "text": "Divide the custard among four servings and top with whipped cream."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "custard"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267856/creme-au-chocolat/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6564f198bf500b145126315eb6f3cb26e67455e74bda7d00a5faaf73902fc966",
+    "normalized_text_hash": "3f41557c81a8c9101e7e8f9812ccb8bcf0a77ae885712b974717afa12c16a788",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:46:36.895Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

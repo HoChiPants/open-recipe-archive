@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-pesto-chicken",
+  "name": "Bacon-Wrapped Pesto Chicken",
+  "subtitle": "Pesto-filled chicken wrapped in crisp bacon",
+  "description": "Seasoned chicken breasts are filled with basil pesto, wrapped in bacon, and baked until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves - pounded flat"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "prepared-basil-pesto",
+      "item": "prepared basil pesto",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Season both sides of the pounded chicken with salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Spread 1 tablespoon of pesto over each chicken breast, then fold or roll the chicken and wrap each piece with one bacon slice."
+    },
+    {
+      "step": 4,
+      "text": "Pour the vegetable oil into a baking dish and arrange the wrapped chicken in the dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for about 30 minutes, until the bacon is browned and the thickest part of the chicken reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "bacon",
+    "pesto",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218650/bacon-wrapped-pesto-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cebdf342dd914d956d8ac4c101bfda71d0f1f6c4898776617064e4f12413f1ee",
+    "normalized_text_hash": "c808557c2a5567cd544aeeb49bb0d47d1d55af28ae5c856048a529b583d04811",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:40:43.067Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

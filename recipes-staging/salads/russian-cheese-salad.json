@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "russian-cheese-salad",
+  "name": "Russian Cheese Salad",
+  "subtitle": "A creamy, garlicky cheese salad served chilled",
+  "description": "Shredded mozzarella is folded with mayonnaise and pressed garlic, then chilled for a simple savory salad or appetizer.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "pressed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the shredded mozzarella, mayonnaise, and pressed garlic together until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Chill until ready to serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "salad",
+    "russian",
+    "eastern-european",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86659/russian-cheese-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ef719f9c65f21bc3aee2d7e3a69f30f2be86ab32d0cadecb82840488b17dbdcf",
+    "normalized_text_hash": "dc8da610f755b76a980f611e688cde59e13d4eacb73e64f68fb6f2a82ec3b866",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:34:45.967Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

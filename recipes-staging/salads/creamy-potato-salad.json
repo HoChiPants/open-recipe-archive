@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-potato-salad",
+  "name": "Creamy Potato Salad",
+  "subtitle": "Tender potatoes tossed with a tangy mayonnaise dressing and chopped eggs.",
+  "description": "A classic American potato salad with crisp celery, onion, mustard, and paprika.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "prepared-yellow-mustard",
+      "item": "prepared yellow mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the peeled potatoes in a pot, cover with water, and add the salt. Bring to a simmer and cook until tender when pierced.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool until manageable, then cut them into bite-size pieces."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the mayonnaise, celery, onion, vinegar, mustard, salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Fold the potatoes into the dressing until evenly coated. Gently stir in the chopped eggs and paprika."
+    },
+    {
+      "step": 5,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "potato-salad",
+    "creamy",
+    "american",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "pot",
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276316/grandmas-creamy-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0d2b410062bd27cec3e7a2153a8d3afbdd5efb4d8c8ac435baed9739a65a7293",
+    "normalized_text_hash": "52ec4ee2c01ac1810b76e8447f955798000489a8649b68fc7a4f247f99b47a19",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:51:14.490Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

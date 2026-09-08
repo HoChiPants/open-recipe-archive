@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-scallops",
+  "name": "Fried Scallops",
+  "subtitle": "Crisp, golden scallops with a peppered buttermilk coating",
+  "description": "Large scallops are dipped in buttermilk, coated in seasoned flour, and fried until crisp and opaque.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-scallops",
+      "item": "fresh scallops",
+      "quantity": 12,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the fryer or cooking vessel to 400°F, using the vegetable oil for frying."
+    },
+    {
+      "step": 2,
+      "text": "Place the buttermilk in one shallow dish. In a second dish, combine the flour, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Dip each scallop in buttermilk, then turn it in the seasoned flour until coated."
+    },
+    {
+      "step": 4,
+      "text": "Fry the scallops for 4 minutes, working in batches if needed, until golden and opaque throughout; verify shellfish reaches 145°F if using a thermometer.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Transfer the fried scallops to a rack or paper towels to drain, then serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "fryer or deep heavy pot",
+    "shallow dishes",
+    "wire rack or paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257450/easy-fried-scallops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "74a419dd7f53d0f0f1466445e64172e632f720ae3c91272e76da58b3c0ce0449",
+    "normalized_text_hash": "1b325bb5ddc17cca25ac163b2558a19d901a4060668e78737b60b1728459aeec",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:49.968Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

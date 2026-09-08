@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breakfast-zinger-juice",
+  "name": "Breakfast Zinger Juice",
+  "subtitle": "Fresh juice with bright citrus and earthy sweetness",
+  "description": "A vibrant blend of lemon, carrot, apple, and beet prepared as a fresh breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 2,
+      "preparation": "peeled, seeded, and quartered"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "beets",
+      "item": "beets",
+      "quantity": 2,
+      "preparation": "trimmed and chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fit a juicer with a collection container. Process the prepared lemons, carrots, apples, and beets according to the machine’s instructions."
+    },
+    {
+      "step": 2,
+      "text": "Stir the juice briefly, divide between two glasses, and serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "juice",
+    "fresh",
+    "fruit",
+    "vegetable"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "juicer",
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228897/breakfast-zinger-juice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "535da0da5e1258ad3895c3e495e83183d93e6557e4b03116dc297c49c9f9d8fa",
+    "normalized_text_hash": "3bff8153dbe2e7489636149515967c0ff52dd690eeb3ef11f217a905a011b304",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:38.179Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "anchovy-pasta",
+  "name": "Anchovy Pasta",
+  "subtitle": "Garlic pasta with crisp crumbs and Parmesan",
+  "description": "Spaghetti is coated with garlic-infused oil, savory anchovies, parsley, Parmesan, and toasted bread crumbs.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "anchovy-fillets",
+      "item": "anchovy fillets",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "2 ounce, chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "fine-bread-crumbs",
+      "item": "fine bread crumbs",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the spaghetti in simmering water until tender, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a skillet. Add the crushed garlic and stir for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the fine bread crumbs and cook, stirring, until crisp and golden, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Stir in the chopped parsley and black pepper."
+    },
+    {
+      "step": 5,
+      "text": "Combine the drained spaghetti with the garlic oil, bread-crumb mixture, anchovy fillets, and Parmesan. Heat the anchovy mixture to 145°F."
+    },
+    {
+      "step": 6,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "italian",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17167/sicilian-spaghetti/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b414090bebc6521671da57c019d62c0f5bd8d1047a142d13c0b514dc797cf0e",
+    "normalized_text_hash": "5054834007df337517f622537fb5ea3c526e2a1e4c7f5ef15e64a0b264edae93",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:22:02.090Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

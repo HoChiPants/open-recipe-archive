@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "arrabbiata-sauce",
+  "name": "Arrabbiata Sauce",
+  "subtitle": "A bright, garlicky tomato sauce with gentle chili heat",
+  "description": "Simmer tomatoes with garlic, olive oil, and fresh chili, then blend for a smooth pasta sauce.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garlic-cloves-peeled-and-crushed",
+      "item": "garlic cloves peeled and crushed",
+      "quantity": 2,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "red-chilli-deseeded-and-finely-chopped",
+      "item": "red chilli deseeded and finely chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "x-400g-can-chopped-tomatoes",
+      "item": "x 400g can chopped tomatoes",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a saucepan over medium heat. Add the crushed garlic and cook gently for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Stir in the chopped chili and canned tomatoes."
+    },
+    {
+      "step": 3,
+      "text": "Simmer gently for 20 minutes, stirring occasionally, until slightly thickened.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Blend the sauce until smooth, then use it with pasta or another dish."
+    }
+  ],
+  "tags": [
+    "arrabbiata",
+    "chili",
+    "garlic",
+    "pasta-sauce",
+    "tomato-sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/arrabbiata-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "30eadc8437c9f9c4a902a75e0fba971414c8ca52cb4da527aff201883ea38641",
+    "normalized_text_hash": "1b9adb4baf148a8523dd073a4b9f4b429110e74ae0189fc15a5bf3cb9bf6e44c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:41:23.492Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-and-cabbage-stew",
+  "name": "Beef and Cabbage Stew",
+  "subtitle": "A hearty pot of tender beef and vegetables",
+  "description": "Beef, cabbage, potatoes, and other vegetables simmer in a savory broth with tomato sauce for a warming six-serving meal.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 175
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-stew-meat",
+      "item": "beef stew meat",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "cube-beef-bouillon",
+      "item": "cube beef bouillon",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cabbage",
+      "item": "cabbage",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "celery-ribs",
+      "item": "celery ribs",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large pot or Dutch oven for 15 minutes. Drain the beef if needed.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Stir together the beef, bouillon, and broth in the pot. Transfer the beef mixture to the cooking vessel, then add the onion, pepper, and bay leaf."
+    },
+    {
+      "step": 3,
+      "text": "Cover and simmer gently for 2 hours, until the beef is tender and reaches at least 145°F; rest it for 3 minutes before serving.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Add the cabbage, potatoes, celery, and carrot. Continue simmering until the potatoes are tender."
+    },
+    {
+      "step": 5,
+      "text": "Mix in the tomato sauce and salt, then simmer for 20 minutes before removing the bay leaf and serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stew",
+    "beef",
+    "vegetables",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "large pot or Dutch oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229255/beef-and-cabbage-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "686a9f2a390515dba8f7810a64d6c8aecfe56f260eb198913fc3310e60edcb27",
+    "normalized_text_hash": "0e98e372441057c3a84fb7afadbae0d3082410d9bf59cee17d2c9982517bc177",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:17:22.436Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

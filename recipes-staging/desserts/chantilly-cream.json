@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chantilly-cream",
+  "name": "Chantilly Cream",
+  "subtitle": "Light vanilla-sweetened whipped cream",
+  "description": "A simple whipped cream flavored with vanilla and golden caster sugar, ready to spoon over desserts or use as a filling.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 300,
+    "unit": "ml"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chilled-double-cream",
+      "item": "chilled double cream",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Keep the double cream chilled. Combine it with the sugar and vanilla extract in a mixing bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk until the cream forms soft peaks; stop before it becomes stiff or grainy."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately, or use as a dessert topping or cake filling."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "whipped-cream",
+    "cake-filling",
+    "topping"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chantilly-cream",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f243c48fe63897450540825582f144d26712050c3f03795668ec330a9c93bb55",
+    "normalized_text_hash": "513b468776674c2dd0495f4828d67971f5769c8d7d60a9635c7f3ca0b88011f1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T03:57:32.320Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

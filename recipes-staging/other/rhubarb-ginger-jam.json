@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rhubarb-ginger-jam",
+  "name": "Rhubarb Ginger Jam",
+  "subtitle": "A tart, warmly spiced fruit spread",
+  "description": "Rhubarb and fresh ginger cook with sugar and lemon into a thick, bright jam for toast, pastries, or spooning over desserts.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-ginger-root",
+      "item": "fresh ginger root",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "half-pint-canning-jars-with-lids-and-rings",
+      "item": "half-pint canning jars with lids and rings",
+      "quantity": 3
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the rhubarb, sugar, ginger, and lemon juice together. Let stand for 20 minutes so the rhubarb releases some of its juices.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Prepare the jars, lids, and rings by boiling them for 5 minutes. Handle the hot equipment carefully.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Cook the rhubarb mixture over medium heat, stirring occasionally, until it thickens, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Simmer the jam for an additional 10 minutes, stirring as needed to prevent sticking.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the hot jam to the prepared jars. Add the lids and rings, let cool, and refrigerate unless using a separately validated canning process."
+    }
+  ],
+  "tags": [
+    "jam",
+    "fruit-spread",
+    "rhubarb",
+    "ginger",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon",
+    "three half-pint jars with lids and rings"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222837/rhubarb-ginger-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "657a63cf54185114e3827ff426ca241c1fc25d83539e2b5ed4b393608a763c2d",
+    "normalized_text_hash": "66401e23329545830f5e41142fa9a7b454c7b33e794aa4538d2c56f470ce9a56",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:01:50.317Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

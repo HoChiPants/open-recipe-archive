@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spiced-potato-omelette",
+  "name": "Spiced Potato Omelette",
+  "subtitle": "A quick skillet omelette with curried potatoes and onion",
+  "description": "Cooked potato, onion, curry powder, and nigella seeds fill a softly set omelette, served with yogurt or raita and optional chilli sauce.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-sliced",
+      "item": "onion sliced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "potato-leftover-boiled-or-roasted-potatoes-are-fine",
+      "item": "potato (leftover boiled or roasted potatoes are fine)",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "cooked, cubed"
+    },
+    {
+      "ingredient_id": "medium-curry-powder",
+      "item": "medium curry powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "nigella-seeds",
+      "item": "nigella seeds",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "eggs-whisked",
+      "item": "eggs whisked",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "natural-yogurt-or-raita",
+      "item": "natural yogurt or raita",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "good-squeeze-chilli-sauce-optional",
+      "item": "good squeeze chilli sauce (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the vegetable oil in a nonstick skillet over medium heat. Add the sliced onion and cubed potato; cook until the onion softens and the potato is hot.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir in the curry powder and nigella seeds, and cook briefly until fragrant.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs in a bowl. Pour them into the skillet and gently stir once to distribute the filling."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the base is set, then fold the omelette and continue cooking until the center is firm and reaches 160°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Serve with the natural yogurt or raita and the optional chilli sauce."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "omelette",
+    "potato",
+    "vegetarian",
+    "spiced"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "nonstick skillet",
+    "bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bombay-potato-omelette",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd7433732dbd7164a4f504a953258855d73ddcc872a6e0e7f2528d1e982e8fa3",
+    "normalized_text_hash": "4b8c9b6456d6f4ff5e729da7e2567995b6e7e20c320e6981648146a7d15337b3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:42:53.582Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "melon-smoothie",
+  "name": "Melon Smoothie",
+  "subtitle": "A bright, refreshing blend of two melons and lime",
+  "description": "Cantaloupe and honeydew blend with lime and sugar for a quick, cooling breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cantaloupe",
+      "item": "cantaloupe",
+      "quantity": 0.25,
+      "preparation": "peeled, seeded and cubed"
+    },
+    {
+      "ingredient_id": "honeydew-melon",
+      "item": "honeydew melon",
+      "quantity": 0.25,
+      "preparation": "peeled, seeded and cubed"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the cantaloupe, honeydew, lime juice, and sugar to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer to glasses and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "breakfast",
+    "fruit",
+    "blended"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32450/melon-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cd6615f311c4c63e6a37607a5ba546f214887c47e37330fe0a0595402edcbceb",
+    "normalized_text_hash": "5808b772e0ffa78d15dea856c261414b657501b175540d5c6ddd7678b78b0b85",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:32:18.308Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

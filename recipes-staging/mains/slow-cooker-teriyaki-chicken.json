@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-teriyaki-chicken",
+  "name": "Slow Cooker Teriyaki Chicken",
+  "subtitle": "Tender chicken in a sweet-savory garlic sauce",
+  "description": "Diced chicken cooks gently in a simple teriyaki mixture for an easy dinner.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the chicken broth, teriyaki sauce, brown sugar, and minced garlic in the slow cooker until the sugar is mostly dissolved."
+    },
+    {
+      "step": 2,
+      "text": "Add the diced chicken and stir to coat. Cover and cook on the slow cooker setting until the chicken reaches 165°F in the thickest pieces.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Serve hot with the sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "slow cooker",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/274429/slow-cooker-teriyaki-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d1455c143e11df4d599e31784e1ec2613e7c10a65ed11be13049f9a43b132dd3",
+    "normalized_text_hash": "16f2d46a8b03fe77cf40ea781e5ff1d44067113157bab4c8e8bbfa7153047b2a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:54:17.123Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

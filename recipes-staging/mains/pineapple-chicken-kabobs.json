@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-chicken-kabobs",
+  "name": "Pineapple Chicken Kabobs",
+  "subtitle": "Grilled chicken and pineapple skewers with barbecue sauce",
+  "description": "Chicken, pineapple, peppers, and onion are threaded onto skewers, brushed with barbecue sauce, and grilled for an easy meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "pineapple-chunks",
+      "item": "pineapple chunks",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "boneless chicken breast halves, cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "skewers",
+      "item": "skewers",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill. Arrange the bell pepper, pineapple, chicken, and onion pieces on the skewers, alternating as desired."
+    },
+    {
+      "step": 2,
+      "text": "Brush the assembled skewers with barbecue sauce."
+    },
+    {
+      "step": 3,
+      "text": "Grill the skewers, turning as needed, until the chicken reaches 165°F in the thickest pieces and the vegetables are tender.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "chicken",
+    "kabobs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234348/ultra-easy-pineapple-chicken-kabobs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d36e06464c208174a5c42b80a42870bc846fe49c062f52199e2b2390683329c2",
+    "normalized_text_hash": "4a9d969c6578dfb48431114e99902e560290b1cb85b820dd40f44604340d1320",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:37:17.391Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

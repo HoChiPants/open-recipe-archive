@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-pavlova",
+  "name": "Strawberry Pavlova",
+  "subtitle": "Crisp meringue with whipped cream and fresh berries",
+  "description": "A baked meringue shell topped with softly whipped cream and strawberries.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 3,
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "whole-strawberries",
+      "item": "whole strawberries",
+      "quantity": 1,
+      "unit": "pint",
+      "preparation": "stems removed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 250°F. Line a baking sheet with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar and cornstarch together. Beat the egg whites with the vinegar for 3 minutes, then gradually add the sugar mixture and beat until thick. Add the vanilla and beat until glossy and stiff.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Shape the meringue into a thick round on the prepared sheet, leaving a shallow center. Bake until set and the center reaches 160°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Turn off the oven and let the meringue cool completely inside.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Beat the heavy cream with the confectioners' sugar until soft peaks form.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 6,
+      "text": "Transfer the cooled meringue to a serving plate, top with whipped cream, and arrange the strawberries over it."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "meringue",
+    "strawberries",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "mixing bowls",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221268/chef-johns-pavlova-with-strawberries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ec456399ef7649e412ffd1a50e90b84a296fec725e0de2253d9576932a83aed0",
+    "normalized_text_hash": "f34bf7ab2f195fb4c5f55d58c3c4e4e3d12da1db7434e019d5df280db101ce55",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:38:07.927Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

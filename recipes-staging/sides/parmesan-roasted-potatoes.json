@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "parmesan-roasted-potatoes",
+  "name": "Parmesan Roasted Potatoes",
+  "subtitle": "Crisp-edged potatoes with savory Parmesan and thyme",
+  "description": "Chunked potatoes are seasoned with olive oil, Parmesan, thyme, salt, and pepper, then roasted until golden and tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "unpeeled-potatoes",
+      "item": "unpeeled potatoes",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cut into 1-inch chunks"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-thyme-leaves",
+      "item": "dried thyme leaves",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the potatoes in a baking dish or on a baking sheet. Add the olive oil, salt, pepper, Parmesan, and thyme, then toss until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 60 minutes, or until the potatoes are golden brown and tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214637/kristens-parmesan-roasted-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "33617966cd32e8084c861701c5257d0a08a8a5347f1e381e4a7b0009aef01145",
+    "normalized_text_hash": "cc1c0ab77a36b66581b72025b99d2e19a649e517abdbdc19d68eb42dd8ed57c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:45:49.504Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "country-style-cube-steak",
+  "name": "Country-Style Cube Steak",
+  "subtitle": "Tender beef with onion gravy",
+  "description": "Flour-coated cube steak is browned, covered with onion gravy, and baked until tender.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cube-steak",
+      "item": "cube steak",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into bite-sized pieces"
+    },
+    {
+      "ingredient_id": "all-purpose-flour-for-coating",
+      "item": "all-purpose flour for coating",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "1-ounce-envelope-dry-onion-soup-mix",
+      "item": "(1 ounce) envelope dry onion soup mix",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "garlic-salt-to-taste",
+      "item": "garlic salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Season the cube steak with salt, pepper, and garlic salt. Coat the pieces evenly with the flour for coating."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil in a skillet over medium-high heat. Add the coated steak and cook until browned on all sides, then transfer it to a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the onion soup mix and 1 tablespoon all-purpose flour together. Gradually stir in the water until smooth, adding more water as needed for a pourable gravy."
+    },
+    {
+      "step": 4,
+      "text": "Pour the gravy over the steak, cover the baking dish, and bake at 350°F for 60 minutes, or until the beef is tender and reaches at least 145°F internally. Rest for 3 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "beef",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/90314/my-country-style-steak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "59230d8d428274ceee8acd49bfcfc52fdb9ad572dbbdaa2cc568eadabf8efb0e",
+    "normalized_text_hash": "349022610191983c72d166c5db6d1c7a7d8bc756a4c778591ebb99b5ef9346a1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:04:51.217Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

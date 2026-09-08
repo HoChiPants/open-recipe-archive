@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "macaroni-and-cheese-pie",
+  "name": "Macaroni and Cheese Pie",
+  "subtitle": "A savory baked pasta casserole with a crisp, seasoned top.",
+  "description": "Tender macaroni is layered with Cheddar, butter, and a simple egg-and-evaporated-milk mixture, then baked until set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "uncooked-elbow-macaroni",
+      "item": "uncooked elbow macaroni",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Bring salted water to a boil. Cook the macaroni for 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "While the macaroni is hot, toss it with the butter."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs until smooth, then whisk in the evaporated milk, black pepper, and salt."
+    },
+    {
+      "step": 5,
+      "text": "Layer the macaroni and shredded Cheddar in the prepared dish. Pour the egg mixture evenly over the layers and sprinkle with paprika."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "southern",
+    "casserole",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "mixing bowl",
+    "whisk",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220376/southern-macaroni-and-cheese-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5dceba0081f0cf6bb986d37a5132ff723a04bb6575879a4d8e63e268dba17db8",
+    "normalized_text_hash": "0126c502964ce7912e71c838e84f122191a54f1a15eead309737f865de88a5d5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:13:46.121Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

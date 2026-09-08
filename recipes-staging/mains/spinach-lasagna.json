@@ -1,0 +1,156 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-lasagna",
+  "name": "Spinach Lasagna",
+  "subtitle": "Layered pasta with creamy spinach and cheese",
+  "description": "Tender lasagna noodles layered with seasoned spinach-ricotta filling, pasta sauce, and a browned cheese topping.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper",
+      "item": "salt and ground black pepper",
+      "preparation": "to taste"
+    },
+    {
+      "ingredient_id": "bunch-fresh-spinach",
+      "item": "bunch fresh spinach",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lasagna-noodles",
+      "item": "lasagna noodles",
+      "quantity": 9
+    },
+    {
+      "ingredient_id": "8-ounce-container-ricotta-cheese",
+      "item": "(8 ounce) container ricotta cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "pasta-sauce",
+      "item": "pasta sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F and coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water seasoned with salt and pepper to a simmer. Add the spinach and cook for 2 minutes, until tender. Drain, cool briefly, and squeeze out excess moisture.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Cook the lasagna noodles in boiling water for 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Combine the spinach, ricotta, mozzarella, beaten egg, nutmeg, basil, Parmesan, and additional salt and pepper to taste."
+    },
+    {
+      "step": 5,
+      "text": "Spread some pasta sauce in the baking dish. Layer noodles, sauce, and spinach filling, repeating until the ingredients are used. Finish with ricotta, mozzarella, and Parmesan on top."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 25 minutes, until lightly browned and the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Let the lasagna stand for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian-inspired",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229764/easy-vegetarian-spinach-lasagna/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "47ed3d9c1d6bb822c0e3ed35a93d0f01bc8fb9ce5b30618473c23e96b69266da",
+    "normalized_text_hash": "90d9cd455a689b8e6d8ea1567cf4b6c5208285ee23c37209318ad2023bf0677d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:52:24.872Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

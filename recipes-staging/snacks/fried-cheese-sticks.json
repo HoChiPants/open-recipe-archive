@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-cheese-sticks",
+  "name": "Fried Cheese Sticks",
+  "subtitle": "Crisp, golden breaded cheese for easy snacking",
+  "description": "Breaded string cheese is frozen briefly, then fried until crisp and golden.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1-ounce-sticks-string-cheese",
+      "item": "(1 ounce) sticks string cheese",
+      "quantity": 24
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "italian-seasoned-bread-crumbs",
+      "item": "Italian seasoned bread crumbs",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut each cheese stick in half. Set out the beaten eggs and bread crumbs in separate shallow dishes."
+    },
+    {
+      "step": 2,
+      "text": "Dip the cheese pieces in the eggs, then coat them with bread crumbs. Repeat the egg and bread-crumb coating, pressing gently to cover completely."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated cheese on a tray and let the coating set for 5 minutes. Freeze until firm, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Heat the oil to 350°F. Fry the frozen cheese sticks in batches for about 8 minutes, turning as needed, until golden brown.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Drain on a rack or paper towels and cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dishes",
+    "tray",
+    "deep fryer or heavy pot",
+    "rack or paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223480/home-fried-cheese-sticks/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3319819e60c41e7106eb459be662d2d2510768bfa197f7554e9f87036431dce",
+    "normalized_text_hash": "0af09a0c83263b4c9db38f2e50b2ebcdce7509037a346c4331caf3c069dbbb24",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:35:23.174Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

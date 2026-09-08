@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dark-chocolate-almond-rocks",
+  "name": "Dark Chocolate Almond Rocks",
+  "subtitle": "Crunchy almond clusters coated in dark chocolate",
+  "description": "Toast crushed almonds, coat them in melted dark chocolate, and chill the mixture into bite-size clusters.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "crushed into chunks"
+    },
+    {
+      "ingredient_id": "dark-chocolate-chips-50-cacao",
+      "item": "dark chocolate chips (50% cacao)",
+      "quantity": 7,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the crushed almonds in a dry skillet over medium heat until lightly toasted, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Melt the chocolate chips in a heatproof bowl set over gently simmering water, stirring until smooth, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir the toasted almonds into the melted chocolate until evenly coated. Drop 20 spoonfuls onto parchment and chill until set, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Serve once firm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "almond",
+    "candy",
+    "cluster"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "dry skillet",
+    "heatproof bowl",
+    "saucepan",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256321/dark-chocolate-almond-rocks/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "63794fe01f039bc4d4c0a5eb7d063094704db4d3774e01005dba53718fb81a7d",
+    "normalized_text_hash": "8d4065db95abd294de1243a64d7fc7684ec1a7830c88fb356fb8809e3e053604",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:00:46.458Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

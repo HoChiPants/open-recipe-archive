@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizza-rolls",
+  "name": "Pizza Rolls",
+  "subtitle": "Crisp fried rolls with pepperoni, sauce, and melted mozzarella",
+  "description": "Fill egg roll wrappers with thickened pizza sauce, pepperoni, and mozzarella, then fry until crisp and golden.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canola-oil-for-frying",
+      "item": "canola oil for frying",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-pizza-sauce",
+      "item": "(16 ounce) jar pizza sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pepperoni",
+      "item": "pepperoni",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "egg-roll-wrappers",
+      "item": "egg roll wrappers",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the pizza sauce to 300°F, stirring until thickened."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg with the water to make a sealing wash."
+    },
+    {
+      "step": 3,
+      "text": "Stir the sliced pepperoni into the thickened sauce, then mix in the shredded mozzarella."
+    },
+    {
+      "step": 4,
+      "text": "Place filling on each egg roll wrapper. Brush the edges with egg wash, fold, and roll tightly to seal."
+    },
+    {
+      "step": 5,
+      "text": "Heat the canola oil in a deep, heavy pan suitable for frying."
+    },
+    {
+      "step": 6,
+      "text": "Fry the rolls in batches, turning as needed, for 9 minutes total, until golden brown. Drain briefly; verify the center reaches 160°F and the egg-containing filling is fully set.",
+      "timer_minutes": 9
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "fried",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "deep heavy pan",
+    "thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/207913/pizza-rolls/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3dda11f105333714fd31ab50011d4d332eb7fc48effc3b32bfda6c13603d279e",
+    "normalized_text_hash": "a6a45e829b440810683b88ca5049b78b474b760d1fb9ccd548a84a7ddfcd8627",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:24:07.457Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

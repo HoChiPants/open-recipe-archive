@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "onion-rice",
+  "name": "Onion Rice",
+  "subtitle": "Savory rice with tender red onion",
+  "description": "Long-grain white rice is simmered with sautéed red onion, pepper, and chicken broth for a simple side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "long-grain-white-rice",
+      "item": "long-grain white rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the oil and red onion. Stir until the onion is tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the rice and cook briefly to coat the grains."
+    },
+    {
+      "step": 4,
+      "text": "Add the pepper and chicken broth. Bring to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Cover and simmer until the rice is tender and the liquid is absorbed, about 20 minutes. If the broth contains poultry pieces, verify the mixture reaches 165°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Remove from the heat and let stand briefly before serving."
+    }
+  ],
+  "tags": [
+    "rice",
+    "onion",
+    "side-dish",
+    "american",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "saucepan",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18316/onion-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2cfa917a60cf15aa1a2cc44b76995e29ca7b6142f8aa4c03aa393d9bc0ea307d",
+    "normalized_text_hash": "00b5ed0533157670ea0d407f9430999b5a6434281d58f920b5cb9c0afb8d71cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:33:35.025Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

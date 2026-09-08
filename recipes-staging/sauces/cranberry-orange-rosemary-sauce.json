@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-orange-rosemary-sauce",
+  "name": "Cranberry Orange Rosemary Sauce",
+  "subtitle": "A bright, tart sauce with citrus and herbs",
+  "description": "Simmer cranberries with orange juice, muscovado sugar, and rosemary until tender, then cool before serving.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "muscovado-sugar",
+      "item": "muscovado sugar",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 75,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "rosemary-sprig",
+      "item": "rosemary sprig",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "frozen-cranberries",
+      "item": "frozen cranberries",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the muscovado sugar and orange juice in a saucepan, stirring until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Add the rosemary sprig and frozen cranberries. Bring to a gentle simmer and cook until the cranberries are tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Remove the rosemary sprig and let the sauce cool before serving."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "cranberry",
+    "orange",
+    "rosemary",
+    "holiday"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cranberry-orange-rosemary-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0a1d17980d58a1b0c32830f47d449c4177096d646b8f61021b8a01805c621c61",
+    "normalized_text_hash": "578f4902e1f2a3de25ff84bed61ed5db0ef7588b66fb9fd88d9a3f089b89ac70",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:13:56.851Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

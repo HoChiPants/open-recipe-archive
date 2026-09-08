@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-and-parsnip-soup",
+  "name": "Carrot and Parsnip Soup",
+  "subtitle": "A smooth, creamy root-vegetable soup",
+  "description": "Sautéed aromatics, carrots, and parsnips are simmered in vegetable stock, blended smooth, and finished with cream and parsley.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onions-finely-chopped",
+      "item": "onions finely chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "celery-sticks-finely-chopped",
+      "item": "celery sticks finely chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed",
+      "item": "garlic cloves crushed",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "bunch-thyme-leaves-picked",
+      "item": "bunch thyme leaves picked",
+      "quantity": "1/2",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "carrots-peeled-and-roughly-chopped",
+      "item": "carrots peeled and roughly chopped",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "parsnips-peeled-and-roughly-chopped",
+      "item": "parsnips peeled and roughly chopped",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "litre-vegetable-stock",
+      "item": "litre vegetable stock",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "bunch-parsley-finely-chopped",
+      "item": "bunch parsley finely chopped (optional)",
+      "quantity": "1/4",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large saucepan. Add the onions and celery, and cook until softened, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir in the garlic and thyme; cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the carrots, parsnips, and vegetable stock. Bring to a simmer and cook until the vegetables are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Blend the soup until smooth, then whisk in the double cream until combined."
+    },
+    {
+      "step": 5,
+      "text": "Ladle into bowls and garnish with the chopped parsley, if using."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "supper",
+    "carrots",
+    "parsnips",
+    "creamy-soup",
+    "soup"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large saucepan",
+    "blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrot-parsnip-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "228cbbba52590615b3e5ce23bcaf3773db78c0ec6c94648b417c95f5752c5354",
+    "normalized_text_hash": "b0d69d5669981689483428b86bbe5f2f4e5ae0791210a2beac20ac6cff48a8e9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T00:03:50.576Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

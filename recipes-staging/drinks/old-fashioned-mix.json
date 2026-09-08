@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "old-fashioned-mix",
+  "name": "Old Fashioned Mix",
+  "subtitle": "A citrus-and-spice syrup for classic cocktails",
+  "description": "A sweet citrus syrup infused with cherries, cinnamon, and bitters for mixing into Old Fashioned-style drinks.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "clementine-oranges",
+      "item": "clementine oranges",
+      "quantity": 3,
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "maraschino-cherries",
+      "item": "maraschino cherries",
+      "quantity": 5,
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bitters",
+      "item": "bitters",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and sugar in a saucepan and simmer, stirring, until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the quartered clementines, cherries, and cinnamon stick. Remove from the heat and let the mixture steep for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Remove the cinnamon stick and stir in the bitters."
+    },
+    {
+      "step": 4,
+      "text": "Strain the mixture into a clean container and chill before using."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail-mixer",
+    "syrup",
+    "citrus",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan"
+  ],
+  "equipment": [
+    "saucepan",
+    "strainer",
+    "clean storage container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233524/homemade-old-fashioned-mix/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3f7d9a903bd28ff90782b4f2f9adfa79f616d19c94dea9d1750fc8ad0fb1910a",
+    "normalized_text_hash": "557b00462e534591840d077d792fcd9f54759cd11361a926ab3e9e254e17b0b5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:40:33.533Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

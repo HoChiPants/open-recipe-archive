@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-pot-pie",
+  "name": "Chicken Pot Pie",
+  "subtitle": "A quick crescent-topped chicken and vegetable bake.",
+  "description": "Pantry chicken, vegetables, and creamy soup filling baked beneath a golden crescent-roll crust.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-meat-chicken",
+      "item": "white meat chicken",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "6 ounce, drained and broken into chunks"
+    },
+    {
+      "ingredient_id": "mixed-vegetables",
+      "item": "mixed vegetables",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, diced, drained"
+    },
+    {
+      "ingredient_id": "cream-of-chicken-soup",
+      "item": "cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce, or more to taste"
+    },
+    {
+      "ingredient_id": "refrigerated-crescent-rolls",
+      "item": "refrigerated crescent rolls",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "In a baking dish, combine the chicken, mixed vegetables, potatoes, and cream of chicken soup until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Unroll the crescent-roll dough and arrange it over the filling, pinching seams together as needed to form a top crust."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the crust is golden brown and the filling reaches 165°F in the center.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Let stand briefly before serving."
+    }
+  ],
+  "tags": [
+    "chicken",
+    "pot-pie",
+    "casserole",
+    "weeknight",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231564/amazingly-easy-surprisingly-tasty-broke-college-student-chicken-pot-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a5b96776468c572262891baf8fa2382eade3ca00aac4d1d6161d6a656d502682",
+    "normalized_text_hash": "658a306f39cdc8a45931856db99e8d850a8148be598ecffbabc067bc332348f0",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:56:43.706Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

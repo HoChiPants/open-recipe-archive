@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-roasted-asparagus",
+  "name": "Oven-Roasted Asparagus",
+  "subtitle": "Tender asparagus with Parmesan, garlic, and lemon",
+  "description": "Asparagus is roasted until tender with olive oil, Parmesan, garlic, salt, and pepper, then finished with lemon juice.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bunch-thin-asparagus-spears",
+      "item": "bunch thin asparagus spears",
+      "quantity": 1,
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Arrange the trimmed asparagus in a single layer on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Toss the asparagus with the olive oil, Parmesan, and garlic. Sprinkle with the sea salt and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Roast for 15 minutes, or until the asparagus is tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Drizzle with the lemon juice and serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "roasted-vegetables"
+  ],
+  "seasons": [
+    "spring",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214931/oven-roasted-asparagus/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "956ce11c606dab5644e51026d1d80b8ca411ef1da1a919f5d039724856e098a2",
+    "normalized_text_hash": "474474d4e426ae1e101b05315a8bfa678f299e5bd29fcad34a7abbb872f538be",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:41:43.604Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

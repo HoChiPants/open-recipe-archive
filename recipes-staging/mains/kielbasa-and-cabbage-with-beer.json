@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kielbasa-and-cabbage-with-beer",
+  "name": "Kielbasa and Cabbage with Beer",
+  "subtitle": "Tender cabbage and sliced sausage simmered in beer",
+  "description": "A simple skillet meal combining buttery cabbage, kielbasa, beer, and black pepper.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "kielbasa-sausage",
+      "item": "kielbasa sausage",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, sliced into rounds"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the butter in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the cabbage and stir for 5 minutes, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced kielbasa and beer, then stir to combine."
+    },
+    {
+      "step": 4,
+      "text": "Season with black pepper and bring the mixture to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Simmer for 20 minutes, until the sausage reaches 160°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Drain before serving."
+    }
+  ],
+  "tags": [
+    "sausage",
+    "cabbage",
+    "skillet-meal",
+    "beer",
+    "lunch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231155/polish-link-sausage-and-cabbage/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "74ec99dd074bf2cf4286dee60c463e43b88948d33b84091bb9d58fd8775083d8",
+    "normalized_text_hash": "30301abc8cbc1e5bddf4b63e48a75e5d51b62d47436706817b01c84fc5e11c85",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:26:14.776Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

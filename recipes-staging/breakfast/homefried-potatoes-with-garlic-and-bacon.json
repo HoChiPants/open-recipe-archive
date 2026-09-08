@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homefried-potatoes-with-garlic-and-bacon",
+  "name": "Homefried Potatoes with Garlic and Bacon",
+  "subtitle": "Crisp-edged potatoes with savory bacon and onion",
+  "description": "A simple skillet breakfast of thin-sliced russet potatoes, bacon, onion, and garlic pepper seasoning.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 7
+    },
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 2,
+      "preparation": "quartered and thinly sliced"
+    },
+    {
+      "ingredient_id": "garlic-pepper-seasoning",
+      "item": "garlic pepper seasoning",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 0.5,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a large skillet over medium heat and add the bacon."
+    },
+    {
+      "step": 2,
+      "text": "Add the sliced potatoes and onion to the skillet, then sprinkle with the garlic pepper seasoning."
+    },
+    {
+      "step": 3,
+      "text": "Cook, stirring occasionally, until the potatoes are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Stir the bacon through the potatoes and serve hot."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "skillet",
+    "potatoes",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86575/homefried-potatoes-with-garlic-and-bacon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bc00d1760fbae52ed66fdd3e0cf4693c28cd609c4148fb720041469e1a0ed477",
+    "normalized_text_hash": "f8baf8f79c078bb4f8c6d2bb6aaebbc6d25fdc8ad2c0ed0ac4e115c393b59ecc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:35:42.493Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

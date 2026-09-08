@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slovak-haluski",
+  "name": "Slovak Haluski",
+  "subtitle": "Buttery cabbage and egg noodles",
+  "description": "Tender cabbage and browned onion are folded with buttered egg noodles for a simple, hearty main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-noodles",
+      "item": "egg noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a boil. Cook the egg noodles for 5 minutes, until the boiling water brings them to at least 160°F; drain.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Preheat a large oven-safe skillet or baking dish with the butter. Add the onion and cook for 10 minutes, stirring, until golden brown.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the shredded cabbage and toss to coat with the butter and onion. Transfer to the preheated dish and cook for 30 minutes, until tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Season the cabbage with salt and pepper, then combine it with the drained noodles. Adjust seasoning to taste and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "eastern-european",
+    "cabbage",
+    "noodles"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large oven-safe skillet or baking dish",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236936/slovak-haluski/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e001d6529aa0540f9cc00deaeeb3c7d93ae368835004407fbb686de66429fc09",
+    "normalized_text_hash": "f434861d2aa2b9436dd269afe1e71d8a0c09cd1660ba07150d83433a9f883d2a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:35:21.352Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

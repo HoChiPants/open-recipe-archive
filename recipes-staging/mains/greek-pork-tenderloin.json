@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "greek-pork-tenderloin",
+  "name": "Greek Pork Tenderloin",
+  "subtitle": "Lime, oregano, and garlic grilled pork",
+  "description": "Pork tenderloins marinated in a bright lime-and-oregano mixture, then grilled and rested for a simple Greek-inspired main dish.",
+  "meal_type": "main",
+  "cuisine": "Greek",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "1-pound-pork-tenderloins",
+      "item": "(1 pound) pork tenderloins",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the lime juice, olive oil, sliced garlic, salt, and oregano in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the pork tenderloins and turn to coat thoroughly. Cover and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to medium-high heat and remove the pork from the marinade."
+    },
+    {
+      "step": 4,
+      "text": "Grill the tenderloins, turning as needed, until the thickest part reaches 145°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Transfer the pork to a cutting board and let it rest for at least 3 minutes before slicing.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "pork",
+    "greek-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14951/grecian-pork-tenderloin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0b6a434d000cbe564cd49f792881762cfc3a559fd44038a84d3df76df2319665",
+    "normalized_text_hash": "40cc040558a9f16c0b9d045a40fe340fad732ca00510d54a3e763a9b3d6717fa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:59:04.871Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

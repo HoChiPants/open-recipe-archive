@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-tomato-garlic-herb-macaroni",
+  "name": "Cherry Tomato Garlic-Herb Macaroni",
+  "subtitle": "Creamy macaroni with blistered tomatoes and basil",
+  "description": "Tender macaroni is combined with sautéed cherry tomatoes and garlic-herb cream cheese, then finished with torn basil.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "macaroni",
+      "item": "macaroni",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes",
+      "item": "cherry tomatoes",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "philadelphia-intense-garlic-herbs",
+      "item": "Philadelphia Intense Garlic & Herbs",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "a-handful-of-basil-leaves-torn",
+      "item": "a handful of basil leaves torn"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the macaroni until tender, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a pan. Add the cherry tomatoes and cook for 8 minutes, stirring occasionally, until softened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Stir in the garlic-herb cream cheese, then add the cooked macaroni and toss until coated and hot."
+    },
+    {
+      "step": 4,
+      "text": "Serve topped with the torn basil leaves."
+    }
+  ],
+  "tags": [
+    "pasta",
+    "quick-meal",
+    "tomatoes",
+    "vegetarian"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "skillet"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cherry-tomato-philly-intense-macaroni",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "84fda7b73b8c154b2cf4a2a6b345ac38d12b311f3a0d4a20c8d3012218456003",
+    "normalized_text_hash": "c2bf226a9bd6cb025d788c46ebf1b707315f588927814aa58651f69ed60926d9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:20:18.402Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

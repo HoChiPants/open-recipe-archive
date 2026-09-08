@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-puffs",
+  "name": "Chicken Puffs",
+  "subtitle": "Creamy chicken wrapped in golden crescent dough",
+  "description": "Tender chicken, onion, and garlic combine with a buttery cream cheese filling inside baked crescent-dough parcels.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves - cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "peeled and minced"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 0.75,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "refrigerated-crescent-roll-dough",
+      "item": "refrigerated crescent roll dough",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "10 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the cubed chicken with the onion and garlic until the onion is tender and the chicken reaches 165°F in the thickest pieces."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cream cheese and butter together until smooth, then combine with the cooked chicken mixture."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 4,
+      "text": "Separate the crescent dough and shape each piece into a small open parcel. Place filling in the center, fold the dough over it, and seal the edges."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the puffs to a baking sheet and bake until golden brown.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26738/chicken-puffs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cb59675d6458174852e570eca70cf50991fd25bbbc322a5ce35f215b732d5215",
+    "normalized_text_hash": "c2dfe734aefe80cb9cfa54424571871aa131649e4ce0538e0b621d7a8f7a669a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:13:30.391Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

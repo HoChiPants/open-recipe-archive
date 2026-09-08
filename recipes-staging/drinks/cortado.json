@@ -1,0 +1,79 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cortado",
+  "name": "Cortado",
+  "subtitle": "Equal parts espresso and warm milk",
+  "description": "A balanced coffee drink combining espresso with gently steamed milk.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "espresso",
+      "item": "espresso",
+      "quantity": 40,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "steamed-milk-heat-to-55-65c",
+      "item": "steamed milk (heat to 55-65C)",
+      "quantity": 40,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the espresso into a serving glass or cup."
+    },
+    {
+      "step": 2,
+      "text": "Add the steamed milk and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "coffee",
+    "espresso",
+    "steamed-milk"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "espresso machine",
+    "milk steamer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cortado",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64be42a1d7681e337a829b8bfc8c2ec75a5bc598b1148518d021a7bf38ac109f",
+    "normalized_text_hash": "54e120c86d288dbc333977fff70cdbda82238b7c3552cc3028c33101397d8a79",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:00:02.603Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-and-raspberry-sundae",
+  "name": "Peach and Raspberry Sundae",
+  "subtitle": "Peaches, berries, cream, and almonds over vanilla ice cream",
+  "description": "A simple fruit sundae layered with peaches, raspberries, whipped cream, vanilla ice cream, and toasted almonds.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "can-peaches-halves-in-juice-or-light-syrup",
+      "item": "can peaches halves in juice or light syrup",
+      "quantity": 415,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "frozen-raspberries",
+      "item": "frozen raspberries",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "scoops-vanilla-ice-cream-gluten-free",
+      "item": "scoops vanilla ice cream (gluten-free",
+      "quantity": 4,
+      "preparation": "if necessary)"
+    },
+    {
+      "ingredient_id": "flaked-almonds",
+      "item": "flaked almonds",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 150,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Drain the peaches for 8 minutes, then cut them into bite-size pieces.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Warm a dry skillet over medium heat. Add the flaked almonds and toast until lightly golden; set aside to cool."
+    },
+    {
+      "step": 3,
+      "text": "Place the frozen raspberries and peaches in serving glasses or bowls."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the double cream until it holds soft peaks.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Top the fruit with scoops of vanilla ice cream and whipped cream. Finish with the toasted almonds and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "ice-cream",
+    "peaches",
+    "raspberries",
+    "almonds",
+    "cream"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl",
+    "whisk",
+    "serving glasses or bowls"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/charred-smoky-peach-sundae",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c5939a156983a6af76d58cba496e77911e3cd65d0cdf18e4269afcdb036ef61e",
+    "normalized_text_hash": "723882283ce0e81de191672751226a77fcd83ba47353da3d5c30504510a3de00",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T05:42:24.442Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "amaretto-espresso-martini",
+  "name": "Amaretto Espresso Martini",
+  "subtitle": "A chilled coffee cocktail with almond liqueur",
+  "description": "Shake freshly brewed espresso with vodka, amaretto, sweetener, and ice, then strain for a cold, smooth drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "freshly-brewed-espresso",
+      "item": "freshly brewed espresso",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "amaretto",
+      "item": "amaretto",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sugar-syrup-or-runny-honey",
+      "item": "sugar syrup or runny honey",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the espresso, vodka, amaretto, and sugar syrup or honey to a cocktail shaker."
+    },
+    {
+      "step": 2,
+      "text": "Fill the shaker with ice, seal it, and shake vigorously until well chilled."
+    },
+    {
+      "step": 3,
+      "text": "Strain into two chilled martini glasses and serve immediately."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "amaretto",
+    "espresso",
+    "coffee-cocktail",
+    "martini"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "martini glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/amaretto-espresso-martini",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "17036e731be91579a6148ec05d3732660cffcc2f37777fd4142b54f96d9f5d00",
+    "normalized_text_hash": "2c02783c827d7407cf28fee04d49c8067900ca85d4be28852fd18b2312d51e6d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:36:07.184Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

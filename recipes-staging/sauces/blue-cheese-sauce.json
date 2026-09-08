@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blue-cheese-sauce",
+  "name": "Blue Cheese Sauce",
+  "subtitle": "A creamy, tangy sauce for savory dishes",
+  "description": "Make a smooth white sauce enriched with melted blue cheese.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "stilton-or-other-blue-cheese",
+      "item": "stilton (or other blue cheese)",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "chopped or crumbled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over medium heat. Stir in the flour and cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the milk until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the blue cheese and cook until melted and creamy."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "condiment",
+    "blue-cheese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blue-cheese-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "294ea79973007c66f39c6ad235101c7ae519b4fb3c3b37413656bbaced8f3810",
+    "normalized_text_hash": "45695a93827e7656077d8be3488cd9f19e79dfad7506244d3769c86b01a9bf87",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:40:23.850Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-ceviche",
+  "name": "Shrimp Ceviche",
+  "subtitle": "Citrus-marinated shrimp with crisp vegetables and avocado",
+  "description": "Briefly cook shrimp, then combine it with lime, fresh vegetables, cilantro, and avocado for a bright chilled main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumber",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "roma-tomatoes",
+      "item": "Roma tomatoes",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "serrano-peppers",
+      "item": "serrano peppers",
+      "quantity": 2,
+      "preparation": "seeded and deveined"
+    },
+    {
+      "ingredient_id": "cilantro",
+      "item": "cilantro",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "limes",
+      "item": "limes",
+      "quantity": 6,
+      "unit": "medium",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "raw-shrimp",
+      "item": "raw shrimp",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cucumber, tomatoes, red onion, serrano peppers, cilantro, and pepper. Add half the salt and set aside."
+    },
+    {
+      "step": 2,
+      "text": "Juice the limes and combine the juice with the remaining salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Bring a pot of water to a simmer, then add the shrimp and cook until opaque and easily flaked, or until they reach 145°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Drain and cool the shrimp briefly, then cut it into bite-size pieces."
+    },
+    {
+      "step": 5,
+      "text": "Toss the shrimp with the lime mixture and chill for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Fold in the reserved vegetable mixture and avocado, then serve chilled."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "ceviche",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "pot",
+    "knife",
+    "cutting board",
+    "juicer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/264646/easy-shrimp-ceviche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "171abbc36d146037e379f118221b6ec392ced93de1ef17b6c07ecf9061f2afe6",
+    "normalized_text_hash": "cb08edd67f109dd60ee5803eaa66faa2817ea82499f1d8927a19cb07cb72e0b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:45:41.075Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

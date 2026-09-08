@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bucatini-with-mushrooms-and-sausage",
+  "name": "Bucatini with Mushrooms and Sausage",
+  "subtitle": "Creamy porcini bucatini with browned sausage",
+  "description": "Dried porcini, browned sausage, garlic, wine, and cream make a savory sauce for bucatini, finished with parsley, nutmeg, and Parmesan.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 22
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-porcini-mushrooms",
+      "item": "dried porcini mushrooms",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "sausages-such-as-italian-or-cumberland-if-using-cumberland",
+      "item": "sausages such as Italian or cumberland (if using cumberland",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "add a pinch of fennel seeds to the meat while cooking)"
+    },
+    {
+      "ingredient_id": "bucatini",
+      "item": "bucatini",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-cloves-sliced",
+      "item": "garlic cloves sliced",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "chilli-flakes-optional",
+      "item": "chilli flakes",
+      "quantity": "1-2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 125,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "grating-of-nutmeg",
+      "item": "grating of nutmeg"
+    },
+    {
+      "ingredient_id": "handful-of-flat-leaf-parsley-roughly-chopped",
+      "item": "handful of flat-leaf parsley roughly chopped",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "parmesan-grated",
+      "item": "parmesan grated",
+      "preparation": "to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour boiling water over the dried porcini mushrooms and set aside to soften. Preheat a large skillet over medium heat.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in the skillet. Remove the sausage meat from its casings, if needed, and cook until lightly browned; if using cumberland sausages, add a pinch of fennel seeds while cooking.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Bring a large pot of water to a boil and cook the bucatini according to the package directions until al dente.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 4,
+      "text": "Add the garlic cloves sliced, chilli flakes, and white wine to the sausage. Drain and add the softened porcini, then cook until the wine has reduced slightly.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Stir in the double cream, grating of nutmeg, and half the handful of flat-leaf parsley roughly chopped. Simmer briefly, then add the drained bucatini and toss until coated.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Check that the sausage reaches 160°F in the thickest pieces. Serve with the remaining parsley and parmesan grated."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "pasta",
+    "bucatini",
+    "mushrooms",
+    "porcini",
+    "sausage",
+    "creamy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "large pot",
+    "colander",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bucatini-with-mushrooms-sausage",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d54e6d1abf2b18e7ed061f315d49d9aa2f5a1a22e3fc9ebfc092bc913e467a9c",
+    "normalized_text_hash": "c6901353cf57fa7d6d92db4a3d55cdfcfb43168703126d741258a50f10fbc763",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T15:07:59.203Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

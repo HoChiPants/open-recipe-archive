@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mango-sorbet",
+  "name": "Mango Sorbet",
+  "subtitle": "A bright, smooth frozen mango dessert",
+  "description": "Blend ripe mangoes with simple syrup and lime juice, then whisk until evenly smooth.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mangos",
+      "item": "mangos",
+      "quantity": 4,
+      "preparation": "peeled, seeded, and cubed"
+    },
+    {
+      "ingredient_id": "simple-syrup",
+      "item": "simple syrup",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-lime-juice",
+      "item": "fresh lime juice",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the cubed mangos to a blender and blend until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the simple syrup and fresh lime juice, then blend again until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the mixture for 20 minutes, keeping it evenly combined.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "frozen",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86396/mango-sorbet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aa561552ee9a1e78963bf925c1a813f0c68f76e41cd4734d2ad77b8a6c3c57e6",
+    "normalized_text_hash": "ea39e097cba90adfa915d24a9b010c5702a6355429abd8bf3397f534875350cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:16:54.267Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

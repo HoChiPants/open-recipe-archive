@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "nettle-soup",
+  "name": "Nettle Soup",
+  "subtitle": "A savory soup of blanched nettles, onion, and rice",
+  "description": "Blanching the nettles removes their sting before they are simmered with onion, rice, and chicken broth until tender.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "stinging-nettles",
+      "item": "stinging nettles",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "basmati-rice",
+      "item": "basmati rice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a boil. Add the nettles and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Drain the nettles, let them cool enough to handle, and cut them into pieces."
+    },
+    {
+      "step": 3,
+      "text": "Warm the olive oil in a soup pot over medium heat. Add the onion and cook for 5 minutes, until softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the nettles, basmati rice, and chicken broth. Bring to a gentle simmer and cook for 15 minutes, until the rice is tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Season with salt and pepper. If the broth contains poultry pieces, verify that the soup reaches 165°F with a food thermometer."
+    }
+  ],
+  "tags": [
+    "soup",
+    "nettles",
+    "rice",
+    "american",
+    "one-pot"
+  ],
+  "seasons": [
+    "spring"
+  ],
+  "equipment": [
+    "large pot",
+    "soup pot",
+    "knife",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165071/stinging-nettle-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5a9159e3e2ca4946eaeb084a16b5d1a7a6a7fc1cb1f45ffd15a7ef74aba7f9be",
+    "normalized_text_hash": "e2532cc45e89615f7a73cef8b9b39e9a08aec7474d14707b9b3aa9fa43fbc207",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:10:23.991Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

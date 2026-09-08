@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-teriyaki-tuna",
+  "name": "Grilled Teriyaki Tuna",
+  "subtitle": "Marinated tuna cooked over a hot grill",
+  "description": "Tuna fillets are coated in a savory teriyaki marinade, rested, and grilled until opaque and easily flaked.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "4-ounce-fillets-yellowfin-tuna",
+      "item": "(4 ounce) fillets yellowfin tuna",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the teriyaki sauce, olive oil, minced garlic, and black pepper in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the tuna fillets and turn to coat. Cover and marinate for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill to medium-high heat and lightly oil the grates if needed."
+    },
+    {
+      "step": 4,
+      "text": "Grill the tuna for about 5 minutes per side, turning once, until opaque and easily flaked or the center reaches 145°F.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "tuna",
+    "japanese-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy",
+    "fish"
+  ],
+  "equipment": [
+    "shallow dish",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23039/grilled-teriyaki-tuna/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "223745135cd23d987c77cf965d3ff12679b89bd1d570f545c0943dfe79442db8",
+    "normalized_text_hash": "fef99ee6d75affc714259c79d74a9bca13a8dec4d5f8a218a505afb4a1af6d18",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:12:23.000Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

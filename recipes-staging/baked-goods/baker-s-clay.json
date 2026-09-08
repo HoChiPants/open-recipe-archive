@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baker-s-clay",
+  "name": "Baker's Clay",
+  "subtitle": "Simple baked dough ornaments",
+  "description": "Shape this sturdy salt dough into ornaments, bake until dry, then cool and decorate.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "ornaments"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, water, and salt in a bowl to form a dough."
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Lightly flour a work surface, roll or press the dough until thick, and cut out the ornaments."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the shapes to a baking sheet and add any desired surface details or hanging holes."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 60 minutes, or until firm and dry.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 7,
+      "text": "Cool completely before garnishing or decorating."
+    }
+  ],
+  "tags": [
+    "ornaments",
+    "salt-dough",
+    "baking",
+    "craft-project"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "rolling pin",
+    "cookie cutters",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11125/bakers-clay/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e0f0db4b0daa81dd117c49cc5f77448b10c92b7f4401eaf446e45ab90ebd6fd8",
+    "normalized_text_hash": "f9552ac16f95b7164945da942b2e342a45d3cd47743b186ccf397a53c8d284d9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:53:46.339Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

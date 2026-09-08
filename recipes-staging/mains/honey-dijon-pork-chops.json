@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-dijon-pork-chops",
+  "name": "Honey-Dijon Pork Chops",
+  "subtitle": "Tender pork chops with a sweet mustard glaze",
+  "description": "Boneless pork chops are coated in a honey-mustard mixture and baked until safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "1-inch-thick-boneless-pork-loin-chops",
+      "item": "(1-inch thick) boneless pork loin chops",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the Dijon mustard, honey, pepper, and garlic powder."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the pork chops in a baking dish and coat them with the mustard mixture."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, until the center reaches 145°F on a food thermometer. Rest for 3 minutes before serving.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pork",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228811/honey-dijon-pork-chops/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "30d8d1b844ac80f02b8e37c560c8351934b826ab50210cf6488dc0bba637a69d",
+    "normalized_text_hash": "59a23ffba07732a2c31d98a7f3ea8923c659449d77745f3838df31ece9ca402d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:45:05.543Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

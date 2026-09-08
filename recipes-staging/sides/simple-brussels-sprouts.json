@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-brussels-sprouts",
+  "name": "Simple Brussels Sprouts",
+  "subtitle": "Quickly seasoned and skillet-cooked",
+  "description": "Tender-crisp Brussels sprouts coated with olive oil, kosher salt, and coarse-ground black pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brussels-sprouts",
+      "item": "Brussels sprouts",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "trimmed and halved lengthwise"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "coarse-ground-black-pepper",
+      "item": "coarse-ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the halved Brussels sprouts in a bowl and add the olive oil, kosher salt, and black pepper."
+    },
+    {
+      "step": 2,
+      "text": "Toss until the sprouts are evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Add the sprouts and stir-cook until browned and tender-crisp, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "vegetarian",
+    "vegan",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237093/kiss-keep-it-simple-brussels-sprouts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bf227f6eb12c3cce0a249e1a2196ac9fb542ba886c3245df21475a4fc135bec9",
+    "normalized_text_hash": "20eff75101fcb964f3460769314082cb8952e60585ce38d78a1152b5b24a8572",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:42:31.984Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

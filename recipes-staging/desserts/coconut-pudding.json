@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-pudding",
+  "name": "Coconut Pudding",
+  "subtitle": "Silky chilled pudding with a light cinnamon finish",
+  "description": "A simple coconut pudding thickened with cornstarch, chilled until firm, and finished with cinnamon.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coconut-milk",
+      "item": "coconut milk",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the cornstarch with enough coconut milk to form a smooth slurry."
+    },
+    {
+      "step": 2,
+      "text": "Stir the remaining coconut milk with the sugar and salt in a saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a simmer, then whisk in the slurry."
+    },
+    {
+      "step": 4,
+      "text": "Cook, stirring constantly, until smooth and thickened, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Pour into serving dishes and refrigerate until firm, about 3 hours.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 6,
+      "text": "Sprinkle with the ground cinnamon before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "coconut",
+    "chilled",
+    "pudding"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "gluten-free"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "serving dishes"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238693/tembleque-puerto-rican-coconut-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "62ccfe3676c8bcf5406ae49ee8da85a46c9415c77ee19c59e85092e8600a7def",
+    "normalized_text_hash": "939e9d1537ebc6c94db1cad200c94d0301dd88e03f2b43d9530c1037d8e9774f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:41:42.122Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

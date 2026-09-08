@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-rhubarb-jam",
+  "name": "Apple-Rhubarb Jam",
+  "subtitle": "A cinnamon-scented fruit spread",
+  "description": "Cook diced rhubarb and apples with sugar, water, cinnamon, and pectin until thickened, then cool and chill before serving.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "diced peeled"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dry-pectin",
+      "item": "dry pectin",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "2 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the rhubarb, apples, sugar, water, and cinnamon in a large saucepan. Let the mixture stand for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Bring the fruit mixture to a simmer over medium heat, stirring occasionally."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the dry pectin and return the mixture to a simmer. Cook for 5 minutes, stirring frequently.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Continue simmering until the fruit is tender and the jam reaches a thick, spreadable consistency, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and let the jam rest for 24 hours.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 6,
+      "text": "Cool completely, then chill before serving."
+    }
+  ],
+  "tags": [
+    "jam",
+    "fruit-spread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/117575/easy-apple-rhubarb-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c4dead11debc0cb0bf56dd082542ebf9397630591a64e4460b3455aa78e562bf",
+    "normalized_text_hash": "f6b142ca6bd1b1ffe163aa9999f99a166a6c7c957885c9d16ad6ba42217e1b37",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:19:30.867Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

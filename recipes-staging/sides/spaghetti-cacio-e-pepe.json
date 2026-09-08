@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spaghetti-cacio-e-pepe",
+  "name": "Spaghetti Cacio e Pepe",
+  "subtitle": "Pecorino-coated pasta with black pepper",
+  "description": "A simple Italian pasta side tossed with olive oil, garlic, pepper, and melted Pecorino Romano.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "grated-pecorino-romano-cheese",
+      "item": "grated Pecorino Romano cheese",
+      "quantity": 1.75,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a simmer, then bring it to a boil."
+    },
+    {
+      "step": 2,
+      "text": "Cook the spaghetti in the boiling water for 12 minutes, then drain.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in a skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Add the garlic and ground black pepper; stir for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Add the drained spaghetti and grated Pecorino Romano cheese to the skillet, then stir until the cheese melts, about 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Stir the spaghetti for 1 minute more, then serve.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "italian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246628/spaghetti-cacio-e-pepe/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "257b8e212e7b64947fc96adb21be71d7d99c91e10a76370502d256bfeafdd5b8",
+    "normalized_text_hash": "81a9de9ec1357b7d2a96cca5128222607b145988c7bb9157a33fcdce41554b0f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:18:04.654Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-vermicelli",
+  "name": "Mexican Vermicelli",
+  "subtitle": "Toasted pasta simmered in tomato-seasoned stock",
+  "description": "A simple Mexican-style vermicelli side dish made by browning the pasta before simmering it with onion, chicken stock, and tomato-flavored bouillon.",
+  "meal_type": "side",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "vermicelli-pasta",
+      "item": "vermicelli pasta",
+      "quantity": 7,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cubes-tomato-flavored-bouillon",
+      "item": "cubes tomato-flavored bouillon",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a saucepan over medium heat and add the canola oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the minced onion and stir for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Stir in the vermicelli and cook until golden brown.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add the chicken stock and tomato-flavored bouillon cubes. Bring the mixture to 165°F, then reduce to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Simmer until the vermicelli is tender and the liquid is absorbed.",
+      "timer_minutes": 11
+    }
+  ],
+  "tags": [
+    "mexican",
+    "side-dish",
+    "pasta",
+    "weeknight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/175665/short-cut-mexican-fideo-vermicelli/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7b2558b067b4a23a2426939732c9fbdeebb608ddad8d2dddab3d5f11330981a1",
+    "normalized_text_hash": "a094dbab5814080843f024a8ffa3acee1d5500e4d1ac6949a0bdcb9443e9ba2f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:11:40.538Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

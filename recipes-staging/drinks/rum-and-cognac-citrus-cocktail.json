@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rum-and-cognac-citrus-cocktail",
+  "name": "Rum and Cognac Citrus Cocktail",
+  "subtitle": "A chilled blend of rum, cognac, citrus, and orange aroma",
+  "description": "Shake the spirits and lemon juice with ice, then strain and finish with orange peel.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-rum",
+      "item": "white rum",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cognac",
+      "item": "cognac",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "triple-sec",
+      "item": "triple sec",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "orange-peel-to-garnish",
+      "item": "orange peel to garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the white rum, cognac, triple sec, lemon juice, and ice to a cocktail shaker."
+    },
+    {
+      "step": 2,
+      "text": "Shake until well chilled, then strain into a serving glass."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the orange peel."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "rum",
+    "cognac",
+    "citrus",
+    "shaken-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/between-the-sheets",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d26b84bdc31fffc052fef89f6ca7a2150d7e970268ca836af2e240db8375c360",
+    "normalized_text_hash": "8fd45ccfc28138fc57d38e053dd5155011a9ce1c6fcc80e39e9b00995b60431a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:31:30.313Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

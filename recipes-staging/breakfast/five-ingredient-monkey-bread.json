@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "five-ingredient-monkey-bread",
+  "name": "Five-Ingredient Monkey Bread",
+  "subtitle": "Cinnamon-coated biscuit pieces baked in a buttery sugar glaze",
+  "description": "Tender biscuit pieces are coated with cinnamon sugar, layered in a pan, and baked beneath a simple margarine-sugar glaze.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-biscuit-dough",
+      "item": "refrigerated biscuit dough",
+      "quantity": 3,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Stir 0.75 cup white sugar with the cinnamon in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Cut the biscuit dough into small pieces and toss them in the cinnamon-sugar mixture."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the coated dough pieces in the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Combine the margarine and the remaining 0.75 cup white sugar, then pour the mixture over the dough."
+    },
+    {
+      "step": 6,
+      "text": "Bake until puffed and cooked through.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Cool briefly, then invert the bread onto a serving plate."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "baked",
+    "cinnamon",
+    "easy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "baking pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6925/monkey-bread-v/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d99e9971f71a1a3613dc285ff80adf5a8ca6ed569af257bd0e2c529d929c3f9",
+    "normalized_text_hash": "1c0a54c179fde0d33c0c4df61b41580b9cdda3c629e21fcb6caa5c36edbc580a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:14:03.154Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

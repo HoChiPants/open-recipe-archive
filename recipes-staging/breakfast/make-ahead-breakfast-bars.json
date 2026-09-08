@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "make-ahead-breakfast-bars",
+  "name": "Make-Ahead Breakfast Bars",
+  "subtitle": "A savory baked breakfast with hash browns, ham, eggs, and melted cheese.",
+  "description": "Combine the ingredients, bake until fully set, and cool before cutting into portions.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "frozen-southern-style-hash-browns",
+      "item": "frozen Southern-style hash browns",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "fully-cooked-ham",
+      "item": "fully cooked ham",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "cheddar-monterey-jack-cheese-blend",
+      "item": "Cheddar-Monterey Jack cheese blend",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the hash browns, beaten eggs, ham, cheese, onion powder, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to the prepared dish and spread it evenly."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 40 minutes, until the center is firm and reaches 160°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Let the baked mixture cool briefly, then cut into bars and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "make-ahead",
+    "baked",
+    "savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265839/make-ahead-breakfast-bars/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "827660c4f5242cad530ca83ed86e79304f46477846e2e6f5d5e3a24d9e45af92",
+    "normalized_text_hash": "30ef1b5673b315a55e780184d275c0324e4dc3441989c622671bc73a77606260",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:12:06.798Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

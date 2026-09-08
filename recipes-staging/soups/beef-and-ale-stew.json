@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-and-ale-stew",
+  "name": "Beef and Ale Stew",
+  "subtitle": "Slow-braised beef with onions and mushrooms",
+  "description": "Tender beef simmers with stout, stock, thyme, and onions, then finishes with mushrooms and parsley.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 210
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "braising-beef-cut-into-3-5cm-pieces",
+      "item": "braising beef cut into 3.5cm pieces",
+      "quantity": "1 1/2",
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "onions-thickly-sliced",
+      "item": "onions thickly sliced",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "stout",
+      "item": "stout",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "beef-stock",
+      "item": "beef stock",
+      "quantity": 800,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "thyme-sprigs",
+      "item": "thyme sprigs",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "chestnut-mushrooms-halved",
+      "item": "chestnut mushrooms halved",
+      "quantity": 450,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-parsley-to-serve",
+      "item": "handful parsley to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and set a large ovenproof pot over medium heat. Add the oil, then cook the onions until golden brown, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir in the flour and cook for 2 minutes. Pour in the stout gradually, stirring to loosen any browned bits.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the beef, stock, and thyme. Bring the liquid to a simmer, cover the pot, and transfer it to the oven."
+    },
+    {
+      "step": 4,
+      "text": "Braise for the remaining cooking time, stirring in the mushrooms near the end, until the beef is tender and reaches at least 145°F internally. Let whole-cut beef rest for 3 minutes.",
+      "timer_minutes": 198
+    },
+    {
+      "step": 5,
+      "text": "Remove the thyme sprigs, stir in the parsley, and serve the stew hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "stew",
+    "braise",
+    "ale",
+    "mushrooms",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large ovenproof pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beef-stout-stew",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c76a0413a9af66be370bfe89e88a3965615ddc1c10c44743ac3a480a1df958c8",
+    "normalized_text_hash": "62a63e765918ad5ec1f1a0b5d157bbf5b7b6ba297f319566a2f1ba673c044535",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:17:31.765Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-pea-salad",
+  "name": "Green Pea Salad",
+  "subtitle": "A creamy pea salad with toasted almonds and feta",
+  "description": "Sweet peas, crunchy almonds, green onions, and feta are combined with a tangy balsamic mayonnaise dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-green-peas",
+      "item": "frozen green peas",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "black-pepper-to-taste",
+      "item": "black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the peas, onions, feta, and dressing ingredients. Transfer the frozen peas to a large mixing bowl."
+    },
+    {
+      "step": 2,
+      "text": "Toast the chopped almonds in a dry skillet over medium heat for 5 minutes, stirring occasionally, until golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the toasted almonds, green onions, feta, and mayonnaise to the peas; toss to combine."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the balsamic vinegar and season with black pepper to taste."
+    }
+  ],
+  "tags": [
+    "salad",
+    "pea-salad",
+    "vegetarian",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/89805/balsamic-pea-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "be7e85d65cda9b3efbfce00f8999d02298eadc4242659cc417c38102d0beebcd",
+    "normalized_text_hash": "e855e43fa5048395f99d448e3586e8c34c84b7c2fd1bda1bd36e5279dd25237d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:01:57.065Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

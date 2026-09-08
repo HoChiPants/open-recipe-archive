@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pulled-pork-pizza",
+  "name": "Pulled Pork Pizza",
+  "subtitle": "Smoky barbecue pizza with crisp vegetables",
+  "description": "A quick pizza topped with barbecue-seasoned pulled pork, onion, and red bell pepper.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pre-baked-pizza-crust",
+      "item": "pre-baked pizza crust",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more as desired"
+    },
+    {
+      "ingredient_id": "chipotle-chili-powder",
+      "item": "chipotle chili powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "prepared-pulled-pork",
+      "item": "prepared pulled pork",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.125,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.125,
+      "unit": "cup",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 450°F. Place the pre-baked crust on a baking sheet or pizza pan."
+    },
+    {
+      "step": 2,
+      "text": "Stir the barbecue sauce and chipotle chili powder together."
+    },
+    {
+      "step": 3,
+      "text": "Season the pulled pork with salt and pepper to taste, then arrange it over the crust with the onion and bell pepper."
+    },
+    {
+      "step": 4,
+      "text": "Spread the seasoned barbecue sauce over the toppings."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until the crust is crisp and the pork reaches 145°F. Rest for 3 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "barbecue",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet or pizza pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219890/bbq-pulled-pork-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "434d6f8235ff8fa8b4e6aafe0aa1de375ea58c00ea40722c0fd085364ea359a6",
+    "normalized_text_hash": "ac7cf4cf7427903691c79b8c36c649a3eec2cdbffecb82d50c3b80c7366469f6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:14:15.445Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

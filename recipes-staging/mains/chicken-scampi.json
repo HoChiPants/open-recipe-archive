@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-scampi",
+  "name": "Chicken Scampi",
+  "subtitle": "Garlic-herb chicken in a lemon butter sauce",
+  "description": "Tender sliced chicken breasts cooked with garlic, herbs, lemon juice, butter, and olive oil for a simple savory dinner.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "boneless-chicken-breast-halves",
+      "item": "boneless chicken breast halves",
+      "quantity": 4,
+      "preparation": "sliced lengthwise into thirds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat. Add the olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the parsley, basil, oregano, garlic, and salt, then add the mixture to the skillet. Stir in the lemon juice."
+    },
+    {
+      "step": 3,
+      "text": "Add the chicken pieces and cook for 3 minutes, turning to coat them in the seasoned fat.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking until the chicken is cooked through and reaches 165°F in the thickest piece, about 15 minutes total cooking time.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Spoon the lemon-butter sauce over the chicken and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8761/chicken-scampi-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ac2d4d198d86f43ec0945d7f0be1ff5bec20b5d8b2a14f2e74ee2ce6e79a5b6f",
+    "normalized_text_hash": "37fe1fa0f7da8b346ea05728402a8473d6656a6f320268efa0b34c52f381b962",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:15:53.430Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

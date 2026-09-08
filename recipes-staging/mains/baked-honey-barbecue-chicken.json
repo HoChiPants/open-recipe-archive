@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-honey-barbecue-chicken",
+  "name": "Baked Honey Barbecue Chicken",
+  "subtitle": "Sweet, tangy chicken baked in a simple barbecue glaze",
+  "description": "Chicken breasts are coated with a honey barbecue mixture and baked until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the barbecue sauce, honey, ketchup, and chopped onion."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken breast halves in a baking dish and pour the sauce mixture over them."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, until the thickest part of the chicken reaches 165°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16741/easy-bbq-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8e7f5a3015ae4a9bd0abe572cb6ff55b1725754890cfd5e414783721d722a468",
+    "normalized_text_hash": "c9e46c7688b230711e6aa83c2415bd3d5558073380c4abf6216ce8b977ce7a4a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:48:24.503Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

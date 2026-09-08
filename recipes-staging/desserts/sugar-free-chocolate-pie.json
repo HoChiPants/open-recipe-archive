@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sugar-free-chocolate-pie",
+  "name": "Sugar-Free Chocolate Pie",
+  "subtitle": "A chilled chocolate pudding pie with a light whipped topping.",
+  "description": "Prepare the filling, chill it in a baked crust, and finish with thawed whipped topping for a simple refrigerated dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-deep-dish-pie-crust",
+      "item": "(9 inch) deep dish pie crust",
+      "quantity": 1,
+      "preparation": "baked and cooled"
+    },
+    {
+      "ingredient_id": "instant-sugar-free-chocolate-pudding-mix",
+      "item": "instant sugar-free chocolate pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1.4 ounce"
+    },
+    {
+      "ingredient_id": "frozen-reduced-calorie-whipped-topping",
+      "item": "frozen reduced-calorie whipped topping",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the instant pudding mix according to the package directions."
+    },
+    {
+      "step": 2,
+      "text": "Spoon the prepared pudding into the baked, cooled pie crust and smooth the surface."
+    },
+    {
+      "step": 3,
+      "text": "Refrigerate the pie until chilled and set, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Top with the thawed whipped topping before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "chocolate",
+    "sugar-free",
+    "no-bake-filling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon or spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12431/pams-sugar-free-chocolate-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b26edfbe4588172d281399e6a795f0dadcfabf22e214c3d5183ae3ad71a2082c",
+    "normalized_text_hash": "7bbcb988547779ff5f3279a07ca73084760a9696dd3b5f33e8575cddc3b3c2ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:46:13.781Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "deep-fried-french-toast",
+  "name": "Deep-Fried French Toast",
+  "subtitle": "Crisp, golden slices with a tender center",
+  "description": "Thick French bread is coated in a simple sweet batter and fried until crisp and golden.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 5.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "thick-slices-1-inch-thick-french-bread",
+      "item": "thick slices (1-inch thick) French bread",
+      "quantity": 8
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs, sugar, and salt in a bowl. In a second bowl, whisk the milk and flour until smooth, then combine the mixtures."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil to 375°F in a deep fryer or heavy pot, using a thermometer to monitor the temperature."
+    },
+    {
+      "step": 3,
+      "text": "Coat each bread slice evenly with the batter, allowing excess to drip off."
+    },
+    {
+      "step": 4,
+      "text": "Fry the slices in batches until golden brown, turning as needed for even coloring, about 4 minutes per batch.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Transfer the fried French toast to a rack or paper towels to drain before serving."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "french-toast",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "deep fryer or heavy pot",
+    "food thermometer",
+    "tongs",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/162597/deep-fried-french-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c3cee1b1aad106b7d4eb75ede41f05f790f7b0b3f59efaa71d83fad6605e7057",
+    "normalized_text_hash": "2c7d1ef2bf9ff4eb2f1b155a932a0d7924976c2cccbe4c8adabfc9ff497244b0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:02:14.095Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

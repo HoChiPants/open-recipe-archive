@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "butterscotch-bread-pudding",
+  "name": "Butterscotch Bread Pudding",
+  "subtitle": "A warm, custardy dessert with brown sugar and butterscotch",
+  "description": "Day-old bread absorbs a sweet vanilla custard before baking with butterscotch chips until firm and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "10-75-ounce-loaf-day-old-bread",
+      "item": "(10.75 ounce) loaf day-old bread",
+      "quantity": 1,
+      "preparation": "torn into small pieces"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butterscotch-chips",
+      "item": "butterscotch chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the bread, milk, brown sugar, melted butter, beaten eggs, vanilla, and butterscotch chips in a bowl; mix until evenly moistened."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a suitable baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bread-pudding",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20265/butterscotch-bread-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8fdb755c91d8f2e0de9bf7144f049ec9d0ae22e13b484102da6923d116742d40",
+    "normalized_text_hash": "dd6c676932b74e9b0cc4d411e1242b3cf98368923b0d380e77c06ca608bb17ab",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:35:42.577Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

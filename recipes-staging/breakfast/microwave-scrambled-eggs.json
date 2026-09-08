@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "microwave-scrambled-eggs",
+  "name": "Microwave Scrambled Eggs",
+  "subtitle": "Quick, soft-set eggs for two",
+  "description": "Whisk eggs with milk and salt, then microwave in short intervals until fluffy and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Crack the eggs into a microwave-safe bowl. Add the milk and salt, then whisk until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Microwave on high for 1 minute. Stir well, breaking up the partially set egg.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Continue microwaving in 30-second intervals, stirring after each, until the eggs are fluffy and the center is firm and fully set, or reaches 160°F on a food thermometer."
+    },
+    {
+      "step": 4,
+      "text": "Let stand briefly, then serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "quick",
+    "microwave"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272293/fluffy-microwave-scrambled-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "abdb45d0d2baabdcf9efd1d115845ef7666dadd60f504c9df730a8b73557faab",
+    "normalized_text_hash": "0eaed092f55b6068bc6c8e22e2a21f3b120a3ea4e09d79774a655e1d8383edde",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:16:05.948Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

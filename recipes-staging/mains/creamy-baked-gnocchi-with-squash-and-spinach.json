@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-baked-gnocchi-with-squash-and-spinach",
+  "name": "Creamy Baked Gnocchi with Squash and Spinach",
+  "subtitle": "A rich vegetable-filled gnocchi bake with a crisp crumb topping.",
+  "description": "Tender squash, spinach, mascarpone, and gnocchi combine into a creamy main dish finished with Parmesan and breadcrumbs.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butternut-squash-peeled",
+      "item": "butternut squash peeled",
+      "quantity": 600,
+      "unit": "g",
+      "preparation": "deseeded and cut into small chunks (450g prepared weight)"
+    },
+    {
+      "ingredient_id": "olive-oil-plus-a-drizzle",
+      "item": "olive oil plus a drizzle (for optional air-frying)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed",
+      "item": "garlic cloves crushed",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "baby-leaf-spinach",
+      "item": "baby leaf spinach",
+      "quantity": 160,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mascarpone",
+      "item": "mascarpone",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "grating-of-nutmeg",
+      "item": "grating of nutmeg"
+    },
+    {
+      "ingredient_id": "parmesan-or-vegetarian-alternative-grated",
+      "item": "parmesan or vegetarian alternative grated",
+      "quantity": 30,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "gnocchi",
+      "item": "gnocchi",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fresh-or-dried-breadcrumbs",
+      "item": "fresh or dried breadcrumbs",
+      "quantity": 3,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Microwave the squash for 5 minutes, then cook it with the olive oil and crushed garlic for about 12 minutes, adding the spinach until wilted. Continue until the squash is tender.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Stir in the mascarpone, nutmeg, and Parmesan or vegetarian alternative until smooth. Add the gnocchi and simmer for 2 minutes, until the sauce thickens.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish. Sprinkle with the breadcrumbs and finish under a preheated oven or air fryer until bubbling and golden."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-gnocchi",
+    "butternut-squash",
+    "spinach",
+    "vegetarian-main"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave",
+    "skillet",
+    "baking dish",
+    "oven or air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/creamy-baked-gnocchi-with-squash-spinach",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "346afd8b542e7da9d2ddce46e52939b9d24ca712b360c19323de9dc9c69310e4",
+    "normalized_text_hash": "805e6bc8c9f8297861c78df351e04fa07ca3a85b976000268a9e3431b53d8ddc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:20:44.549Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-breakfast-syrup",
+  "name": "Peanut Butter Breakfast Syrup",
+  "subtitle": "A warm, creamy topping for pancakes and waffles",
+  "description": "A quick stovetop syrup combining peanut butter, milk, sugar, and vanilla.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skim-milk",
+      "item": "skim milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "natural-peanut-butter",
+      "item": "natural peanut butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk, sugar, and peanut butter in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Cook, stirring frequently, until the mixture reaches a gentle simmer and the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat, stir in the vanilla extract, and serve warm.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "syrup",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232866/peanut-butter-breakfast-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8a5ccf4806f164443dc71d554c2e843f70963a7109d1b4bd5d17223369a2625f",
+    "normalized_text_hash": "05132be7c7852c288476d455960047ff4b360faefdfa3503623ff0a1b36a4155",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:59:37.242Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

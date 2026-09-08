@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pierogi-casserole",
+  "name": "Pierogi Casserole",
+  "subtitle": "Layered potatoes, noodles, bacon, and cheddar",
+  "description": "A hearty baked casserole combining creamy mashed potatoes, savory bacon and onion, lasagna noodles, and melted cheddar, finished with chive sour cream.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 5,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "lasagna-noodles",
+      "item": "lasagna noodles",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Simmer the potatoes in water until tender, then drain and transfer to a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Mash the potatoes with the milk and melted butter; season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Cook the bacon, onion, and garlic with butter over medium heat for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Cook the lasagna noodles according to their package directions and drain."
+    },
+    {
+      "step": 6,
+      "text": "Layer the noodles, potato mixture, bacon mixture, and cheddar in a baking dish, repeating as needed and ending with cheese."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 45 minutes, until the cheese is melted and the casserole reaches 165°F in the center.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 8,
+      "text": "Whisk the sour cream with the chives and serve with the hot casserole."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "potatoes",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18841/pierogi-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "98bb876757f4fa5ce367830b8f37f220d5de2bbe184b9338e26f8a5dc9571f66",
+    "normalized_text_hash": "97eafe5f604c1fe2fcebcb058e4a658850e94b6219d1f382bfe10a792e781e8d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:18:30.807Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

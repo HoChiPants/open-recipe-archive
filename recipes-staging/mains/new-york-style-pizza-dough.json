@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "new-york-style-pizza-dough",
+  "name": "New York-Style Pizza Dough",
+  "subtitle": "Overnight dough for a crisp, foldable crust",
+  "description": "A yeast-raised pizza dough that rests warm before an extended chill for improved texture and flavor.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 620
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the warm water, 0.5 cup flour, yeast, and sugar. Stir and let stand for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Add the remaining flour, 2 tablespoons of the olive oil, and salt. Stir until a dough forms, adding flour as needed."
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough on a lightly floured surface until smooth and elastic, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Divide the dough into six portions and shape each into a ball. Coat the balls with the remaining olive oil."
+    },
+    {
+      "step": 5,
+      "text": "Place the dough balls in a container, cover, and let rise in a warm place for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Refrigerate the covered dough for 8 hours before using.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 7,
+      "text": "Bring the dough to room temperature, then stretch or roll each portion for pizza."
+    }
+  ],
+  "tags": [
+    "pizza",
+    "dough",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "work surface",
+    "airtight container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236325/new-york-style-pizza-dough/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3459f3d75b05cf2eea76b82af4e3e5b0ec3b2633f4ad8c5c693a00362e4272fa",
+    "normalized_text_hash": "5bd4236df17af310bc51c20f782ec11995bfa35a7ec0b5af5ee3f96968805ef0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:12:48.203Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

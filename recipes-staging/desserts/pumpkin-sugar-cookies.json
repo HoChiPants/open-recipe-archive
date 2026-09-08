@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-sugar-cookies",
+  "name": "Pumpkin Sugar Cookies",
+  "subtitle": "Soft-spiced cookies with pumpkin",
+  "description": "Tender pumpkin cookies flavored with cinnamon and vanilla, chilled before shaping and baking.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the sugar and softened butter until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the egg until blended."
+    },
+    {
+      "step": 3,
+      "text": "Add the pumpkin puree, vanilla, cinnamon, salt, and baking powder; whisk until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the flour until a cohesive dough forms."
+    },
+    {
+      "step": 5,
+      "text": "Cover and chill the dough for 120 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 6,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 7,
+      "text": "Roll or pat the chilled dough on a lightly floured surface and cut into cookies."
+    },
+    {
+      "step": 8,
+      "text": "Transfer the cookies to a baking sheet."
+    },
+    {
+      "step": 9,
+      "text": "Bake for 8 minutes, until lightly browned and fully set; if checking with a thermometer, the center should reach 160°F because the dough contains egg.",
+      "timer_minutes": 8
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "pumpkin",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "rolling pin",
+    "cookie cutter",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240303/pumpkin-sugar-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "513c3b97ec1502ec1b9749b8da3f64a3c70971079a3271085f4394df22fb5640",
+    "normalized_text_hash": "67b7caecf4653f488131cfa0974907de3aaac5ea12f15b306cc50e028c21cd0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:37:16.519Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tiramisu-martini",
+  "name": "Tiramisu Martini",
+  "subtitle": "A chilled espresso cocktail with creamy coffee flavor",
+  "description": "Combine espresso, coffee liqueur, vanilla vodka, chocolate liqueur, and cream for two dessert-style martinis finished with cocoa.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baileys-chocolate-liqueur",
+      "item": "Baileys Chocolate Liqueur",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cold-strong-espresso",
+      "item": "cold strong espresso",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "coffee-liqueur",
+      "item": "coffee liqueur",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vanilla-vodka",
+      "item": "vanilla vodka",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "single-or-double-cream",
+      "item": "single or double cream",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cocoa-for-dusting",
+      "item": "cocoa for dusting"
+    },
+    {
+      "ingredient_id": "savoiardi-biscuit-to-garnish-optional",
+      "item": "savoiardi biscuit to garnish (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Ensure the espresso is cold. Whisk it with the chocolate liqueur, coffee liqueur, vanilla vodka, and cream until combined."
+    },
+    {
+      "step": 2,
+      "text": "Divide the mixture between two martini glasses. Dust with cocoa and garnish with a savoiardi biscuit, if desired."
+    }
+  ],
+  "tags": [
+    "alcoholic-cocktail",
+    "dessert-cocktail",
+    "espresso-cocktail",
+    "martini",
+    "tiramisu-inspired"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "martini glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baileys-tiramisu-martini",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00c5fa8ec7d510856023b89cc7db623f3b0baf40663ceaa7ae3fa013455c9195",
+    "normalized_text_hash": "cd18842c6fddaac0f02ea4e29ececed3430c1ce53b90b249866e908ffda03a4a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T03:58:55.724Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

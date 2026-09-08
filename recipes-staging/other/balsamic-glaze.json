@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "balsamic-glaze",
+  "name": "Balsamic Glaze",
+  "subtitle": "A glossy sweet-tart reduction",
+  "description": "Reduce balsamic vinegar with caster sugar until thick and syrupy, then cool slightly before serving.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 40,
+    "unit": "ml (6 servings)"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 6
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the balsamic vinegar and caster sugar in a small saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a gentle simmer over medium heat, stirring until the sugar dissolves. Cook for about 6 minutes, or until the mixture is thickened and coats a spoon.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Transfer to a heatproof container and let cool slightly before using."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "sauce",
+    "balsamic",
+    "glaze"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "small saucepan",
+    "spoon",
+    "heatproof container"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/balsamic-glaze",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "485e81c8c67b4dd4de55c9cda79f83d5a68c5ec7c77dd454a93fe5f00fcef0b5",
+    "normalized_text_hash": "2bcc6771ce6c7a51720f6fb2cfab33b31f1c1dcb80d77095d1c3af72ba79f05a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:07:14.932Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

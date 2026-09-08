@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crispy-fried-chicken",
+  "name": "Crispy Fried Chicken",
+  "subtitle": "Buttermilk-soaked chicken with a crisp seasoned coating",
+  "description": "Chicken is marinated in buttermilk, coated with seasoned flour, and fried until crisp and safely cooked through.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4-pound-chicken",
+      "item": "(4 pound) chicken",
+      "quantity": 1,
+      "preparation": "cut into pieces"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "all-purpose-flour-for-coating",
+      "item": "all-purpose flour for coating",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 2,
+      "unit": "quarts"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken pieces in the buttermilk and let them stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, paprika, salt, and pepper in a shallow dish."
+    },
+    {
+      "step": 3,
+      "text": "Remove the chicken from the buttermilk, allowing excess to drip off, then coat each piece thoroughly in the seasoned flour."
+    },
+    {
+      "step": 4,
+      "text": "Heat the vegetable oil in a heavy pot or deep fryer to 350°F."
+    },
+    {
+      "step": 5,
+      "text": "Fry the chicken in batches until deeply golden and cooked through, about 30 minutes total; the thickest pieces must reach 165°F on a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Transfer the chicken to a rack or paper-lined plate to drain, then rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "fried-chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "heavy pot or deep fryer",
+    "food thermometer",
+    "shallow dish",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8805/crispy-fried-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "038e4c1b075090cc62622877bda8dc1606478338cec425e55795dc3596c08d26",
+    "normalized_text_hash": "b014ae9fafd53fcc89612cfd830d0bd3404b88f5878a26723eccaa1377f08e16",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:49:26.585Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

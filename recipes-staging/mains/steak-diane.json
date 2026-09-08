@@ -1,0 +1,165 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "steak-diane",
+  "name": "Steak Diane",
+  "subtitle": "Tender beef with a creamy cognac pan sauce",
+  "description": "Sear pounded tenderloin steaks, then finish a mustardy pan sauce with shallot, cognac, cream, and chives.",
+  "meal_type": "main",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "demi-glace",
+      "item": "demi-glace",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "8-ounce-beef-tenderloin-steaks",
+      "item": "(8 ounce) beef tenderloin steaks",
+      "quantity": 2,
+      "preparation": "fully trimmed, pounded to 1/2 inch thick"
+    },
+    {
+      "ingredient_id": "kosher-salt-and-freshly-ground-black-pepper",
+      "item": "Kosher salt and freshly ground black pepper",
+      "preparation": "to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "cut into small chunks"
+    },
+    {
+      "ingredient_id": "shallot",
+      "item": "shallot",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "cognac-or-brandy",
+      "item": "Cognac or brandy",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-chives",
+      "item": "fresh chives",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Season the steaks with salt and pepper, then coat them with the Worcestershire sauce. Stir the demi-glace, mustard, tomato paste, cayenne, and a pinch of the seasoned salt and pepper together in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Heat the oil in a large skillet over medium-high heat. Add the steaks and cook until browned and nearly at the desired doneness, about 3 minutes per side. Transfer them to a plate and rest until the sauce is ready.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Lower the heat to medium and add the butter. When it foams, add the shallot and cook until softened, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Remove the skillet from the heat and add the Cognac or brandy. Return it to the heat and carefully cook until the alcohol scent subsides."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the demi-glace mixture and heavy cream. Simmer until the sauce is smooth and slightly thickened, then whisk in any juices from the resting steaks.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Return the steaks briefly to the skillet and coat with the sauce. For food safety, verify that whole-cut beef reaches 145°F internally, then allow a 3-minute rest. Finish with the chives."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "steak",
+    "skillet",
+    "pan-sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/247365/chef-johns-steak-diane/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4708b61f467faf8067ab05e50296029843551ba043d4f1384b7121b775c89bc1",
+    "normalized_text_hash": "81a9fe1d0daff8214f9a08e42956c3a560686507573a618b829b0aa1925eb035",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:43:45.696Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

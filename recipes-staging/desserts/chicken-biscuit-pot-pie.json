@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-biscuit-pot-pie",
+  "name": "Chicken Biscuit Pot Pie",
+  "subtitle": "A creamy chicken-and-vegetable filling under golden biscuits",
+  "description": "A quick American-style pot pie made with canned chicken, mixed vegetables, creamy soup, and flaky biscuits.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted, divided"
+    },
+    {
+      "ingredient_id": "frozen-mixed-vegetables",
+      "item": "frozen mixed vegetables",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "chicken-chunks",
+      "item": "chicken chunks",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "reduced-fat-milk",
+      "item": "reduced-fat milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "refrigerated-flaky-layer-biscuits",
+      "item": "refrigerated flaky layer biscuits",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Lightly grease a baking dish with some of the melted butter."
+    },
+    {
+      "step": 2,
+      "text": "Cook the frozen vegetables in a saucepan over medium heat for 7 minutes, or until tender.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chicken and condensed soup. Add the milk, season with salt and pepper, and simmer until the mixture is smooth and hot."
+    },
+    {
+      "step": 4,
+      "text": "Pour the filling into the prepared baking dish and arrange the biscuits over the top. Brush the biscuits with the remaining melted butter."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until the biscuits are golden and the center of the filling reaches 165°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Let the pot pie rest for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "american",
+    "casserole",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18370/cheater-pot-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "43cd98366ed205b727b06c861e9ca1b89c5ac9986227fe04e069e982e64fe92b",
+    "normalized_text_hash": "a9d24248d7f54579ce4e43372de45c95bf9ae6dd35e7b9a3d0bced53b18b8193",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:05:13.938Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

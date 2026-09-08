@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-hot-dogs",
+  "name": "Air Fryer Hot Dogs",
+  "subtitle": "Quickly toasted buns with crisp, heated hot dogs",
+  "description": "Toast the buns in the air fryer, then heat the hot dogs before assembling and serving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hot-dog-buns",
+      "item": "hot dog buns",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "hot-dogs",
+      "item": "hot dogs",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the hot dog buns in the air fryer basket and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Remove the buns. Place the hot dogs in the basket and cook for 3 minutes, until heated through.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Place one hot dog in each bun and serve."
+    }
+  ],
+  "tags": [
+    "quick",
+    "air-fryer",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268494/basic-air-fryer-hot-dogs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d936780fb3da86776f48a366266ad713424df944661a80b5d3d2ba0078b18605",
+    "normalized_text_hash": "1e7fc83bc91c399f6369a10cc15479ba77079df67add06304a2bd3cf958bb341",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:05:50.502Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

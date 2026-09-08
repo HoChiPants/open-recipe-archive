@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chorizo-street-tacos",
+  "name": "Chorizo Street Tacos",
+  "subtitle": "Smoky chorizo tacos with fresh toppings",
+  "description": "Spiced chorizo is cooked with chipotle, tucked into warm corn tortillas, and finished with onion and cilantro.",
+  "meal_type": "main",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chorizo-sausage-link",
+      "item": "chorizo sausage link",
+      "quantity": 1,
+      "preparation": "casing removed and meat crumbled"
+    },
+    {
+      "ingredient_id": "chipotle-peppers-in-adobo-sauce",
+      "item": "chipotle peppers in adobo sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "corn-tortillas",
+      "item": "corn tortillas",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped, or to taste"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the crumbled chorizo with the chipotle peppers in adobo sauce."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat. Add the chorizo mixture and cook for 7 minutes, breaking it up as it cooks, until it reaches 160°F.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Transfer the cooked chorizo to a plate. Warm the corn tortillas in the skillet for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Fill the tortillas with chorizo and top with chopped onion and cilantro."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "mexican",
+    "tacos"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257865/easy-chorizo-street-tacos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "53d438e9f1453d4fba3424b088408eed4386ceeff57ed99e05336860c4a06470",
+    "normalized_text_hash": "1031c336028a15e8c8157fb6ed08af24447fa000b05ee016f7149a595ad13cbc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:27:00.979Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

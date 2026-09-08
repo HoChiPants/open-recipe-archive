@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-peanut-butter-cornflake-cookies",
+  "name": "Chocolate Peanut Butter Cornflake Cookies",
+  "subtitle": "A crisp, no-bake chocolate treat",
+  "description": "Chocolate and peanut butter coat cornflakes for a quick, crunchy cookie-style dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cornflakes",
+      "item": "cornflakes",
+      "quantity": 3,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a tray or plate with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Warm the chocolate chips and peanut butter together, stirring for 3 minutes, until melted and smooth.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the cornflakes and gently stir until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the mixture into 12 portions on the prepared tray."
+    },
+    {
+      "step": 5,
+      "text": "Chill until set, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "no-bake",
+    "chocolate",
+    "peanut-butter"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "parchment paper",
+    "tray or plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254850/chocolate-peanut-butter-cornflake-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc52b7617a8a83f1b53a876fc3a1f7eb6b8be12f1abacce8ebaa887c514cebc8",
+    "normalized_text_hash": "9730c4422e79e4c1096e46d3895e6a2fca8b274e553b95523adc8f86d0dcb348",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:36:50.905Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fattigmann",
+  "name": "Fattigmann",
+  "subtitle": "Cardamom-scented fried pastry",
+  "description": "A crisp, lightly sweet Norwegian pastry flavored with cardamom and finished with sugar.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "ground-cardamom",
+      "item": "ground cardamom",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lard-for-frying",
+      "item": "lard for frying",
+      "quantity": 4,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg and egg yolks together. Whisk in the heavy cream, white sugar, melted butter, and ground cardamom."
+    },
+    {
+      "step": 2,
+      "text": "Add the flour and mix just until a soft dough forms. Cover and chill for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Preheat the lard to 375°F in a suitable deep-frying pan or pot."
+    },
+    {
+      "step": 4,
+      "text": "Roll the dough thinly on a lightly floured surface, then cut into small pastry pieces and shape as desired."
+    },
+    {
+      "step": 5,
+      "text": "Fry the pastries in batches until lightly browned and the centers are fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Drain briefly, then cool and coat with white sugar."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fried-pastry",
+    "norwegian",
+    "cardamom",
+    "holiday"
+  ],
+  "seasons": [
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "deep-frying pan or pot",
+    "food thermometer",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24458/fattigmann/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a68969ea75b9a5f9674df60c28b26f34fc9970014b4aa828b876cd5a19240965",
+    "normalized_text_hash": "a2d8f63380111a388f4622ae0c01fa9dd87188e3c4e3cda1b73c594711ca1a9f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:08:10.092Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

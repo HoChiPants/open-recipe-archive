@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "flavored-latte",
+  "name": "Flavored Latte",
+  "subtitle": "Warm espresso with sweetened steamed milk",
+  "description": "A simple single-serving latte combining flavored syrup, hot milk, and brewed espresso.",
+  "meal_type": "breakfast",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "2-milk",
+      "item": "2% milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "any-flavor-of-flavored-syrup",
+      "item": "any flavor of flavored syrup",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-brewed-espresso",
+      "item": "(1.5 fluid ounce) jigger brewed espresso",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the 2% milk to 165°F."
+    },
+    {
+      "step": 2,
+      "text": "Pour the flavored syrup into a serving cup."
+    },
+    {
+      "step": 3,
+      "text": "Add the hot milk and brewed espresso to the cup, then stir to combine."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "espresso",
+    "latte"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer",
+    "serving cup"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/146967/flavored-latte/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00236fde690dc2722edacbbc9e8341ee4c94fde718f95ce824c5625cc4f68ff3",
+    "normalized_text_hash": "9367dc03f9370e0db7c7ddd86a0000451422a3ffc1c0be54313e92a34d0fa552",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:14:24.648Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

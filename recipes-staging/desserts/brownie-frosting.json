@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brownie-frosting",
+  "name": "Brownie Frosting",
+  "subtitle": "Quick chocolate topping for brownies",
+  "description": "A smooth chocolate frosting made by heating sugar, milk, and butter, then melting in chocolate chips and vanilla.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "dash"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sugar, milk, and softened butter in a saucepan and heat until the mixture reaches a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Remove from the heat, then add the chocolate chips and vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Stir until the chocolate is completely melted and the frosting is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the frosting to the brownies and spread as desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "brownies",
+    "frosting",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon or spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/145231/brownie-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cb3829d8b23f6b047102dd68e9eb46cc9e6c7891446c09ec67f43c4c50c0ef13",
+    "normalized_text_hash": "6f2acd0ed99936f2e3c40e3fdd96a4c1ca6e6e5c6e1426183a8a6027f0f58aef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:22:03.495Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

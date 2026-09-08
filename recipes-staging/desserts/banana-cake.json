@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-cake",
+  "name": "Banana Cake",
+  "subtitle": "A tender cake made with ripe bananas and walnuts",
+  "description": "This simple American dessert combines mashed bananas, butter, and walnuts in a lightly sweetened cake baked until fully set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ripe-bananas",
+      "item": "ripe bananas",
+      "quantity": 4,
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the all-purpose flour for mixing."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the white sugar and unsalted butter until combined."
+    },
+    {
+      "step": 4,
+      "text": "Add the mashed ripe bananas, prepared flour, chopped walnuts, eggs, baking soda, vanilla extract, and salt."
+    },
+    {
+      "step": 5,
+      "text": "Combine the mixture until evenly blended."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to a baking pan."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 30 minutes, until the center is firm and fully set; for a thermometer check, it should reach 160°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 8,
+      "text": "Cool before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "banana",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7306/surprise-banana-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0ffd75ce8e1bd607d268a4a2fe49ed4713ef76a90eb4a5d71b4f7bdd318c9f24",
+    "normalized_text_hash": "ea97dde368a08b1878c12ca6089fbc6073d3c30b3124dd3f5648021ebea335cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:16:26.819Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

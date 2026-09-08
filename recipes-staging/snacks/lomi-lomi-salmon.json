@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lomi-lomi-salmon",
+  "name": "Lomi Lomi Salmon",
+  "subtitle": "Chilled salmon salad with fresh tomatoes and onions",
+  "description": "A bright, lightly spicy mixture of salted salmon, tomatoes, and onions served cold as a snack or appetizer.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salted-salmon",
+      "item": "salted salmon",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 6,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper-to-taste",
+      "item": "cayenne pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the diced salted salmon, tomatoes, white onion, and green onion. Season with sea salt and cayenne pepper, then stir gently."
+    },
+    {
+      "step": 2,
+      "text": "Cover and chill for 30 minutes. Use salted salmon intended to be eaten without cooking; if using uncooked fish instead, cook it to 145°F and cool before mixing.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Serve chilled."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "hawaiian",
+    "chilled",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84860/lomi-lomi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0d580c3507ac2560f1896c5fe743dc240e1b6145c5098557e3ef040dc2f66d68",
+    "normalized_text_hash": "f6fd81baee246768a3ad45e0ec519a4e4abcd3005abd2bcdab8035bd362e79dc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:05:50.755Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

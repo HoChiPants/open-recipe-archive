@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "charred-spicy-salsa",
+  "name": "Charred Spicy Salsa",
+  "subtitle": "Smoky tomato salsa with fresh lime",
+  "description": "Charred tomatoes, onion, jalapeños, and garlic make a smoky, bright salsa for serving alongside meals.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "as a side"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "plum-tomatoes",
+      "item": "plum tomatoes",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "onion-left-whole",
+      "item": "onion left whole",
+      "quantity": "1/2",
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "fresh-jalapen-os",
+      "item": "fresh jalapeños",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic cloves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "coriander-chopped",
+      "item": "coriander chopped (optional)",
+      "quantity": 10,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the tomatoes, whole onion half, jalapeños, and garlic on a broiler-safe tray."
+    },
+    {
+      "step": 2,
+      "text": "Broil, turning as needed, for 8 minutes until the vegetables are visibly charred and softened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Let the tomatoes and jalapeños cool briefly, then chop them. Peel the garlic and finely chop it."
+    },
+    {
+      "step": 4,
+      "text": "Cut the onion into small pieces and combine it with the charred vegetables and garlic."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the lime juice and optional coriander. Rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "salsa",
+    "charred",
+    "spicy",
+    "tomatoes",
+    "jalapen-os",
+    "lime"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "broiler",
+    "broiler-safe tray",
+    "knife",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/charred-spicy-salsa",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dcaa1490da559435bb414a7acf12cdc6c3e655df45bccd4d2cfdfcbaf24bdd04",
+    "normalized_text_hash": "e32fe32618065473bac3a5757e8871c237bcdf69c94283e32d2d2f5170b4524d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T06:51:19.059Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-roast-dinner",
+  "name": "Air Fryer Roast Dinner",
+  "subtitle": "A compact roast-style meal with crisp potatoes, chicken, vegetables, peas, and gravy.",
+  "description": "Cook the potatoes, chicken, and vegetables in timed air-fryer stages, then serve with peas and gravy.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes-peeled-and-cut-into-quarters",
+      "item": "potatoes peeled and cut into quarters",
+      "quantity": "2-3",
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "vegetable",
+      "item": "vegetable",
+      "quantity": 3,
+      "unit": "tsp",
+      "preparation": "olive or rapeseed oil"
+    },
+    {
+      "ingredient_id": "or-2-small-chicken-breasts-skin-on",
+      "item": "or 2 small chicken breasts skin-on",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "carrots-peeled-and-cut-into-batons",
+      "item": "carrots peeled and cut into batons",
+      "quantity": 3,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "gravy-to-serve",
+      "item": "gravy to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Drain the quartered potatoes after 30 minutes and pat them dry.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Toss the potatoes and carrots with the oil. Air-fry the potatoes for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Coat the chicken with some of the oil, add it to the air fryer, and cook for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Add the carrots and continue cooking for 15 minutes, turning the ingredients as needed.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Add the frozen peas for the final 5 minutes, cooking until the vegetables are tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 7,
+      "text": "Check the chicken in its thickest part with a food thermometer; it must reach 165°F. Rest briefly, then cut and serve with the vegetables and gravy."
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "roast-dinner",
+    "chicken-dinner",
+    "weeknight-meal",
+    "vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-roast-dinner",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c11cf1f87ca555f3732398a0c30a3f76c1531b1d1d34675f766979fb30b04848",
+    "normalized_text_hash": "2b4fbf2d144895a6559725ec60d081a42f51490cdb372835199c4f5a1436f98b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:30:21.754Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

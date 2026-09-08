@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cava-cocktail",
+  "name": "Cava Cocktail",
+  "subtitle": "A bright sparkling cocktail with orange and cinnamon",
+  "description": "Orange juice, vodka, and cinnamon syrup meet chilled cava for a crisp, citrusy drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-juiced",
+      "item": "orange juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cinnamon-syrup-see-tip",
+      "item": "cinnamon syrup (see tip)",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "cava-to-top-up",
+      "item": "cava to top up",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "orange-finely-sliced",
+      "item": "orange finely sliced",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "ice-to-serve",
+      "item": "ice to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Chill two serving glasses for 120 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Juice half the orange and finely slice the small orange."
+    },
+    {
+      "step": 3,
+      "text": "Fill a shaker with ice. Add the orange juice, vodka, cinnamon syrup, and a few orange slices; shake briefly."
+    },
+    {
+      "step": 4,
+      "text": "Strain into the chilled glasses over ice, top with cava, and garnish with the remaining orange slices."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "cava",
+    "sparkling-wine",
+    "orange",
+    "citrus",
+    "cinnamon",
+    "party-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cava-cocktail",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5b0b1fcb492825bd2d74f4aa4ebad3c6c8bdc6325bf3ef0e84afb29b08a211b7",
+    "normalized_text_hash": "3f2ba3fa5977a15ed0b6c735209c58c0233479e7bd4235fca6ca55ef1ca89b44",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T02:32:49.052Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

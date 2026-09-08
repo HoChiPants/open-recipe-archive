@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "linguine-with-white-clam-sauce",
+  "name": "Linguine with White Clam Sauce",
+  "subtitle": "A quick pasta dish with garlic, parsley, and tender minced clams.",
+  "description": "Toss linguine with a savory clam sauce for an easy seafood dinner.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "linguine-pasta",
+      "item": "linguine pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "clams",
+      "item": "clams",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "6.5 ounce, minced, with juice"
+    },
+    {
+      "ingredient_id": "clam-juice",
+      "item": "clam juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the linguine in boiling salted water according to the package directions; drain and set aside."
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a large skillet over medium heat. Add the garlic and cook briefly until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the clams with their juice, the clam juice, and parsley. Season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Simmer the sauce for 3 minutes, until the clams are opaque and the sauce is steaming hot.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Add the linguine and toss until evenly coated. Serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "seafood",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12000/linguine-with-white-clam-sauce-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fba73a73cfde7116faed95811392acdc187dcdf162dc123a5c3d9b8e0de08662",
+    "normalized_text_hash": "8f8cebcf482374c6cd9709826ad9d24d0f3a178f785376ead5816fc1d0fbfacf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:37:09.277Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

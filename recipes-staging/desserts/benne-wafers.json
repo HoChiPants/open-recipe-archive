@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "benne-wafers",
+  "name": "Benne Wafers",
+  "subtitle": "Thin, crisp sesame cookies",
+  "description": "A simple batch of delicate sesame wafers with brown sugar and vanilla.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 72,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the sesame seeds, brown sugar, and baking powder as directed, and let them stand for 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 3,
+      "text": "Whisk the melted butter, egg, vanilla, and salt together. Add the flour, sesame mixture, and baking powder, then stir until combined."
+    },
+    {
+      "step": 4,
+      "text": "Place small portions of dough on baking sheets, leaving room for spreading."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 6 minutes, or until the wafers are browned and set. Because the dough contains egg, verify that the centers are firm and reach 160°F with a food thermometer.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 6,
+      "text": "Cool the wafers on the baking sheets until firm, then transfer them to a rack and finish baking as directed."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "sesame",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheets",
+    "mixing bowl",
+    "whisk",
+    "food thermometer",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11215/benne-wafers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3bae14a795d1bcdde3d322cea36bb6a8b27e2614da72c9dd7634e5db4ec771a6",
+    "normalized_text_hash": "e8818011c060bac52b7438a471d7b0eaeaa03062f6479593ccdf050fdadcd470",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:27:23.535Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

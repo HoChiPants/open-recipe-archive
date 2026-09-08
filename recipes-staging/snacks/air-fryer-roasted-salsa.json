@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-roasted-salsa",
+  "name": "Air Fryer Roasted Salsa",
+  "subtitle": "Charred tomato salsa with jalapeño, garlic, and lime",
+  "description": "A fresh, blended salsa made by air-frying tomatoes, jalapeño, and onion until softened and lightly browned.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "roma-tomatoes",
+      "item": "Roma tomatoes",
+      "quantity": 4,
+      "preparation": "halved lengthwise"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "preparation": "halved and seeded"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "cut into 2 wedges"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "cilantro",
+      "item": "cilantro",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 390°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the tomatoes, jalapeño, and onion in the basket. Spray lightly with cooking spray."
+    },
+    {
+      "step": 3,
+      "text": "Air-fry until the vegetables are softened and browned at the edges, adding the garlic halfway through and spraying lightly again if needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Let the vegetables cool for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the vegetables and garlic to a blender or food processor. Add the cilantro, lime juice, and salt, then pulse to your preferred texture."
+    },
+    {
+      "step": 6,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "salsa",
+    "air-fryer",
+    "tomato",
+    "appetizer",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "air fryer",
+    "blender or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279922/air-fryer-roasted-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "498ddf21054a4d86fc18531ceb29a64caea40442805114c5794929f98bbdff69",
+    "normalized_text_hash": "c78cfe46c7855e0e021b46b543fec4103f86f539e9d0660325f9552897424ef9",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:34:07.185Z",
+    "semantic_similarity": 14,
+    "structural_similarity": 30,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

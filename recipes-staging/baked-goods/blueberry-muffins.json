@@ -1,0 +1,163 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-muffins",
+  "name": "Blueberry Muffins",
+  "subtitle": "Tender muffins with lemon zest and fresh berries",
+  "description": "A lightly citrusy blueberry muffin made with sour cream for a soft, moist crumb.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-lemon-zest",
+      "item": "grated lemon zest",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-blueberries",
+      "item": "fresh blueberries",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Prepare a 16-cup muffin pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar and softened butter for 3 minutes. Stir in the eggs, then combine with the oil.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the sour cream, milk, and lemon zest until smooth."
+    },
+    {
+      "step": 4,
+      "text": "In a separate bowl, whisk together the flour, baking powder, baking soda, and salt."
+    },
+    {
+      "step": 5,
+      "text": "Stir the dry mixture into the wet mixture until combined, then fold in the blueberries."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to the prepared muffin pan and bake for 30 minutes, until the muffins are set and lightly browned.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "muffins",
+    "blueberries",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "16-cup muffin pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223041/chef-johns-blueberry-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b4371c41f20fe407ce4dc47bf94f5997eab8b58c2d5b10391064a42e1c974b00",
+    "normalized_text_hash": "d9aeeb83ab66bb601b00f968b3928a5b51310658b64720e284e01aabe43cb16d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:20:31.326Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

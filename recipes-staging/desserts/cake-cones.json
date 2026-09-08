@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cake-cones",
+  "name": "Cake Cones",
+  "subtitle": "Individual cone cakes with chocolate and sprinkles",
+  "description": "Bake yellow cake batter in flat-bottomed cones, then finish each with melted chocolate and colorful sprinkles.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "flat-bottomed-ice-cream-cones",
+      "item": "flat bottomed ice cream cones",
+      "quantity": 24
+    },
+    {
+      "ingredient_id": "semi-sweet-chocolate-chips",
+      "item": "semi-sweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "colored-candy-sprinkles",
+      "item": "colored candy sprinkles",
+      "quantity": 1,
+      "unit": "ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the yellow cake mix according to the package directions."
+    },
+    {
+      "step": 2,
+      "text": "Set the cones upright in a stable baking setup and fill them with the prepared batter, leaving room for it to rise."
+    },
+    {
+      "step": 3,
+      "text": "Bake at 400°F until the cakes are set, about 18 minutes.",
+      "timer_minutes": 18
+    },
+    {
+      "step": 4,
+      "text": "Melt the chocolate chips and spread or drizzle the melted chocolate over the cooled cone cakes."
+    },
+    {
+      "step": 5,
+      "text": "Finish with colored candy sprinkles."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "cake",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "baking setup for upright cones",
+    "heatproof bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8045/cakes-in-a-cone/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e7c92bf89ecb4ee8c601b5ad96b73deba268cd11a2a6875939bfc05c213c98f1",
+    "normalized_text_hash": "57525af51d5daa0d0cf86d3458ed3fe43670e8fb290ae00141573520219d1ca1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:44:31.126Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

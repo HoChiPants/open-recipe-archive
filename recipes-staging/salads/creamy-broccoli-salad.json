@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-broccoli-salad",
+  "name": "Creamy Broccoli Salad",
+  "subtitle": "A crisp, tangy salad with bacon and mozzarella",
+  "description": "Fresh broccoli, mozzarella, onion, and bacon are tossed with a smooth sweet-tart mayonnaise dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "fresh-broccoli",
+      "item": "fresh broccoli",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into florets"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven. Arrange the bacon on a baking sheet and cook until crisp, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the bacon, let it cool, and crumble it."
+    },
+    {
+      "step": 3,
+      "text": "Combine the bacon, broccoli, mozzarella, and red onion in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the mayonnaise, sugar, and vinegar until smooth. Pour over the broccoli mixture and toss to coat."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "side-dish",
+    "salad",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "baking sheet",
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231626/creamy-broccoli-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0532ac742ffeb4bfb0931202e523b48feb8b15f13fe657156748c45b0bb9dae4",
+    "normalized_text_hash": "085f8636f8a12e993bdde42a38c536266988d8d1eed076cc254f4bfc43e70d17",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:33:05.014Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

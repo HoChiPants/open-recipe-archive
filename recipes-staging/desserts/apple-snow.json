@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-snow",
+  "name": "Apple Snow",
+  "subtitle": "Spiced apples folded with a light meringue",
+  "description": "Tender spiced apples are cooled, combined with vanilla, and folded with a sweet, airy egg-white mixture.",
+  "meal_type": "dessert",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 6,
+      "unit": "large",
+      "preparation": "peeled, cored and chopped"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cloves",
+      "item": "ground cloves",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the apples with the water in a covered saucepan over medium-low heat for 30 minutes, until very tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Stir in the white sugar, cinnamon, cloves, and vanilla extract, then let the apple mixture cool completely."
+    },
+    {
+      "step": 3,
+      "text": "Beat the egg white with the remaining white sugar until foamy. If the egg is not pasteurized, whisk the mixture over simmering water until it reaches 160°F, then continue beating to stiff peaks."
+    },
+    {
+      "step": 4,
+      "text": "Fold the meringue into the cooled apples until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Spoon into serving dishes and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "apple",
+    "british"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "covered saucepan",
+    "mixing bowl",
+    "electric mixer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18984/apple-snow/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "705cda09575d947d3c497e2a6f49dec4ff9950bf958c396a6e22188a49876bb7",
+    "normalized_text_hash": "7a4803adda6889608af160afb983c42b162eecc03b444e2cf04211fe6cefe7c0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:21:35.376Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

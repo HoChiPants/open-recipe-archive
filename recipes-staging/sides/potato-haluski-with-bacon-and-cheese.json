@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-haluski-with-bacon-and-cheese",
+  "name": "Potato Haluski with Bacon and Cheese",
+  "subtitle": "Tender potato dumplings finished with crisp bacon and melted cheese",
+  "description": "A hearty Eastern European-style side dish combining potato dumplings, savory bacon, and shredded brick cheese.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "small",
+      "preparation": "peeled and coarsely chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "wisconsin-brick-cheese",
+      "item": "Wisconsin brick cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon until crisp. Drain it, let it cool, and crumble or chop it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Process or mash the potatoes until finely broken down. Stir in the flour, beaten eggs, baking powder, and salt to form a thick dough; let it stand until set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Bring a large pot of salted water to a simmer. Cut small pieces of dough directly into the boiling water and cook until the dumplings are tender and their centers reach 160°F."
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Combine the cooked dumplings with the bacon and shredded cheese in a baking dish."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the cheese melts and the mixture is hot throughout."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "potato",
+    "dumplings",
+    "bacon",
+    "eastern-european"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "food processor or potato masher",
+    "slotted spoon",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222507/traditional-slovak-haluski/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0eba3718393dc08f337dd7e1cab68d16202317a39cc853949f959c6d12805452",
+    "normalized_text_hash": "5c9a1904839da955eabe9bc132eaf6879d42332bdce44347b89e3caacba7814e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:21:54.675Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

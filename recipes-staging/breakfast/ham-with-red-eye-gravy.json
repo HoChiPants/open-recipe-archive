@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-with-red-eye-gravy",
+  "name": "Ham with Red-Eye Gravy",
+  "subtitle": "Pan-seared ham with savory coffee gravy",
+  "description": "Crisp ham slices served with a quick gravy made from browned ham scraps, flour, and brewed coffee.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fatty-ham-scraps",
+      "item": "fatty ham scraps",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "1-4-inch-thick-slices-ham",
+      "item": "(1/4 inch thick) slices ham",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "brewed-coffee",
+      "item": "brewed coffee",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the vegetable oil in a skillet over medium heat. Add the chopped ham scraps and cook for 5 minutes, stirring, until browned and their fat renders.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the ham slices and cook for about 5 minutes, turning as needed, until a thermometer inserted into the thickest part reads 145°F. Transfer the slices to a plate and let them rest for 3 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Season the skillet with the salt, black pepper, and cayenne pepper. Stir in the flour and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Gradually add the brewed coffee, stirring until smooth. Simmer briefly until the gravy thickens, then adjust the seasoning."
+    },
+    {
+      "step": 5,
+      "text": "Serve the ham with the red-eye gravy."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "southern",
+    "ham",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229271/ham-with-red-eye-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "05c8082e01dce8149447bf2e74f5e363e5b4ceb341b0f8d1a9bf9cda5bf426dc",
+    "normalized_text_hash": "38f752f14be14a10d7a1e86bc33aeccc9c4711b5e705dd64b3dabd32271f9328",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:21:25.559Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

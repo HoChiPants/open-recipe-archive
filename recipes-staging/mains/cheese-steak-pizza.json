@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-steak-pizza",
+  "name": "Cheese Steak Pizza",
+  "subtitle": "Thin-sliced beef, sautéed vegetables, and melted cheese on pizza dough.",
+  "description": "A hearty pizza topped with tender sirloin, mushrooms, onion, bell pepper, and two layers of melted cheese.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "beef-sirloin",
+      "item": "beef sirloin",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "butter-flavored-cooking-spray",
+      "item": "butter-flavored cooking spray"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "10-ounce-container-refrigerated-pizza-dough",
+      "item": "(10 ounce) container refrigerated pizza dough",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "slices-white-american-cheese",
+      "item": "slices white American cheese",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "mexican-cheese-blend",
+      "item": "Mexican cheese blend",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Lightly coat a skillet or baking surface with cooking spray and butter-flavored cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Cook the thinly sliced sirloin in the prepared skillet for 4 minutes, then transfer it to a plate. For food safety, cook whole-cut beef to 145°F and let it rest for 3 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Coat the skillet again, add the mushrooms, onion, and green bell pepper, and cook until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Shape the refrigerated pizza dough on a suitable baking surface. Arrange the white American cheese, cooked sirloin, and vegetables over the dough, then cover with the shredded cheese blend."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cheese is melted and the crust is golden brown.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "beef",
+    "american-style"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244459/easy-philly-cheese-steak-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c41fdbb0a7ca9f7d61e7bef14e9ad776b43cda2784ff1876d73556c4bfb909bd",
+    "normalized_text_hash": "9a70864ac2fdcadf60cf00f113a039cd0f38e88eb9dde5bcdce3d448e4c32779",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:41:26.610Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

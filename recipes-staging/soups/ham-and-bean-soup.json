@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-bean-soup",
+  "name": "Ham and Bean Soup",
+  "subtitle": "A hearty soup of tender beans, vegetables, and ham",
+  "description": "Dried beans and ham hocks simmer with aromatic vegetables and herbs for a warming, savory soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 125,
+    "inactive_minutes": 475
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-great-northern-beans",
+      "item": "dried Great Northern beans",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "meaty-ham-hocks",
+      "item": "meaty ham hocks",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beans in a bowl, cover with the water, and let them soak for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Drain the beans and transfer them to a large pot. Add the ham hocks, celery, onion, carrot, garlic, thyme, black pepper, bay leaf, and the measured water."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a simmer, then cook gently until the beans are tender and the ham is fully cooked; check the ham hocks with a thermometer and ensure they reach at least 145°F, then rest them for 3 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Remove the ham hocks and bay leaf. Pull the meat from the bones, cut it into bite-size pieces, and return the meat to the pot."
+    },
+    {
+      "step": 5,
+      "text": "Adjust the soup’s consistency by simmering briefly if needed, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "ham",
+    "beans",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "large bowl",
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240864/moms-ham-and-bean-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8ca0486a297aa1535c1dd8ce2d8e65c350a35b5f0ee3c5393eb8cd0b7228a341",
+    "normalized_text_hash": "39edbefc1c967c67cfb963edcceedd2c041eb34b8110f8a4dd533fd6a858431c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:52:27.689Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

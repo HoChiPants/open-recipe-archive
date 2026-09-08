@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-basil-chicken",
+  "name": "Lemon Basil Chicken",
+  "subtitle": "Skillet chicken with bright lemon and fresh basil",
+  "description": "Boneless chicken breasts are lightly floured, browned in butter, and simmered with lemon, basil, zest, and chicken stock.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breast-halves",
+      "item": "chicken breast halves",
+      "quantity": 4,
+      "preparation": "boned and skinned"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "lemon-zest",
+      "item": "lemon zest",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly coat the chicken breast halves with the flour, shaking off the excess."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large skillet over medium heat. Add the chicken and chicken stock, and sauté until the chicken is lightly browned, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice, chopped basil, and lemon zest. Bring the liquid to a gentle simmer."
+    },
+    {
+      "step": 4,
+      "text": "Simmer until the chicken is cooked through and reaches 165°F at the thickest point, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the chicken to a serving dish and spoon the lemon-basil sauce over it."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "skillet",
+    "lemon",
+    "basil"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265431/lemon-basil-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c7b14d1eed09118231f5e1c910c1ffb20530fb7bfd4d27f406a1d0cf8e482efc",
+    "normalized_text_hash": "80448050633e85cf6e185abb4acd398a2c681209e138e3ab9d2912a7797b0ba8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:53:29.175Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

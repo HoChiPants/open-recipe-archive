@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-cheese-pretzel-dip",
+  "name": "Beer Cheese Pretzel Dip",
+  "subtitle": "A chilled, creamy cheese dip with beer and mild spice.",
+  "description": "Blend softened cream cheese with ranch seasoning and shredded Cheddar, then loosen with beer and season to taste. Chill before serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 56,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "dry-ranch-salad-dressing-mix",
+      "item": "dry ranch salad dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "seasoned-salt-to-taste",
+      "item": "seasoned salt to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper-to-taste",
+      "item": "cayenne pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the softened cream cheese, ranch dressing mix, and shredded Cheddar until evenly blended."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the beer gradually until the dip reaches the desired consistency."
+    },
+    {
+      "step": 3,
+      "text": "Season with seasoned salt and cayenne pepper to taste."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217887/beer-cheese-pretzel-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "967e9190d904b3aaeb58779d3eb273635156c6a83eb94b7ade899ae3ed486cc5",
+    "normalized_text_hash": "08074360f386334700acf180656fd7e6e8fc1da2eafff014326a226cb1004810",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:25:37.513Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

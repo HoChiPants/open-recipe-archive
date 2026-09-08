@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-stuffed-pancakes",
+  "name": "Cheesy Stuffed Pancakes",
+  "subtitle": "Savory pancakes with creamy cheese filling",
+  "description": "Warm unsweetened pancakes filled with mascarpone, hard cheese, chives, and an optional savory leftover, then bake until hot and melted.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 16
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mascarpone",
+      "item": "mascarpone",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bunch-of-chives-finely-chopped",
+      "item": "bunch of chives finely chopped",
+      "quantity": "1/2",
+      "unit": "small",
+      "preparation": "plus extra to serve"
+    },
+    {
+      "ingredient_id": "gruye-re-comte-or-other-hard-cheese",
+      "item": "gruyère comté or other hard cheese",
+      "quantity": 150,
+      "unit": "g",
+      "preparation": "including vegetarian alternatives, grated"
+    },
+    {
+      "ingredient_id": "shop-bought-unsweetened-pancakes-or-see-tips-below-for-our-recipe",
+      "item": "shop-bought unsweetened pancakes (or see tips below for our recipe)",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "leftover-cooked-ham-or-smoked-salmon-optional",
+      "item": "leftover cooked ham or smoked salmon (optional)",
+      "quantity": 350,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven according to the pancake package or recipe directions."
+    },
+    {
+      "step": 2,
+      "text": "Warm the mascarpone gently in a saucepan for 2 minutes, then stir in half of the grated hard cheese and the chopped chives.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Spread the warm cheese mixture over the pancakes and add the cooked ham or smoked salmon, if using."
+    },
+    {
+      "step": 4,
+      "text": "Fold each pancake into a compact parcel and arrange the parcels in a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Cover with the remaining grated cheese and bake until the parcels are hot and the cheese is melted, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Scatter with the extra chives and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "savory",
+    "cheese",
+    "leftovers"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "saucepan",
+    "baking dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheesy-stuffed-pancakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6c69dd58d3e1508b3e9b9f36a27bbf0fa247efd65ffd55cba1e9e77af7b0d782",
+    "normalized_text_hash": "672b539e8eccc6400565168d61eb710638ad18ae1af4c3284209992fadd7c0a5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:02:38.531Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-brie-and-pear-sandwich",
+  "name": "Grilled Brie and Pear Sandwich",
+  "subtitle": "Warm bread layered with melting Brie, pear, and thyme",
+  "description": "A simple sweet-savory sandwich with crisp buttered bread, creamy Brie, fresh pear, and thyme.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "thick-slices-french-bread",
+      "item": "thick slices French bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "thin-slices-brie-cheese",
+      "item": "thin slices Brie cheese",
+      "quantity": 6,
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "fresh-thyme-leaves",
+      "item": "fresh thyme leaves",
+      "quantity": 12,
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "cracked-black-pepper",
+      "item": "cracked black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "slices-pear-such-as-bosc",
+      "item": "slices pear (such as Bosc)",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread the softened butter over one side of each bread slice."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a grill or skillet over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Place one bread slice buttered-side down. Layer it with Brie, pear, thyme, and black pepper, then top with the second bread slice, buttered-side up."
+    },
+    {
+      "step": 4,
+      "text": "Grill until the bread is golden and the Brie is melted, about 3 minutes, turning once if needed.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Cut the sandwich and season with salt to taste before serving."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "grill or skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237472/grilled-brie-and-pear-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4613e12e48c214d0f339814e6457174d7f483bb6deead4978948e0a3f684fefc",
+    "normalized_text_hash": "fd85d41cfe54ef3f511d43a3e705a9105da529b6e4b0fe0c8a635a087739216f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:03:39.350Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

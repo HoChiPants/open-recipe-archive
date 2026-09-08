@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato-dip",
+  "name": "Baked Potato Dip",
+  "subtitle": "Creamy ranch dip with cheddar, bacon, and green onion",
+  "description": "A chilled, savory dip combining softened cream cheese, sour cream, ranch seasoning, cheddar, green onion, and bacon bits.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 3,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "real-bacon-bits",
+      "item": "real bacon bits",
+      "quantity": 0.66666668653488,
+      "unit": "can",
+      "preparation": "3 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a bowl, combine the softened cream cheese, sour cream, ranch dressing mix, and shredded Cheddar until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the sliced green onions and bacon bits."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218324/baked-potato-dip-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "730aebf1f3670049d7f63a1f6eb4dfe753dc4f4d0f2da5ee42204ca2b4be212e",
+    "normalized_text_hash": "2fa8967575deaa90cb3c07501e5c4b8531cc5d8a3d4cd196d017552d664fd1ac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:50:12.320Z",
+    "semantic_similarity": 12,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

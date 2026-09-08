@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-knead-beer-bread",
+  "name": "No-Knead Beer Bread",
+  "subtitle": "A hands-off loaf with a crisp, golden crust",
+  "description": "A simple yeast bread made with beer and a brief series of rises, shaped by hand and baked until golden.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "inactive_minutes": 190
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4.5,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "warm-water-100-degrees-f-or-38-degrees-c",
+      "item": "warm water (100 degrees F or 38 degrees C)",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "or-bottle-beer",
+      "item": "or bottle beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "fine-salt",
+      "item": "fine salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "all-purpose-flour-for-dusting",
+      "item": "all-purpose flour for dusting"
+    },
+    {
+      "ingredient_id": "cornmeal",
+      "item": "cornmeal",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the yeast, warm water, and part of the divided flour together in a large bowl. Let stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Add the beer, salt, and remaining flour. Stir until a thick dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Cover the bowl and let the dough rise in a warm place for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Turn the dough onto a floured surface and shape it into a round loaf."
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle cornmeal in the baking vessel and place the shaped dough inside. Dust the top with flour."
+    },
+    {
+      "step": 6,
+      "text": "Cover and let rise for 40 minutes. Meanwhile, preheat the oven to 425°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 7,
+      "text": "Transfer the covered baking vessel to the oven and bake for 35 minutes, until golden brown.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 8,
+      "text": "Transfer the loaf to a rack and cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "beer-bread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large bowl",
+    "floured work surface",
+    "baking vessel with lid",
+    "oven",
+    "cooling rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220129/no-knead-beer-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c1fe338c8ad265dfaf611bab06c9b0447c7f4c8d17ff9466285e44e89b118374",
+    "normalized_text_hash": "fb0372c9627b390f8981c6d218307f1b7ac8e91f3d8c5afe52df23caf89d2dad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:15:58.469Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

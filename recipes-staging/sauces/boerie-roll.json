@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "boerie-roll",
+  "name": "Boerie Roll",
+  "subtitle": "Grilled sausage rolls with tangy tomato sauce and pickled onions",
+  "description": "Serve cooked boerewors in brioche buns with a savory tomato-chilli sauce, sweet onions, and optional mustard.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boerewors-sausage",
+      "item": "boerewors sausage",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "brioche-hot-dog-buns",
+      "item": "brioche hot dog buns",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "american-mustard-to-serve-optional",
+      "item": "American mustard to serve (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "rapeseed-oil",
+      "item": "rapeseed oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "white-onion-finely-chopped",
+      "item": "white onion finely chopped",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-pure-e",
+      "item": "garlic purée",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "thyme-leaves-picked",
+      "item": "thyme leaves picked",
+      "quantity": 5,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "malt-vinegar",
+      "item": "malt vinegar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lager",
+      "item": "lager",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "tomato-ketchup",
+      "item": "tomato ketchup",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "malt-vinegar",
+      "item": "malt vinegar",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "smooth-tomato-chilli-chutney",
+      "item": "smooth tomato chilli chutney",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "red-onion-thinly-sliced",
+      "item": "red onion thinly sliced",
+      "quantity": "1/2",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sliced red onion, red wine vinegar, 100 g caster sugar, and bay leaf. Transfer to a container and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Heat the rapeseed oil in a pan. Add the chopped white onion, garlic purée, thyme, and two bay leaves; cook until softened, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Stir in 50 g caster sugar and 2 tbsp malt vinegar, then cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the lager, tomato ketchup, 50 ml malt vinegar, Worcestershire sauce, and smooth tomato chilli chutney. Simmer until thickened, about 15 minutes, then remove the bay leaves.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Cook the boerewors on a grill or in a pan until browned and cooked through, reaching 160°F internally.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Warm the brioche buns, place the sausage inside, and top with the sauce and pickled red onion. Serve with optional American mustard."
+    }
+  ],
+  "tags": [
+    "south-african",
+    "sausage",
+    "hot-dog",
+    "barbecue",
+    "pickled-onions",
+    "tomato-sauce",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "grill or frying pan",
+    "food thermometer",
+    "container"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boerie-roll",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f896671feb268ebf574777a8d2ab91abfa97099e3e82670a09760691b082e1a3",
+    "normalized_text_hash": "cb0015ad1f415d659ada44c5ed0726922962647b5bdb558a2b5dac6e8dca72e2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:42:35.891Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

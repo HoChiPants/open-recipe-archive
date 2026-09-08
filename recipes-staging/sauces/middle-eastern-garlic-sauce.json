@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "middle-eastern-garlic-sauce",
+  "name": "Middle Eastern Garlic Sauce",
+  "subtitle": "A smooth potato-based garlic sauce with lemon",
+  "description": "Blend tender potatoes with crushed garlic, lemon juice, salt, and oil for a creamy sauce served alongside savory dishes.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 3,
+      "unit": "small",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "head-garlic",
+      "item": "head garlic",
+      "quantity": 1,
+      "preparation": "peeled and crushed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes and salt in a saucepan, cover with water, and simmer until the potatoes are tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool until set."
+    },
+    {
+      "step": 3,
+      "text": "Combine the crushed garlic, lemon juice, and some of the oil. Blend until smooth, then gradually add the remaining oil while blending until creamy."
+    },
+    {
+      "step": 4,
+      "text": "Add the potatoes and blend until the sauce is smooth and evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a serving container and refrigerate for at least 1 hour before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "sauce",
+    "middle-eastern",
+    "potato-based"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232918/middle-eastern-garlic-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b049e20ef63536009c6bbba66b08782fbb1070df16e89d5e5c0da089f2ac0c6e",
+    "normalized_text_hash": "2da41ddd35a381940afdf5e3038ac5cf9f21291f16d0f4f79265468a043e4a4e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:39:54.559Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

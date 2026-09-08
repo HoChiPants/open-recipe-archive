@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-cherry-cake",
+  "name": "Chocolate-Cherry Cake",
+  "subtitle": "A simple baked cake with cherry filling and chocolate frosting.",
+  "description": "Combine the cherry filling, cake mix, eggs, and almond extract for a moist chocolate dessert, then finish it with frosting after baking.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "dark-chocolate-cake-mix",
+      "item": "dark chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "15.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "prepared-chocolate-frosting",
+      "item": "prepared chocolate frosting",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.75 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the cherry pie filling, dark chocolate cake mix, eggs, and almond extract together until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish and bake for 40 minutes, until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 4,
+      "text": "Let the cake cool for 5 minutes, spread the prepared chocolate frosting over the top, and allow it to cool for 30 minutes before serving.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "chocolate",
+    "cherry",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277007/chocolate-cherry-dump-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21f26e8c7f159c7e9d70321c69d7350f080bf84e1ab50371dbd33bef0e84de31",
+    "normalized_text_hash": "fdab5beb41dc93ab0b83724b98a3aced7af9830271a6fe24b821a4418d678f5e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:31:04.862Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

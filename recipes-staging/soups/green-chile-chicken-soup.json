@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-chile-chicken-soup",
+  "name": "Green Chile Chicken Soup",
+  "subtitle": "A creamy, gently spicy soup with tender chicken and green chiles.",
+  "description": "Build a quick butter-and-flour base, loosen it with milk and broth, then simmer with chicken, green chiles, and simple seasoning.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "boneless and skinless chicken, cut into bite-sized pieces"
+    },
+    {
+      "ingredient_id": "green-chile-peppers",
+      "item": "green chile peppers",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large pot over medium heat. Whisk in the flour and cook briefly to form a smooth base."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the milk and chicken broth until smooth. Bring the mixture to a gentle boil, stirring often."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the chicken, green chile peppers, salt and pepper, and garlic powder."
+    },
+    {
+      "step": 4,
+      "text": "Reduce the heat and simmer gently for 30 minutes, stirring occasionally. Before serving, verify that the soup and chicken reach 165°F in the center.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "chicken",
+    "green-chile",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8767/green-chile-chicken-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1491c7ecfbbdcb4819f277f04c1b786d514981024c0eaa54d46e771a005907f1",
+    "normalized_text_hash": "05a364efc9222f14abfd1f55ad0ab38b31b751e45688b0f3de9f3ac9b53f5a9f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:01:44.440Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

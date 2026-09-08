@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "christmas-pudding-ice-cream-bombe",
+  "name": "Christmas Pudding Ice Cream Bombe",
+  "subtitle": "A frozen dessert with spiced fruit, pudding, and chocolate sauce",
+  "description": "Vanilla ice cream, dried fruit, citrus, and Christmas pudding are molded, frozen, and served with warm chocolate sauce and festive garnish.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vanilla-ice-cream",
+      "item": "vanilla ice cream",
+      "quantity": 750,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "mixed-dried-fruit",
+      "item": "mixed dried fruit",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "rum-or-brandy",
+      "item": "rum or brandy",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "clementine-zested-and-juiced",
+      "item": "clementine zested and juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "sunflower-oil-for-the-pudding-basin",
+      "item": "sunflower oil for the pudding basin"
+    },
+    {
+      "ingredient_id": "free-from-christmas-pudding-leftover",
+      "item": "free from Christmas Pudding leftover",
+      "quantity": 150,
+      "unit": "g",
+      "preparation": "or cooked and cooled, cut into small cubes"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 80,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "dark-chocolate-finely-chopped",
+      "item": "dark chocolate finely chopped",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-of-dried-cranberries-or-glace-cherries",
+      "item": "handful of dried cranberries or glacé cherries",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "few-holly-leaves-or-fresh-bay-leaves-optional",
+      "item": "few holly leaves or fresh bay leaves (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "gold-lustre-to-decorate-optional",
+      "item": "gold lustre to decorate (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the mixed dried fruit with the rum or brandy, clementine zest and juice, and cinnamon. Cool the mixture completely.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Lightly oil the pudding basin. Cut the Christmas pudding into small cubes if needed."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the vanilla ice cream, Christmas pudding, and double cream until evenly combined. Fold in the cooled fruit mixture.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Spoon the mixture into the oiled basin and smooth the surface. Freeze until firm.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 5,
+      "text": "Warm the vanilla ice cream and double cream, then whisk in the chopped dark chocolate until melted. Cool the sauce.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Let the frozen bombe stand for 10 minutes, then unmold onto a serving plate.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Add the chocolate sauce and decorate with dried cranberries or glacé cherries, holly leaves or fresh bay leaves if using, and gold lustre if using. Serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "christmas-dessert",
+    "frozen-dessert",
+    "ice-cream",
+    "christmas-pudding"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pudding basin",
+    "mixing bowl",
+    "whisk",
+    "saucepan",
+    "serving plate"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/christmas-pudding-ice-cream-bombe",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b021268a3d186d499b920c6828be53b0903ff41c1a60f1c7ed717cc3c524d71",
+    "normalized_text_hash": "1848a34c0bbfd0698676cb4bf8609d2c932a56dee28142f042cb504820c82966",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:22:47.539Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

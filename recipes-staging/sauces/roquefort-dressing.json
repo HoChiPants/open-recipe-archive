@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roquefort-dressing",
+  "name": "Roquefort Dressing",
+  "subtitle": "Creamy blue cheese dressing for salads and dipping",
+  "description": "A rich, tangy dressing made by blending Roquefort with buttermilk, mayonnaise, and savory seasonings.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "roquefort-cheese",
+      "item": "Roquefort cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mayonnaise, buttermilk, Roquefort cheese, Worcestershire sauce, and garlic powder until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Serve immediately as a salad dressing or dipping sauce."
+    }
+  ],
+  "tags": [
+    "dressing",
+    "blue-cheese",
+    "salad",
+    "dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24875/roquefort-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a1b4d54a6a48c11175fb6361d0a745d52ace42437fe43d9ca98a2bc9451942d9",
+    "normalized_text_hash": "67c93f3b4db820d7001b85fc29b400ec4aa3d06ca4300502cfcdeaa9b1a2ffc0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:27:56.374Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

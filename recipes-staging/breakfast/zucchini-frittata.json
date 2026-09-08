@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-frittata",
+  "name": "Zucchini Frittata",
+  "subtitle": "A vegetable-filled baked egg dish with a golden cheese topping",
+  "description": "Sautéed zucchini, peppers, onions, and mushrooms are folded into seasoned eggs, then baked with mozzarella and Parmesan until fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 3,
+      "unit": "medium",
+      "preparation": "cut into 1/2-inch slices"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "seeded and chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "fresh-chopped-mushrooms",
+      "item": "fresh chopped mushrooms",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Toss the zucchini, green bell pepper, garlic, and 1/2 teaspoon salt together."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in an oven-safe skillet. Add the zucchini mixture and cook until the zucchini is tender. Drain any excess liquid.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Add the onion, mushrooms, and butter to the skillet. Cook, stirring, until the onion softens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Whisk the eggs with salt and pepper to taste, then stir them into the vegetables. Cook on the stovetop until the edges begin to set.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Transfer the skillet to the oven and bake until the center is firm and reaches 160°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Sprinkle with the mozzarella and Parmesan. Return to the oven until the cheese is golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 8,
+      "text": "Let the frittata rest briefly, then cut into wedges and serve.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "egg-dish",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22198/zucchini-oven-frittata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9e4c3dc709f3bd70702b036e04291bde0b1797b4d474142e691fa2d2ff77afed",
+    "normalized_text_hash": "b699beb1485168d273aa86285a0d125267d65e0f43978ad25fa4110530e9db36",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:16:40.134Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-orange-banana-smoothie",
+  "name": "Strawberry Orange Banana Smoothie",
+  "subtitle": "A bright, fruit-forward blended drink",
+  "description": "Fresh strawberries, orange juice, and ripe banana blend with ice into a smooth, refreshing smoothie.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ripe-banana",
+      "item": "ripe banana",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the strawberries, orange juice, banana, and ice cubes to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, adding more ice as needed for the desired consistency. Serve immediately."
+    }
+  ],
+  "tags": [
+    "smoothie",
+    "fruit-drink",
+    "breakfast",
+    "refreshing"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215163/strawberry-orange-banana-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4abe2ac8de5ad1ca83b4a9d4f0b5a9f0a26c8a6caafb03d02aa757c9bbe9eebd",
+    "normalized_text_hash": "52dca57363e9a371e80880821452fe19229a24cfc2e4cb0ef0d7e5136a27d4b2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:00:14.853Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

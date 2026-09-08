@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-under-a-brick",
+  "name": "Chicken Under a Brick",
+  "subtitle": "Crisp-skinned chicken pressed flat for even roasting",
+  "description": "A whole chicken is flattened, seasoned, and cooked beneath foil-wrapped bricks for browned skin and juicy meat.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "3-1-2-pound-whole-chicken",
+      "item": "(3 1/2) pound whole chicken",
+      "quantity": 1,
+      "preparation": "wings removed"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "herbes-de-provence",
+      "item": "herbes de Provence",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "heavy-clay-bricks",
+      "item": "heavy clay bricks",
+      "quantity": 2,
+      "preparation": "wrapped tightly in aluminum foil"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut along the chicken's backbone and open it flat. Pat it dry."
+    },
+    {
+      "step": 3,
+      "text": "Season the chicken on both sides with salt and pepper, then sprinkle with herbes de Provence. Let it stand for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Heat a large oven-safe skillet over medium-high heat for 5 minutes, then coat it with the vegetable oil.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Place the chicken skin-side down in the skillet and set the foil-wrapped bricks on top to press it flat."
+    },
+    {
+      "step": 6,
+      "text": "Roast for 25 minutes. Remove the bricks, turn the chicken skin-side up, and continue roasting until the thickest part of the breast and thigh reaches 165°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Let the chicken rest briefly, then carve and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "chicken",
+    "one-pan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "heavy clay bricks",
+    "aluminum foil",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241500/chef-johns-chicken-under-a-brick/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c775dd538d909acb29796b18b9d340e0693f89ee7c651c630126ab429598d5d6",
+    "normalized_text_hash": "14efc652179e0e43da4b827e8d1ac385c207fc04a6c995ce99baf7130632aa96",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:24:41.369Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-apples",
+  "name": "Baked Apples",
+  "subtitle": "Tender apples with cinnamon brown sugar",
+  "description": "Green apples are filled with a cinnamon-sugar mixture, topped with butter, and baked until tender.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tart-green-apples",
+      "item": "tart green apples",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": "1/4",
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the brown sugar, cinnamon, and salt in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Prepare the apples and place them in a baking dish. Add the brown sugar mixture and top with the butter."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the dish to the oven once the liquid is boiling, if applicable."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, then continue baking for 25 minutes, until the apples are tender.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-apples",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21127/baked-apples/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "783d9026f607aca5f37395526fb63d74ba4087b754160a17c9cd3eaafb26d91a",
+    "normalized_text_hash": "f8b4020007f1df181827bd30dd622a9e6fe0454cc12e3461e575920415e8a127",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:43:16.561Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

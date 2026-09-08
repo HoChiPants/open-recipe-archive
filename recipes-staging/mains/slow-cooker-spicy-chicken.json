@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-spicy-chicken",
+  "name": "Slow Cooker Spicy Chicken",
+  "subtitle": "Tender chicken with salsa, cumin, and chili",
+  "description": "Chicken breasts slowly cook in a seasoned salsa mixture, then are shredded for serving.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "8-ounce-jar-medium-salsa",
+      "item": "(8 ounce) jar medium salsa",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-fresh-ground-pepper-to-taste",
+      "item": "salt and fresh ground pepper to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the salsa and tomato sauce, then pour the mixture over the chicken. Add the garlic, onion, cumin, chili powder, salt, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the chicken is tender and reaches 165°F in the thickest part, about 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 4,
+      "text": "Shred the chicken in the cooking juices and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "slow-cooker",
+    "chicken",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214731/slow-cooker-spicy-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "da1fb5f97e0d2ced4606f38e21f99d3c25219c7b752e4ae1543e7245102e5cec",
+    "normalized_text_hash": "f59cb59d50eb7ecfbf2a3e98ffd41f7c8d0e7d83cd450e18dcc3276e0c092838",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:51:39.106Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

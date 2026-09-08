@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-fritters",
+  "name": "Corn Fritters",
+  "subtitle": "Crisp, golden fritters with sweet corn throughout",
+  "description": "A simple American snack made from corn folded into a lightly seasoned batter and fried until crisp outside and set inside.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce, drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the frying oil to 365°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the sifted flour with baking powder, salt, and sugar. In a separate bowl, whisk the milk with melted shortening and beaten egg."
+    },
+    {
+      "step": 3,
+      "text": "Add the wet mixture to the dry ingredients and stir just until combined. Fold in the drained corn."
+    },
+    {
+      "step": 4,
+      "text": "Fry spoonfuls of batter in batches, turning as needed, until browned, crisp, and fully set in the center; verify the center reaches 160°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Drain the fritters well and serve hot."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "fried",
+    "corn"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "deep skillet or fryer",
+    "mixing bowls",
+    "whisk",
+    "slotted spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18040/corn-fritters/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5553caf6cc9b8a8458445167ef168f81315654751cc4b622fb9c9a8d461fccb7",
+    "normalized_text_hash": "46c7f653d4d01c1283a51fcadbc1fa1e2e2eb048e571400662a2928ec081cf7c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:09:24.620Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

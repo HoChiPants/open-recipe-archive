@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-marshmallows",
+  "name": "Vanilla Marshmallows",
+  "subtitle": "Soft homemade marshmallows with a light vanilla finish",
+  "description": "A fluffy confection made with gelatin, whipped egg whites, and hot sugar syrup, finished with confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 470
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "light-corn-syrup",
+      "item": "light corn syrup",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "unflavored-gelatin",
+      "item": "unflavored gelatin",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly dust a prepared pan with some of the confectioners' sugar."
+    },
+    {
+      "step": 2,
+      "text": "Combine the white sugar, corn syrup, and part of the water in a saucepan. Heat, stirring as needed, until the syrup reaches 265°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Bloom the gelatin in the remaining water, then warm it over simmering water until dissolved. Carefully combine it with the hot syrup."
+    },
+    {
+      "step": 4,
+      "text": "Beat the egg whites to soft peaks. With the mixer running, slowly add the hot syrup and gelatin mixture; verify the mixture reaches at least 160°F, then continue beating until thick and fluffy."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the vanilla extract, transfer the mixture to the prepared pan, and smooth the surface. Dust the top with the remaining confectioners' sugar."
+    },
+    {
+      "step": 6,
+      "text": "Let stand at room temperature until fully set, then cut into 18 servings and dust the cut sides with confectioners' sugar.",
+      "timer_minutes": 470
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "marshmallow",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof bowl",
+    "stand mixer or hand mixer",
+    "prepared pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24072/emilys-famous-marshmallows/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dba9d8624205fcef42845a3fd0a850db2e3c39f0a1d65e8ba96590906239e58f",
+    "normalized_text_hash": "d8d20a76922e96c0b3efab9f0a774875c7a3846439c3623cd4deafbfc11b7de8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:01:10.609Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

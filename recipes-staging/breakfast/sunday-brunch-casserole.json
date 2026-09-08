@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sunday-brunch-casserole",
+  "name": "Sunday Brunch Casserole",
+  "subtitle": "A savory bacon, potato, and cheddar breakfast bake",
+  "description": "Bacon, vegetables, thawed hash browns, and cheddar are folded into seasoned eggs and baked until fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thick-sliced-bacon",
+      "item": "thick sliced bacon",
+      "quantity": 1.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-hash-brown-potatoes",
+      "item": "frozen hash brown potatoes",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-dill",
+      "item": "dried dill",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon and thawed hash browns in a skillet over medium heat for 10 minutes. Drain the bacon, then crumble or chop it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the onion, bell pepper, and ground black pepper to the skillet; cook for about 5 minutes, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs and milk together. Fold in the bacon, vegetables, hash browns, cheddar, salt, pepper, and dill."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and bake for 45 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222611/sunday-brunch-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5a5d6a6be40916cedbcf5841e1733e7510ba3b67bbc88a72194bd7cd75890714",
+    "normalized_text_hash": "bd2192b46b5b51745f810baf936b8bac060f0785e20caa2944fc6c5451131b74",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:12:31.476Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

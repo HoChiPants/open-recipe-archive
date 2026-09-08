@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-corn-on-the-cob",
+  "name": "Sweet Corn on the Cob",
+  "subtitle": "Tender corn finished with a bright, lightly sweet cooking liquid",
+  "description": "Simmer husked corn with sugar and lemon juice for a simple, flavorful side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ears-corn-on-the-cob",
+      "item": "ears corn on the cob",
+      "quantity": 6,
+      "preparation": "husks and silk removed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water to a simmer. Stir in the white sugar and lemon juice."
+    },
+    {
+      "step": 2,
+      "text": "Add the ears of corn, bring the water to a boil, and cook until tender, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Remove the pot from the heat and let the corn stand in the hot liquid for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Serve the corn warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "corn",
+    "vegetarian",
+    "vegan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222352/jamies-sweet-and-easy-corn-on-the-cob/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "72187c63e099092ab00de44098002a15d6a9a952fb53d1b07f9205ed00c18872",
+    "normalized_text_hash": "1e8d4d7ec19f26defffb21db2cd7c922df334a4026b4b9e9b80e853b9f3694ea",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:24:21.846Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

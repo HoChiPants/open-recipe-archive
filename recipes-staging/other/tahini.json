@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tahini",
+  "name": "Tahini",
+  "subtitle": "Roasted sesame paste with olive oil",
+  "description": "Blend toasted sesame seeds with olive oil until smooth for a creamy, versatile sesame paste.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the sesame seeds on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Bake the sesame seeds for 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Transfer the toasted sesame seeds to a blender or food processor. Add the olive oil and blend until smooth, adding oil as needed."
+    },
+    {
+      "step": 5,
+      "text": "Stir before serving."
+    }
+  ],
+  "tags": [
+    "sesame",
+    "condiment",
+    "middle-eastern",
+    "spread"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "blender or food processor"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232748/tahini/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bcac36a3c1ac74856cd0ee19c560e6fe7f83bd34cc4756eee6ce410224ea3629",
+    "normalized_text_hash": "8c93dbe1631681ffeb934da61ba5508c9a1ceca77345c2437e6cbb9568bfa44c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:34:45.968Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

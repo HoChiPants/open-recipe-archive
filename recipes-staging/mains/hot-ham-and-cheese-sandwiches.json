@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-ham-and-cheese-sandwiches",
+  "name": "Hot Ham and Cheese Sandwiches",
+  "subtitle": "Warm baked sandwiches with savory mustard butter",
+  "description": "Soft buns are spread with seasoned mustard butter, filled with ham and Swiss cheese, and baked until hot and melted.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "prepared-horseradish-mustard",
+      "item": "prepared horseradish mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "poppy-seeds",
+      "item": "poppy seeds",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dill-seed",
+      "item": "dill seed",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "slices-swiss-cheese",
+      "item": "slices Swiss cheese",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "slices-cooked-ham",
+      "item": "slices cooked ham",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "hamburger-buns",
+      "item": "hamburger buns",
+      "quantity": 8
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 250°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the softened butter, horseradish mustard, chopped onions, poppy seeds, and dill seed until combined."
+    },
+    {
+      "step": 3,
+      "text": "Split the hamburger buns and place them on a baking sheet. Spread the seasoned butter mixture over the cut sides."
+    },
+    {
+      "step": 4,
+      "text": "Fill each bun with a slice of cooked ham and a slice of Swiss cheese, cutting the cheese as needed to fit. Close the sandwiches."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, or until the cheese is melted and the sandwiches are hot.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "sandwich"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24535/hot-ham-and-cheese-sandwiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5adf3f1dd6538075118245564873c8aa8a7cd07eb2d56d3c74e8335b371f4fe2",
+    "normalized_text_hash": "6e696836d6fe545a9df11040cb3122cf0550107118301af846c8854e38c7a6ec",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:53:12.566Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

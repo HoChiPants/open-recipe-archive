@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-chicken-fingers",
+  "name": "Baked Chicken Fingers",
+  "subtitle": "Crisp, buttery chicken pieces with seasoned crumbs",
+  "description": "Bite-size chicken breast pieces coated in melted butter and Italian-seasoned bread crumbs, then baked until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "boneless chicken breast halves - cut into bite size pieces"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "italian-seasoned-bread-crumbs",
+      "item": "Italian seasoned bread crumbs",
+      "quantity": 1.25,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Dip each chicken piece in the melted butter, then coat it evenly with the Italian seasoned bread crumbs."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated chicken on a baking sheet and bake for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Turn the pieces and continue cooking for 10 minutes, or until the thickest piece reaches 165°F on a food thermometer.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8745/super-easy-chicken-fingers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3775f855054460a0edda38fbc82cc983da0dce23258357154c7c1de719da879c",
+    "normalized_text_hash": "e1c6e32c395da1a65fd72316495feabf1afa874cbaf8a0d0823b119057c117a5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:13:45.599Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

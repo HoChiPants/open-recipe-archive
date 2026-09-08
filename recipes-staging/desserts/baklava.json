@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baklava",
+  "name": "Baklava",
+  "subtitle": "Crisp phyllo layered with spiced nuts and honey syrup",
+  "description": "Layer buttery phyllo with cinnamon-seasoned nuts, bake until golden, and finish with a lemony honey syrup.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "nuts",
+      "item": "nuts",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "phyllo-dough",
+      "item": "phyllo dough",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-lemon-zest",
+      "item": "grated lemon zest",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Combine the chopped nuts with the cinnamon."
+    },
+    {
+      "step": 2,
+      "text": "Cut the phyllo to fit the baking pan. Layer sheets in the pan, brushing each with melted butter, until about half the dough is used."
+    },
+    {
+      "step": 3,
+      "text": "Spread the seasoned nuts evenly over the phyllo, then cover with the remaining dough, brushing each sheet with butter."
+    },
+    {
+      "step": 4,
+      "text": "Cut the assembled baklava into portions before baking."
+    },
+    {
+      "step": 5,
+      "text": "Bake until deeply golden brown.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 6,
+      "text": "While the baklava bakes, bring the sugar and water to a boil and cook for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Stir in the honey, vanilla extract, and lemon zest, then remove the syrup from the heat."
+    },
+    {
+      "step": 8,
+      "text": "Pour the syrup over the hot baklava. Let it cool completely before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baklava",
+    "phyllo",
+    "nut-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan",
+    "pastry brush",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20287/easy-baklava/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3e5e382f89f15d08e3d80c011d6f0b97123d5a341d69239a70d6b3995fa70513",
+    "normalized_text_hash": "5b7ada81df9541ea472e80dc14b46c63655a2a84c644eb33ae406aa7dfe2cdaa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:21:12.222Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

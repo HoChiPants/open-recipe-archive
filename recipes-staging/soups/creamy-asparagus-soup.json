@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-asparagus-soup",
+  "name": "Creamy Asparagus Soup",
+  "subtitle": "A quick, smooth soup with a buttery finish",
+  "description": "Blend canned asparagus, broth, and milk into a warm, simple soup seasoned with butter, salt, and pepper.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "asparagus-spears",
+      "item": "asparagus spears",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, undrained"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the undrained asparagus until smooth, then transfer it to a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken broth and milk. Heat gently, stirring occasionally, until the soup reaches 165°F."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the butter, then season with salt and pepper to taste. Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "quick",
+    "smooth-soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70759/asparagus-soup-in-seconds/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "79f8a18ebbad810dd4f8b9a0203b4ee16f58e5de5621d24134eedf65da8c1de6",
+    "normalized_text_hash": "57b78cb4d2485ca0f290d3adcf4f5a2f0161cb3f2da284cc58d3699b6fc6c7ab",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:30:40.265Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

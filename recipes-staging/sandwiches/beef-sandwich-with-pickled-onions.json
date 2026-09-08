@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-sandwich-with-pickled-onions",
+  "name": "Beef Sandwich with Pickled Onions",
+  "subtitle": "A hearty baguette sandwich with tangy onions and crisp green beans.",
+  "description": "Layer leftover beef, avocado sauce, spicy greens, green beans, and quick-pickled onion in a split baguette.",
+  "meal_type": "sandwich",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-onion-finely-sliced",
+      "item": "red onion finely sliced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "rice-vinegar",
+      "item": "rice vinegar",
+      "quantity": 60,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "green-beans",
+      "item": "green beans",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "demi-baguette-halved",
+      "item": "demi baguette halved",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "70g-leftover-avocado-sauce-see-recipe-below",
+      "item": "70g leftover avocado sauce (see recipe below)",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "leftover-beef-see-recipe-below",
+      "item": "leftover beef (see recipe below)",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-of-leftover-spicy-greens-see-recipe-below",
+      "item": "handful of leftover spicy greens (see recipe below)"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sliced onion, rice vinegar, and sugar. Let stand for 20 minutes to pickle.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Cook the green beans for 4 minutes, or until tender, then drain.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "If using raw beef instead of cooked leftovers, cook it to the applicable safe endpoint: 145°F for whole cuts followed by a 3-minute rest, or 160°F for ground beef."
+    },
+    {
+      "step": 4,
+      "text": "Spread the avocado sauce over the baguette halves. Fill with the pickled onion, green beans, beef, and spicy greens, then serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "beef",
+    "sandwich",
+    "leftovers",
+    "pickled-onions"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "pot",
+    "colander"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beef-sandwich-with-pink-pickled-onions",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c9e849e4642a17d6396e456fefcd479175f097cc6959ebf3156b6f61340e745e",
+    "normalized_text_hash": "9cd251187fa333d231c70a8412fd7213e1e601e7a4ecd2d03e33eb24d50f9e11",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:22:16.177Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

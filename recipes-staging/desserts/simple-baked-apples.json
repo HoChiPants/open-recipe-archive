@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-baked-apples",
+  "name": "Simple Baked Apples",
+  "subtitle": "Warm spiced apples with raisins and walnuts",
+  "description": "Tender sliced apples bake with warm spices, dried fruit, walnuts, and a lightly thickened milk mixture for a comforting dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 6,
+      "preparation": "peeled, cored and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cloves",
+      "item": "ground cloves",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar, flour, cinnamon, nutmeg, and cloves together. Add the apples and toss until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Mix in the raisins and walnuts, then spread the fruit mixture in the prepared dish."
+    },
+    {
+      "step": 4,
+      "text": "Pour the milk evenly over the apples and bake until the apples are tender and the mixture is bubbling.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Let the baked apples cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-fruit",
+    "american",
+    "holiday",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/45397/simple-baked-apples/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6558965a6727a5cf7348ddd8b4fab2c3ab1130a929db8a62f6b3dc5b57be0443",
+    "normalized_text_hash": "d5d1030c0e2107a0d0203f64b911d3837a6b571e9674a8c94b935773ed806e7f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:23:37.765Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

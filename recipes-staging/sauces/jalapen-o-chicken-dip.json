@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "jalapen-o-chicken-dip",
+  "name": "Jalapeño Chicken Dip",
+  "subtitle": "A warm, creamy dip with chopped jalapeño and chicken.",
+  "description": "Combine the ingredients and microwave until hot throughout for an easy savory dip.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chunk-white-chicken-in-water",
+      "item": "chunk white chicken in water",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce, thoroughly drained"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "jalapeno",
+      "item": "jalapeno",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a microwave-safe bowl, combine the softened cream cheese and condensed soup until mostly smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the drained chicken, chopped jalapeño, and seasoned salt."
+    },
+    {
+      "step": 3,
+      "text": "Microwave for 1 minute, stir, and continue heating in 1-minute intervals until the dip is steaming and reaches 165°F throughout.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/158880/jalapeno-chicken-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "57aa91c071d00109f3eabd45bfff297a26fbcc9554001c26c14d169d90125dc2",
+    "normalized_text_hash": "7a661bc57d21ea5a5ff1594f25393577c969c2f0b0f7ea3cfce7b0effa1032a3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:23:35.347Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

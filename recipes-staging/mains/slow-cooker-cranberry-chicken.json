@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-cranberry-chicken",
+  "name": "Slow Cooker Cranberry Chicken",
+  "subtitle": "Tender chicken with a tangy cranberry glaze",
+  "description": "Chicken breasts cook gently in a sweet-tart cranberry sauce flavored with Catalina dressing and onion soup mix.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "catalina-salad-dressing",
+      "item": "Catalina salad dressing",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "whole-berry-cranberry-sauce",
+      "item": "whole berry cranberry sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "onion-soup-mix",
+      "item": "onion soup mix",
+      "quantity": 1,
+      "unit": "envelope"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken breast halves in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Combine the Catalina dressing, cranberry sauce, and onion soup mix, then pour the mixture over the chicken."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the chicken reaches 165°F in the thickest part, about 4 hours.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216715/slow-cooker-cranberry-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c2dedfff20e6df728dbcbd6e3d643c725fe713e91d3f7fe1fd96a58741c8c0a",
+    "normalized_text_hash": "49d0c324d3a90b6651de0a8244186de6618d46e49e4121f104cf13129b7008e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:43:07.885Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

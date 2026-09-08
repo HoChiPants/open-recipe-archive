@@ -1,0 +1,181 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-chicken-soup",
+  "name": "Mexican Chicken Soup",
+  "subtitle": "A warming broth-based soup with seasoned chicken and fresh toppings",
+  "description": "Bake seasoned chicken until fully cooked, then combine it with sautéed vegetables, broth, tomatoes, and spices. Finish each serving with cheese, crushed tortilla chips, and avocado.",
+  "meal_type": "soup",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 1.25,
+      "unit": "pounds",
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "taco-seasoning-mix",
+      "item": "taco seasoning mix",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "tortilla-chips",
+      "item": "tortilla chips",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "preparation": "peeled, pitted and diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Place the chicken in a baking dish with enough chicken broth to cover the bottom, and coat the chicken with half of the taco seasoning mix."
+    },
+    {
+      "step": 2,
+      "text": "Bake until the chicken reaches 165°F in the thickest part, about 35 minutes. Rest briefly, then cut or shred the chicken.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 3,
+      "text": "Heat the oil in a large pot over medium heat. Add the onions and celery and cook until softened, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the remaining chicken broth, water, remaining taco seasoning, cumin, and black pepper. Add the tomatoes, cilantro, and cooked chicken."
+    },
+    {
+      "step": 5,
+      "text": "Bring the soup to a gentle simmer and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Ladle into bowls and top with Cheddar, crushed tortilla chips, and diced avocado."
+    }
+  ],
+  "tags": [
+    "soup",
+    "chicken",
+    "mexican-inspired",
+    "weeknight",
+    "one-pot"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23245/mexican-chicken-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0df67fb5bbb9d35a5a8031ace90e42abae94c79c3628795ed07e0442f5b83df3",
+    "normalized_text_hash": "a894279d7922e6855eb96d6118d9faf2a1823f09a864b433c50e0c5984582f97",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:35:23.175Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

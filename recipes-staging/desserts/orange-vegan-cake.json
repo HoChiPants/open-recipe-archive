@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-vegan-cake",
+  "name": "Orange Vegan Cake",
+  "subtitle": "A bright, tender cake with fresh orange flavor",
+  "description": "Blend peeled orange into a simple oil-based batter, then bake until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange",
+      "item": "orange",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour, sugar, baking soda, and salt together."
+    },
+    {
+      "step": 3,
+      "text": "Blend the peeled orange until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the blended orange and vegetable oil into the dry ingredients until combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a baking pan."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until the cake is set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "vegan",
+    "orange"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "blender",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231619/orange-vegan-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aae8377ee75746710f8e11893f9494d4f7132488101fdff6e6c5283c71150fd4",
+    "normalized_text_hash": "740690c4e451f4439d2a2aca37be920c3b1dabee4b973ff8bad1d6cde22f4b16",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:36:34.849Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

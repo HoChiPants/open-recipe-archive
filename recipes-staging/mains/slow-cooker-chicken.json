@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-chicken",
+  "name": "Slow Cooker Chicken",
+  "subtitle": "Tender seasoned chicken for an easy dinner",
+  "description": "A whole chicken is seasoned simply and cooked slowly until tender and safely done.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 540
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "2-to-3-pound-whole-chicken",
+      "item": "(2 to 3 pound) whole chicken",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the whole chicken to a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Season the chicken evenly with salt, pepper, and paprika."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on low for 9 hours, or until a thermometer inserted into the thickest part of the chicken registers 165°F.",
+      "timer_minutes": 540
+    }
+  ],
+  "tags": [
+    "chicken",
+    "slow-cooker",
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8647/baked-slow-cooker-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b03a5dd4f64df45060ffe7dddb5f5f946bd890a2a39d762d099165e96ee98aac",
+    "normalized_text_hash": "787c7a011b0b63403b11ba204d495acda1d6545a39d91321a84d0cbeb25c0080",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:51:23.934Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-knefla-dumplings",
+  "name": "Potato Knefla Dumplings",
+  "subtitle": "Tender dumplings with diced potatoes",
+  "description": "A simple skillet meal combining boiled potato dumplings with lightly browned potatoes.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "preparation": "peeled and diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour, baking powder, salt, and black pepper in a bowl. Whisk in the egg and milk until a smooth dough forms."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of salted water to a boil. Cut or pinch the dough into small dumplings and add them to the water."
+    },
+    {
+      "step": 3,
+      "text": "Simmer the dumplings for 20 minutes, or until firm and the center reaches 160°F. Drain.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Heat the vegetable oil in a skillet over medium heat. Add the diced potatoes and cook for about 20 minutes, stirring occasionally, until tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Add the drained dumplings to the skillet and toss with the potatoes until heated through."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "dumplings",
+    "potatoes",
+    "skillet-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "pot",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/190705/german-russian-dakota-knefla/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "230216b11b8120489a438244a2eab85349d2c6c555aa73b2e720295e7f75ddbc",
+    "normalized_text_hash": "71edef16995a17db786970324338d732c6ae9d3913d5044e07b35a663bc88694",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:40:18.185Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

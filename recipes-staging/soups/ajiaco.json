@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ajiaco",
+  "name": "Ajiaco",
+  "subtitle": "Colombian-style chicken, corn, and potato soup",
+  "description": "A hearty soup built from chicken, corn, several kinds of potatoes, guascas, and a cool caper-avocado garnish.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless-chicken-breasts",
+      "item": "skinless chicken breasts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cobs-choclo-corn-a-variety-of-large-kernel-yellow-corn-or-regular-corn-cobs",
+      "item": "cobs choclo corn (a variety of large-kernel yellow corn) or regular corn cobs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "garlic-cloves-sliced",
+      "item": "garlic cloves sliced",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "white-onion-diced",
+      "item": "white onion diced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "yellow-pepper-diced",
+      "item": "yellow pepper diced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "potatoes-red-or-white",
+      "item": "potatoes (red or white)",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "spring-onions-chopped",
+      "item": "spring onions chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "coriander-sprigs",
+      "item": "coriander sprigs",
+      "quantity": 6,
+      "preparation": "chopped, plus extra to serve"
+    },
+    {
+      "ingredient_id": "papas-criollas-small-yellow-potatoes",
+      "item": "papas criollas (small yellow potatoes)",
+      "quantity": 12,
+      "preparation": "cut in half"
+    },
+    {
+      "ingredient_id": "guascas",
+      "item": "guascas",
+      "quantity": 8,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "single-or-double-cream",
+      "item": "single or double cream",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "capers-drained",
+      "item": "capers drained",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "avocado-peeled",
+      "item": "avocado peeled",
+      "quantity": 1,
+      "preparation": "stoned and cut into small cubes"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chicken, corn cobs, garlic, onion, yellow pepper, diced potatoes, spring onions, and coriander in a large pot. Add enough water to cover, bring to a boil, then simmer until the chicken reaches 165°F internally and the potatoes are tender.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chicken and corn to a plate. Blend the cream into the soup until smooth, then return the soup to the pot."
+    },
+    {
+      "step": 3,
+      "text": "Add the halved papas criollas and guascas. Simmer until the small potatoes are tender.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Cut the chicken and corn into thick pieces. Return them to the soup and heat through."
+    },
+    {
+      "step": 5,
+      "text": "Whisk together the chopped spring onions, coriander, cream, capers, and avocado to make the garnish."
+    },
+    {
+      "step": 6,
+      "text": "Ladle the soup into bowls and serve with the garnish and extra chopped coriander."
+    }
+  ],
+  "tags": [
+    "chicken-soup",
+    "potato-soup",
+    "corn-soup",
+    "colombian-inspired",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "blender",
+    "food thermometer",
+    "plate",
+    "knife",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/ajiaco",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ddc6988f9b752526c5b622ddb1d07f22e4a5f79a73c6323c66a7c2676400ec19",
+    "normalized_text_hash": "119d0782592e3ff5c34f1a2e21558fb77e1db00d1c461a0b94604ad7c2a30399",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:33:10.429Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

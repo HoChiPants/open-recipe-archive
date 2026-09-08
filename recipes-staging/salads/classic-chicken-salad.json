@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-chicken-salad",
+  "name": "Classic Chicken Salad",
+  "subtitle": "A creamy chicken salad with crisp celery and onion.",
+  "description": "Combine cooked chicken with two dressings and fresh vegetables for a simple chilled salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boneless-chicken-breast-halves",
+      "item": "boneless chicken breast halves",
+      "quantity": 2,
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "creamy-salad-dressing",
+      "item": "creamy salad dressing",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cole-slaw-dressing",
+      "item": "cole slaw dressing",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "stalk-celery",
+      "item": "stalk celery",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Ensure the chicken is fully cooked, then cut or shred it into bite-size pieces."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chicken, creamy salad dressing, cole slaw dressing, celery, and onion in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Season with salt and pepper to taste and mix until evenly coated."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "chicken",
+    "salad",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14399/the-best-chicken-salad-ever/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f5add97209957926f7856d74574a24544c18562c2dcc98219114fdcb26f74e79",
+    "normalized_text_hash": "638725a343517c7f9d0d5705e9d7938314cd0cf1c67ab1fdba94fe1998e6827f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:55:54.902Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

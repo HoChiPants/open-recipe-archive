@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spaghetti-sauce",
+  "name": "Spaghetti Sauce",
+  "subtitle": "A savory tomato sauce with fresh vegetables and herbs",
+  "description": "Simmer canned tomatoes with sautéed aromatics, basil, and green chilies for a balanced sauce suited to pasta.",
+  "meal_type": "sauce",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-basil-leaves",
+      "item": "fresh basil leaves",
+      "quantity": 6,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "bunch-green-onions",
+      "item": "bunch green onions",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "tomatoes-with-green-chilies",
+      "item": "tomatoes with green chilies",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce, diced, undrained"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large saucepan over medium heat. Add the garlic and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Add the onion, green bell pepper, basil, green onions, bay leaf, black pepper, and tomatoes with green chilies. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the tomato sauce, stewed tomatoes, water, and sugar. Add the salt and stir well."
+    },
+    {
+      "step": 4,
+      "text": "Simmer gently, stirring occasionally, until the vegetables are tender and the sauce has thickened, about 25 minutes. Remove the bay leaf before serving.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "sauce",
+    "tomato",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/159723/richard-and-suzannes-famous-spaghetti-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a067ae8225dbc1bb255857af586addb2552a12d7e1bb96bd6147f56c5877ecef",
+    "normalized_text_hash": "8990ce14a44852ca84dd92f4ed9d4e0ed51d268551f3e070356f9dc9696e555d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:05:53.865Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

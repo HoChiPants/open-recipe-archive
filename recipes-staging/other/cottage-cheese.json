@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cottage-cheese",
+  "name": "Cottage Cheese",
+  "subtitle": "A quick fresh curd made with milk and vinegar",
+  "description": "Warm milk, separate the curds with vinegar, then cool and season for a simple homemade cottage cheese.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk and vinegar separately until heated through."
+    },
+    {
+      "step": 2,
+      "text": "Combine the warmed liquids and stir for 2 minutes, until curds begin to form.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Let the mixture stand until set, then transfer the curds to a bowl."
+    },
+    {
+      "step": 4,
+      "text": "Cool for 15 minutes. Stir in the salt to taste and serve.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "cottage-cheese",
+    "homemade",
+    "quick",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254658/cottage-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ef6915bb28df6b6cbfad56242ea9047837f756aca931214886c259eb399d2b47",
+    "normalized_text_hash": "557f59ac264920191ec17708de9a35a99824115e23119d7925d457a0fffa5165",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:12:05.666Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

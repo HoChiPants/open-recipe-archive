@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-omelette-de599118",
+  "name": "Cheese Omelette",
+  "subtitle": "A quick, tender omelette with mature cheddar",
+  "description": "A simple single-serving omelette cooked in butter and olive oil, finished with finely grated mature cheddar.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mature-cheddar-finely-grated",
+      "item": "mature cheddar finely grated",
+      "quantity": 15,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil and butter in a nonstick skillet over medium heat until the butter melts and the pan is hot.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Pour in the eggs and cook until nearly set, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Scatter the grated cheddar over the eggs, then fold the omelette in half and cook until the center is firm and fully set, reaching 160°F."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "eggs",
+    "omelette",
+    "cheese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "whisk",
+    "nonstick skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheese-omelette",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "033bbd87336b1b574d3cf084b9341b1fcd60ec2370fb90a70ba553ab2fdc2f01",
+    "normalized_text_hash": "1bb863608478140c567d23352a3d2acee91f8a33cb2729e6083c438cf80159d7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T10:24:04.430Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

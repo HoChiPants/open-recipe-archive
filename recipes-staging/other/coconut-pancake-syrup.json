@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-pancake-syrup",
+  "name": "Coconut Pancake Syrup",
+  "subtitle": "A warm coconut topping for pancakes",
+  "description": "A sweet coconut syrup with shredded coconut, made for spooning over pancakes or other breakfast foods.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coconut-milk",
+      "item": "coconut milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "13.5 ounce"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "light-corn-syrup",
+      "item": "light corn syrup",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-coconut",
+      "item": "sweetened coconut",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the coconut milk, cornstarch, light corn syrup, and sweetened coconut until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a saucepan over medium heat, then transfer in the mixture and add the white sugar."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a simmer, stirring until the syrup thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and let cool for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "condiment",
+    "hawaiian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "whisk",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/108969/coconut-pancake-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3319f5dfc7862cd1a19f54491849e50506cc2b6a5b1d37472deaaf8aeca42322",
+    "normalized_text_hash": "ddaa63365f8d1482cefe090aa82c33fafe1d313857d71adef2d182417c814683",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:00:37.518Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

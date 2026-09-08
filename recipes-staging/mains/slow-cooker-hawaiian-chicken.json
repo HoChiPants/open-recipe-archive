@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-hawaiian-chicken",
+  "name": "Slow Cooker Hawaiian Chicken",
+  "subtitle": "Tender chicken with pineapple and barbecue sauce",
+  "description": "Chicken breasts cook slowly with pineapple, honey barbecue sauce, and soy sauce for a sweet-savory main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breast",
+      "item": "chicken breast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "honey-barbecue-sauce",
+      "item": "honey barbecue sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "18 ounce"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, sliced"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken breasts in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Add the honey barbecue sauce, pineapple, and soy sauce, distributing the sauce and fruit over the chicken."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook for 4 hours, or until the thickest chicken breast reaches 165°F on a food thermometer.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "chicken",
+    "slow-cooker",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239319/slow-cooker-hawaiian-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "42bd9043d37272ff889eea78614a538970e7c961a296f26ded63b030c5bc6f52",
+    "normalized_text_hash": "d8a12787014e19f5b1baf7ba6f3b70bb3b3332d08437231c3613ce8dea089262",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:45:35.605Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "forgotten-meringue-cookies",
+  "name": "Forgotten Meringue Cookies",
+  "subtitle": "Light, crisp cookies with chocolate chips",
+  "description": "These simple meringue cookies bake briefly, then finish setting in the turned-off oven.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 8,
+    "inactive_minutes": 472
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Line a baking sheet with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites, salt, and white sugar until the mixture forms stiff peaks."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the vanilla extract and semisweet chocolate chips."
+    },
+    {
+      "step": 4,
+      "text": "Drop the mixture by spoonfuls onto the prepared baking sheet, spacing the cookies apart."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cookies are set and the centers reach 160°F when checked with a food thermometer.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 6,
+      "text": "Turn off the oven and leave the cookies inside to finish drying and setting."
+    },
+    {
+      "step": 7,
+      "text": "Remove the cookies after the extended oven rest and cool completely before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "meringue",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "parchment paper",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9849/forgotten-cookies-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c6905b9ad052215187402246f4adcc0b6ab361fe73ea3ec8b8d594b9d6bba9fc",
+    "normalized_text_hash": "1743011df5150222ecfc3ce3b798276dc659e6c08fa2fb5c53bc6431e9d56091",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:22.314Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

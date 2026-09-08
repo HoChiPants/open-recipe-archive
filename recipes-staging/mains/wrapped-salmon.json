@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "wrapped-salmon",
+  "name": "Wrapped Salmon",
+  "subtitle": "Phyllo-wrapped salmon with Dijon mustard",
+  "description": "Salmon fillets are coated with Dijon mustard, wrapped in buttered phyllo, and baked until crisp and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "6-ounce-fillets-salmon",
+      "item": "(6 ounce) fillets salmon",
+      "quantity": 4,
+      "preparation": "with skin and bones removed"
+    },
+    {
+      "ingredient_id": "sheets-phyllo-dough",
+      "item": "sheets phyllo dough",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the phyllo sheets as needed for wrapping. Brush the sheets with melted butter."
+    },
+    {
+      "step": 3,
+      "text": "Place one salmon fillet on the prepared phyllo. Season with salt and pepper, then coat with Dijon mustard."
+    },
+    {
+      "step": 4,
+      "text": "Fold the phyllo around each fillet to enclose it completely. Place the wrapped fillets on a baking sheet and brush the tops with melted butter."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, until the phyllo is golden brown and the salmon reaches 145°F internally or is opaque and flakes easily.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Let rest for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "salmon",
+    "phyllo",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "pastry brush",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25866/wrapped-salmon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "29eeeedce8a50471bc300a3a857880281002171306afb3221f1c999338b0defc",
+    "normalized_text_hash": "1b667076b41be41a0df48768bdec65688791382168c0407f5b9807f934bfc190",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:09:24.908Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

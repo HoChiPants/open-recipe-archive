@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chili-cheese-dip",
+  "name": "Chili Cheese Dip",
+  "subtitle": "A warm, creamy dip for tortilla chips",
+  "description": "Combine softened cream cheese, beanless chili, and shredded Cheddar, then microwave until hot and melted. Serve with tortilla chips.",
+  "meal_type": "sauce",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "chili-without-beans",
+      "item": "chili without beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 16,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "nacho-flavor-tortilla-chips",
+      "item": "nacho-flavor tortilla chips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "13.5 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese until smooth, then whisk in the chili and half of the Cheddar."
+    },
+    {
+      "step": 2,
+      "text": "Spread the mixture in a microwave-safe dish and layer the remaining Cheddar over the top."
+    },
+    {
+      "step": 3,
+      "text": "Microwave for 5 minutes, or until heated through and the cheese is melted.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Serve warm with tortilla chips."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "whisk",
+    "microwave-safe dish",
+    "microwave"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17088/chili-cheese-dip-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "16a6fe23c948ef71de8c5c90f8c74e85c2289c839d79ac8637116abf6a262660",
+    "normalized_text_hash": "2087d0a9696b309a9ee9eb62993d9ca24dedb5081e3c30358234727b6efdd31e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:22:08.479Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

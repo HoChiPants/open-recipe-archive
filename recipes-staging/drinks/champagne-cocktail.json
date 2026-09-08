@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "champagne-cocktail",
+  "name": "Champagne Cocktail",
+  "subtitle": "A sparkling drink with bitters, sugar, and citrus",
+  "description": "Build this classic sparkling cocktail in the glass, with an optional brandy addition and an orange twist to finish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 3,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-sugar-cube",
+      "item": "white sugar cube",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bitters",
+      "item": "bitters",
+      "quantity": 2,
+      "unit": "dashes"
+    },
+    {
+      "ingredient_id": "brandy",
+      "item": "brandy (optional)",
+      "quantity": 2,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "chilled-champagne-to-top-up",
+      "item": "chilled champagne to top up"
+    },
+    {
+      "ingredient_id": "orange-twist-to-garnish",
+      "item": "orange twist to garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sugar cube in a champagne flute and saturate it with the bitters."
+    },
+    {
+      "step": 2,
+      "text": "Add the optional brandy, then slowly fill the glass with chilled champagne."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the orange twist and serve immediately."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "sparkling-wine",
+    "classic-drink",
+    "celebration"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "champagne flute"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/champagne-cocktail",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d2ea4ddb61aa24b1694650722a4e7536b51f6eded8d9c85c58106b8d46652dc9",
+    "normalized_text_hash": "72ddcdf9f2e6aa4db191d7568cb11cafd1165b6a219ed2b7c3e6fc415bdf73f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T03:56:15.975Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

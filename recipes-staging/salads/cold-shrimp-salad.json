@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cold-shrimp-salad",
+  "name": "Cold Shrimp Salad",
+  "subtitle": "A bright, chilled seafood salad with peppers and avocado",
+  "description": "Cooked shrimp, crisp peppers, onion, cilantro, and avocado are tossed with olive oil and seasonings, then chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "medium-shrimp",
+      "item": "medium shrimp",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cooked, peeled and deveined without tail"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 5,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 1,
+      "preparation": "peeled, pitted and diced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chili-pepper-flakes",
+      "item": "chili pepper flakes"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the shrimp, green and red bell peppers, garlic, onion, cilantro, avocado, salt and pepper, and chili pepper flakes in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the olive oil and toss gently until the ingredients are evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 60 minutes. Keep the salad chilled until serving.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Serve cold."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "chilled",
+    "make-ahead"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "large bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21638/cold-shrimp-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d36112f19bc9a485221d1ba950da508ef06da45a9c6982ca9b39ff05090e35c7",
+    "normalized_text_hash": "c9b09b12bb8e595958049c090aa121b2912682fd49acba37bd79bcf37a7fa8b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:04:26.721Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

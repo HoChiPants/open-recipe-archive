@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "unsweetened-iced-tea",
+  "name": "Unsweetened Iced Tea",
+  "subtitle": "A simple chilled tea beverage",
+  "description": "Brew tea with hot water, dilute with cold water, and chill for a refreshing unsweetened drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tea-bags",
+      "item": "tea bags",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "hot-water",
+      "item": "hot water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 7.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the tea bags in a large pitcher or heatproof container."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the hot water and steep for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Remove the tea bags, add the cold water, and stir to combine."
+    },
+    {
+      "step": 4,
+      "text": "Chill the tea until cold, then serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "unsweetened",
+    "iced-tea"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pitcher or heatproof container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20628/iced-tea-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9fa823926489130a9e730381e98775fa7483e93990b34870462680003caf690e",
+    "normalized_text_hash": "1455fa85465fc2f803ea762e3236e15c6693a3da1c32ff7d1b091e06a74fa798",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:39:16.480Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

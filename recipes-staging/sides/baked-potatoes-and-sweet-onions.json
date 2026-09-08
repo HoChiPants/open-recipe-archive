@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potatoes-and-sweet-onions",
+  "name": "Baked Potatoes and Sweet Onions",
+  "subtitle": "A simple herb-seasoned baked side",
+  "description": "Sliced potatoes and sweet onions bake with butter and parsley until tender and lightly seasoned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 8,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "sweet-onions",
+      "item": "sweet onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sliced potatoes, sweet onions, butter, and dried parsley in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Season with salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, or until the potatoes are tender.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "potatoes",
+    "baked",
+    "vegetable-side",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24299/candies-easy-potato-and-onion-dish/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "54efd100379c16ed859085590b2041bcefa36d6f21db9fd66985dc2a9a087b61",
+    "normalized_text_hash": "cd953c681a11801fb915c5dc5b594dec940dd049ae483821075fe090ee82c6f6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:47:32.605Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

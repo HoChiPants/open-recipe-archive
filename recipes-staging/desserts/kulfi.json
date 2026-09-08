@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kulfi",
+  "name": "Kulfi",
+  "subtitle": "A creamy cardamom-flecked frozen dessert",
+  "description": "Blend milks, whipped topping, bread, and cardamom into a smooth mixture, then freeze until firm for a simple Indian-inspired dessert.",
+  "meal_type": "dessert",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "16-ounce-container-frozen-whipped-topping",
+      "item": "(16 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 4,
+      "preparation": "torn into pieces"
+    },
+    {
+      "ingredient_id": "ground-cardamom",
+      "item": "ground cardamom",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the evaporated milk, sweetened condensed milk, thawed whipped topping, and torn bread pieces. Blend until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the ground cardamom and mix until evenly distributed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to freezer-safe containers and freeze for 8 hours, or until firm.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 4,
+      "text": "Serve frozen."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "indian",
+    "frozen-dessert",
+    "cardamom"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "blender",
+    "freezer-safe containers",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19834/kulfi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c744351e33fb01be1db1ec9edb595c3b7591b31d1b1c7e4ccf5a8d9fb3ab73b",
+    "normalized_text_hash": "9c04acc0ac278ecebbb653155c7483045f247ddd550844c4dff96afe01128cb5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:46:20.106Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

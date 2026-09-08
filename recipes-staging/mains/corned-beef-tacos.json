@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corned-beef-tacos",
+  "name": "Corned Beef Tacos",
+  "subtitle": "Warm tortillas filled with corned beef, slaw, and lime sauce",
+  "description": "Shredded corned beef and prepared coleslaw fill flour tortillas, finished with a tangy cilantro yogurt sauce.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "corned-beef",
+      "item": "corned beef",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "10-inch-flour-tortillas",
+      "item": "(10 inch) flour tortillas",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "prepared-coleslaw",
+      "item": "prepared coleslaw",
+      "quantity": 1,
+      "unit": "pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the yogurt, mayonnaise, lime juice, cilantro, cayenne, and salt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Heat the shredded corned beef in a skillet until hot. If starting with uncooked beef, verify it reaches 145°F, then rest it for 3 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Warm the flour tortillas until flexible."
+    },
+    {
+      "step": 4,
+      "text": "Divide the coleslaw and corned beef among the tortillas, top with the yogurt sauce, and fold to serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "tacos"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216926/irish-tacos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "77647e2afaaad5a4d954a25c1f0ff86c5fc9b75be17a1147d62e8484d1ffe08d",
+    "normalized_text_hash": "5df96bd60832fb00c9788fbce540c31db257cab21c83855ae72a5055fc5cb9a0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:15:16.653Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

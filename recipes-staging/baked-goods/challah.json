@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "challah",
+  "name": "Challah",
+  "subtitle": "Braided yeast bread with a golden finish",
+  "description": "A lightly sweet, egg-enriched braided loaf finished with optional seeds.",
+  "meal_type": "baked-good",
+  "cuisine": "Jewish",
+  "yield": {
+    "quantity": 1,
+    "unit": "loaf (cuts into 18-20 slices)"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strong-white-bread-flour-plus-extra-for-dusting",
+      "item": "strong white bread flour plus extra for dusting",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sachet-fast-action-dried-yeast",
+      "item": "sachet fast-action dried yeast",
+      "quantity": 7,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "eggs-beaten",
+      "item": "eggs beaten",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sunflower-oil-plus-extra-for-the-bowl",
+      "item": "sunflower oil plus extra for the bowl",
+      "quantity": 70,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "poppy-seeds-or-sesame-seeds-optional",
+      "item": "poppy seeds or sesame seeds (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sugar, yeast, and sunflower oil. Stir and let stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the flour and beaten eggs, then mix until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Turn the dough onto a lightly floured surface and knead for 10 minutes, adding flour as needed, until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into a ball and place it in an oiled bowl. Cover and leave to rise for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Divide and shape the risen dough into braided strands, then place the braid on a prepared baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Cover and let the shaped loaf rise for 40 minutes. Preheat the oven while it rises.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 7,
+      "text": "Brush the loaf with beaten egg and sprinkle with poppy or sesame seeds, if using."
+    },
+    {
+      "step": 8,
+      "text": "Bake for 30 minutes, until golden brown.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 9,
+      "text": "Let the loaf cool for 15 minutes before slicing.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "challah",
+    "braided-bread",
+    "yeast-bread",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/challah",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5d4e718f27ac088b98f3ff88455c630ff175c7b88b14e7c608e7d53a63ef07e4",
+    "normalized_text_hash": "ffca9636c921c695cb75ba4592f4c5d3086a3238efcd801e8e19a49903df2432",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T03:57:38.954Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

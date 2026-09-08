@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pressure-cooked-sauerkraut",
+  "name": "Pressure-Cooked Sauerkraut",
+  "subtitle": "Tangy cabbage side with a quick pressure-cook method",
+  "description": "Coarsely chopped cabbage is seasoned with vinegar, water, and salt, then pressure-cooked until tender and tangy.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the coarsely chopped cabbage in an electric pressure cooker."
+    },
+    {
+      "step": 2,
+      "text": "Add the white vinegar, water, and salt, and stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Secure the lid and cook at high pressure until the cabbage is tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Allow the pressure to release naturally for 10 minutes, then release any remaining pressure according to the cooker’s instructions.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Stir the sauerkraut and serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "cabbage",
+    "pressure-cooker",
+    "tangy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "electric pressure cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265978/instant-pot-sauerkraut/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "01f4240396cc3b02fc00d4af197a6c706f3f586b82e202add2a9828c2a151708",
+    "normalized_text_hash": "3fcd99f1e4a7bcc95a34aca78992b1ceefb555798b6a1557f1de8c3f93e08e20",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:10:39.323Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-banana-bread",
+  "name": "Strawberry Banana Bread",
+  "subtitle": "A tender quick bread with mashed banana, strawberries, and chopped nuts.",
+  "description": "This fruit-filled loaf combines ripe bananas, diced strawberries, and nuts in a lightly spiced sour-cream batter.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "nonstick-cooking-spray",
+      "item": "nonstick cooking spray"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ripe-bananas",
+      "item": "ripe bananas",
+      "quantity": 3,
+      "unit": "medium",
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "nuts",
+      "item": "nuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Coat a loaf pan with nonstick cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour, baking soda, cinnamon, and salt together in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, whisk the sugar and softened butter until blended. Add the sour cream, eggs, and vanilla, then mix in the mashed bananas."
+    },
+    {
+      "step": 4,
+      "text": "Fold the dry ingredients into the banana mixture just until combined, then fold in the strawberries and nuts."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 65 minutes, or until golden brown and a thermometer inserted in the center reads at least 160°F.",
+      "timer_minutes": 65
+    },
+    {
+      "step": 6,
+      "text": "Cool the loaf before slicing and serving."
+    }
+  ],
+  "tags": [
+    "bread",
+    "quick-bread",
+    "fruit",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowls",
+    "whisk",
+    "spatula",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8354595/strawberry-banana-bread-with-nuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f101e7d6bfd8fced2e4551d641a3fc420c14df9f20131978f537263457d9a90b",
+    "normalized_text_hash": "7cb21353f113cbadc00eceaef6f4652feb7dc20b2a9db17b3e09726d8d8de9ad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:57:26.237Z",
+    "semantic_similarity": 32,
+    "structural_similarity": 48,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

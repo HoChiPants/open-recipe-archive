@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "leek-dip",
+  "name": "Leek Dip",
+  "subtitle": "Cool, creamy dip with chopped leeks and bacon bits",
+  "description": "Combine the ingredients for a savory dip, then refrigerate until well chilled before serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "leeks",
+      "item": "leeks",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "creamy-salad-dressing",
+      "item": "creamy salad dressing",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "12-ounce-jar-bacon-bits",
+      "item": "(12 ounce) jar bacon bits",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the softened cream cheese, creamy salad dressing, vinegar, sugar, leeks, bacon bits, salt, and pepper together until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate until thoroughly chilled, then serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21846/leek-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5bc643b285560f91d574d60d49fbbabae3ed33eceaed7b4e1a404987506aaa3a",
+    "normalized_text_hash": "28e377af91ce66b53b9f3726e5329ab21b34f87c51bfbe650fe6d379f5968f17",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:52:46.560Z",
+    "semantic_similarity": 15,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chinese-braised-pork-belly",
+  "name": "Chinese Braised Pork Belly",
+  "subtitle": "Tender pork belly in a soy, wine, ginger, and rock sugar glaze",
+  "description": "Pork belly is browned, then gently braised with soy sauces, rice wine, ginger, spring onions, and rock sugar until tender.",
+  "meal_type": "main",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "raw-pork-belly",
+      "item": "raw pork belly",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "light-soy-sauce",
+      "item": "light soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dark-soy-sauce",
+      "item": "dark soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chinese-rice-cooking-wine",
+      "item": "Chinese rice cooking wine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chinese-rock-sugar",
+      "item": "Chinese rock sugar",
+      "quantity": 3.5,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "1-inch-piece-fresh-ginger",
+      "item": "(1 inch) piece fresh ginger",
+      "quantity": 1,
+      "preparation": "peeled and grated"
+    },
+    {
+      "ingredient_id": "spring-onions",
+      "item": "spring onions",
+      "quantity": 8,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the pork belly into large pieces and stir briefly to separate them."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a heavy pot over medium heat for 10 minutes. Add the vegetable oil, then arrange the pork in the pot and brown it, turning as needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the light soy sauce, dark soy sauce, rice cooking wine, rock sugar, ginger, and spring onions. Stir to coat the pork and bring the liquid to a simmer."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer gently for 120 minutes, turning the pork occasionally, until tender and the thickest piece reaches at least 145°F.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and rest the pork for 3 minutes before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chinese",
+    "braised",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "heavy pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218104/dong-po-chinese-pork-belly/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a76cb21f1d94d5500e1c7475daf9b21c925c1cb0072040d358fcea4708b20732",
+    "normalized_text_hash": "05764da6eb0f06fb75fe1ddc77a082221cb20b0ead92622cd7747c815a8f3eb4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:11:35.612Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

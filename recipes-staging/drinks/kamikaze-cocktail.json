@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kamikaze-cocktail",
+  "name": "Kamikaze Cocktail",
+  "subtitle": "A crisp lime-and-citrus vodka drink",
+  "description": "Shake vodka, triple sec, and lime juice with ice, then strain into a serving glass.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounce-lime-juice",
+      "item": "fluid ounce lime juice",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "fluid-ounce-triple-sec",
+      "item": "fluid ounce triple sec",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "fluid-ounce-vodka",
+      "item": "fluid ounce vodka",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the lime juice, triple sec, vodka, and ice to a cocktail shaker."
+    },
+    {
+      "step": 2,
+      "text": "Shake vigorously until well chilled."
+    },
+    {
+      "step": 3,
+      "text": "Strain into a cocktail glass and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "vodka",
+    "citrus",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "cocktail glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222526/kamikaze-cocktail/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a21fb3793920b3b337da82130573986337611f8d9144a99d7245daf12f4cd898",
+    "normalized_text_hash": "6885796ab690e497a66282a0763e72b31587830c2ed6144672fda0f0af896135",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:32:59.839Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

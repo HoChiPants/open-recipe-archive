@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-haddock",
+  "name": "Baked Haddock",
+  "subtitle": "Parmesan-crusted haddock baked until flaky",
+  "description": "Haddock fillets are dipped in seasoned milk, coated with a thyme-Parmesan crumb mixture, and baked in melted butter for a crisp topping.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "bread-crumbs",
+      "item": "bread crumbs",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-dried-thyme",
+      "item": "ground dried thyme",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "haddock-fillets",
+      "item": "haddock fillets",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 500°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the milk and salt in a shallow dish. In a second dish, mix the bread crumbs, Parmesan, and thyme."
+    },
+    {
+      "step": 3,
+      "text": "Dip each haddock fillet in the salted milk, then coat it with the crumb mixture."
+    },
+    {
+      "step": 4,
+      "text": "Place the fillets in a baking dish with the melted butter."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until the fish is opaque, flakes easily, and reaches 145°F in the thickest part.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "shallow dishes",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/100195/baked-haddock/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7de56a403b4d71c1326b3a0b37fe232334dc946850ab141a2abc30d5540cd9d2",
+    "normalized_text_hash": "cf96ad8045e2c699ac9f4820e24a13f9a3e891fc39ec52065892ae08deb45f1f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:47:45.731Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

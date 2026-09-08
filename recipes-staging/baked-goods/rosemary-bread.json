@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rosemary-bread",
+  "name": "Rosemary Bread",
+  "subtitle": "A fragrant, herb-seasoned yeast loaf",
+  "description": "A tender homemade loaf flavored with rosemary and Italian seasoning, finished with a golden crust.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "rosemary",
+      "item": "rosemary",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "italian-seasoning",
+      "item": "Italian seasoning",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the white sugar into the warm water. Add the active dry yeast and stir to combine."
+    },
+    {
+      "step": 2,
+      "text": "Mix in the softened butter, rosemary, salt, and Italian seasoning. Stir in the bread flour until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the dough to a lightly floured surface and knead until smooth, about 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 4,
+      "text": "Place the dough in an oiled bowl and turn it to coat. Cover and let rise until doubled, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Shape the risen dough and transfer it to a prepared baking pan. Add rosemary as directed by the shaping, cover, and let rise for another 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Preheat the oven to 375°F. Brush the dough with the beaten egg."
+    },
+    {
+      "step": 7,
+      "text": "Bake for about 20 minutes, until golden brown and the center is fully set; if checking with a thermometer, it should reach 160°F.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "bread",
+    "rosemary",
+    "yeast-bread",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "measuring cups and spoons",
+    "baking pan",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/89376/delicious-rosemary-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "46cf1de31c8d9cd62257a1a2704cb34ba15c972ce8fcdf587fd772d80a005ac4",
+    "normalized_text_hash": "40250e80e0b29efedc78b03972588649ceb602dc5b897a22a19fdd7ddb2a54e2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:04:49.821Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

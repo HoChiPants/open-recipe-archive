@@ -36,6 +36,7 @@ The personal archive uses recipe IDs, so it remains portable across deployments 
 
 ```text
 recipes/                 one recipe per file, grouped by meal type
+recipes-staging/         production-shaped normalized recipes awaiting source rights
 ingredients/             canonical ingredient records and seasonality
 schemas/                 JSON Schema contracts for recipes and ingredients
 scripts/                 validation, catalog generation, and scaffolding tools
@@ -82,6 +83,9 @@ Useful optional fields include `subtitle`, `description`, `cuisine`, `nutrition`
 | `npm run candidate:auto:all -- --plan`                                                                    | Plan the resumable all-sites queue (GPT-5.6 Luna by default)                          |
 | `npm run candidate:batch -- --count 10 --attest-publication-rights`                                       | Normalize, review, promote, and build a feed for the next cross-site batch            |
 | `npm run candidate:staged:promote -- --plan`                                                              | Revalidate staged rewrites without making model calls                                 |
+| `npm run recipes-staging:export -- --plan`                                                               | Preview a shareable, rights-pending recipe collection                                 |
+| `npm run recipes-staging:validate`                                                                       | Validate every staged recipe, hash, manifest entry, and ingredient reference          |
+| `npm run recipes-staging:promote -- --plan`                                                              | Preview rights-gated promotion from the tracked staging collection                    |
 | `npm run candidate:rights -- --list`                                                                      | Inspect reusable source publication-rights records                                    |
 | `npm run candidate:promote -- --candidate <review.json> --recipe <edited.json> --attest-original-wording` | Validate and promote an independently rewritten candidate                             |
 | `npm run scrape:discover -- --site <id>`                                                                  | Preview URLs from an authorized configured site                                       |
@@ -130,6 +134,26 @@ npm run candidate:batch -- --count 500 --concurrency 4 --model gpt-5.6-luna --at
 ```
 
 The count is the number of candidates attempted, so the number promoted can be lower when records fail or remain held. This command never connects to Daily Dine or production; immutable release creation and the Daily Dine write workflow remain explicit deployment steps.
+
+### Shareable rights-pending collection
+
+To turn locally reviewed transformations into a tracked collection that can be shared with source companies, export `recipes-staging/`:
+
+```bash
+npm run recipes-staging:export
+npm run recipes-staging:validate
+```
+
+Each JSON recipe has the same schema and shape it will have under `recipes/`, including canonical ingredient IDs, source attribution, source URL, and normalization provenance. Source images are never included. The collection-level `manifest.json` deliberately labels every record `rights-pending`; `recipes-staging/` is not read by the catalog or Daily Dine feed builders, so committing it does not publish the recipes.
+
+After permission or another valid publication basis is documented for a source in `scraping/config/publication-rights.json`, preview a bounded promotion and then attest that the recorded evidence is current:
+
+```bash
+npm run recipes-staging:promote -- --limit 10 --plan
+npm run recipes-staging:promote -- --limit 10 --attest-publication-rights
+```
+
+The attestation is not permission by itself and cannot bypass a missing, draft-only, stale, expired, or unverified rights record. Promotion copies qualifying records into `recipes/` and required canonical ingredients into `ingredients/`; it leaves the shareable staging collection intact for audit history.
 
 Build a release with a stable release ID and timestamp:
 

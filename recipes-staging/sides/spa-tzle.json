@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spa-tzle",
+  "name": "Spätzle",
+  "subtitle": "Tender German egg dumplings",
+  "description": "Make soft, lightly seasoned egg dumplings by pressing a thick batter into simmering salted water.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "plus more as needed"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "creme-fraiche",
+      "item": "creme fraiche",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "sour cream, or plain yogurt"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour, salt, and cayenne pepper. Add the egg and creme fraiche, then mix in the milk until a thick batter forms, adding flour or milk as needed."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of salted water to a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Press or drop small portions of batter into the simmering water. Cook until the dumplings rise and are firm and cooked through; verify an egg-containing center reaches 160°F if checking with a thermometer.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Lift out the dumplings, drain well, and serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "german",
+    "dumplings"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "whisk",
+    "slotted spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260576/spatzle-aka-spaetzle/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "47d06ecb5b7d4062a4f40b6fd80f028b2fa0c3e303ece116c4ffb7fc651f76d7",
+    "normalized_text_hash": "630080088b3475c7102de2ca79c0583a30ae25c20f448ff70eb84106fbd599d0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:22:33.989Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

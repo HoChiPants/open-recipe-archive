@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sourdough-bread",
+  "name": "Sourdough Bread",
+  "subtitle": "A straightforward loaf with a chewy crumb and crisp crust.",
+  "description": "Mix sourdough starter, yeast, and salt with warm water and flour, then shape and bake until deeply browned.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sourdough-starter",
+      "item": "sourdough starter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 2.6666669845581,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the warm water, sourdough starter, salt, and yeast in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the bread flour and mix until a shaggy dough forms. Knead until the dough is smooth and elastic."
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into a loaf and place it in a suitable baking pan or on a lined sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 350°F until the loaf is well browned and sounds hollow when tapped, about 180 minutes. Cool before slicing.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "bread",
+    "sourdough",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "baking pan or lined baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7075/plain-and-simple-sourdough-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "17c73dea172460e66b683cb4e3a66c3baf417378fa2e4ebd1da6feac16fee725",
+    "normalized_text_hash": "46b58da6eccac60b7cd6c8c80150dc1de139595a9673a7ad1b89480e824f4b5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:24:22.053Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

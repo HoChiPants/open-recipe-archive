@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-french-toast",
+  "name": "Pumpkin French Toast",
+  "subtitle": "Warmly spiced toast for an easy breakfast",
+  "description": "Whole wheat bread is dipped in a pumpkin-and-spice egg mixture, then cooked in butter until golden and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "canned-pumpkin-puree",
+      "item": "canned pumpkin puree",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "slices-whole-wheat-bread",
+      "item": "slices whole wheat bread",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs, pumpkin puree, cinnamon, and nutmeg in a shallow dish until combined."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat and melt the butter."
+    },
+    {
+      "step": 3,
+      "text": "Dip the bread slices in the egg mixture, turning to coat both sides without soaking them excessively."
+    },
+    {
+      "step": 4,
+      "text": "Cook the coated bread in the skillet for about 3 minutes per side, turning once, until golden and the center is firm and reaches 160°F.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "french-toast",
+    "pumpkin",
+    "skillet"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dish",
+    "skillet",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/180568/pumpkin-french-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2d72a8e5492dda5b3f0acb5b3caf4d31f3cae56e8c37d515dd641be5fb47c4f6",
+    "normalized_text_hash": "22c4f1df93e3102a2d0d10af2b2fb47c13827f05c29b37b8e55aebf0a6b852c2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:33:39.416Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

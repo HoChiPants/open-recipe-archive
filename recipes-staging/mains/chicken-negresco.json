@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-negresco",
+  "name": "Chicken Negresco",
+  "subtitle": "Creamy chicken and egg-noodle casserole with a crisp cheese topping",
+  "description": "Tender poached chicken and celery are combined with egg noodles, a seasoned cream sauce, and a Parmesan-breadcrumb topping before baking until golden.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 85
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breasts",
+      "item": "chicken breasts",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "stalk-celery",
+      "item": "stalk celery",
+      "quantity": 1,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "extra-wide-egg-noodles",
+      "item": "extra wide egg noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-crumbs",
+      "item": "bread crumbs",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken, celery, 1 teaspoon salt, and pepper in a pot. Add enough water to cover the chicken and bring to a gentle simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer for 25 minutes, or until the thickest part of each breast reaches 165°F. Transfer the chicken to a plate to cool, then cut or shred it. Reserve the celery.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 350°F. Cook the noodles in boiling salted water for 5 minutes, then drain.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Warm the milk in a saucepan until steaming but not boiling."
+    },
+    {
+      "step": 5,
+      "text": "Melt the butter in a separate saucepan. Whisk in the flour and cook, stirring, for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Gradually whisk in the warm milk. Simmer the sauce for 10 minutes, then stir in the remaining salt, garlic powder, and nutmeg.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Combine the noodles, chicken, and celery with the sauce. Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 8,
+      "text": "Mix the bread crumbs, Parmesan, and olive oil, then scatter the topping over the casserole."
+    },
+    {
+      "step": 9,
+      "text": "Bake until the topping is golden brown and the casserole is hot throughout.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken",
+    "noodles",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231123/chicken-negresco/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1065f5321bafbd561fe92c70ebe1142b8631679809913262c3a96b50d04caa23",
+    "normalized_text_hash": "ef621abdfddfe18b61515e66f09be91c30caed1aa5e207a23ff25a34bbae6f46",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:11:06.453Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

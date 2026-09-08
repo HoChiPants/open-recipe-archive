@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-ramen",
+  "name": "Chicken Ramen",
+  "subtitle": "A quick bowl of chicken, vegetables, noodles, and broth",
+  "description": "Chicken, stir-fry vegetables, and ramen noodles come together in a hot broth, finished with chives and chilli flakes.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless-chicken-breasts",
+      "item": "skinless chicken breasts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "handfuls-of-stir-fry-vegetables-about-200g",
+      "item": "handfuls of stir-fry vegetables (about 200g)",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ramen-noodles",
+      "item": "ramen noodles",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "chicken-ramen-broth",
+      "item": "chicken ramen broth",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "finely-chopped-chives-to-serve",
+      "item": "finely chopped chives to serve"
+    },
+    {
+      "ingredient_id": "chilli-flakes-to-serve",
+      "item": "chilli flakes to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the chicken ramen broth with the chicken breasts in a saucepan for 7 minutes, then continue cooking until the chicken is cooked through and reaches 165°F internally.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Remove the chicken, let it rest briefly, and slice it. Stir the vegetables into the broth and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Cook the ramen noodles in boiling water until tender, about 6 minutes, then drain. Cook the egg separately until the white and yolk are fully set, or until it reaches 160°F, then cut it in half.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Reheat the broth if needed. Divide the noodles between bowls, add the chicken, vegetables, broth, and egg, and finish with chives and chilli flakes."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "japanese",
+    "chicken",
+    "noodles",
+    "ramen"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-chicken-ramen",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3987c2ab04ac046891396f2fe285fda328de68f6b8db73cf0a50c5a9c4188a25",
+    "normalized_text_hash": "b253bc3163c6d136f5c549cf7f49ad7f79eaea820b13931d261593d1eaacf8fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:30:32.692Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

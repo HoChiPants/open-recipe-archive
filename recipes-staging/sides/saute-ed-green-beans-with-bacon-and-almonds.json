@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "saute-ed-green-beans-with-bacon-and-almonds",
+  "name": "Sautéed Green Beans with Bacon and Almonds",
+  "subtitle": "A savory green bean side with crisp bacon and toasted nuts",
+  "description": "Frozen green beans are sautéed in butter, then finished with browned almonds and chopped bacon.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "slivered-almonds",
+      "item": "slivered almonds",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-cut-green-beans",
+      "item": "frozen cut green beans",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium heat. Add the bacon and cook until crisp; transfer it to a plate and chop when cool enough to handle."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in the skillet, then add the frozen green beans."
+    },
+    {
+      "step": 3,
+      "text": "Stir and cook the beans for 8 minutes, or until tender.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Add the almonds and stir until golden brown."
+    },
+    {
+      "step": 5,
+      "text": "Return the chopped bacon to the skillet, toss to combine, and serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "green-beans",
+    "bacon",
+    "almonds"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/71548/sauteed-green-beans-with-bacon-and-almonds/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5560bc109797c089d4ff3d2fe081fbf02cf259d70d939a50f73315cde1d27eff",
+    "normalized_text_hash": "b114449b127c25bab827e28e2a6b2471b6a0cfa8d751d1a1d70c50d5cb5e2165",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:53:28.663Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

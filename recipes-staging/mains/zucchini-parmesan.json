@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-parmesan",
+  "name": "Zucchini Parmesan",
+  "subtitle": "Tender zucchini baked in tomato sauce with melted mozzarella",
+  "description": "Blanch sliced zucchini, sauté it with onion and garlic, then bake the mixture in spaghetti sauce until hot and bubbling under melted cheese.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-spaghetti-sauce",
+      "item": "(16 ounce) jar spaghetti sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water to a simmer. Add the zucchini and cook until tender, then drain well."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in a skillet. Add the onion and garlic; stir for 2 minutes, until tender.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Combine the drained zucchini, onion, and garlic, then stir in the spaghetti sauce."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a baking dish, top with the mozzarella cheese, and bake for 20 minutes, until hot and the cheese is melted.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "vegetarian",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "skillet",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21021/zucchini-parmesan/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ff66f60a264475b2b662c458245c12b957382c70d39fee269245446441865b9e",
+    "normalized_text_hash": "e63f0d45e0ec0dfcc8cbac7c22d359dc9243871a9801851cda26ca09cb2815dd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:16:56.593Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

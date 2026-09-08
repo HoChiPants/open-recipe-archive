@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-marsala",
+  "name": "Chicken Marsala",
+  "subtitle": "Seared chicken with mushrooms in a wine pan sauce",
+  "description": "Browned chicken breasts are finished in a savory Marsala sauce with mushrooms, shallot, and parsley.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skin-on",
+      "item": "skin-on",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "white-mushrooms",
+      "item": "white mushrooms",
+      "quantity": 5,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "shallot",
+      "item": "shallot",
+      "quantity": 1,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "marsala-wine",
+      "item": "Marsala wine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Season the chicken with the salt and pepper. Heat the olive oil and part of the butter in a large skillet over medium-high heat. Sear the chicken until browned on both sides and nearly cooked through, then transfer it to a plate.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the remaining divided butter to the skillet. Cook the mushrooms until lightly browned, then add the shallot and cook until softened. Stir in the flour and cook briefly.",
+      "timer_minutes": 14
+    },
+    {
+      "step": 3,
+      "text": "Pour in the Marsala and stir, scraping up browned bits. Add the chicken stock and simmer until the sauce begins to thicken.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 4,
+      "text": "Return the chicken and any accumulated juices to the skillet. Simmer until the chicken reaches 165°F at the thickest point.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Remove the skillet from the heat. Stir in the cold butter until melted, then fold in the parsley and spoon the sauce over the chicken."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "chicken",
+    "one-pan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237928/chef-johns-chicken-marsala/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "82a89129fb994d86b919d81aef46ce716fb627e83510efce79fb2511594a25a1",
+    "normalized_text_hash": "ffec7d378c1e06e6593abc155a37b85a99ea48228424ed3f50c87246cf982050",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:24:40.013Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

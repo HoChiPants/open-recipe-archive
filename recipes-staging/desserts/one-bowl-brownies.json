@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "one-bowl-brownies",
+  "name": "One Bowl Brownies",
+  "subtitle": "Rich chocolate brownies with chopped walnuts",
+  "description": "A straightforward batch of fudgy chocolate brownies mixed in one bowl and finished with walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1-ounce-squares-unsweetened-chocolate",
+      "item": "(1 ounce) squares unsweetened chocolate",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the chopped chocolate and butter in a microwave-safe bowl. Microwave for 2 minutes, then stir until melted and smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sugar. Add the eggs and vanilla extract, and mix until combined."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the flour just until no dry streaks remain, then fold in the chopped walnuts."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a baking pan and spread it evenly."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the brownies are set in the center, about 35 minutes.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "brownies",
+    "one-bowl"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9910/one-bowl-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f09e402123ed186b9279e051e7f6d79968b309180e937dbfdb8ce4bd05b87ab0",
+    "normalized_text_hash": "9d49090a9e085d654ab4597087b3f210b017b6af1495900871f8ed6b1e2985cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:30:24.039Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

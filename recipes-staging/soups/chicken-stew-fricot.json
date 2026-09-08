@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-stew-fricot",
+  "name": "Chicken Stew Fricot",
+  "subtitle": "A hearty chicken and vegetable stew",
+  "description": "Chicken, onion, carrots, and potatoes simmer with savory until tender for a comforting one-pot meal.",
+  "meal_type": "soup",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "2-to-3-pound-whole-chicken",
+      "item": "(2 to 3 pound) whole chicken",
+      "quantity": 1,
+      "preparation": "cut into pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "dried-savory",
+      "item": "dried savory",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large pot over medium heat. Add the chicken pieces and chopped onion, and cook until the chicken is lightly browned and the onion softens."
+    },
+    {
+      "step": 2,
+      "text": "Cover the pot and simmer for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Add the carrots, potatoes, and dried savory. Continue simmering until the vegetables are tender and the chicken reaches 165°F in the thickest pieces."
+    },
+    {
+      "step": 4,
+      "text": "Season with salt and ground black pepper to taste, then serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "french",
+    "stew",
+    "one-pot"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12980/chicken-stew-fricot/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f9052132aa3a1ff7d61a7727a604342db692930c652d12ae13f79a344ecc8303",
+    "normalized_text_hash": "c63d60e754b80807d5e4ce065f1b2f3bd816b3e0135d1c7a688e1841aa4697c9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:17:03.447Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

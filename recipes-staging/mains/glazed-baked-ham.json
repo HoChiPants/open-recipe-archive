@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "glazed-baked-ham",
+  "name": "Glazed Baked Ham",
+  "subtitle": "Cola-glazed ham for a crowd",
+  "description": "A simple baked ham finished with a cola-flavored glaze and sliced for serving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 40,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pre-cooked-ham",
+      "item": "pre-cooked ham",
+      "quantity": 10,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "cola-flavored-carbonated-beverage",
+      "item": "cola-flavored carbonated beverage",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 275°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the ham in a roasting pan and pour the cola-flavored beverage over it."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 5 hours, or until the center reaches 145°F on a food thermometer.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 4,
+      "text": "Rest the ham for 3 minutes, then cut into slices and serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "ham",
+    "baked",
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13869/glazed-baked-ham/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ac1f757535c19ace764d04165e977f887792ac9369cc0525ff264ff91dcfc41d",
+    "normalized_text_hash": "82d867cf4cdb72009ef72695d95f183cebccaf787bd80e023ff4eb6219888e74",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:44:50.081Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

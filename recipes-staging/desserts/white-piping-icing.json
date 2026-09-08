@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-piping-icing",
+  "name": "White Piping Icing",
+  "subtitle": "A thick icing for decorating cakes",
+  "description": "Mix icing sugar with water or lemon juice to make a thick icing suitable for piping.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "cakes"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "water-or-lemon-juice-for-flavour",
+      "item": "water or lemon juice for flavour"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the icing sugar in a bowl and add water or lemon juice gradually, stirring until the mixture is thick and smooth."
+    },
+    {
+      "step": 2,
+      "text": "Use the icing immediately to pipe or decorate the cakes."
+    }
+  ],
+  "tags": [
+    "cake",
+    "baking",
+    "icing",
+    "piping"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon",
+    "piping bag"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/brilliant-white-icing-to-pipe",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "88b94be7505213321beb067d3d1617608592b27547537aac5ebbea9ed89dd53b",
+    "normalized_text_hash": "cecc8c9a5e51cda8871282b2265e1d8760ba57b6baef4a88706c981dcbef0017",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T05:45:59.953Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

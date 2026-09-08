@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "red-enchilada-sauce",
+  "name": "Red Enchilada Sauce",
+  "subtitle": "A smooth ancho chile sauce with warm Mexican spices",
+  "description": "Toasted ancho chiles, tomato, garlic, and spices are blended with beef broth and corn oil, then simmered into a rich sauce.",
+  "meal_type": "sauce",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-ancho-chiles",
+      "item": "dried ancho chiles",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "corn-oil",
+      "item": "corn oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Arrange the ancho chiles on a baking sheet and bake for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 2,
+      "text": "Transfer the toasted chiles to a heatproof bowl. Add the beef broth and tomato paste, and let stand for 60 minutes to soften.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Blend the softened chiles and broth with the corn oil, garlic, salt, oregano, and cumin until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the sauce to a saucepan and bring it to a gentle simmer. Cook for 10 minutes, using a thermometer to verify at least 160°F if the broth contains ground beef, or 145°F if it contains whole-cut beef followed by a 3-minute rest.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "sauce",
+    "enchilada-sauce",
+    "mexican-inspired",
+    "ancho-chile"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking sheet",
+    "heatproof bowl",
+    "blender",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/103347/the-best-red-enchilada-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3828dafead3cf08b5db353fed5333f33a494ea10a87fddc6520c27af8685ada1",
+    "normalized_text_hash": "9bc1bc3116068f2948eddcc57215eb1db49b5910c9cb5403498a11c8ef22932f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:58:23.356Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

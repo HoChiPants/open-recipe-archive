@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rosemary-focaccia",
+  "name": "Rosemary Focaccia",
+  "subtitle": "Herb-scented focaccia made with a bread machine",
+  "description": "A chewy, olive-oil-rich focaccia finished with garlic and fresh rosemary.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 110
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lukewarm-water",
+      "item": "lukewarm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-rosemary",
+      "item": "fresh rosemary",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the water, 2 tablespoons of the olive oil, garlic, flour, half of the rosemary, salt, and yeast to the bread machine pan in the machine's recommended order. Start the dough cycle."
+    },
+    {
+      "step": 2,
+      "text": "Let the machine mix and knead the dough, then allow it to rise until the cycle is complete, about 90 minutes.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 3,
+      "text": "Transfer the dough to an oiled baking pan and gently stretch it to fit. Sprinkle with the remaining rosemary and let it rest.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 5,
+      "text": "Drizzle the remaining olive oil over the dough and bake until golden brown.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Cool briefly before slicing and serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "bread-machine",
+    "focaccia",
+    "rosemary",
+    "garlic",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25213/bread-machine-focaccia/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5c50d837dcd96684e52d3b57b6dcc0b789647db33d8ff5082dae312e684802cc",
+    "normalized_text_hash": "0eaf296a98014fbf5fd7961d891ee0827b4dd7334119316394f23b04c57dc442",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:10:08.005Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

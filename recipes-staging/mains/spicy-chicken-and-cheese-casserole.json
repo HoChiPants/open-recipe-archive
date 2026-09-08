@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-chicken-and-cheese-casserole",
+  "name": "Spicy Chicken and Cheese Casserole",
+  "subtitle": "Tender chicken baked with salsa, peppers, and cheddar",
+  "description": "A simple baked chicken casserole with creamy salsa sauce, jalapeños, cheddar, and green onions.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breasts, cut into chunks"
+    },
+    {
+      "ingredient_id": "taco-seasoning-mix",
+      "item": "taco seasoning mix",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "8-ounce-jar-salsa",
+      "item": "(8 ounce) jar salsa",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 4,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Grease a skillet or baking dish with the butter as needed."
+    },
+    {
+      "step": 2,
+      "text": "Cook the chicken chunks in the skillet over medium-high heat for 8 minutes, or until browned. Drain any excess liquid, then toss the chicken with the taco seasoning.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Transfer the chicken to a baking dish. Stir together the salsa, sour cream, and diced jalapeños, then spread the mixture over the chicken."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes. Top with the shredded Cheddar and bake for 5 minutes more, until melted and the chicken reaches 165°F in the thickest pieces.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Let the casserole cool briefly, then scatter the sliced green onions over the top and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/264204/spicy-keto-chicken-and-cheese-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1b0b73afc365b364e3596ebd7b19ec2dc68cef314ed4630ad291720c79eda7e2",
+    "normalized_text_hash": "24047193582519c1d23ce6c00c40d8ce695ce6201e21914db7534bcd3f54e707",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:33:20.641Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizza-dough-pretzels",
+  "name": "Pizza Dough Pretzels",
+  "subtitle": "Soft pretzels made from ready-to-use pizza dough",
+  "description": "Shape prepared pizza dough into pretzels, simmer them briefly in a baking-soda bath, and bake until browned.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "inactive_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "refrigerated-pizza-crust",
+      "item": "refrigerated pizza crust",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "cornmeal",
+      "item": "cornmeal",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "coarse-salt",
+      "item": "coarse salt"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Dust a work surface with all-purpose flour. Knead the refrigerated pizza crust on the floured surface for 10 minutes, adding more flour as needed. Let the dough rest for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 400°F. Sprinkle a baking sheet with cornmeal."
+    },
+    {
+      "step": 3,
+      "text": "Bring the water to a simmer in a large pot. Whisk in the baking soda, then let the bath rest for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Divide the dough into six portions. Roll each portion into a thick rope and shape it into a pretzel."
+    },
+    {
+      "step": 5,
+      "text": "Place the pretzels in the simmering baking-soda bath, working in batches if needed. Cook briefly, then transfer them to the prepared baking sheet and sprinkle with coarse salt."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the pretzels are browned and cooked through, about 25 minutes.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "snack",
+    "pretzels",
+    "pizza-dough",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "work surface",
+    "large pot",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255590/pizza-dough-pretzels/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4473d5aa00f2122fca1e666de293fb514eac6d74bc55187e26ff6e84ecc8d822",
+    "normalized_text_hash": "5ec44b7aae38ef73f4fddb979cb36d7ea58977006b7d3931357edd59c63233e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:23:14.635Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

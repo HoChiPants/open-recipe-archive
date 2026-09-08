@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-jam",
+  "name": "Bacon Jam",
+  "subtitle": "A sweet, smoky spread with bourbon and coffee",
+  "description": "Slow-cooked bacon, onions, spices, and tangy-sweet additions reduce into a rich savory jam for serving with bread, sandwiches, or appetizers.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "bacon-drippings",
+      "item": "bacon drippings",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "yellow-onions",
+      "item": "yellow onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "cut into very thin slivers"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-cayenne-pepper",
+      "item": "ground cayenne pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bourbon-whiskey",
+      "item": "bourbon whiskey",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brewed-coffee",
+      "item": "brewed coffee",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sherry-vinegar",
+      "item": "sherry vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large skillet or Dutch oven until browned and rendered. Drain, reserving 0.5 cup of the drippings.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Return the reserved drippings and bacon to the pan. Add the onions and cook until softened, stirring occasionally.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the brown sugar, cayenne, cinnamon, nutmeg, and garlic. Cook until the garlic is fragrant.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the bourbon, coffee, sherry vinegar, and maple syrup. Stir in the ketchup and simmer until the mixture is thick and jam-like.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Let the bacon jam cool for 15 minutes, then prepare it for serving as a chunky or finely textured spread.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "spread",
+    "savory",
+    "sweet-and-savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large skillet or Dutch oven",
+    "wooden spoon",
+    "measuring cups and spoons"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228139/bacon-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "20fd873925c07aeff7f9765d519f83a4a7f6411fe8dba0b2010b6994fe37f85d",
+    "normalized_text_hash": "2a8980575e8d3ce5ab9a6c2c091882a4917c32200abc8198645663728bb00d8a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:43.236Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

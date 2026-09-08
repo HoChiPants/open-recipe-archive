@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecue-chicken",
+  "name": "Barbecue Chicken",
+  "subtitle": "Vinegar-marinated grilled chicken with barbecue glaze",
+  "description": "Chicken halves are chilled in a tangy garlic marinade, seasoned with a spiced rub, then grilled and finished with barbecue sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "cut into halves"
+    },
+    {
+      "ingredient_id": "rice-vinegar",
+      "item": "rice vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the rice vinegar, 2 tablespoons barbecue sauce, and crushed garlic in a large bowl. Coat the chicken halves with the mixture, cover, and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat the grill. Combine the salt, black pepper, paprika, onion powder, and cayenne pepper, then season the chicken evenly."
+    },
+    {
+      "step": 3,
+      "text": "Grill the chicken for 4 minutes, then turn and brush with the remaining barbecue sauce. Continue grilling, turning and brushing as needed, until the thickest parts reach 165°F.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Rest the chicken briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill",
+    "large bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236990/chef-johns-barbecue-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4e5f302ea2080534b7602ed96b8665e2f6fd0e3d71d691d3bf387f77979387cf",
+    "normalized_text_hash": "d4f1e120612defd99a993e2be9f1ffc7080db4b391b9a50caeb7a0d660a24d68",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:19:15.105Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-cheese-stromboli",
+  "name": "Ham and Cheese Stromboli",
+  "subtitle": "A hearty baked roll with deli meats, vegetables, and mozzarella",
+  "description": "Pizza dough is filled with sauce, sliced meats, vegetables, and cheese, then rolled and baked until golden.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-pizza-crust-dough",
+      "item": "refrigerated pizza crust dough",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "28-ounce-jar-spaghetti-sauce",
+      "item": "(28 ounce) jar spaghetti sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "cooked, sliced"
+    },
+    {
+      "ingredient_id": "capacola-sausage",
+      "item": "Capacola sausage",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "salami",
+      "item": "salami",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "pepperoni-sausage",
+      "item": "pepperoni sausage",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "garlic-powder-to-taste",
+      "item": "garlic powder to taste"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 6,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the refrigerated pizza crust dough and shape it into an even rectangle or rectangles for rolling."
+    },
+    {
+      "step": 3,
+      "text": "Spread spaghetti sauce over the dough, leaving a border. Arrange the ham, Capacola sausage, salami, pepperoni sausage, green bell pepper, onion, mushrooms, and mozzarella over the sauce. Season with garlic powder."
+    },
+    {
+      "step": 4,
+      "text": "Roll the filled dough into a compact loaf, seal the edges, and transfer it to a baking surface."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until golden brown and the center reaches 160°F on a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Let the stromboli rest briefly, then cut into slices and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "baked",
+    "cheese",
+    "meat-filled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32165/ham-and-cheese-stromboli/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eca0adb0b66cee8e4e349e8297065cba7ee08437e3c12c6ec97c0fe85001f26b",
+    "normalized_text_hash": "be95ae31a74e6760f80f265bec6b39fed8046aa10da3a39e7947401598539200",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:19:22.445Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

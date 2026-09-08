@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mackerel-dip",
+  "name": "Mackerel Dip",
+  "subtitle": "A creamy, peppery spread served chilled",
+  "description": "Combine drained mackerel with onion, hot pepper sauce, seasonings, and mayonnaise for a cool, savory dip.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mackerel",
+      "item": "mackerel",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained and rinsed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "tomato-based-hot-pepper-sauce",
+      "item": "tomato-based hot pepper sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the drained, rinsed mackerel in a bowl and break it into small pieces."
+    },
+    {
+      "step": 2,
+      "text": "Add the onion, tomato-based hot pepper sauce, salt, ground black pepper, and mayonnaise. Stir until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "chilled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/74707/mackerel-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b22c4b844b2629d47e501743638c3da4d8a16a7dc671ddb451ea8e7e13bb1020",
+    "normalized_text_hash": "49e5bdfefd14b49663bb4d05da861a63e8ef49ad8e6fdb482937f77598545049",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:11:04.669Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

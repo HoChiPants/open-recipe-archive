@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-angel-food-cake",
+  "name": "Peach Angel Food Cake",
+  "subtitle": "Light cake with diced peaches",
+  "description": "A simple fruit-filled angel food cake made with packaged mix and canned peaches.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "angel-food-cake-mix",
+      "item": "angel food cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "peaches",
+      "item": "peaches",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the angel food cake mix and diced peaches until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to the designated baking pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake until golden brown, about 47 minutes.",
+      "timer_minutes": 47
+    },
+    {
+      "step": 5,
+      "text": "Cool the cake completely before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "fruit"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8272/peach-angel-food-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d8ec6c10cd9f0541cfdc73e0030f7a5282f572716615089cbcb0563a83a42af6",
+    "normalized_text_hash": "aeabd57a326b3e48fa2627affa08b9cc0ec3370413bbe90a85958a58742076eb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:57:08.461Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-bread",
+  "name": "Italian Bread",
+  "subtitle": "A classic yeast-risen loaf with a crisp golden crust.",
+  "description": "Make a simple Italian-style bread by activating yeast, developing the dough, allowing it to rise, shaping it, and baking until golden brown.",
+  "meal_type": "baked-good",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 7,
+      "unit": "cups",
+      "preparation": "divided, or as needed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the sugar, yeast, and warm water. Stir in part of the flour until smooth, then let the mixture rest for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Add the remaining flour and salt. Mix, then knead until the dough is smooth."
+    },
+    {
+      "step": 3,
+      "text": "Coat a bowl with cooking spray, place the dough inside, cover, and let it rise until puffy and doubled in size."
+    },
+    {
+      "step": 4,
+      "text": "Turn the dough onto a lightly prepared surface, shape it into loaves, and place them on a prepared baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven to 450°F. Place a pan of warm water in the oven, then bake the loaves until golden brown.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Continue baking briefly if needed until the crust is evenly golden."
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "italian",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6955/mama-ds-italian-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "81b99c0c1e791a22ebbca25a1851c334ff3ea4cc058591d4868ed9dd84b367b9",
+    "normalized_text_hash": "784d4977e5bf698baa2d2d37cc03b634f7621f6370107005c050e37d94d5530d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:13:31.114Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-potato-soup",
+  "name": "Cheesy Potato Soup",
+  "subtitle": "A creamy potato soup with tender vegetables and melted cheese.",
+  "description": "Potatoes, onions, and celery simmer in a buttery broth, then finish with cheese, milk, flour, and parsley for a hearty soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 8,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "slices-american-cheese",
+      "item": "slices American cheese",
+      "quantity": 15,
+      "preparation": "broken into pieces"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2.3333299160004,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the butter in a large soup pot. Add the onions and celery, and cook until tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Pour in the water and add the potatoes. Bring to a simmer and cook until the potatoes are tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the broken cheese pieces until melted."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the milk and flour together, then transfer the mixture to the pot and stir to combine."
+    },
+    {
+      "step": 5,
+      "text": "Cook the soup until thickened, stirring occasionally. Ladle into bowls and garnish with parsley.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "potato",
+    "cheesy",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large soup pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17950/cheesy-potato-soup-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d86dd755f2bc94a6c7c065fdb9dc3f14864362f77b694295cad39fc40a0718be",
+    "normalized_text_hash": "9409b3ec8d1a5db394597ba48fa8454fcf77b779b9aa7a0dbafe5bb6da5d7d6b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:14:42.537Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

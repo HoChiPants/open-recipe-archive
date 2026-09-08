@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "celery-juice",
+  "name": "Celery Juice",
+  "subtitle": "Fresh celery blended with apple, lemon, and ginger",
+  "description": "A bright, crisp blended drink with fresh celery, tart lemon, apple, and a gentle ginger finish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-of-celery-about-500g",
+      "item": "head of celery (about 500g)",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "green-apple-about-120g",
+      "item": "green apple (about 120g)",
+      "quantity": 1,
+      "preparation": "peeled, quartered and cored"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": "1/2-1"
+    },
+    {
+      "ingredient_id": "ginger-finely-grated",
+      "item": "ginger finely grated",
+      "quantity": 20,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Trim and cut the celery into pieces small enough for blending."
+    },
+    {
+      "step": 2,
+      "text": "Add the celery, apple, lemon juice, and grated ginger to a blender. Blend until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir the juice, chill if desired, and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "juice",
+    "celery",
+    "apple",
+    "ginger",
+    "lemon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/celery-juice",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d6bca776f6bd9595b675cd7c8e794d7486349536dee3c2d2bd9401d5a1ed5e52",
+    "normalized_text_hash": "a5f6fbe826711ff7f94d308abaa26b29b79945637de97ca69a5a791d33b22d78",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T03:30:54.021Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

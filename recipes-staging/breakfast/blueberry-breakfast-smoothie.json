@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-breakfast-smoothie",
+  "name": "Blueberry Breakfast Smoothie",
+  "subtitle": "A cool, creamy smoothie with bright blueberry flavor.",
+  "description": "Blend blueberries, yogurt, juice, and simple flavorings with ice for a quick breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-blueberries",
+      "item": "fresh blueberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 3
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add all ingredients to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, pausing briefly to scrape down the sides if needed.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Blend for 1 minute more, then serve immediately.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242198/healthy-blueberry-breakfast-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "17a966033f42016fce273a4cb552d539a7b593cd2b8d945b8e4f300d5c5506e4",
+    "normalized_text_hash": "7d8b6439af7b394561aa408e6e8dc70d7c9cfd57198db80428ed7b87841f877d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:27:30.457Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spiced-orange-vodka",
+  "name": "Spiced Orange Vodka",
+  "subtitle": "A warmly spiced citrus infusion",
+  "description": "Vodka steeped with juniper, orange peel, cloves, and cinnamon for a festive winter drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 700,
+    "unit": "ml"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bottle-of-vodka",
+      "item": "bottle of vodka",
+      "quantity": 700,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "juniper-berries",
+      "item": "juniper berries",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "strip-of-orange-peel",
+      "item": "strip of orange peel"
+    },
+    {
+      "ingredient_id": "4-cloves",
+      "item": "4 cloves",
+      "quantity": 4,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the vodka, juniper berries, orange peel, cloves, and cinnamon stick in a sealable container."
+    },
+    {
+      "step": 2,
+      "text": "Seal and leave at room temperature for 24 hours to infuse.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 3,
+      "text": "Strain the infused vodka into a clean bottle, removing the solids."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "winter",
+    "infusion"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "sealable container",
+    "strainer",
+    "clean bottle"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/christmas-gin",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0490a9e9351731ce75caa040ea7c76ac1c55fc679e8b8ed37c585f93a1e59677",
+    "normalized_text_hash": "96baa6af245a2cc0e4e0af5b42a1b36a32b555f949a822136c5fe9f736086388",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:19:39.789Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

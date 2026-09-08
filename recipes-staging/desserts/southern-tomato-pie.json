@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "southern-tomato-pie",
+  "name": "Southern Tomato Pie",
+  "subtitle": "A savory tomato pie with a creamy cheese filling",
+  "description": "Juicy tomatoes are layered in a prebaked crust with a seasoned cheese mixture, then baked until golden and set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-pie-crusts",
+      "item": "refrigerated pie crusts",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "14.1 ounce, at room temperature"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 3,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1.25,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "clove-garlic",
+      "item": "clove garlic",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "thinly-sliced-fresh-basil",
+      "item": "thinly sliced fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Fit the refrigerated pie crust into a pie dish and bake for 10 minutes, or until lightly golden. Cool for 30 minutes, then reduce the oven temperature to 375°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Slice the tomatoes thickly, layer them in a colander, and sprinkle with half of the kosher salt. Let them drain for 20 minutes, then pat dry.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Whisk the mayonnaise, softened cream cheese, lightly beaten egg, and half of the shredded Cheddar with the flour, garlic, cayenne, black pepper, remaining salt, and Parmesan until combined."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the drained tomatoes in the cooled crust. Spread the cheese mixture over them and finish with the remaining shredded Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, until golden brown and the center is fully set and reaches 160°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Cool briefly, garnish with the sliced basil, and cut into wedges."
+    }
+  ],
+  "tags": [
+    "tomato-pie",
+    "savory-pie",
+    "southern-style",
+    "vegetarian",
+    "lunch",
+    "dinner"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pie dish",
+    "colander",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8422632/southern-tomato-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b89e81a18e123d8deebe057306c9f9996423b0d2e8e4934be03213f7033aac5c",
+    "normalized_text_hash": "b6ef25f56d4ba1693318d1eafbd20641544f738b32f1e72accdf352783a2bd95",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:16:10.040Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

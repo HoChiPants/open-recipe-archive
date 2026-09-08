@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potatoes-o-brien",
+  "name": "Potatoes O'Brien",
+  "subtitle": "Crisp roasted potatoes with peppers and onion",
+  "description": "Parboiled potatoes are cooled, diced, mixed with peppers and onion, coated in oil, and roasted until golden brown.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "russet-baking-potatoes",
+      "item": "russet (baking) potatoes",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 1/2-inch dice"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 1/2-inch dice"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 1/2-inch dice"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a pot, cover with water, and bring to a simmer until partly tender."
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and let them cool for 30 minutes. Dice them into bite-size pieces.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 425°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Combine the potatoes, onion, green bell pepper, and red bell pepper. Add the vegetable oil and stir until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Spread the mixture on a baking sheet and roast until golden brown, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213763/strikers-potatoes-obrien/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d20113a6b57aa4010fee45e62ed0953cf81403d79904dac5152b3878f7af9a0",
+    "normalized_text_hash": "eb5d2dcd4fa8c2c2be8664540c4bb1023533250c5b3cfbc529c64047a28a1db9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:02:27.439Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

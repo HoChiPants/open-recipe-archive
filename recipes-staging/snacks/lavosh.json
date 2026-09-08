@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lavosh",
+  "name": "Lavosh",
+  "subtitle": "Thin sesame-crusted baked flatbread",
+  "description": "A crisp, lightly sweet flatbread finished with beaten egg white and sesame seeds.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.67,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the flour, sugar, and salt. Add the water, one egg white, and melted butter, then combine into a dough."
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough for 5 minutes, until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Prepare the work surface with flour. Shape the dough into thin pieces and transfer them to a baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Brush the pieces with the beaten egg whites and sprinkle with sesame seeds."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 12 minutes, or until crisp and the egg-white coating is fully set; verify any thick portion reaches 160°F.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "snack",
+    "flatbread",
+    "baked",
+    "sesame"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22394/lavosh/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3249ffdc2dce6ce7bfc0f1ace4366468b32db6245a42dde14431e51d46ef1822",
+    "normalized_text_hash": "0dc607b16278b284269b891a9e1fd641abdddfe847f3289f18f7500f015991ac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:51:17.757Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

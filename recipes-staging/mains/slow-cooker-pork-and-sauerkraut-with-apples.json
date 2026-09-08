@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-pork-and-sauerkraut-with-apples",
+  "name": "Slow Cooker Pork and Sauerkraut with Apples",
+  "subtitle": "Tender pork with tart apples and savory sauerkraut",
+  "description": "Pork chops cook slowly with apples, onion, sauerkraut, and fennel seed for a hearty six-serving meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 245
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thick-cut-pork-chops",
+      "item": "thick-cut pork chops",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "tart-apples",
+      "item": "tart apples",
+      "quantity": 4,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "water-to-cover",
+      "item": "water to cover"
+    },
+    {
+      "ingredient_id": "sauerkraut",
+      "item": "sauerkraut",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "fennel-seed",
+      "item": "fennel seed",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the slow cooker. Prepare the pork chops for cooking for 3 minutes, then drain.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Place the apples and onion in the slow cooker. Add the pork chops and enough water to cover."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook for 3 hours.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 4,
+      "text": "Stir in the sauerkraut and fennel seed. Cover and continue cooking for 1 hour, 5 minutes, or until the pork reaches 145°F in the thickest part. Rest the pork for 3 minutes before serving.",
+      "timer_minutes": 65
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "pork",
+    "sauerkraut",
+    "apples"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235927/slow-cooker-pork-and-sauerkraut-with-apples/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8de0c496d00b984a47a33cd2c7da98ca953adc1e6bb7739939803059527d3248",
+    "normalized_text_hash": "9b8c9d59a61b14eb90918cc2e1e9e3ff2e98ddb060a64c40a816510e7f3dfc34",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:48:36.656Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

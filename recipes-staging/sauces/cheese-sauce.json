@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-sauce",
+  "name": "Cheese Sauce",
+  "subtitle": "Smooth cheddar sauce for dipping, drizzling, or topping",
+  "description": "A quick American-style cheddar sauce built from a butter-flour base and finished with seasoned half-and-half.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the flour and cook, stirring, for 3 minutes, until the mixture is smooth.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Gradually stir in the half-and-half, then add the Cheddar, salt, black pepper, and cayenne."
+    },
+    {
+      "step": 4,
+      "text": "Cook, stirring frequently, for 5 minutes, until the cheese melts and the sauce is smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "cheese-sauce",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273123/best-cheese-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "efe31a542e15ab21adc3b7d5b4dfe00c21e731074ebff18134a960cb6d90b9a5",
+    "normalized_text_hash": "f908b01318341b68499dfaad3b554da14c9d22f206d9ba38d5d7e21b23635ec4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:30:05.714Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

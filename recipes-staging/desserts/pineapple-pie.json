@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-pie",
+  "name": "Pineapple Pie",
+  "subtitle": "A cool, creamy pie with crushed pineapple",
+  "description": "A no-bake pineapple filling set in a prepared graham cracker crust and chilled until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "20 ounce, crushed, drained"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "9-inch-prepared-graham-cracker-crust",
+      "item": "(9 inch) prepared graham cracker crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the sweetened condensed milk and lemon juice until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the drained crushed pineapple and thawed whipped topping until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Spoon the filling into the prepared graham cracker crust and smooth the top."
+    },
+    {
+      "step": 4,
+      "text": "Refrigerate until set, about 2 hours.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "pineapple",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "rubber spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12501/pineapple-pie-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bbe77efb64630f5a4e3f87acee528b80e5e9f4eff35d093ac865359de14ac74a",
+    "normalized_text_hash": "e32ca3a090aa91e84d81c650cf056804c5b4ee0b117fdc3d1124c6c7876c3421",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:41:25.341Z",
+    "semantic_similarity": 15,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

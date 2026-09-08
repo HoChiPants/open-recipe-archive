@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-machine-banana-nut-bread",
+  "name": "Bread Machine Banana Nut Bread",
+  "subtitle": "A tender banana loaf with chopped walnuts",
+  "description": "A simple bread-machine loaf combining mashed bananas, walnuts, and pantry baking ingredients for a lightly sweet breakfast bread.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 100
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.66670000553131,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mashed-bananas",
+      "item": "mashed bananas",
+      "quantity": 0.66670000553131,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the softened margarine, milk, eggs, and mashed bananas in the bread-machine pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour, sugar, baking powder, baking soda, and salt together, then add the mixture to the pan.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Select the machine's cake or quick-bread cycle and start it. Add the chopped walnuts when the machine's signal indicates additions, if applicable."
+    },
+    {
+      "step": 4,
+      "text": "Bake through the full cycle, until the loaf is firm and a tester inserted in the center comes out clean."
+    },
+    {
+      "step": 5,
+      "text": "Let the loaf cool in the pan briefly, then transfer it to a rack and cool before slicing."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick-bread",
+    "bread-machine",
+    "banana",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7141/banana-nut-bread-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a03662078efd7ccd86184728bea3366f55292853226ce9a0676dac5261cec9bd",
+    "normalized_text_hash": "1b1428fad8c6c66884ef8686df18a531945a8e6bde724b0418a6a76e86e6560f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:09:51.680Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

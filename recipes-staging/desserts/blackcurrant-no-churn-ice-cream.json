@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blackcurrant-no-churn-ice-cream",
+  "name": "Blackcurrant No-Churn Ice Cream",
+  "subtitle": "Bright blackcurrant ice cream with a creamy, simple finish",
+  "description": "Cook blackcurrants with lemon, fold the thickened fruit into a condensed milk and cream mixture, then freeze until firm.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1.5,
+    "unit": "litres"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blackcurrants-fresh-or-frozen-400g-defrosted-if-frozen",
+      "item": "blackcurrants fresh or frozen (400g defrosted if frozen)",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemon-zested-and-juiced",
+      "item": "lemon zested and juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "can-condensed-milk",
+      "item": "can condensed milk",
+      "quantity": 397,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Put the blackcurrants, lemon zest, and lemon juice in a saucepan. Simmer for 8 minutes, until the fruit has softened and the mixture has thickened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven if needed for the chosen serving preparation."
+    },
+    {
+      "step": 3,
+      "text": "Whip the double cream with the condensed milk until thickened."
+    },
+    {
+      "step": 4,
+      "text": "Stir the cooled blackcurrant mixture into the cream mixture until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a freezer-safe container and freeze for 6 hours, or until set.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 6,
+      "text": "Let stand briefly, then serve with blackcurrants.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "blackcurrant",
+    "ice-cream",
+    "no-churn",
+    "frozen-dessert"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "electric mixer",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blackcurrant-no-churn-ice-cream",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ed6a783e8ad6a0827d460f314f80dff207ef4327cfcc6c94fd5d740bc1ee9ff1",
+    "normalized_text_hash": "5c1ce7e9776d0f7e91c278b556180fe72c89395ce300d5ffaa1120f9c87f909d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:38:44.666Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

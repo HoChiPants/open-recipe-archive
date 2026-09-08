@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-souffle",
+  "name": "Corn Soufflé",
+  "subtitle": "A creamy, cheesy corn bake for a crowd",
+  "description": "Combine sweet corn, muffin mix, eggs, and cheese for a rich, tender side dish with a lightly browned top.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "philadelphia-cream-cheese",
+      "item": "PHILADELPHIA Cream Cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, cubed, softened"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, drained"
+    },
+    {
+      "ingredient_id": "cream-style-corn",
+      "item": "cream-style corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.75 ounce"
+    },
+    {
+      "ingredient_id": "corn-muffin-mix",
+      "item": "corn muffin mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8.5 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kraft-shredded-cheddar-cheese",
+      "item": "KRAFT Shredded Cheddar Cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the melted butter, softened cream cheese, and half of the shredded cheddar until combined."
+    },
+    {
+      "step": 3,
+      "text": "Mix in the whole kernel corn, cream-style corn, muffin mix, and eggs until evenly incorporated."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and sprinkle the remaining cheddar over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 50 minutes, until the center is firm and fully set; verify with a thermometer that the egg-based casserole reaches 160°F.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "corn",
+    "casserole",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230947/corn-souffle-from-philadelphia-cream-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "97a3c33ac7d21a620b640100de64a6ac843d595e8cc11f589b38f1486e5f97a7",
+    "normalized_text_hash": "159ab6c47718bd9eef5b7937833a089fbda9c7b279f05eab2734826b235dcc7d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:09:34.307Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

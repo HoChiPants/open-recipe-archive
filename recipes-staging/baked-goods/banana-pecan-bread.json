@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-pecan-bread",
+  "name": "Banana Pecan Bread",
+  "subtitle": "Moist banana bread with a crisp pecan finish",
+  "description": "A straightforward quick bread made with mashed bananas, buttermilk, and chopped pecans.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 80
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "mashed-bananas",
+      "item": "mashed bananas",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Prepare a loaf pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the beaten eggs, mashed bananas, vegetable oil, and buttermilk until combined."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the flour, sugar, baking soda, and salt. Add the dry mixture to the banana mixture and stir just until combined."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the chopped pecans, then transfer the batter to the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the loaf is set in the center and a tester comes out clean, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool before cutting into slices."
+    }
+  ],
+  "tags": [
+    "banana-bread",
+    "quick-bread",
+    "pecans",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowls"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15747/best-ever-banana-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0251281984a1b04caa64183f7195fd0083b294849692aa76cb089b560d46d520",
+    "normalized_text_hash": "29a46d7c2546eeb5df5b9be09a8407cde59f8cab4cdff58eded28fd93224b438",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:32:23.686Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

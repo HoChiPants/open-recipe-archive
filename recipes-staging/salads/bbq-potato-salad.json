@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bbq-potato-salad",
+  "name": "BBQ Potato Salad",
+  "subtitle": "Creamy potato salad with barbecue flavor",
+  "description": "Tender potatoes, eggs, onion, and a seasoned mayonnaise dressing make a hearty chilled salad for gatherings.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "unpeeled-potatoes",
+      "item": "unpeeled potatoes",
+      "quantity": 5,
+      "unit": "pounds",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 6,
+      "unit": "large",
+      "preparation": "peeled and finely diced"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "ground-paprika",
+      "item": "ground paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cubed potatoes in a large pot, cover with water, and season with the salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Bring the water to a simmer and cook until the potatoes are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes and transfer them to a large bowl. Let them cool briefly."
+    },
+    {
+      "step": 4,
+      "text": "Combine the mayonnaise, barbecue sauce, garlic powder, and additional salt and pepper to taste."
+    },
+    {
+      "step": 5,
+      "text": "Add the diced eggs and red onion to the potatoes, pour in the dressing, and gently toss until combined."
+    },
+    {
+      "step": 6,
+      "text": "Cover and chill for 2 hours. Sprinkle with paprika before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "potato-salad",
+    "barbecue",
+    "american",
+    "make-ahead",
+    "chilled-salad"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143446/barbeque-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7d4533ae4172249196ec7b089c080bddbc52f65a4f2f1e8f6006f9df9969e792",
+    "normalized_text_hash": "37e2805f2fd946c565985cde0124a5379cd8c73582431ea0bcc5b869910216fc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:13:46.118Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

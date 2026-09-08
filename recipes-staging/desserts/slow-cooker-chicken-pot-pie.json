@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-chicken-pot-pie",
+  "name": "Slow Cooker Chicken Pot Pie",
+  "subtitle": "Tender chicken and vegetables in a creamy herb sauce",
+  "description": "Chicken, vegetables, and herbs simmer together in a creamy sauce before peas and corn finish the filling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "frozen-corn",
+      "item": "frozen corn",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the soup, stock, carrots, celery, onion, parsley, paprika, oregano, salt, and pepper in the slow cooker; stir until combined and thick."
+    },
+    {
+      "step": 2,
+      "text": "Nestle the chicken breasts into the sauce and cover."
+    },
+    {
+      "step": 3,
+      "text": "Cook on high for about 2 hours or on low for about 8 hours, until the chicken reaches 165°F in the thickest part.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 4,
+      "text": "Transfer the chicken to a bowl and shred it. Return it to the slow cooker with the peas and corn, stirring to distribute."
+    },
+    {
+      "step": 5,
+      "text": "Cover and cook until the frozen vegetables are hot and the filling is steaming, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/269717/slow-cooker-chicken-pot-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cb1668904e21ecbf30520485f034f679709ab7ff68c1114020fe859e602066ae",
+    "normalized_text_hash": "37535e42f0cdd17b5dfe7c90afe8ae7349c8507693005f4b229f31d2a41b78df",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:41:58.282Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

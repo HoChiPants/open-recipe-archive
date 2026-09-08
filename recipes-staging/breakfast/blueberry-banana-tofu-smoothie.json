@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-banana-tofu-smoothie",
+  "name": "Blueberry Banana Tofu Smoothie",
+  "subtitle": "A creamy fruit-and-oat smoothie with silken tofu.",
+  "description": "Blend ripe bananas, blueberries, silken tofu, and oats into a smooth, filling breakfast drink.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 3,
+    "unit": "(or 2 adults and 2 children)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-bananas-peeled",
+      "item": "ripe bananas peeled",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "blueberries-fresh-or-frozen",
+      "item": "blueberries (fresh or frozen)",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "pack-silken-tofu-drained",
+      "item": "pack silken tofu drained",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 2,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the bananas, blueberries, drained tofu, and oats in a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth, then transfer to glasses and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "smoothie",
+    "bananas",
+    "blueberries",
+    "oats",
+    "tofu"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "vegetarian"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "blender",
+    "glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blueberry-banana-power-smoothie",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "feaed33a1f18790ef59983d817b0df2eac5a66dbe0cbe3c269be3d74952b47ca",
+    "normalized_text_hash": "22d2eb638716cd07008928cdd8bdf7bdb146df25b16a5f4faa78b64eb0fc8df0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:40:44.191Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

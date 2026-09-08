@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crab-and-cucumber-crumpets",
+  "name": "Crab and Cucumber Crumpets",
+  "subtitle": "Cool cucumber and crab topping on crumpets",
+  "description": "A simple no-cook starter combining dressed crab with crisp cucumber and dill on crumpets.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cucumber-peeled",
+      "item": "cucumber peeled",
+      "quantity": "1/2",
+      "preparation": "halved, deseeded and cut into thin strips"
+    },
+    {
+      "ingredient_id": "picked-crabmeat-all-white-meat",
+      "item": "picked crabmeat (all white meat",
+      "quantity": "150-200",
+      "unit": "g",
+      "preparation": "or a mix of white and brown, if you like)"
+    },
+    {
+      "ingredient_id": "cre-me-frai-che",
+      "item": "crème fraîche",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "squeeze-of-lemon-juice",
+      "item": "squeeze of lemon juice"
+    },
+    {
+      "ingredient_id": "dill",
+      "item": "dill",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "crumpets",
+      "item": "crumpets",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cucumber in a bowl and leave for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Mix the crabmeat with the crème fraîche and a little lemon juice."
+    },
+    {
+      "step": 3,
+      "text": "Toss the cucumber with the remaining lemon juice and chopped dill."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the crab mixture and cucumber over the crumpets, then serve."
+    }
+  ],
+  "tags": [
+    "starter",
+    "crab",
+    "cucumber",
+    "crumpets",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/crab-cucumber-crumpets",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ed9fdc862757d9ffd713bfd2f0c432db969718325ed3290cd01aaf6a541c53c0",
+    "normalized_text_hash": "2d1967e27a847705e70119ff8595950cf76f9bbe406894b64acd2e6cab088172",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:06:15.622Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

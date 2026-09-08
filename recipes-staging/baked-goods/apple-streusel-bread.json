@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-streusel-bread",
+  "name": "Apple Streusel Bread",
+  "subtitle": "Tender apple bread with a cinnamon-nut topping",
+  "description": "A warmly spiced quick bread filled with grated apples and nuts, finished with a buttery cinnamon streusel.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "oil",
+      "item": "oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-apples",
+      "item": "grated apples",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "nuts",
+      "item": "nuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a loaf pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Whisk 1.5 cups flour with the baking soda, 0.5 teaspoon cinnamon, and salt."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the sugar, oil, eggs, and vanilla. Stir in the grated apples and chopped nuts."
+    },
+    {
+      "step": 4,
+      "text": "Add the dry mixture to the wet mixture and stir just until combined."
+    },
+    {
+      "step": 5,
+      "text": "For the streusel, mix the remaining flour, sugar, and cinnamon. Cut in the butter until crumbly."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to the prepared pan and scatter the streusel evenly over the top."
+    },
+    {
+      "step": 7,
+      "text": "Bake until the bread is set in the center and a tester comes out clean, about 75 minutes.",
+      "timer_minutes": 75
+    },
+    {
+      "step": 8,
+      "text": "Cool in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "apple",
+    "quick-bread",
+    "streusel",
+    "cinnamon",
+    "baking"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowls",
+    "whisk",
+    "pastry cutter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279325/apple-bread-with-double-streusel/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "110d5c4ca7115564af2e8821be131e335c389f96951fd06ec68e80dd6384bf70",
+    "normalized_text_hash": "cbf6870c3645c7b7c063f8742639052d1ef0ff42dd9ee1463f0dd17f4062063a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:17:18.322Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

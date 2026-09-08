@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salmon-patties",
+  "name": "Salmon Patties",
+  "subtitle": "Crisp-edged salmon cakes for an easy main dish",
+  "description": "Mix canned salmon with egg and self-rising flour, shape into patties, and fry until golden and fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canned-salmon",
+      "item": "canned salmon",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.75 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the canned salmon and self-rising flour in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Beat in the egg until the mixture holds together."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into four evenly sized patties."
+    },
+    {
+      "step": 4,
+      "text": "Heat the vegetable oil for frying in a skillet over medium heat."
+    },
+    {
+      "step": 5,
+      "text": "Fry the patties in batches if needed, turning once, until browned on both sides and the centers reach 160°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Drain the patties briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "seafood",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "skillet",
+    "spatula",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9411/salmon-patties-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "08212f7ac5c29c3387beeaeb28cdb6c83a84128af0720c803b9e0fdf9404a234",
+    "normalized_text_hash": "b5675fc58f79d0990477eaebc46ba04c047ed40374d02a24a61ca556afdaee07",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:28:26.921Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

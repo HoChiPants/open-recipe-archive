@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-hash-brown-quiche",
+  "name": "Ham and Hash Brown Quiche",
+  "subtitle": "A crisp potato crust filled with ham, vegetables, cheese, and eggs.",
+  "description": "A savory breakfast quiche with a buttery hash brown crust and a fully set egg filling.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-hash-brown-potatoes",
+      "item": "frozen hash brown potatoes",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cooked, chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Press the thawed hash brown potatoes into the bottom and up the sides of a pie dish to form a crust. Brush with the melted butter."
+    },
+    {
+      "step": 2,
+      "text": "Bake the potato crust for 25 minutes, then reduce the oven temperature to 350°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Combine the ham, Cheddar cheese, onion, and green bell pepper, then spread the mixture over the baked crust."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs, milk, salt, and ground black pepper until combined. Pour the egg mixture evenly over the filling."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until the center is firm and reaches 160°F on a food thermometer. Rest briefly before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "quiche",
+    "potato-crust"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229284/ham-and-hash-brown-quiche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c356353f3276ce700246620b6797cdd36d11778128169d659cbd84ec790f4a32",
+    "normalized_text_hash": "16b03d0c83506d1dd9d5df699ab8bc8c1b074c00dfba1b20b90c367731d612fc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:19:39.369Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

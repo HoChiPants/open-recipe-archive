@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cawl",
+  "name": "Cawl",
+  "subtitle": "Slow-Simmered Lamb and Root Vegetable Soup",
+  "description": "A hearty Welsh-style soup of tender bone-in lamb, root vegetables, potatoes, leeks, and parsley.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 220
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bone-in-welsh-lamb-neck-or-shoulder",
+      "item": "bone-in Welsh lamb neck or shoulder",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "onion-roughly-chopped",
+      "item": "onion roughly chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "litres-vegetable-stock",
+      "item": "litres vegetable stock",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "maris-piper-potatoes-roughly-chopped",
+      "item": "Maris Piper potatoes roughly chopped",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "carrots-roughly-chopped-or-sliced",
+      "item": "carrots roughly chopped or sliced",
+      "quantity": "2-3"
+    },
+    {
+      "ingredient_id": "swede-peeled-and-roughly-chopped",
+      "item": "swede peeled and roughly chopped",
+      "quantity": 750,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "leeks-sliced",
+      "item": "leeks sliced",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "handful-of-parsley-leaves-chopped",
+      "item": "handful of parsley leaves chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the lamb, onion, and vegetable stock in a large pot. Bring to a gentle simmer, cover, and cook until the lamb is tender, about 3 hours 5 minutes. Check that whole-cut lamb reaches at least 145°F, then rest it for 3 minutes before cutting.",
+      "timer_minutes": 185
+    },
+    {
+      "step": 2,
+      "text": "Remove the lamb and let it cool briefly. Cut the meat from the bone into bite-size pieces, discarding the bone, and set the meat aside."
+    },
+    {
+      "step": 3,
+      "text": "Return the pot to a simmer and add the potatoes, carrots, and swede. Cook until the vegetables are tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Stir in the lamb and leeks and simmer until the leeks are tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Ladle into bowls and finish with the chopped parsley."
+    }
+  ],
+  "tags": [
+    "soup",
+    "lamb",
+    "root-vegetables",
+    "welsh",
+    "one-pot",
+    "dinner"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "large pot"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cawl",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bffb488cef4f68ef9235ff072ef9c4bd0aa67a4ace3d5f06b87c2c74f5a2f854",
+    "normalized_text_hash": "1b5257e2b92473ebf49e22aae417dc4a44a93d66c1f23c275ed18bd9df182e8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T02:55:25.727Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-muffins",
+  "name": "Chocolate Muffins",
+  "subtitle": "Small, tender chocolate muffins with an optional chip topping",
+  "description": "A simple batch of cocoa-rich muffins finished with icing sugar for a lightly sweet topping.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips (optional)",
+      "quantity": 50,
+      "unit": "g",
+      "optional": true
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 100,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a six-cup muffin tin."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the plain flour, cocoa powder, and baking powder together in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Combine the egg, caster sugar, vegetable oil, and whole milk, then stir into the dry ingredients until just mixed. Fold in the chocolate chips if using."
+    },
+    {
+      "step": 4,
+      "text": "Divide the batter among the muffin cups and bake for 25 minutes, until the centers are firm and reach 160°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Cool the muffins before finishing with icing sugar."
+    },
+    {
+      "step": 6,
+      "text": "Combine the caster sugar and icing sugar as directed, then allow the icing sugar finish to cool before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "chocolate",
+    "muffins",
+    "sweet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "six-cup muffin tin",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-muffins",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c1c1f155005758dc425d934de147cb81db1d0ef329d9263b40f725cb13180c2f",
+    "normalized_text_hash": "d9acf578c833aa8379af289ba1a67e8d30606e4b6615610491af86141dea1d81",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:08:29.111Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

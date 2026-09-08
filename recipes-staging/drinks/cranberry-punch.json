@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-punch",
+  "name": "Cranberry Punch",
+  "subtitle": "A bright, fizzy fruit punch with fresh lime and mint",
+  "description": "Combine cranberry-apple juice and ginger ale over ice, then finish with lime and mint for a refreshing party drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cranberry-apple-juice",
+      "item": "cranberry-apple juice",
+      "quantity": 1.5,
+      "unit": "liters"
+    },
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 1,
+      "unit": "liter"
+    },
+    {
+      "ingredient_id": "limes",
+      "item": "limes",
+      "quantity": 2,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-mint",
+      "item": "sprigs fresh mint",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 6,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a punch bowl or large pitcher with the ice."
+    },
+    {
+      "step": 2,
+      "text": "Add the cranberry-apple juice, ginger ale, and lime slices. Stir gently to combine."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the fresh mint sprigs and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "punch",
+    "non-alcoholic",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "punch bowl or large pitcher",
+    "long spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20417/cranberry-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cf03b5e3e20b2c92a3d5aac0be72c650d607869c0001fdb2d3aedb444940f899",
+    "normalized_text_hash": "319870ab0a6989243b8a489fff619645c4ab1372b20aa77e01e12c5f0194ebdf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:23:51.006Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

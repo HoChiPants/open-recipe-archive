@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "khachapuri",
+  "name": "Khachapuri",
+  "subtitle": "Georgian cheese bread with baked eggs",
+  "description": "A boat-shaped yeast bread filled with a savory blend of cheeses and finished with eggs and butter.",
+  "meal_type": "baked-good",
+  "cuisine": "Georgian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-milk",
+      "item": "warm milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.25,
+      "unit": "cups",
+      "preparation": "or more as needed, for dusting"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "feta-cheese",
+      "item": "feta cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "low-moisture-mozzarella-cheese",
+      "item": "low-moisture mozzarella cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "cut into 4 pats"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the warm milk, warm water, yeast, and sugar together. Let stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the flour, olive oil, kosher salt, and sea salt. Mix to form a dough, adding flour as needed, then knead for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into a ball, cover, and let it rise until doubled, about 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 475°F. Combine the feta, Monterey Jack, and mozzarella, then chill the mixture briefly."
+    },
+    {
+      "step": 5,
+      "text": "Divide the dough into 4 portions. On a floured surface, roll each into a thick oval. Transfer to a baking sheet and shape each oval into a boat with raised edges."
+    },
+    {
+      "step": 6,
+      "text": "Fill the centers with the cheese mixture and bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Make a well in each filling, add an egg, and return to the oven until the eggs are fully set, about 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 8,
+      "text": "Top each bread with a butter pat, season with cayenne pepper and additional sea salt to taste, stir the butter into the hot filling, and serve."
+    }
+  ],
+  "tags": [
+    "cheese-bread",
+    "georgian",
+    "yeast-bread",
+    "baked-eggs",
+    "savory"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272625/khachapuri-georgian-cheese-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e3b112f4b03ccb2ba16e9fcff513dc37601789655b795418dda85c053b19d2dd",
+    "normalized_text_hash": "c134eb2c26e2519bed71c8e3c3fa854e873da4df419c8f22fb9e189defc9c4e5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:39:08.307Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

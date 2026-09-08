@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-apple-cinnamon-tarts",
+  "name": "Air Fryer Apple Cinnamon Tarts",
+  "subtitle": "Flaky individual tarts with warm spiced apples",
+  "description": "Apple slices are tucked into puff pastry, dusted with cinnamon sugar, and air-fried until crisp and golden.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sheet-ready-rolled-puff-pastry",
+      "item": "sheet ready-rolled puff pastry",
+      "quantity": 320,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "item": "cinnamon",
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-or-3-tbsp-milk",
+      "item": "egg or 3 tbsp milk",
+      "quantity": 1,
+      "preparation": "to glaze"
+    },
+    {
+      "ingredient_id": "icing-sugar-to-decorate-optional",
+      "item": "icing sugar to decorate (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the apples into thin slices and toss them with the lemon juice. Combine the cinnamon and caster sugar in a small bowl."
+    },
+    {
+      "step": 2,
+      "text": "Cut the puff pastry into six pieces. Arrange apple slices over the pastry, leaving a border, and sprinkle with the cinnamon-sugar mixture."
+    },
+    {
+      "step": 3,
+      "text": "Brush the pastry edges with the egg or milk glaze. Chill the assembled tarts for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Preheat the air fryer according to its instructions. Cook the tarts for 30 minutes, until the pastry is golden and any egg glaze is fully set. If using egg, verify the glaze reaches 160°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cool briefly and dust with icing sugar to decorate, if desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "apple",
+    "tart",
+    "puff-pastry",
+    "air-fryer"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "knife",
+    "mixing bowl",
+    "pastry brush",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-apple-cinnamon-tarts",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "95f8f6ee6c1d6f922d4b169a89ead83e35cc25ea5ac40417be7f3f338644aec0",
+    "normalized_text_hash": "06ed8c2f6d8d4a75e5b23caa27b65f91928c14830fecb05ee3330fd10ecccc35",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:20:46.545Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

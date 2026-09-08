@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chiffon-cake",
+  "name": "Chiffon Cake",
+  "subtitle": "A light, airy cake with vanilla flavor",
+  "description": "A tender chiffon cake made by combining a smooth yolk batter with whipped egg whites, then baking it in a prepared tin.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggs-separated",
+      "item": "eggs separated",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "self-raising-flour-or-sponge-flour",
+      "item": "self-raising flour (or sponge flour)",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "vegetable-oil-or-another-neutral-tasting-oil",
+      "item": "vegetable oil or another neutral-tasting oil",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cream-of-tartar",
+      "item": "cream of tartar",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "icing-sugar-for-dusting",
+      "item": "icing sugar for dusting (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare the tin by coating it with oil and a light layer of flour."
+    },
+    {
+      "step": 2,
+      "text": "Mix the milk, baking powder, vanilla, and oil with the egg yolks. Add the flour and caster sugar, then stir until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the egg whites until foamy. Add the cream of tartar and continue whisking, gradually adding caster sugar, until stiff peaks form.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Fold the whipped whites gently into the yolk mixture in batches until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared tin and level the surface."
+    },
+    {
+      "step": 6,
+      "text": "Bake until risen and set, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 7,
+      "text": "Cool the cake completely before removing it from the tin."
+    },
+    {
+      "step": 8,
+      "text": "Dust with icing sugar, if using, and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "cake",
+    "chiffon-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "electric whisk",
+    "cake tin",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chiffon-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "79a0d76d9debf29203bd4264d959a1aaa3ebf9757910206a60b85db8dfa281e0",
+    "normalized_text_hash": "9b8525d41b2dc0222d82ef860a9fe46d5891baf2b6cd69cb62b5dfa8023c21c4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:57:19.903Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

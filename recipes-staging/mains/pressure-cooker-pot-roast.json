@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pressure-cooker-pot-roast",
+  "name": "Pressure Cooker Pot Roast",
+  "subtitle": "Tender beef with potatoes, onions, and rich gravy",
+  "description": "Browned beef cooks under pressure with onion seasoning, then shares the pot with potatoes and onions. The cooking liquid becomes a simple gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 120,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-rump-roast",
+      "item": "beef rump roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-shortening",
+      "item": "vegetable shortening",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-onion-soup-mix",
+      "item": "dry onion soup mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 8,
+      "preparation": "peeled and halved"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 3,
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Season the roast with salt and black pepper, then coat it with the flour; reserve the remaining flour for the gravy."
+    },
+    {
+      "step": 2,
+      "text": "Heat the shortening in the pressure cooker. Add the roast and brown it on all sides."
+    },
+    {
+      "step": 3,
+      "text": "Stir the onion soup mix into 2.5 cups cold water, or enough as needed, and add the mixture to the cooker."
+    },
+    {
+      "step": 4,
+      "text": "Secure the lid and cook under pressure for 120 minutes. Release pressure according to the cooker instructions, then verify that the roast is tender and reaches 145°F in the center. Rest it for at least 3 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Transfer the roast to a platter. Add the potatoes and peeled onions to the cooker, bring the cooker back to pressure, and cook for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Transfer the vegetables to the platter. Bring the cooking liquid to a simmer."
+    },
+    {
+      "step": 7,
+      "text": "Whisk the reserved flour with 0.5 cup cold water until smooth. Whisk it into the simmering liquid, bring the gravy to a boil, and cook until thickened, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 8,
+      "text": "Slice the roast and serve with the vegetables and gravy."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pressure-cooker",
+    "pot-roast"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220860/jens-pressure-cooker-pot-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a9c30ffa024d5ba6317cf7278668ec77b3866b470f09c9c5980027cd738947d3",
+    "normalized_text_hash": "fbdd08054288804ba61b9b41a20ecf503b6df8b715c831ecf106ab4345d2a6bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:27:19.489Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

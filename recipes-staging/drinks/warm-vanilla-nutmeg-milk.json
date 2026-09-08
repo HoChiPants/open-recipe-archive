@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "warm-vanilla-nutmeg-milk",
+  "name": "Warm Vanilla Nutmeg Milk",
+  "subtitle": "A gently spiced warm milk drink",
+  "description": "Milk sweetened with sugar, flavored with vanilla, and finished with nutmeg.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 2
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a small saucepan over low heat for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Stir the milk, vanilla extract, and white sugar together in the saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Warm gently for 2 minutes, stirring occasionally; do not boil.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Stir in the ground nutmeg and serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "warm-beverage",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85032/moms-warm-milk/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b96dab592b2794281ceec311ad09042767897702313aa61d7ee37eaec53a1840",
+    "normalized_text_hash": "b67020c6be7ba996727a04c6f885dc4ed3db389deacedd67d41fb11fbc8372a8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:54:53.535Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

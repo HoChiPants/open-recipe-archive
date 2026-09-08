@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blue-cheese-bites",
+  "name": "Blue Cheese Bites",
+  "subtitle": "Buttery baked biscuit bites with blue cheese",
+  "description": "Refrigerated biscuit dough is cut, coated with melted butter and crumbled blue cheese, then baked until golden and served warm.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-biscuit-dough",
+      "item": "refrigerated biscuit dough",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "blue-cheese",
+      "item": "blue cheese",
+      "quantity": 5,
+      "unit": "ounces",
+      "preparation": "crumbled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the refrigerated biscuit dough into bite-size pieces."
+    },
+    {
+      "step": 3,
+      "text": "Combine the dough pieces with melted butter and crumbled blue cheese."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 10 minutes, until lightly golden and cooked through.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "baked",
+    "cheese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15010/blue-cheese-bites/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e401d1bea554a26fa5587610f86a1629b7bfd46f93dbc5b0f38cc41f1450f0c6",
+    "normalized_text_hash": "712e5edbb00d560e03dc81fe84862d90ff3cc462c7e49b907ade4447d9ab13d4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:54:14.470Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

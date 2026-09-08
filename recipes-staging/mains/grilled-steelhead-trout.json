@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-steelhead-trout",
+  "name": "Grilled Steelhead Trout",
+  "subtitle": "Lemon-Garlic Steelhead Trout",
+  "description": "Steelhead trout grilled with lemon, olive oil, garlic, and onion for a simple savory meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "sliced into thin rounds with the ends reserved"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "filet-steelhead-trout",
+      "item": "filet steelhead trout",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a grill-safe pan. Add the garlic and onion, and cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Season the steelhead trout with salt and ground black pepper. Arrange the lemon rounds in the pan and place the trout over them. Spoon the garlic and onion mixture over the fish."
+    },
+    {
+      "step": 4,
+      "text": "Grill for 10 minutes, or until the thickest part reaches 145°F and the fish is opaque and flakes easily.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Serve with the reserved lemon ends."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "grill",
+    "grill-safe pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241167/grilled-steelhead-trout/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0eb4d64603a48c6e3cb5f9e7755a9debfd60b18bc6d5a3a19b45e9624ea71d59",
+    "normalized_text_hash": "6ff5393b8af19cbf1d09b4a3f2c6e8fcdf7b04496e27c68bd4f9178ec2ca1cfa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:11:53.944Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

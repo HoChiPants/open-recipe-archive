@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "manhattan-cocktail",
+  "name": "Manhattan Cocktail",
+  "subtitle": "A stirred whiskey cocktail with sweet vermouth and bitters",
+  "description": "Combine whiskey and sweet vermouth over ice, stir until chilled, then finish with bitters and a cherry.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "fluid-ounce-sweet-vermouth",
+      "item": "fluid ounce sweet vermouth",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "fluid-ounces-whiskey",
+      "item": "fluid ounces whiskey",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "bitters",
+      "item": "bitters",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "maraschino-cherry-for-garnish",
+      "item": "maraschino cherry for garnish",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a mixing glass with the ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Add the sweet vermouth and whiskey, then stir until well chilled."
+    },
+    {
+      "step": 3,
+      "text": "Add the bitters and stir briefly to combine."
+    },
+    {
+      "step": 4,
+      "text": "Strain into a serving glass and garnish with the maraschino cherry."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "whiskey",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing glass",
+    "bar spoon",
+    "strainer",
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55027/true-manhattan/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1ed384b5df9c3b7460fb5c2ce3ee6d42ba35ca8919f8b6915ed9324518d9f22b",
+    "normalized_text_hash": "052595ca09611e6edb3745257a808ea7fba83187efe4bac286923b1d71605552",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:22:45.831Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

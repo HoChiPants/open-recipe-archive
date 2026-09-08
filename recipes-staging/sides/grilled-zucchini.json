@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-zucchini",
+  "name": "Grilled Zucchini",
+  "subtitle": "Tender zucchini with savory grill seasoning",
+  "description": "Lengthwise-sliced zucchini is coated with olive oil and grill seasoning, then cooked until tender over high heat.",
+  "meal_type": "side",
+  "cuisine": "Greek",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "zucchinis",
+      "item": "zucchinis",
+      "quantity": 3,
+      "preparation": "sliced 1/4-inch thick, lengthwise"
+    },
+    {
+      "ingredient_id": "grill-seasoning",
+      "item": "grill seasoning",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill to medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Toss the sliced zucchini with the olive oil and grill seasoning."
+    },
+    {
+      "step": 3,
+      "text": "Grill the zucchini, turning once, until tender and lightly marked, about 4 minutes per side.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "grilled",
+    "zucchini"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222832/easy-grilled-zucchini/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3d8c76e8e87cd07a6cc86fcf5b69b3ba86d897aafebe34e553412c87e6ca8609",
+    "normalized_text_hash": "1f8f2a28cc3ffd61e3b6e7abda27864912c3630d54626e459746382481e243dd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:33:03.213Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-sweet-dough",
+  "name": "Basic Sweet Dough",
+  "subtitle": "A lightly sweetened yeast dough for breakfast baking",
+  "description": "A tender, enriched dough made with milk, eggs, sugar, and yeast, suitable for shaping into baked breakfast portions.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 25,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 8,
+      "unit": "cups",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "0-6-ounce-cakes-compressed-fresh-yeast",
+      "item": "(0.6 ounce) cakes compressed fresh yeast",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the milk until steaming, then combine it with the cold water. Let the mixture cool until warm but not hot."
+    },
+    {
+      "step": 2,
+      "text": "Dissolve the fresh yeast in the warm milk mixture. Stir in the salt, sugar, 4 tablespoons shortening, and eggs."
+    },
+    {
+      "step": 3,
+      "text": "Gradually add the sifted flour, stirring until a dough forms. Knead for 2 minutes, until smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Work in the 2 tablespoons melted shortening, then cover the dough and let it rise in a warm place until doubled, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough into 48 portions and arrange them for baking. Let them rest briefly while the oven heats."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 25 minutes, or until browned and the centers are firm and fully set.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baking",
+    "yeast-dough",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "baking pans",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6769/basic-sweet-dough/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5734263a3f157184ded16ff63ae8fe7430052c4cb97e3c923b0be59724568b60",
+    "normalized_text_hash": "01ccfe5bb7cf731e4255cf1b479e29bbce5da81fa9a4d98431ae766b389036fc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:07:43.894Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-crisp-with-pie-filling",
+  "name": "Apple Crisp with Pie Filling",
+  "subtitle": "A quick baked dessert with spiced apples and crumbly topping",
+  "description": "Canned apple filling is warmed with cinnamon and nutmeg, then covered with a buttery brown-sugar flour topping and baked until golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple-pie-filling",
+      "item": "apple pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the apple pie filling in a baking dish and sprinkle it with the cinnamon and nutmeg."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the margarine and brown sugar together. Cut in the flour until the mixture forms a crumbly topping."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the topping over the filling and bake for 20 minutes, until the topping is lightly browned and the filling is hot.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "apple",
+    "easy"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22917/easy-apple-crisp-with-pie-filling/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3eca33ca8a298573ffbeefe2d1ac88a59d3dbbbd58818fba921ef220c92c6678",
+    "normalized_text_hash": "ff6d28eb7e162e79c6c3f92bf59af3c34883f185d2ad0651aa9faf5501adcebd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:19:20.975Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

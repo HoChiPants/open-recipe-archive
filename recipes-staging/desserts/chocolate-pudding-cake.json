@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-pudding-cake",
+  "name": "Chocolate Pudding Cake",
+  "subtitle": "Warm chocolate cake with a thick pudding layer",
+  "description": "A simple chocolate dessert combining cake batter, cooked pudding, and chocolate chips in one pan.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "all-purpose-flour-for-dusting",
+      "item": "all-purpose flour for dusting"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "non-instant-chocolate-pudding-mix",
+      "item": "non-instant chocolate pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "devil-s-food-cake-mix",
+      "item": "devil's food cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "15.25 ounce"
+    },
+    {
+      "ingredient_id": "semi-sweet-chocolate-chips",
+      "item": "semi-sweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking pan with cooking spray and dust it with flour."
+    },
+    {
+      "step": 2,
+      "text": "Combine the milk and pudding mix in a saucepan. Cook, stirring, until thickened."
+    },
+    {
+      "step": 3,
+      "text": "Prepare the cake mix according to its package directions until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cake batter to the prepared pan. Spoon the thickened pudding over it and scatter the chocolate chips on top."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cake is set, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "cake",
+    "pudding"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "baking pan",
+    "saucepan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19104/the-easiest-chocolate-pudding-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "057a9e28713c752edf2712814f5542dcf5badecaf807c69c25501bc9f4fd9e87",
+    "normalized_text_hash": "849fda7038a8d30d584ead67a33e72dbff9bed1ceed508e02c7dec00e4793eb1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:00:29.342Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

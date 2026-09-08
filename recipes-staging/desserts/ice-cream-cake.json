@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ice-cream-cake",
+  "name": "Ice Cream Cake",
+  "subtitle": "A chilled layered dessert with chocolate topping",
+  "description": "Ice cream sandwiches form the base of this simple frozen cake, finished with whipped topping, chocolate fudge, and grated candy.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cream-sandwiches",
+      "item": "ice cream sandwiches",
+      "quantity": 16
+    },
+    {
+      "ingredient_id": "16-ounce-container-frozen-non-dairy-whipped-topping",
+      "item": "(16 ounce) container frozen non-dairy whipped topping",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "12-ounce-jar-chocolate-fudge-topping",
+      "item": "(12 ounce) jar chocolate fudge topping",
+      "quantity": 1,
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "1-5-ounce-bar-chocolate-candy-bar",
+      "item": "(1.5 ounce) bar chocolate candy bar",
+      "quantity": 1,
+      "preparation": "grated"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Unwrap the ice cream sandwiches, place them in a large bowl, and whisk until softened and spreadable."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the frozen non-dairy whipped topping and room-temperature chocolate fudge topping to the bowl, then prepare a cohesive mixture with the softened sandwiches."
+    },
+    {
+      "step": 3,
+      "text": "Spread the mixture in a serving dish or pan. Add the chocolate fudge topping and grated chocolate candy bar over the top."
+    },
+    {
+      "step": 4,
+      "text": "Freeze until firm, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Prepare the frozen non-dairy whipped topping for serving and use it to finish the cake."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frozen-dessert",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large bowl",
+    "serving dish or pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76004/easy-ice-cream-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0b69a8c683e7b53e450ae11b348457bf36a7d8b6ca4e144820fb97adafafa15c",
+    "normalized_text_hash": "44fe6a1b8ccd627c9bab9325ea281be81900f23579acabee447a0dcccae9afa8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:34:55.435Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

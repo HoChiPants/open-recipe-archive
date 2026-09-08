@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-chocolate-cereal-party-mix",
+  "name": "White Chocolate Cereal Party Mix",
+  "subtitle": "A crisp, sweet-and-salty snack for sharing",
+  "description": "Cereal squares, pretzels, peanuts, and candy pieces coated in melted white chocolate and chilled until set.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 28,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-chocolate",
+      "item": "white chocolate",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "crispy-rice-cereal-squares",
+      "item": "crispy rice cereal squares",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "crispy-corn-cereal-squares",
+      "item": "crispy corn cereal squares",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "oat-cereal",
+      "item": "oat cereal",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "thin-pretzel-sticks",
+      "item": "thin pretzel sticks",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "peanuts",
+      "item": "peanuts",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mini-candy-coated-chocolate-pieces",
+      "item": "mini candy-coated chocolate pieces",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the white chocolate gently in a heatproof bowl over simmering water, stirring until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Combine the cereal squares, toasted oat cereal, pretzel sticks, peanuts, and mini candy-coated chocolate pieces in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Pour the melted white chocolate over the mixture and fold carefully until the pieces are evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mixture on a lined tray and chill until the coating is firm.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "snack",
+    "party-food",
+    "sweet-and-salty",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "heatproof bowl",
+    "saucepan",
+    "large mixing bowl",
+    "lined baking tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9511/white-chocolate-party-mix/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a805756420dc364fe94e7bbf1ce4458f10e074e6d75cdf049b2276a4fd77c696",
+    "normalized_text_hash": "3ab49d948318fc25c7737359f624c66e52af9c1bc1215774c61a714dc714bd39",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:03:02.196Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

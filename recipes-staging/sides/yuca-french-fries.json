@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "yuca-french-fries",
+  "name": "Yuca French Fries",
+  "subtitle": "Tender inside, crisp and golden",
+  "description": "Simmered yuca is cut into thick fries, fried until golden, and finished with salt.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yuca",
+      "item": "yuca",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "peeled, and cut into 4 inch sections"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the yuca sections in a large pot and cover with water. Bring to a boil, then simmer for 30 minutes, until tender but not falling apart.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Drain the yuca and cut each section into fry-size sticks."
+    },
+    {
+      "step": 3,
+      "text": "Heat the oil to 375°F in a deep fryer or heavy pot, using a thermometer to monitor the temperature."
+    },
+    {
+      "step": 4,
+      "text": "Fry the yuca in batches for about 5 minutes, turning as needed, until golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Drain well and season with salt while hot. Serve immediately."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "fried",
+    "yuca",
+    "latin-american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "deep fryer or heavy pot",
+    "food thermometer",
+    "slotted spoon",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165419/yuca-french-fries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d1364932c129220fe89c479ab135e787f2fa807a958ff65c2306169f046e356",
+    "normalized_text_hash": "6d3b2bbbc994ab2c8152ed2321f567e7d45bc63bf4dbf6027f6fee2a048f6275",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:11:52.346Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

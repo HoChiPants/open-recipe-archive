@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "poppy-seed-chicken",
+  "name": "Poppy Seed Chicken",
+  "subtitle": "A creamy baked chicken casserole with a crisp cracker topping",
+  "description": "Diced chicken is coated in a creamy sherry sauce, layered with poppy-seed crackers, and baked until bubbling and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves - diced"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dry-sherry",
+      "item": "dry sherry",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "buttery-round-crackers",
+      "item": "buttery round crackers",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "poppy-seeds",
+      "item": "poppy seeds",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat the diced chicken with the condensed soup, sour cream, and sherry; season with salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chicken mixture to a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the crushed crackers and poppy seeds, then sprinkle the mixture over the chicken. Drizzle with the melted butter."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, then let the casserole stand for 5 minutes. Check that the chicken reaches 165°F in the center before serving.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8732/poppy-seed-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e6344524214112394fd157b25a4f3fd6b93c5878f76ab1a58ea64682d9a916a3",
+    "normalized_text_hash": "7aa3e010cc7affc35fe878386a99ba198cc8611e252419491ffd62fdfdc59339",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:16:24.531Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

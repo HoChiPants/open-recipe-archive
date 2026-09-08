@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-thins",
+  "name": "Almond Thins",
+  "subtitle": "Crisp sliced-almond cookie squares",
+  "description": "Thin, buttery almond cookies baked in a slab, cut, and returned to the oven for a crisp finish.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 72,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 17
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Grease a large baking sheet or line it with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the butter, egg, and sugar until smooth. Whisk in the vanilla."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the flour and salt just until a dough forms. Spread it thinly and evenly on the prepared baking sheet, then scatter the sliced almonds over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until lightly browned and the egg-containing dough reaches 160°F in the center.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 5,
+      "text": "Cut the warm slab into small squares or rectangles. Return the pieces to the oven and bake until crisp.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Cool completely before serving."
+    }
+  ],
+  "tags": [
+    "almond",
+    "cookies",
+    "crisp",
+    "baked",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "whisk",
+    "knife",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9716/almond-thins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ee423fc4f0d4c2628205e0319ced513552c656f34b22c5e89aff17478a68a175",
+    "normalized_text_hash": "9c0a298081975527420ba2aa6e609658e64f1cbf77f086c7d28e4b8487684659",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:49:11.513Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

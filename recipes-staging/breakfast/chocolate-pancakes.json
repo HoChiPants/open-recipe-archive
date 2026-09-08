@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-pancakes",
+  "name": "Chocolate Pancakes",
+  "subtitle": "Rich cocoa pancakes with a creamy berry topping",
+  "description": "Tender cocoa pancakes studded with dark chocolate chips, served with vanilla cream and optional berries and maple syrup.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 16,
+    "unit": "pancakes (serves 4-6)"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa-powder-sieved",
+      "item": "cocoa powder sieved",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 400,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "dark-chocolate-chips",
+      "item": "dark chocolate chips",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "unsalted-butter-cubed",
+      "item": "unsalted butter cubed",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vanilla-paste",
+      "item": "vanilla paste",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "mixed-berries-optional",
+      "item": "mixed berries (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the self-raising flour, cocoa powder, baking powder, caster sugar, and icing sugar in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "In a separate bowl, whisk the eggs until smooth. Gradually whisk in the whole milk, then stir in the dark chocolate chips."
+    },
+    {
+      "step": 3,
+      "text": "Combine the wet and dry mixtures to make a smooth batter."
+    },
+    {
+      "step": 4,
+      "text": "Heat a frying pan over medium heat with some of the vegetable oil and unsalted butter."
+    },
+    {
+      "step": 5,
+      "text": "Add portions of batter to the pan, shaping each into a pancake.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Cook until bubbles form and the underside is set, then turn and cook the other side until set.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Repeat with the remaining batter, adding more oil and butter as needed."
+    },
+    {
+      "step": 8,
+      "text": "Whisk the double cream, icing sugar, and vanilla paste until thick."
+    },
+    {
+      "step": 9,
+      "text": "Serve the pancakes with the vanilla cream and optional mixed berries and maple syrup."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "chocolate",
+    "pancakes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "frying pan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-pancakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f586b605a86d0faee486bfbdbd73db85447f2a6a8179180c4306e79c659b70bc",
+    "normalized_text_hash": "dd4929b0474ffa5c58fcf490d64636eeb6341e77fd6dc6afc8a13e1d4068a0fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:10:18.856Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

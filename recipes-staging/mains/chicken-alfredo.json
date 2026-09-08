@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-alfredo",
+  "name": "Chicken Alfredo",
+  "subtitle": "Creamy pasta with chicken and vegetables",
+  "description": "Fettuccine is coated in a smooth cream cheese Alfredo sauce, then combined with cooked chicken, broccoli, zucchini, and bell pepper.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-fettuccine-pasta",
+      "item": "dry fettuccine pasta",
+      "quantity": 6,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves - cooked and cubed"
+    },
+    {
+      "ingredient_id": "fresh-broccoli",
+      "item": "fresh broccoli",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 2,
+      "unit": "small",
+      "preparation": "julienned"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "preparation": "for topping"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a boil. Add the fettuccine and cook for 10 minutes, or until tender. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a skillet over medium heat. Add the cream cheese and stir until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the milk, garlic powder, and salt and pepper to taste. Add the chopped red bell pepper and simmer for 3 minutes, until thickened.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add the broccoli and zucchini to the skillet and cook for about 3 minutes, until tender.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Stir in the drained pasta and cooked, cubed chicken. Serve topped with grated Parmesan cheese."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18444/chicken-alfredo/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "af5bb30aa7c9d38d025e9864b6de501301df84ddbc11f983fc33098ff94295e5",
+    "normalized_text_hash": "20e9ff09aefffd4a78be74c7c8248479c05b0ad97d9e8dd2c6ab7da9dd70b764",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:53:13.054Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

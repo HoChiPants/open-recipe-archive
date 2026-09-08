@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rhubarb-bread-pudding",
+  "name": "Rhubarb Bread Pudding",
+  "subtitle": "A tender baked pudding with tart rhubarb and warm cinnamon",
+  "description": "Toasted bread absorbs a sweet custard and chopped rhubarb before baking into a softly set dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 8,
+      "preparation": "crusts removed, bread lightly toasted and cubed"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-rhubarb",
+      "item": "fresh rhubarb",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "item": "cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Lightly butter a baking dish using the unsalted butter, reserving the rest for melting."
+    },
+    {
+      "step": 2,
+      "text": "Warm the milk and remaining butter in a saucepan until the butter melts; do not boil."
+    },
+    {
+      "step": 3,
+      "text": "Place the cubed toasted bread in a bowl and pour over the warm milk mixture. Let stand for 15 minutes, stirring once or twice, until evenly coated.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir together the rhubarb, white sugar, eggs, cinnamon, salt, and brown sugar. Fold this mixture into the soaked bread."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to the prepared dish and bake for 45 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-pudding",
+    "rhubarb",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "saucepan",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237515/outstanding-rhubarb-bread-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "44745a38a53c9e6d44d8d396865e05d547667c08fd282302706a9dd7190651fa",
+    "normalized_text_hash": "bd682a52db96b2125810837930b0575183db608ffa2c4d5b760fbea6133fb919",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:39:51.459Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mashed-potato-casserole",
+  "name": "Mashed Potato Casserole",
+  "subtitle": "Creamy seasoned potatoes finished with melted Cheddar",
+  "description": "A warm, savory side dish made with instant potato flakes, sour cream, herbs, and cheese, then baked until the topping melts.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "instant-minced-onion",
+      "item": "instant minced onion",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-thyme",
+      "item": "ground thyme",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "instant-mashed-potato-flakes",
+      "item": "instant mashed potato flakes",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "In a saucepan, bring the water, butter, onion, parsley, salt, and thyme to a simmer, stirring to combine."
+    },
+    {
+      "step": 3,
+      "text": "Warm the milk, then stir it with the potato flakes. Whisk in the sour cream and incorporate the seasoned liquid."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the potato mixture to a baking dish and cover with the shredded Cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cheese is melted, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "potatoes",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240122/nanis-mashed-potato-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4c1be0e494a65e793809b29ed8d318f7788e0501932fea7311812c2e5450808c",
+    "normalized_text_hash": "5ec5ed8a3ecc97ad2e60f9ef4a44ada078a04714be689d4ad1b4d27e78efe078",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:08:42.888Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-sugar-frosting",
+  "name": "Brown Sugar Frosting",
+  "subtitle": "A light, glossy frosting with caramel notes",
+  "description": "A simple cooked frosting made with egg whites, dark brown sugar, and vanilla.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "dark-brown-sugar",
+      "item": "dark brown sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.33329999446869,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the egg whites, brown sugar, and water together in a heatproof bowl."
+    },
+    {
+      "step": 2,
+      "text": "Cook the mixture over simmering water, stirring constantly, until it reaches 160°F and begins to boil; continue cooking for 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and stir in the vanilla extract while the mixture is still boiling hot."
+    },
+    {
+      "step": 4,
+      "text": "Beat until the frosting thickens and holds its shape, then use immediately."
+    }
+  ],
+  "tags": [
+    "frosting",
+    "brown-sugar",
+    "cooked-frosting",
+    "cake-topping"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "heatproof bowl",
+    "saucepan",
+    "food thermometer",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8407/sea-foam-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a5a4c3289515790373981075def5265a92c9e23297d17936e8dcb3780b310cef",
+    "normalized_text_hash": "3bf611e88d7acab59141279a2aaee11c21a26994e3b928afe1ae4502330fae25",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:00:58.076Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

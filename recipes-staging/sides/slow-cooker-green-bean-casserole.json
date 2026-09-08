@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-green-bean-casserole",
+  "name": "Slow Cooker Green Bean Casserole",
+  "subtitle": "A creamy, crunchy side made with frozen green beans",
+  "description": "Frozen green beans simmer with creamy soup, Parmesan, and seasonings, then finish with crisp fried onions.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 300
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-cut-green-beans",
+      "item": "frozen cut green beans",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "cream-of-chicken-soup",
+      "item": "cream of chicken soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "french-fried-onions",
+      "item": "French-fried onions",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the green beans, soup, milk, Parmesan, salt, pepper, and half of the fried onions to a slow cooker. Stir until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook on the slow cooker setting for 5 hours, until hot throughout and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 3,
+      "text": "Top with the remaining fried onions and serve hot."
+    }
+  ],
+  "tags": [
+    "slow-cooker",
+    "vegetable-side",
+    "casserole",
+    "holiday-side"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229809/slow-cooker-green-bean-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a1c6ba3ace299ef70e5e7fdfb7b1ea22c5c964b66ae46643cdf19a575af010d8",
+    "normalized_text_hash": "257b4f23d10bd1aa0f3ad7df313fa9cf0c4c1e1c607de8b7f2ae099601161693",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:45:07.132Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

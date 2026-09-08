@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "applesauce-cake",
+  "name": "Applesauce Cake",
+  "subtitle": "A warmly spiced cake with a tender applesauce crumb",
+  "description": "A simple American dessert combining applesauce, cinnamon, and nutmeg in a moist cake baked from prepared mixes.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "applesauce",
+      "item": "applesauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a baking pan for the batter."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the cake mix, pudding mix, nutmeg, and cinnamon."
+    },
+    {
+      "step": 3,
+      "text": "Add the applesauce, vegetable oil, eggs, and water. Blend for 4 minutes until smooth.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Pour the batter into the prepared pan and bake at 350°F until set and a tester comes out clean.",
+      "timer_minutes": 55
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "applesauce",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "baking pan",
+    "oven",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27709/easiest-applesauce-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4f08a2b45b42da5866fe3aaed771b5b510e77314a8e83ce2413f109ec9c84f91",
+    "normalized_text_hash": "00ac8c590c2c3ab7d0cdac6404d75d5cc46fbe9551825c55ad8c3e0bbde9ef91",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:16:42.791Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

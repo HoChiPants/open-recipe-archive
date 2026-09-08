@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-brochette",
+  "name": "Shrimp Brochette",
+  "subtitle": "Grilled shrimp wrapped with bacon, jalapeño, and melted cheese",
+  "description": "Butterflied shrimp are filled with jalapeño, seasoned, wrapped in bacon, and grilled on skewers before being topped with melted Monterey Jack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "large-shrimp",
+      "item": "large shrimp",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "peeled, deveined and butterflied"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "fresh-jalapeno-peppers",
+      "item": "fresh jalapeno peppers",
+      "quantity": 3,
+      "preparation": "seeded and julienned"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cut into thirds"
+    },
+    {
+      "ingredient_id": "cajun-seasoning",
+      "item": "Cajun seasoning",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "skewers",
+      "item": "skewers"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill and prepare the skewers."
+    },
+    {
+      "step": 2,
+      "text": "Place a strip of jalapeño in each butterflied shrimp. Wrap each shrimp with a third of a bacon slice and secure it with a skewer."
+    },
+    {
+      "step": 3,
+      "text": "Season the wrapped shrimp with Cajun seasoning."
+    },
+    {
+      "step": 4,
+      "text": "Grill the skewers, turning as needed, until the bacon is cooked and the shrimp are opaque and easily flaked."
+    },
+    {
+      "step": 5,
+      "text": "Top the shrimp with sliced Monterey Jack cheese and cook until the cheese is melted.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Transfer the skewers to a serving dish and let them rest briefly before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "snack",
+    "american",
+    "grilled",
+    "shrimp"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "grill",
+    "skewers"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73787/shrimp-brochette/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8f7eae0289d3a483c230145d404017e038d8fad2e28952b4e17a28ea0a503846",
+    "normalized_text_hash": "8b05402354ea358886c9f2eb8489f3e324940a20d6c54ab8bdd38662c25c5bc2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:16:45.324Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

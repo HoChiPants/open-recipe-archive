@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-cheese-marshmallow-fruit-dip",
+  "name": "Cream Cheese Marshmallow Fruit Dip",
+  "subtitle": "A creamy, fluffy dip for fresh fruit",
+  "description": "Whisk softened cream cheese with marshmallow creme until smooth, then serve as a dip for fruit.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "7-ounce-jar-marshmallow-creme",
+      "item": "(7 ounce) jar marshmallow creme",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese and marshmallow creme together in a bowl until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Serve immediately with fresh fruit."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "snack",
+    "dip",
+    "no-cook",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16570/fruit-dip-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "579fe695c0ea8da3db6b0693c319c383567e88a1459e1434227bfff1956ac6e1",
+    "normalized_text_hash": "74a9c80dff1dd601402167a0c1367864afff06dfef8f3d0981fe49c2ef621c3b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:34:21.861Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

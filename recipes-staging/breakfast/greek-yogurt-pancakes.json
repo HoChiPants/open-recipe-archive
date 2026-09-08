@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "greek-yogurt-pancakes",
+  "name": "Greek Yogurt Pancakes",
+  "subtitle": "Tender pancakes with a tangy yogurt base",
+  "description": "A simple breakfast batter made with Greek yogurt, egg, flour, and baking soda, cooked on a hot skillet until set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": 6,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the Greek yogurt until smooth, then whisk in the egg."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and baking soda in a separate bowl. Stir the dry mixture into the yogurt mixture just until a batter forms."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet or griddle over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Divide the batter into four pancakes on the heated surface.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Cook, turning once, until browned and the centers are firm and fully set, about 3 minutes total.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "pancakes",
+    "greek-yogurt"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "skillet or griddle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244286/greek-yogurt-pancakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ccbb3f8916b62e8261f810bab20fd7b131e4f42c3bff538156d3aa9e49e7ea5d",
+    "normalized_text_hash": "112c3a77cbba0637944da42e4abdd324cc1db10a5748937cbbe3ba6e3825f768",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:59:58.103Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-bread-pudding",
+  "name": "Pecan Bread Pudding",
+  "subtitle": "Custardy bread pudding with a buttery pecan topping.",
+  "description": "Day-old baguette absorbs a sweet vanilla custard before baking beneath a crisp pecan and brown-sugar topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45,
+    "inactive_minutes": 80
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "loaf-day-old-french-baguette",
+      "item": "loaf day-old French baguette",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "shelled-pecan-halves",
+      "item": "shelled pecan halves",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the baguette into bite-size cubes and place them in a baking dish. Let stand for 60 minutes so the bread dries slightly.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs in a bowl. Stir in the milk, sugar, vanilla extract, and 1 cup of the brown sugar until combined."
+    },
+    {
+      "step": 4,
+      "text": "Pour the custard over the bread and fold gently to coat. Let the mixture absorb the custard while preparing the topping."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the butter to a microwave-safe bowl and microwave in short intervals until melted. Stir in the remaining brown sugar and pecan halves."
+    },
+    {
+      "step": 6,
+      "text": "Spread the pecan mixture over the soaked bread. Bake for 45 minutes, until the center is firm and reaches 160°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Cool for 20 minutes before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bread-pudding",
+    "pecans",
+    "american",
+    "southern"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "whisk",
+    "microwave-safe bowl",
+    "microwave"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267818/easy-pecan-pie-bread-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0609e6bc942b4016fd96df5444cb08f7b7bc1afbc2edb243c0f365ee029e82cb",
+    "normalized_text_hash": "757f9d86ce43d8cb8fc55cc189ba24310b3ecb6945c12f9d3e190850fe0cbc73",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:41:22.194Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

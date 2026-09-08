@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "haddock-bake",
+  "name": "Haddock Bake",
+  "subtitle": "Tender fish baked with creamy mushroom sauce and Cheddar",
+  "description": "Haddock fillets are layered with onion and covered in a creamy mushroom-cheese sauce before baking until flaky.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "haddock-fillets",
+      "item": "haddock fillets",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "mild-cheddar-cheese",
+      "item": "mild Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the haddock fillets in a baking dish and season with salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Layer the sliced onion over the fish."
+    },
+    {
+      "step": 4,
+      "text": "Whisk together the condensed mushroom soup and shredded Cheddar, then spread the mixture over the onion and fish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until the fish reaches 145°F or is opaque and flakes easily.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12772/haddock-bubbly-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a450ed8bd503ef7e637910e64f949f308d6465112ccdead17170ba6ee827e821",
+    "normalized_text_hash": "388d7b74e5e6d67785165d10b44aa251abf1878d34f7cd3168b72abccf153e7c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:17:20.376Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

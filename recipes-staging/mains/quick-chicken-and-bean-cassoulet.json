@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "quick-chicken-and-bean-cassoulet",
+  "name": "Quick Chicken and Bean Cassoulet",
+  "subtitle": "A hearty baked casserole with beans, chicken, sausage, and a crisp herb topping.",
+  "description": "Bacon, sausage, chicken, and cannellini beans simmer with herbs before being finished with buttery Parmesan breadcrumbs.",
+  "meal_type": "main",
+  "cuisine": "French Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "cut into 1 inch pieces"
+    },
+    {
+      "ingredient_id": "smoked-sausage",
+      "item": "smoked sausage",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 12,
+      "unit": "ounces",
+      "preparation": "skinless chicken thighs, cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "plus more if needed"
+    },
+    {
+      "ingredient_id": "cannellini-beans",
+      "item": "cannellini beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15 ounce, drained and rinsed"
+    },
+    {
+      "ingredient_id": "fresh-rosemary",
+      "item": "fresh rosemary",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-thyme",
+      "item": "fresh thyme",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "cayenne-pepper-to-taste",
+      "item": "cayenne pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "bread-crumbs",
+      "item": "bread crumbs",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "finely-grated-parmigiano-reggiano",
+      "item": "finely grated Parmigiano-Reggiano",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Cook the bacon in an ovenproof skillet over medium heat until rendered and lightly crisp, then transfer it to a plate.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Cook the onion in the bacon fat until softened, about 5 minutes. Add the cubed chicken and sliced sausage; cook until the chicken is browned and reaches 165°F internally.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 3,
+      "text": "Stir in the broth, beans, rosemary, thyme, cayenne, salt, pepper, and the reserved bacon. Simmer until the mixture is hot and slightly thickened, adding more broth if needed.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 4,
+      "text": "Mix the melted butter, bread crumbs, and grated Parmigiano-Reggiano in a bowl."
+    },
+    {
+      "step": 5,
+      "text": "Spread the crumb mixture over the skillet. Bake until the topping is set and golden and the casserole is bubbling.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Let the cassoulet rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "bean-dish",
+    "chicken",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "ovenproof skillet",
+    "plate",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220322/chef-johns-quick-cassoulet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "381e6dfccb166607eb68c034f8bcf83d9bd569c687edd8697301c0952707795a",
+    "normalized_text_hash": "e442333a81353bfef44941fa50ae8a7ccde8f1474fdf11ab11bac09ce0f91a59",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:40:26.996Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

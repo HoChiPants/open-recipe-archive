@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-sandwiches",
+  "name": "Chicken Sandwiches",
+  "subtitle": "Crisp cabbage, giardiniera, and breaded chicken on crusty rolls",
+  "description": "A quick leftover-chicken sandwich layered with tangy pickled vegetables, creamy mayonnaise, and fresh shredded cabbage.",
+  "meal_type": "sandwich",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-cabbage-finely-shredded",
+      "item": "white cabbage finely shredded",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "leftover-giardiniera-see-recipe-below",
+      "item": "leftover giardiniera (see recipe below)",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "crusty-rolls-or-4-thick-slices-of-bloomer",
+      "item": "crusty rolls or 4 thick slices of bloomer",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "leftover-garlic-parmesan-breaded-chicken-breast-see-recipe-below",
+      "item": "leftover garlic & parmesan breaded chicken breast (see recipe below)",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Use chicken that has already been fully cooked to 165°F. Slice it if needed."
+    },
+    {
+      "step": 2,
+      "text": "Toss the shredded cabbage with the giardiniera."
+    },
+    {
+      "step": 3,
+      "text": "Stir the mayonnaise with some of the giardiniera to make a spread."
+    },
+    {
+      "step": 4,
+      "text": "Split the rolls, spread them with the mayonnaise mixture, and fill with the cabbage mixture and chicken."
+    },
+    {
+      "step": 5,
+      "text": "Cut the sandwiches in half and serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "chicken",
+    "sandwich",
+    "leftovers",
+    "breaded-chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-sandos",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c7fce87af242af05718236838cd16a9d292fc541c957cfdf4ffaa7e588d45c48",
+    "normalized_text_hash": "80c2a014d0ec8d9e819b9ba825f3d7375b921ddfa86d908dad1812ec67b9da8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:50:07.481Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

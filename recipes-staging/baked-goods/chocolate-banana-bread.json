@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-banana-bread",
+  "name": "Chocolate Banana Bread",
+  "subtitle": "Moist banana bread with cocoa and chocolate chips",
+  "description": "A tender chocolate banana loaf made with mashed bananas, cocoa powder, sour cream, and semisweet chocolate chips.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 6,
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lite-sour-cream",
+      "item": "lite sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare the baking pan as needed."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened margarine, sugar, eggs, and sour cream until smooth. Stir in the mashed bananas and vanilla."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the flour, baking soda, and cocoa powder."
+    },
+    {
+      "step": 4,
+      "text": "Add the dry mixture to the wet mixture and stir just until combined. Fold in the chocolate chips."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the center is firm and a tester inserted in the middle comes out clean.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "banana-bread",
+    "chocolate",
+    "baking",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17252/chocolate-banana-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ad5dc8bea1cc2b8a149c5bd7647cfeba14afdf3a9db80793d9bfcb3d29cdc001",
+    "normalized_text_hash": "15d26487ff485cd158d1d56a1282b672d93db57e213f743625b8bb81f94d1b4c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:28:46.125Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

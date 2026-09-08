@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-lasagne",
+  "name": "Chicken Lasagne",
+  "subtitle": "Layered chicken, tomato, pesto, and creamy white sauce",
+  "description": "Tender chicken in herbed tomato sauce is layered with lasagne sheets, pesto, mozzarella, and a smooth white sauce, then baked until bubbling and set.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 95
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pesto",
+      "item": "pesto",
+      "quantity": 190,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ball-of-mozzarella-drained-and-torn-into-small-chunks",
+      "item": "ball of mozzarella drained and torn into small chunks",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dried-lasagne-sheets",
+      "item": "dried lasagne sheets",
+      "quantity": "14-15"
+    },
+    {
+      "ingredient_id": "parmesan-finely-grated",
+      "item": "parmesan finely grated",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "basil-leaves-and-a-green-salad",
+      "item": "basil leaves and a green salad",
+      "preparation": "to serve (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 6,
+      "preparation": "skinless chicken thighs"
+    },
+    {
+      "ingredient_id": "onion-finely-chopped",
+      "item": "onion finely chopped",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed",
+      "item": "garlic cloves crushed",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "dried-mixed-herbs",
+      "item": "dried mixed herbs",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "x-400g-cans-chopped-tomatoes",
+      "item": "x 400g cans chopped tomatoes",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 80,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 800,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Warm the olive oil in a large oven-safe pot or skillet, then cook the chicken thighs for 5 minutes, turning as needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the onion and cook for 10 minutes. Stir in the garlic and dried mixed herbs, then add the chopped tomatoes and ketchup.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Bring the tomato mixture to a simmer. Cover and cook until the chicken is tender and reaches 165°F at the thickest point.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Transfer the chicken to a plate, shred it, and stir it back into the tomato sauce."
+    },
+    {
+      "step": 5,
+      "text": "Melt the butter in a saucepan. Whisk in the flour and cook briefly, then gradually whisk in the milk. Simmer, stirring, until smooth and thickened."
+    },
+    {
+      "step": 6,
+      "text": "Spread a little white sauce in a baking dish. Layer lasagne sheets, chicken-tomato sauce, white sauce, pesto, and mozzarella, repeating until the ingredients are used. Finish with white sauce, mozzarella, and Parmesan."
+    },
+    {
+      "step": 7,
+      "text": "Bake until bubbling, browned, and fully set in the center.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 8,
+      "text": "Rest for 10 minutes, then cut into portions and serve with the optional basil leaves and green salad.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "chicken",
+    "lasagne",
+    "pasta",
+    "family-dinner",
+    "oven-baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large oven-safe pot or skillet",
+    "saucepan",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-lasagne",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b6dfe07d58bdde7892ec8a5f49b1b6fd09d4d92592ce0d27c841803ab14d614",
+    "normalized_text_hash": "e3e7ba9ce3a87bfa4da31c43573ebd0e70f02eb47f5fe9dc65077b1f56f7fb4c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T18:27:09.948Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

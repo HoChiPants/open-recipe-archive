@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-croissant-bread-pudding",
+  "name": "Chocolate Croissant Bread Pudding",
+  "subtitle": "A rich baked custard with chocolate croissants",
+  "description": "Day-old chocolate croissants soak in a vanilla custard, then bake with chocolate chips until golden and set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-flavored-cooking-spray",
+      "item": "butter-flavored cooking spray"
+    },
+    {
+      "ingredient_id": "2-milk",
+      "item": "2% milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-bean",
+      "item": "vanilla bean",
+      "quantity": 1,
+      "preparation": "halved lengthwise"
+    },
+    {
+      "ingredient_id": "day-old-chocolate-croissants",
+      "item": "day-old chocolate croissants",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "cut into 1/2-inch-thick pieces"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking dish with butter-flavored cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Combine the milk, cream, eggs, white sugar, vanilla extract, and vanilla bean in a bowl. Stir until smooth, then remove the vanilla bean."
+    },
+    {
+      "step": 3,
+      "text": "Add the croissant pieces and chocolate chips, folding gently to coat. Let the mixture stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to the prepared dish and bake until golden brown and the center is fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Cool for 30 minutes, then dust with confectioners' sugar before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bread-pudding",
+    "chocolate",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240268/chocolate-croissant-bread-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f01c489f0ad51be5788f3ee8134d01f33099f6dd1625b99cbe213b5c018b4364",
+    "normalized_text_hash": "3001be4e98b3724dc56c193d60bdd4d981bf76367971f7ff15b9882f4b537dba",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:34:27.693Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

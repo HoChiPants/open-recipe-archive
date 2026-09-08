@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "smothered-bacon-chicken",
+  "name": "Smothered Bacon Chicken",
+  "subtitle": "Chicken breasts baked with bacon and creamy mushroom sauce",
+  "description": "Boneless chicken breasts are topped with bacon and covered in a simple sour-cream mushroom sauce for a rich baked main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 8,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the chicken breasts in a baking dish and arrange the bacon slices over them."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the sour cream and condensed cream of mushroom soup together until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Spread the sauce over the chicken and bacon."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 50 minutes, or until the chicken reaches 165°F in the thickest part on a food thermometer.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken",
+    "baked",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8765/smothered-bacon-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dc73b5c0a98bd0aed5a53bb89e607a24bde095bd363216a0899edea549abe55b",
+    "normalized_text_hash": "dbab02c09f157b5cd5635cc3e7e21d5e82f6750bfc5555f74041eccbb4d80f8b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:01:59.056Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

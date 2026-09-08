@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-chocolate-rocky-road",
+  "name": "White Chocolate Rocky Road",
+  "subtitle": "A chilled bar with marshmallows, biscuits, and pecans",
+  "description": "Make a rich white-chocolate rocky road, chill it until firm, and cut it into shareable squares.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 16,
+    "unit": "squares"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lotus-biscoff-smooth-spread",
+      "item": "Lotus Biscoff smooth spread",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "salted-butter-cut-into-cubes",
+      "item": "salted butter cut into cubes",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "white-chocolate-roughly-chopped",
+      "item": "white chocolate roughly chopped",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lotus-biscoff-biscuits",
+      "item": "Lotus Biscoff biscuits",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mini-marshmallows-vegetarian",
+      "item": "mini marshmallows (vegetarian",
+      "quantity": 60,
+      "unit": "g",
+      "preparation": "if needed)"
+    },
+    {
+      "ingredient_id": "pecans-roughly-chopped",
+      "item": "pecans roughly chopped",
+      "quantity": 80,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a square baking tin with parchment."
+    },
+    {
+      "step": 2,
+      "text": "Melt the spread, butter, and white chocolate together gently, stirring until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Break the biscuits into pieces and stir them into the melted mixture with the marshmallows and pecans."
+    },
+    {
+      "step": 4,
+      "text": "Press the mixture evenly into the lined tin and chill until firm.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 5,
+      "text": "Cut into 16 squares and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bars",
+    "no-bake",
+    "white-chocolate",
+    "marshmallow",
+    "pecan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "square baking tin",
+    "parchment paper",
+    "heatproof bowl",
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/biscoff-rocky-road",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "de5b28ddee806260c5712e5ad27c45d0a8db0dd99f7afafe9bd3a0055d3a9bf5",
+    "normalized_text_hash": "75f4fcb3ee34c1504aa9229ba52090d75abb0c6d5548f55a257556f81cb3b215",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:33:44.909Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

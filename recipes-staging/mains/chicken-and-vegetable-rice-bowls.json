@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-vegetable-rice-bowls",
+  "name": "Chicken and Vegetable Rice Bowls",
+  "subtitle": "Hoisin chicken with rice, vegetables, and avocado",
+  "description": "Tender chicken, brown basmati rice, and colorful vegetables come together in a quick bowl-style meal finished with creamy avocado and optional lemon.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-basmati-rice",
+      "item": "brown basmati rice",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "rapeseed-oil",
+      "item": "rapeseed oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "garlic-clove-crushed",
+      "item": "garlic clove crushed",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "chicken-breasts",
+      "item": "chicken breasts",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "hoisin-sauce",
+      "item": "hoisin sauce",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "frozen-edamame-beans-or-peas",
+      "item": "frozen edamame beans or peas",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "defrosted"
+    },
+    {
+      "ingredient_id": "frozen-sweetcorn",
+      "item": "frozen sweetcorn",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "grated-carrots",
+      "item": "grated carrots",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "red-peppers-cut-into-small-cubes",
+      "item": "red peppers cut into small cubes",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "avocado-stoned-and-sliced",
+      "item": "avocado stoned and sliced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon-cut-into-quarters",
+      "item": "lemon cut into quarters",
+      "quantity": 1,
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the brown basmati rice according to its package directions until tender, then drain if needed."
+    },
+    {
+      "step": 2,
+      "text": "Heat the rapeseed oil in a large frying pan. Add the crushed garlic and cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced chicken and hoisin sauce. Stir-fry until the chicken is cooked through and reaches 165°F in the thickest piece.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Stir in the defrosted edamame or peas and sweetcorn, and cook until hot and simmering.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Divide the rice among bowls and top with the chicken mixture, grated carrots, diced peppers, and sliced avocado."
+    },
+    {
+      "step": 6,
+      "text": "Serve with the lemon quarters, if using."
+    }
+  ],
+  "tags": [
+    "chicken",
+    "rice",
+    "vegetables",
+    "quick",
+    "easy",
+    "family-meal",
+    "one-pan",
+    "weeknight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "large frying pan",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-veg-bowl",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d7b63fddef362784901c6a015d5caeda06f8703bb4017970a5e5844cd4ad7c07",
+    "normalized_text_hash": "82e3665e629fe9b6fc9640d57d1ef16a22997642ec95f256a6c9171e1cbb370d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:54:09.967Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

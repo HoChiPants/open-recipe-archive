@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-and-sour-coleslaw",
+  "name": "Sweet-and-Sour Coleslaw",
+  "subtitle": "Creamy cabbage slaw with a tangy-sweet dressing",
+  "description": "Shredded cabbage rests in a simple cream, vinegar, sugar, and salt dressing for a crisp, balanced side dish.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cabbage",
+      "item": "cabbage",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the heavy whipping cream, white sugar, distilled white vinegar, and salt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Let the dressing stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Add the shredded cabbage and toss until evenly coated. Refrigerate for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "coleslaw",
+    "cabbage",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228414/brookville-hotel-sweet-and-sour-coleslaw/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "784407830980d436c1deab53517840af91ca5173972a2d668fd81d9d9cdb395e",
+    "normalized_text_hash": "e23ffaa429819e0f03fd49c6abba78599343dd8f5f0fd9a2884bc899a65488d1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:17:58.606Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

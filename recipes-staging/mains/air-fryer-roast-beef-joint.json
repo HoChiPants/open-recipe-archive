@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-roast-beef-joint",
+  "name": "Air Fryer Roast Beef Joint",
+  "subtitle": "Seasoned roast beef with a simple air-fryer method",
+  "description": "A compact roast beef joint seasoned with thyme, onion, and mustard, then cooked in an air fryer and rested before slicing.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-roasting-joint",
+      "item": "beef roasting joint",
+      "quantity": 1.2,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "neutral-flavoured-oil",
+      "item": "neutral-flavoured oil",
+      "quantity": "1-2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "onion-granules",
+      "item": "onion granules",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "mustard-powder",
+      "item": "mustard powder",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Let the beef roasting joint stand at room temperature for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer according to the appliance instructions."
+    },
+    {
+      "step": 3,
+      "text": "Rub the joint with the oil, dried thyme, onion granules, and mustard powder."
+    },
+    {
+      "step": 4,
+      "text": "Cook in the air fryer for 10 minutes, then continue cooking for 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Check the center with a food thermometer; for a whole beef joint, cook to 145°F, then rest for at least 3 minutes. Rest the joint for 30 minutes before slicing.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "beef",
+    "roast-beef",
+    "beef-joint",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-beef-joint",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b33c514430f049d555960a20793090d485e60541f2c41f82e1663ec54702b64c",
+    "normalized_text_hash": "4953ac6732b0004e898aaaed34a9a39666d9ab541478759be2283760aa5efe44",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:29:41.640Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

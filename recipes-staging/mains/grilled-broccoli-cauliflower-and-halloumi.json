@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-broccoli-cauliflower-and-halloumi",
+  "name": "Grilled Broccoli, Cauliflower and Halloumi",
+  "subtitle": "Smoky vegetables with bright tomato relish",
+  "description": "Tender grilled vegetables and browned halloumi are served with a fresh tomato, onion, lemon, and oregano relish, with couscous if desired.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomatoes-finely-chopped",
+      "item": "tomatoes finely chopped",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "red-onion-finely-chopped",
+      "item": "red onion finely chopped",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cauliflower-cut-into-florets",
+      "item": "cauliflower cut into florets",
+      "quantity": 1,
+      "preparation": "stalks cut into 5cm pieces"
+    },
+    {
+      "ingredient_id": "broccoli-cut-into-florets",
+      "item": "broccoli cut into florets",
+      "quantity": 1,
+      "preparation": "stalks cut into 5cm pieces"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "halloumi-cut-into-2-5cm-cubes",
+      "item": "halloumi cut into 2.5cm cubes",
+      "quantity": 450,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "couscous-to-serve-optional",
+      "item": "couscous to serve (optional)",
+      "preparation": "cooked",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the tomatoes, red onion, lemon juice, cider vinegar, and 1 tsp of the oregano. Set aside as a relish."
+    },
+    {
+      "step": 2,
+      "text": "Cook the cauliflower and broccoli in simmering water for 3 minutes, then drain well and pat dry.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Mix the olive oil, smoked paprika, and remaining oregano. Toss the vegetables with the mixture and let them stand briefly."
+    },
+    {
+      "step": 4,
+      "text": "Heat a barbecue or grill. Grill the vegetables until lightly charred and tender, turning as needed.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Grill the halloumi cubes for about 1 minute, turning, until browned.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Serve the vegetables and halloumi with the tomato relish and cooked couscous, if using."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "vegetarian",
+    "vegetables",
+    "halloumi"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "barbecue or grill",
+    "saucepan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/barbecued-broccoli-cauliflower-halloumi",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5726494175027d191ed02bc816f80ea28f54c7741fafa3838362014e6f07375c",
+    "normalized_text_hash": "bc9789812208a2e1411b0fa2d184f1b7edb849a28a68e7b4c0829fa295cfb662",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:12:26.236Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

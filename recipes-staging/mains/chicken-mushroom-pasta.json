@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-mushroom-pasta",
+  "name": "Chicken Mushroom Pasta",
+  "subtitle": "Creamy penne with chicken, mushrooms, and thyme",
+  "description": "Penne tossed with browned chicken, mushrooms, garlic, thyme, white wine, stock, and cream, finished with Parmesan and optional parsley.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "penne-pasta",
+      "item": "penne pasta",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chestnut-mushrooms-sliced",
+      "item": "chestnut mushrooms sliced",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 4,
+      "preparation": "skinless chicken thighs chopped"
+    },
+    {
+      "ingredient_id": "garlic-cloves-crushed-or-finely-grated",
+      "item": "garlic cloves crushed or finely grated",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "thyme-sprigs-leaves-picked",
+      "item": "thyme sprigs leaves picked",
+      "quantity": "2-3"
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 125,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 125,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 125,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "chunk-of-parmesan-to-serve",
+      "item": "chunk of parmesan to serve"
+    },
+    {
+      "ingredient_id": "handful-of-parsley-finely-chopped",
+      "item": "handful of parsley finely chopped",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the penne until tender, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a large pan. Add the chopped chicken and cook until browned and the thickest pieces reach 165°F on a food thermometer."
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced mushrooms and butter. Cook until the mushrooms soften and begin to brown.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Stir in the garlic and thyme, then pour in the white wine. Simmer until slightly reduced.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Add the chicken stock and simmer until the chicken is cooked through and the sauce has reduced.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Stir in the double cream and cooked penne. Heat gently until combined, then serve with Parmesan and optional parsley."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "chicken-pasta",
+    "mushroom-pasta",
+    "creamy-pasta",
+    "weeknight-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pan",
+    "pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-mushroom-pasta",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b515dd6e3ad0d9eeb21ecd75586c00455784f2319ccf3b25bc8a7590437cf881",
+    "normalized_text_hash": "55a6d6b32d0df9fd28d9c886a70f4f0190b019af240bef6ce2a0ecb71c7e29ed",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T20:42:43.382Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

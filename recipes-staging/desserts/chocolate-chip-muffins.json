@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-chip-muffins",
+  "name": "Chocolate Chip Muffins",
+  "subtitle": "Tender muffins with plenty of chocolate chips",
+  "description": "A straightforward batch of chocolate chip muffins made with yogurt, melted butter, and self-raising flour.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bicarbonate-of-soda",
+      "item": "bicarbonate of soda",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "eggs-lightly-beaten",
+      "item": "eggs lightly beaten",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "natural-yogurt",
+      "item": "natural yogurt",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "unsalted-butter-melted",
+      "item": "unsalted butter melted",
+      "quantity": 100,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and line a 12-cup muffin tin with paper cases."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the self-raising flour, bicarbonate of soda, chocolate chips, and golden caster sugar."
+    },
+    {
+      "step": 3,
+      "text": "Combine the lightly beaten eggs, natural yogurt, and melted unsalted butter in a separate bowl."
+    },
+    {
+      "step": 4,
+      "text": "Add the wet mixture to the dry ingredients and stir just until combined; do not overmix."
+    },
+    {
+      "step": 5,
+      "text": "Divide the batter among the muffin cases and bake for 25 minutes, until golden brown and the centers are fully set. If checked with a thermometer, the center should reach 160°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Transfer the muffins to a rack and let them cool before serving."
+    }
+  ],
+  "tags": [
+    "muffins",
+    "baking",
+    "chocolate-chip",
+    "dessert",
+    "afternoon-tea"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "12-cup muffin tin",
+    "paper muffin cases",
+    "mixing bowls",
+    "wire rack"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-chip-muffins",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8aff477701f3dbf00b8b7f7415f6d402cf271e829bb6b824e08d877d12dd534f",
+    "normalized_text_hash": "17651e3e90b7d0032393478e2f5f4bbc1f0bf66a6357e7919ae469f98fb6d5e2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:04:03.638Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

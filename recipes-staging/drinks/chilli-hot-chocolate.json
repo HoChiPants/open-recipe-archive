@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chilli-hot-chocolate",
+  "name": "Chilli Hot Chocolate",
+  "subtitle": "Rich hot chocolate with a warm chilli kick",
+  "description": "Milk, dark chocolate, malt drink powder, and cinnamon are gently heated with red chilli for a warming two-serving drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "red-chilli-halved-lengthways",
+      "item": "red chilli halved lengthways",
+      "quantity": 1,
+      "preparation": "seeds left in"
+    },
+    {
+      "ingredient_id": "malt-drink-powder",
+      "item": "malt drink powder",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "85-dark-chocolate-snapped-into-small-pieces",
+      "item": "85% dark chocolate snapped into small pieces",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-cinnamon-to-taste",
+      "item": "ground cinnamon to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the milk, halved chilli, malt drink powder, chocolate, sugar, and cinnamon in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Warm gently for about 5 minutes, stirring occasionally, until the chocolate melts and the drink is hot and smooth. Do not boil.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Remove the chilli, divide the hot chocolate between two cups, and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "hot-chocolate",
+    "chilli",
+    "warm-beverage"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon",
+    "serving cups"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chilli-spiked-hot-chocolate",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "394df87ec54635533f02f16db84ae06217be388e0ee89604e214e8302d2e6867",
+    "normalized_text_hash": "de50f4b96f611072dd165fbd483736e0b72889745163b0446aad7820afcdc24a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:59:47.641Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

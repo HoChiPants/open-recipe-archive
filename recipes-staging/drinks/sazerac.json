@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sazerac",
+  "name": "Sazerac",
+  "subtitle": "A stirred rye and cognac cocktail with bitters, absinthe, and lemon aroma.",
+  "description": "Prepare an absinthe-rinsed glass, stir the spirits with bitters and syrup over ice, then finish with lemon peel.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "of-absinthe-we-used-pernod",
+      "item": "of absinthe (we used Pernod)",
+      "quantity": 2,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "rye-whiskey-we-used-michter-s",
+      "item": "rye whiskey (we used Michter’s)",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cognac-we-used-re-my-martin-vsop",
+      "item": "cognac (we used Rémy Martin VSOP)",
+      "quantity": 30,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "of-peychaud-s-bitters",
+      "item": "of Peychaud’s bitters",
+      "quantity": 2,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "sugar-syrup",
+      "item": "sugar syrup",
+      "quantity": 5,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "strip-of-lemon-peel-to-garnish",
+      "item": "strip of lemon peel to garnish",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the absinthe to a chilled rocks glass and swirl to coat the inside."
+    },
+    {
+      "step": 2,
+      "text": "Stir the rye whiskey, cognac, bitters, and sugar syrup with ice until well chilled."
+    },
+    {
+      "step": 3,
+      "text": "Strain into the prepared glass. Express the lemon peel over the drink, rub it around the rim, and use it to garnish."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "rye-whiskey",
+    "cognac",
+    "stirred-cocktail"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "rocks glass",
+    "mixing glass",
+    "bar spoon",
+    "strainer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/claridges-sazerac",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b98658a216a771ed4e916898045c760c41819122a2cdab8e362becdc259f6512",
+    "normalized_text_hash": "2185ede5635d675c0097649674ecbbf385066968394f74b539696e07bc4dc249",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:29:21.349Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

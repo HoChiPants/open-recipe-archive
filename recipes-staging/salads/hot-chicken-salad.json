@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-chicken-salad",
+  "name": "Hot Chicken Salad",
+  "subtitle": "A warm baked chicken salad with creamy dressing and a crisp cereal topping.",
+  "description": "Combine cooked chicken with vegetables, almonds, cheese, and a tangy creamy dressing, then bake until hot and lightly crisp on top.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 7,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "diced",
+      "item": "diced",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cooked chicken meat"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "american-cheese",
+      "item": "American cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cornflakes-cereal",
+      "item": "cornflakes cereal",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the diced chicken, celery, almonds, mayonnaise, sour cream, shredded cheese, lemon juice, and onion in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Spread the mixture evenly, then cover the surface with the crushed cornflakes cereal."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, until hot throughout and the topping is lightly crisp.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "baked-salad",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8510/hot-chicken-salad-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0b442427fde8e8d84408d335ac47508b45a483c60f2b27e2941aec7e155612a8",
+    "normalized_text_hash": "b9c6d447afbe4ae52c4a09a1a865fbb312e3cd9c81100f40a91c4ba68708670d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:35:33.398Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

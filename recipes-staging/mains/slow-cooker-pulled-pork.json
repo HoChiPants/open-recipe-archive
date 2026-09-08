@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-pulled-pork",
+  "name": "Slow-Cooker Pulled Pork",
+  "subtitle": "Tender pork with a sweet, tangy barbecue-style sauce",
+  "description": "Marinate pork in a mustard-honey beer mixture, then slow-cook it with onion until tender enough to shred.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 600,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "or-bottle-beer",
+      "item": "or bottle beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "mustard",
+      "item": "mustard",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "crushed, or to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pork-picnic-roast",
+      "item": "pork picnic roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the beer, mustard, honey, Worcestershire sauce, garlic, cayenne, and salt together. Place the pork in a container, pour the mixture over it, cover, and chill for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Transfer the pork and marinade to a slow cooker. Cover and cook on low for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Add the water and chopped onion. Continue cooking until the pork is very tender and reaches at least 145°F internally, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Rest the pork for 3 minutes, then shred it. Return the shredded pork and onion to the cooking liquid and toss to coat."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "pulled-pork",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "covered container",
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235170/big-vs-slow-cooker-pulled-pork/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "413053f0cd0276396d60930ce207ae5b5b02241be820b1667663b382975ca56d",
+    "normalized_text_hash": "a2ca5020b6c2a2b23a35caa211b67cc36fe2e4fa227a5af89abd8e156275a4a9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:44:50.268Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

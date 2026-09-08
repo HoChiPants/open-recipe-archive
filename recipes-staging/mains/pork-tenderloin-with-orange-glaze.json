@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pork-tenderloin-with-orange-glaze",
+  "name": "Pork Tenderloin with Orange Glaze",
+  "subtitle": "Tender roasted pork with a bright, honeyed finish",
+  "description": "Marinate pork tenderloin in a citrus glaze, roast until safely cooked, and serve with a thickened glaze.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 25,
+    "inactive_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "frozen-orange-juice-concentrate",
+      "item": "frozen orange juice concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, thawed"
+    },
+    {
+      "ingredient_id": "orange-marmalade",
+      "item": "orange marmalade",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "1-pound-pork-tenderloin",
+      "item": "(1 pound) pork tenderloin",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, thawed orange juice concentrate, marmalade, honey, balsamic vinegar, and garlic until smooth. Reserve some glaze for serving."
+    },
+    {
+      "step": 2,
+      "text": "Coat the pork tenderloin with the remaining glaze and refrigerate for 70 minutes.",
+      "timer_minutes": 70
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 350°F. Place the coated tenderloin in a roasting pan."
+    },
+    {
+      "step": 4,
+      "text": "Roast for about 20 minutes, checking with a thermometer until the center reaches at least 145°F; rest the pork for 3 minutes before slicing.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Stir the cornstarch and water into the reserved glaze. Simmer for 3 minutes, stirring, until thickened, then serve with the sliced pork.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "whisk",
+    "small saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219984/pork-tenderloin-with-orange-marmalade-glaze/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "135f85742d10e6702bc45768f78660d8e5bfe232e91e692f5a88e70a25a8021d",
+    "normalized_text_hash": "24419d377aec3217d9c89ebaf3645d6ffc43900bc9e8cc18de1a027c0bed2c6b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:23:38.295Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

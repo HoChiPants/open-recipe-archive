@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cocoa-banana-peanut-butter-smoothie",
+  "name": "Cocoa Banana Peanut Butter Smoothie",
+  "subtitle": "A quick creamy smoothie with chocolate flavor",
+  "description": "Blend milk, fruit, peanut butter, cocoa, and honey into a smooth single-serving drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-banana",
+      "item": "frozen banana",
+      "quantity": 0.5,
+      "preparation": "chopped, or more to taste"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add all ingredients to a blender and process until completely smooth."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "smoothie"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244224/healthy-cocoa-banana-pb-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7ec8920b75210509d1adb91f2aeaa9f2ec52ec5033b6e1eaddbde5f2c1828d40",
+    "normalized_text_hash": "26f4b85cb50dc367dd0078949b7a5116ae24edb040f13dc9fea13d6d88fb89de",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:57:46.721Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

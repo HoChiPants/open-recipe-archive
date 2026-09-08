@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-pizza",
+  "name": "Chicken Pizza",
+  "subtitle": "A ranch-dressed pizza with chicken, vegetables, and melted cheese",
+  "description": "Par-bake the crust, add ranch dressing, chicken, vegetables, and cheeses, then bake until the topping is melted and golden.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "refrigerated-pizza-crust",
+      "item": "refrigerated pizza crust",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "ranch-style-salad-dressing",
+      "item": "Ranch-style salad dressing",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the refrigerated pizza crust, shape it on a baking sheet, and bake for 7 minutes, until golden brown.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Cook the chicken until the thickest part reaches 165°F on a food thermometer. Let it rest briefly, then cut it into bite-size pieces."
+    },
+    {
+      "step": 4,
+      "text": "Spread the Ranch-style salad dressing over the warm crust."
+    },
+    {
+      "step": 5,
+      "text": "Top with the chicken, mozzarella, Cheddar, tomatoes, and green onions."
+    },
+    {
+      "step": 6,
+      "text": "Return the pizza to the oven and bake for 25 minutes, until the cheeses are melted.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Cut into portions and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8990/gourmet-chicken-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3fbed8a78dd08df819bea8658f01e61bbf4da2e6c2f9ddcd2d8ddbc9275c918e",
+    "normalized_text_hash": "3bfd7a5561909ab6c46f1fe5d3e347348fb65e99fa9a50f16a5d1e77c54446d6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:48:27.452Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

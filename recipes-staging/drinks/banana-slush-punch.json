@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-slush-punch",
+  "name": "Banana Slush Punch",
+  "subtitle": "A fruity frozen punch with ginger ale",
+  "description": "Blend bananas with a sweet fruit-concentrate mixture, freeze until slushy, and finish with ginger ale for a large-batch drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 54,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-bananas",
+      "item": "ripe bananas",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "46 fluid ounce"
+    },
+    {
+      "ingredient_id": "frozen-orange-juice-concentrate",
+      "item": "frozen orange juice concentrate",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 3,
+      "unit": "liters"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the ripe bananas, white sugar, and 3 cups water in a blender; blend until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the pineapple juice and frozen orange juice concentrate, then blend with the frozen lemonade concentrate and remaining 3 cups water until combined."
+    },
+    {
+      "step": 3,
+      "text": "Freeze the mixture for 4 hours, or until firm enough to scoop.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 4,
+      "text": "Let the frozen mixture stand briefly until scoopable, then transfer it to a large punch bowl."
+    },
+    {
+      "step": 5,
+      "text": "Pour in the ginger ale and stir gently to combine before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "punch",
+    "frozen",
+    "fruit",
+    "large-batch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan"
+  ],
+  "equipment": [
+    "blender",
+    "freezer",
+    "large punch bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32389/banana-slush-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "34b4e888e8434342a33a92026c05b8fc07c6849e528d265b41d1f2d72377ad47",
+    "normalized_text_hash": "61bfdfacc5025eff8b4ac89783b6ef42d7f79248bf4d78d40d74cf867650b02b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:00:45.839Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

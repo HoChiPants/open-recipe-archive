@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "onion-casserole",
+  "name": "Onion Casserole",
+  "subtitle": "Tender sweet onions with a creamy Parmesan topping",
+  "description": "A savory baked side dish combining softened sweet onions, sour cream, Parmesan, and buttery crackers.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-onions",
+      "item": "sweet onions",
+      "quantity": 5,
+      "unit": "large",
+      "preparation": "cut into 1/4 inch slices and separated into rings"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "buttery-crackers",
+      "item": "buttery crackers",
+      "quantity": 10
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Melt the margarine in a skillet over medium heat. Add the onion rings and cook, stirring occasionally, until tender."
+    },
+    {
+      "step": 3,
+      "text": "Combine the sour cream and grated Parmesan cheese."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the tender onions to a casserole dish and spread the sour cream mixture over them. Add the buttery crackers on top."
+    },
+    {
+      "step": 5,
+      "text": "Bake until hot and lightly browned, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "onion",
+    "casserole",
+    "savory",
+    "baked-side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "casserole dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/57360/onion-casserole-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "611c405d7128d9e820c484369a1d329c334ce6c6965b28dd3d4971262a02429f",
+    "normalized_text_hash": "a228190dd9c1283370e1f3a04c95873b90715802bef7eac7ed4195e5a7da3683",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:32:38.382Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

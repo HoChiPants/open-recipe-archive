@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-bacon-and-ham-quiche",
+  "name": "Spinach, Bacon, and Ham Quiche",
+  "subtitle": "A savory two-crust quiche with greens, mushrooms, ham, and three cheeses.",
+  "description": "Two unbaked crusts are filled with sautéed vegetables, bacon, ham, cheese, and a seasoned egg custard, then baked until golden and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thick-sliced-bacon",
+      "item": "thick sliced bacon",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "finely-diced-smoked-ham",
+      "item": "finely diced smoked ham",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-pie-crusts",
+      "item": "(9 inch) unbaked pie crusts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "grated"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Cook the bacon until crisp, then drain and crumble or chop it."
+    },
+    {
+      "step": 2,
+      "text": "Cook the thawed spinach, drain it well, and let it cool."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in a skillet. Add the onion and mushrooms; cook for 2 minutes, then stir in the ham and bacon.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Combine the cooled spinach with the sour cream and half-and-half. Season with salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the spinach mixture in the two pie crusts. Combine the Monterey Jack, Cheddar, and Parmesan, and sprinkle the cheese mixture over the fillings."
+    },
+    {
+      "step": 6,
+      "text": "Whisk the eggs with the remaining half-and-half and dried parsley; season with salt and pepper. Pour the custard evenly into the crusts."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 40 minutes, until golden brown and the centers are firm and reach 160°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 8,
+      "text": "Let the quiches rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "savory",
+    "quiche"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/50523/clarks-quiche/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b50b07e8c81c733e676e0bb1ea6f46f9f0de0ac0034f2d0e2d7f093c1af8dead",
+    "normalized_text_hash": "9dab1b486fa6d8ab3f211d4d6126d4f5a77aef349da9fe503a9dbc879b89f594",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:49:59.410Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

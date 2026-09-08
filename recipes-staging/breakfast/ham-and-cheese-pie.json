@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-cheese-pie",
+  "name": "Ham and Cheese Pie",
+  "subtitle": "A savory crescent-crust pie with a cheesy ham filling",
+  "description": "A simple baked pie combining cubed ham, cheddar, Parmesan, and beaten eggs in a golden crescent-roll crust.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-crescent-rolls",
+      "item": "refrigerated crescent rolls",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "fully-cooked-ham",
+      "item": "fully cooked ham",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Shape the crescent rolls into a crust in a pie dish, reserving enough dough for the top. Cut the reserved dough into strips."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the beaten eggs, Cheddar cheese, and Parmesan cheese, then fold in the cubed ham."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the filling to the crust and arrange the dough strips over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 50 to 60 minutes, until golden brown and the center is fully set. Confirm the center reaches 160°F with a food thermometer before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "savory-pie",
+    "ham",
+    "cheese",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "pie dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229823/ham-and-cheese-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "eefc0fca87070502c3fa74fa1943e448e0f409782db01a0480da82f786123a69",
+    "normalized_text_hash": "2e644cdb6aa0364f09cfa6d0a4179988148f957378e4a972923f50178bcee3a1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:19:09.610Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

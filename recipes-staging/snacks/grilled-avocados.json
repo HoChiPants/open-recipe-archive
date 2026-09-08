@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-avocados",
+  "name": "Grilled Avocados",
+  "subtitle": "Warm avocado halves with smoky chile seasoning",
+  "description": "Seasoned avocado halves quickly grilled for a simple savory snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "ground-chipotle-pepper",
+      "item": "ground chipotle pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "avocados",
+      "item": "avocados",
+      "quantity": 4,
+      "preparation": "halved and pitted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the olive oil, chipotle pepper, and chili powder together."
+    },
+    {
+      "step": 3,
+      "text": "Cut the avocado halves as needed for even grilling, then coat them with the seasoned oil."
+    },
+    {
+      "step": 4,
+      "text": "Grill the avocados for 5 minutes, until warmed and lightly marked.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "american",
+    "grilled",
+    "avocado"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "grill",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238173/grilled-avocados/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7e8ff0a50c51f81b745959676490d43e46d28771cf85f01f57691bdb959bfed7",
+    "normalized_text_hash": "9597d8d42e6cbdcb61f7c47705a0efefbd3703b5af8df6e92df25fc60eb11aa8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:03:06.276Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

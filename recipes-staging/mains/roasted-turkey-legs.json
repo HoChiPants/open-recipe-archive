@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-turkey-legs",
+  "name": "Roasted Turkey Legs",
+  "subtitle": "Tender oven-roasted turkey with celery and butter",
+  "description": "Turkey legs roast over celery with butter, salt, and water for a simple savory main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "stalks-celery-stalks",
+      "item": "stalks celery stalks",
+      "quantity": 3,
+      "preparation": "cut in thirds"
+    },
+    {
+      "ingredient_id": "turkey-legs",
+      "item": "turkey legs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the celery in a roasting pan and place the turkey legs on top. Rub the legs with the butter and season with salt."
+    },
+    {
+      "step": 3,
+      "text": "Pour the water into the pan, keeping it around the turkey rather than over the skin."
+    },
+    {
+      "step": 4,
+      "text": "Roast for 90 minutes, adding water as needed and basting with melted butter from the pan if needed, until golden brown and the thickest part of each leg reaches 165°F on a food thermometer.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 5,
+      "text": "Rest briefly, then serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "turkey",
+    "roasted",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84456/roasted-turkey-legs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "50ae5abc2af131f5c5886db73e18e063a94dd074f08892f4cf7bea4a96b5597a",
+    "normalized_text_hash": "ef93dc520f1255b4bcde7af3d389ef63f753e8a9ed6075a16adbd7a388cc82d3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:21:44.737Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

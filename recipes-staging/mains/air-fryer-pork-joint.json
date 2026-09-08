@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-pork-joint",
+  "name": "Air Fryer Pork Joint",
+  "subtitle": "Crisp-edged pork with optional apple sauce",
+  "description": "Cook a boneless pork leg or shoulder in the air fryer until browned and safely tender, then rest before slicing.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boneless-pork-leg-or-shoulder",
+      "item": "boneless pork leg or shoulder",
+      "quantity": "1-1.5",
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "vegetable-or-sunflower-oil",
+      "item": "vegetable or sunflower oil",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "apple-sauce-to-serve-optional",
+      "item": "apple sauce to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Let the pork stand at room temperature for 30 minutes. Pat it dry and rub it evenly with the oil.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 3,
+      "text": "Place the pork in the air-fryer basket and cook for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking for 50 minutes, then cook for a further 20 minutes if needed, until the thickest part reaches 145°F on a food thermometer.",
+      "timer_minutes": 70
+    },
+    {
+      "step": 5,
+      "text": "Transfer the pork to a board and rest for at least 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Slice and serve with apple sauce, if using."
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "pork",
+    "main-dish",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer",
+    "cutting board",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-pork-joint",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4f9190ffd73a27c776ead9a3a2845a5cf0b108a8e359a043908f02ebc4619a48",
+    "normalized_text_hash": "88cd65deb0325eac5d7a44af83da60a202efba4dad98601adf88f3732aabf80a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:29:22.336Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

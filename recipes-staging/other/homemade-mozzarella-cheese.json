@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homemade-mozzarella-cheese",
+  "name": "Homemade Mozzarella Cheese",
+  "subtitle": "Fresh curd cheese made with milk and citric acid",
+  "description": "A practical method for turning milk into soft, stretchy mozzarella by forming, heating, draining, and kneading the curd.",
+  "meal_type": "other",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cool-water",
+      "item": "cool water",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "liquid-rennet",
+      "item": "liquid rennet",
+      "quantity": "1/4",
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "citric-acid",
+      "item": "citric acid",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "raw-milk",
+      "item": "raw milk",
+      "quantity": 1,
+      "unit": "gallon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Divide the cool water between two small containers. Stir the liquid rennet into one portion and the citric acid into the other."
+    },
+    {
+      "step": 2,
+      "text": "Pour the citric-acid mixture into the raw milk and stir to combine. Warm the milk to 90°F, then hold it there for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Remove the milk from the heat, add the diluted rennet, and stir gently. Cover and let stand for 10 minutes, until a soft curd forms.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Cut the curd into cubes, then stir gently. Warm the curds and whey to 109°F and hold for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Let the curd settle until set, then lift it from the whey and transfer it to a heatproof bowl."
+    },
+    {
+      "step": 6,
+      "text": "Heat the whey to 185°F and pour it over the curd. Let the curd warm, then drain it.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 7,
+      "text": "Fold and stretch the warm curd until smooth, kneading in the salt. Cool it briefly in the remaining cool water, transfer it out, and shape as desired."
+    }
+  ],
+  "tags": [
+    "cheese",
+    "fresh-cheese",
+    "italian",
+    "dairy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "small containers",
+    "thermometer",
+    "knife",
+    "slotted spoon",
+    "heatproof bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254478/homemade-mozzarella-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce0619ee5c7a5781bdbd3c8896857abddd1bc7f7402b34ec01e6f100bedd2d56",
+    "normalized_text_hash": "fd1e6f8d71f5affeb232f0a122f1862f98bda7a22951ba8561613b3c96d20ec7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:40:48.141Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

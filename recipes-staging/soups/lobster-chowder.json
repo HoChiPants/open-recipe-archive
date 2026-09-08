@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lobster-chowder",
+  "name": "Lobster Chowder",
+  "subtitle": "A creamy soup with tender potatoes and lobster",
+  "description": "A rich American-style chowder combining potatoes, onion, milk, cream, and bite-sized cooked lobster.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "cut into 1/2-inch cubes"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "cut into 1/2-inch pieces"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "lobster-meat",
+      "item": "lobster meat",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "cooked, cut into bite-sized pieces"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes and onion in a pot, season with salt and pepper, and cover with water. Bring to a boil and cook until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the vegetables. Return them to the pot with the divided butter and bring the mixture to a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Add the cooked lobster and warm for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the heavy cream, milk, and sugar. Heat gently until steaming, without boiling."
+    },
+    {
+      "step": 5,
+      "text": "Adjust the salt and pepper, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "chowder",
+    "seafood",
+    "lobster",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "large pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/172924/grandpa-seamones-lobster-chowder/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa20fac0064b227fd24682a6f4e4342d08b868baa1dadeffde919e8d65eb374b",
+    "normalized_text_hash": "5828ef2e244b3b178696f527535ab6782e33cddb3ca216696e1073a4b5bb5e99",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:55:30.619Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

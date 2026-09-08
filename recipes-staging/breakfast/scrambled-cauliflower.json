@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scrambled-cauliflower",
+  "name": "Scrambled Cauliflower",
+  "subtitle": "A cheesy cauliflower-and-egg skillet breakfast",
+  "description": "Tender cauliflower is blended with cheese, eggs, and seasonings, then cooked in butter until softly scrambled and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-cauliflower",
+      "item": "head cauliflower",
+      "quantity": 1,
+      "preparation": "cut into florets"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the cauliflower florets in water until tender, about 10 minutes. Drain well and process or mash until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cauliflower with the Cheddar, Parmesan, beaten eggs, cayenne, and salt."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a skillet over medium heat, then add the cauliflower mixture.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Cook, stirring frequently, until the mixture is scrambled and the center is fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "low-carb",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "food processor or potato masher",
+    "mixing bowl",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240254/scrambled-cauliflower-low-carb/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6ca9974bd7e6287436040ac230a3619a4568c042e2bd50455914f634d947c7b5",
+    "normalized_text_hash": "693896426123e00454b8fe195d7f949be1b2f02b3ff91996f4d8f640b6225ff3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:59:48.116Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

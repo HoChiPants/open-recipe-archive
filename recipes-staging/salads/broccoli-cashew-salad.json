@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-cashew-salad",
+  "name": "Broccoli Cashew Salad",
+  "subtitle": "A crisp broccoli salad with bacon, raisins, and cashews",
+  "description": "Fresh broccoli, savory bacon, sweet raisins, and crunchy cashews are tossed in a tangy mayonnaise dressing and chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cider-vinegar",
+      "item": "cider vinegar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-broccoli",
+      "item": "fresh broccoli",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "broken into florets"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "roasted-cashews",
+      "item": "roasted cashews",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.25,
+      "preparation": "finely chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon until crisp, about 10 minutes. Drain, cool, and crumble it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk the mayonnaise, cider vinegar, and white sugar in a large bowl until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the bacon, broccoli florets, raisins, roasted cashews, and red onion. Stir until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "broccoli",
+    "salad",
+    "make-ahead",
+    "bacon",
+    "cashews",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "skillet",
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/180870/broccoli-cashew-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dfa0312c39a4e7368ec96c0aba80eb3f610b84848f232561ad8b268f33352f56",
+    "normalized_text_hash": "77b9eb9a9960e249cf8d806228068a628475f565282852d1357d9834268b6e92",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:13:49.748Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

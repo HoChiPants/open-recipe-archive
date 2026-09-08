@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-shredded-beef",
+  "name": "Slow Cooker Shredded Beef",
+  "subtitle": "Tender seasoned beef for tacos and burritos",
+  "description": "Boneless beef chuck cooks slowly with taco seasoning and sliced onion until tender enough to shred.",
+  "meal_type": "other",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "4-pound-boneless-beef-chuck-roast",
+      "item": "(4 pound) boneless beef chuck roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "taco-seasoning",
+      "item": "taco seasoning",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "halved and sliced"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beef chuck roast in a slow cooker and sprinkle it with the taco seasoning."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the sliced onion over the beef, cover, and cook on low for 8 hours, until the beef is tender and reaches at least 145°F internally; let it rest for 3 minutes.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Shred the beef in the slow cooker and season with the seasoned salt to taste."
+    }
+  ],
+  "tags": [
+    "slow-cooker",
+    "shredded-beef",
+    "tacos",
+    "burritos"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer",
+    "forks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223003/slow-cooker-shredded-beef-for-tacos-and-burritos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0895650ac6f14cd2dd776b858060a36567cd9fd0962ca03d00b292fbd45586d1",
+    "normalized_text_hash": "c59ec3e5e103946e5eb262ceb5f31ee0ccf4bfa63e69787e71b738ef492a2971",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:50:24.199Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

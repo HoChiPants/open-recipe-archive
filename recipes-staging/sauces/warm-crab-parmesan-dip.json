@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "warm-crab-parmesan-dip",
+  "name": "Warm Crab Parmesan Dip",
+  "subtitle": "A creamy baked seafood dip with garlic and Parmesan",
+  "description": "Combine crab, dairy, mayonnaise, and garlic, then bake until hot and lightly browned for a rich dip.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 40,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "crabmeat",
+      "item": "crabmeat",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4.5 ounce, drained"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "peeled and crushed (or to taste)"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "In a bowl, combine the drained crabmeat, softened cream cheese, Parmesan, mayonnaise, sour cream, and crushed garlic until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish and bake for 45 minutes, until lightly browned and hot throughout.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "shellfish"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25517/warm-crab-parmesan-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0387081986e43bbd696215bffd7ad57f2e78b4487e5373f2f91797dd925e3cd8",
+    "normalized_text_hash": "75bbffa51c5615f09df448fdcd7a3a1aa8ec33291bb30753a7fef8672cb9b3e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:56:03.132Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

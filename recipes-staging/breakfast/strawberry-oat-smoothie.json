@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-oat-smoothie",
+  "name": "Strawberry Oat Smoothie",
+  "subtitle": "A cool, creamy breakfast blend with berries and oats",
+  "description": "Blend frozen strawberries, yogurt, banana, oats, chia seeds, almond milk, and vanilla into a smooth, filling drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 14
+    },
+    {
+      "ingredient_id": "nonfat-vanilla-greek-yogurt",
+      "item": "nonfat vanilla Greek yogurt",
+      "quantity": 6,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "broken into chunks"
+    },
+    {
+      "ingredient_id": "almond-milk",
+      "item": "almond milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the rolled oats and chia seeds to a blender and pulse briefly to break them down."
+    },
+    {
+      "step": 2,
+      "text": "Add the frozen strawberries, yogurt, banana chunks, almond milk, and vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Blend until completely smooth, then divide between two glasses."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238680/quick-strawberry-oatmeal-breakfast-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e2dc9d5597ad7b89a936d9bcddcacc5c393f49a5031d17420c100dce8c751c26",
+    "normalized_text_hash": "447100e44bcd9ea7ad16c99536617e97c7d328e1dc6fc20e6d598a86d012721e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:49:16.903Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

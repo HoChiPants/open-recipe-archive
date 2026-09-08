@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-lentils",
+  "name": "Chicken and Lentils",
+  "subtitle": "Tender chicken braised with lentils, tomato, and herbs",
+  "description": "Bone-in chicken cooks with lentils, vegetables, tomato sauce, and herbs for a hearty one-pan meal finished with lemon juice.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "bone-in-chicken-pieces",
+      "item": "bone-in chicken pieces",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "dried-lentils",
+      "item": "dried lentils",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "dried-rosemary",
+      "item": "dried rosemary",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in an ovenproof skillet. Add the chicken pieces and chicken broth, then cook for 5 minutes. Transfer the chicken and broth to a bowl.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Return the skillet to the heat. Add the onion and cook until tender, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the carrot, garlic, lentils, and reserved broth. Season with the salt."
+    },
+    {
+      "step": 5,
+      "text": "Nestle the chicken into the lentil mixture and bake for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Stir in the tomato sauce, dried rosemary, and dried basil. Continue baking until the lentils are tender, about 10 minutes, and the chicken reaches 165°F at the thickest part.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Stir in the lemon juice and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-pan",
+    "chicken",
+    "lentils",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "ovenproof skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/80651/chicken-and-lentils/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c62d7f73be9ec030d8234d867fde8131418f899a07fd4ed102433005b7c6152",
+    "normalized_text_hash": "eab598b9afb0c349683a6ba8abfc10dabc7d5ba00b00a165e568d6413316a35d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:56:33.614Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "layered-coffee-liqueur-shot",
+  "name": "Layered Coffee Liqueur Shot",
+  "subtitle": "A chilled two-liqueur shot with a creamy finish",
+  "description": "Chill the liqueurs, then combine them in a single shot glass for a quick after-dinner drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coffee-liqueur",
+      "item": "coffee liqueur",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "baileys",
+      "item": "Baileys",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Chill the coffee liqueur and Baileys for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Pour the coffee liqueur into a shot glass, then add the Baileys."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "party-drink",
+    "shot",
+    "coffee-liqueur"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "shot glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baby-guinness",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "70b52b0259b95271ef21232ae67aa487858926ce9fea823eb1407411425f9087",
+    "normalized_text_hash": "716b38f8bac3e28e5632f52a850b3f6b4b1e58c3b1f76982154810b31c797b0c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:46:42.831Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

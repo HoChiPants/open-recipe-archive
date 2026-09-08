@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-almond-bark",
+  "name": "Chocolate Almond Bark",
+  "subtitle": "Crisp toasted almonds set in smooth chocolate",
+  "description": "A simple chocolate confection made with toasted chopped almonds and a lightly firmed chocolate coating.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips",
+      "item": "milk chocolate chips",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a baking sheet or shallow pan with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Toast the chopped almonds in a dry skillet over medium heat until golden brown, stirring frequently. Transfer them to a plate."
+    },
+    {
+      "step": 3,
+      "text": "Melt the milk chocolate chips and shortening together, stirring until smooth and combined."
+    },
+    {
+      "step": 4,
+      "text": "Spread the melted chocolate evenly on the prepared sheet and scatter the toasted almonds over the surface, pressing them in lightly."
+    },
+    {
+      "step": 5,
+      "text": "Chill until the bark is set, then break or cut it into pieces and serve.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "chocolate",
+    "almonds",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "baking sheet or shallow pan",
+    "parchment paper",
+    "skillet",
+    "heatproof bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15779/chocolate-almond-bark/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "198db6626ccbab8ced2df9c1276e2c6ac1501945a89a64ef9b11dc5921273c40",
+    "normalized_text_hash": "f9e301bd7c54d0252888d13843e14bc12b0bf1d6b974944214b28f6ebf2d628d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:28:11.831Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

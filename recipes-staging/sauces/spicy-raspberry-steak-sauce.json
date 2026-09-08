@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-raspberry-steak-sauce",
+  "name": "Spicy Raspberry Steak Sauce",
+  "subtitle": "A tangy, sweet sauce with a hot-pepper finish",
+  "description": "Simmer this balanced fruit-and-vinegar sauce until glossy and thickened, then serve with steak.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "raspberry-jam",
+      "item": "raspberry jam",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "malt-vinegar",
+      "item": "malt vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 5,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine all ingredients in a saucepan and stir until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Cook over medium heat, stirring occasionally, until the sauce is thickened, about 15 minutes.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "sauce",
+    "steak-accompaniment",
+    "sweet-and-spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "soy"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25441/devils-steak-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ae32b48bf6b36168bc46b96d1a8bb428acda6dd023f1de810d86f199122549f4",
+    "normalized_text_hash": "7faa58f49165f5f4a4cff3f989556cf6711fec09c31c29519be7f7d8791da894",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:05:51.123Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

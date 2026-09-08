@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cajun-chicken",
+  "name": "Cajun Chicken",
+  "subtitle": "Seasoned grilled chicken breasts",
+  "description": "Chicken breasts are coated in a seasoned oil mixture, rested, then grilled until safely cooked and lightly charred.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cajun-seasoning",
+      "item": "Cajun seasoning",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-italian-seasoning",
+      "item": "dried Italian seasoning",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "lemon-pepper-seasoning",
+      "item": "lemon-pepper seasoning",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 10,
+      "preparation": "boneless chicken breast halves - pounded to 1/2 inch thickness"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the Cajun seasoning, Italian seasoning, lemon-pepper seasoning, garlic powder, and vegetable oil in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken and turn to coat evenly. Cover and refrigerate for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to medium-high heat and lightly oil the grates if needed."
+    },
+    {
+      "step": 4,
+      "text": "Grill the chicken for about 8 minutes, turning as needed, until browned and the thickest pieces reach 165°F on a food thermometer.",
+      "timer_minutes": 8
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "chicken",
+    "cajun-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "bowl",
+    "whisk",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14545/cajun-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "94f66f406eb74cf7a45ff3f871d7766522f46abee6cd7b70be15e1520faf2f7d",
+    "normalized_text_hash": "022479634154427fd2f85b9d86f7dd036b8457a05762496037a1649d2bf8ba8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:41:29.688Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

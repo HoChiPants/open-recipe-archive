@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-broiled-grapefruit",
+  "name": "Simple Broiled Grapefruit",
+  "subtitle": "Warm grapefruit with a caramelized brown-sugar topping",
+  "description": "Grapefruit halves are broiled with brown sugar until the topping melts and lightly caramelizes.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "grapefruit",
+      "item": "grapefruit",
+      "quantity": 2,
+      "preparation": "cut in half"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 6,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the broiler. Arrange the grapefruit halves cut-side up on a broiler-safe baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Sprinkle the brown sugar evenly over the cut surfaces."
+    },
+    {
+      "step": 3,
+      "text": "Broil until the sugar is melted and lightly caramelized, watching closely.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Let cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "broiled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "broiler",
+    "broiler-safe baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215980/simple-broiled-grapefruit/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bddcb258960d96828e1703061a7a3cc27b9c3f5ebb65acbd6becbbde3708ccb8",
+    "normalized_text_hash": "7988b48eedfc0399d408aedb7eaf8554b95aa2bea2439f8af18a2da4f0efc640",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:23:57.451Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

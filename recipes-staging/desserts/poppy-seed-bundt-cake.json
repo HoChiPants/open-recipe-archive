@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "poppy-seed-bundt-cake",
+  "name": "Poppy Seed Bundt Cake",
+  "subtitle": "A tender vanilla cake with almond flavor and poppy seeds",
+  "description": "A simple Bundt cake made with vanilla pudding mix, poppy seeds, and almond extract.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "poppy-seeds",
+      "item": "poppy seeds",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare a Bundt pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Combine the cake mix, pudding mix, and poppy seeds in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the water, vegetable oil, eggs, and almond extract. Whisk until the batter is smooth, then continue whisking for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared Bundt pan and bake at 350°F for 50 minutes, until set and a tester comes out clean.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 5,
+      "text": "Cool the cake in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "bundt-cake",
+    "poppy-seed",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "Bundt pan",
+    "large mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26056/poppy-seed-bundt-cake-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1c9f30052d2f2ce1ba0ecb190aebe91b7fdd138cc5457531c0402678431c3519",
+    "normalized_text_hash": "bcde0770b0265ce139357af5eeb56b19de33c6798e1b3c439c60da46724b8e0f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:41:41.144Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-of-onion-and-potato-soup",
+  "name": "Cream of Onion and Potato Soup",
+  "subtitle": "A smooth, comforting soup for a crowd",
+  "description": "Tender potatoes and onions are blended into a silky milk-based soup finished with parsley and simple seasoning.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 12,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 12,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 9,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the potatoes and onions together until tender, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Drain well, then blend the vegetables until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter and whisk in the flour to form a smooth paste. Gradually whisk in the milk."
+    },
+    {
+      "step": 4,
+      "text": "Bring the milk mixture to a gentle simmer and cook for 10 minutes, stirring occasionally.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Stir in the vegetable purée, parsley, and salt and pepper to taste. Serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "vegetarian",
+    "potato",
+    "onion"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "blender",
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16397/cream-of-onion-and-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d044c94ab6302a12e1c1becf7755945d5f29862aadf30658934bf03a8762a641",
+    "normalized_text_hash": "163b6d1a0984a59512e66727363629336c8fcc4761622322a3d03fefc8ea9272",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:28:51.038Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

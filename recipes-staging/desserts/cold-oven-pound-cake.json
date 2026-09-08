@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cold-oven-pound-cake",
+  "name": "Cold Oven Pound Cake",
+  "subtitle": "A simple, tender cake baked from a cold start",
+  "description": "Creamed margarine and shortening give this classic pound cake a rich crumb, while a cold-oven start helps it bake evenly.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 90,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the all-purpose flour for mixing. Whisk the white sugar, margarine, and shortening until blended and creamy."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the eggs, one addition at a time, then stir in the vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Add the flour and milk, alternating between them, and stir just until the batter is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared baking pan. Place it in a cold oven, set the oven to 300°F, and bake for 120 minutes, until set.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Let the cake cool for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "pound-cake",
+    "cold-oven-baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26015/cold-oven-pound-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ad16b53e8c1ed605e151fd591a5495e71f449d90fc67e5a8640961ea2c309889",
+    "normalized_text_hash": "2d3bf40b5910ff34d3d1922a9966cb696e5ca19f89f733ce9628c8ca081a3d99",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:04:11.626Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

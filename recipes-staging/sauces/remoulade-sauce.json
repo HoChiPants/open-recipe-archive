@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "remoulade-sauce",
+  "name": "Remoulade Sauce",
+  "subtitle": "Tangy, herby sauce with a gentle kick",
+  "description": "A bright, savory condiment combining creamy mayonnaise with chopped cornichons, dill, capers, lemon, mustard, garlic, and cayenne.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornichons",
+      "item": "cornichons",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "bunch-fresh-dill",
+      "item": "bunch fresh dill",
+      "quantity": 0.5,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "capers",
+      "item": "capers",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "drained and coarsely chopped"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "clove-garlic",
+      "item": "clove garlic",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir all ingredients together in a bowl until evenly combined. Taste and adjust the mustard or cayenne if desired."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "condiment",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238262/chef-johns-remoulade-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7bc8eb1426e131619f4bdde913c6bd584d04b90c852af3730b20044f81cad8a1",
+    "normalized_text_hash": "06d3664a154e188e7b4865e4702311968f97181cb585f5638ec45590bc8c4270",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:40:43.663Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

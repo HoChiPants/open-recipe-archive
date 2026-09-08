@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "marinated-peppers",
+  "name": "Marinated Peppers",
+  "subtitle": "Roasted peppers with herbs, garlic, and balsamic",
+  "description": "Colorful bell peppers are roasted, sliced, and dressed with garlic, herbs, balsamic vinegar, and olive oil.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "yellow-bell-pepper",
+      "item": "yellow bell pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1.5,
+      "unit": "cloves",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the whole bell peppers on a baking sheet and season with salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Roast the peppers for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer the roasted peppers to a work surface, then remove the stems and seeds and slice the peppers."
+    },
+    {
+      "step": 5,
+      "text": "Stir the sliced peppers with the garlic, balsamic vinegar, olive oil, basil, parsley, and additional salt and pepper to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian-inspired",
+    "roasted-vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "knife",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/89447/marinated-peppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce331338787083affefdfb5bea62e49bf8e006c2c0a4fe8690333ea975836196",
+    "normalized_text_hash": "7aa3488f2a8a61997dc3e82927c351ac88add4360d8cfc15726d30b6314e4bb7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:23:36.783Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

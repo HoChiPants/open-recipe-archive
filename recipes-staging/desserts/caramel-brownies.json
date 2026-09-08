@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-brownies",
+  "name": "Caramel Brownies",
+  "subtitle": "Chewy brownies with a smooth caramel layer",
+  "description": "A simple American dessert combining chocolate brownie layers, semisweet chips, and melted caramel.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "individually-wrapped-caramels",
+      "item": "individually wrapped caramels",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14 ounce, unwrapped"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 0.33333331346512,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chocolate-cake-mix",
+      "item": "chocolate cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F and prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Melt the caramels with the evaporated milk over low heat, stirring until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine the chocolate cake mix, melted butter, and evaporated milk to form a thick batter."
+    },
+    {
+      "step": 4,
+      "text": "Spread part of the batter in the prepared pan and bake briefly to set the base.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Add the chocolate chips and caramel mixture, then cover with the remaining batter."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the brownies are set.",
+      "timer_minutes": 18
+    },
+    {
+      "step": 7,
+      "text": "Cool completely before cutting."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "brownies",
+    "caramel",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "baking pan",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19852/caramel-brownies-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d988b4d61871fc9492c2c5d034499e310dffa04e35bef2d5084c8f77002b33fc",
+    "normalized_text_hash": "4f630bf9c32550de2f6eeca7f6d23ba37e9a110a66e51a2822a541289670303d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:52:40.370Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

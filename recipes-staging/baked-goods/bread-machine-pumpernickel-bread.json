@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-machine-pumpernickel-bread",
+  "name": "Bread Machine Pumpernickel Bread",
+  "subtitle": "A dark, hearty loaf with rye, cocoa, molasses, and caraway.",
+  "description": "Combine the ingredients in a bread machine and bake until the loaf is risen, browned, and fully cooked.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 225
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1.125,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "molasses",
+      "item": "molasses",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cocoa",
+      "item": "cocoa",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "caraway-seed",
+      "item": "caraway seed",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "rye-flour",
+      "item": "rye flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "whole-wheat-flour",
+      "item": "whole wheat flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vital-wheat-gluten",
+      "item": "vital wheat gluten",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bread-machine-yeast",
+      "item": "bread machine yeast",
+      "quantity": 2.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the warm water, oil, molasses, cocoa, caraway seed, and salt to the bread-machine pan."
+    },
+    {
+      "step": 2,
+      "text": "Add the bread flour, rye flour, whole wheat flour, and vital wheat gluten. Place the yeast on top of the dry ingredients."
+    },
+    {
+      "step": 3,
+      "text": "Select a standard bread cycle and start the machine. Bake until the loaf is risen and firm, about 225 minutes.",
+      "timer_minutes": 225
+    },
+    {
+      "step": 4,
+      "text": "Remove the loaf from the pan and cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "bread-machine",
+    "rye",
+    "pumpernickel"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/80663/bread-machine-pumpernickel-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "56e1c5f49d205552b639f12b3330066bc894bcf47c2405623d02042726aa7dae",
+    "normalized_text_hash": "db7ab89488465b36651106fa6e803d9770d1ca37b85d7501300b03c5023371e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:10:50.515Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

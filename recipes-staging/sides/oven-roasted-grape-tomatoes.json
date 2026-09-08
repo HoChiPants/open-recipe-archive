@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-roasted-grape-tomatoes",
+  "name": "Oven-Roasted Grape Tomatoes",
+  "subtitle": "Tender tomatoes with garlic and fresh herbs",
+  "description": "Roast halved grape tomatoes with olive oil, garlic, basil, thyme, and salt for a tender, savory side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "grape-tomatoes",
+      "item": "grape tomatoes",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-basil-leaves",
+      "item": "fresh basil leaves",
+      "quantity": 5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-thyme",
+      "item": "fresh thyme",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the halved grape tomatoes in a baking dish. Add the olive oil, garlic, basil, thyme, and salt, then toss to coat evenly."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the tomatoes are tender, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Let cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/247128/oven-roasted-grape-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "85aa4cb9470224171e76a0bfe9a9fa877b9866900e4072acc0592286648217fe",
+    "normalized_text_hash": "63e83a28ab02f839dd980fd63f2ce8b655d542fab42ed1cf1b6cf73a760a86d7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:42:17.307Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-acorn-squash",
+  "name": "Baked Acorn Squash",
+  "subtitle": "Tender squash with a simple brown sugar butter topping",
+  "description": "A warm, lightly sweet side dish of baked acorn squash.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "acorn-squash",
+      "item": "acorn squash",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "halved and seeded"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the squash halves cut-side down in a baking dish and bake until beginning to soften.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 3,
+      "text": "Turn the squash cut-side up. Divide the brown sugar and butter between the centers."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the squash is very tender and the topping is melted.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "squash",
+    "baked",
+    "fall"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16796/acorn-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b8d61e2c34ebb81002109ae59e38768ea02b3d1969f992ecc265219e9b3d6554",
+    "normalized_text_hash": "560a8c673b59492c1c113c1b99e7a404b25dea114d49d5005a97c408bea48146",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:13:36.197Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

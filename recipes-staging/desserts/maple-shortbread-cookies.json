@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "maple-shortbread-cookies",
+  "name": "Maple Shortbread Cookies",
+  "subtitle": "Buttery cookies with maple flavor",
+  "description": "Tender shortbread cookies made with butter, maple syrup, flour, and a touch of salt.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the butter and maple syrup until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir the flour and salt together, then combine them with the butter mixture to form a dough."
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into cookies and arrange them on a baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Bake until lightly browned.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/204421/maple-shortbread-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3b639e4d28f5e7f6124112d39d453248e86799ec3db9da9b4ecad33ac69aa2eb",
+    "normalized_text_hash": "ee06a817444da9eb8ec93896f3bb9127d9e22e1e5c1d45453e395443781e2576",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:19:37.451Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

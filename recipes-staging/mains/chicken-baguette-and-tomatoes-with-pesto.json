@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-baguette-and-tomatoes-with-pesto",
+  "name": "Chicken, Baguette and Tomatoes with Pesto",
+  "subtitle": "A simple oven-baked chicken dinner with crisp bread and tomatoes.",
+  "description": "Bake chicken thighs with baguette, pesto, and vine tomatoes, then finish with basil if desired.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-thighs",
+      "item": "chicken thighs",
+      "quantity": "4-6",
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "rapeseed-oil",
+      "item": "rapeseed oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "slices-baguette",
+      "item": "slices baguette",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "pesto-plus-extra-to-serve",
+      "item": "pesto plus extra to serve",
+      "quantity": 4,
+      "unit": "tbsp",
+      "preparation": "if you like"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes-on-the-vine",
+      "item": "cherry tomatoes on the vine",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-basil-leaves-optional",
+      "item": "handful basil leaves (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Lightly oil a baking dish or tray."
+    },
+    {
+      "step": 2,
+      "text": "Make a few shallow cuts in the chicken thighs so they cook evenly."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken and baguette slices in the tray, then spoon the pesto over them."
+    },
+    {
+      "step": 4,
+      "text": "Add the tomatoes on the vine and bake for 40 minutes, until the chicken reaches 165°F at the thickest point.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Serve with extra pesto if you like and scatter with basil leaves if using."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "pesto",
+    "tomatoes",
+    "traybake",
+    "family-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray or dish",
+    "knife",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-baguette-tomatoes-pesto",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8979bada4c89ac8f3beb64012cdcfd1834c94281bd0d23161fd1c37f81afd8b3",
+    "normalized_text_hash": "9251188297fbb622461347eb94416d7cd49493d61d441a7d90037c2e31f96274",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:25:34.678Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

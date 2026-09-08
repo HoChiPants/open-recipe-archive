@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-caliente",
+  "name": "Chocolate caliente",
+  "subtitle": "Thick spiced hot chocolate with citrus and cream",
+  "description": "A warming Spanish-style chocolate drink infused with cinnamon, citrus peel, and vanilla, finished with whipped cream.",
+  "meal_type": "drink",
+  "cuisine": "Spanish",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 3,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cinnamon-sticks",
+      "item": "cinnamon sticks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "strip-each-of-orange-and-lemon-peel",
+      "item": "strip each of orange and lemon peel",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cocoa-powder-or-use-175g-chocolate-chunks-for-extra-richness",
+      "item": "cocoa powder (or use 175g chocolate chunks for extra richness)",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cornmeal",
+      "item": "cornmeal",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "whipped-cream-to-serve-optional",
+      "item": "whipped cream to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the milk, cinnamon sticks, orange and lemon peel, and vanilla in a saucepan. Warm gently for 10 minutes without boiling.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Remove the cinnamon and peel. Whisk in the cocoa powder, cornmeal, and brown sugar until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Continue heating gently, whisking often, until the drink is thick and hot.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Divide between two cups and top with whipped cream to serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "spanish",
+    "hot-chocolate",
+    "spiced",
+    "citrus",
+    "whipped-cream"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-caliente",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d494a2e42f5a353baa2648322aea585c4647e05de9b79180f07766d340a8eae",
+    "normalized_text_hash": "49a0807d3dace92dcf48ed1b2e30e4ddb31d48330e62cba3aa5c0c682531356d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:03:20.831Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

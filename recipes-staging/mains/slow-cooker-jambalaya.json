@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-jambalaya",
+  "name": "Slow Cooker Jambalaya",
+  "subtitle": "A hearty one-pot meal with chicken, sausage, and shrimp",
+  "description": "Chicken, sausage, vegetables, tomatoes, and Cajun spices cook together before shrimp is stirred in at the end.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tomatoes-with-juice",
+      "item": "tomatoes with juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "28 ounce, diced"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "boneless chicken breast halves - cut into 1 inch cubes"
+    },
+    {
+      "ingredient_id": "andouille-sausage",
+      "item": "andouille sausage",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cajun-seasoning",
+      "item": "Cajun seasoning",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-cooked-shrimp-without-tails",
+      "item": "frozen cooked shrimp without tails",
+      "quantity": 1,
+      "unit": "pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the tomatoes, chicken, sausage, onion, bell pepper, celery, broth, oregano, parsley, Cajun seasoning, cayenne, and thyme to a slow cooker. Stir to combine."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook for 180 minutes, until the chicken reaches 165°F in the thickest pieces and the sausage reaches 160°F.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 3,
+      "text": "Stir in the frozen cooked shrimp, cover, and continue cooking until heated through and opaque.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "one-pot-meal",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73634/colleens-slow-cooker-jambalaya/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "02cbf9f91c18a40b9c43e26bdaad6b4ee0123f3ef1bc174d36f58c565b01c99c",
+    "normalized_text_hash": "78dbc0316c09d509dc31b9ae169391b8d32fef2db9a62e7d66cf03b96b10f071",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:05:43.676Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

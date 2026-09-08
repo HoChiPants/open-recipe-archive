@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-chicken-livers",
+  "name": "Bacon-Wrapped Chicken Livers",
+  "subtitle": "Grilled chicken livers with honey for dipping",
+  "description": "Bacon-wrapped chicken livers are grilled until fully cooked and served with honey.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "fresh-chicken-livers",
+      "item": "fresh chicken livers",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Cut the bacon into pieces large enough to wrap around the chicken livers. Wrap each liver with bacon and secure as needed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the wrapped livers to the grill and cook, turning as needed, for 16 minutes.",
+      "timer_minutes": 16
+    },
+    {
+      "step": 4,
+      "text": "Check the thickest liver with a food thermometer; continue cooking until it reaches 165°F."
+    },
+    {
+      "step": 5,
+      "text": "Serve hot with the honey."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american",
+    "grilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20043/bacon-chicken-livers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2f1c7bef089e8ac3494998b9534a475dc40cc67047e8867bb974cfb3565b331f",
+    "normalized_text_hash": "2fc8a8913b9f425d03d1602436fcc05e314ca7c3806757aa8a0114e6bf8afe0c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:12.954Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

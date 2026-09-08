@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-sliced-zucchini",
+  "name": "Grilled Sliced Zucchini",
+  "subtitle": "Tender zucchini with a savory dressing finish",
+  "description": "Zucchini slices are coated in Italian-style salad dressing and grilled until tender with light char.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "italian-style-salad-dressing",
+      "item": "Italian-style salad dressing",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Slice the zucchini and coat the pieces evenly with the Italian-style salad dressing."
+    },
+    {
+      "step": 3,
+      "text": "Grill the coated zucchini for 5 minutes, turning as needed, until tender and lightly charred.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "grilling",
+    "zucchini"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "equipment": [
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19921/grilled-zucchini-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9044fb60df672907e6df8ceb7482851c3adaaedbee8524d4fb7defb450374392",
+    "normalized_text_hash": "463f48745ce958d84475ee88292ffd45644bb0a256c59de18d35e43d3194cee0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:11:30.011Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

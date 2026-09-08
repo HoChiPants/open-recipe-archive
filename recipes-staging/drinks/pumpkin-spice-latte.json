@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-spice-latte",
+  "name": "Pumpkin Spice Latte",
+  "subtitle": "Warm espresso with spiced pumpkin milk",
+  "description": "A single-serving latte combining brewed espresso with gently heated pumpkin-spiced milk.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "canned-pumpkin-puree",
+      "item": "canned pumpkin puree",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pumpkin-pie-spice",
+      "item": "pumpkin pie spice",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-brewed-espresso",
+      "item": "(1.5 fluid ounce) jigger brewed espresso",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the milk, pumpkin puree, sugar, vanilla extract, and pumpkin pie spice in a small saucepan until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Warm the milk mixture over medium heat, whisking occasionally, until hot and lightly steaming; do not boil.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour the brewed espresso into a serving cup."
+    },
+    {
+      "step": 4,
+      "text": "Add the hot pumpkin milk mixture and stir to combine."
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "coffee",
+    "espresso",
+    "pumpkin",
+    "latte"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "whisk",
+    "serving cup"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/83029/pumpkin-spice-latte/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5d129db86af2d6b6ec09fdd5b17be99ac2b4e1981be9728be71c9547334eb029",
+    "normalized_text_hash": "cda535676ca80497e7d60931b0d8a395eb71a5c823885d0c9a6366ff9a0440ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:41:28.136Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

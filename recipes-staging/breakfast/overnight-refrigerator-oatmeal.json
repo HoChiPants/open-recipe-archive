@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "overnight-refrigerator-oatmeal",
+  "name": "Overnight Refrigerator Oatmeal",
+  "subtitle": "A cool, creamy make-ahead breakfast",
+  "description": "Combine oats, yogurt, and almond milk, then chill until thick and finish with sliced banana.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "old-fashioned-rolled-oats",
+      "item": "old-fashioned rolled oats",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-almond-milk",
+      "item": "sweetened almond milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the oats, Greek yogurt, and sweetened almond milk together in a serving container."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 8 hours, or until the mixture is thick and chilled.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sliced banana and serve cold."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "make-ahead",
+    "no-cook",
+    "overnight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "serving container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236549/overnight-refrigerator-oatmeal/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "33400b518ddec8f0ba188b98ac82682dc79bb838a3dfdac3f3de7646c23b4459",
+    "normalized_text_hash": "2f11502fc4473d21ca65f97fc0159e47ed6413f520a3623f725b0c1005d5b1f3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:43:50.584Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

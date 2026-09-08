@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-pear-sauce",
+  "name": "Apple Pear Sauce",
+  "subtitle": "A smooth, gently spiced fruit sauce",
+  "description": "Tender apples and pears are cooked with vanilla, blended until smooth, finished with cinnamon, and chilled for serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pears",
+      "item": "pears",
+      "quantity": 4,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 3,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the pears, apples, water, and vanilla extract in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer and cook for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Continue cooking until the fruit is tender."
+    },
+    {
+      "step": 4,
+      "text": "Process the cooked fruit until smooth, then stir in the ground cinnamon."
+    },
+    {
+      "step": 5,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "fruit",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229225/apple-pear-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "428f76600f36500502a37a28cff53de126a34cbc150ae1be50d06bdf6a5d1269",
+    "normalized_text_hash": "8294c227d46e5764a797468fee56b5cc25e455145ff52eb95bb50137d1484b0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:20:19.394Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

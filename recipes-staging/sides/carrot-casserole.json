@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-casserole",
+  "name": "Carrot Casserole",
+  "subtitle": "Tender carrots in a creamy cheese sauce with a crisp crouton topping",
+  "description": "A warm vegetable side dish combining tender carrots, creamy celery sauce, melted cheese, and buttery seasoned croutons.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 5,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "processed-cheese",
+      "item": "processed cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "seasoned-croutons",
+      "item": "seasoned croutons",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Simmer the sliced carrots in water until tender, about 8 minutes. Drain well.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Melt the 3 tablespoons of butter in a saucepan. Add the onion, condensed celery soup, cubed cheese, salt, and pepper; stir until combined and the cheese melts."
+    },
+    {
+      "step": 4,
+      "text": "Fold the drained carrots into the sauce and transfer the mixture to a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Combine the melted butter with the seasoned croutons, then spread the topping over the casserole."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until hot throughout and lightly browned on top.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetable",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "saucepan",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25287/carrot-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f08311af748edefa13e444fd24f198e3dac12111ac2ab5b28cceaeb84765e8b7",
+    "normalized_text_hash": "50e7184dce573e97b7f0aba7353c6d3596a26b0ca6c17666c0c8e3e9608daa1f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:58:10.966Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

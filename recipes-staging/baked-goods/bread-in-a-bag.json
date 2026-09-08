@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-in-a-bag",
+  "name": "Bread in a Bag",
+  "subtitle": "A simple yeast loaf mixed and kneaded in a bag",
+  "description": "Prepare this soft homemade loaf with a bag-based mixing and kneading method, followed by a short rise and oven bake.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 35,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "rapid-rise-yeast",
+      "item": "rapid rise yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "non-fat-dry-milk",
+      "item": "non-fat dry milk",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place a portion of the divided flour in a large resealable bag with the warm water, sugar, and yeast. Seal, leaving room for expansion, and knead or squeeze until combined."
+    },
+    {
+      "step": 2,
+      "text": "Let the mixture stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the remaining flour, dry milk, olive oil, and salt. Seal the bag and mix until a shaggy dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Turn the dough onto a lightly floured surface and knead until smooth, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Shape the dough into a loaf and place it in a prepared loaf pan. Cover and let rise for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 35 minutes, until golden brown. Cool briefly before slicing.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "homemade-baking",
+    "loaf"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large resealable bag",
+    "loaf pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85114/bread-in-a-bag/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ba993eab4a2059894177462a38cdcc99543c1df50515c79e85ed1b53468b109",
+    "normalized_text_hash": "d5cd887ede6f76d769be307f3332ee72a233bc5c47e24716b8bfb1b82ffc74ea",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:09:31.728Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coffee-icing",
+  "name": "Coffee Icing",
+  "subtitle": "A smooth coffee-flavored icing for cakes and pastries",
+  "description": "Whisk softened butter with brewed coffee and vanilla, then gradually incorporate confectioners' sugar until smooth and spreadable.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "strong-brewed-coffee",
+      "item": "strong brewed coffee",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened butter, strong brewed coffee, and vanilla extract until well combined."
+    },
+    {
+      "step": 2,
+      "text": "Add the confectioners' sugar gradually, whisking until the icing is smooth and spreadable."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "icing",
+    "coffee",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7674/coffee-icing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c94e96baa8953e2933a03865096f5d1bb00c909c92631577e38f3ce076fcccd",
+    "normalized_text_hash": "380ea64ca2d3b486a5587e4446ed383a07d593ee17ec29cbb8bd40ecee26ee24",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:02:10.133Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

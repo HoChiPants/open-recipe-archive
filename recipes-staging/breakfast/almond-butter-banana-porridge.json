@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-butter-banana-porridge",
+  "name": "Almond Butter & Banana Porridge",
+  "subtitle": "Creamy oat porridge with bananas, raisins, and almond butter",
+  "description": "A warm, filling porridge finished with sliced bananas, toasted almonds, and almond butter.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-almonds-sliced-or-flaked",
+      "item": "whole almonds sliced or flaked",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "quaker-rolled-oats",
+      "item": "Quaker Rolled Oats",
+      "quantity": 160,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "l-unsweetened-almond-milk",
+      "item": "l unsweetened almond milk",
+      "quantity": 1.2
+    },
+    {
+      "ingredient_id": "sultanas-or-raisins",
+      "item": "sultanas or raisins",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "item": "cinnamon (optional)",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "bananas-sliced",
+      "item": "bananas sliced",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "almond-butter-stirred",
+      "item": "almond butter stirred",
+      "quantity": 4,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toast the almonds in a dry saucepan over medium heat for about 3 minutes, stirring until lightly golden. Transfer to a plate.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Combine the oats, almond milk, sultanas or raisins, and cinnamon in the saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Cook over medium heat for about 6 minutes, stirring often, until thick and smooth.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Divide the porridge among four bowls. Top with banana slices, almond butter, and toasted almonds, then serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "porridge",
+    "banana",
+    "almond-butter"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/almond-butter-and-banana-porridge",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3208e253ed1d7f288fa7170e5a386ce1a2cb90d4fbd875c6f8b7fde2ae0d4b7e",
+    "normalized_text_hash": "28845e701b501880c9653d38d83d246d5567b2a6174f7b142decd3fcd4bd6be6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:34:27.410Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

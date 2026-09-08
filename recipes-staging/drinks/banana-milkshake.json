@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-milkshake",
+  "name": "Banana Milkshake",
+  "subtitle": "A quick, creamy banana drink",
+  "description": "Combine partially thawed mashed banana with milk for a simple one-serving shake.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-banana",
+      "item": "frozen banana",
+      "quantity": 1,
+      "preparation": "partially thawed and mashed"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the partially thawed, mashed banana and milk in a glass or bowl."
+    },
+    {
+      "step": 2,
+      "text": "Mix until smooth and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "banana",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239245/banana-milkshake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "420c1e51aa8d35c288df9738cfa035b1ce5c7352c708eed60891fc01549d10ba",
+    "normalized_text_hash": "50a447f1e947e0fa6bb38a0d7755271d44c5ae3e5061e77d08d5b2f7cc31d7c1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:58:46.531Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

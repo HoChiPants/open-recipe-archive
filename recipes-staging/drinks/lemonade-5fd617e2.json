@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemonade-5fd617e2",
+  "name": "Lemonade",
+  "subtitle": "Bright homemade citrus drink",
+  "description": "A simple lemonade made with fresh lemons, sugar, and water.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.25,
+      "unit": "quarts"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the lemons and squeeze them to prepare the juice; set the juice aside."
+    },
+    {
+      "step": 2,
+      "text": "Combine the white sugar and water in a saucepan. Heat, stirring, until the sugar dissolves, then continue cooking for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Remove the sugar mixture from the heat and let it cool for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Add the lemon juice to the cooled sugar mixture and stir well."
+    }
+  ],
+  "tags": [
+    "drink",
+    "lemonade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "citrus juicer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20486/vintage-lemonade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "34845fdbdf101ef5f55f6fe4661663478841a64f83eb5d7f364833f7254c5c54",
+    "normalized_text_hash": "ada548f8a1f2211c7810d2d7ecec29afd7cdea5d7628d3bd3e8617b70e6e551a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:52:35.794Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

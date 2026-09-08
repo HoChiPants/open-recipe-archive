@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pasta-salad",
+  "name": "Pasta Salad",
+  "subtitle": "A colorful chilled salad with seasoned Italian dressing",
+  "description": "Cooked spiral pasta is tossed with peppers, tomatoes, olives, and a savory dressing, then chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tri-colored-spiral-pasta",
+      "item": "tri-colored spiral pasta",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "italian-style-salad-dressing",
+      "item": "Italian-style salad dressing",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "salad-seasoning-mix",
+      "item": "salad seasoning mix",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes",
+      "item": "cherry tomatoes",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "yellow-bell-pepper",
+      "item": "yellow bell pepper",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "black-olives",
+      "item": "black olives",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "2.25 ounce, chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the pasta in boiling water for 12 minutes, or until tender. Drain well.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Whisk the salad dressing and seasoning mix until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine the pasta, dressing mixture, tomatoes, bell peppers, and olives in a large bowl. Toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "pasta-salad",
+    "italian-inspired",
+    "make-ahead",
+    "vegetable-salad",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14385/pasta-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b85c78734be75fca9aaab66019be0798be55715cb33aa201dde8355b1ef69c2",
+    "normalized_text_hash": "e9c94af730bfbd377a5acd23ab9da7036b3b42803496a75e34f63b7a138aaa75",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:54:44.138Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

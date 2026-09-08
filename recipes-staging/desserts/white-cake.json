@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-cake",
+  "name": "White Cake",
+  "subtitle": "A light, tender cake with vanilla-almond flavor",
+  "description": "A classic white cake made with whipped egg whites, butter, milk, and gentle vanilla-almond notes.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cake-flour",
+      "item": "cake flour",
+      "quantity": 2.75,
+      "unit": "cups",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare the cake pan or pans as needed."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sifted cake flour, baking powder, and salt."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the egg whites with part of the sugar until soft peaks form, then continue adding the remaining sugar until incorporated."
+    },
+    {
+      "step": 4,
+      "text": "Beat the butter until smooth. Gradually whisk in the sugar, then add the milk, vanilla extract, and almond extract until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Mix the dry ingredients into the butter mixture, then gently fold in the whipped egg whites until evenly combined."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the batter to the prepared pan or pans and bake at 350°F until lightly golden and a tester comes out clean, about 35 minutes. The center should be firm and fully set, reaching 160°F if checked with a thermometer.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Cool in the pan for 10 minutes, then transfer the cake to a rack and cool completely before serving.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "electric mixer",
+    "cake pan or pans",
+    "wire rack",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7703/heavenly-white-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fb5b6befa2ad6fc5438acb013cdb7d9efed897b36849e98bba82e9803d5add26",
+    "normalized_text_hash": "d6f62d4f68fcdd91f3bb719714852f7c34ac01f38176d67ba2374d44037a9ffe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:30:43.711Z",
+    "semantic_similarity": 22,
+    "structural_similarity": 28,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

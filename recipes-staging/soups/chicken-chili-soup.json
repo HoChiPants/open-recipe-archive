@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-chili-soup",
+  "name": "Chicken Chili Soup",
+  "subtitle": "A hearty chicken and bean soup with peppers, corn, and warm spices.",
+  "description": "Chicken, colorful peppers, beans, corn, and tomatoes simmer together with chili powder and cumin for a generously sized soup.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breast-meat",
+      "item": "chicken breast meat",
+      "quantity": 1.75,
+      "unit": "pounds",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-bell-peppers",
+      "item": "green bell peppers",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "red-bell-peppers",
+      "item": "red bell peppers",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "frozen-corn-kernels",
+      "item": "frozen corn kernels",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kidney-beans-with-liquid",
+      "item": "kidney beans with liquid",
+      "quantity": 4,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce, diced"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cayenne-pepper",
+      "item": "ground cayenne pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chicken, green and red bell peppers, onion, and ground cayenne pepper in a large pot. Cook over medium heat, stirring, until the vegetables are tender and the chicken reaches 165°F in the thickest pieces."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the corn, kidney beans with liquid, tomatoes, tomato sauce, water, chili powder, parsley, garlic powder, and cumin."
+    },
+    {
+      "step": 3,
+      "text": "Bring the soup to a boil, then reduce the heat and simmer for 30 minutes, stirring occasionally. Confirm the chicken remains at least 165°F before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "soup",
+    "chicken",
+    "beans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26377/chicken-chili-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "68adda6b80ee44f6533c9747b8c8b86908d912c8d7ac8180fc46e1476d775755",
+    "normalized_text_hash": "f9932f254a08944269c744d25c60412ea7c8afa9d7326de97b57be1555f510f8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:02:53.838Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-beef-sandwiches",
+  "name": "Italian Beef Sandwiches",
+  "subtitle": "Tender shredded beef with pepperoncini on toasted buns",
+  "description": "Slow-cooked chuck roast becomes tender and shreddable, then is finished with pepperoncini and served in split buns.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-chuck-roast",
+      "item": "beef chuck roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "dry-italian-salad-dressing-mix",
+      "item": "dry Italian salad dressing mix",
+      "quantity": 3,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-pepperoncini-peppers",
+      "item": "(16 ounce) jar pepperoncini peppers",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "hamburger-buns",
+      "item": "hamburger buns",
+      "quantity": 8,
+      "preparation": "split"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chuck roast with the dry Italian salad dressing mix in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Add the water, cover, and cook for 6 hours, until the roast is tender. For safety, verify a whole-cut beef temperature of at least 145°F, then rest for 3 minutes.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 3,
+      "text": "Shred the beef in the cooking juices, removing any large pieces of fat."
+    },
+    {
+      "step": 4,
+      "text": "Add the pepperoncini peppers and stir to combine. Cook briefly until heated through."
+    },
+    {
+      "step": 5,
+      "text": "Serve the shredded beef and peppers in the split hamburger buns."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "sandwiches",
+    "slow-cooker",
+    "beef"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/91597/original-homemade-italian-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a21318bdf494f418d589449c71e71ee10d787766458ca2f7742f29b0c2443c7a",
+    "normalized_text_hash": "1f60e954463935d22001322bbacb36ddf287697c09a22d7c9c15b57db79dacc0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:38:19.681Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

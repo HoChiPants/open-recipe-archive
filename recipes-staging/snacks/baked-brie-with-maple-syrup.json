@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-brie-with-maple-syrup",
+  "name": "Baked Brie with Maple Syrup",
+  "subtitle": "Warm Brie with walnuts and maple",
+  "description": "A simple baked cheese appetizer served with sliced baguette for dipping and spreading.",
+  "meal_type": "snack",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "14-ounce-round-brie-cheese",
+      "item": "(14 ounce) round Brie cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "real-maple-syrup-fine-light-grade",
+      "item": "real maple syrup (fine light grade)",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "18-inch-french-baguette",
+      "item": "18-inch French baguette",
+      "quantity": 1,
+      "preparation": "cut into 3/4-inch slices"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 200°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the Brie in a suitable baking dish and top with the chopped walnuts and maple syrup."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 10 minutes, until the cheese is warmed and soft.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Serve immediately with the baguette slices."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "baked-cheese",
+    "maple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213597/baked-brie-with-quebec-maple-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3c4f78afc374f687fb2afa7e0bb6e9cf2b32c9b55a00e493ee6562bfc8ca2de3",
+    "normalized_text_hash": "34165efcfce38fe8c0444a73addcd1f7c2937e61a8530c4bc09da1ceb8c1501f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:44:12.089Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

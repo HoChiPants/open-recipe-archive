@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "gravlax",
+  "name": "Gravlax",
+  "subtitle": "Dill-cured salmon with a peppered salt-sugar crust",
+  "description": "Salmon is coated with a seasoned cure, dill, and vodka, then chilled until firm and sliceable.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 0,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salmon-fillet",
+      "item": "salmon fillet",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "bones removed"
+    },
+    {
+      "ingredient_id": "coarse-sea-salt",
+      "item": "coarse sea salt",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "light-brown-sugar",
+      "item": "light brown sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "pepper",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "bunch-fresh-dill",
+      "item": "bunch fresh dill",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the salmon fillet into two pieces."
+    },
+    {
+      "step": 2,
+      "text": "Combine the coarse sea salt, light brown sugar, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Add the chopped dill and vodka to the salmon, then coat the salmon evenly with the salt mixture."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the salmon to a suitable dish, fold the pieces together, and cover."
+    },
+    {
+      "step": 5,
+      "text": "Chill for 24 hours, turning the salmon as needed for even curing.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 6,
+      "text": "Before serving, verify that the salmon reaches 145°F and is opaque and easily flaked; slice and serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "cured-fish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "refrigerator",
+    "shallow dish",
+    "food thermometer",
+    "sharp knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/39258/gravlox/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ee8391ef5f13bc610ebbd5aadbc825759ef8ab9909236115d82de5fb239273fb",
+    "normalized_text_hash": "c2695f3e9e803235e4355fe9a03d519fc7c64b519e24ebc6856d6ea3432f50d8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:57:25.919Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

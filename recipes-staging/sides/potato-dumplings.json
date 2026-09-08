@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-dumplings",
+  "name": "Potato Dumplings",
+  "subtitle": "Tender potato dumplings with a crisp crouton center",
+  "description": "Potato-based dumplings shaped around seasoned croutons and simmered until tender and fully set.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "seasoned-croutons",
+      "item": "seasoned croutons",
+      "quantity": 8,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer. Add the potatoes and cook for 15 minutes, or until tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and combine them with the flour and egg. Mix until a cohesive dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Divide the mixture into 8 portions. Flatten each portion, place one crouton in the center, and seal the dough around it."
+    },
+    {
+      "step": 4,
+      "text": "Return the water to a gentle simmer and carefully add the dumplings. Cook for 20 minutes, until tender and the centers are firm and fully set.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Remove the dumplings with a slotted spoon and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "mixing bowl",
+    "slotted spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25324/potato-dumplings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f61637b183b1756603954521f12b78c8b79a3a6d0c9957a67ff0e745db8df46a",
+    "normalized_text_hash": "09b3a42e172573113cb27b66d184084bb55b66ef53933ed7f651a163368c85b0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:02.035Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

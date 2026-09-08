@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rotisserie-chicken-pot-pie",
+  "name": "Rotisserie Chicken Pot Pie",
+  "subtitle": "Creamy chicken and vegetables in a flaky double crust",
+  "description": "A savory chicken pot pie filled with vegetables in a simple creamy sauce and baked until golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-unbaked-9-inch-pie-crusts",
+      "item": "refrigerated unbaked 9-inch pie crusts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "rotisserie-chicken",
+      "item": "rotisserie chicken",
+      "quantity": 1,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-mixed-vegetables",
+      "item": "frozen mixed vegetables",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "16 ounce, thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Fit one pie crust into a 9-inch pie dish and set the other aside."
+    },
+    {
+      "step": 2,
+      "text": "Shred the rotisserie chicken."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a skillet over medium heat. Add the onion and cook for 5 minutes, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the flour, salt, and pepper, then cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Gradually add the chicken broth and milk. Cook for 5 minutes, stirring, until thickened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Stir in the shredded chicken and thawed mixed vegetables until combined."
+    },
+    {
+      "step": 7,
+      "text": "Pour the filling into the crust and cover with the remaining crust. Seal the edges and prepare the top for baking."
+    },
+    {
+      "step": 8,
+      "text": "Bake for 30 minutes, until golden brown and the center reaches 165°F on a food thermometer. Serve hot.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "chicken",
+    "pot-pie",
+    "comfort-food",
+    "baked-dinner"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "9-inch pie dish",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272462/rotisserie-chicken-pot-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cae960ccd6e5314e664e6b6b38701490510a2e969efd94d9e5b4cd377bb5ff00",
+    "normalized_text_hash": "ea793b0d6e43aeb0ef0c4eca9dd044dc7f3bb2239477690a5da59047d0104fd2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:31:09.843Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

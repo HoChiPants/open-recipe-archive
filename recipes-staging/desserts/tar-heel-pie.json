@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tar-heel-pie",
+  "name": "Tar Heel Pie",
+  "subtitle": "A rich chocolate-pecan pie with coconut",
+  "description": "A deep-dish pie filled with melted chocolate, brown sugar, pecans, and coconut, baked until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "9-inch-deep-dish-pie-crust",
+      "item": "(9 inch) deep dish pie crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the melted butter and chocolate chips, stirring until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the flour, brown sugar, and white sugar. Stir in the chocolate mixture, then the beaten eggs and vanilla."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the pecans and coconut. Transfer the filling to the deep-dish pie crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the center is firm and fully set, about 35 minutes; continue up to 40 minutes if needed. For a thermometer check, the center should reach 160°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Cool before slicing and serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "chocolate",
+    "pecans",
+    "coconut",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowls",
+    "whisk",
+    "9-inch deep-dish pie pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/44904/tar-heel-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b043e14676d1606221286dc83a0571fd1ed120faefd98b75ae4aa1c277aae021",
+    "normalized_text_hash": "37226faa189931db5f6ddef972127e277a2e97a9aefc868c5eaccab8065b1389",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:36:42.727Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

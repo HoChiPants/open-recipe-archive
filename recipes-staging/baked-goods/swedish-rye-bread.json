@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "swedish-rye-bread",
+  "name": "Swedish Rye Bread",
+  "subtitle": "A lightly sweet, molasses-scented rye loaf",
+  "description": "A tender yeast bread combining rye flour with bread flour, brown sugar, molasses, and milk.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 35,
+    "inactive_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "compressed-fresh-yeast",
+      "item": "compressed fresh yeast",
+      "quantity": 1,
+      "unit": "ounce"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 0.33329999446869,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "molasses",
+      "item": "molasses",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "rye-flour",
+      "item": "rye flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 6,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the milk for 3 minutes, then let it cool until warm rather than hot. Dissolve the yeast in the warm water and let it stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir the brown sugar, melted shortening, molasses, and salt into the cooled milk. Mix in the yeast mixture, then add the rye flour and bread flour gradually until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Knead the dough until smooth and elastic. Place it in a coated bowl, cover, and let it rise in a warm place until doubled, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Punch down the dough, rest it for 5 minutes, then shape it into loaves and transfer them to prepared pans. Cover and let rise for 45 minutes.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 5,
+      "text": "Heat the oven to 375°F. Bake the loaves for about 35 minutes, until golden brown and cooked through.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "bread",
+    "rye",
+    "yeast-bread",
+    "swedish",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large saucepan",
+    "mixing bowl",
+    "loaf pans",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6707/swedish-rye-bread-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9eb26ded0939181e22fd8aa8b36fef99149b6ea31e519eb1523cdfc8409dd583",
+    "normalized_text_hash": "df17bc6ac8c4a691800316bcfbc9692740373a00ee698def246658fecc266212",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:18:07.170Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scottish-shortbread",
+  "name": "Scottish Shortbread",
+  "subtitle": "Buttery, crisp squares with a tender crumb",
+  "description": "A simple three-ingredient shortbread baked until lightly golden and cut into portions while warm.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the butter and sugar until well blended."
+    },
+    {
+      "step": 3,
+      "text": "Add the flour and combine to form a cohesive dough."
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough evenly in the prepared baking pan."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, then continue baking for 40 minutes.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 6,
+      "text": "Cut into 36 portions while warm, then cool completely.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dessert",
+    "scottish",
+    "shortbread",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "whisk",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10059/scottish-shortbread-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ab6cb33a25487904fac585955b09d611124a5581e16def45f9f05cc7cf8bfdca",
+    "normalized_text_hash": "efa484c3ddac5e91de51e80dc27e45f8494b00cb80a1d3c33b3c57d85921f838",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:55:02.602Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pineapple-pork-loin",
+  "name": "Pineapple Pork Loin",
+  "subtitle": "Honey-mustard pork with pineapple",
+  "description": "Pork loin is browned, coated with a honey-mustard mixture, and roasted with pineapple until tender.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "3-pound-pork-loin",
+      "item": "(3 pound) pork loin",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "pineapple-chunks",
+      "item": "pineapple chunks",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "8 ounce, drained"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Stir together the honey, Dijon mustard, and black pepper."
+    },
+    {
+      "step": 2,
+      "text": "Brown the pork loin for 5 minutes, then transfer it to a baking dish and coat it with the honey-mustard mixture.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the drained pineapple chunks around the pork and season with salt. Reduce the oven temperature to 375°F and roast until the center reaches 145°F on a food thermometer.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Rest the pork for 3 minutes. Blend the pineapple until smooth, if desired, and serve with the sliced pork.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pork",
+    "pineapple",
+    "roasted"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking dish",
+    "food thermometer",
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240225/sweet-and-savory-pineapple-pork-loin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "588e0307ff1f130af13c267ed3c8a9edad0987e0a0a108cf275f92ce4b07affa",
+    "normalized_text_hash": "a1051c5d203bba6f05c6b325a27272b497c3122c09709990ef390e320290aa04",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:20:03.117Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

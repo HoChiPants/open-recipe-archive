@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sausage-jalapeno-poppers",
+  "name": "Sausage Jalapeno Poppers",
+  "subtitle": "Creamy sausage-filled peppers wrapped in bacon",
+  "description": "Jalapeno halves are filled with seasoned sausage and softened cream cheese, wrapped in bacon, and baked until tender and cooked through.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ground-sausage",
+      "item": "ground sausage",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "jalapeno-chile-peppers",
+      "item": "jalapeno chile peppers",
+      "quantity": 30
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced, cut in half"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the ground sausage in a skillet over medium heat, breaking it apart, until it reaches 160°F on a food thermometer."
+    },
+    {
+      "step": 3,
+      "text": "Stir the cooked sausage and softened cream cheese together until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Halve the jalapeno peppers lengthwise and fill the halves with the sausage mixture."
+    },
+    {
+      "step": 5,
+      "text": "Wrap each filled pepper with a half-slice of bacon and arrange on a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 20 minutes, until the bacon is cooked and the filling is hot throughout.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "stuffed-peppers",
+    "bacon-wrapped",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25539/sausage-jalapeno-poppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0102daee614c6dbbc7f280995daaf5a10386695b8d6b54100a932e5249e4297e",
+    "normalized_text_hash": "5ea1e57baec68f4ed1b6c6ca27cbbd52e4f4b1003c9313b666e844a9afd91a82",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:50:08.948Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

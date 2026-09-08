@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-pasta",
+  "name": "Spinach Pasta",
+  "subtitle": "Fresh green pasta made with spinach, eggs, and flour",
+  "description": "Make tender homemade pasta with a spinach-enriched dough, then cut and cook it until firm.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 10,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 3,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a boil, add the spinach, and cook until wilted. Drain, cool briefly, and squeeze out excess water."
+    },
+    {
+      "step": 2,
+      "text": "Blend the spinach, eggs, olive oil, and salt until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the flour and blend until a dough forms. Turn it out and knead until cohesive, adding flour as needed."
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into a ball, cover, and let it rest for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Divide the dough and roll each portion into thin sheets on a lightly floured surface."
+    },
+    {
+      "step": 6,
+      "text": "Cut the sheets into noodles, separate them, and dust lightly with flour."
+    },
+    {
+      "step": 7,
+      "text": "Bring salted water to a simmer. Add the pasta and cook until firm, about 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 8,
+      "text": "Drain the pasta and serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fresh-pasta",
+    "vegetarian",
+    "homemade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "blender",
+    "rolling pin",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254895/homemade-spinach-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fbf512613998ad3af19aa9c4e88a40de0282941c0848e8473439d1d2ce14dbe3",
+    "normalized_text_hash": "6d05ccb19690448cd0f18fa4457fbbbb3ca8bd58892a83d05d8eaa2b51e927fc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:42:03.661Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

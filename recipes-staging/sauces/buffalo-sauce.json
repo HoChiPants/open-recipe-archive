@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buffalo-sauce",
+  "name": "Buffalo Sauce",
+  "subtitle": "A buttery, spicy sauce for dipping or drizzling",
+  "description": "Warm hot sauce with garlic and butter for a smooth, flavorful condiment.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 450,
+    "unit": "ml"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hot-sauce",
+      "item": "hot sauce",
+      "quantity": 275,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "garlic-cloves-peeled-and-crushed",
+      "item": "garlic cloves peeled and crushed",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 200,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over medium heat with the crushed garlic."
+    },
+    {
+      "step": 2,
+      "text": "Add the hot sauce and simmer for 5 minutes, stirring occasionally, until the garlic is tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir until combined, then serve warm."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "american",
+    "buffalo-sauce",
+    "hot-sauce",
+    "sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/buffalo-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1175960b9ffe0be464c5f63ba756f8f40179e72338dda797e6187b59ee55e5a2",
+    "normalized_text_hash": "52f0540d0813690c9fb9afc3a08283f2caa3b8509471f4664ad036769a0d1a7a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:49:56.790Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

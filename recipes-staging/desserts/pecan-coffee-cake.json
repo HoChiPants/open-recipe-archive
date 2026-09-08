@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-coffee-cake",
+  "name": "Pecan Coffee Cake",
+  "subtitle": "Sour cream cake with a cinnamon-pecan topping",
+  "description": "A tender sour cream coffee cake finished with a buttery brown sugar, pecan, and cinnamon topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the all-purpose flour, salt, and baking powder in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, whisk the softened butter and sour cream until smooth. Whisk in the white sugar, then the eggs and vanilla extract."
+    },
+    {
+      "step": 4,
+      "text": "Fold the flour mixture into the wet ingredients just until no dry streaks remain. Transfer the batter to the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Combine the brown sugar, pecans, and ground cinnamon. Stir in the melted butter, then scatter the topping over the batter."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the center is firm and fully set, about 30 to 35 minutes.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 7,
+      "text": "Cool in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "coffee-cake",
+    "pecan",
+    "cinnamon",
+    "sour-cream",
+    "baked-good"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49001/amazing-pecan-coffee-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f9430029d91a315d6f4f8e1ae19e28eb95e925dcc91b80e1245a83fc440557a4",
+    "normalized_text_hash": "9fd4fb1d716083751ee7de399cbcb8eb0681e38b2164a7a58ca476fe982bd2d5",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:53:25.917Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

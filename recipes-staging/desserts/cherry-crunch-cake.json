@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-crunch-cake",
+  "name": "Cherry Crunch Cake",
+  "subtitle": "A simple cherry dessert with a crisp cake-mix topping",
+  "description": "Cherry pie filling is topped with dry cake mix and melted butter, then baked until bubbling and lightly crisp on top.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "white-cake-mix",
+      "item": "white cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the cherry pie filling evenly in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Sprinkle the dry cake mix over the filling, then drizzle the melted butter evenly over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the filling is bubbling and the topping is lightly golden and set, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cherry",
+    "cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256392/cherry-crunch-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a794720aa83ea2d7f116437ad56a4d25403a2286e1bb1642e07b49a9667df93a",
+    "normalized_text_hash": "f9e2b6a33fef1a904e4465cac97cbbdc6ac003c0bd2ea93182235dd21ac309da",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:48:33.696Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-chicken-sandwich",
+  "name": "Fried Chicken Sandwich",
+  "subtitle": "Crisp chicken with pickles on toasted buns",
+  "description": "Chicken breasts are brined with dill pickles, seasoned, coated, fried until crisp, and served on buttered buns.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "inactive_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "dill-pickle-slices",
+      "item": "dill pickle slices",
+      "quantity": 12,
+      "preparation": "with brine"
+    },
+    {
+      "ingredient_id": "peanut-oil-for-frying",
+      "item": "peanut oil for frying"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "powdered-sugar",
+      "item": "powdered sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "celery-salt",
+      "item": "celery salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sandwich-buns",
+      "item": "sandwich buns",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the chicken to a work surface and smooth or flatten the thick portions for even cooking."
+    },
+    {
+      "step": 2,
+      "text": "Cut the chicken into six sandwich portions. Add the pickle slices and brine, cover, and refrigerate for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Combine the flour, powdered sugar, salt, paprika, black pepper, celery salt, and basil in a shallow dish."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the eggs and milk in a second shallow dish. Drain the chicken and prepare a coating station."
+    },
+    {
+      "step": 5,
+      "text": "Preheat the peanut oil to 350°F in a heavy skillet or fryer."
+    },
+    {
+      "step": 6,
+      "text": "Dip each chicken portion in the egg mixture, then coat thoroughly with the seasoned flour. Prepare all portions before frying."
+    },
+    {
+      "step": 7,
+      "text": "Fry the chicken in batches for about 3 minutes per side, or until golden brown and the thickest part reaches 165°F.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 8,
+      "text": "Transfer the chicken to a rack and rest for 5 minutes so the coating sets.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 9,
+      "text": "Butter the cut sides of the buns. Place a fried chicken portion on each bun and add the pickle slices."
+    },
+    {
+      "step": 10,
+      "text": "Close the sandwiches and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "heavy skillet or deep fryer",
+    "food thermometer",
+    "shallow dishes",
+    "wire rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275490/fried-chicken-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5d0837ca16bb407829dc3bd93408b1aa71c1380a0b0dd59f9dd90d378144e98e",
+    "normalized_text_hash": "8845061459f4645e7bc547123c0cf494b09d6ca940ae5163cc3f2d8a124f60b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:25:45.378Z",
+    "semantic_similarity": 28,
+    "structural_similarity": 55,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

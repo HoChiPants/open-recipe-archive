@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "decorating-frosting",
+  "name": "Decorating Frosting",
+  "subtitle": "Smooth, easy frosting for cakes and cookies",
+  "description": "A simple confectioners’ sugar frosting with a light almond flavor, suitable for decorating baked goods.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the shortening, confectioners' sugar, milk, and almond extract in a mixing bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk for 5 minutes, until smooth.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "baking",
+    "decorating"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7486/decorator-frosting-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "af213d4cf89d6968d6997ab1959fd4a643fd9611a440716261eebe99bc50a783",
+    "normalized_text_hash": "6e67ae6be021793bb08f4b86bfdb47c48530a92bf53d6cd1402c9674e5142b53",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:38:56.517Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

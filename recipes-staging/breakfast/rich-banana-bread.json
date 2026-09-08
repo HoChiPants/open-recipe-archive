@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rich-banana-bread",
+  "name": "Rich Banana Bread",
+  "subtitle": "Moist banana loaf with sour cream and walnuts",
+  "description": "A tender banana bread combining melted butter, sour cream, sliced bananas, and chopped walnuts in a lightly sweet loaf.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 2,
+      "unit": "medium",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F and prepare a loaf pan."
+    },
+    {
+      "step": 2,
+      "text": "Stir the white sugar and melted butter until smooth. Add the eggs and vanilla extract, then mix well."
+    },
+    {
+      "step": 3,
+      "text": "Combine the all-purpose flour, baking soda, and salt in a separate bowl."
+    },
+    {
+      "step": 4,
+      "text": "Add the dry mixture to the butter mixture and stir until just combined. Fold in the sour cream, walnuts, and sliced bananas."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the center is firm and fully set.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool the loaf in the pan for 10 minutes, then serve.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "banana-bread",
+    "quick-bread",
+    "baking",
+    "american",
+    "breakfast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowls"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17066/janets-rich-banana-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6677a05ac14df8a211f2ba2b085523af3654af65b360e4564888f1ba7a0870b9",
+    "normalized_text_hash": "5076c737a0d78620bc9d0902ff5234ee112c5afd88a7505bdd398b86c46e8206",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:24:41.930Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

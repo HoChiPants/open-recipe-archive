@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bara-brith",
+  "name": "Bara Brith",
+  "subtitle": "Welsh tea bread with plump dried fruit",
+  "description": "A tender, fruit-filled loaf made by soaking dried fruit in tea before mixing and baking.",
+  "meal_type": "baked-good",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hot-brewed-tea",
+      "item": "hot brewed tea",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-currants",
+      "item": "dried currants",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "golden-raisins",
+      "item": "golden raisins",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "demerara-sugar",
+      "item": "demerara sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the dried currants and golden raisins with the hot brewed tea. Cover and let stand for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 350°F. Grease or line a loaf pan."
+    },
+    {
+      "step": 3,
+      "text": "Stir the demerara sugar and beaten egg into the soaked fruit and tea."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the self-rising flour until just combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 40 minutes, or until the center is firm and fully set and an inserted thermometer reads at least 160°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Cool the loaf before slicing."
+    }
+  ],
+  "tags": [
+    "tea-bread",
+    "fruit-bread",
+    "welsh-baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "loaf pan",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220531/bara-brith/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4dd5ecdae2bf2291c4a271c43fab74b7ffd29ff2527f9dece24775eac6e57919",
+    "normalized_text_hash": "0fe3d840d3a2e4b7dad97e8489ccf92f4f085ed98519e02969a9546c6cf9d034",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:02:23.304Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

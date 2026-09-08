@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-sherbet-punch",
+  "name": "Orange Sherbet Punch",
+  "subtitle": "A bright, creamy citrus punch for a crowd",
+  "description": "Orange sherbet and frozen juice concentrate combine with ginger ale for a simple, fizzy party drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-sherbet",
+      "item": "orange sherbet",
+      "quantity": 0.5,
+      "unit": "gallon"
+    },
+    {
+      "ingredient_id": "frozen-orange-juice-concentrate",
+      "item": "frozen orange juice concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "2 liter"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the orange sherbet and frozen orange juice concentrate to a large punch bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the ginger ale until the mixture is evenly combined and fizzy."
+    }
+  ],
+  "tags": [
+    "drink",
+    "punch",
+    "orange",
+    "citrus",
+    "party"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large punch bowl",
+    "ladle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32364/orange-dream-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1341a6e10f35cc90c063665042435f2992bce009eb77c15da1639c9f8c42d4de",
+    "normalized_text_hash": "ed114c7b494ac7d6d0c4cd8e169ff944fcecaa0c8210866baf03898c6b54747f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:34:31.866Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

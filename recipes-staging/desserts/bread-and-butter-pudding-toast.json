@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-and-butter-pudding-toast",
+  "name": "Bread and Butter Pudding Toast",
+  "subtitle": "Custard-soaked brioche with caramelized sugar",
+  "description": "Brioche is soaked in a creamy egg mixture, cooked until golden, finished with melted sugar, and served with softly whipped crème fraîche.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brioche-loaf",
+      "item": "brioche loaf",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 120,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "irish-cream-liqueur",
+      "item": "Irish cream liqueur",
+      "quantity": 75,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cre-me-frai-che",
+      "item": "crème fraîche",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the brioche and cut it into slices or manageable pieces."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, whole milk, and Irish cream liqueur together. Soak the brioche in the mixture, then arrange it in the desired shape."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven and melt the unsalted butter. Brush or spoon the butter over the brioche, then cook with the golden caster sugar until golden brown, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Transfer the remaining golden caster sugar over the top and grill for 1 minute, until melted.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Cool briefly. Whisk the crème fraîche to soft peaks and serve alongside the toast."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "brioche",
+    "bread-pudding",
+    "custard",
+    "caramelized-sugar"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "grill",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bread-butter-pudding-toast",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9a64d75a33e9d5e93efa9bbe4c0ec74ff35896398bd41646d6516871da5938d4",
+    "normalized_text_hash": "465c436318bfefec4d6319b45a672014b1a40237aacba243216f95e59cb4d5d3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:53:08.147Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

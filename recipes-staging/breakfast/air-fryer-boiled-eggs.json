@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-boiled-eggs",
+  "name": "Air Fryer Boiled Eggs",
+  "subtitle": "Set whites and creamy yolks with minimal effort",
+  "description": "Cook room-temperature eggs in an air fryer for an easy breakfast, snack, or lunch accompaniment.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 14
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggs-at-room-temperature",
+      "item": "eggs at room temperature",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "toast-to-serve-optional",
+      "item": "toast to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the eggs in the air-fryer basket in a single layer."
+    },
+    {
+      "step": 3,
+      "text": "Cook for 7 minutes, then continue cooking for 7 minutes more, until the eggs are fully set.",
+      "timer_minutes": 14
+    },
+    {
+      "step": 4,
+      "text": "Serve with optional toast."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "air-fryer",
+    "eggs",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-boiled-eggs",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa816b33f23f08e1cf68da85598d2b62e676ccd1cfd1c8d862b9a5dfc67ecd2a",
+    "normalized_text_hash": "ae7b5c86fa5913540b85ec1e2c03bbd0542793015eb216ab526c38d688c44685",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:21:16.914Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

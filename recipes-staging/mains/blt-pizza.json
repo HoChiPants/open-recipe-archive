@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blt-pizza",
+  "name": "BLT Pizza",
+  "subtitle": "Crisp bacon, tomato, lettuce, and mozzarella on a baked crust",
+  "description": "Bake a cheesy tomato pizza, then finish it with crisp bacon and creamy dressed lettuce for a simple BLT-inspired main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "refrigerated-pizza-crust-dough",
+      "item": "refrigerated pizza crust dough",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "iceberg-lettuce",
+      "item": "iceberg lettuce",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Cook the bacon in a skillet until crisp, then drain it and cut it into pieces."
+    },
+    {
+      "step": 2,
+      "text": "Unroll and shape the pizza crust dough on a baking sheet. Brush it with the olive oil, then add the mozzarella and chopped tomato."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 15 minutes, or until the cheese is melted and the crust is baked through.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Toss the shredded lettuce with the mayonnaise, then season with salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Cut the baked pizza into portions and top with the dressed lettuce and bacon."
+    }
+  ],
+  "tags": [
+    "pizza",
+    "bacon",
+    "tomato",
+    "lettuce",
+    "cheesy",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55307/blt-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d5c3005d08dc34a5127f496770489ae8008bcdb57a384209038aa121c7c39d8d",
+    "normalized_text_hash": "74eca8749371861cd94cb555f2298e02d97da1445893120a300309aed93bb03b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:54:02.338Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

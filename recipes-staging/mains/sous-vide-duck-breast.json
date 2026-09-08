@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sous-vide-duck-breast",
+  "name": "Sous Vide Duck Breast",
+  "subtitle": "Tender duck with crisp, browned skin",
+  "description": "Seasoned duck breasts are chilled, cooked in a controlled water bath, then quickly seared for a browned finish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 70,
+    "inactive_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-boneless-duck-breast-halves",
+      "item": "(8 ounce) boneless duck breast halves",
+      "quantity": 2,
+      "preparation": "skin on"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "fresh-thyme-leaves",
+      "item": "fresh thyme leaves",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Score the duck skin without cutting into the meat. Season both sides with salt, pepper, and thyme."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the seasoned duck to a bag or sealed cooking pouch and chill for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Preheat a water bath to 135°F."
+    },
+    {
+      "step": 4,
+      "text": "Cook the sealed duck in the 135°F bath for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Remove the duck and pat it dry. Season with additional salt and pepper if needed."
+    },
+    {
+      "step": 6,
+      "text": "Heat a skillet over medium-high heat and add the vegetable oil. Sear the duck skin-side down until golden brown, about 5 minutes, then turn and cook 1 minute more.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 7,
+      "text": "Use a food thermometer to verify that the duck reaches 165°F. Rest for 2 minutes before serving.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "duck",
+    "main-course",
+    "american",
+    "sous-vide"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "sous vide water bath",
+    "sealable cooking bag",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222207/sous-vide-duck-breast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0115df9e18a8b71e21e8d440a8c30c339a38911142571b5cd86048518144f1c6",
+    "normalized_text_hash": "6c82e450125d2bc58ddaaddf35c0ad366f553256d7452ba6d8effa19a38be73d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:11:37.649Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

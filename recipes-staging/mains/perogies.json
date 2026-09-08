@@ -1,0 +1,157 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "perogies",
+  "name": "Perogies",
+  "subtitle": "Potato-and-cheese dumplings with bacon and sauerkraut",
+  "description": "Boiled dumplings filled with mashed potatoes, Cheddar, and bacon, served with a bacon-sauerkraut topping and sour cream.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.66666698455811,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.25,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "32-ounce-jar-sauerkraut",
+      "item": "(32 ounce) jar sauerkraut",
+      "quantity": 1,
+      "preparation": "drained, rinsed and minced"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the flour, cold water, beaten egg, and 1 teaspoon salt until a smooth dough forms. Cover and let it set."
+    },
+    {
+      "step": 2,
+      "text": "Place the potatoes in a pot, cover with cold water, and cook until tender, about 35 minutes. Drain and mash until smooth.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 3,
+      "text": "Cook 1 pound bacon for about 10 minutes until crisp and at least 145°F. Drain, crumble, and stir into the mashed potatoes with the Cheddar. Season with salt and pepper, then let the filling set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Cook the remaining bacon with the minced sauerkraut for about 10 minutes until the bacon is crisp and at least 145°F. Transfer the mixture, whisk in the sour cream, and combine.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Roll the dough on a floured surface and cut it into rounds. Place filling in each round, fold over, and seal the edges."
+    },
+    {
+      "step": 6,
+      "text": "Bring cold water seasoned with salt and salt and pepper to taste to a simmer. Boil the perogies for about 5 minutes, until they float and the egg-containing dough is fully set; verify a 160°F internal temperature where measurable.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "dumplings",
+    "potatoes",
+    "cheese",
+    "bacon",
+    "sauerkraut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "mixing bowl",
+    "potato masher",
+    "rolling pin",
+    "knife or cutter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23058/perogies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e924b1e250611d53a1fca7bde6a92573c5abbf7efcf477eb075c70c803547bd7",
+    "normalized_text_hash": "19529b315f8c6e8d2a515a6da9cd0c22fd32ab0203d81a26a5d78dc7d9ae7654",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:11:32.477Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 24,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

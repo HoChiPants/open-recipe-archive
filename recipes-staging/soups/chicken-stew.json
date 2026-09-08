@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-stew",
+  "name": "Chicken Stew",
+  "subtitle": "A creamy vegetable stew with tender chicken",
+  "description": "Build a simple roux with aromatics, broth, and milk, then simmer it with vegetables, peas, corn, and cooked chicken for a hearty six-serving meal.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "ribs-celery",
+      "item": "ribs celery",
+      "quantity": 3,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-thyme",
+      "item": "ground thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "ground-turmeric",
+      "item": "ground turmeric",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-corn",
+      "item": "frozen corn",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "diced cooked"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large pot over medium heat. Add the onion, carrots, and celery; sauté for 10 minutes, until tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic and cook for 1 minute. Season with the salt and ground black pepper to taste.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Stir in the butter until melted, then add the flour and stir to form a smooth roux."
+    },
+    {
+      "step": 4,
+      "text": "Gradually transfer in the chicken broth and milk, stirring until combined and smooth."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the thyme, salt, pepper, and turmeric. Bring the stew to a gentle simmer."
+    },
+    {
+      "step": 6,
+      "text": "Add the peas, corn, and diced cooked chicken. Simmer for 15 minutes, stirring occasionally, then adjust the salt and ground black pepper to taste. If using uncooked chicken, cook until it reaches 165°F internally.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stew",
+    "chicken",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "wooden spoon",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283233/homemade-chicken-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "afc91e9623e5974aeeff075a5abc247b5d770ca5d24565b573b72f5d7384dfb0",
+    "normalized_text_hash": "f1155bf6525a0a79315879ddcd36361553eecc53f7989fa9862b1f01d53e776b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:37:50.408Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cacio-e-pepe-butter-beans",
+  "name": "Cacio e Pepe Butter Beans",
+  "subtitle": "Creamy beans with grated cheese and olive oil",
+  "description": "Warm butter beans are coated in melted butter and finished with finely grated pecorino or parmesan. Serve with crusty bread and cooked greens.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "x-400g-cans-butter-beans-drained",
+      "item": "x 400g cans butter beans drained",
+      "quantity": 2,
+      "preparation": "reserving the liquid"
+    },
+    {
+      "ingredient_id": "pecorino-or-parmesan-finely-grated",
+      "item": "pecorino or parmesan finely grated",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "preparation": "crusty bread and cooked greens to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the butter and drained butter beans in a skillet over medium heat, stirring for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Continue stirring until the butter has melted and the beans are hot. Add a little reserved bean liquid if needed for a loose coating."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the beans to serving dishes and top with the grated pecorino or parmesan."
+    },
+    {
+      "step": 4,
+      "text": "Drizzle with olive oil and serve with crusty bread and cooked greens."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "italian",
+    "butter-beans",
+    "cacio-e-pepe",
+    "vegetarian",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "serving dishes"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cacio-e-pepe-butter-beans",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00b50b654992fe7a0828f682f9f8e5b189bb020712f0cd049efef2fa7a172e19",
+    "normalized_text_hash": "3b54f2ff0c313dbde9a3749dd4b7088e51fae259d4f16b14e2e4f6f8a709853f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T20:15:02.392Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

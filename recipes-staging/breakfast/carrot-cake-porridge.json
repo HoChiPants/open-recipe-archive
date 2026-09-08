@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-cake-porridge",
+  "name": "Carrot Cake Porridge",
+  "subtitle": "Warm oat porridge with carrot, raisins, and spice",
+  "description": "A creamy breakfast porridge combining grated carrot, oats, raisins, cinnamon, and nutmeg, with optional nut butter or honey for serving.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 3,
+    "unit": "(or 2 adults and 2 children)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots-peeled-and-grated",
+      "item": "carrots peeled and grated",
+      "quantity": 2,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 180,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cinnamon",
+      "item": "cinnamon",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "grating-of-fresh-nutmeg",
+      "item": "grating of fresh nutmeg"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk-cow-s-or-plant-milk-work-well",
+      "item": "milk (cow’s or plant milk work well)",
+      "quantity": 850,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "nut-butter-such-as-almond-optional",
+      "item": "nut butter such as almond (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "honey-to-serve-optional",
+      "item": "honey to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the grated carrots, oats, cinnamon, nutmeg, raisins, and milk in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a gentle simmer, then cook for 15 minutes, stirring regularly, until the oats are tender and the porridge is thick.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Stir in the optional nut butter, then serve with optional honey."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "porridge",
+    "oats",
+    "carrots",
+    "raisins",
+    "cinnamon",
+    "nutmeg",
+    "family-friendly"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "grater",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carrot-cake-porridge",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d732ce7fb2375a72f9b16324c0f1fc75445f14c576d18cd85032e78f6d50b2a7",
+    "normalized_text_hash": "472f413fd27e385ebb8a3e7cd0c7c27843add3ca3f0d5c18012549399d0e312a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T00:02:10.172Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

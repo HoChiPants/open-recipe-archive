@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carbonara",
+  "name": "Carbonara",
+  "subtitle": "Creamy pecorino pasta with crisp guanciale",
+  "description": "A classic Italian pasta made by coating hot noodles with a pecorino-and-egg mixture, then folding in crisp guanciale for a rich, savory finish.",
+  "meal_type": "other",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 14
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "guanciale",
+      "item": "guanciale",
+      "quantity": 340,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "eggs-plus-5-6-egg-yolks-freeze-the-extra-whites-to-use-in-another-recipe",
+      "item": "eggs plus 5-6 egg yolks (freeze the extra whites to use in another recipe)",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "pecorino-romano-grated",
+      "item": "pecorino romano grated",
+      "quantity": 150,
+      "unit": "g",
+      "preparation": "plus extra to serve"
+    },
+    {
+      "ingredient_id": "mezzi-rigatoni-or-spaghetti",
+      "item": "mezzi rigatoni or spaghetti",
+      "quantity": 400,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the guanciale into thick pieces. Place it in a skillet and let it warm gradually over medium heat until the fat renders and the pieces are crisp, about 15 minutes. Remove the skillet from the heat and let it cool briefly.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, egg yolks, and grated pecorino romano until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Cook the pasta in boiling water until al dente, then drain, reserving a little cooking water."
+    },
+    {
+      "step": 4,
+      "text": "Return the skillet to low heat. Add the hot pasta and guanciale, then toss to coat."
+    },
+    {
+      "step": 5,
+      "text": "Remove the skillet from the heat and quickly stir in the egg-and-cheese mixture. Add a small amount of reserved pasta water if needed for a glossy sauce. Stir until the sauce reaches 160°F and is set but still creamy.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Serve immediately with extra pecorino romano."
+    }
+  ],
+  "tags": [
+    "italian",
+    "pasta",
+    "weeknight-dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/authentic-carbonara",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f21fbd34b07b23b6220a116896d96b7052829258c0fe9b1659996e92d7aa1595",
+    "normalized_text_hash": "396f5acb47fd317b42dc8092692359cd9a092df57685cbd73c93ed77bf273a28",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:45:13.274Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomatillo-soup",
+  "name": "Tomatillo Soup",
+  "subtitle": "Bright Mexican-style soup with shredded chicken",
+  "description": "Chicken, tomatillos, jalapeños, and cilantro simmer together in a savory broth, finished with sour cream for a creamy tang.",
+  "meal_type": "soup",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves - pounded thin"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "tomatillos",
+      "item": "tomatillos",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 2,
+      "preparation": "seeded and minced"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large pot over medium heat. Add the onion and garlic and cook until softened, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Add the tomatillos, jalapeños, chicken stock, hot pepper sauce, cayenne, salt, and black pepper. Bring to a simmer.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the chicken, cover, and simmer until cooked through and the thickest part reaches 165°F, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Transfer the chicken to a plate and shred it when cool enough to handle. Return the shredded chicken to the pot and stir to combine."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the cilantro and adjust the salt, black pepper, hot pepper sauce, and cayenne to taste."
+    },
+    {
+      "step": 6,
+      "text": "Whisk the sour cream with a small amount of hot soup until smooth, then stir the mixture into the pot and serve."
+    }
+  ],
+  "tags": [
+    "soup",
+    "mexican",
+    "chicken",
+    "tomatillo",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "wooden spoon",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13246/tomatillo-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "25be64674927089851a6b9abd602140f05d3a16a3622f740bd26528578646362",
+    "normalized_text_hash": "3fbf796394ce5ce71158155e7aa6e0afddf75763a63e7cd02d665449ce73deed",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:12:31.094Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

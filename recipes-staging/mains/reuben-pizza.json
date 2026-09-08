@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "reuben-pizza",
+  "name": "Reuben Pizza",
+  "subtitle": "A crisp bread-dough crust layered with classic deli-style toppings",
+  "description": "Thousand Island dressing, Swiss cheese, corned beef, sauerkraut, caraway, and pickles make a savory pizza for eight servings.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1-pound-loaf-frozen-whole-wheat-bread-dough",
+      "item": "(1 pound) loaf frozen whole wheat bread dough",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "thousand-island-dressing",
+      "item": "thousand island dressing",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "swiss-cheese",
+      "item": "Swiss cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "deli-sliced-corned-beef",
+      "item": "deli sliced corned beef",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "cut into strips"
+    },
+    {
+      "ingredient_id": "sauerkraut",
+      "item": "sauerkraut",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "rinsed and drained"
+    },
+    {
+      "ingredient_id": "caraway-seed",
+      "item": "caraway seed",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dill-pickles",
+      "item": "dill pickles",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the thawed dough, then shape it into a pizza crust and transfer it to a baking surface. Shape or stretch it evenly as needed."
+    },
+    {
+      "step": 3,
+      "text": "Bake the crust for 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 4,
+      "text": "Spread the dressing over the crust. Top with 1 cup of the Swiss cheese, the corned beef, sauerkraut, remaining Swiss cheese, and caraway seed."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, until the cheese is melted and the center is hot.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Top with the chopped dill pickles and let the pizza stand for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pizza",
+    "american",
+    "corned-beef",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking surface"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58480/reuben-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c11b7497a614b1c7181d9d802dc77fd4a9e90e48011c5841b5e5f830c024ec6b",
+    "normalized_text_hash": "c37c51695d95b789f2d211e59c426cd7228f349575ee0f64ca7c1d1d20c7d79e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:00:14.669Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

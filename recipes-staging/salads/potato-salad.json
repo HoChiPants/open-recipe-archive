@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-salad",
+  "name": "Potato Salad",
+  "subtitle": "Creamy red potato salad with pickles and eggs",
+  "description": "Tender red potatoes are combined with a tangy mayonnaise dressing, pickles, vegetables, and chopped hard-cooked eggs.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 5,
+      "unit": "pounds",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "finely-chopped-pickles",
+      "item": "finely chopped pickles",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 5,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "prepared-mustard",
+      "item": "prepared mustard",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped potatoes in a large pot, cover with water, and add the salt."
+    },
+    {
+      "step": 2,
+      "text": "Bring the water to a simmer and cook the potatoes until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes and let them cool."
+    },
+    {
+      "step": 4,
+      "text": "Stir together the mayonnaise, pickles, chopped eggs, onion, celery, mustard, and vinegar. Season with the black pepper and adjust the salt to taste."
+    },
+    {
+      "step": 5,
+      "text": "Fold the cooled potatoes into the dressing until evenly combined."
+    }
+  ],
+  "tags": [
+    "salad",
+    "american",
+    "potatoes",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232864/potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "373674e29ed38ddc2411c9338a36aabf5b74deaf1a2f0ad25c4ae3aeaf93e2b6",
+    "normalized_text_hash": "1181e9b0a739de39094ef4ad7ff824e8533acff08dee9b72dd31446d56a8500f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:36.921Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

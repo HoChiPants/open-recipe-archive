@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "condensed-cream-of-chicken-soup",
+  "name": "Condensed Cream of Chicken Soup",
+  "subtitle": "A quick, silky soup base for two",
+  "description": "Make a smooth, creamy soup base by thickening butter and flour with stock and milk, then simmering until velvety.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the salted butter in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Whisk in the flour and cook for 2 minutes, until the mixture is thick.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk in the chicken stock until smooth, then whisk in the milk."
+    },
+    {
+      "step": 4,
+      "text": "Bring the mixture to a gentle simmer and cook for 5 minutes, stirring, until thickened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Check with a food thermometer and heat to 165°F, then season with salt and ground black pepper to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283259/homemade-condensed-cream-of-chicken-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d76a9e4a3d5a252556b3533d3d13248bdff3854e7933c68a39a1a4a35f01f687",
+    "normalized_text_hash": "780722392fd610c12802a260049db85d02fdfe6d3c007206e576645d32a7d144",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:38:49.225Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

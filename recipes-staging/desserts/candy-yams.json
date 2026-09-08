@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "candy-yams",
+  "name": "Candy Yams",
+  "subtitle": "Tender sweet potatoes with caramel and toasted marshmallows",
+  "description": "Chopped sweet potatoes bake with caramel topping, brown sugar, and butter, then finish under a layer of melted miniature marshmallows.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-potato",
+      "item": "sweet potato",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "12-ounce-jar-caramel-topping",
+      "item": "(12 ounce) jar caramel topping",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.125,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the chopped sweet potatoes in a baking dish. Pour the caramel topping over them, then add the brown sugar and butter."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the sweet potatoes are tender, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Scatter the miniature marshmallows over the sweet potatoes and return the dish to the oven until the marshmallows are melted, about 10 minutes.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "sweet-potatoes",
+    "holiday",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23130/easy-candy-yams/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6f8b7e79c8bfa0807bf93de0017fb8dcb48e4fe5751c3aeecbb2346383ec4ba3",
+    "normalized_text_hash": "7604465feaa760358928c5cc739e08075c712da247cc5ded9067d8d9f73513a8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:23:57.149Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

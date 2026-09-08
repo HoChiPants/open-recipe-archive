@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-cucumber-relish",
+  "name": "Sweet Cucumber Relish",
+  "subtitle": "A crisp, tangy relish for generous batch cooking",
+  "description": "Cucumbers and onions are salted, drained, and combined with a spiced vinegar mixture before being portioned into jars.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 128,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "english-cucumbers",
+      "item": "English cucumbers",
+      "quantity": 7,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "sweet-onions",
+      "item": "sweet onions",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "pickling-salt",
+      "item": "pickling salt",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-turmeric",
+      "item": "ground turmeric",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "celery-seed",
+      "item": "celery seed",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ning-jars-with-lids-and-rings",
+      "item": "ning jars with lids and rings",
+      "quantity": 4,
+      "unit": "can",
+      "preparation": "1 pint"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Finely chop the cucumbers and peeled onions, combine them in a large bowl, and toss with the pickling salt. Cover and refrigerate for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Drain the vegetables thoroughly, rinse them, and drain again. Prepare the jars, lids, and rings in boiling water for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the flour, turmeric, ginger, celery seed, and 2 cups of the sugar in a saucepan."
+    },
+    {
+      "step": 4,
+      "text": "Add the vinegar and water, then whisk in the remaining sugar until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the drained vegetables and bring the mixture to a simmer. Cook for 15 minutes, stirring occasionally, until thickened.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Transfer the hot relish to the prepared pint jars, leaving the jar contents arranged for processing, and secure the lids and rings."
+    },
+    {
+      "step": 7,
+      "text": "Place the filled jars in boiling water and simmer for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 8,
+      "text": "Transfer the jars out of the water and let them cool completely."
+    }
+  ],
+  "tags": [
+    "relish",
+    "condiment",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large bowl",
+    "saucepan",
+    "jars with lids and rings",
+    "boiling-water canner"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/166211/the-best-relish-ive-ever-had/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "30412ee8fb9c63be46a2dd770f1bf41be853a54a31becdcc7bfbeeaa3271f494",
+    "normalized_text_hash": "2fa0995177de4d295eaa5f13e806dccb3528814da60cbb946c88dc400836235c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:59:13.232Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

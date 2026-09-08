@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-yorkshire-puddings",
+  "name": "Air-Fryer Yorkshire Puddings",
+  "subtitle": "Light, crisp puddings for a roast dinner",
+  "description": "A simple British side made from a smooth egg batter cooked in hot oil until puffed and set.",
+  "meal_type": "side",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sunflower-or-vegetable-oil",
+      "item": "sunflower or vegetable oil",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 100,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its instructions. Divide the oil among four heatproof pudding molds or wells and place them in the basket."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour and eggs together. Gradually add the milk, whisking until the batter is smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Carefully pour the batter into the hot oiled molds."
+    },
+    {
+      "step": 4,
+      "text": "Cook until puffed and beginning to set.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 5,
+      "text": "Continue cooking until the puddings are cooked through, with firm centers reaching 160°F if checked with a thermometer.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "british",
+    "air-fryer",
+    "roast-dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "four heatproof pudding molds or wells",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-yorkshire-puddings",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "20ae4335de34ae592834aa81d4e802e56ac60ae0939c94f8cb84822c0fe73cb5",
+    "normalized_text_hash": "d9788b1e3cc2d75b23acf6b57a051908d7e8d978e11cda2c78fa3055327f404d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:32:54.248Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

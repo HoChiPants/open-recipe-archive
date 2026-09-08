@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-mini-quiches",
+  "name": "Easy Mini Quiches",
+  "subtitle": "Bite-size savory egg cups with bacon, onion, parsley, and cheese.",
+  "description": "Small baked quiches made with a bacon-and-onion filling, shredded cheese, parsley, eggs, and baking mix.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "buttermilk-baking-mix",
+      "item": "buttermilk baking mix",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "american-cheese",
+      "item": "American cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F and prepare mini muffin tins for 24 portions."
+    },
+    {
+      "step": 2,
+      "text": "Cook the chopped bacon and onion together for 5 minutes, until tender. Let the mixture cool until set.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs in a bowl. Stir in the cooled bacon mixture, baking mix, parsley, and shredded cheese until combined."
+    },
+    {
+      "step": 4,
+      "text": "Divide the mixture among the prepared tins and bake for 15 minutes, until lightly browned and the centers are fully set.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "mini-quiche",
+    "savory",
+    "baked",
+    "egg-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mini muffin tins",
+    "skillet",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/40023/easy-mini-quiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f3c8ce119eaa141cb6fb21b142791fb45102d23635c85cbfce480031ae8be382",
+    "normalized_text_hash": "80711f667330ac72332b88198e3d7d14656a12000abbc5a675d747c6b3f1d3db",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:38:55.861Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mushroom-risotto",
+  "name": "Mushroom Risotto",
+  "subtitle": "Creamy rice with tender mushrooms and Parmesan",
+  "description": "A savory stovetop risotto finished with milk, cream, butter, and Parmesan for a rich, smooth texture.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 3,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rice",
+      "item": "rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable stock",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a large saucepan over medium heat. Add the onions and cook until softened."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the garlic, parsley, celery, and salt and pepper to taste. Cook briefly, then add the mushrooms and sauté until tender."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the whole milk, heavy cream, and rice, then add the mixture to the saucepan."
+    },
+    {
+      "step": 4,
+      "text": "Add the vegetable stock gradually, stirring as the rice absorbs each addition, until the rice is creamy and tender.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Stir in the butter and grated Parmesan cheese. Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "risotto",
+    "vegetarian",
+    "mushrooms"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17323/mushroom-risotto/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3f25f38d78c1cc4142f526e2cc5f544786321c0a209a98f0d727fb04490c3359",
+    "normalized_text_hash": "e12be46fe9630591fa5da972a13775242f75aaabf5b4d6a99905c21b8babd2dd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:02:54.403Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

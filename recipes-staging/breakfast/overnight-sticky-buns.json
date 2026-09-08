@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "overnight-sticky-buns",
+  "name": "Overnight Sticky Buns",
+  "subtitle": "Soft pull-apart buns with cinnamon, brown sugar, and walnuts",
+  "description": "Prepare these sticky buns the night before, let them rise slowly, then bake until golden and fragrant.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "frozen-dinner-roll-dough",
+      "item": "frozen dinner roll dough",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5 ounce"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread the chopped walnuts in the bottom of a baking pan. Arrange the frozen dinner roll dough over the walnuts."
+    },
+    {
+      "step": 2,
+      "text": "Sprinkle the pudding mix, brown sugar, and cinnamon evenly over the dough, then pour the melted margarine over the top."
+    },
+    {
+      "step": 3,
+      "text": "Cover the pan and let the buns stand at room temperature for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 5,
+      "text": "Bake until puffed and golden, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "sweet-roll",
+    "overnight",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24154/marcias-famous-sticky-buns/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a1346981d6c2b31dc57a44fbe72a82817a2596090d88c0368aa68e209d2f87b0",
+    "normalized_text_hash": "9d5b1eeefe52ef532c5c692d35dfb74813382b101d8775117f173d67fe06c820",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:20:01.495Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-pastry-cream",
+  "name": "Vanilla Pastry Cream",
+  "subtitle": "Silky custard for filling and topping desserts",
+  "description": "A smooth vanilla custard thickened with flour and finished with butter.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-bean",
+      "item": "vanilla bean",
+      "quantity": 1,
+      "preparation": "halved lengthwise"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the milk, white sugar, and vanilla bean until steaming. Do not boil."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg yolks with the remaining sugar until smooth. Combine the flour and salt, then whisk them into the yolks."
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk the hot milk into the yolk mixture, then return everything to the pan."
+    },
+    {
+      "step": 4,
+      "text": "Cook over medium heat, whisking constantly, until the custard simmers, thickens, and reaches 160°F.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and whisk in the butter until smooth. Chill until set."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "custard",
+    "vanilla",
+    "pastry-filling"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7553/vanilla-pastry-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b1664ee75b2ed2876bdf48937b9fa91c8e1a068097ecc4b0a8207548a3cb524",
+    "normalized_text_hash": "38fb5382ba1fa42a780cfae4a8480042685ce7475ec66fe6cd94306b5f974166",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:41:36.354Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-london-broil",
+  "name": "Grilled London Broil",
+  "subtitle": "Herb-seasoned grilled top round",
+  "description": "Top round is tenderized, marinated with lemon, garlic, herbs, and vinegar, then grilled and rested before slicing.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "top-round",
+      "item": "top round",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "London Broil cut"
+    },
+    {
+      "ingredient_id": "meat-tenderizer",
+      "item": "meat tenderizer",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "seasoning-salt",
+      "item": "seasoning salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "lemon-pepper",
+      "item": "lemon pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 4,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "tarragon-vinegar",
+      "item": "tarragon vinegar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pierce the top round evenly with a meat tenderizer, then place it in a shallow dish or resealable bag."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the vegetable oil, lemon juice, seasoning salt, lemon pepper, garlic, parsley, tarragon vinegar, and meat tenderizer. Pour the mixture over the beef, turn to coat, cover, and refrigerate for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to medium-high heat and remove the beef from the marinade."
+    },
+    {
+      "step": 4,
+      "text": "Grill the beef for 5 minutes per side, or until the thickest part reaches 145°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Rest the meat for 3 minutes, then slice thinly across the grain and serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "beef"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "grill",
+    "meat tenderizer",
+    "shallow dish or resealable bag",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14639/london-broil/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03c99ccd810e1162c0b9692a75cd6c9d84ceeee6fab1a9307ec8155f224bbd80",
+    "normalized_text_hash": "421ff08856bc0e8039506a80d7c93e2cb07ca0cbe04a85fc325edc53647e681a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:08:09.293Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

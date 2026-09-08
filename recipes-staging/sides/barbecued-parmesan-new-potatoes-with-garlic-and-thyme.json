@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "barbecued-parmesan-new-potatoes-with-garlic-and-thyme",
+  "name": "Barbecued Parmesan New Potatoes with Garlic and Thyme",
+  "subtitle": "Tender potatoes with a crisp, savory cheese topping",
+  "description": "Parboiled new potatoes are finished on the barbecue with garlic, thyme, oil, and grated parmesan.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "new-potatoes",
+      "item": "new potatoes",
+      "quantity": 1.2,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "rapeseed-or-olive-oil",
+      "item": "rapeseed or olive oil",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "garlic-cloves-roughly-chopped",
+      "item": "garlic cloves roughly chopped",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "thyme-sprigs-leaves-picked",
+      "item": "thyme sprigs leaves picked",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "block-of-parmesan-or-vegetarian-alternative",
+      "item": "block of parmesan (or vegetarian alternative)",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "grated"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the new potatoes in water for 15 minutes, until nearly tender. Drain well.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Preheat the barbecue to medium heat. Halve the potatoes and toss them with the oil, garlic, and thyme."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the potatoes to a suitable barbecue pan or foil tray and cook for 20 minutes, turning occasionally.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Scatter over the grated parmesan and cook for a further 20 minutes, until the potatoes are tender and the cheese is browned.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "barbecue",
+    "potatoes",
+    "parmesan",
+    "garlic",
+    "thyme"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "barbecue",
+    "large pot",
+    "barbecue-safe pan or foil tray"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/barbecued-parmesan-new-potatoes-with-garlic-thyme",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1f718816b47c070810a892fc27ca8f37aad413033109afb56a75de638abe267d",
+    "normalized_text_hash": "ff8e5393dfdf96fa42e70db0a024b6ed6d8579da3bb19ffead9a479f76ada723",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:12:45.376Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

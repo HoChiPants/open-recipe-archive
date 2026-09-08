@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chinese-almond-cookies",
+  "name": "Chinese Almond Cookies",
+  "subtitle": "Crisp almond-topped cookies with a tender crumb",
+  "description": "A simple batch of almond cookies made with lard, almond extract, and whole almonds.",
+  "meal_type": "dessert",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 48,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.75,
+      "unit": "cups",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lard",
+      "item": "lard",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 48
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sifted flour with the sugar, baking soda, and salt."
+    },
+    {
+      "step": 3,
+      "text": "Cut the lard into the dry mixture, then add the egg and almond extract. Mix until a dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into 48 cookies and place one almond on each."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 18 minutes, until golden brown and the centers are fully set; verify the center reaches 160°F for egg safety.",
+      "timer_minutes": 18
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "baking",
+    "chinese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10723/chinese-restaurant-almond-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a123bba434795c35a0e6da786543feeb6c1a1e81dbac79b9a06448335335eac0",
+    "normalized_text_hash": "1048c031d60709a162d947a0601e9a50d87a88417253ea9935d8a5b6038818d0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:25:27.495Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

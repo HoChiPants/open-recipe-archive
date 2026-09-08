@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-cobbler-7c563350",
+  "name": "Peach Cobbler",
+  "subtitle": "A simple baked peach dessert with a buttery bread topping.",
+  "description": "Layer sliced peaches with a sweet butter-flour mixture and white bread, then bake until golden and fully set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 6,
+      "preparation": "pitted, skinned, and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 5
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the white bread into pieces and arrange a layer in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the sugar, flour, melted butter, and egg until combined."
+    },
+    {
+      "step": 4,
+      "text": "Add the sliced peaches to the mixture and stir gently to coat."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the peach mixture over the bread and cover with the remaining bread pieces."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, until golden brown and the center is fully set; verify the egg-containing center reaches 160°F.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "baked",
+    "peaches",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12595/too-easy-peach-cobbler/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1708f6d08b9500c9b062e54591b32e1df8c79f3fcc5d569e96b091542a19ad20",
+    "normalized_text_hash": "dfe6578194bfd56eb26dff63810667cbf1311df5d1ef18c8471e940f3a5d77ff",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:16:41.240Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

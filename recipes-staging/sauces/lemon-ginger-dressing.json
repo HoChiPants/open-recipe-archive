@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-ginger-dressing",
+  "name": "Lemon-Ginger Dressing",
+  "subtitle": "A bright, tangy dressing with fresh ginger.",
+  "description": "Whisk or blend olive oil, citrus, vinegar, ginger, and salt into a smooth dressing for salads, vegetables, or grain bowls.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-ginger",
+      "item": "fresh ginger",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the olive oil, lemon juice, apple cider vinegar, minced ginger, and salt in a bowl or blender."
+    },
+    {
+      "step": 2,
+      "text": "Whisk vigorously or blend until smooth and well combined."
+    }
+  ],
+  "tags": [
+    "dressing",
+    "condiment",
+    "lemon",
+    "ginger"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "bowl",
+    "whisk or blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238488/refreshing-lemon-ginger-dressing/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "da3b990684871897c35c389e5c2450c8a4c0f2f3a8f251811c66964a92e3fa2e",
+    "normalized_text_hash": "583aab370cae84a8c9eb74d64132843ad9c716d0e5a0c522b5e1cbc9be002a7b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:57:31.062Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

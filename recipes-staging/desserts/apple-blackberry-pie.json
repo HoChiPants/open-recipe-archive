@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-blackberry-pie",
+  "name": "Apple Blackberry Pie",
+  "subtitle": "Tart apples and blackberries beneath a crisp pastry crust",
+  "description": "A double-crust fruit pie filled with sliced apples, blackberries, and a buttery sugar sauce.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "6-ounce-container-blackberries",
+      "item": "(6 ounce) container blackberries",
+      "quantity": 1,
+      "preparation": "halved - divided"
+    },
+    {
+      "ingredient_id": "double-crust-pie-pastry",
+      "item": "double-crust pie pastry",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14.1 ounce, thawed"
+    },
+    {
+      "ingredient_id": "granny-smith-apple",
+      "item": "Granny Smith apple",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled, cored, and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Melt the butter in a saucepan, stir in the flour until smooth, then whisk in both sugars, water, and lemon juice. Simmer for 3 minutes, stirring occasionally.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Fit half of the thawed pastry into a pie dish. Arrange the apples and half of the blackberries inside, then pour the warm butter-sugar mixture over the fruit."
+    },
+    {
+      "step": 3,
+      "text": "Cut the remaining pastry into strips or shapes and arrange it over the filling. Seal the edges and leave openings for steam."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 425°F for 15 minutes, then reduce the oven to 350°F and continue baking until the crust is golden and the filling is bubbling, about 40 minutes.",
+      "timer_minutes": 55
+    },
+    {
+      "step": 5,
+      "text": "Let the pie cool before slicing."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit-dessert",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232434/apple-blackberry-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "849c2e676187fa8e4caf3fdc072722fb1e26324ca3ac256017ee9a304371b6ab",
+    "normalized_text_hash": "cc1b10cd80ca09bc09e333a3b23e6c49363442a12d0b99b9014e27f0c6a9a08f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:17:31.127Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

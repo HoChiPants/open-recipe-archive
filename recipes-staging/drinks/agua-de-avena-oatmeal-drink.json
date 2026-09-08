@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "agua-de-avena-oatmeal-drink",
+  "name": "Agua de Avena (Oatmeal Drink)",
+  "subtitle": "A chilled cinnamon-vanilla oat beverage",
+  "description": "Blend oats with cinnamon, sweeten with sugar and vanilla, then chill for a refreshing Mexican drink.",
+  "meal_type": "drink",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 8,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "quick-cooking-oats",
+      "item": "quick-cooking oats",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the oats, cinnamon stick, and half of the water in a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend for 1 minute, until combined.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Pour the blended mixture into a pitcher and stir in the remaining water, sugar, and vanilla extract."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate until thoroughly chilled.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "drink",
+    "mexican",
+    "oat-beverage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "pitcher",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254558/refreshing-oatmeal-drink-agua-de-avena/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "544aab82174f9b75b0f634eb0eb34f5e056eb53f77951705c2fcb27e8bc188f3",
+    "normalized_text_hash": "d3606946667330b0220e3a11d98649367a669df80d97994e902982f48e74202f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:57:46.424Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

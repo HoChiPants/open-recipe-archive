@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kettle-corn",
+  "name": "Kettle Corn",
+  "subtitle": "Lightly sweet popcorn with a crisp sugar coating",
+  "description": "Popcorn cooked in oil with white and brown sugar, then cooled and seasoned with salt.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "corn-oil",
+      "item": "corn oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "unpopped-popcorn",
+      "item": "unpopped popcorn",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a large heavy-bottomed pot over medium heat. Add the corn oil and a few popcorn kernels, cover, and heat until the kernels pop."
+    },
+    {
+      "step": 2,
+      "text": "Add the remaining popcorn, white sugar, and brown sugar. Cover and cook, shaking the pot frequently, until the popping slows to several seconds between pops.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Immediately transfer the kettle corn to a parchment-lined baking sheet, spread it out, and let it cool completely.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Break apart any clusters and season with salt to taste."
+    }
+  ],
+  "tags": [
+    "snack",
+    "dessert",
+    "popcorn"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large heavy-bottomed pot",
+    "lid",
+    "baking sheet",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218567/state-fair-kettle-corn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e42dc6baa505993e79712a724513a02fe46546e7777591c767c24d9b948162c4",
+    "normalized_text_hash": "df24c7395923bb11237a2ec931bb17b3b9b20acd7b194d9e646cfd3ca7a6e14b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:48:52.854Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

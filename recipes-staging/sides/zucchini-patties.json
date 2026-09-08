@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-patties",
+  "name": "Zucchini Patties",
+  "subtitle": "Crisp-edged vegetable patties with melted cheese",
+  "description": "Grated zucchini, eggs, flour, cheese, and onion form savory patties that are sautéed until golden and fully set.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "grated-zucchini",
+      "item": "grated zucchini",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the grated zucchini and Parmesan cheese in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the beaten eggs, flour, mozzarella, onion, and salt until combined."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet over medium heat and add the vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the mixture into patties and sauté until golden brown, turning as needed; ensure the centers are firm and fully set before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13941/zucchini-patties/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dfeef10ff5bc6809345883945a20c3df5c76e3949f2e76f675bf9ee734971abb",
+    "normalized_text_hash": "6bc279d46723129e80c98ed4fe1900d82cc73b1ad1a586434aadb76a46715a12",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:17:34.045Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

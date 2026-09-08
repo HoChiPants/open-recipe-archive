@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homemade-baked-tortilla-chips",
+  "name": "Homemade Baked Tortilla Chips",
+  "subtitle": "Crisp, lightly salted chips from flour tortillas",
+  "description": "Bake seasoned flour tortilla pieces until crisp for an easy snack or appetizer.",
+  "meal_type": "snack",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour-tortillas",
+      "item": "flour tortillas",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "drizzle-olive-oil",
+      "item": "drizzle olive oil",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the flour tortillas into chip-size wedges and arrange them in a single layer on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Drizzle with olive oil and season with salt to taste."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 5 minutes, until crisp and lightly browned.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "mexican"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/281068/homemade-baked-tortilla-chips/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "342f951fb15561f7d816f4b836595b40e8c88784f11fdef6a2f00440a5823d27",
+    "normalized_text_hash": "b4c3bce1b175f722d68c4e36907bc3d5e105c446444cb976cadff4acf5d24ec1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:35:54.932Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-baby-back-ribs",
+  "name": "Slow Cooker Baby Back Ribs",
+  "subtitle": "Tender ribs with a smoky barbecue finish",
+  "description": "Seasoned pork ribs cook slowly with onion and garlic, then are coated with barbecue sauce and finished under high heat.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 255
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baby-back-ribs",
+      "item": "baby back ribs",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper",
+      "item": "salt and ground black pepper",
+      "preparation": "to taste"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "barbeque-sauce",
+      "item": "barbeque sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "18 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Season the trimmed ribs with salt and ground black pepper."
+    },
+    {
+      "step": 2,
+      "text": "Place the ribs and water in a slow cooker. Add the sliced onion and minced garlic."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the ribs are tender, about 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 375°F, then transfer the ribs to a baking pan."
+    },
+    {
+      "step": 5,
+      "text": "Coat the ribs with barbeque sauce and bake for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Finish the ribs on a grill if desired. Check the thickest portion with a food thermometer; pork ribs should reach at least 145°F, then rest for 3 minutes before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "entree",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "baking pan",
+    "food thermometer",
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228498/slow-cooker-baby-back-ribs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ba3526ee126b6d58c252c8bbca059cdf3dd2b9e5b9c1073290e56bbe4ffdb0ec",
+    "normalized_text_hash": "81ca7df926dfd0c25d3722f88776f96cbffd2beb09eb34996de07a4c8fe125d3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:38:00.526Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

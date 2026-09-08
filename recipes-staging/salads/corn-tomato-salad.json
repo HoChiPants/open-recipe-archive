@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "corn-tomato-salad",
+  "name": "Corn Tomato Salad",
+  "subtitle": "A chilled salad of sweet corn, fresh vegetables, and tangy dressing.",
+  "description": "Tender corn is cooled, combined with crisp vegetables, and finished with a balsamic-garlic dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ears-corn",
+      "item": "ears corn",
+      "quantity": 6,
+      "preparation": "husked and cleaned"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "seeded and diced"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cleaned corn in a pot of water, bring to a simmer, and cook for 5 minutes, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Transfer the corn to a plate and let it cool for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Cut the kernels from the cooled ears and place them in a large bowl with the bell pepper, onion, and tomato."
+    },
+    {
+      "step": 4,
+      "text": "Whisk together the olive oil, balsamic vinegar, garlic, and black pepper, then pour over the vegetables and toss to coat."
+    },
+    {
+      "step": 5,
+      "text": "Refrigerate the salad for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "salad",
+    "corn",
+    "tomato",
+    "make-ahead"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "large bowl",
+    "knife",
+    "cutting board",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75311/corn-tomato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "896d74387474e2e6c3f0da97969ab2807231aa8e7106eb7ff15d08dbb64e2f00",
+    "normalized_text_hash": "1b1f867b835d24672f9559cdf246af9d7382560b42e06203d27512c62d679303",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:10:01.767Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

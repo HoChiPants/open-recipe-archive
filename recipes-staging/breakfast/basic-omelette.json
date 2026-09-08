@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-omelette",
+  "name": "Basic Omelette",
+  "subtitle": "A simple, tender egg breakfast",
+  "description": "Cook beaten eggs in a buttered, oiled skillet until fully set, then fold and serve warm.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggs-beaten",
+      "item": "eggs beaten",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "sunflower-oil",
+      "item": "sunflower oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the sunflower oil and butter in a skillet over medium heat until the butter melts."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the beaten eggs and cook, gently drawing the setting edges toward the center so uncooked egg flows underneath.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Continue cooking until the center is firm and reaches 160°F, then fold the omelette in half."
+    },
+    {
+      "step": 4,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "eggs",
+    "omelette",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/basic-omelette",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bbda3096923c48edba78336ebc3ce5cb287f6d68d4dd2e52206bcc3d1ce590d4",
+    "normalized_text_hash": "0c283e918989ec89fea8a54711a128a72028fce92505a937266af866337e63a3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:13:30.361Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

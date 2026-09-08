@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-cakes",
+  "name": "Zucchini Cakes",
+  "subtitle": "Crisp-edged vegetable cakes with a savory crumb coating",
+  "description": "Grated zucchini, egg, onion, and seasoned crumbs form tender cakes that are lightly floured and pan-fried until golden and fully set.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "grated-zucchini",
+      "item": "grated zucchini",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "seasoned-bread-crumbs",
+      "item": "seasoned bread crumbs",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "old-bay-seasoning-tm",
+      "item": "Old Bay Seasoning TM",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the grated zucchini with the melted butter and beaten egg. Stir in the seasoned bread crumbs, minced onion, and Old Bay Seasoning TM until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Shape the mixture into five equal cakes, then coat each lightly with all-purpose flour."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet over medium heat and add the vegetable oil for frying."
+    },
+    {
+      "step": 4,
+      "text": "Sauté the cakes in the hot oil until golden brown on both sides and the centers are fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "zucchini",
+    "pan-fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13938/connies-zucchini-crab-cakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a41712f96935888dfa67776c079225520a2a570305c534b09704bab3555b07f9",
+    "normalized_text_hash": "7ff7e030085a32a1fd73c3e5b953d11228e892285471dc175170e79c6df7eb9b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:06:28.767Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-ham-with-sweet-gravy",
+  "name": "Baked Ham with Sweet Gravy",
+  "subtitle": "Brown sugar-glazed ham with apple gravy",
+  "description": "Warm fully cooked ham under a brown sugar glaze, then turn the apple-infused pan juices into a simple creamy gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 90,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-pound-fully-cooked-bone-in-ham",
+      "item": "(8 pound) fully cooked bone-in ham",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apple-juice",
+      "item": "apple juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Score the ham’s surface in shallow cuts and place it in a roasting pan."
+    },
+    {
+      "step": 2,
+      "text": "Press the brown sugar over the ham and pour the apple juice into the pan. Cover and bake for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Uncover and continue heating until the center reaches 145°F. Remove the ham and let it rest for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Pour the pan juices into a saucepan. Whisk the all-purpose flour and milk together until smooth, then add the mixture to the juices."
+    },
+    {
+      "step": 5,
+      "text": "Bring the gravy to a simmer, whisking for about 5 minutes, until thickened. Slice the ham and serve with the gravy.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "ham",
+    "gravy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233614/baked-ham-with-sweet-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64831ecb4d092d91808be7abc57fd117cfcbcda6789524d5ad10f17e8654b8e5",
+    "normalized_text_hash": "47ac9d9f2d10db398bbc53078c8af545f5005fc1c5e85cb949b7eb5eb97e7c6f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:48:17.245Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

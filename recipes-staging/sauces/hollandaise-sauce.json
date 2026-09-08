@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hollandaise-sauce",
+  "name": "Hollandaise Sauce",
+  "subtitle": "A quick, creamy sauce with lemon and butter",
+  "description": "Whisk egg yolks with lemon juice, milk, and seasoning, then blend in melted butter and microwave until thick and safely heated.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted and slightly cooled"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg yolks, lemon juice, milk, and salt and pepper until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the melted, slightly cooled butter until combined."
+    },
+    {
+      "step": 3,
+      "text": "Microwave the mixture for 1 minute, stirring as needed, until thick and the sauce reaches 160°F.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "sauce",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "whisk",
+    "microwave-safe bowl",
+    "microwave"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246061/one-minute-hollandaise-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9ce64ecebe005600be848cd7b060ea4ea16df9f5f27255543cdb6c5f832e793c",
+    "normalized_text_hash": "b47d57cccc707a89ba9c38edf629cf94c978d3842e871063d6a358fd572dfbfe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:31:00.158Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

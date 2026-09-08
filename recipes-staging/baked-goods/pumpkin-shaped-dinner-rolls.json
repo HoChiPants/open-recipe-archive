@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-shaped-dinner-rolls",
+  "name": "Pumpkin-Shaped Dinner Rolls",
+  "subtitle": "Soft yeast rolls formed into seasonal shapes",
+  "description": "Make a buttery, lightly sweet yeast dough, shape each portion with oiled kitchen string, and bake until lightly browned.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-milk",
+      "item": "warm milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "fine-salt",
+      "item": "fine salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "kitchen-string-4-per-roll",
+      "item": "kitchen string (4 per roll)"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the warm milk, yeast, honey, and melted butter. Stir in the salt and flour until a soft dough forms, adding flour as needed."
+    },
+    {
+      "step": 2,
+      "text": "Knead the dough on a lightly floured surface until smooth. Place it in an oiled bowl, cover, and let it rise for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Divide the dough into 12 portions and shape them into balls. Cut four lengths of kitchen string per roll and coat the string lightly with vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the oiled strings around each dough ball to create eight pumpkin sections, tying them loosely on top. Set the shaped rolls on a prepared baking sheet, cover, and let them rest for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Heat the oven to 375°F. Bake the rolls until lightly browned, about 20 minutes. Cool for 15 minutes, then remove and discard the string before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner-rolls",
+    "yeast-bread",
+    "holiday-baking"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "kitchen string",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276472/pumpkin-shaped-dinner-rolls/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c4d49f33a9b0242591a792b87ad7e18ab725ceb5f28fd7c224683ad92f276feb",
+    "normalized_text_hash": "2c40a2db34b7d06b13cf9e910d1ef1a25969ab2620d999ccbc1e3fa043f6d529",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:35:59.744Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

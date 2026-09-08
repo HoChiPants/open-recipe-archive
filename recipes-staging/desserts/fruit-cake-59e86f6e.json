@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-cake-59e86f6e",
+  "name": "Fruit Cake",
+  "subtitle": "A rich cake packed with candied fruit, dates, pecans, and coconut.",
+  "description": "A simple American fruit cake made by combining dried and candied fruit with nuts, coconut, flour, and condensed milk before baking.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "candied-cherries",
+      "item": "candied cherries",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "candied-pineapple",
+      "item": "candied pineapple",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "dates",
+      "item": "dates",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 4,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the candied cherries, candied pineapple, pitted dates, and chopped pecans in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Toss the mixture with the flour until the fruit and nuts are lightly coated."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the sweetened condensed milk, then fold in the flaked coconut until evenly blended."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a prepared baking pan and spread it into an even layer."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 300°F until firm and set, about 90 minutes.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 7,
+      "text": "Cool the cake before cutting into servings."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-cake",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "large mixing bowl",
+    "baking pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9475/never-fail-fruit-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "030690b039802163a4e261c7fbd5898820afb03a6f27b05dd0eb429fea2a3a79",
+    "normalized_text_hash": "29430bb3c9507360a0951b8f6e77f94ec4698a4b32748d9891f5f253bcb149fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:10:44.855Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

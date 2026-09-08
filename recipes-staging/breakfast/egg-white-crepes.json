@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-white-crepes",
+  "name": "Egg-White Crepes",
+  "subtitle": "Tender whole-wheat crepes with warm berries",
+  "description": "Light crepes made with egg whites and whole-wheat flour, filled with thawed berries and finished with confectioners' sugar.",
+  "meal_type": "breakfast",
+  "cuisine": "French Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-wheat-flour",
+      "item": "whole wheat flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "skim-milk",
+      "item": "skim milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "mixed-frozen-berries",
+      "item": "mixed frozen berries",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "thawed and drained"
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour, milk, egg whites, and salt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a nonstick skillet over medium heat and lightly coat it with the vegetable oil."
+    },
+    {
+      "step": 3,
+      "text": "Pour in enough batter to make a thin crepe. Cook for about 2 minutes, turning once, until lightly browned and the center is fully set, reaching 160°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Warm the thawed, drained berries briefly in the skillet or a small saucepan.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Fill each crepe with berries, fold, and transfer to serving plates."
+    },
+    {
+      "step": 6,
+      "text": "Dust with confectioners' sugar and serve with the remaining berries."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "crepes",
+    "whole-wheat",
+    "berries"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "nonstick skillet",
+    "small saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141970/egg-white-crepes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03b95417a264a6b4996c2ac8cc212d4e6b2b74a16e6dfb694053edd45a1f8519",
+    "normalized_text_hash": "b5682749368638136e5e67af1e280c294ba735b898ef6b42bd89cb514a46fccc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:55:43.944Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

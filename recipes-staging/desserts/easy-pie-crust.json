@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-pie-crust",
+  "name": "Easy Pie Crust",
+  "subtitle": "A simple oil-based crust for one pie",
+  "description": "Mix a lightly sweetened dough, press it into a pie plate, and bake until golden brown.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly prepare a pie plate and preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, vegetable oil, milk, sugar, and salt in a bowl; stir until a cohesive dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Press the dough evenly into the prepared pie plate."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 15 minutes, or until golden brown.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Use the crust as directed in the pie recipe, or cool before filling."
+    }
+  ],
+  "tags": [
+    "pie",
+    "crust",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pie plate",
+    "mixing bowl",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18427/easy-pie-crust/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "453f67b9daed4cf68cfee54ec0fc3b8f31ba23504c78435ddf609f03869d0ffc",
+    "normalized_text_hash": "0688453f84967fe9832cd687f11871b1cfb33f92fa5e14afdda052946d2f6195",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:41:23.862Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

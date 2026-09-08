@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-feta-burgers",
+  "name": "Chicken and Feta Burgers",
+  "subtitle": "Mediterranean-style patties with oregano, olives, and feta",
+  "description": "Juicy ground-chicken patties flavored with fresh oregano, olive tapenade, garlic, and feta cheese.",
+  "meal_type": "main",
+  "cuisine": "Mediterranean Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ground-chicken",
+      "item": "ground chicken",
+      "quantity": 1.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "fresh-oregano",
+      "item": "fresh oregano",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kalamata-olive-tapenade",
+      "item": "Kalamata-olive tapenade",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 2,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "coarse-ground-black-pepper",
+      "item": "coarse-ground black pepper",
+      "quantity": 0.125,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the ground chicken, oregano, tapenade, feta, and garlic until evenly mixed. Shape into four patties."
+    },
+    {
+      "step": 2,
+      "text": "Season both sides with the kosher salt and black pepper. Preheat a grill or skillet over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Cook the patties for 5 minutes per side, or until the centers reach 165°F on a food thermometer.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Transfer the burgers to a draining rack or paper towels and serve.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "chicken",
+    "burgers"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill or skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228425/chicken-and-feta-burgers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "12118e464a173cdb733d1917004fefe76de6332de7cba20e93ff00ec5944cd01",
+    "normalized_text_hash": "2fd8978a50a1b07f6504dd1ac7049405620ccf8b5140537f6b864b2ee234e8f0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:55:44.827Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

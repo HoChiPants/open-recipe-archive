@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-ginger-milk",
+  "name": "Hot Ginger Milk",
+  "subtitle": "A warm, lightly spiced milk drink",
+  "description": "Milk gently heated with sugar and ground ginger for a simple soothing beverage.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk, sugar, and ground ginger in a small saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Heat gently for 5 minutes, whisking occasionally, until the sugar dissolves and the milk is hot; do not boil.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour into a cup and serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "warm-drink",
+    "milk-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242453/hot-ginger-milk/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "015d38b5aaa1ff30088f62064e22362e1ba0d6bd672f3b8f0a5f8ce8eea95c6a",
+    "normalized_text_hash": "8c94d1b2694bb258d834d83b8b209f1b878d5384978da776d221ddde96d524a4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:52:56.222Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

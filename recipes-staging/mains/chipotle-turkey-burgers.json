@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chipotle-turkey-burgers",
+  "name": "Chipotle Turkey Burgers",
+  "subtitle": "Grilled turkey patties with mozzarella and smoky chile heat",
+  "description": "Seasoned turkey burgers are grilled until safely cooked, topped with mozzarella, and served on toasted buns.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ground-turkey",
+      "item": "ground turkey",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "finely-chopped-onion",
+      "item": "finely chopped onion",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chipotle-chile-in-adobo-sauce",
+      "item": "chipotle chile in adobo sauce",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "slices-mozzarella-cheese",
+      "item": "slices mozzarella cheese",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "hamburger-buns",
+      "item": "hamburger buns",
+      "quantity": 4,
+      "preparation": "split and toasted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a grill to medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "In a bowl, combine the turkey, onion, cilantro, chipotle chile, garlic powder, onion powder, seasoned salt, and pepper. Mix just until evenly distributed."
+    },
+    {
+      "step": 3,
+      "text": "Form the mixture into four equal patties."
+    },
+    {
+      "step": 4,
+      "text": "Grill the patties for 4 minutes per side, or until the centers reach 165°F on a food thermometer.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Top each patty with a mozzarella slice and grill until the cheese melts, about 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Place the burgers on the toasted buns and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "turkey",
+    "burgers"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "grill",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/166583/spicy-chipotle-turkey-burgers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2e4af5ba026ba05907d008777d2beeb8dd84c70ed370d60f22129c0282647014",
+    "normalized_text_hash": "3728dc2ac047b110be4bea201373aa9275712f38182acd0928b3f225d0d371f5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:30:41.787Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

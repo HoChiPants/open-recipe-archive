@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-and-tomato-gratin",
+  "name": "Zucchini and Tomato Gratin",
+  "subtitle": "Golden zucchini layered with tomatoes, mozzarella, Parmesan, and basil",
+  "description": "A simple Italian vegetable gratin with sautéed zucchini, ripe tomatoes, melted mozzarella, and a browned Parmesan topping.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "clove-garlic",
+      "item": "clove garlic",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "thinly-sliced-mozzarella-cheese",
+      "item": "thinly sliced mozzarella cheese",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper",
+      "item": "salt and freshly ground black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Lightly oil a baking dish and season the sliced tomatoes with salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a skillet over medium heat. Add the zucchini and crushed garlic, season lightly, and cook until the zucchini is golden brown, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Arrange the zucchini and tomatoes in the baking dish, then layer the mozzarella, Parmesan, and basil over the vegetables. Season with additional salt and pepper as needed."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the cheeses are melted and the top is lightly browned, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "italian",
+    "vegetarian",
+    "vegetable-gratin"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215420/zucchini-e-pomodori-gratinati-zucchini-and-tomato-gratin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "04e51c269a99e0963f3ce86079c3f6c34ecdfa54af08679a44d147135ed17971",
+    "normalized_text_hash": "b508c02c0701ea7e0208e59578944b1160da3ae0e72c127c08d67316f727d07d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:16:25.415Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

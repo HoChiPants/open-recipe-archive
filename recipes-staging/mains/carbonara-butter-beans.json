@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carbonara-butter-beans",
+  "name": "Carbonara Butter Beans",
+  "subtitle": "Creamy butter beans with crisp guanciale and Parmesan",
+  "description": "A quick, savory bean main that combines crisp guanciale with a Parmesan egg sauce and tender butter beans.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "guanciale-sliced-into-lardons-if-needed",
+      "item": "guanciale sliced into lardons if needed",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "eggs-beaten",
+      "item": "eggs beaten",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "parmesan-finely-grated",
+      "item": "parmesan finely grated",
+      "quantity": "50-60",
+      "unit": "g",
+      "preparation": "plus extra for serving"
+    },
+    {
+      "ingredient_id": "jar-of-butter-beans-drained-reserve-a-few-tablespoons-of-the-liquid",
+      "item": "jar of butter beans drained (reserve a few tablespoons of the liquid)",
+      "quantity": 700,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the guanciale in a skillet over medium heat until browned and crisp, about 5 minutes. Transfer it to a plate and leave the rendered fat in the skillet.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Whisk the beaten eggs with the finely grated Parmesan until combined."
+    },
+    {
+      "step": 3,
+      "text": "Warm the reserved guanciale fat over medium-low heat. Add the drained butter beans and reserved bean liquid, then cook until hot, about 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Remove the skillet from the heat. Stir in the egg and Parmesan mixture, tossing continuously until the sauce thickens and reaches 160°F; return briefly to low heat if needed, without scrambling the eggs."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the crisp guanciale, divide among servings, and finish with extra Parmesan."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "butter-beans",
+    "quick-main",
+    "bean-recipe"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/carbonara-butter-beans",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bcdc3145d54a3bbe3bd4a43a8c01a7c1e6ea1340fee950d7a025e620b6b028d7",
+    "normalized_text_hash": "e376066e181c831efd60787e875d7407d8700adccf603dae5846768d0267c99b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T23:15:40.022Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

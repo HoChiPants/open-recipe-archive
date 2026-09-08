@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-pinwheels",
+  "name": "Spinach Pinwheels",
+  "subtitle": "Crisp spirals filled with creamy spinach",
+  "description": "A simple baked snack made by rolling spinach and herb cheese in crescent dough, then slicing and baking until lightly browned.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-crescent-rolls",
+      "item": "refrigerated crescent rolls",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "garlic-herb-cheese-spread",
+      "item": "garlic herb cheese spread",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "7 ounce"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Unroll the crescent rolls and press the seams together to form sheets of dough."
+    },
+    {
+      "step": 3,
+      "text": "Stir the garlic herb cheese spread and drained spinach together, then spread the mixture evenly over the dough."
+    },
+    {
+      "step": 4,
+      "text": "Roll the dough tightly into logs and cut into 30 slices."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the slices to a baking sheet with the cut sides facing up, adjusting their shape as needed."
+    },
+    {
+      "step": 6,
+      "text": "Bake until lightly browned.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 7,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15528/spinach-pinwheels/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "92eeeb1f038e0e8f237568f645ef88445eded182d16ebb9ce6aa49ab35ced36a",
+    "normalized_text_hash": "64eeca4c3e9fe18a1e29620ea5464981a1faa674b9399209d004ac4760219a4b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:43:25.874Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

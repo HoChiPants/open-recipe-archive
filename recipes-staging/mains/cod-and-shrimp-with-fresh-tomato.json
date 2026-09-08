@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cod-and-shrimp-with-fresh-tomato",
+  "name": "Cod and Shrimp with Fresh Tomato",
+  "subtitle": "A quick skillet seafood dish with garlic, tomatoes, and oregano.",
+  "description": "Cod and shrimp cook gently in a simple fresh tomato sauce for an easy main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 5,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "alaskan-cod",
+      "item": "Alaskan cod",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "large-shrimp",
+      "item": "large shrimp",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large skillet over medium heat. Add the garlic and cook, stirring, until golden brown."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the tomatoes and 1 teaspoon dried oregano. Season with salt to taste and simmer for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the cod and shrimp to the tomato mixture. Season with the remaining dried oregano, or to taste, and salt to taste."
+    },
+    {
+      "step": 4,
+      "text": "Cook gently, turning the seafood as needed, until the cod is opaque and flakes easily and the shrimp are opaque; confirm the fish reaches 145°F.",
+      "timer_minutes": 9
+    }
+  ],
+  "tags": [
+    "seafood",
+    "skillet",
+    "tomato",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish",
+    "shellfish"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/180212/alaskan-cod-and-shrimp-with-fresh-tomato/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "76a037dca40217f2bb0270c908f1f50bac0fa7c33c79e1fa7d0e37b15830118b",
+    "normalized_text_hash": "6af2d4ad2ba92baf36d003638ef331aaa38e1cbb093a0d92ec72d5101427b7a0",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:37:08.527Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pecan-pralines",
+  "name": "Pecan Pralines",
+  "subtitle": "Buttery pecan candies with a crisp finish",
+  "description": "A simple stovetop candy made by cooking sugars with butter and water, then folding in chopped pecans and cooling until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 20,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.33000001311302,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Grease a baking sheet with some of the butter."
+    },
+    {
+      "step": 2,
+      "text": "Combine the brown sugar, white sugar, water, and remaining butter in a saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Simmer, stirring as needed, until the syrup reaches 240°F on a food thermometer. Handle the hot syrup carefully.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Stir in the chopped pecans, then continue stirring until the mixture thickens slightly."
+    },
+    {
+      "step": 5,
+      "text": "Drop spoonfuls onto the prepared baking sheet and let cool until firm.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "american",
+    "pecans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer",
+    "baking sheet",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24339/pecan-pralines/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a76a2e3415efd3883c9f30d3b5faae89f332c715801d6d2910cc5f02262b84cc",
+    "normalized_text_hash": "bb46bd066203410c110893b33dc411e4a1ad8709120fc5aba003586ff5f2327d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:04:42.035Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

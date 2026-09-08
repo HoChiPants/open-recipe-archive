@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hummus",
+  "name": "Hummus",
+  "subtitle": "A smooth chickpea dip with tahini and lemon",
+  "description": "Blend chickpeas, tahini, lemon, and garlic into a creamy dip, then finish with olive oil and pepper.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "chickpea",
+      "item": "garbanzo beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "19 ounce, half the liquid reserved"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "tahini",
+      "item": "tahini",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "black-pepper-to-taste",
+      "item": "black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Finely chop the garlic."
+    },
+    {
+      "step": 2,
+      "text": "Place the garlic in a food processor with the lemon juice, tahini, salt, and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Add the garbanzo beans and blend until smooth, adding the reserved liquid as needed for the desired consistency."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the hummus to a serving bowl and stir in the olive oil and additional black pepper."
+    },
+    {
+      "step": 5,
+      "text": "Garnish as desired and serve."
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "dip",
+    "chickpeas"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "equipment": [
+    "knife",
+    "food processor",
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26921/real-hummus/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f557cf7634492560f7eab9a3bd1760b345c943c8560213cd8cd5a4a0b43c30ce",
+    "normalized_text_hash": "9ea956ee56252473f6d68fa95a71479a9d8caa47c0a5cf392c76f2b454a2400f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:54:38.317Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

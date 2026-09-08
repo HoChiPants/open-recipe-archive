@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-pineapple",
+  "name": "Grilled Pineapple",
+  "subtitle": "Sweet pineapple with a buttery pepper glaze",
+  "description": "Pineapple rings rest in a lightly spicy honey-butter coating before grilling until warm and marked.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-pineapple",
+      "item": "fresh pineapple",
+      "quantity": 1,
+      "preparation": "peeled, cored and cut into 1 inch rings"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the pineapple rings in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the melted butter, honey, hot pepper sauce, and salt. Pour over the pineapple and turn to coat evenly."
+    },
+    {
+      "step": 3,
+      "text": "Let the coated pineapple stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 5,
+      "text": "Grill the pineapple, turning as needed, for about 3 minutes or until heated through and marked.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dessert",
+    "grilled",
+    "fruit"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "shallow dish",
+    "tongs"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/51294/grilled-pineapple/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0f3b15f4841d74675eca3cd297056a82fc7f6943a15e5c54a1bdca52cc91755f",
+    "normalized_text_hash": "70723664b7a1b677aff9e7fbf77f6b60c07ca74fe0034081f05b4b6f0bdbc8ad",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:08:24.380Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

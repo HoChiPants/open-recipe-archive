@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-zucchini-casserole",
+  "name": "Baked Zucchini Casserole",
+  "subtitle": "Tender zucchini baked with Parmesan and a creamy egg mixture",
+  "description": "A simple American side dish with sliced zucchini, Parmesan, and a savory creamy topping.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "cut into small pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the Parmesan, mayonnaise, chopped onion, chopped bell pepper, beaten eggs, and salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the sliced zucchini and mix until evenly coated. Transfer the mixture to the prepared dish."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the butter pieces over the top and bake for 45 minutes, until the zucchini is tender and the center is firm and reaches 160°F.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "zucchini",
+    "vegetarian",
+    "baked-side-dish"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283969/baked-zucchini-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "940c6c438fe31491ea70acb895e1179032157848ec5e80fd1b7ab7b4bb4d8345",
+    "normalized_text_hash": "2401404d0420e50c3c96bfcbba9b91a0859ac4079e7174d02117fc9c97c65521",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:53:30.637Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

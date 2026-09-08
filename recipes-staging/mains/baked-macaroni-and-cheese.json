@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-macaroni-and-cheese",
+  "name": "Baked Macaroni and Cheese",
+  "subtitle": "Creamy cheese pasta with a crisp crumb topping",
+  "description": "Tender macaroni is coated in a rich cheese mixture, finished with buttery breadcrumbs, and baked until golden.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "elbow-macaroni",
+      "item": "elbow macaroni",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "dry-bread-crumbs",
+      "item": "dry bread crumbs",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "12-ounce-container-small-curd-cottage-cheese",
+      "item": "(12 ounce) container small curd cottage cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Combine the dry bread crumbs with the melted butter and set aside."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water seasoned with the salt and pepper to a boil. Cook the elbow macaroni for 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the cottage cheese, shredded Cheddar, sour cream, Parmesan, and the remaining salt and pepper until blended. Stir in the drained macaroni."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and cover with the buttered breadcrumbs. Bake for 35 minutes, until the top is golden brown.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-pasta",
+    "comfort-food",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "mixing bowls",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19368/chucks-favorite-mac-and-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "69d27a73de08239129ef127f3dbd2f47a85bc0713a96ccfa20d0c547454ef0bd",
+    "normalized_text_hash": "b71ad8f21a6bb3c2eb09b4248c1797c9568f222098bee00853f28a4f962562b2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:43:52.720Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

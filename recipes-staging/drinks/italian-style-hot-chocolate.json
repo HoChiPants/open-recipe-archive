@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-style-hot-chocolate",
+  "name": "Italian-Style Hot Chocolate",
+  "subtitle": "A thick, cocoa-rich warm drink for two",
+  "description": "Cocoa and sugar are whisked with milk and thickened with cornstarch for a smooth, velvety hot chocolate.",
+  "meal_type": "drink",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the cocoa powder and white sugar together in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Add the 1.5 cups milk and stir until the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Warm the mixture over medium heat until it reaches a gentle simmer."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the 2 tablespoons milk with the cornstarch in a small bowl until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the cornstarch mixture into the simmering cocoa mixture and cook, stirring, until thickened and smooth."
+    },
+    {
+      "step": 6,
+      "text": "Prepare for 3 minutes, then divide between two cups and serve hot.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "hot-chocolate",
+    "warm-drink",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "small bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216167/cioccolata-calda-hot-chocolate-italian-style/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ac15d83211c082c5cc03170e7126c701a6ffacd3d6577d039c36a630b7f59bc1",
+    "normalized_text_hash": "bf108bfcbd680c3a52dbbd066db9826d1ade56a8043cb128f9330f467e333fba",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:48:39.290Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

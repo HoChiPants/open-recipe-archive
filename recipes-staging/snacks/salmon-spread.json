@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salmon-spread",
+  "name": "Salmon Spread",
+  "subtitle": "A creamy, lemon-seasoned salmon appetizer",
+  "description": "Cooked salmon folded into a tangy cream cheese mixture with green onions and gentle heat, then chilled for serving.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salmon-fillets",
+      "item": "salmon fillets",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "finely-chopped-green-onions",
+      "item": "finely chopped green onions",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 2,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the salmon in a saucepan with the hot pepper sauce and Worcestershire sauce. Add enough water to barely cover, bring to a gentle simmer, and cook for 10 minutes, until the fish reaches 145°F or is opaque and flakes easily.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Transfer the salmon to a plate and let it cool briefly. Flake the fish, reserving the seasoned cooking liquid."
+    },
+    {
+      "step": 3,
+      "text": "Stir the softened cream cheese, sour cream, green onions, salt, lemon juice, and reserved seasoned liquid until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the flaked salmon, cover, and chill for 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "salmon",
+    "spread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "soy"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24586/salmon-spread-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aa733007e8bd33c47658de4cf872c59ea2b8a5732c7b761f263efc75f8bace1b",
+    "normalized_text_hash": "bf54453a616b367d8a71e09b41e9ce4248833fbe1afc97282fcf6ffa3f9524bd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:40:00.274Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

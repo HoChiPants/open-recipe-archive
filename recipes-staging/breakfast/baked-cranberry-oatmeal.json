@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-cranberry-oatmeal",
+  "name": "Baked Cranberry Oatmeal",
+  "subtitle": "Warm spiced oats with apples, cranberries, and walnuts",
+  "description": "A comforting baked oatmeal combining fruit, warming spices, and chopped walnuts in a lightly sweetened milk mixture.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cloves",
+      "item": "ground cloves",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dried-cranberries",
+      "item": "dried cranberries",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "chopped, or as desired"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the milk, brown sugar, cinnamon, nutmeg, and cloves in a saucepan. Heat gently, stirring, until the sugar dissolves and the mixture is fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Mix the rolled oats, chopped apples, dried cranberries, and walnuts in a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Pour the warm milk mixture over the oat mixture and stir to distribute it evenly."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, until lightly browned.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baked-oatmeal",
+    "cranberries",
+    "apples",
+    "warm-spices"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244175/baked-cranberry-oatmeal/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "be448d3ca75525f8653329051c06de1c98c26c27680b5a27c48a21c3b6ac6081",
+    "normalized_text_hash": "6faeb44e1654d203fb333d6f5fc0aef0f71d773fe0863eab5f8c875b17ed7132",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:46:22.682Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

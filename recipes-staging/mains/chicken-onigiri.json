@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-onigiri",
+  "name": "Chicken Onigiri",
+  "subtitle": "Japanese rice balls with creamy chili chicken filling",
+  "description": "Seasoned sushi rice surrounds a savory chicken, herb, and chili-mayo filling, then is shaped into individual rice balls and served with nori.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sushi-rice",
+      "item": "sushi rice",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sushi-vinegar",
+      "item": "sushi vinegar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "nori-sheets-to-serve",
+      "item": "nori sheets to serve"
+    },
+    {
+      "ingredient_id": "chicken-breast-chopped-into-small-chunks",
+      "item": "chicken breast chopped into small chunks",
+      "quantity": 180,
+      "unit": "g",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "spring-onion-finely-sliced",
+      "item": "spring onion finely sliced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "coriander-finely-chopped",
+      "item": "coriander finely chopped",
+      "quantity": 10,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mayo",
+      "item": "mayo",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "heaped-tbsp-crispy-chilli-oil",
+      "item": "heaped tbsp crispy chilli oil",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ginger-finely-grated",
+      "item": "ginger finely grated (optional)",
+      "quantity": 5,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare and cook the sushi rice according to its package directions until tender, about 15 minutes. If cooking the chicken from raw, cook it separately until the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Fold the sushi vinegar into the hot rice, then spread the rice on a tray and let it cool until easy to handle."
+    },
+    {
+      "step": 3,
+      "text": "Mix the cooked chicken with the spring onion, coriander, mayo, crispy chilli oil, and ginger if using."
+    },
+    {
+      "step": 4,
+      "text": "With damp hands, divide the rice into six portions. Flatten each portion, add some chicken mixture to the center, enclose it with rice, and shape into a smooth ball or triangle."
+    },
+    {
+      "step": 5,
+      "text": "Serve the onigiri with the nori sheets."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "japanese",
+    "chicken",
+    "rice-balls",
+    "sushi-rice",
+    "lunchbox"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "rice cooker or saucepan",
+    "mixing bowl",
+    "tray"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-onigiri",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f21a02888d877377d3388caf20b9b3c362e4151915706284be1c4b53b0e59a02",
+    "normalized_text_hash": "6a64e9769bdf0fe2b285c1c2bab1572f313e1f784dde4b9a84f422cca573d060",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T20:53:18.648Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

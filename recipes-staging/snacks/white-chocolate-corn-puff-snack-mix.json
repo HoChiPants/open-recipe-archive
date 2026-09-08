@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-chocolate-corn-puff-snack-mix",
+  "name": "White Chocolate Corn Puff Snack Mix",
+  "subtitle": "A quick sweet-and-salty coated snack",
+  "description": "Crisp butter-flavored corn puffs coated in smooth white chocolate and set until firm.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-chocolate-chips",
+      "item": "white chocolate chips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "butter-flavored-corn-puff-snacks",
+      "item": "butter-flavored corn puff snacks",
+      "quantity": 2,
+      "unit": "bag",
+      "preparation": "8 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the white chocolate chips until softened, then stir until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the butter-flavored corn puff snacks and stir gently to coat."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the coated snack mixture to a surface or container and let it set.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Serve once firm."
+    }
+  ],
+  "tags": [
+    "snack",
+    "sweet-and-salty",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "soy"
+  ],
+  "equipment": [
+    "heat-safe bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219998/angel-poop/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "532b25e22c8644f89d3c0982b0956b2dfb610b67b4488f6731c4d2e73c64dcdb",
+    "normalized_text_hash": "448e07f3fff18614bc6cf8613f7babfb8bf6abe3758c0b11134653c2f11a5867",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:14:15.693Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

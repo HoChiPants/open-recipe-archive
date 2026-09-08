@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "maple-roast-turkey",
+  "name": "Maple Roast Turkey",
+  "subtitle": "Cider-maple glaze with herb butter and pan gravy",
+  "description": "A whole turkey roasted with maple, cider, citrus, and fresh herbs, served with a savory pan gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 210,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple-cider",
+      "item": "apple cider",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "real-maple-syrup",
+      "item": "real maple syrup",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-thyme",
+      "item": "fresh thyme",
+      "quantity": 2.5,
+      "unit": "tablespoons",
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "fresh-marjoram",
+      "item": "fresh marjoram",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "grated-lemon-zest",
+      "item": "grated lemon zest",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "12-pound-whole-turkey",
+      "item": "(12 pound) whole turkey",
+      "quantity": 1,
+      "preparation": "neck and giblets reserved"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "apple-brandy",
+      "item": "apple brandy",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cider, maple syrup, and apple brandy in a saucepan. Bring to a boil, then cook until reduced and slightly thickened. Let cool."
+    },
+    {
+      "step": 2,
+      "text": "Mix the chopped thyme, marjoram, and lemon zest with the softened butter. Season with salt and pepper, then chill until firm enough to spread."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 375°F. Pat the turkey dry and season inside and out. Rub the herb butter over the breast and legs and place the turkey in a roasting pan."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the onion, celery, and carrots around the turkey. Add part of the broth to the pan and place the reserved neck and giblets alongside the vegetables. Add the remaining herbs and bay leaf."
+    },
+    {
+      "step": 5,
+      "text": "Roast for 30 minutes. Reduce the oven to 350°F and continue roasting, basting with the cider-maple mixture as needed, until the thickest part of the breast and thigh reaches 165°F.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 6,
+      "text": "Transfer the turkey to a carving board and rest for 30 minutes before carving.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Strain the pan drippings into a saucepan and add enough broth to make the desired gravy volume. Combine the maple syrup, butter, and flour until smooth, whisk into the drippings, and add the remaining broth."
+    },
+    {
+      "step": 8,
+      "text": "Stir until thickened, simmer for 10 minutes, and season with salt and pepper. Serve the gravy with the turkey.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "holiday",
+    "roasted-turkey",
+    "maple",
+    "pan-gravy"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "roasting pan",
+    "saucepan",
+    "whisk",
+    "carving board",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13675/maple-roast-turkey/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "639b379216c756c02df813ec0b0ca35b6affb9bfc47eee17c0630d4685389854",
+    "normalized_text_hash": "34638b2e608bb52d1602e1c1034fad7ad07e3ff95c76396e27e6098b48a1fe67",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:19:30.862Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

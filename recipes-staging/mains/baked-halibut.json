@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-halibut",
+  "name": "Baked Halibut",
+  "subtitle": "Halibut with a creamy dill-onion topping",
+  "description": "Seasoned halibut is baked under a creamy mixture of sour cream, mayonnaise, dill, and green onions.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "halibut-fillet",
+      "item": "halibut fillet",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cut into 6 pieces"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "bunch-green-onions",
+      "item": "bunch green onions",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 475°F and prepare a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Season the halibut pieces with salt and ground black pepper, then place them in the baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the green onions, mayonnaise, sour cream, and dill weed. Spread the mixture over the halibut."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, until the fish is opaque and reaches 145°F or flakes easily with a fork.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Let the baked halibut rest for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "fish",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220210/baked-halibut-sitka/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3eb7ceed4335065d155832d5519cac3b835b6178eef68dd8c22b34b3d566c442",
+    "normalized_text_hash": "4918aea6dda28dc501aad08b58c6aadf54c1cdd980d50b1a187416b7b6333435",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:47:46.306Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

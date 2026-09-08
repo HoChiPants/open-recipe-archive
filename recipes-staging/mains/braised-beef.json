@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "braised-beef",
+  "name": "Braised Beef",
+  "subtitle": "Tender chuck with mushrooms, carrots, and herbs",
+  "description": "A hearty beef braise with browned chuck, savory vegetables, red wine, broth, and fresh herbs.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 145
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boneless-beef-chuck-roast",
+      "item": "boneless beef chuck roast",
+      "quantity": 3.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 5,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 2.5,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cremini-mushrooms",
+      "item": "cremini mushrooms",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 3,
+      "unit": "medium",
+      "preparation": "cut into 2 inch pieces"
+    },
+    {
+      "ingredient_id": "head-garlic",
+      "item": "head garlic",
+      "quantity": 1,
+      "preparation": "cut in half lengthwise"
+    },
+    {
+      "ingredient_id": "red-wine",
+      "item": "red wine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sprigs-thyme",
+      "item": "sprigs thyme",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "worcestershire",
+      "item": "Worcestershire",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Pat the roast dry and season it with the divided salt, pepper, and garlic powder."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a large oven-safe pot over medium-high heat. Brown the roast on all sides, about 4 minutes total, then transfer it to a plate.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in the pot. Add the onion, mushrooms, and carrots; cook until the butter is melted and the vegetables begin to soften, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Stir in the remaining garlic powder and the halved head of garlic for 1 minute. Add the red wine and scrape up any browned bits."
+    },
+    {
+      "step": 5,
+      "text": "Add the thyme, bay leaves, and Worcestershire. Return the roast to the pot and add enough beef broth to reach partway up the meat."
+    },
+    {
+      "step": 6,
+      "text": "Bring the liquid to a simmer, cover the pot, and braise in the oven for 2 hours, or until the beef is tender. Check that the thickest part reaches at least 145°F, then rest the roast for 3 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 7,
+      "text": "Remove the thyme stems, bay leaves, and garlic halves. Slice or break the beef into portions, spoon the vegetables and braising liquid over it, and garnish with parsley."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "braised",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large oven-safe pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8513083/braised-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fe5faf6de93e3637c1e24381f4be9ae5b7fce8c6c183ed0c929a6eeae1f0969c",
+    "normalized_text_hash": "1a78e371e14decf1ed20fdc9452908e0b6804652d9eb9e89915fb42d2820d6d7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:04:14.870Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

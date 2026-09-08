@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-pudding",
+  "name": "Vanilla Pudding",
+  "subtitle": "Smooth stovetop custard with vanilla",
+  "description": "A simple vanilla pudding thickened with cornstarch and chilled until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the sugar, cornstarch, and salt together in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the milk until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Cook over medium heat, whisking constantly, until the mixture thickens and begins to bubble."
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and stir in the vanilla extract for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Transfer the pudding to serving dishes and chill until firm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pudding",
+    "vanilla",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "serving dishes"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13763/vanilla-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d510aec3bdde63ac78c6b7810b96ad8f59c7ff5dcfcc8c0b32ab5667eab4d4e5",
+    "normalized_text_hash": "08e8c61c4c6e9e9b8280e312c8299c5e0b1b3b0e0f5f2c3d8bfaef1c3948bb06",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:41:38.229Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

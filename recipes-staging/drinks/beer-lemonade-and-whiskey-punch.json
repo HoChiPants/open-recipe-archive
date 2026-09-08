@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-lemonade-and-whiskey-punch",
+  "name": "Beer, Lemonade, and Whiskey Punch",
+  "subtitle": "A bright, easy party punch",
+  "description": "Combine beer, lemonade concentrate, and whiskey for a refreshing batch drink served over ice.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "or-bottles-beer",
+      "item": "or bottles beer",
+      "quantity": 6,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "whiskey",
+      "item": "whiskey",
+      "quantity": 1,
+      "unit": "pint"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the beer, frozen lemonade concentrate, and whiskey into a large pitcher or punch bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir gently until combined, then serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "punch",
+    "beer",
+    "whiskey",
+    "lemonade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pitcher or punch bowl",
+    "long-handled spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20205/hop-skip-and-go-naked/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "507a3a928f4c422e2f704cb559f10a01e1f62636fc85d97f3ca5cf12645aed19",
+    "normalized_text_hash": "d8eebffcf5a38821ccf81b99d38e67b4cd5f89242bfc349cabd0f26ccc993123",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:50:02.455Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

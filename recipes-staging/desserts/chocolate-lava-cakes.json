@@ -1,0 +1,163 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-lava-cakes",
+  "name": "Chocolate Lava Cakes",
+  "subtitle": "Individual chocolate cakes with a soft center",
+  "description": "Rich individual chocolate cakes baked in ramekins for a tender, molten-style center.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dark-chocolate",
+      "item": "dark chocolate",
+      "quantity": 3.5,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Butter four ramekins and set them on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg yolks, eggs, and white sugar until smooth and slightly thickened."
+    },
+    {
+      "step": 3,
+      "text": "Microwave the chopped dark chocolate and butter in short intervals, stirring between intervals, until melted.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Stir the melted chocolate mixture into the egg mixture, then blend in the cocoa powder."
+    },
+    {
+      "step": 5,
+      "text": "Combine the flour and salt, and fold them into the batter. Stir in the vanilla extract."
+    },
+    {
+      "step": 6,
+      "text": "Divide the batter among the prepared ramekins, cover, and chill.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 8,
+      "text": "Bake until the cakes are set around the edges and the centers reach 160°F on a food thermometer.",
+      "timer_minutes": 18
+    },
+    {
+      "step": 9,
+      "text": "Cool briefly, then loosen the edges and invert the cakes onto serving plates.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 10,
+      "text": "Mix the white sugar and unsweetened cocoa powder, and use the mixture to finish the cakes."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "baked",
+    "individual-servings"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "4 ramekins",
+    "microwave",
+    "oven",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219964/chef-johns-chocolate-lava-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "55b51d95ec91e76665462e774646ac5eb353dddb431b7b22e626b7e0c79ed189",
+    "normalized_text_hash": "0a5cf1143bd2a56292563590a0fafebf448ca17243944b74b5db2ee4c2b081b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:25:52.834Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

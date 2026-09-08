@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "earl-grey-martini",
+  "name": "Earl Grey Martini",
+  "subtitle": "Gin cocktail with tea and lemon",
+  "description": "Tea-infused gin combines with lemon juice and simple syrup in a sugar-rimmed glass.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "earl-grey-tea-leaves",
+      "item": "Earl Grey tea leaves",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jiggers-gin",
+      "item": "(1.5 fluid ounce) jiggers gin",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "preparation": "for rimming"
+    },
+    {
+      "ingredient_id": "wedge-lemon",
+      "item": "wedge lemon",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-fresh-lemon-juice",
+      "item": "(1.5 fluid ounce) jigger fresh lemon juice",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounces-simple-syrup",
+      "item": "fluid ounces simple syrup",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the Earl Grey tea leaves with the gin and let the mixture infuse for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Spread the white sugar on a small plate. Moisten the rims of two glasses with the lemon wedge, then dip them in the sugar."
+    },
+    {
+      "step": 3,
+      "text": "Strain the infused gin into a shaker and add the fresh lemon juice and simple syrup. Shake with ice until chilled."
+    },
+    {
+      "step": 4,
+      "text": "Strain into the prepared glasses and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "gin",
+    "lemon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "martini glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/162319/earl-grey-martini/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bf9b53f968712b9245d9d24be320a0c254075afa9b1c8d6ae32f2d0eef9e041c",
+    "normalized_text_hash": "bf036f3fb0ac6d63b5717802d12dfa7aa0830e6b82787272631ee4fc5dba8b48",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:16:41.259Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cookie-balls",
+  "name": "Cookie Balls",
+  "subtitle": "No-Bake Chocolate Cookie Truffles",
+  "description": "Crushed chocolate cookies and softened cream cheese form bite-size balls finished with a vanilla coating.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-sandwich-cookies",
+      "item": "chocolate sandwich cookies",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "vanilla-flavored-candy-coating",
+      "item": "vanilla-flavored candy coating",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the crushed chocolate sandwich cookies with the softened cream cheese until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Shape the mixture into 36 equal balls, then coat each one with the melted vanilla-flavored candy coating."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated balls on a lined tray and refrigerate until set.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "no-bake",
+    "truffles",
+    "chocolate",
+    "holiday-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking tray",
+    "parchment paper",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24043/cookie-balls/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4f41cadc986ef0fe7c93b6810ea735b99294e064808184db2c60787e81dc17a6",
+    "normalized_text_hash": "f27e7eca2e198f37a0f424a8d0c2fe2d3910d4fd18c45b1a5221c8bc91b74be0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:06:34.962Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

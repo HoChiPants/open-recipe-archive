@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crab-spread",
+  "name": "Crab Spread",
+  "subtitle": "A creamy crab dip with bright lemon and cocktail sauce",
+  "description": "A quick chilled spread combining softened cream cheese, crab, cocktail sauce, and lemon.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "crab-meat",
+      "item": "crab meat",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, drained"
+    },
+    {
+      "ingredient_id": "12-ounce-jar-cocktail-sauce",
+      "item": "(12 ounce) jar cocktail sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "juiced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the crab meat and lemon juice, then whisk until combined."
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the cocktail sauce. If using raw crab, cook it first until opaque and easily flakes, then cool before mixing."
+    },
+    {
+      "step": 4,
+      "text": "Serve the spread chilled or at once."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "seafood",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14870/crab-spread-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e02c8e357d77cf6a906ddac47ced45edc6f3108c3e315cd4491accba75871cb9",
+    "normalized_text_hash": "c43752b2ba6b5be311ae361de03aad3818712d0e153632c829c3fa48a7602f13",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:17:07.680Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

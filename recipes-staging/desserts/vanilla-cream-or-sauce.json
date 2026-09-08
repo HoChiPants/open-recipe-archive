@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-cream-or-sauce",
+  "name": "Vanilla Cream or Sauce",
+  "subtitle": "Smooth vanilla custard for desserts",
+  "description": "A lightly sweet vanilla custard that can be served as a cream or poured as a sauce.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more as desired"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat half of the milk until simmering, about 5 minutes. Whisk the remaining milk with the cornstarch.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar and egg yolks until smooth. Gradually whisk in the hot milk, then return the mixture to the saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Cook over gentle heat, whisking constantly, until thickened and the mixture reaches 160°F.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and stir in the vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Cool for 20 minutes, then refrigerate for 30 minutes before serving.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dessert",
+    "custard",
+    "vanilla",
+    "sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239370/vanilla-cream-or-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "71c80fa013ce71056283f9d92e1cc0c9ddf293d0a465e71ce460b9fa433b60ed",
+    "normalized_text_hash": "c27f25a2b00aa0b21d0482d0dd7a9e6e684c76e4000b915009fc78d3468fec81",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:41:22.897Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mini-apple-pies",
+  "name": "Mini Apple Pies",
+  "subtitle": "Individual apple-filled pastries with warm spice",
+  "description": "Small baked pies filled with cinnamon-nutmeg apples and a lightly sweetened tapioca-thickened filling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pastries-for-9-inch-single-crust-pies",
+      "item": "pastries for 9-inch single crust pies",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "granny-smith-apple",
+      "item": "Granny Smith apple",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "instant-tapioca",
+      "item": "instant tapioca",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Cut the pastry into pieces for four individual pies, reserving enough pastry to cover each one."
+    },
+    {
+      "step": 2,
+      "text": "Mix the diced apples with tapioca, sugar, lemon juice, nutmeg, and cinnamon. Let the mixture stand for 5 minutes, then stir.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Line four small pie vessels with pastry and divide the apple mixture among them. Add the remaining pastry as tops and set the edges."
+    },
+    {
+      "step": 4,
+      "text": "Bake for about 30 minutes, until the pastry is golden brown and the filling is bubbling.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cool the pies before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "apple",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "four small pie vessels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219617/mini-apple-pies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "129287451d28affa61f502833dcc285524e7c6c1d7335a3134b0af4f349d085d",
+    "normalized_text_hash": "a1f5521b6dd8da5b288ba4cd739e8f6198b3050c7b16f6198828b19bd17388df",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:42:55.010Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

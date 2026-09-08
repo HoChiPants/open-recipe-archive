@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-london-broil",
+  "name": "Slow Cooker London Broil",
+  "subtitle": "Tender beef with vegetables in a savory wine sauce",
+  "description": "Seasoned London broil cooks slowly with potatoes, carrots, onion, and a creamy mushroom broth for a complete meal.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 490
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "2-5-pound-london-broil",
+      "item": "(2.5 pound) London broil",
+      "quantity": 1,
+      "preparation": "cut into thirds"
+    },
+    {
+      "ingredient_id": "creole-seasoning",
+      "item": "Creole seasoning",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "beef-broth",
+      "item": "beef broth",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "red-wine",
+      "item": "red wine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "baby-carrots",
+      "item": "baby carrots",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "preparation": "quartered, or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the onion, carrots, and potatoes in the bottom of a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Heat the oil in a large skillet. Season the beef with Creole seasoning and brown it briefly on all sides."
+    },
+    {
+      "step": 3,
+      "text": "Warm the beef broth for 5 minutes, then whisk it with the condensed soup and red wine until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Place the browned beef over the vegetables and pour the broth mixture over everything."
+    },
+    {
+      "step": 5,
+      "text": "Cover and cook on low until the beef is tender and reaches 145°F in the thickest part. Transfer the beef to a plate and let it rest for 3 minutes before serving with the vegetables and sauce.",
+      "timer_minutes": 490
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "beef",
+    "one-pot-meal"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "large skillet",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235380/johnnys-slow-cooker-london-broil/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "77f3b45070fd58351e56b904e8c3416870ada67ca0afd8fab96ce01ca7804e39",
+    "normalized_text_hash": "10dbf8f4c4c28a1bac8c6765f918bc711f754f1fdcf686412db4e2df16debed8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:30:23.428Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 32,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-berry-trifle",
+  "name": "Lemon Berry Trifle",
+  "subtitle": "Layered lemon pudding, cake, berries, and whipped cream",
+  "description": "A chilled dessert assembled in layers of lemon pudding, cubed angel food cake, fresh berries, and lightly sweetened whipped cream.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "instant-lemon-pudding-mix",
+      "item": "instant lemon pudding mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "9-inch-angel-food-cake",
+      "item": "(9 inch) angel food cake",
+      "quantity": 1,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-blueberries",
+      "item": "fresh blueberries",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the milk, lemon pudding mix, lemon juice, and 1 cup of the heavy whipping cream until smooth. Chill for 60 minutes, or until set.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Whip the remaining heavy whipping cream with the confectioners' sugar and vanilla extract until stiff peaks form."
+    },
+    {
+      "step": 3,
+      "text": "Arrange some of the cake cubes in a large trifle dish. Add layers of lemon pudding, strawberries, blueberries, and whipped cream."
+    },
+    {
+      "step": 4,
+      "text": "Repeat the layers as needed, finishing with whipped cream and berries. Chill before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "lemon",
+    "berry",
+    "make-ahead"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large mixing bowls",
+    "whisk",
+    "electric mixer",
+    "large trifle dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228815/outrageous-lemon-berry-trifle/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e439b949e380a218b64ce4028c3e5bfc08a6412b60ff615484ceaf1229066871",
+    "normalized_text_hash": "949ed163994ca5162291982c324186cd2d0dcb35eb1e3ca75ccbcd04e8d1c0ff",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:53:35.227Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

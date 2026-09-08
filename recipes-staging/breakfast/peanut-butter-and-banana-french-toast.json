@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-and-banana-french-toast",
+  "name": "Peanut Butter and Banana French Toast",
+  "subtitle": "A warm, fruit-filled breakfast sandwich with crisp, buttery edges.",
+  "description": "Peanut butter, banana, and egg-soaked bread are cooked together in a skillet until golden and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "creamy-peanut-butter",
+      "item": "creamy peanut butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg and vanilla extract in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Spread peanut butter over the bread, arrange the banana slices on one piece, and close the sandwich."
+    },
+    {
+      "step": 3,
+      "text": "Warm a skillet over medium heat and melt the butter. Dip the sandwich in the egg mixture, turning to coat both sides."
+    },
+    {
+      "step": 4,
+      "text": "Cook until golden brown, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Turn the sandwich and cook for about 2 minutes more, until browned and the center is firm and fully set; for a measured check, the egg should reach 160°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "french-toast",
+    "peanut-butter",
+    "banana",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dish",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21484/peanut-butter-and-banana-french-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d58c3dde2605edc3f2b5f1070e835d84d4dce2a491cf44d451cd538fb534b383",
+    "normalized_text_hash": "d97c0c92357b369b09ea590bd738909167377c80731a7812a9b86e468c57101f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:59:28.433Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caesar-potato-salad",
+  "name": "Caesar Potato Salad",
+  "subtitle": "Roasted potatoes with bacon, greens, and creamy Caesar dressing",
+  "description": "Tender baby red potatoes are lightly roasted, then combined with crisp bacon, green onions, and Caesar dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "baby-red-potatoes",
+      "item": "baby red potatoes",
+      "quantity": 24
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "cracked-black-pepper-to-taste",
+      "item": "cracked black pepper to taste"
+    },
+    {
+      "ingredient_id": "caesar-salad-dressing",
+      "item": "Caesar salad dressing",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 4,
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the bacon on a baking sheet and cook until crisp, about 10 minutes. Drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Place the potatoes in a pot, cover with water, and bring to a simmer. Cook until tender, about 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Transfer the potatoes to a baking sheet. Toss with the olive oil and cracked black pepper, then bake until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Combine the potatoes, bacon, Caesar dressing, and diced green onions. Toss gently and serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "potato-salad",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "pot",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237349/caesar-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "26512d1da54bbb8fce1c13bd9060ab018fbbc842061f63030604a5fbc0a72009",
+    "normalized_text_hash": "346cc059e0ce1f7f4ea0dd891bc345179cd777430510b06defa5436b120cf3cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:39:47.461Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

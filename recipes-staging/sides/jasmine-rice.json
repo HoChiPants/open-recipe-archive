@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "jasmine-rice",
+  "name": "Jasmine Rice",
+  "subtitle": "Fragrant rice with peas and onion",
+  "description": "A simple stovetop jasmine rice side cooked with onion, peas, bay leaf, and seasoned water.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-peas",
+      "item": "green peas",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dry-jasmine-rice",
+      "item": "dry jasmine rice",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the chopped onion and cook until softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the green peas, bay leaf, and dry jasmine rice."
+    },
+    {
+      "step": 4,
+      "text": "Add the water and salt to taste, then bring to a boil."
+    },
+    {
+      "step": 5,
+      "text": "Cover, reduce the heat to low, and cook until the rice is tender and the water is absorbed.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Remove the bay leaf and fluff the rice before serving."
+    }
+  ],
+  "tags": [
+    "rice",
+    "side-dish",
+    "stovetop",
+    "vegetarian",
+    "vegan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14136/jasmine-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "50e9d666878724c0f959d18bb89dc8bbefffd7caaa64bd30af5808016e1ebe6e",
+    "normalized_text_hash": "da30cb1816d2af44d67781f8ca03e926115f86ad245f3292e44a5950eb33824f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:26:07.090Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

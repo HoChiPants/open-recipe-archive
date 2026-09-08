@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salad-with-artichokes",
+  "name": "Salad with Artichokes",
+  "subtitle": "Crisp greens with tangy artichoke dressing",
+  "description": "A quick salad combining mixed greens, tender artichokes, sliced red onion, Parmesan, and a savory vinaigrette.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mixed-salad-greens",
+      "item": "mixed salad greens",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "artichoke-hearts-in-water",
+      "item": "artichoke hearts in water",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce, drained"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the mixed salad greens, drained artichoke hearts, and sliced red onion in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the vegetable oil, red wine vinegar, seasoned salt, garlic powder, and black pepper until combined."
+    },
+    {
+      "step": 3,
+      "text": "Pour the dressing over the salad and toss until the greens are evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Sprinkle with the grated Parmesan cheese and serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "quick",
+    "vegetarian",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16418/salad-with-artichokes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7a8c20d8695e8c145313aa37779f97b258aa4c84f4d4d912157d59db6d5a4268",
+    "normalized_text_hash": "67b3a285e483714de415ea7affbb64ade5dce9a647b3b9ce3a2b63505904bff7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:37:18.011Z",
+    "semantic_similarity": 18,
+    "structural_similarity": 24,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

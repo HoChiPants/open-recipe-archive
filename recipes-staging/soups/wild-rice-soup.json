@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "wild-rice-soup",
+  "name": "Wild Rice Soup",
+  "subtitle": "A creamy soup with wild rice, vegetables, ham, and almonds.",
+  "description": "Tender wild rice and shredded carrots simmer in a smooth, buttery broth finished with half-and-half.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "wild-rice",
+      "item": "wild rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "minced cooked"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "slivered-almonds",
+      "item": "slivered almonds",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the wild rice in the water until tender, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan. Add the onion and cook until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the flour, then gradually add the chicken broth, mixing until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Bring the broth mixture to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Add the cooked wild rice, carrots, and almonds. Simmer for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Stir in the half-and-half and warm the soup gently. Heat the ham-containing soup to 165°F, then serve."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "creamy",
+    "wild-rice"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/47943/elegant-wild-rice-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2fcf54f59d76b0331fd7c27090cb09b738a9c92147536295671ed4a9f743739d",
+    "normalized_text_hash": "63c8a5e7ccc14bad631654eb5b78fd6be6b4fa535641411844cb1094e1ddde04",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:00:47.127Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

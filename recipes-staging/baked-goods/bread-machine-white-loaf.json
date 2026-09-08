@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-machine-white-loaf",
+  "name": "Bread Machine White Loaf",
+  "subtitle": "A simple sliced loaf for the bread machine",
+  "description": "Combine the listed ingredients in the bread-machine pan, run a basic white-bread cycle, then cool and slice.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 1,
+    "unit": "loaf (cuts into 10 slices)"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "caster-sugar-or-honey",
+      "item": "caster sugar or honey",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "strong-white-bread-flour",
+      "item": "strong white bread flour",
+      "quantity": 350,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fast-action-dried-yeast",
+      "item": "fast-action dried yeast",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the olive oil and caster sugar or honey to the bread-machine pan."
+    },
+    {
+      "step": 2,
+      "text": "Add the strong white bread flour, then sprinkle the fast-action dried yeast over the top."
+    },
+    {
+      "step": 3,
+      "text": "Select the basic or white-bread cycle and let the machine bake until the loaf is set, about 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 4,
+      "text": "Remove the loaf from the pan and cool it completely on a rack."
+    },
+    {
+      "step": 5,
+      "text": "Slice into 10 pieces and serve."
+    }
+  ],
+  "tags": [
+    "baking",
+    "bread",
+    "bread-machine",
+    "white-bread",
+    "sliced-loaf"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine",
+    "cooling rack",
+    "serrated knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bread-maker-white-loaf",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d86effdc2ac8668237c34a20acdec5614391d2db717e84476de09fcd03bfe969",
+    "normalized_text_hash": "4d885a0bc58d15a32b75be2cb5e0ea4674691866269e69f1a4042af4f1668105",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:53:27.035Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

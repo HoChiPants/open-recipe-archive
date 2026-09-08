@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hoe-cake",
+  "name": "Hoe Cake",
+  "subtitle": "A crisp-edged cornmeal-style breakfast bake",
+  "description": "A simple savory breakfast cake baked with milk, self-rising flour, and garlic salt in a shortening-greased pan.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 2,
+      "unit": "pinches"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F. Transfer the shortening to a baking pan and place it in the oven to heat."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the self-rising flour and milk together until a thick batter forms. Stir in the garlic salt."
+    },
+    {
+      "step": 3,
+      "text": "Carefully remove the hot pan, pour in the batter, and bake until golden brown.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "savory",
+    "baked",
+    "southern-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/140574/hoe-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "64f35afe787b6398422741885a326a1d46c362b15426e35f199a6830e8236be5",
+    "normalized_text_hash": "f908ddbace7dfbb812510ad8afa0b585e146b67f4065f57518940fd979f72339",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:34:22.041Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-pepper-chicken-wings",
+  "name": "Lemon Pepper Chicken Wings",
+  "subtitle": "Oven-baked wings with bright lemon and pepper",
+  "description": "Chicken wings are coated in a lemon-pepper oil mixture and baked until crisp and safely cooked.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "finely-grated-lemon-zest",
+      "item": "finely grated lemon zest",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "coarse-sea-salt",
+      "item": "coarse sea salt",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-wings",
+      "item": "chicken wings",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "3 pound"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 425°F. Prepare a baking sheet for the wings."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the olive oil, lemon zest, sea salt, and black pepper until combined."
+    },
+    {
+      "step": 3,
+      "text": "Coat the chicken wings evenly with the lemon-pepper mixture and arrange them in a single layer on the baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 35 minutes, until browned and the thickest pieces reach 165°F on a food thermometer.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "american",
+    "chicken",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236392/lemon-pepper-chicken-wings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "85b21dbce8ece85a52772306ed419c530ff52ebbee3f922b87c4aa077bd71860",
+    "normalized_text_hash": "a5b93f68784ab78c15237b88ffa619efd2965de100535229e322fac285f6d0fa",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:58:15.963Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

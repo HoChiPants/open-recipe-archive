@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "breaded-baked-eggplant",
+  "name": "Breaded Baked Eggplant",
+  "subtitle": "Tender eggplant with a crisp seasoned coating",
+  "description": "Mayonnaise helps the seasoned crumbs adhere as the eggplant bakes into a simple Italian-style side dish.",
+  "meal_type": "side",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "seasoned-bread-crumbs",
+      "item": "seasoned bread crumbs",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "eggplant",
+      "item": "eggplant",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "peeled and sliced into 1/2 inch rounds"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the seasoned bread crumbs in a shallow dish."
+    },
+    {
+      "step": 3,
+      "text": "Coat each eggplant round with mayonnaise, then press it into the bread crumbs to cover."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the coated slices in a single layer on a baking sheet. Bake for 45 minutes, checking after 20 minutes, until golden brown.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "italian",
+    "baked",
+    "eggplant"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "shallow dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70142/easiest-eggplant/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a0312635d537d469cf4874ca15dbec2bfe02aba07a324005998101bec21d027d",
+    "normalized_text_hash": "56f1db6b9f9d01d5dd7956bef7811d56b0bf29fc0d96b91672fec0af33ceb881",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:16:51.826Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

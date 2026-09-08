@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-honey-mustard-pork-roast",
+  "name": "Spicy Honey Mustard Pork Roast",
+  "subtitle": "A sweet-tangy roast with pepper and thyme",
+  "description": "Pork roast is coated with a honey-mustard mixture, then roasted until tender and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pork-roast",
+      "item": "pork roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 300°F. Place the pork roast in a roasting pan and roast for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Transfer the roast as needed. Stir together the honey, Dijon mustard, black pepper, crushed dried thyme, and salt."
+    },
+    {
+      "step": 3,
+      "text": "Coat the pork with the honey-mustard mixture and return it to the pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, or until a thermometer inserted into the thickest part registers 145°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Rest the roast for 15 minutes before slicing; the rest exceeds the required 3-minute rest for whole-cut pork.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "pork",
+    "roast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24851/spicy-honey-mustard-pork-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4355e59eaded410556d4590b51b9c4b05df8f4cc49a0bcb73c6fc1c4a967ba48",
+    "normalized_text_hash": "a41e7aba8dbadf548db7933d52e0a59eed7ab822f5f0221f619c2e1025cc45ae",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:33:08.873Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

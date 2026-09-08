@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-green-beans",
+  "name": "Grilled Green Beans",
+  "subtitle": "Garlic-seasoned green beans with smoky char",
+  "description": "Green beans are coated with olive oil, garlic, and salt, rested to absorb flavor, then grilled until tender with lightly charred edges.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-green-beans",
+      "item": "fresh green beans",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the green beans, olive oil, garlic, and kosher salt in a bowl; toss until evenly coated."
+    },
+    {
+      "step": 2,
+      "text": "Let the seasoned beans stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to medium-high heat."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the beans to a grill basket, then place the basket on the grill."
+    },
+    {
+      "step": 5,
+      "text": "Grill, stirring occasionally, for 10 minutes, or until the beans are tender and lightly charred.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "grilled",
+    "green-beans",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "grill",
+    "grill basket",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238665/grilled-green-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e00bbfa6e3af0b5af116eca3e6a92b8ecc8c2b83b127eb9f4db4feeaa0de9f0b",
+    "normalized_text_hash": "58a59fa7a8b67eae007d312d9fe33438c2b801a72fa6b3f490a6c820dbf5b218",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:06:33.092Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

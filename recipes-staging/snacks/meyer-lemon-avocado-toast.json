@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "meyer-lemon-avocado-toast",
+  "name": "Meyer Lemon Avocado Toast",
+  "subtitle": "Bright, creamy toast with cilantro and chia",
+  "description": "Mashed avocado is seasoned with Meyer lemon, cilantro, cayenne, and sea salt, then spread over crisp whole grain toast and finished with chia seeds.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-whole-grain-bread",
+      "item": "slices whole grain bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped, or more to taste"
+    },
+    {
+      "ingredient_id": "meyer-lemon-zest",
+      "item": "Meyer lemon zest",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "meyer-lemon-juice",
+      "item": "Meyer lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "fine-sea-salt",
+      "item": "fine sea salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toast the bread until crisp, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Mash the avocado in a small bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the cilantro, lemon zest, lemon juice, cayenne, and sea salt. Fold the mixture into the mashed avocado."
+    },
+    {
+      "step": 4,
+      "text": "Spread the seasoned avocado over the toast and sprinkle with chia seeds."
+    }
+  ],
+  "tags": [
+    "snack",
+    "toast",
+    "avocado",
+    "quick",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "toaster or oven",
+    "small bowl",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257457/meyer-lemon-avocado-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a4c397a335aefb34030f5b8c31835372d27819e61ad5c02e67d4016aa29e1aa2",
+    "normalized_text_hash": "5b43f6259690bfee780a44c618824fb9650d1c3b015dbdf383c315d392fcecfb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:38:42.476Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

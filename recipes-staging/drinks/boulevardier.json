@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "boulevardier",
+  "name": "Boulevardier",
+  "subtitle": "A stirred bourbon cocktail with bitter-orange depth",
+  "description": "Combine equal parts bourbon, sweet vermouth, and Campari over ice, then garnish with orange peel for a balanced, bittersweet drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bourbon",
+      "item": "bourbon",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sweet-vermouth",
+      "item": "sweet vermouth",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "campari",
+      "item": "Campari",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    },
+    {
+      "ingredient_id": "orange-peel-twist-to-garnish",
+      "item": "orange peel twist to garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add bourbon, sweet vermouth, and Campari to a mixing glass filled with ice."
+    },
+    {
+      "step": 2,
+      "text": "Stir until thoroughly chilled, then strain into a serving glass."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the orange peel twist to garnish."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "bourbon",
+    "campari",
+    "sweet-vermouth",
+    "stirred-cocktail"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing glass",
+    "bar spoon",
+    "strainer",
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/boulevardier",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f3e2f27e765118216c04c4f22c94f4edf0420a07d7cf0ab70d3abc1fa7467ee4",
+    "normalized_text_hash": "dde679dce7b1d7bac016835c792a6011a545a0ffce97d69aae37195012070b4d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:44:11.206Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

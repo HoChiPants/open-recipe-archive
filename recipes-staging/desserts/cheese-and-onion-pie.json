@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-and-onion-pie",
+  "name": "Cheese and Onion Pie",
+  "subtitle": "A savory baked pie with caramelized onions and mature cheddar",
+  "description": "A crisp butter pastry filled with seasoned onions, eggs, and grated cheddar, then baked until golden and set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "plain-flour-plus-extra-for-dusting",
+      "item": "plain flour plus extra for dusting",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cold-butter-cut-into-1cm-cubes",
+      "item": "cold butter cut into 1cm cubes",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "onions-finely-sliced",
+      "item": "onions finely sliced",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "sage-onion-stuffing-mix",
+      "item": "sage & onion stuffing mix",
+      "quantity": 170,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "mature-cheddar-grated",
+      "item": "mature cheddar grated",
+      "quantity": 400,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rub the cold butter into the flour until the mixture forms a pastry. Shape it into a disk, wrap, and chill.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Prepare the sliced onions and stuffing mix using the stated cooking method for 20 minutes, then microwave for 8 minutes. Cool the mixture.",
+      "timer_minutes": 28
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven. Combine the cooled stuffing mixture with the eggs and grated cheddar."
+    },
+    {
+      "step": 4,
+      "text": "Dust the work surface and roll out the pastry. Line the pie dish, trim the edge, and reserve pastry scraps for the top."
+    },
+    {
+      "step": 5,
+      "text": "Fill the pastry with the onion mixture. Cover with the remaining pastry, seal the edge, and cut a small opening in the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake until golden brown and the center is fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Cool the pie for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "savory-pie",
+    "cheese-and-onion",
+    "baked-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/paxo-cheese-onion-pie",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2bc1b2bcde4b0fc35d8eff6ec1e5270a2d15e277bbf1e839284650ea38c088eb",
+    "normalized_text_hash": "46cecfadc5d3da9cbdfcb7d60f969a32902a3b1f5085baf14b749f55150cd3e6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T15:51:03.247Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scotch-and-drambuie-cocktail",
+  "name": "Scotch and Drambuie Cocktail",
+  "subtitle": "A simple stirred whisky cocktail over ice",
+  "description": "Combine Scotch whisky and Drambuie over ice, then stir until chilled.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "fluid-ounces-scotch-whiskey",
+      "item": "fluid ounces Scotch whiskey",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fluid-ounce-drambuie-liqueur-1-shot",
+      "item": "fluid ounce Drambuie Liqueur (1 shot)",
+      "quantity": 0.75
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the large ice cubes in a serving glass and add the measured ice."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the Scotch whiskey and Drambuie Liqueur."
+    },
+    {
+      "step": 3,
+      "text": "Stir gently until combined and chilled, then serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "whiskey"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass",
+    "bar spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222897/the-rusty-nail-cocktail/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "caf99bbedcc62b37d3aed00a9e926a27c15c13137b42cf1ee98012206286c61e",
+    "normalized_text_hash": "b12f2adad92d2d98ed4ba3e8df766ca74d814e6fc5fdc02116debcfcb098d5cd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:02:45.749Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-dump-cake",
+  "name": "Peach Dump Cake",
+  "subtitle": "A simple peach-and-cake-mix dessert with a golden, buttery topping.",
+  "description": "Juicy peaches, yellow cake mix, and butter bake together into an easy fruit dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peaches-in-heavy-syrup",
+      "item": "peaches in heavy syrup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "29 ounce, sliced, undrained"
+    },
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "box",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "sliced into pats, or more if needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Pour the sliced peaches and their syrup into a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Sprinkle the cake mix evenly over the peaches, then arrange the butter pats across the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 35 minutes, or until the topping is golden brown.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-dessert",
+    "easy-baking",
+    "peach"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229004/peach-dump-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "023878e2a14bacb2fa11726dce3739b48246c0cdaa69611f9d881244ae6cb4d7",
+    "normalized_text_hash": "df668a6dbdc20b66a37b35dadedda2f598d6e0029c4449e478d62a70af856753",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:20:59.907Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

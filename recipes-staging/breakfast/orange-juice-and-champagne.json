@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-juice-and-champagne",
+  "name": "Orange Juice and Champagne",
+  "subtitle": "A bright two-ingredient breakfast cocktail",
+  "description": "Combine freshly squeezed orange juice with chilled champagne for a simple sparkling drink.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-juice-freshly-squeezed",
+      "item": "orange juice freshly squeezed",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "chilled-champagne",
+      "item": "chilled champagne",
+      "quantity": 200,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Divide the freshly squeezed orange juice between two glasses."
+    },
+    {
+      "step": 2,
+      "text": "Top each glass with the chilled champagne and serve immediately."
+    }
+  ],
+  "tags": [
+    "sparkling-cocktail",
+    "orange-juice",
+    "breakfast-drink",
+    "two-ingredient-drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "two glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bucks-fizz",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "47f7e848af398a7a52a9dda144410f31068446ecbc0ecc29c32abfc74d20ee45",
+    "normalized_text_hash": "4cc4424af15b011065d81834929e5e7ade319d98687270b4beb185f8052eb56c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T15:08:02.625Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

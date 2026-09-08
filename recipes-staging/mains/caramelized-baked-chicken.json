@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramelized-baked-chicken",
+  "name": "Caramelized Baked Chicken",
+  "subtitle": "Oven-baked wings with a sweet-savory glaze",
+  "description": "Chicken wings are coated in a honey, soy sauce, ketchup, and garlic glaze, then baked until caramelized and safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-wings",
+      "item": "chicken wings",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the chicken wings in a baking dish and coat them with the olive oil."
+    },
+    {
+      "step": 3,
+      "text": "Stir together the soy sauce, ketchup, honey, minced garlic, salt, and pepper. Pour the mixture over the wings and turn to coat."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, until the glaze is caramelized and the thickest pieces reach 165°F on a food thermometer.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken",
+    "baked",
+    "wings"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8614/caramelized-baked-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2f8b90a772c98d8348a5425604f7f7e21ac93fb9abc12eeee197ff92a40204b3",
+    "normalized_text_hash": "ae72c4a9563a0ddeba5702410d2b318301b79ad01e8a64fb24605e66513ad1a5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:53:13.545Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tea-punch",
+  "name": "Tea Punch",
+  "subtitle": "A chilled citrus drink with a gentle tea base and fizzy finish",
+  "description": "A make-ahead punch combining sweetened black tea, citrus juices, lemonade, and chilled ginger ale.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "strong-brewed-black-tea",
+      "item": "strong brewed black tea",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "prepared-lemonade",
+      "item": "prepared lemonade",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "2 liter, chilled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the sugar into the strong brewed tea until dissolved."
+    },
+    {
+      "step": 2,
+      "text": "Add the orange juice, pineapple juice, and lemonade; stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill the mixture for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 4,
+      "text": "Stir in the chilled ginger ale just before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "punch",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pitcher or punch bowl",
+    "measuring cup"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23532/tea-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2f9bf0ea62c7671a29b23dfd6dd34d269d67577c8ae2a936707dbd4ddecdfb5b",
+    "normalized_text_hash": "f3367e8808a0bc71449fe33e1e736ca5c86b1623f9b1e0c48319d1494952001f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:40:50.277Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

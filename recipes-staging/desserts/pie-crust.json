@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pie-crust",
+  "name": "Pie Crust",
+  "subtitle": "A simple flaky base for sweet or savory fillings",
+  "description": "Combine flour and salt with vegetable shortening, add cold water, then shape and fold the dough into a crust-ready round.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-shortening",
+      "item": "vegetable shortening",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a bowl, combine the flour and salt."
+    },
+    {
+      "step": 2,
+      "text": "Cut in the vegetable shortening until the mixture forms coarse crumbs."
+    },
+    {
+      "step": 3,
+      "text": "Add the cold water gradually, mixing just until a dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Turn the dough onto a lightly floured surface and shape it into a round."
+    },
+    {
+      "step": 5,
+      "text": "Fold the dough over itself once or twice, then shape it into a smooth round suitable for rolling."
+    }
+  ],
+  "tags": [
+    "pie",
+    "pastry",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "pastry cutter",
+    "rolling pin",
+    "pie plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12492/pie-crust-iv/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "91220eff59dfe0f6e5e991aa4a440218616ba02b533cd1d31d401548eed4f4bd",
+    "normalized_text_hash": "8012927ad179e57af1b356a16bce2894b3bb0a2e0b2a294c9389cf7033acf35e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:38:14.360Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

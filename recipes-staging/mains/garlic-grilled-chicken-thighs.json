@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-grilled-chicken-thighs",
+  "name": "Garlic Grilled Chicken Thighs",
+  "subtitle": "Buttery chicken with garlic, soy, and parsley",
+  "description": "Boneless, skin-on chicken thighs are coated in a savory garlic butter mixture and grilled until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "boneless-chicken-thighs",
+      "item": "boneless chicken thighs",
+      "quantity": 6,
+      "preparation": "with skin"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill or broiler and prepare the cooking surface."
+    },
+    {
+      "step": 2,
+      "text": "Combine the garlic, soy sauce, dried parsley, and black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Microwave the butter for 2 minutes, or until melted, then stir it into the garlic mixture.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Transfer the chicken thighs to the prepared surface and coat them with the butter mixture."
+    },
+    {
+      "step": 5,
+      "text": "Grill for about 20 minutes, turning as needed, until the thickest thigh reaches 165°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Garnish with the dried parsley."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "grilled",
+    "garlic",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "soy"
+  ],
+  "equipment": [
+    "grill or broiler",
+    "microwave",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/80827/easy-garlic-broiled-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c8531e108160643113ceedb9450cfc33ad6369b6937d9f54335262b5ad8e133d",
+    "normalized_text_hash": "0ceda6a5de76bb29640d428985bb79d1cd0cf42190f8ed62edbc9b59f936b605",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:32:13.058Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

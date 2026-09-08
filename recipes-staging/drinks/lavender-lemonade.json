@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lavender-lemonade",
+  "name": "Lavender Lemonade",
+  "subtitle": "Floral lemonade with fresh citrus brightness",
+  "description": "Steep lavender in hot water, then combine it with lemon juice, sugar, and water for a fragrant chilled drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lavender-flowers",
+      "item": "lavender flowers",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the lavender flowers in a heatproof pitcher or bowl. Pour in the boiling water and let steep for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir in the cold water, lemon juice, and sugar until the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Chill the lemonade for 15 minutes, then serve cold.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "drink",
+    "lemonade",
+    "lavender",
+    "nonalcoholic"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "heatproof pitcher or bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62824/lavender-lemonade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "54f5c4106146a039430cb6e5028d509686ef28cf5b322dd9f47db4fb15142f9c",
+    "normalized_text_hash": "5230a2e5ccb4e9a7fa9445e6ded175126717c83290c589079a4582166e4941e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:50:59.949Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

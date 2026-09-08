@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-flan",
+  "name": "Easy Flan",
+  "subtitle": "Silky custard with a caramel topping",
+  "description": "A classic Mexican baked custard made with caramelized sugar, milk, eggs, and egg yolks.",
+  "meal_type": "dessert",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.375,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Place the 0.5 cup sugar in a flan mold or round baking dish and heat until melted and amber; tilt to coat the bottom, then set aside."
+    },
+    {
+      "step": 2,
+      "text": "Heat the milk until boiling. Combine the beaten eggs and egg yolks, then stir in the 0.375 cup sugar."
+    },
+    {
+      "step": 3,
+      "text": "Gradually transfer the hot milk into the egg mixture, stirring continuously to combine."
+    },
+    {
+      "step": 4,
+      "text": "Pour the custard into the caramel-coated dish. Set the dish in a larger pan and add hot water around it to form a water bath."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until the center is fully set and reaches 160°F on a food thermometer.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Remove the dish from the water bath and cool the flan before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "mexican"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "flan mold or round baking dish",
+    "larger roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20524/flan-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7a8a3f4194cdc0fc48d282dbe289221adf860b071586dd667d100471c5fd49ba",
+    "normalized_text_hash": "fe7e83fc775e3c947ce49562f14b94a85e0ff4d9a092689b0bc47eef9cfcee7e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:04.273Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

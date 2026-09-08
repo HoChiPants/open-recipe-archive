@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tilapia-scampi",
+  "name": "Tilapia Scampi",
+  "subtitle": "Tender tilapia baked with lemon, garlic, and parsley butter",
+  "description": "Tilapia fillets are baked in a bright garlic-lemon butter sauce for a simple four-serving main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 8,
+      "unit": "cloves",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "6-ounce-tilapia-fillets",
+      "item": "(6 ounce) tilapia fillets",
+      "quantity": 4,
+      "preparation": "rinsed and patted dry"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the rinsed, dried tilapia fillets in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the butter, lemon juice, and halved garlic in a small saucepan. Warm for 1 minute, until the butter melts.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Pour the butter mixture over the fillets and sprinkle with the dried parsley."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, or until the fish reaches 145°F and is opaque and easily flaked.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "baked",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "small saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/167052/tilapia-scampi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ed0f5ab864b6974f4b697b73ebee82dee096a9d490f48d56f0e4071a720bc150",
+    "normalized_text_hash": "3215639182e7315da7d1b149558e08fe6df1a6db500cf86d069af82c340b4ef6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:08:10.856Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

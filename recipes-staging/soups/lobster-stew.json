@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lobster-stew",
+  "name": "Lobster Stew",
+  "subtitle": "Creamy lobster stew for six",
+  "description": "Cooked lobster warmed in butter and gently simmered with half-and-half for a rich, simple soup.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lobster-meat",
+      "item": "lobster meat",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 2,
+      "unit": "quarts"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large pot over medium heat and melt the butter."
+    },
+    {
+      "step": 2,
+      "text": "Add the cooked lobster meat and sauté briefly until heated through."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the half-and-half cream and bring the stew to a gentle simmer."
+    },
+    {
+      "step": 4,
+      "text": "Simmer gently for 25 minutes, keeping the mixture below a boil. Confirm the lobster is opaque and steaming hot throughout.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "seafood",
+    "new-england"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "large pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13016/lobster-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a80cb066fe8807cce9757ce7f48b9cedf084595e1f5edca47404fcb9e65849be",
+    "normalized_text_hash": "ca5d794b13e5b63d462f5d9f4f920af7c3a3ef8f4b8245c6b9237040f784af46",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:05:33.192Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "no-bake-pumpkin-pie",
+  "name": "No-Bake Pumpkin Pie",
+  "subtitle": "Spiced pumpkin filling in a chilled crumb crust",
+  "description": "A cool-set pumpkin dessert with warm spices and a creamy condensed-milk filling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "unflavored-gelatin",
+      "item": "unflavored gelatin",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "9-inch-prepared-graham-cracker-crust",
+      "item": "(9 inch) prepared graham cracker crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the gelatin, cinnamon, ginger, nutmeg, and salt together in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the condensed milk and beaten eggs. Warm over medium-low heat, stirring constantly, until the gelatin dissolves and the mixture reaches 160°F; do not boil.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Mix in the pumpkin puree until smooth, then pour the filling into the prepared graham cracker crust."
+    },
+    {
+      "step": 4,
+      "text": "Refrigerate until firm, about 3 hours, then slice and serve.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pumpkin",
+    "no-bake",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15564/no-bake-pumpkin-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4a0ed2a0e197592ce254cc157a7d2fb660186898ce09d80360f24e1f845401ed",
+    "normalized_text_hash": "b3079f107483ea1f56c180c25ea529727a6ca1ed9bbbf67fe84e45e448b5f74c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:15:16.239Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

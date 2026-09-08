@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-and-sweet-ginger-drink",
+  "name": "Hot and Sweet Ginger Drink",
+  "subtitle": "A warm ginger infusion sweetened with brown sugar and honey",
+  "description": "Simmer sliced ginger in water, sweeten the infusion, and serve hot.",
+  "meal_type": "drink",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "fresh-ginger",
+      "item": "fresh ginger",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and sliced ginger in a saucepan and bring to a boil; continue cooking for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir in the packed brown sugar and honey until dissolved."
+    },
+    {
+      "step": 3,
+      "text": "Ladle into cups and serve hot with the ginger slices."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "ginger",
+    "hot-drink",
+    "asian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon",
+    "serving cups"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/96696/hot-and-sweet-ginger-drink/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dc7b2a39a9d23adbbb70219b48c19fb433959a7837529fe0f158a9a351e4be69",
+    "normalized_text_hash": "756655452bfee0e9b6cab68c82f2e92149ce3e9c7c2113d0af69f91cac7ff346",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:50:44.458Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

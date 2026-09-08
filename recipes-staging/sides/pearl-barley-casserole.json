@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pearl-barley-casserole",
+  "name": "Pearl Barley Casserole",
+  "subtitle": "A savory baked barley side with vegetables and mushrooms.",
+  "description": "Pearl barley simmers with onion, celery, mushrooms, and bell pepper before baking until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ribs-celery",
+      "item": "ribs celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "pearl-barley",
+      "item": "pearl barley",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Melt the butter in an oven-safe skillet or casserole pan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the onion and cook for 8 minutes, stirring occasionally, until lightly browned. Add the celery and stir for 5 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Stir in the pearl barley, mushrooms, green bell pepper, and salt and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Pour in the chicken broth and bring the mixture to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Cover and bake for 30 minutes, until the barley is tender and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Let stand for 15 minutes, then adjust the salt and black pepper before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven-safe skillet or casserole pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229246/pearl-barley-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "01cdcd0cdbe69e4a856f43acf4529e82a6d7a7ce27018c83f16c6c45cf5c9dc1",
+    "normalized_text_hash": "9c8179f96e5edc7595477f4bc6d81334742cb8592ea3e6dc0f747610d2ab3970",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:03:47.193Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

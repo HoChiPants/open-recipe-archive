@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "feta-stuffed-chicken",
+  "name": "Feta-Stuffed Chicken",
+  "subtitle": "Tender chicken filled with creamy feta and finished with crisp breadcrumbs",
+  "description": "Boneless chicken breasts are filled with seasoned feta, coated with breadcrumbs, and baked until cooked through.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "tomato-basil-feta-cheese",
+      "item": "tomato basil feta cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "crumbled"
+    },
+    {
+      "ingredient_id": "italian-style-dry-bread-crumbs",
+      "item": "Italian-style dry bread crumbs",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the chicken breast halves on a work surface and cut a pocket into the thickest part of each piece."
+    },
+    {
+      "step": 3,
+      "text": "Fill each pocket with the crumbled feta, then close the openings."
+    },
+    {
+      "step": 4,
+      "text": "Coat the chicken with half of the breadcrumbs and arrange it in a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Sprinkle the remaining breadcrumbs over the chicken."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until the chicken reaches 165°F in the thickest part.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8933/feta-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dee87ecddc4328778c4d2d05d61bf421ff53b294ad800864a66144f07c561d0c",
+    "normalized_text_hash": "7366fcce25e46fba1ace1f22a82e70bdb555c9558ca247e3da29727a2cedfbb5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:08:46.965Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

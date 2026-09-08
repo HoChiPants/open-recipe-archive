@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "red-lentil-and-yellow-split-pea-soup",
+  "name": "Red Lentil and Yellow Split Pea Soup",
+  "subtitle": "A hearty pressure-cooker soup with bright lemon finish",
+  "description": "Lentils, split peas, vegetables, and cumin cook into a thick, savory soup finished with lemon juice.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-lentils",
+      "item": "red lentils",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "yellow-split-peas",
+      "item": "yellow split peas",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 5,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the red lentils, yellow split peas, onion, carrots, garlic, cumin, and chicken broth to the pressure cooker; stir to combine."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the pressure cooker according to the manufacturer's instructions."
+    },
+    {
+      "step": 3,
+      "text": "Cook under pressure for 30 minutes. If the broth contains raw poultry, verify that the poultry reaches 165°F with a food thermometer.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Allow the pressure to release naturally for 15 minutes, then release any remaining pressure according to the cooker instructions.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Stir in salt, pepper, and lemon juice. Adjust the seasoning to taste and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "pressure-cooker",
+    "soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218654/red-lentil-and-yellow-split-pea-soup-made-with-a-pressure-cooker/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7714c31e3e5db019531a1438d3f365a66c5a9871054734e5d666a1d1574ac0b4",
+    "normalized_text_hash": "046346bc490d742e0a7dab4ba0395993921316a6a1933ef8968c03e8144d0911",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:57:07.892Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

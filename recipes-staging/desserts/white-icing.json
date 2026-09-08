@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-icing",
+  "name": "White Icing",
+  "subtitle": "A smooth, simple icing for cakes and cookies",
+  "description": "Mix confectioners' sugar with shortening, water, and vanilla, then beat until smooth and spreadable.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "clear-imitation-vanilla-extract",
+      "item": "clear imitation vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the confectioners' sugar, shortening, water, and clear imitation vanilla extract in a mixing bowl."
+    },
+    {
+      "step": 2,
+      "text": "Beat for 5 minutes, scraping the bowl as needed, until the icing is smooth and evenly combined.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "icing",
+    "frosting",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8263/best-white-icing-ever/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cdfd1adde22c176c2ef7dcc39577f1ccb35078f76e3bca97344d1ddb61ef06b9",
+    "normalized_text_hash": "b0e2416226e150d84051ca40d0b938796ec1054cde0609863377ddd4ee63dd60",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:40:27.639Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "wheat-salad",
+  "name": "Wheat Salad",
+  "subtitle": "A creamy pineapple salad with tender wheat berries",
+  "description": "Tender wheat berries are cooled and folded into a smooth pineapple-cream mixture for a chilled salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 300,
+    "cook_minutes": 300
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-wheat-berries",
+      "item": "whole wheat berries",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "pineapple-in-juice",
+      "item": "pineapple in juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, crushed, drained"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.4 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-tub-frozen-whipped-topping",
+      "item": "(8 ounce) tub frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the whole wheat berries in a cooking vessel, then cook until tender, about 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 2,
+      "text": "Transfer the cooked wheat berries to a bowl and chill until tender and cool."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the softened cream cheese, drained pineapple, and lemon juice until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Add the pudding mix and combine until evenly blended."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the chilled wheat berries, coating them evenly, then gently fold in the thawed whipped topping."
+    },
+    {
+      "step": 6,
+      "text": "Chill the salad until cold and set before serving."
+    }
+  ],
+  "tags": [
+    "chilled-salad",
+    "fruit-salad",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "cooking vessel",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/68341/wheat-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4de8c37a003aa1aaf486a3684f5f0479aa54338e2c2e826f9a912b38a1f8874f",
+    "normalized_text_hash": "b250df550e6bcf0e7ff6d0ca7a6d0e0508dbd6a025eb5650744874d6bed6ca20",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:00:33.896Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

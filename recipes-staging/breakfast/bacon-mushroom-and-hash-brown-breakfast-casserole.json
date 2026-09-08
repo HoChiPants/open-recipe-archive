@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-mushroom-and-hash-brown-breakfast-casserole",
+  "name": "Bacon, Mushroom, and Hash Brown Breakfast Casserole",
+  "subtitle": "A savory baked breakfast layered with crisp potatoes, bacon, mushrooms, and eggs.",
+  "description": "Crisp the bacon and hash browns, sauté the mushrooms, then layer everything with cheese and an egg-milk mixture for a hearty breakfast casserole.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 65
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or as desired"
+    },
+    {
+      "ingredient_id": "frozen-cubed-hash-brown-potatoes",
+      "item": "frozen cubed hash brown potatoes",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "20 ounce"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, sliced"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 3,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F and coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon in a skillet until crisp, then transfer it to a plate. Add the hash brown potatoes to the skillet and cook for 25 minutes. Stir in the butter and cook for 10 minutes, until lightly browned; season with salt and pepper.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 3,
+      "text": "Transfer the potatoes to the baking dish. Cook the mushrooms in the skillet for 10 minutes, then layer them over the potatoes with the bacon and green onions.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Sprinkle on part of the Cheddar cheese. Whisk the eggs, milk, and 1 teaspoon salt until smooth, then pour the mixture into the dish. Top with the remaining cheese."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until the center is fully set and reaches 160°F on a food thermometer. Serve hot.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "casserole",
+    "egg-dish",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242239/cindys-breakfast-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f6bf7cf380137e3a4579d18c7bd125fabeadcf3bf266e2edfc69e5176c6cb978",
+    "normalized_text_hash": "55646b0fffc01417f7b7b327efab5ac03a422d16747de114fa45dc693f1019ff",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:45:33.380Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

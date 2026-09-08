@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "autumn-apple-salad",
+  "name": "Autumn Apple Salad",
+  "subtitle": "A crisp fruit salad with yogurt, almonds, and dried fruit",
+  "description": "Chopped green apples are folded with toasted almonds, dried cranberries, dried cherries, and vanilla yogurt for a quick, creamy salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tart-green-apples",
+      "item": "tart green apples",
+      "quantity": 4,
+      "preparation": "cored and chopped"
+    },
+    {
+      "ingredient_id": "blanched-slivered-almonds",
+      "item": "blanched slivered almonds",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "dried-cranberries",
+      "item": "dried cranberries",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-cherries",
+      "item": "dried cherries",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "8-ounce-container-vanilla-yogurt",
+      "item": "(8 ounce) container vanilla yogurt",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Core and chop the apples. Toast the slivered almonds if they are not already toasted."
+    },
+    {
+      "step": 2,
+      "text": "Combine the apples, almonds, cranberries, cherries, and vanilla yogurt in a bowl. Stir until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "salad",
+    "american",
+    "apple",
+    "fruit",
+    "quick"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24832/autumn-apple-salad-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9930dbeb6598efd3823f94e7546ba3dcb15644c479d5b1477d5ccaced797a4e1",
+    "normalized_text_hash": "0a17dae822a7c8cb041e6f89ac8341efc4c210f3bc60e4eec83d0f4251ac119c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:34:10.665Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

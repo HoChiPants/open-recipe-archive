@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-garlic-baguette",
+  "name": "Cheesy Garlic Baguette",
+  "subtitle": "A crisp baguette filled with herbed garlic cheese",
+  "description": "A simple Italian-style bread preparation combining creamy cheeses, garlic, butter, and herbs inside a scored baguette.",
+  "meal_type": "baked-good",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mozzarella-ball",
+      "item": "mozzarella ball",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "taleggio-cheese-rind-removed",
+      "item": "taleggio cheese rind removed",
+      "quantity": 140,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-chopped",
+      "item": "garlic cloves finely chopped",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "handful-parsley-leaves",
+      "item": "handful parsley leaves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-marjoram-leaves",
+      "item": "fresh marjoram leaves",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "chopped, optional",
+      "optional": true
+    },
+    {
+      "ingredient_id": "long-baguette",
+      "item": "long baguette",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pinch-of-paprika",
+      "item": "pinch of paprika",
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Finely chop the mozzarella and rindless taleggio, then combine them with the softened butter, garlic, parsley, and optional marjoram."
+    },
+    {
+      "step": 2,
+      "text": "Cut the baguette lengthwise, then make crosswise cuts along it without cutting completely through the base."
+    },
+    {
+      "step": 3,
+      "text": "Work the cheese mixture into the cuts and across the cut surface. Sprinkle with paprika."
+    },
+    {
+      "step": 4,
+      "text": "Shape and secure the filled baguette so the mixture stays in place, then rest it for 20 minutes before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "garlic-bread",
+    "cheesy-bread",
+    "baguette",
+    "herbed-bread",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheesy-garlic-bread-0",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3740d84b04b71920df6c8bfecc525f9665443c439b98054124291946c2d7b873",
+    "normalized_text_hash": "edc583d1a5dcfcd3de1e29e1fa9c89484aacb045dd6d2336308513d0cc08e687",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T15:59:08.786Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

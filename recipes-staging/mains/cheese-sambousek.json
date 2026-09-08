@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-sambousek",
+  "name": "Cheese Sambousek",
+  "subtitle": "Crisp pastries with a savory cheese filling",
+  "description": "Fold pastry strips around feta or stretchy Kashkawan cheese, season with nigella seeds, and fry until golden and crisp.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "feta-crumbled",
+      "item": "feta crumbled",
+      "quantity": 200,
+      "unit": "g",
+      "preparation": "or Kashkawan stretchy cheese, grated"
+    },
+    {
+      "ingredient_id": "nigella-seeds",
+      "item": "nigella seeds",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "plain-flour-plus-extra-for-dusting",
+      "item": "plain flour plus extra for dusting",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "sambousek-or-filo-pastry-sheets-cut-into-8-10cm-wide-strips",
+      "item": "sambousek or filo pastry sheets cut into 8-10cm wide strips",
+      "quantity": "300-400",
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 500,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the feta or grated Kashkawan cheese with the nigella seeds."
+    },
+    {
+      "step": 2,
+      "text": "Lay out the pastry strips. Place a small portion of the cheese mixture near one end, then fold the pastry over repeatedly to form sealed triangular parcels. Dust with flour as needed and press the edges firmly."
+    },
+    {
+      "step": 3,
+      "text": "Heat the vegetable oil in a deep, heavy pan over medium-high heat until hot.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Fry the parcels in batches until crisp and golden on all sides, turning as needed. Drain on paper towels and serve warm.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "starter",
+    "middle-eastern",
+    "cheese",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "deep heavy pan",
+    "paper towels"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheese-sambousek",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5072cc5e524429948ffefa209a05499934f82ddd30ffe0d310ba662891e92568",
+    "normalized_text_hash": "16aece70df8891a7432d284ed23b33cf431c6e4eaf88b77e26795215e1ade18a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T15:59:35.258Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

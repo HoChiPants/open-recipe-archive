@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-cinnamon-bread",
+  "name": "Apple Cinnamon Bread",
+  "subtitle": "A warmly spiced loaf with tender chopped apples",
+  "description": "A simple American quick bread combining apples, cinnamon, and cloves in a tender, lightly sweet loaf.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cloves",
+      "item": "ground cloves",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "preparation": "peeled, cored and chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a loaf pan and set it aside."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sugar and butter until smooth, then whisk in the eggs."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the flour, baking soda, cinnamon, salt, and cloves."
+    },
+    {
+      "step": 4,
+      "text": "Stir the dry mixture into the butter mixture until just combined. Fold in the chopped apples."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake for 60 minutes, until the loaf is set in the center.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool the bread in the pan for 15 minutes, then cool it completely before slicing.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick-bread",
+    "apple",
+    "cinnamon",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72575/apple-breakfast-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7d8434d531b268b7972c8a98c5185c24898648a3a6fe205848ad2cc878d46164",
+    "normalized_text_hash": "9f1e5cc5176fbecfc4867e1977ae0e0289fd3477683955f2a06c0b4767702302",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:18:52.027Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

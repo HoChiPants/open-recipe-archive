@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-roast-beef",
+  "name": "Slow Cooker Roast Beef",
+  "subtitle": "Tender beef roast with savory onion seasoning",
+  "description": "A simple slow-cooked chuck roast seasoned with soy sauce, onion soup mix, and black pepper.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 1320
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-onion-soup-mix",
+      "item": "dry onion soup mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "beef-chuck-roast",
+      "item": "beef chuck roast",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the soy sauce and dry onion soup mix together until combined."
+    },
+    {
+      "step": 2,
+      "text": "Place the beef chuck roast in the slow cooker. Add the soy sauce mixture and sprinkle with black pepper."
+    },
+    {
+      "step": 3,
+      "text": "Cook until the roast is tender, about 22 hours. Check the thickest part with a food thermometer; whole-cut beef should reach at least 145°F.",
+      "timer_minutes": 1320
+    },
+    {
+      "step": 4,
+      "text": "Let the roast rest for 3 minutes before slicing or serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "beef",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22228/slow-cooker-roast-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fef6fdf2252881eaae017ad1eefe1d68cffce772a5112d1f8f815589951808ab",
+    "normalized_text_hash": "25559588babbdb60ee0cd65d36f18e203cb40031675c185148e08ea158b8a81d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:50:01.768Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

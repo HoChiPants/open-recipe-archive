@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-jelly",
+  "name": "Apple Jelly",
+  "subtitle": "Clear, bright fruit jelly from whole chopped apples",
+  "description": "Cook chopped apples with lemon, strain the fruit to collect the juice, then boil it with sugar until it reaches a jelly set.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 3,
+    "unit": "x 454ml jars"
+  },
+  "times": {
+    "prep_minutes": 50,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples-washed-well-and-roughly-chopped-skin-and-core-kept-on",
+      "item": "apples washed well and roughly chopped (skin and core kept on)",
+      "quantity": 1.5,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "lemon-pared-and-juiced",
+      "item": "lemon pared and juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "around-750g-jam-sugar",
+      "item": "around 750g jam sugar"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped apples and lemon in a large pan with enough water to cover, then bring to a boil."
+    },
+    {
+      "step": 2,
+      "text": "Cook the apples gently for 40 minutes, or until completely soft and pulpy.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 3,
+      "text": "Strain the cooked fruit through a jelly bag or fine sieve without pressing, collecting the juice in a clean pan."
+    },
+    {
+      "step": 4,
+      "text": "Measure the juice and add the jam sugar according to the extracted amount, stirring until dissolved.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Bring the mixture to a full boil and cook for 10 minutes, or until it reaches a jelly set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Pour the hot jelly into the jars and leave it undisturbed until set."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "apple",
+    "fruit-jelly",
+    "preserves",
+    "homemade"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "large saucepan",
+    "jelly bag or fine sieve",
+    "clean jars"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-jelly",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6a3d47a1b14e3b9122183b07ac6b23ae69dfaf091a2cac263035d3a798ba0f7a",
+    "normalized_text_hash": "d758ac39f5f99f73965d6b430f666c2ac9a1b4c3e9ab7089ea00b5db1bfc8c94",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:38:45.026Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

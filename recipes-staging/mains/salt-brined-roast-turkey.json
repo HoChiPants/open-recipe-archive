@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salt-brined-roast-turkey",
+  "name": "Salt-Brined Roast Turkey",
+  "subtitle": "A crisp-skinned centerpiece with herb-scented pan juices",
+  "description": "Dry-brine a whole turkey overnight, then roast it over vegetables, herbs, and wine until the meat reaches a safe temperature.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 240,
+    "inactive_minutes": 750
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "18-pound-whole-turkey",
+      "item": "(18 pound) whole turkey",
+      "quantity": 1,
+      "preparation": "neck and giblets removed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted, divided"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "preparation": "coarsely chopped, divided"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 4,
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-thyme",
+      "item": "sprigs fresh thyme",
+      "quantity": 2,
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dry-white-wine",
+      "item": "dry white wine",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pat the turkey dry and rub it thoroughly with the kosher salt, including the cavity. Place it on a rack over a tray and refrigerate uncovered for 12 hours.",
+      "timer_minutes": 720
+    },
+    {
+      "step": 2,
+      "text": "Remove the turkey from the refrigerator and let it stand while the oven heats to 350°F."
+    },
+    {
+      "step": 3,
+      "text": "Pat the turkey dry again. Brush the skin with some of the melted butter and place the bird breast-side up on a rack in a roasting pan."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the onions, carrots, celery, thyme, and bay leaf in the pan. Place some of the thyme inside the cavity, then pour in the wine."
+    },
+    {
+      "step": 5,
+      "text": "Roast for 4 hours, basting occasionally with the remaining melted butter and pan juices, until a thermometer in the thickest part of the breast and thigh reads 165°F.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 6,
+      "text": "Transfer the turkey to a carving board and rest for 30 minutes before carving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "holiday",
+    "roast",
+    "turkey",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "gluten-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "refrigerator",
+    "roasting pan",
+    "rack",
+    "oven",
+    "food thermometer",
+    "carving board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/43655/perfect-turkey/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "51b18db392256ae886174e8bc7b8565af69bf95dfa2f3fa36c640b5cb5ab48b3",
+    "normalized_text_hash": "85bdc80f54931388de084afb3d37c23653f6d8ec7f6b0398bf4ead507471f3f8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:10:05.100Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "welsh-beef-and-vegetable-broth",
+  "name": "Welsh Beef and Vegetable Broth",
+  "subtitle": "A hearty broth with tender beef, root vegetables, cabbage, and leeks.",
+  "description": "Beef shank and vegetables simmer together for a substantial soup finished with fresh parsley.",
+  "meal_type": "soup",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 120,
+    "inactive_minutes": 1440
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "beef-shank",
+      "item": "beef shank",
+      "quantity": 12,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "rutabaga",
+      "item": "rutabaga",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "peeled and quartered"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "leeks",
+      "item": "leeks",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the water to a simmer in a large pot. Add the beef shank and simmer for 120 minutes, until tender and at least 145°F internally; rest the meat for 3 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Cool the beef and broth, then refrigerate overnight."
+    },
+    {
+      "step": 3,
+      "text": "Remove the beef, cut it into pieces, and return it to the pot. Prepare the remaining vegetables as listed."
+    },
+    {
+      "step": 4,
+      "text": "Bring the broth back to a simmer. Add the onions, carrots, and rutabaga, then season with salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Simmer until the vegetables begin to soften.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Add the potatoes and cook until tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Stir in the cabbage, leeks, and parsley. Simmer until the cabbage is tender, then serve hot.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "soup",
+    "welsh",
+    "british"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/48770/cawl-traditional-welsh-broth/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03c0dc8701500555a452ec0d28cf64131766b73ce9151c9afc022d60e2296002",
+    "normalized_text_hash": "94cbe4fe5e305af0889b273c2998fbb824cc91bd5ebe71fb2b77800da4f8f6ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:03:10.879Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

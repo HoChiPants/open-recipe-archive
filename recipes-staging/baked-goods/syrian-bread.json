@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "syrian-bread",
+  "name": "Syrian Bread",
+  "subtitle": "Soft, yeast-risen flatbreads baked until golden",
+  "description": "A simple yeast dough shaped into rounds, rested, and baked hot for tender, lightly browned flatbreads.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1-8-cups-water",
+      "item": "1⁄8 cups water",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, oil, sugar, salt, flour, and yeast in a bowl. Mix until a dough forms, then knead until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Cover the dough and let it rise until puffy, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven to 475°F."
+    },
+    {
+      "step": 4,
+      "text": "Divide the dough into 8 portions and shape each into a ball. Roll the balls into thin rounds."
+    },
+    {
+      "step": 5,
+      "text": "Let the rounds rest briefly, then bake in batches until puffed and golden brown, about 5 minutes per batch.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Cool slightly before serving."
+    }
+  ],
+  "tags": [
+    "flatbread",
+    "yeast-bread",
+    "bread",
+    "baked-good"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "rolling pin",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20834/syrian-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0e7a7dde956ce157ae0da9eaa98949699139c695cbcf9c1390567bb54e717906",
+    "normalized_text_hash": "4934eacb22c75053be7e512ad6ce7644e47db38ad63fdcb3d4444fcbccce9c4a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:32:44.218Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

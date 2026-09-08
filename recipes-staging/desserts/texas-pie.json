@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "texas-pie",
+  "name": "Texas Pie",
+  "subtitle": "A simple cherry, pineapple, coconut, and pecan bake",
+  "description": "Layer fruit, cake mix, coconut, pecans, and melted margarine, then bake until golden brown.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "pineapple-with-juice",
+      "item": "pineapple with juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, crushed"
+    },
+    {
+      "ingredient_id": "butter-cake-mix",
+      "item": "butter cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pecan-halves",
+      "item": "pecan halves",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the cherry pie filling in a baking dish. Stir in the crushed pineapple with its juice."
+    },
+    {
+      "step": 3,
+      "text": "Add the butter cake mix and combine with the fruit. Spread the mixture evenly, then top with the flaked coconut and pecan halves."
+    },
+    {
+      "step": 4,
+      "text": "Pour the melted margarine over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until golden brown.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-dessert",
+    "fruit-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "tree-nuts",
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20475/texas-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8de6e6bb1f236fd0d19c1812343ceeafcfd81575cd54c0310e8e9370035cc64a",
+    "normalized_text_hash": "c74aa3801de6f5a4ca5f87f1de7f06096f865eddae70978d99de8c4e1dfde197",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:47:42.681Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pan-fried-dover-sole",
+  "name": "Pan-Fried Dover Sole",
+  "subtitle": "Crisp cracker-coated fish with dill",
+  "description": "Dover sole is coated in flour, beaten egg, and crushed crackers, then pan-fried until lightly browned and fully cooked.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "saltine-crackers",
+      "item": "saltine crackers",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "dover-sole",
+      "item": "Dover sole",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "fresh-dill",
+      "item": "fresh dill",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the crushed crackers, beaten eggs, and flour in separate shallow dishes."
+    },
+    {
+      "step": 2,
+      "text": "Pat the Dover sole dry and season with salt. Coat each piece evenly in flour, dip it in the egg, then press it into the cracker crumbs."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a skillet over medium heat and add the vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Sauté the coated sole for about 5 minutes per side, adding more oil as needed, until lightly browned and the thickest portion reaches 145°F or is opaque and flakes easily.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Season with fresh dill and additional salt to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "snack",
+    "american",
+    "fish",
+    "pan-fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow dishes",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245052/pan-fried-dover-sole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9f185c125f7deb920229c78dbe2b7a01721edb6becae62da063bf6280cff1614",
+    "normalized_text_hash": "be28d3f8d4c2c8935c8ac037b0546dc89f2959bfc068b001c8c1d4e831bb9300",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:47:17.753Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

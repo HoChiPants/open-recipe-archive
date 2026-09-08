@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "marinated-grilled-shrimp",
+  "name": "Marinated Grilled Shrimp",
+  "subtitle": "Garlic-basil shrimp with a tangy tomato marinade",
+  "description": "Shrimp marinated with tomato sauce, garlic, basil, vinegar, and cayenne, then grilled on skewers until opaque.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-shrimp",
+      "item": "fresh shrimp",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "skewers",
+      "item": "skewers",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the olive oil, tomato sauce, garlic, vinegar, basil, salt, and cayenne pepper in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the shrimp and toss until evenly coated. Cover and chill for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill to medium-high heat. Thread the marinated shrimp onto the skewers."
+    },
+    {
+      "step": 4,
+      "text": "Grill the skewers, turning as needed, until the shrimp are opaque and reach 145°F internally, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "seafood",
+    "quick"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "grill",
+    "skewers",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21694/marinated-grilled-shrimp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "90ca9f25d8f887b1ec42651d18de03eeca2f9434a85f50b0de67d56ab5aaa87b",
+    "normalized_text_hash": "2f5283b45ef6904c383e53cc594603bd51c7cfdcc27b3c243af7b6a9f9a1009f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:23:53.831Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

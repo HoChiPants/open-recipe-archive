@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-pork-tenderloin",
+  "name": "Grilled Pork Tenderloin",
+  "subtitle": "Honey-soy pork with garlic and mustard",
+  "description": "Pork tenderloin pieces marinated in a savory-sweet mixture and grilled until safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1.5,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dry-mustard",
+      "item": "dry mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "1-1-4-pound-pork-tenderloins",
+      "item": "(1 1/4 pound) pork tenderloins",
+      "quantity": 2,
+      "preparation": "cut into 2-inch pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the soy sauce, honey, garlic, and dry mustard. Add the pork and turn to coat. Cover and refrigerate for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat the grill to medium-high heat. Remove the pork from the marinade and arrange the pieces for grilling."
+    },
+    {
+      "step": 3,
+      "text": "Grill the pork for about 5 minutes per side, turning once, until the center reaches 145°F on a food thermometer.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Rest the pork for 3 minutes before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "pork",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229428/sheilas-grilled-pork-tenderloin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa5ad009c0e9cb3b51bc8a0e1680fc518734ebd272d6ca6dd78dc0d76855800f",
+    "normalized_text_hash": "bae598e4e8d2865aeff2852e584c36622ee597a8a6d977580f945c5477e28752",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:10:17.233Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

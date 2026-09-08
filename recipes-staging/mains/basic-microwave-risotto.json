@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-microwave-risotto",
+  "name": "Basic Microwave Risotto",
+  "subtitle": "Creamy Arborio rice with Parmesan",
+  "description": "A simple microwave risotto combining buttery aromatics, broth, white wine, and Parmesan for a creamy Italian-inspired main dish.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "uncooked-arborio-rice",
+      "item": "uncooked Arborio rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-wine",
+      "item": "white wine",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the butter, garlic, and onion in a microwave-safe dish. Microwave for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Microwave the vegetable broth for 2 minutes, or until boiling.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Stir the rice into the butter mixture, then add the hot broth. Microwave for 6 minutes.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Stir in the white wine and microwave for 10 minutes, until the rice is tender and creamy.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Let the risotto simmer briefly, then stir in the Parmesan and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian-inspired",
+    "microwave",
+    "rice",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14134/basic-microwave-risotto/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2e7a19874571df697abddf739a3b5c84734793fd5e5d883816c5600ba8973548",
+    "normalized_text_hash": "1d05dc87cfbd52f6b33f0dd1a6c6b8d5b9f30fedf6f8ca9af02f8802549320db",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:07:23.715Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

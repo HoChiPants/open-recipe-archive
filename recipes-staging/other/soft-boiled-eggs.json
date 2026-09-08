@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "soft-boiled-eggs",
+  "name": "Soft-Boiled Eggs",
+  "subtitle": "Set whites with tender yolks",
+  "description": "Steam chilled eggs until the whites are set and the yolks reach a safe temperature, then cool briefly for easier peeling.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 3,
+    "cook_minutes": 9
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cold-eggs",
+      "item": "cold eggs",
+      "quantity": 6,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the water into a saucepan and place a steamer basket above it. Bring the water to a boil."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the cold eggs in the basket, cover the pan, and steam for 9 minutes.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 3,
+      "text": "Check that the whites are set and the yolks reach 160°F with a food thermometer. Cool the eggs under cold running water before peeling."
+    }
+  ],
+  "tags": [
+    "eggs",
+    "steamed",
+    "breakfast",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "steamer basket",
+    "lid",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255010/soft-hard-boiled-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "180f2c36733605bc9ba3211372f747f9c0b78908c62154e87b1fede005b42f63",
+    "normalized_text_hash": "1769acbd096c37d5978e04ff7b9e978970580a4332591f454a735fceb4abeb60",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:07:00.973Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

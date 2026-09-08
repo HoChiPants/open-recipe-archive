@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-baked-bacon",
+  "name": "Oven-Baked Bacon",
+  "subtitle": "Crisp bacon for two",
+  "description": "Bake bacon on foil until browned and crisp for an easy savory serving.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 9
+    },
+    {
+      "ingredient_id": "heavy-duty-aluminum-foil",
+      "item": "Heavy duty aluminum foil"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut a sheet of heavy-duty aluminum foil large enough to line a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Fold or arrange the foil on the baking sheet, then place the bacon slices on top in a single layer."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the baking sheet to the oven and bake the bacon until browned and crisp, about 25 minutes.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255277/baking-perfect-bacon-for-a-blt/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2b9de5601ce4cf2a2e67810c8f23922b0e766f6b9a8b0a4c2408f07766c92427",
+    "normalized_text_hash": "94ba6c2fab66c31f021208c5945b64fe6bda03af3d1c5245a4f47c2af3fd39cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:54:02.499Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

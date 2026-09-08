@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-french-toast",
+  "name": "Air Fryer French Toast",
+  "subtitle": "Crisp-edged brioche with cinnamon custard",
+  "description": "Brioche slices are coated in a vanilla-cinnamon custard, air-fried with demerara sugar, and served with an optional sweet or savory topping.",
+  "meal_type": "breakfast",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 14
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 40,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "of-ground-cinnamon",
+      "item": "of ground cinnamon",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "thick-slices-of-brioche",
+      "item": "thick slices of brioche",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "demerara-sugar",
+      "item": "demerara sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "fruit-and-icing-sugar-or-bacon",
+      "item": "fruit and icing sugar or bacon",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the egg, whole milk, double cream, vanilla extract, and ground cinnamon in a bowl. Transfer the mixture to a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the air fryer according to its instructions. Coat both sides of each brioche slice in the egg mixture."
+    },
+    {
+      "step": 3,
+      "text": "Place the coated brioche in the air fryer and sprinkle with the demerara sugar. Cook for 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Turn the slices and cook for 7 minutes more, until the center is fully set; verify an egg-based center reaches 160°F.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 5,
+      "text": "Serve with fruit and icing sugar or bacon, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "air-fryer",
+    "french-toast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl",
+    "shallow dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-french-toast",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e3ee7685604123a4020b8a616839fc0e03392095d24e063ea80938fc39c5f1d9",
+    "normalized_text_hash": "aae89d058b3125f776735ab96b27c5da140bb938bbebf4bf9d108f637a59ef8c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:25:22.064Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

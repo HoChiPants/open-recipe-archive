@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-buttered-noodles",
+  "name": "Fried Buttered Noodles",
+  "subtitle": "Tender egg noodles with buttery toasted crumbs",
+  "description": "Cooked egg noodles are combined with butter and bread crumbs, then finished until hot and crisp-edged.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-noodles",
+      "item": "egg noodles",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bread-crumbs",
+      "item": "bread crumbs",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a simmer. Add the egg noodles and cook for 8 minutes, or until tender.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Drain the noodles thoroughly."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a large oven-safe skillet or baking dish. Stir in the bread crumbs."
+    },
+    {
+      "step": 4,
+      "text": "Add the drained noodles and toss until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Cook the mixture for 30 minutes, until hot throughout; verify that the center reaches 160°F with a food thermometer before serving.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Season with salt to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "noodles"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "oven-safe skillet or baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244457/fried-buttered-noodles/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f66e474fbd50f56dd181a64aee7ad79b0ba5f4c6a3a50cfb7745c7ddbf15a6f5",
+    "normalized_text_hash": "6de62bf3a51152363653b731f899ad162687fc209ebc73aec19de7bbd618b906",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:25:11.125Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

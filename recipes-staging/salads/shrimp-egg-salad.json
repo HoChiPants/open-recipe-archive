@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shrimp-egg-salad",
+  "name": "Shrimp Egg Salad",
+  "subtitle": "A creamy chilled salad with dill and Dijon",
+  "description": "Combine chopped shrimp and eggs with mayonnaise, mustard, and fresh dill, then serve on crisp lettuce leaves.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "shrimp",
+      "item": "shrimp",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cooked, peeled, deveined, and chopped"
+    },
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sprig-chopped-fresh-dill",
+      "item": "sprig chopped fresh dill",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "leaves-green-leaf-lettuce",
+      "item": "leaves green leaf lettuce",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a bowl, mix the cooked chopped shrimp, eggs, mayonnaise, Dijon mustard, and chopped fresh dill until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Spoon the salad onto the green leaf lettuce leaves and serve."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "salad",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "shellfish",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53303/shrimp-egg-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e9e563c8b8d84c23b0d07352562591c54435e7703f6f2060cec5004c8e52ae03",
+    "normalized_text_hash": "36784e7f8bf2d62b6ba4d9be352f507fb9f701b9e6a91ee79b56129e4d766f3a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:17:00.730Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

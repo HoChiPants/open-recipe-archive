@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-bean-and-bacon-saute",
+  "name": "Green Bean and Bacon Sauté",
+  "subtitle": "Tender green beans with crisp bacon and gentle heat",
+  "description": "A quick American side dish combining green beans, savory bacon, garlic, and crushed red pepper in one skillet.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 10,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "frozen-whole-green-beans",
+      "item": "frozen whole green beans",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the diced bacon in a large skillet until crisp. Drain, reserving the bacon and leaving a little rendered fat in the skillet."
+    },
+    {
+      "step": 2,
+      "text": "Return the skillet to medium heat. Add the bacon, garlic, red pepper flakes, and salt and pepper; cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Add the frozen green beans and season with additional salt and pepper if needed."
+    },
+    {
+      "step": 4,
+      "text": "Stir and cook until the beans are tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Toss the bacon through the green beans and serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "green-beans",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/56195/green-bean-and-bacon-saute/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c11966255b5b4f18db93762a0c653e82cd43780b3985dbcbb33a01173c75ab50",
+    "normalized_text_hash": "68d6863041812deed0978374d02d8a7b6ebd456cc204e0d6c51827243f009c9a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:00:27.302Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

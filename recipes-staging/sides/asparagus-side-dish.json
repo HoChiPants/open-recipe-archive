@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "asparagus-side-dish",
+  "name": "Asparagus Side Dish",
+  "subtitle": "Tender asparagus with Parmesan and tomatoes",
+  "description": "A simple vegetable side combining tender asparagus, savory Parmesan, and fresh grape tomatoes.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bunch-fresh-asparagus",
+      "item": "bunch fresh asparagus",
+      "quantity": 1,
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grape-tomatoes",
+      "item": "grape tomatoes",
+      "quantity": 10,
+      "preparation": "halved"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the trimmed asparagus and water in a covered pan or microwave-safe dish and heat until steaming."
+    },
+    {
+      "step": 2,
+      "text": "Cook the asparagus for about 10 minutes, until tender, then drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Heat a pan, add the asparagus and olive oil, and toss to coat."
+    },
+    {
+      "step": 4,
+      "text": "Add the Parmesan and halved grape tomatoes. Warm gently for about 2 minutes, then serve.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetarian"
+  ],
+  "seasons": [
+    "spring",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "covered pan or microwave-safe dish",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/152030/asparagus-side-dish/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b2f553c46de810acd281e270b4fba79fe64f70cf1b601f6a935f3bfaf9a22801",
+    "normalized_text_hash": "a8e63e97eab36b3a08c7d7f4009703183accb9aea52a8772b0074da7a00348fd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:30:23.102Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

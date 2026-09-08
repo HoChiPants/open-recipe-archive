@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-spaghetti-sauce",
+  "name": "Italian Spaghetti Sauce",
+  "subtitle": "A savory tomato sauce with mushrooms, basil, and red wine",
+  "description": "Build a rich, chunky sauce by cooking aromatics and mushrooms before simmering tomatoes, herbs, wine, and seasonings until thickened.",
+  "meal_type": "sauce",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "head-garlic",
+      "item": "head garlic",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "fresh-basil-leaves",
+      "item": "fresh basil leaves",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped, or to taste"
+    },
+    {
+      "ingredient_id": "whole-peeled-tomatoes",
+      "item": "whole peeled tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "28 ounce"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "merlot-wine",
+      "item": "Merlot wine",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large saucepan. Add the onion, garlic, and tomato sauce; cook for 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Add the mushrooms and basil, then cook for 10 minutes, until the mushrooms are cooked through.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the whole peeled tomatoes, tomato paste, and remaining tomato sauce. Stir until combined."
+    },
+    {
+      "step": 4,
+      "text": "Mix in the Merlot, salt, black pepper, oregano, and sugar."
+    },
+    {
+      "step": 5,
+      "text": "Simmer for 15 minutes, stirring occasionally, until thickened, then continue simmering briefly before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "sauce",
+    "italian",
+    "tomato",
+    "pasta-topping"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "large saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/201845/grandma-maggios-spaghetti-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c9a65c45df0e19140545b32fe2b6a5ab6053f3954db119045c909baa16f775cd",
+    "normalized_text_hash": "fb34675f080994b333daed95ce4c7aa2ec98b723a8975dee1de69fd899fef5dd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:49:54.104Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

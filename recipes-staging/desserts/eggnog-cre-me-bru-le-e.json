@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "eggnog-cre-me-bru-le-e",
+  "name": "Eggnog Crème Brûlée",
+  "subtitle": "A gently spiced baked eggnog custard",
+  "description": "Rich eggnog and mascarpone form a smooth, warmly spiced custard that is baked, cooled, and chilled before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "inactive_minutes": 210
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "eggnog",
+      "item": "eggnog",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mascarpone-cheese",
+      "item": "mascarpone cheese",
+      "quantity": 3,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "dash"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "dash"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the eggnog to a saucepan and warm it gently, stirring for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the egg yolks and white sugar until combined, then stir in the softened mascarpone until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Gradually whisk the warm eggnog into the yolk mixture. Stir in the vanilla extract, nutmeg, and cinnamon."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the custard to four oven-safe dishes and bake at 350°F until set, about 45 minutes. Confirm that the center is fully set or reaches 160°F with a food thermometer.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 6,
+      "text": "Cool for 30 minutes, then chill for 3 hours before serving.",
+      "timer_minutes": 210
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "custard",
+    "holiday"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "four oven-safe dishes",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/132864/eggnog-creme-brulee/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "649bb907ae4d3244618edf87ba6fa6c28de478668c3ae938cc65f2da32bc92d4",
+    "normalized_text_hash": "37218cc687c15c5f9ac1e58f64a8805aaac90f7c2cceb87a806b4563d4d09c81",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:56:59.010Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-latkes",
+  "name": "Potato Latkes",
+  "subtitle": "Crisp potato pancakes with savory and sweet toppings",
+  "description": "Grated potatoes and onion form crisp pancakes fried in oil and served with the listed toppings.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 12,
+    "unit": "large or 24 small"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "maris-piper-potatoes-peeled",
+      "item": "Maris Piper potatoes peeled",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "plain-flour-or-matzoh-meal",
+      "item": "plain flour or matzoh meal",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vegetable",
+      "item": "vegetable",
+      "preparation": "peanut or canola oil for frying"
+    },
+    {
+      "ingredient_id": "soured-cream",
+      "item": "soured cream"
+    },
+    {
+      "ingredient_id": "smoked-salmon",
+      "item": "smoked salmon"
+    },
+    {
+      "ingredient_id": "finely-chopped-chives",
+      "item": "finely chopped chives"
+    },
+    {
+      "ingredient_id": "apple-sauce",
+      "item": "apple sauce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Grate the peeled potatoes and onion. Let the mixture stand so the liquid separates.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the mixture thoroughly, then let it drain for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Combine the eggs with the flour or matzoh meal. Add the drained potato mixture and stir to coat."
+    },
+    {
+      "step": 4,
+      "text": "Heat a skillet with peanut or canola oil over medium-high heat. Add portions of the mixture and flatten into pancakes."
+    },
+    {
+      "step": 5,
+      "text": "Fry in batches for about 2 minutes per side, turning when browned. Continue until crisp and the centers are fully set, reaching 160°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Serve with soured cream, smoked salmon, chives, apple sauce, or a combination of the listed accompaniments."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "potato",
+    "pancakes",
+    "jewish-cuisine",
+    "hanukkah"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "box grater",
+    "mixing bowl",
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/easy-potato-latkes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc4d2346061110def99fd44ef743b698ae0810e97fdebd29db3e2d9865b61066",
+    "normalized_text_hash": "44012d5932dbaa163f4d0f4853b769d2b9f5b49ec31d548b6bb98dd85ac9772c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:33:18.603Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

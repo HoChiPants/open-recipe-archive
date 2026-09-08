@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-glazed-chicken",
+  "name": "Honey Glazed Chicken",
+  "subtitle": "Tender chicken in a sweet, savory glaze",
+  "description": "Bite-size chicken breast pieces are cooked in olive oil and finished with a honey-soy glaze with a mild chili kick.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves, cut into bite-size pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the honey, soy sauce, and red pepper flakes together; set aside."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a skillet over medium-high heat. Add the chicken and stir-cook for about 5 minutes, until nearly cooked through.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour in the honey mixture and stir for about 5 minutes, until the glaze thickens and the chicken reaches 165°F in the thickest pieces.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "quick-meal",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231939/honey-glazed-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cda08287eb7b73d598ac82f850ee103042f607574d9089b88e36f8d2b29176fd",
+    "normalized_text_hash": "05fa6903b31b59fe9e2bb3b353d0a0fabd677c82a439a939c3daaf98f8b3ef02",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:47:03.182Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 31,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

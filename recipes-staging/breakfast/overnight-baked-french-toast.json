@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "overnight-baked-french-toast",
+  "name": "Overnight Baked French Toast",
+  "subtitle": "A make-ahead breakfast with caramelized syrup and custard-soaked bread",
+  "description": "Prepare this layered French toast the night before, then bake it until puffed, golden, and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 55,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "light-corn-syrup",
+      "item": "light corn syrup",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "1-pound-loaf-unsliced-white-bread",
+      "item": "(1 pound) loaf unsliced white bread",
+      "quantity": 1,
+      "preparation": "with crust trimmed"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the corn syrup, butter, and brown sugar in a saucepan. Bring the syrup mixture to a simmer, stirring until combined."
+    },
+    {
+      "step": 2,
+      "text": "Pour the syrup mixture into a baking dish. Cut the trimmed bread into slices and arrange them in layers over the syrup."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, milk, vanilla extract, and salt together. Pour the custard evenly over the bread, making sure it is moistened."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate for 8 hours or overnight.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 5,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, until golden and the center is fully set; verify an egg-dish center reaches 160°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Cut into portions and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "make-ahead",
+    "baked",
+    "overnight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7229/skiers-french-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1f58fea946d3c5f62e37c999dac8ea3ea7d438072232104904e623cf400e55b8",
+    "normalized_text_hash": "7797b7654b3b99888fb5adec0791ffe7313717618a6f2f97a3d3c03ded55b6c9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:32:05.305Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

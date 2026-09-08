@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-pork-loin",
+  "name": "Roasted Pork Loin",
+  "subtitle": "A sweet, spiced roast with an apple glaze",
+  "description": "A boneless pork loin roast coated in brown sugar, cinnamon applesauce, and ginger, then roasted until tender.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "packed-light-brown-sugar",
+      "item": "packed light brown sugar",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cinnamon-applesauce",
+      "item": "cinnamon applesauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "boneless-pork-loin-roast",
+      "item": "boneless pork loin roast",
+      "quantity": 2,
+      "unit": "pounds"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the brown sugar, cinnamon applesauce, and ground ginger in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the pork roast and turn to coat it with the mixture."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the coated roast to a roasting pan."
+    },
+    {
+      "step": 5,
+      "text": "Roast for about 60 minutes, or until a food thermometer inserted into the thickest part registers 145°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Let the roast rest for 3 minutes, then cut into slices and serve.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast",
+    "pork"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "equipment": [
+    "oven",
+    "bowl",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/31827/easy-roasted-pork/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "90df2d91dc76e4efeedded0c0fcfedff570fbb82b62e02ac3ffd886ec7610dae",
+    "normalized_text_hash": "c67f7930d075c9891b821d5f23c317894c0835394f6cbc4931db8d00c8aba3c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:43:00.761Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-brownies",
+  "name": "Spinach Brownies",
+  "subtitle": "Savory spinach squares with mozzarella",
+  "description": "A tender, cheesy spinach bake cut into easy-to-serve squares for snacks or appetizers.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, rinsed and chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Prepare the baking powder as directed in the recipe workflow, and set it aside with the dry ingredients."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chopped spinach to a pan and simmer briefly, then let it cook for 3 minutes as needed to soften. Drain any excess liquid.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Combine the flour, salt, and baking powder in a bowl. In a separate bowl, stir together the eggs, milk, and melted butter."
+    },
+    {
+      "step": 4,
+      "text": "Mix the spinach, onion, and mozzarella into the egg mixture, then fold in the dry ingredients until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a prepared baking pan and bake for 35 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Cool before cutting into squares and serving."
+    }
+  ],
+  "tags": [
+    "spinach",
+    "savory-bake",
+    "party-snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "baking pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26972/spinach-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e528d3d486c1f424ae6160736f518a90c53cd1fd3b22acd5eaf9aa6aefa1dbde",
+    "normalized_text_hash": "d45c218ff61737e78c658da0e1f575c038b3d06a50c12057df26d034bf787ebf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:42:07.190Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

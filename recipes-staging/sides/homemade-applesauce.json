@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homemade-applesauce",
+  "name": "Homemade Applesauce",
+  "subtitle": "A simple cinnamon-sweetened fruit side",
+  "description": "Tender chopped apples cooked with water, sugar, and cinnamon until soft, then cooled for serving.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 4,
+      "preparation": "peeled, cored and chopped"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the apples by peeling, coring, and chopping them."
+    },
+    {
+      "step": 2,
+      "text": "Combine the apples, water, white sugar, and ground cinnamon in a saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Warm the mixture over medium heat for about 15 minutes, stirring occasionally, until the apples are tender and saucy.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "american",
+    "apples",
+    "fruit"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "knife",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/51301/sarahs-applesauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6c6d45f70b8580b53f1257b47aacfad9661e4ff9a3ad1cdf16b419611328c379",
+    "normalized_text_hash": "3f62f67caf90125047e5de401cfb74a9ef547badd1418d9a00796eaa8ec508e3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T03:56:20.598Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

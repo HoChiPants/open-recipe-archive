@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-bbq-beef-brisket",
+  "name": "Oven BBQ Beef Brisket",
+  "subtitle": "Tender brisket with a savory barbecue finish",
+  "description": "Seasoned beef brisket cooks gently in the oven, then is coated with barbecue sauce and returned to the heat before slicing.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-brisket",
+      "item": "beef brisket",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "barbecue-sauce",
+      "item": "barbecue sauce",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Season the beef brisket with salt to taste, freshly ground black pepper, and garlic powder."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the brisket to a baking dish and add the water."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 3 hours, or until the thickest part reaches at least 145°F.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 5,
+      "text": "Combine the barbecue sauce with the water, then coat the brisket with the mixture."
+    },
+    {
+      "step": 6,
+      "text": "Return the brisket to the oven and cook until tender and the sauce is heated through.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 7,
+      "text": "Rest the brisket for 3 minutes, then cut into slices and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "barbecue",
+    "oven-baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14647/oven-barbecued-beef-brisket-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "29e69deec6cc95529b025e16d93a7b0254e5be959e1d9c42f2a7e83b2df28337",
+    "normalized_text_hash": "1ac17443d7ab765f2552844cda0da76693ce19c0b650f43bbf256638d4a62390",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:41:30.400Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

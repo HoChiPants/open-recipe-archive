@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-cobbler",
+  "name": "Cherry Cobbler",
+  "subtitle": "A quick fruit dessert with a crisp golden topping",
+  "description": "Cherry pie filling is layered with cake mix, brown sugar, and butter, then baked until golden and bubbling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 3.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cut in small pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the cherry pie filling evenly in a baking dish. Sprinkle the yellow cake mix over the filling, followed by the brown sugar."
+    },
+    {
+      "step": 3,
+      "text": "Scatter the butter pieces evenly over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 45 minutes, until the topping is golden brown and the filling is bubbling.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-dessert",
+    "cobbler",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233118/cherry-cobbler/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d6365e7b8bd245a06731509f4fff8463ff3a4ff204ae7d85f5b0c70d7f7e6a42",
+    "normalized_text_hash": "d11f5faada3f6e636fb955c0ec4045f780e6b52d4ae5150df149f08fc0d5bc50",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:23:20.902Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

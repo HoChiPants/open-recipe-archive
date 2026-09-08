@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sauerkraut-soup",
+  "name": "Sauerkraut Soup",
+  "subtitle": "A creamy soup with browned sausage and tangy sauerkraut",
+  "description": "Browned sausage and onion are folded into a creamy thyme-seasoned base, then finished with undrained sauerkraut.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "smoked-sausage",
+      "item": "smoked sausage",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sauerkraut",
+      "item": "sauerkraut",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, undrained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the diced sausage and chopped onion in a pot over medium heat for about 15 minutes, stirring occasionally, until lightly browned. If the sausage is not fully cooked, verify that it reaches 160°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Stir in the flour and coat the sausage and onion evenly."
+    },
+    {
+      "step": 3,
+      "text": "Gradually stir in the milk and half-and-half until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Cook, stirring often, for about 5 minutes, until the soup thickens.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Stir in the thyme and undrained sauerkraut. Heat through and serve."
+    }
+  ],
+  "tags": [
+    "soup",
+    "dinner",
+    "german-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228628/sauerkraut-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "316522f5d6ea56e245468828bb951dbb5d21615b0ef0a0b9b8fa098761584a8d",
+    "normalized_text_hash": "d4f6dfd2d1a37a10ec70e4d9cacce76b92a6c6d53a0ca421fc68ceb254cb864a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:47:13.200Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

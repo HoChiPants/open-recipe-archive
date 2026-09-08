@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "molasses-bread",
+  "name": "Molasses Bread",
+  "subtitle": "A gently sweet, yeast-raised loaf with a tender crumb.",
+  "description": "Molasses and butter give this homemade bread a mild sweetness and rich color. Allow time for two rises before baking.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.625,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dry-milk-powder",
+      "item": "dry milk powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "molasses",
+      "item": "molasses",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the water until lukewarm. Stir in the butter, dry milk powder, molasses, yeast, and salt."
+    },
+    {
+      "step": 2,
+      "text": "Add the bread flour and mix until a shaggy dough forms. Knead until smooth and elastic."
+    },
+    {
+      "step": 3,
+      "text": "Cover the dough and let it rise in a warm place until doubled, about 90 minutes.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into a loaf and place it in a greased loaf pan. Cover and let it rise until puffy, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 40 minutes, until golden brown. Cool before slicing.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "molasses",
+    "baking",
+    "homemade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "loaf pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7057/old-fashion-molasses-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e7be4018f8c458f4b18f98591544eaea0b7e9f743bb043c1ff5f83b4ab06c8ee",
+    "normalized_text_hash": "d3e5a0a4584f5ff63b403ad7d48be6da952f3c27bbf598a26a1fee1f6464b847",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:23:16.532Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

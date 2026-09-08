@@ -1,0 +1,195 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-crispy-beef",
+  "name": "Spicy Crispy Beef",
+  "subtitle": "Crisp fried beef with a sweet chile glaze",
+  "description": "Thinly sliced flank steak is fried until crisp, then coated in a savory-sweet sauce with ginger, garlic, onion, and chile paste.",
+  "meal_type": "main",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper"
+    },
+    {
+      "ingredient_id": "flank-steak",
+      "item": "flank steak",
+      "quantity": 12,
+      "unit": "ounces",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "rice-vinegar",
+      "item": "rice vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "rice-wine",
+      "item": "rice wine",
+      "quantity": 0.5,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "granulated sugar",
+      "quantity": 7,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chile-paste",
+      "item": "chile paste",
+      "quantity": 0.5,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-ginger-root",
+      "item": "fresh ginger root",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, rice vinegar, rice wine, honey, granulated sugar, chile paste, water, and ginger together for the sauce."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil in a saucepan. Add the garlic, onion, and red bell pepper; cook until softened. Stir in the sauce mixture and simmer until slightly thickened and set aside.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Heat the frying oil to 375°F in a deep, heavy pot."
+    },
+    {
+      "step": 4,
+      "text": "Season the cornstarch with salt and black pepper. Coat the sliced flank steak evenly, shaking off excess."
+    },
+    {
+      "step": 5,
+      "text": "Fry the beef in batches until crisp and golden brown. Drain on a rack, then confirm the thickest pieces reach 145°F; rest for 3 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Warm the sauce if needed, add the fried beef, and toss until evenly glazed.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chinese",
+    "beef",
+    "spicy",
+    "crispy",
+    "fried"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "deep heavy pot",
+    "saucepan",
+    "wire rack",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23420/spicy-crispy-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "401bbb8c5b5612cd60f2c46f482a1c61e5152001cae423fc0e7d4fc1a3d7658e",
+    "normalized_text_hash": "96d36e88ffa67ff8b479b5ad4202cf700588712ab60c988ec3d43c92ab4655cf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:31:42.597Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

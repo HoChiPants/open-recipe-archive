@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crab-salad",
+  "name": "Crab Salad",
+  "subtitle": "A quick creamy salad with sautéed vegetables and imitation crabmeat.",
+  "description": "Tender onion and bell pepper are folded with warmed imitation crabmeat and mayonnaise for a simple chilled or room-temperature salad.",
+  "meal_type": "salad",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "imitation-crabmeat",
+      "item": "imitation crabmeat",
+      "quantity": 12,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the onion and green bell pepper; cook until tender, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir in the imitation crabmeat and sauté until heated through, about 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a bowl and fold in the mayonnaise until combined."
+    },
+    {
+      "step": 5,
+      "text": "Serve."
+    }
+  ],
+  "tags": [
+    "salad",
+    "lunch",
+    "seafood",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "skillet",
+    "mixing bowl",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21411/5-ingredient-crab-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3f2403fb36776caa812d1ada51a6b1a5e8e82ee85e2e095f058ffdc76cb50f64",
+    "normalized_text_hash": "ec5498c1b43df486e034abc2b66792514c09eabfd0981c49c16e94b2bf8cf582",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:04:48.664Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

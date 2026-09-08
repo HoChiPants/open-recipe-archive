@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-apple-potato-pasties",
+  "name": "Cheese, Apple & Potato Pasties",
+  "subtitle": "Buttery pastry filled with tender potato, tart apple, and grated cheese.",
+  "description": "Make individual pasties with a crisp butter pastry and a savory-sweet filling of thinly sliced potato, apple, and hard cheese.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "plain-flour-plus-extra-for-dusting",
+      "item": "plain flour plus extra for dusting",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "potatoes-about-400g",
+      "item": "potatoes (about 400g)",
+      "quantity": 2,
+      "unit": "medium",
+      "preparation": "halved and thinly sliced"
+    },
+    {
+      "ingredient_id": "granny-smith-apples-peeled-and-sliced",
+      "item": "Granny Smith apples peeled and sliced",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "hard-cheese-grated-lincolnshire-poacher-or-cornish-cheddar-work-well",
+      "item": "hard cheese grated (Lincolnshire Poacher or Cornish cheddar work well)",
+      "quantity": 350,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the cold butter into the flour and work it together until the mixture is firm and forms a dough. Chill for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Divide the chilled dough into six portions. Roll each portion on a lightly floured surface into a round, then chill the rounds for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Combine the sliced potatoes, apples, and grated cheese for the filling."
+    },
+    {
+      "step": 4,
+      "text": "Place filling on one half of each pastry round, leaving a border. Fold the dough over and seal the edges firmly, then transfer the pasties to a baking tray."
+    },
+    {
+      "step": 5,
+      "text": "Chill the assembled pasties for 30 minutes while the oven preheats.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Bake in the preheated oven for about 20 minutes, or until the pastry is golden brown and the potato is tender when pierced at the center.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "snack",
+    "vegetarian",
+    "pastry",
+    "pasty",
+    "apple",
+    "potato",
+    "cheese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "rolling pin",
+    "baking tray",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheese-apple-potato-pasties",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2fe2547cb43f94e6a74cf8db2db2c443fdff831f6b2d8bc2c12e5eba9242f96b",
+    "normalized_text_hash": "61ddefb340c16faf1990a49c3844c4915e1910213c3764f0a399114a7ec93278",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T10:06:08.463Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

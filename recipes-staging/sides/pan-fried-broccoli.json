@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pan-fried-broccoli",
+  "name": "Pan-Fried Broccoli",
+  "subtitle": "Tender broccoli with a gentle chile kick",
+  "description": "Thawed broccoli is quickly sautéed with olive oil and crushed red pepper for an easy, flavorful side.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-broccoli",
+      "item": "frozen broccoli",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, thawed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "preparation": "to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Thaw the broccoli and drain away excess water."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a skillet over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Add the crushed red pepper flakes and cook briefly until fragrant.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Add the broccoli and sauté, stirring occasionally, until hot and lightly browned.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 5,
+      "text": "Season with salt to taste and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/187946/fried-broccoli/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ebd9883d4b436b6105bb6f7be390a92e5c08fc2468258d8a56c49cb0ffddb4fd",
+    "normalized_text_hash": "c0c16887e74c9d486a44f9b17f74d259f51330371940753085d83e3b3f4618c9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:46:51.348Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

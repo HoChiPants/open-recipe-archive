@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-brownies",
+  "name": "Chocolate Brownies",
+  "subtitle": "Fudgy brownies with a deep chocolate flavor",
+  "description": "A simple batch of rich chocolate brownies baked until set and cooled before slicing.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 9,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "unsweetened-chocolate",
+      "item": "unsweetened chocolate",
+      "quantity": 3,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "pure-vanilla-extract",
+      "item": "pure vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a baking pan for the batter."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter with the chopped chocolate, stirring until smooth. Stir in the vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the flour and kosher salt together in a separate bowl."
+    },
+    {
+      "step": 4,
+      "text": "Beat the sugar and eggs until thick, then mix in the melted chocolate mixture. Fold in the flour mixture just until combined.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and bake until the center is set.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Cool in the pan for 15 minutes, then prepare for serving and cool completely for about 30 minutes before cutting.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "brownies",
+    "chocolate",
+    "baked-good"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "baking pan",
+    "whisk",
+    "spatula",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/282866/the-best-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3547235b8c37b4cae458ac1875454ac492c271f15132dd8a32206392765033e0",
+    "normalized_text_hash": "93500ee8c1ee9629a80d736dbde02c41a74845d7d6c59438fdde1a2cea485d94",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:55:40.653Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

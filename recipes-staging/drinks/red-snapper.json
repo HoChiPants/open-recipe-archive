@@ -1,0 +1,72 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "red-snapper",
+  "name": "Red Snapper",
+  "subtitle": "A simple whiskey, amaretto, and cranberry cocktail",
+  "description": "Combine the spirits with cranberry juice and stir for a quick American cocktail.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-deluxe-canadian-whiskey",
+      "item": "(1.5 fluid ounce) jigger deluxe Canadian whiskey",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-amaretto-liqueur",
+      "item": "(1.5 fluid ounce) jigger amaretto liqueur",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "fluid-ounces-cranberry-juice",
+      "item": "fluid ounces cranberry juice",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the whiskey, amaretto liqueur, and cranberry juice to a glass."
+    },
+    {
+      "step": 2,
+      "text": "Stir until combined, then serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20563/red-snapper/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ac2bc89ea01a87fddbd5e4369474e382a7a0c0c1f99a46552001da836329492",
+    "normalized_text_hash": "ffc91bb85eeb17a3c8adf34f431d428ec57dd2f77d05984b2e4fc96d0cdec87c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:57:02.187Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

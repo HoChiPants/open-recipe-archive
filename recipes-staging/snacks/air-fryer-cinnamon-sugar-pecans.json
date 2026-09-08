@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-cinnamon-sugar-pecans",
+  "name": "Air-Fryer Cinnamon Sugar Pecans",
+  "subtitle": "Quick crisp pecans with a cinnamon-sugar coating",
+  "description": "Pecan halves are coated in a cinnamon-sugar egg-white mixture, then air-fried with melted butter until crisp and dry.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecan-halves",
+      "item": "pecan halves",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 300°F. Line the basket with a perforated liner or a small piece of parchment secured beneath the pecans."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the white sugar, egg white, and ground cinnamon until combined. Fold in the pecan halves until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the coated pecans in the basket in a single layer and drizzle with the melted salted butter."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry, stirring once or twice, until the coating is dry, the egg white is fully set, and the pecans are crisp.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "snack",
+    "air-fryer",
+    "pecans",
+    "cinnamon",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279732/air-fryer-sugared-pecans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "15d7cd053696cf531286ab6e273db2a23824f0c32b7bde0467b90ac909b498e5",
+    "normalized_text_hash": "c68edf10118c4d2579ee6a48f027a620c601f327611cce17dd4c0af57d944317",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:35:11.216Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-mushroom-chicken",
+  "name": "Bacon Mushroom Chicken",
+  "subtitle": "Oven-baked chicken with bacon, mushrooms, and cream",
+  "description": "Bone-in chicken breasts are baked with garlic, bacon, and mushrooms, then finished with a thickened cream pan sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "bone-in-chicken-breast-halves",
+      "item": "bone-in chicken breast halves",
+      "quantity": 2,
+      "preparation": "with skin"
+    },
+    {
+      "ingredient_id": "seasoning-salt",
+      "item": "seasoning salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "thick-slices-bacon",
+      "item": "thick slices bacon",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Pour the melted butter into a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the chicken in the dish and season with the seasoning salt and crushed garlic. Add the bacon and mushrooms around and over the chicken."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 45 minutes, or until the thickest part of each chicken breast reaches 165°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Transfer the chicken to a serving plate. Add the heavy cream to the bacon, mushrooms, and pan juices, and heat until the sauce thickens."
+    },
+    {
+      "step": 5,
+      "text": "Return the chicken to the dish and coat with the sauce before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-chicken",
+    "one-pan-meal",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16207/bacon-mushroom-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c8da75064f7e9096817de2bfbca388dcee4d1e4fa65bf852260fcf90e33a7e58",
+    "normalized_text_hash": "ef45fcac2649d4ffd7dac494103efc853188fb419d25b5e783207eba2ffcd038",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:38:44.190Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

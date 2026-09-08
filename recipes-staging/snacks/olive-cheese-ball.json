@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "olive-cheese-ball",
+  "name": "Olive Cheese Ball",
+  "subtitle": "A chilled cheddar spread with green olives and onion",
+  "description": "Cream cheese, cheddar, olives, and onion are combined into a savory ball and chilled until firm.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "lemon-juice-concentrate",
+      "item": "lemon juice concentrate",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-olives",
+      "item": "green olives",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese, mayonnaise, and lemon juice concentrate until smooth, then mix in the shredded Cheddar."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the chopped onion and green olives until evenly distributed."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into a ball."
+    },
+    {
+      "step": 4,
+      "text": "Cover and chill for 180 minutes, or until firm.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "cheese",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26727/cheese-ball-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "65c0b86d2cc2904caa5fbe31daf8b250262a958a1ffc5bac514a4fd6d3ef0060",
+    "normalized_text_hash": "cf6cbf5d62ca7c6e24cedb69af1707ae5f4a47d4347cc9fd7b7f6c42fb6f1138",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:29:28.876Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

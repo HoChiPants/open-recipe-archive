@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-bone-broth",
+  "name": "Chicken Bone Broth",
+  "subtitle": "A deeply flavored stock made from roasted chicken bones and vegetables.",
+  "description": "Roast the bones and aromatics, then simmer them with vinegar and water to make a rich, versatile broth.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 1470
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "assorted-chicken-bones",
+      "item": "assorted chicken bones",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "unpeeled-carrots",
+      "item": "unpeeled carrots",
+      "quantity": 2,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "stalks-celery-with-leaves",
+      "item": "stalks celery with leaves",
+      "quantity": 2,
+      "preparation": "cut into chunks"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "unpeeled and quartered"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "unpeeled"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-peppercorns",
+      "item": "black peppercorns",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 12,
+      "unit": "cups",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Arrange the chicken bones, carrots, celery, onion, and garlic in a roasting pan. Toss with the olive oil and spread into an even layer."
+    },
+    {
+      "step": 2,
+      "text": "Roast until the bones and vegetables are well browned, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Transfer the roasted ingredients to a large stockpot. Add the apple cider vinegar, bay leaves, sea salt, and black peppercorns, then pour in enough water to cover."
+    },
+    {
+      "step": 4,
+      "text": "Bring the liquid to at least 165°F, then reduce the heat and maintain a gentle simmer for 24 hours and 30 minutes, adding water as needed to keep the ingredients covered.",
+      "timer_minutes": 1470
+    },
+    {
+      "step": 5,
+      "text": "Strain the broth through a fine-mesh strainer and discard the solids. Use hot or cool promptly for storage."
+    }
+  ],
+  "tags": [
+    "chicken",
+    "bone-broth",
+    "stock",
+    "soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "large stockpot",
+    "fine-mesh strainer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275943/slow-cooker-chicken-bone-broth/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "59d4e5632733e8c4fb2a7eed83aa79e7bda33979745bf4ea2eb9215a0e3bbfed",
+    "normalized_text_hash": "0b6a1b5455e0c5725a6d353b8bc51bd5edd962d648b777bd65cdb8fca1bf8d97",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:15:49.735Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

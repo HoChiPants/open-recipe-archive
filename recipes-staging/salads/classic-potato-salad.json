@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-potato-salad",
+  "name": "Classic Potato Salad",
+  "subtitle": "Creamy potato salad with eggs, pickles, and onion",
+  "description": "Tender potatoes and chopped eggs are folded into a creamy, sweet-pickle dressing for a chilled American-style salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 5,
+      "unit": "pounds",
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "24-ounce-jar-sweet-pickles",
+      "item": "(24 ounce) jar sweet pickles",
+      "quantity": 1,
+      "preparation": "drained and chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes in a pot, cover with water, and bring to a simmer. Cook until tender, about 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Drain the potatoes and chill them for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Place the eggs in a pot, cover with water, and cook at a simmer for 15 minutes. Cool, peel, and chop them.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir together the chopped eggs, sweet pickles, mayonnaise, and onion until blended."
+    },
+    {
+      "step": 5,
+      "text": "Add the chilled potatoes and fold gently until coated."
+    },
+    {
+      "step": 6,
+      "text": "Chill the salad for 30 minutes, then serve.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "potato-salad",
+    "american",
+    "make-ahead",
+    "picnic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "mixing bowl",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/148515/my-moms-good-old-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "328f570d920abe459c314b01df361e78035ab84251d7960dd2de61b193b07f8c",
+    "normalized_text_hash": "6bb49eb34c563e01985861129090eeddef118e73ead795dd01b73a78fb746e5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:06:16.733Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

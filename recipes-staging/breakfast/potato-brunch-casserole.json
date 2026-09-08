@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-brunch-casserole",
+  "name": "Potato Brunch Casserole",
+  "subtitle": "Creamy potatoes layered with cheese, bacon, and onion",
+  "description": "Tender potatoes are combined with melted cheese, mayonnaise, bacon, and onion, then baked until hot and lightly browned.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "new-potatoes",
+      "item": "new potatoes",
+      "quantity": 4,
+      "unit": "pounds",
+      "preparation": "skinned, cut into 1-inch cubes"
+    },
+    {
+      "ingredient_id": "processed-cheese-food",
+      "item": "processed cheese food",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cooked crisp and chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the cubed potatoes in a pot, cover with water, and bring to a simmer. Cook until tender, then drain."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the potatoes to a large bowl. Stir in the cubed cheese and warm gently, stirring until the cheese melts."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the mayonnaise, chopped bacon, and onion, mixing until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the mixture to a baking dish and bake for 50 minutes, until hot throughout and bubbling at the edges.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "casserole",
+    "potatoes",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "large bowl",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86231/brunch-potato-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ba1d6f413e1dbf7eca27fe395d0be1aed68bddf0b4e441fdda7add117a6a53e7",
+    "normalized_text_hash": "21cdeba2947d24d0964a8e121e8a5b2545778fb3ce89ab4bc93c16bd41a91a83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:22:25.012Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

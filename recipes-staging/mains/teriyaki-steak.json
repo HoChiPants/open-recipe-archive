@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "teriyaki-steak",
+  "name": "Teriyaki Steak",
+  "subtitle": "Garlic-marinated skirt steak with a savory glaze",
+  "description": "Marinate skirt steak in teriyaki sauce and garlic, then grill until browned and cooked to your preferred doneness.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-skirt-steak",
+      "item": "beef skirt steak",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the skirt steak into manageable pieces if needed. Stir the teriyaki sauce and minced garlic together in a bowl or shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the steak and turn to coat thoroughly. Cover and refrigerate for 8 hours.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to high heat."
+    },
+    {
+      "step": 4,
+      "text": "Remove the steak from the marinade and grill for about 5 minutes per side, or until browned and a thermometer reads at least 145°F in the thickest part.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Transfer the steak to a cutting board and rest for 3 minutes before slicing against the grain.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilling",
+    "beef",
+    "marinated"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "instant-read thermometer",
+    "shallow dish or bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16446/teriyaki-steak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a5d93f2bce629c27df267208a509f64bb808076d89955a8bce31b035b3c8a56e",
+    "normalized_text_hash": "4cb571f155dca7177e01cff29c8a30459ab02fd6fcad2e037feeaf78ccf94223",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:45:25.445Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

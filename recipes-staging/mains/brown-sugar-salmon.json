@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-sugar-salmon",
+  "name": "Brown Sugar Salmon",
+  "subtitle": "A sweet-savory glazed salmon fillet",
+  "description": "Salmon is marinated in a simple brown sugar, maple, and soy mixture, then baked until opaque and flaky.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salmon-fillet",
+      "item": "salmon fillet",
+      "quantity": 6,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the brown sugar, maple syrup, and soy sauce together in a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the salmon and turn to coat. Cover and refrigerate for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 4,
+      "text": "Bake the salmon for 20 minutes, until opaque and easily flaked or until it reaches 145°F in the thickest part.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fish",
+    "baked",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "soy"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/264819/brown-sugar-salmon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa34cda17f8b279da4210bc2cb135ea30c260beb9306f2e8a21f2c943c6af554",
+    "normalized_text_hash": "66779cbc5d816982e34dc1c9e4a06fc49583676665b88d269feaa1cd77fe1ca8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:21:44.104Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

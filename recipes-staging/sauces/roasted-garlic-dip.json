@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-garlic-dip",
+  "name": "Roasted Garlic Dip",
+  "subtitle": "Creamy dip with mellow roasted garlic and green onion",
+  "description": "Roast whole garlic until tender, then blend it with a tangy creamy mixture for a savory dip. Chill before serving.",
+  "meal_type": "sauce",
+  "cuisine": "Greek",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "heads-garlic",
+      "item": "heads garlic",
+      "quantity": 3,
+      "preparation": "unpeeled"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.75,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F. Slice the tops from the garlic heads to expose the cloves, place them on foil, and drizzle with the olive oil."
+    },
+    {
+      "step": 2,
+      "text": "Wrap the garlic in the foil and bake for 60 minutes, until tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Cool the garlic until safe to handle, then squeeze the softened cloves from their skins."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the garlic with the sour cream, mayonnaise, green onions, red wine vinegar, salt, and black pepper until combined."
+    },
+    {
+      "step": 5,
+      "text": "Chill the dip for at least 150 minutes before serving.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "garlic",
+    "vegetarian",
+    "greek"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "aluminum foil",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/173638/roasted-garlic-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "47cc7f438c92a9210d43228593b3b72fdfedcf1d41a6e6c6a3c09eb902d09860",
+    "normalized_text_hash": "4a03f663e13992e4d153816684af07e24252901776f2d8f40ece7bc3cc9feb9a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:12:30.285Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

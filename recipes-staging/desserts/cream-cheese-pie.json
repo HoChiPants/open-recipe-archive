@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-cheese-pie",
+  "name": "Cream Cheese Pie",
+  "subtitle": "Smooth custard filling with a tangy cream topping",
+  "description": "A baked cream cheese dessert in a graham cracker crust, finished with a lightly sweetened sour cream layer.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "9-inch-prepared-graham-cracker-crust",
+      "item": "(9 inch) prepared graham cracker crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Beat the softened cream cheese with the eggs, 1 cup white sugar, and 1 teaspoon vanilla extract until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Pour the filling into the prepared graham cracker crust and bake for 35 minutes, until the center is firm and reaches 160°F.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 3,
+      "text": "Whisk the sour cream with 2 tablespoons white sugar and 0.25 teaspoon vanilla extract until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Raise the oven temperature to 450°F. Spread the sour cream mixture over the pie and bake until the topping is set."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "cream-cheese",
+    "graham-cracker-crust",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "electric mixer or whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12210/cream-cheese-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "24ea515f0dc334247752f3ec4b64109780bdb35e01f084073ef43a3ae257e586",
+    "normalized_text_hash": "f2d16facc20ae24bb0af6d76a0e3d9b4f5a7a8bd9090737a28201ab64963a84a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:27:00.437Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

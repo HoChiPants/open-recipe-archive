@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-chilli-jam",
+  "name": "Tomato Chilli Jam",
+  "subtitle": "A sweet, tangy condiment with gentle heat",
+  "description": "Cook tomatoes, chilli, ginger, star anise, sugar, and vinegar into a thick jam for burgers, sandwiches, or other savoury dishes.",
+  "meal_type": "sandwich",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "can-chopped-tomatoes",
+      "item": "can chopped tomatoes",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "finely-chopped-red-chilli",
+      "item": "finely chopped red chilli",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "grated-thumb-sized-piece-of-ginger",
+      "item": "grated thumb-sized piece of ginger",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "star-anise",
+      "item": "star anise",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 150,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine all ingredients in a saucepan and bring the mixture to a gentle simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer for 30 minutes, stirring occasionally, until thick and jam-like.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "condiment",
+    "burger-sauce",
+    "chilli",
+    "savoury-jam",
+    "tomato"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheats-tomato-chilli-jam",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1c38281fd366c0fac02235a5390d4cb1b961917f5e388a2d885de71fa45bf02a",
+    "normalized_text_hash": "48e7a918446a95f95a0ee809a44b37c2034de41c4240f2a3e6a8cb3f18530960",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T06:51:07.968Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

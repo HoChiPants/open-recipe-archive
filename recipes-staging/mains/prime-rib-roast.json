@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "prime-rib-roast",
+  "name": "Prime Rib Roast",
+  "subtitle": "Mustard and Garlic-Crusted Roast",
+  "description": "A classic roast beef centerpiece seasoned with sliced garlic, mustard, salt, and pepper.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "10-pound-prime-rib-roast",
+      "item": "(10 pound) prime rib roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 500°F."
+    },
+    {
+      "step": 2,
+      "text": "Roast the prime rib briefly at the high temperature."
+    },
+    {
+      "step": 3,
+      "text": "Combine the sliced garlic, salt, pepper, and Dijon mustard, then spread the mixture over the roast."
+    },
+    {
+      "step": 4,
+      "text": "Continue roasting for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Continue roasting for another 90 minutes, or until the thickest part reaches 145°F on a food thermometer.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 6,
+      "text": "Remove the roast and let it rest for at least 3 minutes before carving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast",
+    "beef",
+    "holiday"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9381/prime-rib/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fcabff1b180f6f1af6c4ae7c021e0e18d4cca0fa8c2ad39c948a0492f57cc562",
+    "normalized_text_hash": "cf5917bc4d1880d40fbef533667777303f2ddeb6effd87f67bf18235586d8397",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:29:43.105Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

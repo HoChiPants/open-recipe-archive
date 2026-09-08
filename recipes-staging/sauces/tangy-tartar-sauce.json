@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tangy-tartar-sauce",
+  "name": "Tangy Tartar Sauce",
+  "subtitle": "A bright, pickle-forward sauce for seafood and more",
+  "description": "A creamy tartar sauce sharpened with minced onion, dill pickle, and pickle juice, then chilled for a fuller flavor.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dill-pickle",
+      "item": "dill pickle",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dill-pickle-juice",
+      "item": "dill pickle juice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "celery-salt-to-taste",
+      "item": "celery salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mayonnaise, minced onion, minced dill pickle, and pickle juice in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Season with salt, ground black pepper, and celery salt, stirring until evenly blended."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "sauce",
+    "american",
+    "seafood-accompaniment"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218289/tangy-not-sweet-tartar-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "021ff660500e5d0b0fb7136eb4d460f97c75a1059c8e0bde5027081dca09ec3d",
+    "normalized_text_hash": "804c6f6f2dac472952bfe6e2302fb381ede60a546b3610a753b3438fb532818f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:36:44.508Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

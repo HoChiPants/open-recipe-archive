@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-wing-dip",
+  "name": "Chicken Wing Dip",
+  "subtitle": "A creamy, spicy baked dip with chicken and cheddar",
+  "description": "This warm American-style dip combines softened cream cheese, hot pepper sauce, cooked chicken, ranch-style dressing, and cheddar for a rich, scoopable appetizer.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "hot-pepper-sauce",
+      "item": "hot pepper sauce",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "diced cooked"
+    },
+    {
+      "ingredient_id": "ranch-style-salad-dressing",
+      "item": "Ranch-style salad dressing",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the softened cream cheese, hot pepper sauce, chicken, ranch-style salad dressing, and shredded cheddar until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish and bake for 30 minutes, until hot throughout and the center reaches 165°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Add any specified finishing component, if applicable, and serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "dip",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/90544/chicken-wing-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "337a9704da3bcea3f0df8ee22df5ba0f37ed2a0bd9d2307f38617245a2a9a523",
+    "normalized_text_hash": "c5d307b505eb9696de62262a49629341f57db238d545710e909496964dfa7b4e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:18:33.903Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

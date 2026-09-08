@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-caesar-salad",
+  "name": "Chicken Caesar Salad",
+  "subtitle": "Crisp romaine with chicken, Parmesan, croutons, and creamy Caesar dressing",
+  "description": "Toss crisp romaine with sliced chicken and classic Caesar-style toppings for a quick salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tightly-packed-chopped-romaine-lettuce",
+      "item": "tightly packed chopped romaine lettuce",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "boneless-skinless-chicken-breasts",
+      "item": "boneless skinless chicken breasts",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "cooked, cut into strips"
+    },
+    {
+      "ingredient_id": "cracker-barrel-finely-shredded-100-parmesan-cheese",
+      "item": "CRACKER BARREL Finely Shredded 100% Parmesan Cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "seasoned-croutons",
+      "item": "seasoned croutons",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kraft-creamy-caesar-dressing",
+      "item": "KRAFT Creamy Caesar Dressing",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped romaine in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the cooked chicken strips, Parmesan, croutons, and Caesar dressing."
+    },
+    {
+      "step": 3,
+      "text": "Toss until evenly coated and serve immediately. If cooking the chicken yourself, verify that it reaches 165°F internally before slicing."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246106/classic-chicken-caesar-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bddee450f82cdb675fb7b67bed5c3692b21e87f7b25518ac52028ecd9c3cda6f",
+    "normalized_text_hash": "acd6db48e8b2a9fc8ca0354f87c615a7a273d48b28ab76bf796a4465a0f73c96",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:51:48.177Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

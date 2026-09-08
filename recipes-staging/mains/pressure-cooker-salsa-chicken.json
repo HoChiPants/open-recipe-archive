@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pressure-cooker-salsa-chicken",
+  "name": "Pressure-Cooker Salsa Chicken",
+  "subtitle": "Tender shredded chicken with salsa and taco seasoning",
+  "description": "Frozen chicken cooks in a seasoned salsa-and-broth mixture, then is shredded for an easy dinner.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-skinless",
+      "item": "frozen skinless",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "taco-seasoning-mix",
+      "item": "taco seasoning mix",
+      "quantity": 1,
+      "unit": "packet",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "salsa",
+      "item": "salsa",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "low-sodium-chicken-broth",
+      "item": "low-sodium chicken broth",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the chicken broth into the pressure cooker. Add the taco seasoning and salsa, stirring to combine."
+    },
+    {
+      "step": 2,
+      "text": "Add the frozen chicken and secure the lid."
+    },
+    {
+      "step": 3,
+      "text": "Cook under high pressure for 15 minutes, then allow the pressure to release naturally for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Release any remaining pressure carefully and open the cooker. Check that the chicken reaches 165°F in the thickest part."
+    },
+    {
+      "step": 5,
+      "text": "Shred the chicken in the cooking liquid and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "pressure-cooker",
+    "tex-mex"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "pressure cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260193/instant-pot-salsa-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "90b997959ae68fb98fc094a857beaa146ec739bf8967e2e96b9c042fb1ffca77",
+    "normalized_text_hash": "bcd46b40a8982b9c0f4eb0858aea659fde4a18710cef730c32c3ba8448910813",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:10:34.904Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

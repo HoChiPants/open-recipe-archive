@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-cobbler-with-cake-mix",
+  "name": "Peach Cobbler with Cake Mix",
+  "subtitle": "A simple baked peach dessert with a buttery topping",
+  "description": "Fresh peaches simmer briefly with sweetened water and cinnamon, then bake beneath cake mix, cream cheese, and butter until golden and bubbling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 12,
+      "preparation": "pitted and sliced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "white-cake-mix",
+      "item": "white cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Arrange the sliced peaches in a baking dish."
+    },
+    {
+      "step": 2,
+      "text": "Stir the water and sugar together, then pour the mixture over the peaches. Sprinkle with cinnamon."
+    },
+    {
+      "step": 3,
+      "text": "Cover the peaches evenly with the dry cake mix. Distribute the cream cheese and butter over the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the topping is golden and the peach mixture is bubbling.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "peach",
+    "cobbler",
+    "baking"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15046/easy-peach-cobbler-with-cake-mix/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "421b3fe3107e28dc1b4879d77f2cc85432fc72d25d27115c9126b301dc2bceea",
+    "normalized_text_hash": "982560794401f3442bcf202e1788573cfdd540b55691ed79cb73d3d946dab825",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:41:09.090Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

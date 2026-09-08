@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "syracuse-salt-potatoes",
+  "name": "Syracuse Salt Potatoes",
+  "subtitle": "Tender potatoes with a crisp salt coating and melted butter",
+  "description": "Boil new potatoes in heavily salted water until tender, then drain and finish with melted butter.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "new-potatoes",
+      "item": "new potatoes",
+      "quantity": 4,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "fine-salt",
+      "item": "fine salt",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 8,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the new potatoes in a large pot and cover with water."
+    },
+    {
+      "step": 2,
+      "text": "Stir the fine salt into the water, then bring it to a boil."
+    },
+    {
+      "step": 3,
+      "text": "Boil until the potatoes are tender when pierced, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Drain the potatoes thoroughly and return them to the pot."
+    },
+    {
+      "step": 5,
+      "text": "Toss with the melted butter and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141785/syracuse-salt-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "435b40a7248b74d821240e748ae02253808cb0e867eb886b6e232b306ebc22ee",
+    "normalized_text_hash": "090476dcbe1732187f073b735ee28e3cb568597a70408657a88a736734fe7115",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:32:37.602Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

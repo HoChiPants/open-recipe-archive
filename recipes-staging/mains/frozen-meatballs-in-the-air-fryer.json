@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "frozen-meatballs-in-the-air-fryer",
+  "name": "Frozen Meatballs in the Air Fryer",
+  "subtitle": "A quick method for crisp, hot meatballs",
+  "description": "Reheat frozen cooked meatballs in the air fryer for an easy main dish or lunch.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-cooked-meatballs",
+      "item": "frozen cooked meatballs",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "nonstick-cooking-spray",
+      "item": "nonstick cooking spray"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 380°F."
+    },
+    {
+      "step": 2,
+      "text": "Lightly coat the air-fryer basket with nonstick cooking spray, then arrange the frozen meatballs in a single layer."
+    },
+    {
+      "step": 3,
+      "text": "Air-fry for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Turn or shake the meatballs and air-fry for 4 minutes more, until hot throughout.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "quick",
+    "air-fryer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/286360/how-to-cook-frozen-meatballs-in-the-air-fryer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "feef2ba5d04c40d66cf0c968cd103e959efc0f422beacff246f6d689deb4bbc8",
+    "normalized_text_hash": "8eb42d89a1e0cf73714597284e17783eac8af30022f924454f484a9dec2e4105",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:54:48.955Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

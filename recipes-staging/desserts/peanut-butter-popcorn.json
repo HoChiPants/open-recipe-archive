@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-popcorn",
+  "name": "Peanut Butter Popcorn",
+  "subtitle": "A quick sweet-and-salty popcorn treat",
+  "description": "Melted marshmallows, brown sugar, margarine, and peanut butter coat freshly popped popcorn for an easy dessert or snack.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "microwave-popcorn",
+      "item": "microwave popcorn",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "3.5 ounce, popped"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "marshmallows",
+      "item": "marshmallows",
+      "quantity": 20,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the popped popcorn to a large microwave-safe bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the margarine, brown sugar, and marshmallows. Microwave until the mixture is melted, about 5 minutes, stirring as needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the peanut butter until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Stir the coating through the popcorn and brown sugar mixture until evenly combined."
+    }
+  ],
+  "tags": [
+    "snack",
+    "dessert",
+    "sweet",
+    "popcorn"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "large microwave-safe bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/74363/peanut-butter-popcorn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "75a5e8aa16dedcc4949da9e9cfe4bf366235ca70487933c954bbd16a7c6266d9",
+    "normalized_text_hash": "c75a5c19ec1e1b5f3ea2edc19faffe6fd8a59ce517ff5510847823bccce5cf5b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:01:30.760Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

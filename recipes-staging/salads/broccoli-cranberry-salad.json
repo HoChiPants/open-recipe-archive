@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-cranberry-salad",
+  "name": "Broccoli Cranberry Salad",
+  "subtitle": "A crisp broccoli salad with creamy dressing, bacon, and dried fruit",
+  "description": "Fresh broccoli, onion, sunflower kernels, cranberries, and bacon are tossed with a tangy-sweet mayonnaise dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "strips-bacon",
+      "item": "strips bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "heads-broccoli",
+      "item": "heads broccoli",
+      "quantity": 3,
+      "preparation": "cut into bite-sized pieces"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salted-sunflower-kernels",
+      "item": "salted sunflower kernels",
+      "quantity": 0.33333331346512,
+      "unit": "cup",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "dried-cranberries",
+      "item": "dried cranberries",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the mayonnaise, sugar, and vinegar until smooth. Chill the dressing while preparing the salad."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon in a skillet over medium heat until crisp, about 10 minutes. Drain on paper towels and crumble or break into small pieces.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Combine the broccoli, red onion, sunflower kernels, and dried cranberries in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "Add the bacon and dressing, then toss until evenly combined."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "side-dish",
+    "salad",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large bowl",
+    "whisk",
+    "skillet",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222955/broccoli-cranberry-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b0d298122f6505a42dac853bfa028d5e6dd916456767e28df15a25fc46b0907d",
+    "normalized_text_hash": "bb4243e383e7952dd6fce79a4a27a60d3c86ace2db7ef1bbb0229b7a6d4c82e1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:14:50.792Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

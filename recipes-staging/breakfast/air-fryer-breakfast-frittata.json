@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-breakfast-frittata",
+  "name": "Air Fryer Breakfast Frittata",
+  "subtitle": "A small, savory egg bake with sausage, cheese, and vegetables.",
+  "description": "A quick two-serving frittata cooked in the air fryer until the center is fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "breakfast-sausage",
+      "item": "breakfast sausage",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "fully cooked and crumbled"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "cheddar-monterey-jack-cheese-blend",
+      "item": "Cheddar-Monterey Jack cheese blend",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 360°F. Coat a small air-fryer-safe baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Stir the breakfast sausage, eggs, Cheddar-Monterey Jack cheese blend, red bell pepper, green onion, and cayenne pepper together in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Pour the egg mixture into the prepared dish and place it in the air fryer basket."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry until the frittata is firm in the center and reaches 160°F on an instant-read thermometer.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "air-fryer",
+    "egg-dish",
+    "sausage",
+    "cheese",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "air fryer",
+    "small air-fryer-safe baking dish",
+    "mixing bowl",
+    "instant-read thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267403/air-fryer-breakfast-frittata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d60056e0d2889e56202a97dd5e561a8cd9fe7ad4608fe23fb59df9c82717f6e9",
+    "normalized_text_hash": "f3227ac28267158108035b1e94e6985bd95e6509e3e3ee4399daea1161d51f68",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:21:53.900Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

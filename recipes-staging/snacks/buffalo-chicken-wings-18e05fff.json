@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buffalo-chicken-wings-18e05fff",
+  "name": "Buffalo Chicken Wings",
+  "subtitle": "Crisp baked wings with a spicy butter sauce",
+  "description": "Seasoned wings are baked until fully cooked, then coated in a buttery hot sauce mixture.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chicken-wings",
+      "item": "chicken wings",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "hot-sauce",
+      "item": "hot sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "dash"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the flour, paprika, cayenne pepper, salt, and black pepper in a bowl. Add the chicken wings and toss until evenly coated. Let them rest for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 400°F. Arrange the coated wings in a single layer on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Bake the wings for 15 minutes, turn them, and bake for 15 minutes more, or until a thermometer inserted into the thickest part reads 165°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Meanwhile, warm the butter, hot sauce, minced garlic, cayenne pepper, and black pepper in a saucepan. Stir for about 3 minutes, until the butter has melted.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Add the baked wings to the sauce and toss to coat before serving."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222115/healthier-restaurant-style-buffalo-chicken-wings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ced2dad26f3dc164bd597a9e776f5d37ac1ec7eefac43765ecf2612d53212904",
+    "normalized_text_hash": "cfa1da6e16de74da667b64edafe3519c776e1664abe0ba5be66c71410fd22e0c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:26:57.686Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

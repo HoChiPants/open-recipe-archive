@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-dumplings",
+  "name": "Apple Dumplings",
+  "subtitle": "Tender apples wrapped in flaky dough with cinnamon sauce",
+  "description": "Apple halves are wrapped in biscuit dough, baked in a buttery vanilla syrup, and finished with cinnamon.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-flaky-biscuit-dough",
+      "item": "refrigerated flaky biscuit dough",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 4,
+      "preparation": "peeled, cored and halved"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Separate the biscuit dough into 8 pieces and flatten each piece. Wrap one dough piece around each apple half, sealing the edges."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the wrapped apples in a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Stir together the sugar, water, melted butter, and vanilla. Pour the mixture over the dumplings, then sprinkle with cinnamon."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the dough is golden and the apples are tender, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "apple",
+    "comfort-food",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18980/apple-dumplings-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d120dc05adda25ed52420684a45f09ffa69d645f57b21afbd3471e67d9aed003",
+    "normalized_text_hash": "2596fa0107a08bbb031c02dc31de5c0e3abe9496019f1161406d96583fce40e5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:19:28.532Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

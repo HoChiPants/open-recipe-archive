@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-beef-db2597e0",
+  "name": "Roast Beef",
+  "subtitle": "Seasoned eye of round with a simple oven roast",
+  "description": "A straightforward roast beef seasoned with salt, garlic powder, and black pepper, then sliced after resting.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-eye-of-round-roast",
+      "item": "beef eye of round roast",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the salt, garlic powder, and black pepper. Rub the seasoning evenly over the room-temperature roast."
+    },
+    {
+      "step": 3,
+      "text": "Place the roast in a roasting pan and roast for 60 minutes, or until a food thermometer inserted into the thickest part reads 145°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Transfer the roast to a cutting board and let it rest for at least 3 minutes before slicing.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Slice thinly across the grain and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "roast",
+    "beef",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer",
+    "cutting board",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/42176/all-american-roast-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "43c6d40417193e32f070bed6f062a126d1a5f2a260ca9e06d85d3c58e0e0cd7b",
+    "normalized_text_hash": "91beaedbfe89d751f4b08a775868be8a959f94eb2a512758de788a06659a25c9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:39:17.672Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

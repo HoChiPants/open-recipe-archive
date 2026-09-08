@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mashed-turnip-and-potatoes",
+  "name": "Mashed Turnip and Potatoes",
+  "subtitle": "A creamy baked vegetable side",
+  "description": "Tender turnip and potatoes are mashed with milk, butter, and light seasoning, then baked until lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "turnip",
+      "item": "turnip",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "white-potatoes",
+      "item": "white potatoes",
+      "quantity": 3,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the cubed turnip and potatoes in a baking dish and cook for 30 minutes, or until tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Mash the tender vegetables with the milk, 2 tablespoons of the butter, and sugar. Season with the salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mash to the baking dish and dot the top with the remaining 1 tablespoon butter."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, then continue cooking for 8 minutes or until lightly browned.",
+      "timer_minutes": 23
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "vegetable"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking dish",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46250/nanas-mashed-turnip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c31ec09300cf6c53c2139203acb1d9ae2a852d1b9d14ffde64b49f679e09f1a",
+    "normalized_text_hash": "55fc706c43e2b686e8259b6554e17162e189cb8f1eef56022310f7d98b8fed30",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:08:06.948Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

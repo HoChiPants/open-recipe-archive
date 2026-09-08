@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sourdough-bread-e6f532fb",
+  "name": "Sourdough Bread",
+  "subtitle": "Tender, lightly sweet bread with a crisp golden crust",
+  "description": "A soft sourdough loaf enriched with milk, margarine, and egg, finished with chopped onion and baked until golden and fully set.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 4.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "warm-milk",
+      "item": "warm milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sourdough-starter",
+      "item": "sourdough starter",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "extra-large-egg",
+      "item": "extra large egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the flour, sugar, salt, yeast, and egg in a large bowl. Add the warm milk and softened margarine, then stir in the sourdough starter."
+    },
+    {
+      "step": 2,
+      "text": "Mix in the remaining flour as needed to form a workable dough. Knead for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Transfer the dough to a bowl, cover, and let it rise for 60 minutes. Prepare the baking pan, then let the dough rest for 15 minutes.",
+      "timer_minutes": 75
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough and transfer it to the prepared pan. Let it rise for another 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Heat the oven to 375°F. Stir the water and chopped onion together, then spread the mixture over the dough."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until golden brown and the center is fully set. Confirm with a thermometer that the bread reaches at least 190°F; this also exceeds the 160°F safe endpoint for the egg.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "bread",
+    "sourdough",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking pan",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7156/san-francisco-sourdough-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8bbca4a2961d1185e6c00f2f5e89c463e089674b2a1f05115b51371db138d204",
+    "normalized_text_hash": "f2302c68248907ce3d34c679847b54a544fbe34e695c1f35c463ad69e7429794",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:44:16.870Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-gingerbread-cake",
+  "name": "Chocolate Gingerbread Cake",
+  "subtitle": "Spiced cake with cocoa glaze and candied orange",
+  "description": "A tender gingerbread-style cake enriched with honey, nuts, candied orange, and a simple cocoa glaze.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "eggs-separated",
+      "item": "eggs separated",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "gingerbread-spice",
+      "item": "gingerbread spice",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "candied-orange-finely-chopped",
+      "item": "candied orange finely chopped",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa",
+      "item": "cocoa",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cognac",
+      "item": "cognac",
+      "quantity": "1/2-1",
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Grease the cake tin with butter."
+    },
+    {
+      "step": 2,
+      "text": "Cream the 150 g caster sugar with the softened butter. Beat in the egg yolks, then mix in the honey and gingerbread spice."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the egg whites to stiff peaks. Combine the flour, baking powder, walnuts, almonds, and candied orange; fold the dry mixture and egg whites into the batter in alternating additions."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared tin and bake until set, about 50 minutes.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 5,
+      "text": "For the glaze, combine the 100 g butter, 100 g caster sugar, and cocoa in a saucepan. Bring to a gentle simmer, stirring, and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Warm the cognac briefly, stir it into the glaze, and spread the glaze over the cooled cake. Finish with gingerbread spice and let the topping set."
+    }
+  ],
+  "tags": [
+    "baking",
+    "cake",
+    "gingerbread",
+    "chocolate",
+    "dessert"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "electric mixer or whisk",
+    "cake tin",
+    "saucepan",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-gingerbread-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9c7d93179b28f1494b2d757e74e10a028d2211e5dfa78cd5ac0735dc498c824f",
+    "normalized_text_hash": "4ca668fb8402b80cff72a1bdb3724e3b7edb664a3d3c07b7623a392ca722ad84",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:07:54.409Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

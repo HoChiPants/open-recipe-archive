@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scrambled-eggs-with-tomatoes",
+  "name": "Scrambled Eggs with Tomatoes",
+  "subtitle": "Soft eggs with sweet-tangy tomatoes",
+  "description": "A quick breakfast combining beaten eggs with lightly cooked tomatoes, sugar, salt, and a dash of soy sauce.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 2,
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 1,
+      "unit": "dash"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat a skillet over medium heat. Add the coarsely chopped tomatoes and cook for 3 minutes, stirring occasionally.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Stir in the sugar, salt to taste, and soy sauce."
+    },
+    {
+      "step": 3,
+      "text": "Add the beaten eggs and cook for 1 minute, stirring gently, until the eggs are fully set and reach 160°F on a food thermometer.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick",
+    "egg-dish",
+    "tomatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85001/scrambled-eggs-and-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c34d4dd5844b08f434ab2f36f2f8a3c9deab3662783f47ace9a80e615e92a66",
+    "normalized_text_hash": "5d9f6c3ef24d0b0334bf8ef1a85c716bafdb81a534b415b6c53f6a1310e1bd1f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:00:03.466Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

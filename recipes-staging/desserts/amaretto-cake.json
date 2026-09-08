@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "amaretto-cake",
+  "name": "Amaretto Cake",
+  "subtitle": "Almond-liqueur Bundt cake with a simple glaze",
+  "description": "A tender yellow cake mix dessert flavored with almond extract and amaretto, finished with a smooth sugar glaze.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "5.1 ounce"
+    },
+    {
+      "ingredient_id": "amaretto-liqueur",
+      "item": "amaretto liqueur",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "amaretto-liqueur",
+      "item": "amaretto liqueur",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "sifted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Grease and flour a 10-inch tube or Bundt pan."
+    },
+    {
+      "step": 2,
+      "text": "Beat the cake mix, eggs, pudding mix, 2 tablespoons amaretto, water, vegetable oil, and almond extract until smooth. Pour the batter into the prepared pan."
+    },
+    {
+      "step": 3,
+      "text": "Bake until a toothpick inserted in the center comes out clean.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Let the cake cool briefly in the pan, then turn it out onto a serving plate."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the remaining amaretto with the confectioners' sugar until smooth. Spoon the glaze over the warm cake."
+    },
+    {
+      "step": 6,
+      "text": "Let the cake cool completely before slicing.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "cake",
+    "bundt-cake",
+    "almond",
+    "liqueur",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "10-inch tube or Bundt pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7766/amaretto-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "758e1c4e141f36369982eae46dfb5f4cb55dfcc489befd18c74ab6aff3a6a8de",
+    "normalized_text_hash": "8c6a6cdbb7820f01796bff0ec7bcda6e25092450c5e5e4740c53b507374221bd",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:49:59.834Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-garlic-bread",
+  "name": "Air Fryer Garlic Bread",
+  "subtitle": "Crisp garlic bread with parsley butter",
+  "description": "Split baguettes are spread with garlicky parsley butter and cooked in the air fryer until crisp and fragrant.",
+  "meal_type": "baked-good",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baguettes-about-125g-per-baguette",
+      "item": "baguettes (about 125g per baguette)",
+      "quantity": 2,
+      "unit": "small",
+      "preparation": "or 1 ciabatta loaf"
+    },
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-grated-or-crushed",
+      "item": "garlic cloves finely grated or crushed",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "parsley",
+      "item": "parsley",
+      "quantity": 2,
+      "unit": "tbsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "grated-parmesan-or-mature-cheddar-optional",
+      "item": "grated parmesan or mature cheddar (optional)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the baguettes lengthwise, then divide them into pieces that fit comfortably in the air-fryer basket."
+    },
+    {
+      "step": 2,
+      "text": "Combine the softened butter, garlic, and chopped parsley. Stir in the optional cheese if using."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 4,
+      "text": "Spread the butter mixture over the cut sides of the bread and arrange the pieces in the basket."
+    },
+    {
+      "step": 5,
+      "text": "Air-fry for 10 minutes, or until the bread is crisp at the edges and the topping is melted and lightly browned.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "garlic-bread",
+    "bread",
+    "side-dish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-garlic-bread",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "878114990459c0e032feb22416802a976ed1df8e5615e969cf42756d7e8da6dc",
+    "normalized_text_hash": "51987e6d210a1dc98f6dbf3e97c0d1a57652fceae3d88164797fd517277bfcd3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:25:45.683Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

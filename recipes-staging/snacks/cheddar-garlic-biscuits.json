@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheddar-garlic-biscuits",
+  "name": "Cheddar Garlic Biscuits",
+  "subtitle": "Tender, cheese-filled biscuits with a buttery garlic finish",
+  "description": "Quick drop biscuits made with Cheddar cheese and milk, baked until lightly browned, then finished with warm garlic butter.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "biscuit-mix",
+      "item": "biscuit mix",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mild-cheddar-cheese",
+      "item": "mild Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the biscuit mix, shredded Cheddar, and milk until a soft dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Portion the dough onto a baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 10 minutes, or until lightly browned.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "While the biscuits bake, warm the butter and garlic powder together for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Brush the warm garlic butter over the baked biscuits before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "biscuits",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229366/quick-cheddar-garlic-biscuits/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cec9c53e8123d4c8c00686fb659fe5f3b2d5c43597dd7d36e74f858e5641495a",
+    "normalized_text_hash": "a48fea5aa4379916e150103a4629c631490a1df2776cc3b62d94b76c85d28836",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:44:37.085Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

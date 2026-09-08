@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-green-tomatoes",
+  "name": "Fried Green Tomatoes",
+  "subtitle": "Crisp cornmeal-coated slices",
+  "description": "Tart green tomatoes are dredged in flour, dipped in egg, coated with seasoned cornmeal, and fried until crisp.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "yellow-cornmeal",
+      "item": "yellow cornmeal",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sea-salt-and-ground-black-pepper-to-taste",
+      "item": "sea salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "green-tomatoes",
+      "item": "green tomatoes",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "canola-oil-for-frying",
+      "item": "canola oil for frying",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set out separate shallow dishes for the flour, beaten eggs mixed with water, and cornmeal seasoned with salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Coat each tomato slice in flour, dip it into the egg mixture, then press it into the seasoned cornmeal. Arrange the coated slices in a single layer while preparing the remaining slices."
+    },
+    {
+      "step": 3,
+      "text": "Heat the canola oil in a skillet over medium-high heat until shimmering. Fry the slices in batches for about 4 minutes, turning once, until golden and crisp.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Transfer the fried tomatoes to a paper towel-lined plate to drain, then serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "appetizer",
+    "vegetarian",
+    "southern-inspired"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "shallow bowls",
+    "skillet",
+    "tongs",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232360/easy-southern-fried-green-tomatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "150f764f7a7f2785a3463cd5569067e2c1a451a89813046fb72d9e1d3b8138b5",
+    "normalized_text_hash": "7cdd51d8dc2663cb9df3c58b472a781a8842c816b7e69a9a16f8df8246e5734a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:47:51.945Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

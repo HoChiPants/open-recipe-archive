@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "new-england-clam-chowder",
+  "name": "New England Clam Chowder",
+  "subtitle": "A creamy chowder with potatoes, bacon, and minced clams",
+  "description": "Bacon, onion, and potatoes form the savory base for this creamy clam chowder, finished with parsley.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "bottled-clam-juice",
+      "item": "bottled clam juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "clams",
+      "item": "clams",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "6 ounce, minced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large pot until crisp. Transfer it to a plate and drain, leaving the rendered fat in the pot.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Sauté the onion and potatoes in the pot until the onion softens, about 5 minutes. Stir in the flour.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the clam juice and cook until the potatoes are tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir in the half-and-half, minced clams, salt, and pepper. Heat until the clams are hot and opaque; do not boil."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the heavy cream and warm the chowder for 5 minutes. Stir in the bacon and parsley before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "new-england",
+    "creamy",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17893/new-england-clam-chowder-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d8bcebb7a9b4c9a4251905c31b310c8e413256721f0fffc55be704f074d83ebd",
+    "normalized_text_hash": "c8f2da3d3d58f3f4c6f0a294c12aa06d435687abaa2787cf2d90df27881ef09c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:11:07.132Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

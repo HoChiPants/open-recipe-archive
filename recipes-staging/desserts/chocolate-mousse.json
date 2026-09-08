@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-mousse",
+  "name": "Chocolate Mousse",
+  "subtitle": "Light, airy mousse with a rich chocolate finish",
+  "description": "A simple chocolate mousse made with melted dark chocolate, sweetened whipped egg whites, and a crème fraîche topping.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 2
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "70-dark-chocolate-plus-extra-to-serve",
+      "item": "70% dark chocolate plus extra to serve",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "cre-me-frai-che-and-grated-chocolate",
+      "item": "crème fraîche and grated chocolate",
+      "quantity": 4,
+      "unit": "tbsp",
+      "preparation": "to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Break the dark chocolate into a microwave-safe bowl and microwave in short bursts, stirring between each, until melted.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites with the sugar until they form soft peaks. Ensure the mixture reaches 160°F or has a firm, fully set center before serving."
+    },
+    {
+      "step": 3,
+      "text": "Let the melted chocolate cool slightly, then gently fold in the whipped egg whites in batches until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Divide among four serving dishes and chill until set, about 3 hours.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 5,
+      "text": "Serve with the crème fraîche and grated chocolate."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "mousse",
+    "vegetarian",
+    "gluten-free"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "electric whisk or whisk",
+    "four serving dishes"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/easy-chocolate-mousse",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3d989f8a5fae73bc29d7ea6c135b31fa94b399ed225a85679cb31000478e2237",
+    "normalized_text_hash": "e6b6b9bf3d84f60f126abe1259d978569aadeb75ee2a7e697556f6a403464e3a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:08:29.111Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "miso-soup-with-shiitake-mushrooms",
+  "name": "Miso Soup with Shiitake Mushrooms",
+  "subtitle": "A savory Japanese soup with tofu and sliced mushrooms",
+  "description": "Simmer shiitake mushrooms in vegetable broth, blend in miso and soy sauce, then finish with tofu and green onions.",
+  "meal_type": "soup",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "shiitake-mushrooms",
+      "item": "shiitake mushrooms",
+      "quantity": 4,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "miso-paste",
+      "item": "miso paste",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "firm-tofu",
+      "item": "firm tofu",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "trimmed and thinly sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the vegetable broth and soy sauce to a simmer in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Add the shiitake mushrooms and simmer for 4 minutes.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 3,
+      "text": "Whisk the miso paste with the hot broth until smooth, then stir the mixture back into the saucepan."
+    },
+    {
+      "step": 4,
+      "text": "Add the diced tofu and warm for 1 minute without boiling.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Stir in the sliced green onions and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "soup",
+    "japanese"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/208297/miso-soup-with-shiitake-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e59ed45bec8060941065ac42cf81c6675191caf7de24c0b3cd5bfcd601aa9829",
+    "normalized_text_hash": "ea4a60e16ac77b8205ccaee45e85e57ea0abd6a3457331c09bdc4b655c2a62d2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:46:33.806Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

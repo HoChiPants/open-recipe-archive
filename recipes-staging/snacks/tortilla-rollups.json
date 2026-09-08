@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tortilla-rollups",
+  "name": "Tortilla Rollups",
+  "subtitle": "A chilled, creamy taco-seasoned tortilla snack",
+  "description": "Soft tortillas spread with a savory cream cheese mixture, rolled, chilled, and sliced into bite-size portions.",
+  "meal_type": "snack",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "taco-seasoning-mix",
+      "item": "taco seasoning mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "10-inch-flour-tortillas",
+      "item": "(10 inch) flour tortillas",
+      "quantity": 14
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese and sour cream until smooth. Stir in the green onions and taco seasoning mix until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Spread the mixture evenly over the tortillas, leaving a narrow border. Roll each tortilla tightly and arrange the rolls seam-side down."
+    },
+    {
+      "step": 3,
+      "text": "Cover and freeze the rolls for 20 minutes to firm them.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Slice the chilled rolls into bite-size pieces and serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "mexican",
+    "no-cook",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218737/tortilla-rollups/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "49323b9394a51eb90e0bf9a386d916177ae6fab6eacffe740566d25ae6b46456",
+    "normalized_text_hash": "d81a32db7b98425bc9c21ac55641c24813a32af86465c4d5ca5b0539df5e062f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:17:21.408Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

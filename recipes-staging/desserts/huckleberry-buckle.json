@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "huckleberry-buckle",
+  "name": "Huckleberry Buckle",
+  "subtitle": "Tender berry cake with a bubbling butter sauce",
+  "description": "A simple baked dessert combining a soft butter cake, huckleberries, and a boiling sugar mixture that forms a rich sauce as it bakes.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "huckleberries",
+      "item": "huckleberries",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "cut into pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened butter with part of the divided sugar until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the flour, baking powder, and salt; mix until combined. Stir in the milk to make a thick batter."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to a baking dish and scatter the huckleberries over it."
+    },
+    {
+      "step": 5,
+      "text": "Combine the remaining sugar and boiling water, stirring until the mixture is boiling."
+    },
+    {
+      "step": 6,
+      "text": "Pour the boiling mixture over the batter, then dot the top with the butter pieces."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 50 minutes, until the cake is set and the fruit sauce is bubbling.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-dessert",
+    "berry-cake",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24102/huckleberry-buckle-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "acb0b6c901822e016c74b088ac3a8a1940c5c7300a0dbcded7841b3f96e2dbad",
+    "normalized_text_hash": "a2221bae1b8061ecd474b70ce37b4f5fcccd7910ccb67088158311b6a3ab4d8c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:55:59.168Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

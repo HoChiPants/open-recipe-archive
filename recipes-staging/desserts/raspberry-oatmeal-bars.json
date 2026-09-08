@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raspberry-oatmeal-bars",
+  "name": "Raspberry Oatmeal Bars",
+  "subtitle": "Oat-filled bars with a raspberry center",
+  "description": "A simple baked dessert made with an oat crumble mixture and raspberry jam.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "quick-cooking-oats",
+      "item": "quick cooking oats",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "raspberry-jam",
+      "item": "raspberry jam",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Prepare a baking pan for the bars."
+    },
+    {
+      "step": 2,
+      "text": "Combine the cake mix, oats, and melted margarine to form a crumbly mixture. Reserve some of the mixture for the topping, then press the remainder into the pan."
+    },
+    {
+      "step": 3,
+      "text": "Stir the water into the raspberry jam and spread the mixture over the oat base."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the reserved crumb mixture over the jam. Bake until lightly browned, about 23 minutes.",
+      "timer_minutes": 23
+    },
+    {
+      "step": 5,
+      "text": "Cool completely before cutting into bars."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked",
+    "fruit",
+    "oatmeal",
+    "bar-cookie"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10618/raspberry-oatmeal-bars/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e184a999bb4d4250300325c4c2ed6aa364ca7b791be8a80f11a4b073379d53f8",
+    "normalized_text_hash": "f0bab53a4dee3b5dbd71ffbc7013c1824eceb6eaf48d201a16e298fb8254d047",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:53:37.892Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

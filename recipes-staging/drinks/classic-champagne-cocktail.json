@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-champagne-cocktail",
+  "name": "Classic Champagne Cocktail",
+  "subtitle": "A sparkling cocktail with bitters, cognac, and citrus",
+  "description": "A single-serving sparkling cocktail built in the glass with a bitters-soaked sugar cube, cognac, chilled champagne, and orange peel.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar-cube",
+      "item": "sugar cube",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bitters",
+      "item": "bitters",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cognac",
+      "item": "cognac",
+      "quantity": 10,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "cold-champagne",
+      "item": "cold champagne",
+      "quantity": 75,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "strip-of-orange-peel",
+      "item": "strip of orange peel"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sugar cube in a champagne flute and saturate it with the bitters."
+    },
+    {
+      "step": 2,
+      "text": "Add the cognac, then slowly pour in the cold champagne."
+    },
+    {
+      "step": 3,
+      "text": "Express the orange peel over the drink and add it as a garnish."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "sparkling-wine",
+    "brandy",
+    "alcoholic-drink",
+    "orange-garnish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "champagne flute"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-champagne-cocktail",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "035217d845a08707c6eafb9ec99c1ff5281fae4290a1c07b1217f737c64e65d3",
+    "normalized_text_hash": "0c7ef2d421705dd6627aeadb70a0102c43bc1667393dc1e91942dd8b7158f948",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:29:53.384Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

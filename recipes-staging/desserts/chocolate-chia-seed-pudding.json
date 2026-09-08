@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-chia-seed-pudding",
+  "name": "Chocolate Chia Seed Pudding",
+  "subtitle": "A chilled cocoa pudding with a hazelnut-coffee note",
+  "description": "Combine cocoa, brown sugar, coffee powder, chia seeds, milk, and honey, then chill until thick and spoonable.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "hazelnut-flavor-instant-coffee-powder",
+      "item": "hazelnut flavor instant coffee powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk together the cocoa powder, brown sugar, and hazelnut flavor instant coffee powder in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the chia seeds, then gradually add the milk and mix until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Let the mixture stand for 20 minutes, stirring once or twice as it begins to thicken.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Stir in the honey, adjusting to taste, then cover and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Stir before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "chia-seeds",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222063/chocolate-chia-seed-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "59a9616a1353d60810c8459ed370b85ce0278818cf76f330f68ca1f973f52314",
+    "normalized_text_hash": "8c1e710adc109779ce4dde9b92ae81b86fee4f94c360d5c797e36509962fbece",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:31:18.011Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 32,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-baked-potato-soup",
+  "name": "Slow Cooker Baked Potato Soup",
+  "subtitle": "A hearty potato soup with bacon, cheddar, and green onion",
+  "description": "Cubed red potatoes simmer with savory seasonings, bacon, onion, and garlic before being finished with half-and-half and cheddar.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 435
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 10,
+      "preparation": "cut into cubes"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "real-bacon-bits",
+      "item": "real bacon bits",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "chicken-bouillon-granules",
+      "item": "chicken bouillon granules",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded, or to taste"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cubed potatoes in the slow cooker and toss them with the flour until coated."
+    },
+    {
+      "step": 2,
+      "text": "Add the bacon bits, red onion, garlic, bouillon, dressing mix, parsley, seasoned salt, pepper, and green onion. Pour in the water and stir."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the potatoes are tender, about 7 hours 15 minutes.",
+      "timer_minutes": 435
+    },
+    {
+      "step": 4,
+      "text": "Stir in the half-and-half, cover, and cook for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Check the soup with a food thermometer and confirm it reaches 165°F before serving. Top with cheddar cheese and additional green onion as desired."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "dinner",
+    "slow-cooker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220910/slow-cooker-easy-baked-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a52fdef308255fa7dd1ff3e07b6018f35825e9bd61f7a841320a29db82089d3e",
+    "normalized_text_hash": "b9745389264e5ab49deacbf79a87354432509eabd47a1cc8957ac5282f959c83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:44:33.354Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

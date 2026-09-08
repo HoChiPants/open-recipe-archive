@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pomegranate-jelly",
+  "name": "Pomegranate Jelly",
+  "subtitle": "Bright, tart jelly for toast and desserts",
+  "description": "A simple pomegranate jelly made by simmering juice, lemon, sugar, and liquid pectin until set.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 176,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 7.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pomegranate-juice",
+      "item": "pomegranate juice",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 2,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "6-fluid-ounce-container-liquid-pectin",
+      "item": "(6 fluid ounce) container liquid pectin",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the pomegranate juice, lemon juice, and sugar in a large saucepan. Bring the mixture to a simmer, stirring until the sugar dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the liquid pectin and return the mixture to a boil."
+    },
+    {
+      "step": 3,
+      "text": "Simmer for 5 minutes, stirring as needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Transfer the hot jelly to clean containers. Let it rest until set, then cool completely and refrigerate.",
+      "timer_minutes": 1440
+    }
+  ],
+  "tags": [
+    "jelly",
+    "pomegranate",
+    "fruit-spread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "spoon",
+    "clean containers"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9399/pomegranate-jelly/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c2213b70e3aaf83fdcef270c7d2061a96ce339cee7680dd0669663a4ebf7f6bc",
+    "normalized_text_hash": "3f8d0db1e6de1ead4f4113bfbbb6e80a5c30eaea42f05859e60c9474c05f3b2c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:26:42.910Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

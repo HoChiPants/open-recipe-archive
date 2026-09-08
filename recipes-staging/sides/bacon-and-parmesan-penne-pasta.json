@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-and-parmesan-penne-pasta",
+  "name": "Bacon and Parmesan Penne Pasta",
+  "subtitle": "A savory pasta side with crisp bacon and Parmesan",
+  "description": "Penne is combined with sautéed bacon and onion, olive oil, and Parmesan for a simple, savory side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-penne-pasta",
+      "item": "dry penne pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer. Add the dry penne pasta and cook for 11 minutes, or until tender.",
+      "timer_minutes": 11
+    },
+    {
+      "step": 2,
+      "text": "While the pasta cooks, preheat a skillet over medium heat. Add the bacon and onion and cook for 10 minutes, until the bacon is cooked and the onion is softened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Transfer the cooked pasta to the skillet and stir in the olive oil."
+    },
+    {
+      "step": 4,
+      "text": "Add the bacon and onion, then stir in the grated Parmesan cheese until combined."
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/111840/bacon-and-parmesan-penne-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5747caa2aa7b5d769eefb75c4b00f6caf735b6e98ebcb1dd5f1d7d63fe0770a4",
+    "normalized_text_hash": "f18e6f36cc5d199d2703752000496f4a2ead9cfc0b746e645199994a881e6c98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:37:40.007Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

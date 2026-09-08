@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cereal-fruit-loaf",
+  "name": "Cereal Fruit Loaf",
+  "subtitle": "A tender loaf made with soaked cereal and dried fruit",
+  "description": "Soaked cereal and dried fruit give this simple breakfast loaf a moist texture and lightly sweet flavor.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 1,
+    "unit": "loaf"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "all-bran-or-shreddies-or-use-other-cereal-you-have-at-home",
+      "item": "All-Bran or Shreddies (or use other cereal you have at home)",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "white-caster-sugar",
+      "item": "white caster sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dried-fruits-sultanas",
+      "item": "dried fruits (sultanas",
+      "quantity": 150,
+      "unit": "g",
+      "preparation": "raisins, or from a bag of mixed dried fruit)"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "butter-for-the-tin",
+      "item": "butter for the tin (optional)",
+      "optional": true
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a loaf tin, greasing it with the optional butter."
+    },
+    {
+      "step": 2,
+      "text": "Combine the cereal, sugar, dried fruits, and milk. Leave the mixture to stand for 60 minutes so the cereal softens.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Stir the flour and baking powder into the soaked mixture until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared tin and bake for 60 minutes, until the loaf is set.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Cool the loaf before removing it from the tin and slicing."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "loaf",
+    "baking",
+    "dried-fruit"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf tin",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cereal-killa-loaf",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ce9ca012ce1149a6a9c4eeaaae16899f94a808f83d1c20876ef3c3ef67a7147",
+    "normalized_text_hash": "2b3e8bd9b96bff0b7c416983371a354398ac11cf4322e4a74691086c8d527389",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T03:54:54.678Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

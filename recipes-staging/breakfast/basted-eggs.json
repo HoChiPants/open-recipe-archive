@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basted-eggs",
+  "name": "Basted Eggs",
+  "subtitle": "Butter-fried eggs finished with steam",
+  "description": "Eggs cook gently in butter, then are covered briefly with water-driven steam until fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flaky-sea-salt",
+      "item": "flaky sea salt",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Crack in the eggs and cook for 1 minute, until the bottoms are set.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Add the water, cover the skillet, and cook until the eggs are fully set; a thermometer inserted into the centers should read 160°F."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the eggs to a plate and season with the black pepper and flaky sea salt."
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "skillet",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "lid",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8465544/basted-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b18e4456d0e0fc9b8c1dc99f637d6bfd3f946aef440af7b0c4979e23b6594d85",
+    "normalized_text_hash": "2691bb295dd12a42f3e1f8a672dca1471b3d5f71edd374e10bc1aac5ce3032be",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:10:06.438Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

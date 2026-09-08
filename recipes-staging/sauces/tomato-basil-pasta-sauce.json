@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-basil-pasta-sauce",
+  "name": "Tomato Basil Pasta Sauce",
+  "subtitle": "A quick, savory sauce with fresh basil and tomato.",
+  "description": "Diced tomatoes simmer with basil, garlic, and simple seasonings for a warm pasta sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 8,
+      "unit": "small",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "grated"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over medium heat. Add the diced tomatoes and cook until softened, about 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 2,
+      "text": "Stir in the basil, olive oil, garlic salt, salt, pepper, and grated garlic."
+    },
+    {
+      "step": 3,
+      "text": "Add the flour and stir for 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Stir in the water until the sauce is smooth, then cook for 5 minutes to combine the flavors.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Serve warm with pasta."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "sauce",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214898/homemade-tomato-basil-pasta-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9ea488b8c4e26900ebe61bb21f5d21abb84aee9e30a29580c49703f4c249bac1",
+    "normalized_text_hash": "98a9df97d50bd5e05308f8d2f8d64c339482c159e0a7d3593a152c20fb26f10d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:42:34.131Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

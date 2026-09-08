@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rumaki",
+  "name": "Rumaki",
+  "subtitle": "Teriyaki-marinated chicken livers wrapped in bacon",
+  "description": "Chicken livers and water chestnuts are marinated with garlic and ginger, wrapped in bacon, and fried until crisp and safely cooked.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "teriyaki-sauce",
+      "item": "teriyaki sauce",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-ginger-root",
+      "item": "fresh ginger root",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-chicken-livers",
+      "item": "fresh chicken livers",
+      "quantity": 12,
+      "unit": "ounces",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "water-chestnuts",
+      "item": "water chestnuts",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4 ounce, drained and sliced"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 12,
+      "preparation": "cut in half"
+    },
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the teriyaki sauce, garlic, and ginger together in a bowl. Add the chicken livers and water chestnuts, cover, and marinate for 2 hours in the refrigerator.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Drain the livers and water chestnuts. Wrap each liver half and a water chestnut slice with a half-slice of bacon, securing each bundle with a toothpick if needed."
+    },
+    {
+      "step": 3,
+      "text": "Heat the frying oil to 375°F in a suitable heavy pot or deep fryer. Fry the bundles in batches until the bacon is browned and the thickest chicken liver reaches 165°F.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cooked rumaki to a lined plate and serve hot."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "finger-food",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator",
+    "deep fryer or heavy pot",
+    "food thermometer",
+    "tongs"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24668/rumaki/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0395e0eb092fe07fe96faa8cfcc9c7c1ee59e4cc5ef88b5cb3a36969477cbf4d",
+    "normalized_text_hash": "bcfeb31395d1342474bee73d6081684af79dbd38ae2c2d47fda31af4700a1c0d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:33:28.460Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

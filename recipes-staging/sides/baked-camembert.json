@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-camembert",
+  "name": "Baked Camembert",
+  "subtitle": "Warm, melty cheese with herbs and wine",
+  "description": "Bake a small wheel of soft cheese with thyme, wine, and chilli flakes, then serve it hot with crackers or toasted bread.",
+  "meal_type": "side",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "camembert-or-brie",
+      "item": "camembert or brie",
+      "quantity": 250,
+      "unit": "g",
+      "preparation": "or other similar cheese"
+    },
+    {
+      "ingredient_id": "vermouth-or-dry-white-wine",
+      "item": "vermouth or dry white wine",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "or kirsch"
+    },
+    {
+      "ingredient_id": "thyme-sprigs",
+      "item": "thyme sprigs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "of-dried-chilli-flakes",
+      "item": "of dried chilli flakes",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "crackers-or-toasted-bread-to-serve",
+      "item": "crackers or toasted bread to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 2,
+      "text": "Unwrap the cheese and place it in a small ovenproof dish."
+    },
+    {
+      "step": 3,
+      "text": "Pour over the vermouth or wine, then add the thyme sprigs and dried chilli flakes."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the cheese is hot and soft.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately with crackers or toasted bread."
+    }
+  ],
+  "tags": [
+    "baked-cheese",
+    "entertaining",
+    "french",
+    "starter",
+    "side-dish",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "small ovenproof dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baked-camembert",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "feb2545161168a8f2e34dd217d1c1f3e3238c9a202aa03f6da93a277486e5dff",
+    "normalized_text_hash": "1a6c877fda7e5f98a5b80f06a00f6d9f7be417019c7a9756b8f221a944a1c68e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T03:59:34.266Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

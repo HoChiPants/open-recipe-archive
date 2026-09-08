@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pork-chop-skillet",
+  "name": "Pork Chop Skillet",
+  "subtitle": "Pork chops with herbed rice, corn, and tomatoes",
+  "description": "A one-pan meal combining browned pork chops with tender herbed rice, sweet corn, and diced tomatoes.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "boneless-pork-chops",
+      "item": "boneless pork chops",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "long-grain-and-wild-rice-mix-with-herbs",
+      "item": "long grain and wild rice mix with herbs",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "corn",
+      "item": "corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, undrained"
+    },
+    {
+      "ingredient_id": "italian-style-tomatoes",
+      "item": "Italian-style tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, diced, undrained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat. Add the pork chops and cook for 15 minutes, turning as needed, until the centers reach 145°F. Transfer the chops to a plate and rest for 3 minutes, then cut them into pieces.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Combine the water and rice mix in the skillet, stirring to incorporate the cooking juices."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the cut pork chops and corn over the rice mixture. Add the diced tomatoes and their liquid."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer until the rice is tender and the mixture is heated through.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "skillet-meal",
+    "pork",
+    "one-pan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232420/pork-chop-skillet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c2a29088c23f8c5ccca03bcf00e0ce2eb6bcead8ce547a820b5534fc99f753c3",
+    "normalized_text_hash": "3f157bf0a7240e61a58d2b5704dc47dc6af7e3ec12f4e7854e88bd19603e416b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:18:23.056Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

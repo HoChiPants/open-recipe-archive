@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-sweet-potato-traybake",
+  "name": "Chicken and Sweet Potato Traybake",
+  "subtitle": "A simple roasted chicken dinner with sweet potatoes, onions, and broccoli.",
+  "description": "Chicken thighs roast with seasoned sweet potatoes and red onion, then finish with broccoli for a complete family-style meal.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "adults, 2 children"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-potatoes-about-900g",
+      "item": "sweet potatoes (about 900g)",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "peeled and cut into large chunks"
+    },
+    {
+      "ingredient_id": "oil-for-drizzling",
+      "item": "oil for drizzling"
+    },
+    {
+      "ingredient_id": "chicken-thighs",
+      "item": "chicken thighs",
+      "quantity": "6-8",
+      "preparation": "skin left on"
+    },
+    {
+      "ingredient_id": "red-onions-cut-into-wedges",
+      "item": "red onions cut into wedges",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sachet-piri-piri-spice-mix-or-a-mild-version",
+      "item": "sachet piri-piri spice mix (or a mild version",
+      "quantity": 25,
+      "unit": "g",
+      "preparation": "if you like)"
+    },
+    {
+      "ingredient_id": "long-stem-broccoli",
+      "item": "long-stem broccoli",
+      "quantity": 300,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven. Arrange the sweet potatoes and red onions in a roasting pan, drizzle with oil, and toss with the piri-piri spice mix."
+    },
+    {
+      "step": 2,
+      "text": "Nestle the chicken thighs among the vegetables, skin-side up, and roast until the vegetables are beginning to brown and the chicken is nearly cooked.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 3,
+      "text": "Add the long-stem broccoli to the pan and drizzle with a little more oil if needed."
+    },
+    {
+      "step": 4,
+      "text": "Roast until the broccoli is tender and the chicken reaches 165°F in the thickest part, checked with a food thermometer.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Serve the chicken and roasted vegetables hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "family-meal",
+    "chicken",
+    "sweet-potato",
+    "broccoli",
+    "traybake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/piri-piri-chicken-smashed-sweet-potatoes-broccoli",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "54d08bcb18f1685238196889a0167d09434049e21808bcc2518de4d5363d371f",
+    "normalized_text_hash": "52463181b276f651c6ebff91a2d49e849324d7632e6db56e43cbb36f8aeb7e08",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:40:36.046Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

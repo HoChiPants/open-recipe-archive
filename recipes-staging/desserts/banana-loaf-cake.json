@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-loaf-cake",
+  "name": "Banana Loaf Cake",
+  "subtitle": "A tender, fruit-forward loaf with a golden baked crust",
+  "description": "Mash ripe bananas into a simple butter-based batter, then bake until the loaf is fully set and safe to serve.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "very-ripe-bananas",
+      "item": "very ripe bananas",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a loaf pan for baking."
+    },
+    {
+      "step": 2,
+      "text": "Mash the bananas until mostly smooth. Combine the flour, baking soda, and baking powder in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Beat the softened butter and sugar together, then mix in the egg, vanilla, and mashed bananas. Add the dry mixture and stir just until combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared pan and bake for 50 minutes, until the center is firm and a thermometer inserted into the center reads at least 160°F.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "banana",
+    "loaf-cake",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "loaf pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8301/banana-loaf-cake-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "00a8e31793711bcbab65a39a73bbfb961d10a16b2c3b37cc27ae45f4650043b1",
+    "normalized_text_hash": "93cded23e406f93e481889740037644c4006d9297ae0cb8efac739da00ba8318",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:21:39.089Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

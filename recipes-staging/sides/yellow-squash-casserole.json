@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "yellow-squash-casserole",
+  "name": "Yellow Squash Casserole",
+  "subtitle": "Tender squash baked with mushroom sauce, cheese, and croutons",
+  "description": "A savory squash side dish with a creamy cheese filling and a crisp crouton topping.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-squash",
+      "item": "yellow squash",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "seasoned-croutons",
+      "item": "seasoned croutons",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water to a simmer. Add the chopped squash and onion, and simmer for 15 minutes, or until tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Drain the vegetables and transfer them to a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Combine the soup, Cheddar cheese, and beaten eggs, then fold in the squash mixture."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 25 minutes. Add the seasoned croutons and bake for 20 minutes more, until the center is firm and fully set or reaches 160°F.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "squash",
+    "casserole",
+    "vegetable-side",
+    "comfort-food"
+  ],
+  "seasons": [
+    "summer",
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21238/moms-squash-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6390a4f19068f4e6092c8f0514891801ce4fd8486c3e6ffa98a8b1ff6339945b",
+    "normalized_text_hash": "323b6783d5ca9151729120fa5c922063dd1fcf87003a01ca52a4a4e07bd550ef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:54:28.404Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

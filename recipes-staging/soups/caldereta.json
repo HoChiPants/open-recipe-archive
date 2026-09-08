@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caldereta",
+  "name": "Caldereta",
+  "subtitle": "Filipino-style beef and chorizo stew",
+  "description": "A savory tomato-based stew with tender beef, chorizo, potatoes, peas, and peppers.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-chuck",
+      "item": "beef chuck",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "chorizo-sausage",
+      "item": "chorizo sausage",
+      "quantity": 12,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "and-cubed-potatoes",
+      "item": "and cubed potatoes",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "canned-peas",
+      "item": "canned peas",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the beef, chorizo, garlic, vinegar, soy sauce, and tomato sauce in a large pot. Bring the mixture to a gentle simmer and cook the beef for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a separate large pot or skillet. Cook the onion, green bell pepper, and ground black pepper for 10 minutes, until softened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Add the soy sauce and tomato sauce, then stir in the beef and chorizo mixture.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Bring the stew to a simmer, cover, and cook for 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Stir in the peeled potatoes, drained peas, salt, and ground black pepper. Simmer for 30 minutes, until the potatoes are tender and the beef is tender. Check with a food thermometer: chorizo sausage must reach 160°F, and beef cubes must reach 145°F followed by a 3-minute rest.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Adjust the seasoning if needed and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stew",
+    "filipino"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "separate large pot or skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232552/caldereta-filipino-beef-and-chorizo-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6e045d290a0392ada3e35edb479c14da5401c825557b1d181d0d327197354489",
+    "normalized_text_hash": "c52c0d6813e4776a826d3348cedd67322fa2e5c055949d58142eae1a75494937",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:45:36.451Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

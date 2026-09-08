@@ -1,0 +1,159 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "calzone",
+  "name": "Calzone",
+  "subtitle": "Folded pizza dough filled with sauce, sausage, and mozzarella",
+  "description": "Prepare a yeast dough, fill it with pizza sauce, chopped pepperoni sausage, and mozzarella, then bake until golden and safely heated.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "dry-milk-powder",
+      "item": "dry milk powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "pizza-sauce",
+      "item": "pizza sauce",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pepperoni-sausage",
+      "item": "pepperoni sausage",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, salt, bread flour, dry milk powder, sugar, and yeast. Knead until a smooth dough forms."
+    },
+    {
+      "step": 2,
+      "text": "Cover the dough and let it rise in a warm place until puffy, about 120 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 4,
+      "text": "Divide the dough into 10 portions and roll each portion into a round on a lightly floured surface."
+    },
+    {
+      "step": 5,
+      "text": "Combine the chopped pepperoni sausage and shredded mozzarella. Spread pizza sauce over each dough round, leaving a border, and add the filling."
+    },
+    {
+      "step": 6,
+      "text": "Fold each round over the filling and press the edges firmly to seal. Transfer the calzones to a baking sheet."
+    },
+    {
+      "step": 7,
+      "text": "Brush the tops with melted butter."
+    },
+    {
+      "step": 8,
+      "text": "Bake for 45 minutes, until golden and the sausage reaches 160°F at the center.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "baked",
+    "pizza"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "rolling pin",
+    "baking sheet",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6806/calzone/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bf288705c9a5ca3051a1b4817efa8722df2969db3c86c29e8047ea97f09eb358",
+    "normalized_text_hash": "a771a32e884f8a0b245efc869694c6d6cf7c391bab1be15752e0bf5e8a4f66a2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:46:16.907Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

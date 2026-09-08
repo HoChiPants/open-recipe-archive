@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-beef-tongue",
+  "name": "Mexican Beef Tongue",
+  "subtitle": "Tender shredded beef tongue in a savory tomato-jalapeño sauce",
+  "description": "Beef tongue is simmered with aromatics until tender, shredded, and finished in a smooth tomato sauce with sautéed onion.",
+  "meal_type": "main",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 205,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-tongue",
+      "item": "beef tongue",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped, divided"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "stemmed"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 3,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beef tongue, half of the chopped onion, salt, and garlic in a large pot. Add enough water to cover and bring to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer until the tongue is tender and reaches at least 145°F in the thickest part. Remove it and let it rest for 3 minutes.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Cool the tongue until it is safe to handle, then remove the outer skin and shred the meat.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Simmer the tomatoes and jalapeño in the cooking liquid until tender. Transfer them to a blender and blend until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Heat the vegetable oil in a skillet. Add the remaining onion and cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Stir in the shredded tongue and smooth tomato sauce. Cook until heated through and well combined.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican",
+    "beef",
+    "shredded-meat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "blender",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/157433/lengua-beef-tongue/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d616c98c160dd52836fad2a2ac053fe5c3cc08dfd415603fd620d10a8fb0c9bb",
+    "normalized_text_hash": "fb8ce5b4e5dccf3caa95e4db81329d557f83f8593696c6cf34cf69b6416e9640",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:00:17.580Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

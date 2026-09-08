@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mock-champagne",
+  "name": "Mock Champagne",
+  "subtitle": "A chilled, sparkling fruit punch",
+  "description": "Freeze part of the ginger ale, then combine it with pineapple juice, white grape juice, and the remaining ginger ale for a festive nonalcoholic punch.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 40,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1455,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 2,
+      "unit": "bottle",
+      "preparation": "2 liter, chilled"
+    },
+    {
+      "ingredient_id": "pineapple-juice",
+      "item": "pineapple juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "46 fluid ounce, chilled"
+    },
+    {
+      "ingredient_id": "white-grape-juice",
+      "item": "white grape juice",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "64 fluid ounce, chilled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour one bottle of the chilled ginger ale into ice cube trays and freeze until solid."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the frozen ginger ale cubes to a large punch bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the pineapple juice, white grape juice, and remaining bottle of ginger ale. Stir gently and serve chilled."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "punch",
+    "nonalcoholic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "ice cube trays",
+    "large punch bowl",
+    "ladle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32333/mock-champagne/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7435dc06370595493420282fb1bf591ded8f57716d968611d74387492971daa5",
+    "normalized_text_hash": "47a54bee1f1ca18d45d7bd2079f6df0690166d18c388fc4b689997d6ad034424",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:47:18.960Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

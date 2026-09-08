@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-mousse",
+  "name": "Peanut Butter Mousse",
+  "subtitle": "A quick, creamy single-serving dessert",
+  "description": "Warm peanut butter briefly, blend it with sweetened yogurt and vanilla, then finish with chocolate chips for an easy mousse-style treat.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 1
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "plain-greek-yogurt",
+      "item": "plain Greek yogurt",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "stevia-brown-sugar-blend",
+      "item": "stevia brown sugar blend",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Microwave the peanut butter for 1 minute, or until smooth.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Stir in the Greek yogurt until evenly combined. Mix in the stevia brown sugar blend and vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the chocolate chips and serve."
+    }
+  ],
+  "tags": [
+    "snack",
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts",
+    "soy"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255223/healthy-peanut-butter-mousse/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b9b89e1d937716ebe239f3e8faf66ead6ede40b31db51b5a5843804587bbfe9f",
+    "normalized_text_hash": "6c2d8495c17ac5c8706bdc8f47f446eb864bf413b37f6c6789d5b49b60f104e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:28:21.509Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

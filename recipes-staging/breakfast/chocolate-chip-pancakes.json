@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-chip-pancakes",
+  "name": "Chocolate Chip Pancakes",
+  "subtitle": "Fluffy pancakes studded with milk chocolate chips",
+  "description": "Make a batch of tender chocolate chip pancakes for breakfast or brunch, with an optional creamy topping.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 12,
+    "unit": "pancakes"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips",
+      "item": "milk chocolate chips",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter-for-frying",
+      "item": "butter for frying"
+    },
+    {
+      "ingredient_id": "whipped-cream-or-ice-cream",
+      "item": "whipped cream or ice cream",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the self-raising flour, baking powder, and caster sugar in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs and whole milk together, then add them to the dry ingredients. Stir until the batter is smooth, and fold in the milk chocolate chips."
+    },
+    {
+      "step": 3,
+      "text": "Preheat a frying pan over medium heat and melt a little butter in it."
+    },
+    {
+      "step": 4,
+      "text": "Add portions of batter to the pan, leaving space between them. Cook for about 2 minutes, until bubbles form and the underside is golden brown.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Turn the pancakes and cook for about 2 minutes more, until golden and cooked through. Repeat with the remaining batter, adding more butter as needed.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Serve warm with whipped cream or ice cream, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "pancakes",
+    "chocolate",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "frying pan",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-chip-pancakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "187763825d2065dc7fe924ce9f265c94203074ccdbec8f638829ae78c5bfa0b6",
+    "normalized_text_hash": "ff21b74a8f9ef15f5a28a488f89b0043bbd71245fbcdfee23a96e1db2f205506",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:04:23.079Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

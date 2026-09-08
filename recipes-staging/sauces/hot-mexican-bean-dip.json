@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-mexican-bean-dip",
+  "name": "Hot Mexican Bean Dip",
+  "subtitle": "Warm, creamy bean dip with jalapeño",
+  "description": "A baked dip combining refried beans, creamy dairy, taco seasoning, jalapeño, and shredded Mexican cheese.",
+  "meal_type": "sauce",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refried-beans",
+      "item": "refried beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "30 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "8-ounce-carton-sour-cream",
+      "item": "(8 ounce) carton sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dry-taco-seasoning-mix",
+      "item": "dry taco seasoning mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1.25 ounce"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "preparation": "diced, or more to taste"
+    },
+    {
+      "ingredient_id": "mexican-cheese-blend",
+      "item": "Mexican cheese blend",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the refried beans, cream cheese, sour cream, taco seasoning mix, and shredded Mexican cheese until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the diced jalapeño."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until hot and the cheeses are melted.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "dip"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222755/hot-mexican-bean-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b87a224a0ca5894a5e955fe60205f317717fc215e35265ad1d67ce72b544cd1",
+    "normalized_text_hash": "3a01f14fe267ca8604b0333d2a042de0261ce4c32445be23654f6af4c6155ca2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:53:28.411Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-orange-waffles",
+  "name": "Chocolate Orange Waffles",
+  "subtitle": "Crisp, cocoa-rich waffles with bright orange flavor",
+  "description": "A simple chocolate waffle batter flavored with orange zest and essence, finished with chocolate and optional-style toppings as specified.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "self-raising-flour-sieved",
+      "item": "self-raising flour sieved",
+      "quantity": 130,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cocoa-powder-sieved",
+      "item": "cocoa powder sieved",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter-melted",
+      "item": "butter melted",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "orange-essence",
+      "item": "orange essence",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "orange-zested",
+      "item": "orange zested",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "dark-chocolate-roughly-chopped",
+      "item": "dark chocolate roughly chopped",
+      "quantity": 25,
+      "unit": "g",
+      "preparation": "plus extra to serve"
+    },
+    {
+      "ingredient_id": "segmented-maple-syrup",
+      "item": "segmented maple syrup",
+      "preparation": "grated chocolate and whipped cream"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the waffle iron according to its instructions."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs and milk together in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the sifted self-raising flour, sifted cocoa powder, and caster sugar; whisk until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the melted butter, orange essence, orange zest, and roughly chopped dark chocolate."
+    },
+    {
+      "step": 5,
+      "text": "Cook the batter in the preheated waffle iron until the waffles are set and cooked through, about 6 minutes per batch.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 6,
+      "text": "Serve with segmented maple syrup, grated chocolate, and whipped cream."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "waffles",
+    "chocolate",
+    "orange"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "waffle iron",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-orange-waffles",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b6a9a8f882a624ecf76f78317f8225c3ac08522b6b7e503fd2e8a968fc7f4a8b",
+    "normalized_text_hash": "5f5cba351f55e47d63061c3a028a5d414188b6b2b35c5396a7ecdf5d94faead4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:10:11.374Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

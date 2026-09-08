@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheddar-quiche-crust",
+  "name": "Cheddar Quiche Crust",
+  "subtitle": "A crisp, buttery crust with shredded Cheddar.",
+  "description": "This savory pastry crust comes together with cold butter, Cheddar, and a short chill before baking.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "cut into small pieces"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the flour in a mixing bowl. Add the cold butter and work it into the flour until the mixture resembles coarse crumbs."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the shredded Cheddar. Add the cold water and mix just until a dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into a disk, wrap or cover it, and chill.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 5,
+      "text": "Roll or press the chilled dough into a quiche or pie pan, shaping it evenly and preparing the edge."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the crust is lightly golden.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "quiche",
+    "savory-pastry",
+    "brunch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/107297/cheesy-quiche-crust/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "85fe76fa758410fd3c93b0a1e3b9d4c7fdec41d822ea53e58719f1e317393e7d",
+    "normalized_text_hash": "83a5c6efac386b28640339f22319567007f38727ee9c0183d627e90221c755f1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:15:11.154Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

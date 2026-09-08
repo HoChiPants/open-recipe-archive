@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-banana-water",
+  "name": "Hot Banana Water",
+  "subtitle": "A warm banana-peel infusion",
+  "description": "Simmer banana peels in water, then let the infusion rest before serving warm.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "banana-peels",
+      "item": "banana peels",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the banana peels into smaller pieces."
+    },
+    {
+      "step": 2,
+      "text": "Bring the water to a simmer in a saucepan."
+    },
+    {
+      "step": 3,
+      "text": "Add the peels to the boiling water, reduce to a simmer, and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Preheat a heatproof serving container for 10 minutes, then transfer in the hot infusion and peels.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Let the mixture steep for 20 minutes, then stir and remove the peels.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "hot-beverage",
+    "banana-peel-infusion"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "heatproof serving container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270779/hot-banana-water/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2a570bbe530512cd5bf99f41c2fd564bbfac1a70e95ed9a5379e5b33e4c5c643",
+    "normalized_text_hash": "3a83b981e2b78925d105156ca24d828e81924320898727a668d6b0c60dfc3e4a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:51:23.008Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

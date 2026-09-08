@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tuna-melt",
+  "name": "Tuna Melt",
+  "subtitle": "An open-faced tuna sandwich with melted Cheddar",
+  "description": "Mix seasoned tuna with pickle and condiments, spread it over whole wheat bread, and bake with Cheddar until hot and melted.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 3,
+    "cook_minutes": 7
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tuna",
+      "item": "tuna",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained and flaked"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dijon-mustard",
+      "item": "Dijon mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "slices-whole-wheat-bread",
+      "item": "slices whole wheat bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "dill-pickle",
+      "item": "dill pickle",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the tuna, mayonnaise, salt, balsamic vinegar, Dijon mustard, and chopped pickle."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the bread on a baking sheet and divide the tuna mixture between the slices. Top with the shredded Cheddar."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 7 minutes, until the cheese is melted and the tuna reaches 145°F, or is opaque and flakes easily.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 5,
+      "text": "Cut the melts as desired and serve hot."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "sandwich",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54518/simple-tuna-melt/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f7a180080ca85efebe1a5bb0a78b114a8db143bf1e2f62d78e0d2887916cd0ea",
+    "normalized_text_hash": "8fb55ce9e7ffb87ea691f45979dbe97fd854a30b250fb290a2fbeef0673d2b0d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:30:12.517Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

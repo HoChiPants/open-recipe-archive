@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "eggnog-custard",
+  "name": "Eggnog Custard",
+  "subtitle": "Warm, nutmeg-scented baked custards for two",
+  "description": "A simple baked custard combining eggnog, beaten egg, sugar, and nutmeg.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "eggnog",
+      "item": "eggnog",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 2,
+      "unit": "pinches"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggnog and white sugar together, then whisk in the beaten egg until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Divide the mixture between two small ovenproof dishes and sprinkle the ground nutmeg over the tops."
+    },
+    {
+      "step": 4,
+      "text": "Place the dishes in a baking pan and bake until the centers are set and a thermometer reads 160°F, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "Cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "custard",
+    "eggnog",
+    "baked"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "whisk",
+    "two small ovenproof dishes",
+    "baking pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/155027/eggnog-custard/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fac26a533931934f78d48a8e48fa6efc4e9897b79a0a98a6ece070d6fd55f703",
+    "normalized_text_hash": "725854b629fc273bee865fef07baa13eb00187ae59b8b432a18a39421c955b4b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:57:05.400Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

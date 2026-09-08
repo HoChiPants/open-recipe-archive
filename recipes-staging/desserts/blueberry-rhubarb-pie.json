@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-rhubarb-pie",
+  "name": "Blueberry Rhubarb Pie",
+  "subtitle": "A bright berry-and-rhubarb pie with a crisp double crust",
+  "description": "Sweet blueberries and tangy rhubarb bake into a fruit-filled pastry pie.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "light-brown-sugar",
+      "item": "light brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "quick-cooking-tapioca",
+      "item": "quick-cooking tapioca",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "fresh-blueberries",
+      "item": "fresh blueberries",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pastry-for-a-9-inch-double-crust-pie",
+      "item": "pastry for a 9-inch double crust pie",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the white sugar, light brown sugar, tapioca, and salt together. Add the diced rhubarb and blueberries, tossing until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Fit half of the pastry into a 9-inch pie dish and spoon in the fruit mixture."
+    },
+    {
+      "step": 4,
+      "text": "Cut the remaining pastry into strips or shapes and arrange it over the filling, sealing the edges to the bottom crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes at 400°F. Lower the oven to 350°F and continue baking for 30 minutes, until the crust is golden brown.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Cool the pie completely before slicing.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "fruit-pie"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237514/amazing-blueberry-rhubarb-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d9c8d1fd5cd32a8f3d8a31f3ad4990800da41aeb5a28ebbd6e84f76aeec72e2a",
+    "normalized_text_hash": "6e61d943b3265c8c8f6170214e82e79ab075f457f88bfa4fd766c955a757cceb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:59:09.937Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

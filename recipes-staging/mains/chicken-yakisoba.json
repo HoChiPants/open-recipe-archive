@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-yakisoba",
+  "name": "Chicken Yakisoba",
+  "subtitle": "Spicy noodles with chicken and crisp vegetables",
+  "description": "Chicken, soba noodles, cabbage, onion, and carrots are tossed in a savory chile-garlic sauce for a quick Japanese-style meal.",
+  "meal_type": "main",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "chile-paste",
+      "item": "chile paste",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves - cut into 1 inch cubes"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "sliced lengthwise into eighths"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "coarsely chopped"
+    },
+    {
+      "ingredient_id": "soba-noodles",
+      "item": "soba noodles",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cooked and drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the sesame oil, canola oil, and chile paste in a large skillet or wok over medium-high heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken and cook, stirring frequently, until no longer pink and the thickest pieces reach 165°F on a food thermometer."
+    },
+    {
+      "step": 3,
+      "text": "Add the garlic and soy sauce. Stir and simmer until the sauce is hot and slightly reduced.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the onion, cabbage, and carrots; toss until the vegetables begin to soften while retaining some texture.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Add the cooked soba noodles and toss until evenly coated and heated through."
+    },
+    {
+      "step": 6,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "japanese",
+    "noodles",
+    "chicken",
+    "stir-fry",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "large skillet or wok",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8628/yakisoba-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5318eff655772edc6a926317d47667d9cdfcdf1628abf29d88cee42ff1330fce",
+    "normalized_text_hash": "db179c68d217efaab7be3dd03f3960c634cbe4a88226611828cf41fcdcbc2867",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:10:29.924Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

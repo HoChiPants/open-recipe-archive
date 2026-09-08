@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-chicken-pot-pie",
+  "name": "Cheesy Chicken Pot Pie",
+  "subtitle": "A savory chicken-and-vegetable pie with a creamy cheese filling",
+  "description": "Chicken, vegetables, and Cheddar are bound in a thickened sauce, enclosed in pastry, and baked until golden and safely heated through.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cooked",
+      "item": "cooked",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded chicken meat"
+    },
+    {
+      "ingredient_id": "green-peas",
+      "item": "green peas",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "recipe-pastry-for-a-9-inch-double-crust-pie",
+      "item": "recipe pastry for a 9 inch double crust pie",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chicken stock, green peas, celery, and carrots in a saucepan. Bring to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cornstarch and milk into the stock mixture. Cook, stirring, until thickened, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the cooked shredded chicken and Cheddar cheese."
+    },
+    {
+      "step": 4,
+      "text": "Line a 9-inch pie dish with half the pastry. Add the filling, cover with the remaining pastry, and cut vents in the top."
+    },
+    {
+      "step": 5,
+      "text": "Preheat the oven for 60 minutes, then set it to 325°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Bake the pie until golden brown and the filling reaches 165°F in the center, about 40 minutes.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "pot-pie",
+    "chicken",
+    "vegetables",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "9-inch pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12690/cheesy-chicken-pot-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "87e15ef0a60ca359f2650d23fc6e13cbc0a1a9a24362eca4e1f9d52ad363b6c2",
+    "normalized_text_hash": "44ef69167c9596f42745def1819661fc1288304cf9c851b8533f3d08d8cfb19d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:12:13.683Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

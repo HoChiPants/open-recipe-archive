@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-chicken-quesadillas",
+  "name": "Slow Cooker Chicken Quesadillas",
+  "subtitle": "Tender seasoned chicken folded with melted cheese in crisp tortillas.",
+  "description": "Chicken cooks in enchilada sauce and taco seasoning, then fills flour tortillas with cheese for easy skillet quesadillas.",
+  "meal_type": "main",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 255
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-enchilada-sauce",
+      "item": "red enchilada sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "reduced-sodium-taco-seasoning-mix",
+      "item": "reduced-sodium taco seasoning mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1.25 ounce"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breasts"
+    },
+    {
+      "ingredient_id": "8-to-10-inch-flour-tortillas",
+      "item": "8- to 10-inch flour tortillas",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "mexican-cheese-blend",
+      "item": "Mexican cheese blend",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "12 ounce, shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the enchilada sauce, water, and taco seasoning together in a slow cooker. Add the chicken and coat it with the sauce."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook until the chicken is tender, about 4 hours 15 minutes. Verify that the thickest part reaches 165°F.",
+      "timer_minutes": 255
+    },
+    {
+      "step": 3,
+      "text": "Transfer the chicken to a bowl and shred it. Return it to the slow cooker and stir it into the sauce."
+    },
+    {
+      "step": 4,
+      "text": "Preheat a skillet over medium heat. Place chicken and cheese on one half of each tortilla, fold the tortillas over, and cook in batches for 4 minutes total, turning once, until crisp and the cheese is melted.",
+      "timer_minutes": 4
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mexican",
+    "slow-cooker",
+    "quesadillas"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "slow cooker",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267953/slow-cooker-chicken-quesadillas/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3898db1fbcb6ddf30040430783455b8c767d908ded937f85bd21d2a18e32379a",
+    "normalized_text_hash": "64b9535206b8d9adffaa0024097ba89ad1fb235ac987ff3d21c8b5186c0e6c09",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:42:10.754Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

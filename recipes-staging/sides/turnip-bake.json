@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "turnip-bake",
+  "name": "Turnip Bake",
+  "subtitle": "Tender turnips and apples beneath a buttery brown-sugar topping",
+  "description": "A warm baked side dish combining mashed turnip with cinnamon-seasoned apples and a simple crumb topping.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "turnip",
+      "item": "turnip",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper",
+      "item": "salt and ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled, cored, and diced"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Simmer the cubed turnip with the salt and pepper until tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Drain the turnip and mash it with 2 tablespoons butter until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Toss the diced apples with 2 tablespoons brown sugar and the cinnamon."
+    },
+    {
+      "step": 5,
+      "text": "Spread the mashed turnip in a baking dish and arrange the apples over it."
+    },
+    {
+      "step": 6,
+      "text": "Combine the flour, 1/4 cup brown sugar, and softened butter to make a crumbly topping; scatter it over the apples."
+    },
+    {
+      "step": 7,
+      "text": "Bake until the topping is golden and the dish is cooked through, about 60 minutes.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "potato masher",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231946/turnip-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9129d8ec7fda9a6bca8af5b8aa341f8da043bbcf2c616239596f7f01200e4b8f",
+    "normalized_text_hash": "a3e86f2487a1fde3a8c126c7b2caeed47f216e2c48bc5e6fc04f46e96101fd78",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:30:58.221Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

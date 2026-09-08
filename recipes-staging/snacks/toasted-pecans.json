@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "toasted-pecans",
+  "name": "Toasted Pecans",
+  "subtitle": "Buttery, lightly salted pecans toasted until crisp",
+  "description": "Pecans coated in melted butter and salt, then slowly toasted for a rich, crunchy snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "shelled-pecans",
+      "item": "shelled pecans",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 275°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the melted butter and pecans in a bowl, stirring until the nuts are evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Spread the pecans in a single layer on a baking sheet and sprinkle with salt to taste."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 60 minutes, stirring occasionally, until toasted and crisp.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Let cool briefly before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "nuts",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "baking sheet",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24238/toasted-pecans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "315474121e755f60307d64a5b230340fc00ccce47e3e0f47059949ab85e3bd2a",
+    "normalized_text_hash": "9170c47997ddca321e08c3e1d63894712e95b196415d928e565d1d7422a1c353",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:09:33.509Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

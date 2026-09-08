@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crushed-pineapple-sour-cream-pie",
+  "name": "Crushed Pineapple Sour Cream Pie",
+  "subtitle": "A chilled pineapple pie with a creamy vanilla filling",
+  "description": "A simple dessert made with crushed pineapple, vanilla pudding, sugar, and sour cream in a baked pie crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-pie-crust",
+      "item": "(9 inch) pie crust",
+      "quantity": 1,
+      "preparation": "baked"
+    },
+    {
+      "ingredient_id": "pineapple-with-juice",
+      "item": "pineapple with juice",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, crushed"
+    },
+    {
+      "ingredient_id": "instant-vanilla-pudding-mix",
+      "item": "instant vanilla pudding mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3.5 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the pineapple with its juice, pudding mix, and sugar in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the sour cream until smooth, then add it to the pineapple mixture and whisk for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Transfer the filling to the baked pie crust and smooth the surface."
+    },
+    {
+      "step": 4,
+      "text": "Chill the pie for at least 1 hour, then garnish before serving if desired.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chilled-pie",
+    "pineapple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14999/crushed-pineapple-sour-cream-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "80c7819de0e89555586079b5920f5302a370bde3d96277ccca5c4a954ae97db3",
+    "normalized_text_hash": "2ffb1fa74787a41fcf829162585c629acd313b53def93c05cbf8c99364e8addf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:52:10.811Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

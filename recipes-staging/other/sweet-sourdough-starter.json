@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sweet-sourdough-starter",
+  "name": "Sweet Sourdough Starter",
+  "subtitle": "A gently sweet starter for ongoing baking",
+  "description": "Build this milk-fed sourdough starter over several days, stirring and feeding it as directed before using it in baked goods.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "inactive_minutes": 9970
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2.25,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Dissolve the yeast in the warm water and let it stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Mix in the undivided flour and sugar until smooth, then transfer the mixture to a suitable container.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Stir until combined, cover, and let the starter stand for the full inactive period. Stir it at the required intervals during this time.",
+      "timer_minutes": 9970
+    },
+    {
+      "step": 4,
+      "text": "At each feeding, add the divided flour, sugar, and milk portions, stirring each addition until smooth before returning the starter to its container."
+    },
+    {
+      "step": 5,
+      "text": "Continue the scheduled stirring and feeding operations until the starter is ready to use."
+    }
+  ],
+  "tags": [
+    "sourdough-starter",
+    "baking",
+    "make-ahead",
+    "sweet-starter"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "measuring cups",
+    "measuring spoons",
+    "wooden spoon",
+    "covered container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7160/herman-sourdough-starter/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "049297ad08711b5d49a29722f45673c0eb020ba878d00b599f38b5901e71cd8d",
+    "normalized_text_hash": "b3149bb527cd875c8ad26ab817c9aa452b33d495fa137d9ffda8c256dec0bce6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:33:51.870Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

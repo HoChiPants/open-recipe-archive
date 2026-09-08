@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-sandwich-cookies",
+  "name": "Chocolate Sandwich Cookies",
+  "subtitle": "Soft chocolate cookies made from cake mix",
+  "description": "Mix a simple chocolate dough, shape it into cookies, bake until set, and pair the cooled cookies for serving.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "devil-s-food-cake-mix",
+      "item": "devil's food cake mix",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Blend the cake mix, eggs, and shortening until a cohesive dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into evenly sized portions and arrange them on prepared baking sheets."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the cookies are set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Let the cookies cool, then pair them for serving as sandwich cookies.",
+      "timer_minutes": 6
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "baking sheets"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9990/homemade-chocolate-sandwich-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "142cfe336cf46a86e06fd660d10e68c768ee03bc06df38ea1d29404858514f41",
+    "normalized_text_hash": "d5075a2c5cff0b91266022968a1b8a515eb49996cfafc54db0bd686d3808b5ee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:38:22.878Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-chocolate-tahini-ice-cream",
+  "name": "Banana Chocolate Tahini Ice Cream",
+  "subtitle": "A creamy frozen banana dessert with cocoa and sesame richness.",
+  "description": "Blend frozen banana with milk, cocoa, and a tahini-maple mixture, then fold in sliced banana and freeze until scoopable.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-bananas-cut-into-chunks",
+      "item": "ripe bananas cut into chunks",
+      "quantity": 8,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": "80-120",
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "tahini",
+      "item": "tahini",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 80,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "cocoa-powder",
+      "item": "cocoa powder",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "of-espresso-powder-optional",
+      "item": "of espresso powder (optional)",
+      "unit": "pinch",
+      "optional": true
+    },
+    {
+      "ingredient_id": "ripe-bananas-peeled-and-sliced",
+      "item": "ripe bananas peeled and sliced",
+      "quantity": 4,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the tahini, maple syrup, and vanilla extract together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir the cocoa powder and optional espresso powder together."
+    },
+    {
+      "step": 3,
+      "text": "Blend the banana chunks with 80 ml milk until smooth, adding more milk as needed for a thick, creamy consistency."
+    },
+    {
+      "step": 4,
+      "text": "Add the tahini mixture and cocoa mixture, then blend or stir until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the sliced bananas and transfer the mixture to a freezer-safe container."
+    },
+    {
+      "step": 6,
+      "text": "Freeze until firm and scoopable, about 60 minutes.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "banana",
+    "chocolate",
+    "tahini",
+    "frozen-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "sesame"
+  ],
+  "equipment": [
+    "blender or food processor",
+    "mixing bowl",
+    "whisk",
+    "freezer-safe container",
+    "freezer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banana-chocolate-tahini-cheats-ice-cream",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ba8de2b4592f45d34e19b3d13c986c6c8c0f97582c7cd6fbd63572c317564134",
+    "normalized_text_hash": "e5ee6d8ee4f97a63f24743461ce24f50e7497a27bb68aca582247131ad68d343",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:08:18.645Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

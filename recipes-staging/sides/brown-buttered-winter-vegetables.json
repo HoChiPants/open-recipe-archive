@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-buttered-winter-vegetables",
+  "name": "Brown-Buttered Winter Vegetables",
+  "subtitle": "Tender seasonal vegetables with sage butter",
+  "description": "Carrots, Brussels sprouts, and leeks are gently cooked, then finished with browned butter and optional sage.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots-thickly-sliced",
+      "item": "carrots thickly sliced",
+      "quantity": 3,
+      "preparation": "at an angle"
+    },
+    {
+      "ingredient_id": "brussels-sprouts-trimmed-and-halved",
+      "item": "brussels sprouts trimmed and halved",
+      "quantity": 300,
+      "unit": "g",
+      "preparation": "if they’re large"
+    },
+    {
+      "ingredient_id": "leeks-trimmed-and-thickly-sliced",
+      "item": "leeks trimmed and thickly sliced",
+      "quantity": 2,
+      "preparation": "at an angle"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "handful-sage-leaves-optional",
+      "item": "handful sage leaves (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the carrots, Brussels sprouts, and leeks to a large pan and cook for 3 minutes, stirring occasionally.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Cover and simmer the vegetables for 5 minutes, or until just tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the butter and optional sage leaves, cooking until the butter is golden and nutty."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the browned butter over the vegetables and stir to coat."
+    },
+    {
+      "step": 5,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "vegetables",
+    "winter-vegetables",
+    "carrots",
+    "brussels-sprouts",
+    "leeks"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/3-1-brown-buttered-winter-vegetables",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4f213890db52b187baeb104c3dd7df8460e24aa9e3f353122cd3288675cddc4e",
+    "normalized_text_hash": "bf5a4ac270139437a487fc856ac88957ce5d4e9694931ac765237444ba18cd52",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:19:30.230Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

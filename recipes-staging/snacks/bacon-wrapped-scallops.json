@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-wrapped-scallops",
+  "name": "Bacon-Wrapped Scallops",
+  "subtitle": "Tender scallops with crisp bacon",
+  "description": "Wrap lemon-finished sea scallops in bacon and bake until the scallops are opaque and the bacon is cooked.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "sea-scallops",
+      "item": "sea scallops",
+      "quantity": 12,
+      "preparation": "rinsed and drained"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut each bacon slice in half. Toss the rinsed, drained scallops with the lemon juice, then wrap each scallop with a bacon piece and arrange them on a baking sheet."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the bacon is cooked and the scallops are opaque, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "american",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21698/scallops-one-two-three/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1d83e45e5d023d6e49a7d8f1c3cab2d8c6a3d0721f29dc6c6955663c95cec7ac",
+    "normalized_text_hash": "57a4ff570425fd48927d3a216d0d4d5e6208d14283a8e0d2b35a1b12b192e5b0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:41:12.425Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

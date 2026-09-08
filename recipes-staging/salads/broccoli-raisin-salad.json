@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-raisin-salad",
+  "name": "Broccoli Raisin Salad",
+  "subtitle": "A crisp, creamy salad with savory bacon and sweet raisins",
+  "description": "Chopped broccoli, onion, raisins, bacon, and sunflower seeds are combined with a tangy mayonnaise dressing and chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "broccoli",
+      "item": "broccoli",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sunflower-seeds",
+      "item": "sunflower seeds",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "3 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon for 10 minutes, or until crisp. Cool, then chop it into small pieces.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Combine the bacon, broccoli, red onion, and raisins in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk together the mayonnaise, white sugar, and white vinegar."
+    },
+    {
+      "step": 4,
+      "text": "Stir the dressing into the broccoli mixture until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Chill for 60 minutes. Stir in the sunflower seeds just before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232432/broccoli-raisin-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "36e7dc5f8f443960de7d2298b5900ced38f9e8d015e81753db699f54189d18d6",
+    "normalized_text_hash": "ed847e4d818d14d57a8a9e6e7f84303d05ae9e5426f205840445129160c99b62",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:15:07.904Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

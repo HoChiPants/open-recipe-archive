@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-dumplings",
+  "name": "Chicken and Dumplings",
+  "subtitle": "Tender chicken, vegetables, and homemade flour dumplings",
+  "description": "A comforting American main dish of simmered chicken and vegetables finished with soft, hand-cut dumplings.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 100
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "water-to-cover",
+      "item": "water to cover"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "sliced, or more to taste"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken in a large pot and season with the pinch of salt and some of the salt and pepper. Add water to cover."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a gentle simmer, then add the lemon, celery, onion, and carrots. Cover partially and simmer until the chicken is tender and reaches 165°F in the thickest part, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Remove the chicken and lemon. Let the chicken cool enough to handle, then remove the meat from the bones and cut or shred it. Reserve the cooking liquid and vegetables in the pot."
+    },
+    {
+      "step": 4,
+      "text": "Mix the flour with the remaining salt and pepper. Stir in enough reserved cooking liquid to form a soft dough, then knead briefly until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Roll or pat the dough thin, cut it into dumplings, and place the pieces into the simmering broth."
+    },
+    {
+      "step": 6,
+      "text": "Simmer the dumplings until tender, about 30 minutes. Return the chicken to the pot and cook for 5 minutes before serving.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken",
+    "dumplings",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "mixing bowl",
+    "knife",
+    "rolling pin",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255236/better-than-cracker-barrel-chicken-n-dumplings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8fdba1cfbe85f8263fb9957d59663e52d1d9717250b85c736fad5192a632333c",
+    "normalized_text_hash": "16d5971ad6ec01c4f09bfd8fc4cb0354eb2cb98a565c9bdf69fb29e06b72ad5d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:42:11.643Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

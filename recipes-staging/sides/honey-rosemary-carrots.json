@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-rosemary-carrots",
+  "name": "Honey Rosemary Carrots",
+  "subtitle": "Tender carrots with a buttery honey glaze",
+  "description": "Diagonal carrot slices simmer with butter, honey, and fresh rosemary for a simple sweet-savory side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled and cut diagonally into 1/4-inch slices"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sprig-fresh-rosemary",
+      "item": "sprig fresh rosemary",
+      "quantity": 1,
+      "preparation": "leaves stripped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large skillet or saucepan over medium heat for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the carrots, water, and butter. Bring to a simmer and cook until the carrots begin to soften."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the honey and rosemary, then continue simmering until the carrots are tender and coated with the glaze.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove the rosemary sprig and serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "vegetarian",
+    "glazed-carrots"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet or saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230323/honey-rosemary-carrots/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "41d36ba1f81a7848b251a106400c6592ec6502916e298ff49a7e2c6c6b6667fd",
+    "normalized_text_hash": "382f6bea90b0cffc7d90794a88fbbf7a8b71496882488759cdd5d0074852995c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:49:40.730Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

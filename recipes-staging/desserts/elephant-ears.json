@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "elephant-ears",
+  "name": "Elephant Ears",
+  "subtitle": "Crisp cinnamon-sugar fried dough",
+  "description": "Yeasted dough is shaped thin, fried until golden, and finished with cinnamon sugar.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 0.375,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "oil-for-frying",
+      "item": "oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk, shortening, 2 tablespoons sugar, and salt together, stirring until the shortening melts. Let the mixture cool to 110°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the yeast, then add the flour and mix until a dough forms. Knead until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Cover the dough and let it rest for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 4,
+      "text": "Heat the frying oil to 375°F. Combine the remaining sugar with the cinnamon in a shallow dish."
+    },
+    {
+      "step": 5,
+      "text": "Divide and flatten the dough into thin pieces. Fry in batches for about 2 minutes, turning as needed, until golden.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Drain the fried dough, then coat it with the cinnamon-sugar mixture."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fried",
+    "yeast-dough",
+    "cinnamon-sugar"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large saucepan",
+    "mixing bowl",
+    "deep fryer or heavy pot",
+    "thermometer",
+    "tongs",
+    "wire rack or paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20989/elephant-ears/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c60da7822596110149356e2cc7928710da7c44ee367f630673e256f51ce69005",
+    "normalized_text_hash": "dfc71e6f0ac1b963f5f2381aa98ac02e477e7901e9e7ff10685baf9463ed147e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:00:36.848Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "summer-scrambled-eggs",
+  "name": "Summer Scrambled Eggs",
+  "subtitle": "Soft eggs with tomatoes, feta, and basil",
+  "description": "A quick savory breakfast combining creamy scrambled eggs with juicy tomatoes, salty feta, and fresh basil.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes",
+      "item": "cherry tomatoes",
+      "quantity": 9,
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "very-thinly-sliced-fresh-basil-leaves",
+      "item": "very thinly sliced fresh basil leaves",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil"
+    },
+    {
+      "ingredient_id": "sea-salt",
+      "item": "sea salt",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs with the red pepper flakes until blended."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the cherry tomatoes, feta cheese, and basil."
+    },
+    {
+      "step": 3,
+      "text": "Warm enough olive oil to coat a skillet over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Add the tomato mixture and warm briefly, then pour in the eggs."
+    },
+    {
+      "step": 5,
+      "text": "Stir gently until the eggs are fully set, with no runny center, and reach 160°F on a food thermometer."
+    },
+    {
+      "step": 6,
+      "text": "Season with the sea salt and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "quick-meal",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "milk"
+  ],
+  "equipment": [
+    "whisk",
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236372/chef-johns-summer-scrambled-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "65d0e53c4712cac78a2116c3440b4068e997341e2c855a074986fe7868b82251",
+    "normalized_text_hash": "808cc3ff2d73e79c67b0e14ef7d2c42dd2fcbf39c108bcbd57e79c2e1c1e655c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:44:23.487Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

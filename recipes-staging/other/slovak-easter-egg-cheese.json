@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slovak-easter-egg-cheese",
+  "name": "Slovak Easter Egg Cheese",
+  "subtitle": "A firm, gently seasoned egg-and-milk cheese for holiday meals",
+  "description": "Cooked eggs and milk form delicate curds that are drained, cooled, and chilled until sliceable.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 720
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs and salt until blended."
+    },
+    {
+      "step": 2,
+      "text": "Warm the milk in a saucepan over medium heat until steaming. Gradually whisk in the egg mixture, then cook, stirring constantly, until curds form and the mixture reaches 160°F.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Pour the curds and liquid into a cheesecloth-lined colander. Gather the cloth, secure it, and let the cheese drain for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Cool the drained cheese, then refrigerate it for 2 hours before chilling it overnight, or until firm.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "egg-cheese",
+    "eastern-european",
+    "holiday",
+    "make-ahead"
+  ],
+  "seasons": [
+    "spring"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "cheesecloth",
+    "colander",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/126840/slovak-easter-cheese-cirak/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "80f5cc0f7dbaa840c468a68c01c75d058f781f3e3303a80dbe197e66df1c0330",
+    "normalized_text_hash": "ee217cb20d2f90197e01ed93f26ff0032f1eae18616009fe76ea2fbdb12b4e28",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:48:46.351Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

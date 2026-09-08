@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blancmange",
+  "name": "Blancmange",
+  "subtitle": "A softly set lemon-scented milk dessert",
+  "description": "A smooth, gently thickened milk pudding set with gelatine and brightened with lemon zest. Serve chilled with fresh berries if desired.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-for-the-mould",
+      "item": "vegetable oil for the mould"
+    },
+    {
+      "ingredient_id": "sheets-gelatine",
+      "item": "sheets gelatine",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "cornflour",
+      "item": "cornflour",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "l-whole-milk",
+      "item": "l whole milk",
+      "quantity": 1.2
+    },
+    {
+      "ingredient_id": "lemons-zest-peeled",
+      "item": "lemons zest peeled",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mixed-fresh-berries-to-serve-optional",
+      "item": "mixed fresh berries to serve (optional)",
+      "quantity": 150,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly oil the mould. Soak the gelatine sheets in cold water until softened."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the cornflour with a little of the whole milk to make a smooth slurry."
+    },
+    {
+      "step": 3,
+      "text": "Heat the remaining milk with the lemon zest and caster sugar. Whisk in the slurry and cook, stirring, until thickened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Squeeze excess water from the gelatine, add it to the hot milk mixture, and stir until dissolved."
+    },
+    {
+      "step": 5,
+      "text": "Cool the mixture briefly, then pour it into the prepared mould. Chill until set.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Unmould and serve with the mixed fresh berries, if using."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pudding",
+    "set-dessert",
+    "lemon",
+    "berries",
+    "vegetarian-style"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mould",
+    "mixing bowl",
+    "whisk",
+    "saucepan"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blancmange",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ddd5157fd664e1e2a1c473351a2ab23c1aaecef4a46e363d05a0eb6cb304901f",
+    "normalized_text_hash": "9384772abf93671d3b8d41ffadb9aafafc86a417294182950a90f174ae610e35",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:39:09.068Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

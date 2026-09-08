@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-streusel-pie",
+  "name": "Apple Streusel Pie",
+  "subtitle": "Tender apple filling beneath a golden crumb topping",
+  "description": "Thinly sliced apples are layered into a buttery, cinnamon-scented pie with a crisp streusel finish.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled, cored, and thinly sliced"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 7,
+      "unit": "ounces",
+      "preparation": "at room temperature"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-sugar",
+      "item": "vanilla sugar",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 3.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toss the sliced apples with the cinnamon and set aside. Preheat the oven to 350°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Beat the room-temperature butter with the white sugar and vanilla sugar until smooth. Whisk in the egg."
+    },
+    {
+      "step": 3,
+      "text": "Combine the flour and baking powder, then mix them into the butter mixture to form a soft dough."
+    },
+    {
+      "step": 4,
+      "text": "Press about two-thirds of the dough into the bottom and sides of a pie pan. Add the apples and crumble the remaining dough over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake until lightly browned and the center is firm and fully set, about 50 minutes.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 6,
+      "text": "Cool for 5 minutes, then transfer or serve the pie.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "apple",
+    "pie",
+    "streusel",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "pie pan",
+    "mixing bowl",
+    "whisk",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267993/easy-german-apple-streusel-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4e4df2a62e33f055115857098f6e440dddcf0ad1f13134a3bf157701ace203a6",
+    "normalized_text_hash": "690384c25173ea7e2c723c1030eed49fe6b58d51748dfabd2d88a409df6d1f89",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:32:33.742Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

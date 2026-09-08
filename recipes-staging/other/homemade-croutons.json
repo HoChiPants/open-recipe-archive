@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "homemade-croutons",
+  "name": "Homemade Croutons",
+  "subtitle": "Crisp, buttery bread cubes with garlic seasoning",
+  "description": "Bake stale bread with melted butter and garlic salt until crisp for a simple salad or soup topping.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-stale-bread",
+      "item": "slices stale bread",
+      "quantity": 15
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the stale bread into cubes."
+    },
+    {
+      "step": 3,
+      "text": "Toss the bread with the melted butter and garlic salt until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the seasoned bread to a baking sheet and spread it in an even layer."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, or until crisp and lightly browned.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Cool before serving or storing."
+    }
+  ],
+  "tags": [
+    "croutons",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6887/croutons/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "edca8b4f77989fa3642e42674f17e5c139abe6b8993119a857fd074d6f25b660",
+    "normalized_text_hash": "4d5c3f8379cc8d419fd10cbc108296f49009526da3d6a712bd79dcc7aeede7bb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:38:46.375Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

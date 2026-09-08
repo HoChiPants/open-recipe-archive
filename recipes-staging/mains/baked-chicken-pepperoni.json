@@ -1,0 +1,132 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-chicken-pepperoni",
+  "name": "Baked Chicken Pepperoni",
+  "subtitle": "Chicken breasts baked with herbed tomato sauce, mozzarella, and turkey pepperoni.",
+  "description": "A simple oven-baked chicken dinner layered with seasoned spaghetti sauce, melted mozzarella, and turkey pepperoni.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "oregano",
+      "item": "oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 4,
+      "preparation": "skinless chicken breasts"
+    },
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "14-ounce-jar-spaghetti-sauce",
+      "item": "(14 ounce) jar spaghetti sauce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded, or to taste"
+    },
+    {
+      "ingredient_id": "slices-turkey-pepperoni",
+      "item": "slices turkey pepperoni",
+      "quantity": 24
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Combine the oregano and dried basil."
+    },
+    {
+      "step": 2,
+      "text": "Lightly coat a skillet with cooking spray over medium heat. Add the garlic and stir for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Add the spaghetti sauce and cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Spread some sauce in a baking dish, arrange the chicken breasts over it, and coat them with the remaining sauce."
+    },
+    {
+      "step": 5,
+      "text": "Top with the mozzarella and turkey pepperoni."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the cheese is melted and the chicken reaches 165°F in the thickest part, extending the baking time if needed.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "casserole-style"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/247084/baked-chicken-pepperoni/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a02ba2f6b1de2db65aa77d34bd32171e5bc9b22c6644b33c2e3f22535ad03b5d",
+    "normalized_text_hash": "dbdd4aaa2b9ccdc1065a19ae781631de2bd51c50e26027efbfac854336541013",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:45:44.667Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

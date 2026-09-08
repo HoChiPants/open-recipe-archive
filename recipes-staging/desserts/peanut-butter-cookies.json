@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-cookies",
+  "name": "Peanut Butter Cookies",
+  "subtitle": "Tender, chewy cookies with a rich peanut butter flavor",
+  "description": "A simple flourless cookie made by combining peanut butter, sugar, eggs, and vanilla, then baking until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Prepare baking sheets for the cookies."
+    },
+    {
+      "step": 2,
+      "text": "Stir the peanut butter and white sugar together until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, baking soda, salt, and vanilla extract together, then incorporate them into the peanut butter mixture."
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into small portions and arrange them on the prepared baking sheets, leaving space between each cookie."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 10 minutes, until the cookies are set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Let the cookies cool on the baking sheets for 5 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs",
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheets",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16754/best-peanut-butter-cookies-ever/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7fb97e594ab3dafbe5b004f4200e0c41c9d16f47d3d1afa220799ee80fc59e54",
+    "normalized_text_hash": "ff4fe1e241906808674cb4e68499d09a2d8c5edd9bae0ba786f7a9dadd5514ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:37:12.480Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

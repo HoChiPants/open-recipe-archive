@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "almond-flour-pancakes",
+  "name": "Almond Flour Pancakes",
+  "subtitle": "Tender pancakes with almond flour and blueberries",
+  "description": "A simple breakfast batter made with almond flour, almond milk, eggs, and maple syrup, cooked in a skillet and served with blueberries.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "almond-milk",
+      "item": "almond milk",
+      "quantity": 60,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "almond-flour",
+      "item": "almond flour",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "blueberries-to-serve",
+      "item": "blueberries to serve"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs, almond milk, maple syrup, almond flour, baking powder, and vanilla extract into a smooth batter."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a skillet over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Add portions of batter to the skillet and cook until the surfaces are set.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Turn the pancakes and cook until lightly browned and cooked through.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Prepare the remaining pancakes in the same way."
+    },
+    {
+      "step": 6,
+      "text": "Serve with blueberries."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "almond-flour",
+    "flour-free-pancakes",
+    "pancakes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "skillet"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/almond-flour-pancakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "caa60a13b1ef3d90c134e0588b6487bd7e2833fb3462c1628441f9b30d60bcc3",
+    "normalized_text_hash": "20c7ee9b808a079ec50ae04b7f1e95d9af1f5cfc2604146ee8e851380ab12651",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:34:47.156Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

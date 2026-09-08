@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kiwi-banana-apple-smoothie",
+  "name": "Kiwi Banana Apple Smoothie",
+  "subtitle": "A cool, fruit-forward smoothie with chia and maca",
+  "description": "Blend fresh fruit with milk, ice, chia seeds, and maca powder for a smooth breakfast drink.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "preparation": "roughly chopped"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "banana",
+      "quantity": 1,
+      "preparation": "broken into chunks"
+    },
+    {
+      "ingredient_id": "kiwifruit",
+      "item": "kiwifruit",
+      "quantity": 2,
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as desired"
+    },
+    {
+      "ingredient_id": "chia-seeds",
+      "item": "chia seeds",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "maca-powder",
+      "item": "maca powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the apple, banana, kiwifruit, milk, chia seeds, and maca powder in a blender. Add the ice to your preferred level of chill."
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth, then divide between two glasses and serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "smoothie",
+    "drink"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241259/kiwi-banana-apple-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "60e1ba34d7b66615b4c80016974bf5ccaac07b495d8f470ae189b3e1034dbd66",
+    "normalized_text_hash": "20d64d7321cd5b9d6931e13afe0cd5379070d55ebe89f7888c31105fd6993a96",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:43:02.482Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

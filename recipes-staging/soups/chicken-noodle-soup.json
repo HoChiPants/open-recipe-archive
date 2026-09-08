@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-noodle-soup",
+  "name": "Chicken Noodle Soup",
+  "subtitle": "A quick, warming broth with noodles and vegetables",
+  "description": "Simmer chicken with aromatics, then finish the broth with noodles, corn, mushrooms, and spring onions. Serve with fresh herbs and extra soy sauce.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-or-vegetable-stock-or-miso-soup-mix",
+      "item": "chicken or vegetable stock (or Miso soup mix)",
+      "quantity": 900,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 1,
+      "preparation": "skinless chicken breast (about 175g)"
+    },
+    {
+      "ingredient_id": "fresh-ginger",
+      "item": "fresh ginger",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic-clove-finely-chopped",
+      "item": "garlic clove finely chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "rice-or-wheat-noodles",
+      "item": "rice or wheat noodles",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "sweetcorn-canned-or-frozen",
+      "item": "sweetcorn canned or frozen",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mushrooms-thinly-sliced",
+      "item": "mushrooms thinly sliced",
+      "quantity": "2-3"
+    },
+    {
+      "ingredient_id": "spring-onions-shredded",
+      "item": "spring onions shredded",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "soy-sauce-plus-extra-for-serving",
+      "item": "soy sauce plus extra for serving",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "mint-or-basil-leaves-and-a-little-shredded-chilli-optional",
+      "item": "mint or basil leaves and a little shredded chilli (optional)",
+      "preparation": "to serve",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the stock, ginger, and garlic in a saucepan. Add the chicken breast and bring to a gentle simmer."
+    },
+    {
+      "step": 2,
+      "text": "Cook until the chicken is tender and reaches 165°F in the thickest part.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Remove the chicken, shred it, and return it to the saucepan."
+    },
+    {
+      "step": 4,
+      "text": "Add the noodles, sweetcorn, mushrooms, spring onions, and soy sauce."
+    },
+    {
+      "step": 5,
+      "text": "Simmer until the noodles are tender.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 6,
+      "text": "Ladle into bowls and top with the remaining spring onions, mint or basil, and optional chilli. Serve with extra soy sauce."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "snack",
+    "soup",
+    "supper",
+    "broth",
+    "chicken",
+    "noodles",
+    "garlic",
+    "ginger",
+    "soy-sauce",
+    "spring-onion",
+    "sweetcorn",
+    "mushrooms",
+    "herbs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-noodle-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7200b3c6deb0a9480c76cbc1174275549204ac408d70661aea0d98db2b386e22",
+    "normalized_text_hash": "29b85ade910646b7f5ad7be92ac409e0bf765aae92192c8ad869e0a454d99b3c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T20:50:52.612Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

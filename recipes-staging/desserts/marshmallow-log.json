@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "marshmallow-log",
+  "name": "Marshmallow Log",
+  "subtitle": "A chilled coconut-coated marshmallow dessert with cherries and walnuts",
+  "description": "A no-bake dessert log combining colored marshmallows, graham crackers, cherries, walnuts, and sweetened condensed milk, finished with coconut.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "miniature-colored-marshmallows",
+      "item": "miniature colored marshmallows",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "graham-crackers",
+      "item": "graham crackers",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "candied-cherries",
+      "item": "candied cherries",
+      "quantity": 10,
+      "preparation": "quartered"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread the flaked coconut over a clean work surface or sheet of parchment."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the miniature colored marshmallows, crushed graham crackers, sweetened condensed milk, chopped walnuts, and quartered candied cherries until combined."
+    },
+    {
+      "step": 3,
+      "text": "Shape the mixture into a log."
+    },
+    {
+      "step": 4,
+      "text": "Roll the log in the flaked coconut until coated."
+    },
+    {
+      "step": 5,
+      "text": "Chill until firm, about 30 minutes, then slice and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "no-bake",
+    "coconut",
+    "marshmallow"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22995/marshmallow-log/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8ffd1c9c7d19a352ab5d6f45f3ba0d84f801cb27fb13ca8d016a8ba3394903bd",
+    "normalized_text_hash": "5df70603cd7e7d06b0bcc2ba07f76605ac8a7482be72e5d111df68eecc109444",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:24:57.300Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-pear-fruit-leather",
+  "name": "Apple-Pear Fruit Leather",
+  "subtitle": "A smooth, tangy fruit snack dried until pliable",
+  "description": "Blend apples and pears with sugar and lemon, then bake the puree low and slow until flexible enough to roll and cut.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 300
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cored and chopped apple"
+    },
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cored and chopped pears"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 150°F. Line a rimmed baking sheet with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar, lemon juice, peeled apples, and peeled pears. Puree until completely smooth."
+    },
+    {
+      "step": 3,
+      "text": "Spread the puree in an even layer on the prepared baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 5 to 6 hours, until the surface is dry and the fruit sheet is flexible.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 5,
+      "text": "Cool, then cut into strips or pieces and shape as desired."
+    }
+  ],
+  "tags": [
+    "fruit-snack",
+    "dried-fruit",
+    "apple",
+    "pear",
+    "homemade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender or food processor",
+    "rimmed baking sheet",
+    "parchment paper",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62151/fruit-leather/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03ab301ab303bc3ae962a41b09251b000c2cc3d2ee5c82d33ca3e9d93a56d9a5",
+    "normalized_text_hash": "b8acf4529d991856a58b0a9940f5d260191906db84ae8bfea4adaea6fe58f982",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:30:12.135Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

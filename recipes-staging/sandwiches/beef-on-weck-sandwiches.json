@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-on-weck-sandwiches",
+  "name": "Beef on Weck Sandwiches",
+  "subtitle": "Roast beef, savory jus, and hot horseradish on kummelweck rolls",
+  "description": "Thinly slice roast beef and layer it with a rich balsamic jus and sharp horseradish on split kummelweck rolls.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-top-sirloin-roast",
+      "item": "beef top-sirloin roast",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "cold-beef-broth",
+      "item": "cold beef broth",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "aged-balsamic-vinegar",
+      "item": "aged balsamic vinegar",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "kummelweck-dinner-rolls",
+      "item": "kummelweck dinner rolls",
+      "quantity": 4,
+      "preparation": "split"
+    },
+    {
+      "ingredient_id": "extra-hot-prepared-horseradish",
+      "item": "extra-hot prepared horseradish",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and season the beef top-sirloin roast generously with salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil in an ovenproof skillet, add the roast, and sear it briefly on all sides. Add the cold beef broth and roast for 5 minutes, then continue cooking until the center reaches 145°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Transfer the roast to a board and let it rest for at least 3 minutes before slicing thinly.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Return the skillet to the stovetop. Stir in the all-purpose flour and cook for 1 minute, then gradually incorporate the remaining broth and any beef juices.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 5,
+      "text": "Stir in the aged balsamic vinegar and cook the jus for 5 minutes. Season with salt and pepper to taste.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Spread the extra-hot prepared horseradish over the split kummelweck dinner rolls. Fill each roll with thick layers of sliced beef and serve with the jus."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "sandwich",
+    "american",
+    "beef"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "ovenproof skillet",
+    "oven",
+    "instant-read thermometer",
+    "cutting board"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240135/chef-johns-beef-on-weck-sandwiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cf09e827c949369af4f21265d3cb8e55e38c121a456e79521848b33b71ea6bf4",
+    "normalized_text_hash": "a9ee6d1b0095296eb6754eb0f8054afda214b9215c7f124ca560d48ddedc7cae",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:19:40.177Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

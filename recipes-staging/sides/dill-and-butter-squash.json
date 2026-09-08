@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dill-and-butter-squash",
+  "name": "Dill and Butter Squash",
+  "subtitle": "Tender summer squash with lemon and dill",
+  "description": "Zucchini and yellow squash are sautéed in butter with dill, seasoning, and lemon juice for a simple vegetable side.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "yellow-squash",
+      "item": "yellow squash",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the zucchini and yellow squash. Season with salt, pepper, and dill weed, then sauté until the squash is tender, stirring occasionally.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice and serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "vegetables",
+    "saute-ed",
+    "summer-squash",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18279/dill-and-butter-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "851b84cc58f9fb15870bab00e77ae86a10c30c18d13b2aac0ded14e887738f47",
+    "normalized_text_hash": "104058bc86bcd5752a98554e5f24a242c28156a7a1898775dbc9ae155c8073a9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:07:32.947Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

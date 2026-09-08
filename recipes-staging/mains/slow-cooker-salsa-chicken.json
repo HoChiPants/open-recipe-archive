@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-salsa-chicken",
+  "name": "Slow Cooker Salsa Chicken",
+  "subtitle": "Tender shredded chicken with a spiced salsa sauce",
+  "description": "Chicken breasts simmer slowly with salsa, green chiles, and warm spices for an easy main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breasts",
+      "item": "chicken breasts",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "15-5-ounce-jar-salsa",
+      "item": "(15.5 ounce) jar salsa",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "green-chile-peppers",
+      "item": "green chile peppers",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "4 ounce, chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the chicken breasts in the slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Stir the chili powder, garlic powder, ground cumin, and onion powder into the salsa and chopped green chile peppers. Pour the mixture over the chicken."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the chicken is tender, about 6 hours, and reaches 165°F in the thickest part.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 4,
+      "text": "Shred the chicken in the cooking juices and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "slow-cooker",
+    "chicken",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/272331/easy-slow-cooker-salsa-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5861fa29a35ad1fe4a4e9061068f6c2b21e4ea09f4822e81c70fe8c885b2ad9f",
+    "normalized_text_hash": "dd4c82536c337eb4e4a58d7ef5eee5a95cb3636ddab4eace20105a6350dc6cab",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:46:47.754Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

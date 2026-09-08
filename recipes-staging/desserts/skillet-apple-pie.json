@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "skillet-apple-pie",
+  "name": "Skillet Apple Pie",
+  "subtitle": "Caramelized apples beneath a crisp pastry crust",
+  "description": "A classic apple pie assembled in a skillet with buttery brown sugar, cinnamon apples, and two pastry crusts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 55
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "refrigerated-9-inch-pie-crusts",
+      "item": "refrigerated 9-inch pie crusts",
+      "quantity": 2,
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "granny-smith-apples",
+      "item": "Granny Smith apples",
+      "quantity": 5,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Melt the butter in an oven-safe skillet over medium heat, then stir in 1/2 cup brown sugar until smooth, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Mix the apples with the white sugar, cinnamon, flour, and remaining brown sugar."
+    },
+    {
+      "step": 3,
+      "text": "Place one crust in the skillet over the butter mixture. Add the apples, cover with the second crust, and cut several vents in the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the crust is lightly browned and the filling is bubbling, about 45 minutes. Cool briefly before serving.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "apple",
+    "skillet",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven-safe skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241839/iron-skillet-apple-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dd5c852f3057a33e865e2d2274da46d606a806650097637b86d139efa63085ba",
+    "normalized_text_hash": "eb6d375a3920ab7636ae62438803f64a9d91009b19052b1712ca56244273f0da",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:15:13.415Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemonade",
+  "name": "Lemonade",
+  "subtitle": "Fresh lemon drink for five",
+  "description": "A simple, bright lemonade made by dissolving sugar in water, then adding fresh lemon juice and chilling.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 4,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water and white sugar in a pitcher."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice."
+    },
+    {
+      "step": 4,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "lemon",
+    "refreshing"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pitcher",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32355/lemonade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9fcd4a92ca92d13e9f0182d290442b6a956ef3514ed6b4373ed1131f9606e89b",
+    "normalized_text_hash": "1f8b6acdb1cc9d991d4f23d3d274c4e2d48c8f6f8e6c628518b82268345f78bd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:59:06.967Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

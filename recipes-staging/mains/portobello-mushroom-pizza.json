@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "portobello-mushroom-pizza",
+  "name": "Portobello Mushroom Pizza",
+  "subtitle": "A single-serving mushroom cap with savory toppings and melted cheese.",
+  "description": "Bake a stuffed portobello mushroom until the cheese melts and the sausage reaches a safe temperature.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "portobello-mushroom",
+      "item": "portobello mushroom",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "stem removed"
+    },
+    {
+      "ingredient_id": "spaghetti-sauce",
+      "item": "spaghetti sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "black-olives",
+      "item": "black olives",
+      "quantity": 0.5,
+      "unit": "tablespoon",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "slices-pepperoni-sausage",
+      "item": "slices pepperoni sausage",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Place the stemmed mushroom cap on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Spoon the spaghetti sauce into the mushroom. Top with the mozzarella, olives, pepperoni sausage, and garlic."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 20 minutes, until the cheese is melted and the sausage reaches 160°F when checked with a food thermometer.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "mushroom",
+    "pizza"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55498/personal-portobello-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "920c7f7c3e183b24988dd04839748eff3d2923e323347ab4d0a0f8904af25731",
+    "normalized_text_hash": "09cbc6bb0b91b6aa917ac942058e717c97e63f3197335475cf8a63d504b27fee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:11:47.638Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

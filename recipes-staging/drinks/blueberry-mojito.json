@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-mojito",
+  "name": "Blueberry Mojito",
+  "subtitle": "A bright, berry-filled rum drink with mint and bubbles",
+  "description": "Muddle blueberries, chopped lemons, and sugar, then add mint, rum, and sparkling water for a refreshing six-serving cocktail.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blueberries",
+      "item": "blueberries",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemons-chopped",
+      "item": "lemons chopped",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "granulated sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mint-sprigs-leaves-picked",
+      "item": "mint sprigs leaves picked",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "white-rum",
+      "item": "white rum",
+      "quantity": 350,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sparkling-water",
+      "item": "sparkling water",
+      "quantity": 600,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the blueberries, chopped lemons, and sugar in a large pitcher. Gently muddle until the berries release their juice."
+    },
+    {
+      "step": 2,
+      "text": "Add the picked mint leaves and white rum, stirring to combine."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the sparkling water and stir gently. Serve immediately."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "blueberry",
+    "mojito",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "large pitcher",
+    "muddler",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blueberry-mojito",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d3b8772072b10b4288be1b30e2e8b93c19f3911560c1ab9b028c85f4ea40457b",
+    "normalized_text_hash": "802754e2ce56a4df29a119c5c7edad7a54fe2ac3ff8623ab073627270b04f229",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:41:44.785Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

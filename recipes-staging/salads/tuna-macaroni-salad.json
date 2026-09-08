@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tuna-macaroni-salad",
+  "name": "Tuna Macaroni Salad",
+  "subtitle": "A creamy chilled pasta salad with tuna and crisp vegetables.",
+  "description": "Cooked macaroni is dressed, combined with tuna and vegetables, then chilled for a make-ahead salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 1500
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-macaroni",
+      "item": "uncooked macaroni",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "italian-style-salad-dressing",
+      "item": "Italian-style salad dressing",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tuna",
+      "item": "tuna",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce, drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the macaroni with the salt in boiling water until tender. Drain well.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Toss the hot macaroni with the Italian-style salad dressing and let it stand for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sour cream, mayonnaise, onion, celery, garlic powder, salt, pepper, and drained tuna. Confirm the tuna is opaque and flakes easily."
+    },
+    {
+      "step": 4,
+      "text": "Cover and refrigerate until thoroughly chilled, about 25 hours.",
+      "timer_minutes": 1500
+    }
+  ],
+  "tags": [
+    "lunch",
+    "salad",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "mixing bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11721/tuna-macaroni-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "136d520e49fc840927232d65c10b9f1ca28a495cb779ed8e1b58555ed2d2262e",
+    "normalized_text_hash": "a30b3c774b163ee2cd5f7804099475fc2905963d1e6799619e3ea934256a304a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:51:08.441Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "smoked-turkey-and-white-bean-soup",
+  "name": "Smoked Turkey and White Bean Soup",
+  "subtitle": "A hearty bean soup with vegetables, tomatoes, and Parmesan",
+  "description": "Soaked white beans simmer with smoked turkey, vegetables, tomatoes, and Italian seasoning until tender, then finish with Parmesan.",
+  "meal_type": "soup",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 240,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-white-beans",
+      "item": "dry white beans",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "smoked-turkey-legs",
+      "item": "smoked turkey legs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "petite-diced-tomatoes",
+      "item": "petite diced tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce, undrained"
+    },
+    {
+      "ingredient_id": "italian-seasoning",
+      "item": "Italian seasoning",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the dry white beans in a large pot, cover with water, and soak for 8 hours. Drain and rinse.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Return the beans to the pot with the smoked turkey legs, onion, and bay leaves. Add fresh water to cover, bring to a boil, then reduce to a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Simmer for 3 hours, checking that the turkey reaches 165°F in the thickest part. Remove the bay leaves and turkey legs; pull the meat from the bones and return the meat to the pot.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 4,
+      "text": "Stir in the celery, carrots, tomatoes with their liquid, Italian seasoning, salt, and pepper. Simmer until the vegetables are tender.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Ladle into bowls and top with the divided Parmesan cheese."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "italian-inspired",
+    "bean-soup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216095/tuscan-smoked-turkey-bean-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "093ede7f600bdda3dbc3025a62967b40fb85d300ac9139f1b4de31e364f67bec",
+    "normalized_text_hash": "c460eb8a63800b66d2ecf401391af6d85b91910659165dfa969de1f5c6a46842",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:32:51.778Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

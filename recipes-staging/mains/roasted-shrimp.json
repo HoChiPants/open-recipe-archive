@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-shrimp",
+  "name": "Roasted Shrimp",
+  "subtitle": "Garlic-seasoned shrimp roasted with butter",
+  "description": "Shrimp are coated with olive oil and herbs, then roasted with cubed butter until opaque.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-shrimp",
+      "item": "fresh shrimp",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "peeled and deveined"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "cubed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the shrimp in a baking dish and coat them with the olive oil."
+    },
+    {
+      "step": 3,
+      "text": "Combine the garlic salt, dried parsley, and black pepper, then sprinkle the mixture over the shrimp."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the cubed butter over the shrimp and roast until the shrimp are opaque, about 10 minutes.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "shrimp",
+    "roasted"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263419/roasted-shrimp/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "571274c085aca5ddc245e21ec915dc703d1a2fc4ef359d8d7fcc7fdd0fe4806a",
+    "normalized_text_hash": "2a57e4245649d13e4263711aaef44e379a4c3f24f5ebbf49409cb784d1e60d11",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:17:33.865Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

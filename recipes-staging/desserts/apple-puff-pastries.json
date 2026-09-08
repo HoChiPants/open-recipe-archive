@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-puff-pastries",
+  "name": "Apple Puff Pastries",
+  "subtitle": "Flaky pastry parcels with warm cinnamon apples",
+  "description": "Tender apples sweetened with honey and brown sugar are wrapped in puff pastry and baked until golden.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sheet-puff-pastry",
+      "item": "sheet puff pastry",
+      "quantity": 1,
+      "preparation": "cut into 8 squares"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the apples, honey, brown sugar, and cinnamon in a saucepan. Simmer until the apples are tender.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Divide the apple filling among the puff pastry squares. Fold the pastry over the filling and seal the edges, then arrange on a baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the pastries are golden brown.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "apple",
+    "puff-pastry",
+    "baked-dessert",
+    "fruit-dessert"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/261658/aishas-apple-puff-pastries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d4782968c74858f86c8bb84ace7e70d968875e0dfe02d1a2e92f6bb783b50e6",
+    "normalized_text_hash": "31f81bef014ca55ec80f9257711ada0bd0078c27e65c821138247c5cbdbb4fb5",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:36:18.235Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

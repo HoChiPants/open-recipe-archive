@@ -1,0 +1,147 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-frittata",
+  "name": "Mexican Frittata",
+  "subtitle": "A tender baked egg dish with peppers, onion, and salsa",
+  "description": "Sautéed vegetables fold into a seasoned egg mixture, then bake until fully set and serve with salsa.",
+  "meal_type": "breakfast",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "cut into thin strips"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "salsa",
+      "item": "salsa",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat an oven-safe skillet or baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a skillet. Add the bell pepper, onion, and black pepper; cook for 5 minutes, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the milk, egg whites, eggs, salt, remaining black pepper, and cumin until combined. Stir in the cooked vegetables."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to the prepared skillet or baking dish and bake for 30 minutes, until the center is firm and fully set and reaches 160°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cut into portions and serve with the salsa."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "vegetarian",
+    "baked",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven-safe skillet or baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275451/mexican-frittata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "79ade0464990521f36f39a652a6f437cb2cc5add6b497d7529bb5384c8068d81",
+    "normalized_text_hash": "3ac9947d17c056ae25296b8f65036a1bd8053b4672c05f95413b0da6ad3425ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:35:38.977Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

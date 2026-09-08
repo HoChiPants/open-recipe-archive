@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-mug-cake",
+  "name": "Banana Mug Cake",
+  "subtitle": "A warm, single-serving banana cake",
+  "description": "Mash, mix, and microwave this quick banana cake in one mug.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 1
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana-peeled",
+      "item": "banana peeled",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg-beaten",
+      "item": "egg beaten",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vegetable-or-sunflower-oil",
+      "item": "vegetable or sunflower oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "maple-syrup-plus-extra-for-drizzling-optional",
+      "item": "maple syrup plus extra for drizzling (optional)",
+      "quantity": 3,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 4,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "pecans-or-chocolate-chips-optional",
+      "item": "pecans or chocolate chips (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "chopped",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a microwave-safe mug, cut and mash the peeled banana until mostly smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the beaten egg, oil, vanilla extract, and maple syrup. Mix in the flour and baking powder, then fold in the pecans or chocolate chips if using."
+    },
+    {
+      "step": 3,
+      "text": "Microwave on high for 1 minute, or until the center is firm and fully set and the cake reaches 160°F on a food thermometer. Microwave briefly longer if needed.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Drizzle with extra maple syrup if desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "banana",
+    "microwave",
+    "mug-cake",
+    "quick-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave-safe mug",
+    "microwave",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banana-mug-cake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dcf3011126a80196a738f3c216fbb8b1422c37f5069240abd156024d9663ead1",
+    "normalized_text_hash": "476ee303815acef7833749c8cc03d0e92e58543661cd5ef7a9b449d08e8a99dc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:08:45.119Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

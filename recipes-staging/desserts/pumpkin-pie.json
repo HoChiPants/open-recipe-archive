@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-pie",
+  "name": "Pumpkin Pie",
+  "subtitle": "Roasted pumpkin filling in a deep-dish crust",
+  "description": "Roast fresh pumpkins, blend them with a spiced cream-and-egg mixture, and bake the filling in two deep-dish crusts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 85,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar-pumpkins",
+      "item": "sugar pumpkins",
+      "quantity": 2,
+      "preparation": "halved and seeded"
+    },
+    {
+      "ingredient_id": "demerara-sugar",
+      "item": "demerara sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pumpkin-pie-spice",
+      "item": "pumpkin pie spice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-deep-dish-pie-crusts",
+      "item": "(9 inch) unbaked deep dish pie crusts",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Arrange the halved, seeded pumpkins cut-side down on a baking sheet and roast until tender, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 2,
+      "text": "Cool the pumpkins until set enough to handle, then scoop out the flesh.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Raise the oven temperature to 425°F. Combine the pumpkin flesh, demerara sugar, heavy whipping cream, sour cream, beaten eggs, flour, pumpkin pie spice, and salt; whisk until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Divide the filling between the two unbaked deep-dish pie crusts and bake for about 45 minutes, until the centers are fully set and register 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pumpkin",
+    "pie",
+    "american"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229594/fresh-sugar-pumpkin-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5d18f8f57d4c9f6e52b5de61767a728504db11aded3fefbd410f026e58984d90",
+    "normalized_text_hash": "da2d8d84668b71cf7bee34a515776ff3719cef4d4631ce5576dafe8574204f43",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:55:52.630Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

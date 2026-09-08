@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-ambrosia-salad",
+  "name": "Coconut Ambrosia Salad",
+  "subtitle": "A chilled mix of fruit, coconut, marshmallows, and cream",
+  "description": "Combine drained fruit with creamy topping, coconut, marshmallows, and milk, then chill and finish with cherries.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mandarin-oranges",
+      "item": "mandarin oranges",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "11 ounce, drained"
+    },
+    {
+      "ingredient_id": "pineapple",
+      "item": "pineapple",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, crushed, drained"
+    },
+    {
+      "ingredient_id": "frozen-whipped-topping",
+      "item": "frozen whipped topping",
+      "quantity": 3.5,
+      "unit": "cups",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "coconut",
+      "item": "coconut",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "miniature-marshmallows",
+      "item": "miniature marshmallows",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maraschino-cherries",
+      "item": "maraschino cherries",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "In a large bowl, gently combine the drained mandarin oranges, crushed pineapple, whipped topping, shredded coconut, marshmallows, and milk."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for at least 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the maraschino cherries before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "chilled",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "rubber spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14464/coconut-ambrosia-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fa8dfa0b528c60683a6a86c1867d7bb60a26b7317d6e971fc9c8b39f5c6ab62b",
+    "normalized_text_hash": "8e17431783238702e9f20163072605f1a07f6ad704a8847923f6e984ea73e71d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:57:42.709Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

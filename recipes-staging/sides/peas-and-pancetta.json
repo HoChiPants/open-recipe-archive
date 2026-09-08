@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peas-and-pancetta",
+  "name": "Peas and Pancetta",
+  "subtitle": "A savory Italian-inspired pea side",
+  "description": "Tender peas are cooked with crisp pancetta, onion, white wine, and fresh thyme for a quick, flavorful side dish.",
+  "meal_type": "side",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pancetta",
+      "item": "pancetta",
+      "quantity": 2,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "dry-white-wine",
+      "item": "dry white wine",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-thyme-leaves",
+      "item": "fresh thyme leaves",
+      "quantity": 1.5,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the pancetta and onion; stir until the pancetta is cooked and the onion softens, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in the peas, wine, thyme, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the peas are tender and the liquid is slightly reduced, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "peas",
+    "pancetta",
+    "italian-inspired",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233413/peas-and-pancetta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e9502840c99e7cb84ec690fb4312064859488f96479162d2f7b49e04bdedb8c5",
+    "normalized_text_hash": "1a625ad9ef21411481bfa5a0c56f648448dadecb6aa4893eb50f7b2da98d92a7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:03:32.728Z",
+    "semantic_similarity": 13,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

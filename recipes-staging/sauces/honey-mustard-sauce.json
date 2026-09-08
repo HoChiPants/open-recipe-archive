@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-mustard-sauce",
+  "name": "Honey Mustard Sauce",
+  "subtitle": "A creamy, sweet-tangy dipping sauce",
+  "description": "Blend mayonnaise, Dijon-style mustard, and honey, then chill until cold and lightly thickened.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "prepared-dijon-style-mustard",
+      "item": "prepared Dijon-style mustard",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mayonnaise, prepared Dijon-style mustard, and honey in a bowl. Whisk until smooth and evenly blended."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 120 minutes before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "sauce",
+    "condiment",
+    "dipping-sauce",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23597/honey-mustard-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c6bf49c88d73fde8472f59aa13d6283894386293729f95e5fccd6e99a6b2d297",
+    "normalized_text_hash": "8f2ba28abbee76a36d1ebd89a52f88e2e2eb91c7f53099bbe5401fa49ab69cc2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:48:23.622Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

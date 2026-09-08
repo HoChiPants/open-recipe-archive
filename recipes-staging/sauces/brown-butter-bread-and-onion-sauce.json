@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-butter-bread-and-onion-sauce",
+  "name": "Brown Butter Bread and Onion Sauce",
+  "subtitle": "A smooth, savory sauce for using stale bread",
+  "description": "Browned butter, softened onion, seasoned milk, and bread combine into a thick, velvety sauce.",
+  "meal_type": "sauce",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "onion-finely-chopped",
+      "item": "onion finely chopped",
+      "quantity": "1/2",
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "bay-leaf",
+      "item": "bay leaf (optional)",
+      "quantity": 1,
+      "optional": true
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "of-ground-nutmeg",
+      "item": "of ground nutmeg",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "of-ground-cloves",
+      "item": "of ground cloves",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "stale-bread-cut-into-chunks",
+      "item": "stale bread cut into chunks"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a saucepan over medium heat and cook until lightly browned and nutty."
+    },
+    {
+      "step": 2,
+      "text": "Add the onion and optional bay leaf. Cook for 15 minutes, stirring occasionally, until the onion is soft.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Pour in the milk and add the nutmeg and cloves. Heat gently for 5 minutes, then remove the bay leaf.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the bread chunks and blend or process until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Return the sauce to the saucepan and simmer for 2 minutes, stirring, until thickened.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "sauce",
+    "bread-sauce",
+    "onion",
+    "brown-butter",
+    "stale-bread"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "immersion blender or food processor"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/brown-butter-bread-onion-sauce",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6abffa75036cee67a42a8ca2d5778e7ada889ff9b278135bfdb2f0f85e3ec52a",
+    "normalized_text_hash": "5c1c301b85437166ee8fd11eb662325777e5dfcfba886e0c6f7be27672beae1a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T12:56:33.845Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

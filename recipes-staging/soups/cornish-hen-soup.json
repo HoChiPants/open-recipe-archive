@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cornish-hen-soup",
+  "name": "Cornish Hen Soup",
+  "subtitle": "A hearty vegetable soup with tender Cornish hen",
+  "description": "Cornish hen simmers with celery, carrots, onion, garlic, potatoes, and chicken broth for a simple, hearty soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rock-cornish-hens",
+      "item": "Rock Cornish hens",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "48 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil in a large pot over medium heat. Add the celery, carrots, onion, garlic, and potatoes; cook, stirring occasionally, until the onion is tender."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken broth and the Cornish hen. Bring to a gentle boil, then reduce the heat and simmer until the vegetables are tender and the thickest part of the hen reaches 165°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Transfer the hen to a plate, remove the meat from the bones, and return the meat to the soup. Serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "poultry",
+    "one-pot"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12930/cornish-hen-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e96af05bc31d3da468da428d4fa2cfde37814790b3aefd3e18e36ec21a237fb1",
+    "normalized_text_hash": "732828ef4c4865417d9c5cb2a17e60929f5fdfc831028e880d9e393041da17da",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:11:08.648Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

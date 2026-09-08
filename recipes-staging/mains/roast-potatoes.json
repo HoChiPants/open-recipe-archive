@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roast-potatoes",
+  "name": "Roast Potatoes",
+  "subtitle": "Crisp-edged potatoes with a fluffy center",
+  "description": "Par-cooked potatoes are shaped and roasted in hot oil until deeply golden and crisp.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "maris-piper-potatoes-peeled-and-cut-into-chunks",
+      "item": "Maris Piper potatoes peeled and cut into chunks",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-the-roasting-tin",
+      "item": "vegetable oil for the roasting tin"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Simmer the potatoes for 10 minutes, until tender. Drain and let them cool briefly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the cooled potatoes to a bowl and toss or turn them until their surfaces are thick and roughened; shape them as needed for roasting."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven and place the roasting tin inside with the vegetable oil to heat."
+    },
+    {
+      "step": 4,
+      "text": "Carefully add the potatoes to the hot oiled tin and roast for 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Turn the potatoes and roast for a further 20 minutes, until crisp and golden.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "potatoes",
+    "roast-potatoes",
+    "comfort-food",
+    "sunday-roast"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "roasting tin",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/roast-potatoes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "25a183e0a0c295c7d5eb1d2d1e7e2d51d0ca0be878fe7fbb736699dffb057fd1",
+    "normalized_text_hash": "eb1ed0841a4c06afbd08d3f3cc50bc83588686666bb9c303809c96a1dd422dfd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:31:28.929Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

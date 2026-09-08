@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rosemary-simple-syrup",
+  "name": "Rosemary Simple Syrup",
+  "subtitle": "Herbal sweetener for drinks and desserts",
+  "description": "A lightly fragrant syrup made by steeping fresh rosemary in equal parts sugar and water.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rosemary-leaves",
+      "item": "rosemary leaves",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, white sugar, and rosemary leaves in a saucepan. Heat, stirring, until the sugar dissolves and the mixture reaches a gentle simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer for 1 minute, then remove from the heat. Cover and let the syrup steep for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Strain out and discard the rosemary leaves. Cool the syrup before using."
+    }
+  ],
+  "tags": [
+    "drink",
+    "syrup",
+    "rosemary",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "strainer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/247475/rosemary-simple-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b105f78bb879c4ff648763291264f84e459c1372718c40571282b522cf652c99",
+    "normalized_text_hash": "df596dc7dbbb863117c30ddb03b6ffb9630a5cdd8420262991a5a4df9fd0699b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:30:50.716Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

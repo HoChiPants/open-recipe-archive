@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blue-lagoon",
+  "name": "Blue Lagoon",
+  "subtitle": "A bright, citrusy blue mixed drink",
+  "description": "Chill four servings over ice, then finish with citrus juices, cherry syrup, cherries, and soda water.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "few-handfuls-ice-cubes-and-some-crushed-ice",
+      "item": "few handfuls ice cubes and some crushed ice"
+    },
+    {
+      "ingredient_id": "blue-curac-ao",
+      "item": "blue curaçao",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "orange-juiced",
+      "item": "orange juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lime-juiced",
+      "item": "lime juiced",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "maraschino-cherries-and-1-tsp-of-the-syrup",
+      "item": "maraschino cherries and 1 tsp of the syrup",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "soda-water",
+      "item": "soda water",
+      "quantity": 200,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Divide the ice cubes and crushed ice among four glasses."
+    },
+    {
+      "step": 2,
+      "text": "Add the blue curaçao, vodka, lemon juice, orange juice, lime juice, cherries, and 1 tsp of the cherry syrup. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the soda water and stir gently. Serve immediately."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "blue-curac-ao",
+    "citrus",
+    "party"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "four glasses",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blue-lagoon",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "79d973b52c5962c1f092bd59abc9ee4ed712daa2267f00c4ea64ff65b3b56c09",
+    "normalized_text_hash": "98117734f3f2e2b82d23107443aa796cc923fa787caec2d9b5234bc5af0d0bb6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:40:39.223Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

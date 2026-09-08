@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-cranberry-tea",
+  "name": "Hot Cranberry Tea",
+  "subtitle": "A warm, spiced cranberry drink with citrus",
+  "description": "Cranberries, citrus juices, and warming spices make a bright, gently sweet drink for serving hot.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3.5,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "cranberries",
+      "item": "cranberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "oranges",
+      "item": "oranges",
+      "quantity": 2,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemons",
+      "quantity": 2,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 12,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "cinnamon-sticks",
+      "item": "cinnamon sticks",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the water and cranberries in a large pot. Bring the mixture to a boil, then cook for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Stir in the sugar, cloves, and cinnamon sticks."
+    },
+    {
+      "step": 3,
+      "text": "Add the orange juice and lemon juice, then simmer the tea for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Strain if desired and serve hot."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cranberry",
+    "citrus",
+    "spiced",
+    "hot-beverage"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "ladle",
+    "strainer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/42714/hot-cranberry-tea/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "991f39e8eb602b543f74c8ee21b7ed08282ea9fb6e1f22544ecbc5f0c2cbe09c",
+    "normalized_text_hash": "2d82c5b20bb4449c66077b4a802498f6da91420277da0d36d0c9af3e91e4b7cd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:51:57.607Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

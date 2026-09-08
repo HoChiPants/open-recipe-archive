@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pear-butter",
+  "name": "Pear Butter",
+  "subtitle": "Slow-cooked pears with orange and nutmeg",
+  "description": "A smooth, spiced pear spread made by softening pears, blending them, and cooking the puree until thick.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 105
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "medium-pears",
+      "item": "medium pears",
+      "quantity": 4,
+      "unit": "pounds",
+      "preparation": "quartered and cored"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "grated-orange-zest",
+      "item": "grated orange zest",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the quartered, cored pears in a large pot and add the cold water."
+    },
+    {
+      "step": 2,
+      "text": "Cook the pears until very soft, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Process the softened pears into a smooth puree."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the sugar, orange zest, nutmeg, and orange juice."
+    },
+    {
+      "step": 5,
+      "text": "Continue cooking the mixture until thick, stirring occasionally, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Cool before serving or transferring to storage containers."
+    }
+  ],
+  "tags": [
+    "pear",
+    "fruit-spread",
+    "american",
+    "spiced"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "food processor or blender",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75545/pear-butter/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e199dffde8624c028acc627a01d8c6389edb3e4e90424aac8f4bc6d05f00596a",
+    "normalized_text_hash": "772cdfec25ca7a4c4868de47d288a7492047ce900245f37c8a0baa15c50e9748",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:02:42.300Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

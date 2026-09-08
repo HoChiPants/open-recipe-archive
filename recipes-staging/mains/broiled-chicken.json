@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broiled-chicken",
+  "name": "Broiled Chicken",
+  "subtitle": "Salted chicken halves cooked over sliced onion",
+  "description": "A simple American main dish of seasoned chicken halves arranged over onion and broiled until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "3-pound-whole-chicken",
+      "item": "(3 pound) whole chicken",
+      "quantity": 1,
+      "preparation": "cut in half, backbone removed"
+    },
+    {
+      "ingredient_id": "salt-as-needed",
+      "item": "salt as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the broiler."
+    },
+    {
+      "step": 2,
+      "text": "Spread the sliced onion in a broiler-safe pan."
+    },
+    {
+      "step": 3,
+      "text": "Season both chicken halves with salt, then arrange them over the onion."
+    },
+    {
+      "step": 4,
+      "text": "Broil for 7 minutes, then continue cooking until the thickest part reaches 165°F on a food thermometer.",
+      "timer_minutes": 7
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "broiled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "broiler",
+    "broiler-safe pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238923/chef-johns-broiled-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "617c772b5b198ff8804f549c677bfc8b22aa46b9122480665198eedd72a6826b",
+    "normalized_text_hash": "ec9a6276b0c611a003e87e36afd845eedf3ef6b12e7a19fa84cf7ed10fc594dd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:22:18.733Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

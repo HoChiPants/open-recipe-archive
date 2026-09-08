@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-roasted-garlic",
+  "name": "Air Fryer Roasted Garlic",
+  "subtitle": "Tender, caramelized garlic cloves made in the air fryer.",
+  "description": "A whole head of garlic is seasoned, wrapped in foil, and cooked until soft enough to squeeze from the skins.",
+  "meal_type": "other",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "head-garlic",
+      "item": "head garlic",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "aluminum-foil",
+      "item": "aluminum foil"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 380°F."
+    },
+    {
+      "step": 2,
+      "text": "Slice off the top of the head garlic to expose the cloves. Set it on a piece of aluminum foil."
+    },
+    {
+      "step": 3,
+      "text": "Drizzle the exposed cloves with extra-virgin olive oil, then season with salt and ground black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Wrap the garlic tightly in the foil and place it in the air-fryer basket."
+    },
+    {
+      "step": 5,
+      "text": "Cook until the cloves are soft and lightly browned, about 20 minutes. Let cool slightly before opening the foil and squeezing out the garlic.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "garlic",
+    "air-fryer",
+    "roasted-vegetables",
+    "seasoning"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "air fryer",
+    "aluminum foil",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279505/air-fryer-roasted-garlic/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "87c197875fa15778c16ff5beb6936464e3a43c7f545b23b3c53b9d063fd6aa0e",
+    "normalized_text_hash": "2572f20f8cc9419440ff7a947f424f6202939112025d43a4d95b875e18e45543",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:32:51.389Z",
+    "semantic_similarity": 18,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

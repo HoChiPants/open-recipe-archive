@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kno-del",
+  "name": "Knödel",
+  "subtitle": "Tender bread dumplings with onion and parsley",
+  "description": "Toasted bread cubes are moistened with seasoned milk and egg, combined with sautéed onion and parsley, then shaped and cooked until set.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 70,
+    "inactive_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "1-pound-loaf-white-bread",
+      "item": "(1 pound) loaf white bread",
+      "quantity": 0.5,
+      "preparation": "toasted and cut into cubes"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a skillet over medium heat. Add the onion and parsley, and cook until the onion softens."
+    },
+    {
+      "step": 2,
+      "text": "Place the toasted bread cubes in a large bowl. Whisk together the milk, beaten eggs, salt, and pepper, then pour over the bread."
+    },
+    {
+      "step": 3,
+      "text": "Add the onion mixture and gently combine. Let stand until the bread absorbs the liquid.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Shape the mixture into dumplings and transfer them to a pot of gently simmering water."
+    },
+    {
+      "step": 5,
+      "text": "Cook until the dumplings are firm throughout and the center reaches 160°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Let the cooked dumplings cool briefly before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "dumplings"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "large bowl",
+    "pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13815/knodel/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6c4ad614f01a7ddea80fc5316c6526553430075a657f31604b4ec50474ddc502",
+    "normalized_text_hash": "34732b4a1476c2e016a748214ab693623cc75c509946a4658236b20d3988dd6b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:43:42.780Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

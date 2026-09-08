@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickled-eggs",
+  "name": "Pickled Eggs",
+  "subtitle": "Tangy make-ahead eggs with spiced vinegar",
+  "description": "Hard-cooked eggs steeped with onion and pickling spices in a sharp, salty vinegar brine.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 5,
+    "inactive_minutes": 4390
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "coarse-salt",
+      "item": "coarse salt",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pickling-spice",
+      "item": "pickling spice",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "black-peppercorns",
+      "item": "black peppercorns",
+      "quantity": 5
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the eggs and water in a covered pressure cooker. Preheat, then cook for 12 minutes.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 2,
+      "text": "Release pressure for 1 minute, then remove the eggs and peel them.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Cool the cooking water for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Combine the vinegar, cooled water, onion, salt, pickling spice, and peppercorns; bring the mixture to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Place the peeled eggs in a clean heatproof container and pour the hot brine over them. Add the onion."
+    },
+    {
+      "step": 6,
+      "text": "Chill for at least 3 days before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "pickled",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "heatproof container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/92433/emilys-pickled-eggs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bdaacd08a6a34c3878a94f5a94b1576c597cb48eb011c85b55dc79a56a3ea8ea",
+    "normalized_text_hash": "a01aed82cd91fae981463c85b97e327b8a49d8cd20faeaa1af43049706292c4c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:01:16.583Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

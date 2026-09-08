@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "monkey-bread-muffins",
+  "name": "Monkey Bread Muffins",
+  "subtitle": "Spiced biscuit bites with a buttery brown-sugar glaze",
+  "description": "Tender biscuit pieces are coated in spiced sugar, arranged in muffin cups, and baked with a quick brown-sugar syrup.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apple-pie-spice",
+      "item": "apple pie spice",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "refrigerated-biscuit-dough",
+      "item": "refrigerated biscuit dough",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce, separated and cut into six pieces"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F and prepare six muffin cups. Melt the butter."
+    },
+    {
+      "step": 2,
+      "text": "Mix the white sugar, apple pie spice, and 2 tablespoons of the brown sugar. Coat the biscuit pieces in the spiced sugar and place them in the muffin cups."
+    },
+    {
+      "step": 3,
+      "text": "Combine the remaining brown sugar, melted butter, and water in a small saucepan. Bring to a simmer and cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Spoon the brown-sugar mixture over the dough, then bake until puffed and golden, about 12 minutes.",
+      "timer_minutes": 12
+    }
+  ],
+  "tags": [
+    "snack",
+    "brunch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "muffin tin",
+    "small saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/181278/monkey-bread-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ba281c336b53fc0980246321b6e99fb6d549f61613e4155221e8ee9373309772",
+    "normalized_text_hash": "d698ea54e77adc5006cb7998960cf3ba43177c642512e467809c93148602065d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:56:37.007Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

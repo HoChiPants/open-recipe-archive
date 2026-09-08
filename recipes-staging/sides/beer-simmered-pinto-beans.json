@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-simmered-pinto-beans",
+  "name": "Beer-Simmered Pinto Beans",
+  "subtitle": "Tender pinto beans with tomatoes, herbs, and dark beer",
+  "description": "A savory bean side dish simmered with chicken stock, tomatoes, dark beer, onion, peppers, garlic, and herbs.",
+  "meal_type": "side",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 180,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-pinto-beans",
+      "item": "dried pinto beans",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "washed"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce, chopped"
+    },
+    {
+      "ingredient_id": "or-bottle-dark-beer",
+      "item": "or bottle dark beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "pickled-jalapeno-peppers",
+      "item": "pickled jalapeno peppers",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 3
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cover the washed beans with water and soak for 8 hours. Drain.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Combine the beans, chicken stock, salt, and pepper in a large pot. Bring to a simmer."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the oven for the covered cooking stage, then stir the beans and add the tomatoes, dark beer, onion, cilantro, jalapeños, garlic, oregano, and bay leaves.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Cook until the beans are tender and the liquid reaches at least 165°F when checked with a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 5,
+      "text": "Remove the bay leaves, adjust the salt and pepper, and serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "beans",
+    "mexican-inspired",
+    "stovetop",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/75633/kikis-borracho-drunken-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9726fa4560324bf8825092b93787f96af8c028b464f6c6dd1ad667e4a64998e7",
+    "normalized_text_hash": "6f98a021081ae94cceafc4e9fdcf4afa045c8ff6d62a7c79459b8e1b058e5bc5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:41:36.487Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

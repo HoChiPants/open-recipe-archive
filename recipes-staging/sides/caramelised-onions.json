@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramelised-onions",
+  "name": "Caramelised Onions",
+  "subtitle": "Sweet, tangy onions for savoury dishes",
+  "description": "Slow-cooked onions finished with brown sugar and balsamic vinegar until tender, glossy, and richly flavoured.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onions-red-or-white",
+      "item": "onions (red or white)",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "of-salt",
+      "item": "of salt",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "soft-brown-sugar",
+      "item": "soft brown sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": "1-2",
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a large skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the onions and salt. Cook for about 40 minutes, stirring occasionally, until very soft and deeply golden.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 3,
+      "text": "Stir in the brown sugar, then add the balsamic vinegar and mix well."
+    },
+    {
+      "step": 4,
+      "text": "Cook for 5 minutes, stirring as needed, until glossy. Serve warm.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "onions",
+    "caramelised-onions",
+    "barbecue",
+    "burgers",
+    "hot-dogs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large skillet",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/caramelised-onions",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "78e7b2e38c6f859adf4f281368e8d488cd46b581fe6c983275df648b7003f95c",
+    "normalized_text_hash": "152407def3da003624098c26a1b635f12c83472ad8edc157c9b1811f7a8c57ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:32:01.341Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

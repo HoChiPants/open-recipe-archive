@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-parmesan-bread",
+  "name": "Spinach Parmesan Bread",
+  "subtitle": "Soft pizza dough filled with garlicky spinach and melted cheese",
+  "description": "A savory baked bread made by wrapping seasoned spinach, Parmesan, and mozzarella in refrigerated pizza dough.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and drained"
+    },
+    {
+      "ingredient_id": "to-taste-salt-and-pepper-to-taste",
+      "item": "to taste salt and pepper to taste",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder-to-taste",
+      "item": "garlic powder to taste"
+    },
+    {
+      "ingredient_id": "refrigerated-pizza-crust-dough",
+      "item": "refrigerated pizza crust dough",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a skillet over medium heat. Add the minced garlic and garlic powder, then cook briefly until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the thawed, drained spinach, salt and pepper, and Parmesan. Cook until the mixture is heated through, then let it cool for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Unroll and shape the pizza dough into a flat rectangle. Spread the spinach mixture over it and sprinkle with the mozzarella."
+    },
+    {
+      "step": 5,
+      "text": "Fold or roll the dough around the filling, seal the edges, and shape it into a loaf. Transfer it to a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 25 minutes, or until the bread is golden brown. Let it rest briefly before slicing."
+    }
+  ],
+  "tags": [
+    "spinach",
+    "savory-bread",
+    "vegetarian",
+    "easy-baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24016/quick-and-easy-spinach-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8ede850cb296190f113d813c2143822c0df3c7243624e4da6acb80bd130a2c0e",
+    "normalized_text_hash": "742892fcfc74e62f4c116e7239b0cf9ac257d1fc70baee5176c043078372e8ef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:42:23.492Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

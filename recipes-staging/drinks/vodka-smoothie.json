@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vodka-smoothie",
+  "name": "Vodka Smoothie",
+  "subtitle": "A frosty citrus-strawberry blended drink",
+  "description": "Vodka, orange juice, frozen strawberries, sherbet, and crushed ice blend into a cold, smooth drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounces-vodka",
+      "item": "fluid ounces vodka",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "fluid-ounces-orange-juice",
+      "item": "fluid ounces orange juice",
+      "quantity": 18
+    },
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "scoops-orange-sherbet",
+      "item": "scoops orange sherbet",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the vodka, orange juice, frozen strawberries, orange sherbet, and crushed ice to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "smoothie",
+    "blended",
+    "strawberry",
+    "citrus"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/45175/vodka-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "085840dee9962d0a2d504cb73dab83c6b5e5546e4e497fb60897dc32e9335d3f",
+    "normalized_text_hash": "aea2d97030bc8e2ad98be570d79fad180dc8286ef101dce83f7b05fe12b7ac9d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:53:19.299Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-peach-pie",
+  "name": "Fresh Peach Pie",
+  "subtitle": "A chilled pie with ripe peaches and a light spiced glaze",
+  "description": "Mashed peaches form a thick glaze for sliced fresh peaches in a baked crust, finished with a short chill.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "9-inch-pie-shell",
+      "item": "(9 inch) pie shell",
+      "quantity": 1,
+      "preparation": "baked"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "pitted and mashed"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "pitted, skinned, and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the white sugar, water, cornstarch, butter, mashed peaches, and nutmeg in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Heat the mixture, stirring often, until it thickens."
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and stir in the vanilla extract."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the sliced peaches in the baked pie shell, then spread the warm peach mixture over them."
+    },
+    {
+      "step": 5,
+      "text": "Chill the pie until the filling is set."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "peach",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12308/fresh-peach-pie-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6fc28ba7083f843718f566e0619c7182891adb7d3d40196a352ba6ee4f9bdb92",
+    "normalized_text_hash": "66b1d9f42259c65994a8c443f2d3a514138f065c9311745aac08c0b41f37900d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:31:57.584Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

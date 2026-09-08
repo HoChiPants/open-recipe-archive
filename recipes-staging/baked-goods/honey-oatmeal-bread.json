@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-oatmeal-bread",
+  "name": "Honey Oatmeal Bread",
+  "subtitle": "Soft oat bread with a light honey finish",
+  "description": "A gently sweet yeast bread made with rolled oats, honey, and bread flour, finished with an oat topping.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "warmed slightly"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir 1 cup rolled oats, 0.5 cup honey, butter, and salt into the boiling water. Let the mixture cool for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Dissolve the active dry yeast in the warm water and let it stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Mix the yeast mixture into the cooled oat mixture, then add the bread flour. Stir until a dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Knead the dough on a lightly floured surface for 20 minutes, until smooth.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Place the dough in a coated bowl, cover it, and let it rise for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Shape the dough and place it in prepared baking pan or pans. Let it rise for 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 7,
+      "text": "Heat the oven to 350°F. Brush the top with the warmed honey and sprinkle with 2 tablespoons rolled oats."
+    },
+    {
+      "step": 8,
+      "text": "Bake for 30 minutes, until golden brown.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 9,
+      "text": "Cool the bread before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "oatmeal",
+    "honey",
+    "snack"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "measuring cups and spoons",
+    "loaf pan or pans",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22791/honey-oatmeal-bread-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1cafcee7daa3df99ee795b978207081bbd1cc2a3b888e0b3cbed2b1b7b1d4b50",
+    "normalized_text_hash": "e33e71f21b4542f9c52a3699db17b4d7c4410369609075c575b7a902e1381206",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:49:40.235Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

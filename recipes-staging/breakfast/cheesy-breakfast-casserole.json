@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-breakfast-casserole",
+  "name": "Cheesy Breakfast Casserole",
+  "subtitle": "Bacon, potatoes, eggs, and three cheeses baked until set",
+  "description": "A hearty breakfast casserole combining crisp bacon, tender hash browns, eggs, and a blend of creamy and shredded cheeses.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 55,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced, diced"
+    },
+    {
+      "ingredient_id": "sweet-onion",
+      "item": "sweet onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 9,
+      "unit": "large",
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "frozen-shredded-hash-brown-potatoes",
+      "item": "frozen shredded hash brown potatoes",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "small-curd-cottage-cheese",
+      "item": "small curd cottage cheese",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "swiss-cheese",
+      "item": "Swiss cheese",
+      "quantity": 1.25,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the diced bacon, chopped onion, and hash brown potatoes together in a skillet for 10 minutes, stirring occasionally. Drain, then transfer the bacon and onion mixture to a baking dish.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir together the beaten eggs, hash brown potatoes, Cheddar, cottage cheese, and Swiss cheese, then transfer the mixture to the baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake at 350°F for 50 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 5,
+      "text": "Let the casserole rest for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "casserole",
+    "bacon",
+    "cheese",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "oven",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229150/cheesy-amish-breakfast-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7cd1e103a9cbc915de3f55d84f245841533dea29359dcdd5c2a9040e92783cce",
+    "normalized_text_hash": "b982b1ca9b3b2cde4f71dde4f084c096b52934bd6520b902b619b1c1993a43b0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:10:20.362Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

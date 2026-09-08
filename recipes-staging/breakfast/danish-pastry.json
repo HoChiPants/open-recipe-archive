@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "danish-pastry",
+  "name": "Danish Pastry",
+  "subtitle": "Layered pastries with fruit preserves",
+  "description": "A yeasted, butter-layered pastry filled with fruit preserves and baked until crisp, golden, and fully set.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 8,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 4.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "lemon-extract",
+      "item": "lemon extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fruit-preserves",
+      "item": "fruit preserves",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "any flavor"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the softened butter with 0.66666668653488 cup flour. Shape the mixture into a flat block and chill it until firm."
+    },
+    {
+      "step": 2,
+      "text": "Combine the remaining flour with the yeast. Warm the milk with the sugar and salt, then cool the mixture to 115°F."
+    },
+    {
+      "step": 3,
+      "text": "Pour the warm milk mixture into the flour mixture. Add the eggs, lemon extract, and almond extract, then stir for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Knead in enough of the divided flour to make a firm dough. Cover and let it rest for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cut and shape the dough into a rectangle. Enclose the chilled butter block, then fold and roll the dough to laminate it."
+    },
+    {
+      "step": 6,
+      "text": "Repeat the folding and rolling, resting the dough as needed; chill for 30 minutes between folds.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Make another fold, chill the dough for 30 minutes, and complete the final shaping.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 8,
+      "text": "Roll and cut the dough into pieces. Add fruit preserves, fold each piece around the filling, and transfer the pastries to a prepared baking surface. Let them rise for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 9,
+      "text": "Heat the oven to 450°F. Brush the pastries with the beaten egg white."
+    },
+    {
+      "step": 10,
+      "text": "Bake for 10 minutes, until golden brown and the centers are fully set, reaching at least 160°F on a food thermometer.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pastry",
+    "fruit-filled",
+    "yeasted-dough"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "rolling pin",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27342/danish-pastry/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "737d3124a2b588e3ae44d5f5d4f30b5f0ec587a68a70093ce158828f9943e891",
+    "normalized_text_hash": "36c14aea84cb109ebdc9cf334eb14cae614b4708b024b497d6494f2ac027e3ba",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:00:57.768Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-syrup",
+  "name": "Simple Syrup",
+  "subtitle": "A basic sugar syrup for drinks and desserts",
+  "description": "Dissolve sugar in water over heat, then cool and store for mixing into beverages or using in desserts.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the white sugar and water in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Heat over medium heat, stirring until the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Bring to a gentle simmer and cook until the syrup is clear.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and let the syrup cool completely."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a clean container and refrigerate until needed."
+    }
+  ],
+  "tags": [
+    "drink",
+    "syrup",
+    "sweetener",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon",
+    "clean storage container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20216/simple-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "335ff8e72882edef1b2835ce9b07eacbbc648109ab7190ae12e5484db7385df6",
+    "normalized_text_hash": "811f1faca0c5a6ef4eafcb51c1fe6ca1d44c9e80596395aef0fcc1c6fc7a272f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:29:32.419Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 23,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

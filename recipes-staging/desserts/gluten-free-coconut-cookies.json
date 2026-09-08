@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "gluten-free-coconut-cookies",
+  "name": "Gluten-Free Coconut Cookies",
+  "subtitle": "Chewy coconut cookies with lightly crisp edges",
+  "description": "A simple batch of coconut cookies made with egg whites, sugar, shredded coconut, and gluten-free flour.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "coconut",
+      "item": "coconut",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    },
+    {
+      "ingredient_id": "gluten-free-all-purpose-baking-flour",
+      "item": "gluten-free all-purpose baking flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 275°F. Prepare a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg whites and white sugar for 2 minutes, until blended and slightly thickened.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Stir in the shredded coconut and gluten-free all-purpose baking flour until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Shape the mixture into 24 portions and coat each evenly with the remaining shredded coconut and gluten-free all-purpose baking flour."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until the cookies are set and the centers reach 160°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Cool on the baking sheet for 1 minute, then transfer to a rack and finish cooling for 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "gluten-free",
+    "coconut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer",
+    "cooling rack"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/259781/four-ingredient-gluten-free-italian-coconut-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "161580e464636c54d0675114c60d71779e53b41a02d6d5d5e192c136d0192a13",
+    "normalized_text_hash": "c8572bba0284c481f1a3a8da9576769ba05104739407732d04af1ca226e6a9b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:17:59.212Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

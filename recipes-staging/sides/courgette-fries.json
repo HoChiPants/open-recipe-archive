@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "courgette-fries",
+  "name": "Courgette Fries",
+  "subtitle": "Crisp fried courgette batons with Parmesan",
+  "description": "Flour-coated courgette batons are fried until crisp, drained, and finished with grated Parmesan.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "courgettes-cut-into-1cm-batons",
+      "item": "courgettes cut into 1cm batons",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "oil-for-deep-frying",
+      "item": "oil for deep frying"
+    },
+    {
+      "ingredient_id": "parmesan-grated",
+      "item": "parmesan grated",
+      "quantity": 15,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toss the courgette batons with the flour until they are thickly coated."
+    },
+    {
+      "step": 2,
+      "text": "Heat the oil for deep frying in a deep, heavy pan until ready for frying."
+    },
+    {
+      "step": 3,
+      "text": "Fry the courgette in batches until golden and crisp, turning as needed.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Prepare a plate or tray lined with kitchen paper for draining."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the fries to the lined plate and drain well."
+    },
+    {
+      "step": 6,
+      "text": "Sprinkle with the grated Parmesan and serve hot."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "snack",
+    "courgette",
+    "fried-vegetables",
+    "fries"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "deep heavy pan",
+    "slotted spoon",
+    "paper-lined plate"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/courgette-fries",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c8593029acfee30e25ae2699e45cbbba33bc290f68254982366972881020e741",
+    "normalized_text_hash": "630e49a004d377b641d2bd15c79d996eeab5826c9cb414c9d945c087d8cb37df",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:02:22.190Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

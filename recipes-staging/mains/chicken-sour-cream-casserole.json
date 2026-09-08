@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-sour-cream-casserole",
+  "name": "Chicken Sour Cream Casserole",
+  "subtitle": "Creamy chicken casserole with a crisp cracker topping",
+  "description": "Cooked chicken is folded into a creamy soup, cream cheese, and sour cream mixture, then baked beneath crushed crackers.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken breast halves - cooked and cubed"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "buttery-round-crackers",
+      "item": "buttery round crackers",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Place the mushroom soup, chicken soup, cream cheese, and sour cream in a saucepan over low heat; stir until the cream cheese melts and the mixture is smooth."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the cooked, cubed chicken and transfer the mixture to a baking dish. Spread the crushed crackers evenly over the top."
+    },
+    {
+      "step": 3,
+      "text": "Bake at 350°F for 15 minutes, until the topping is golden brown and the casserole reaches 165°F in the center.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "casserole",
+    "chicken",
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "saucepan",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16976/sour-cream-cheese-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dbf61229a278d4f224451c002d422d9bae8e879b7614ba30cfd9cd5a8c4c9064",
+    "normalized_text_hash": "e9765ccbdb7b85e75e30bae644382845d2671f7d3e77a2f111fbdfb5dbf996d2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:09:22.564Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-in-a-hole",
+  "name": "Egg in a Hole",
+  "subtitle": "Crisp toast with a skillet-cooked egg",
+  "description": "Bread toasted in bacon grease surrounds an egg cooked in its center, finished with simple seasoning.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon-grease",
+      "item": "bacon grease",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "slice-bread",
+      "item": "slice bread",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the bacon grease in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Cut a hole from the center of the bread and place the bread in the skillet; cook for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Crack the egg into the opening and season with salt and ground black pepper to taste."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the egg white is set and the center is firm, reaching 160°F on a food thermometer."
+    },
+    {
+      "step": 5,
+      "text": "Turn the bread and egg, then cook for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "egg",
+    "toast",
+    "skillet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/187850/egg-in-a-hole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "343a89c67661f75d1cececc3dabb80807a0610da59b2ae722abb869dffd5161a",
+    "normalized_text_hash": "7e0856afc04f7edf6bb50fcf2d447c40821ab1aa00b8365154177501e44148ed",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:54:47.907Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

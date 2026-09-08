@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-bark",
+  "name": "Chocolate Bark",
+  "subtitle": "Crisp crackers layered with brown-sugar caramel and milk chocolate",
+  "description": "A simple baked cracker bark finished with melted chocolate and chilled until firm.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 40,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "saltine-crackers",
+      "item": "saltine crackers",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips",
+      "item": "milk chocolate chips",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "12 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Line a baking sheet with saltine crackers in a single layer, using as many as needed to cover the surface."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter and brown sugar together, stirring until combined. Cook the mixture for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour the butter mixture over the crackers and spread it evenly."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 5 minutes, then remove the pan and let the bark cool.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Microwave the milk chocolate chips for 3 minutes, stirring as needed until smooth. Spread the chocolate over the cooled cracker layer.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Chill for 60 minutes, or until firm, then break or cut into pieces.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "snack",
+    "chocolate",
+    "baked-treat"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking sheet",
+    "microwave-safe bowl",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245533/chocolate-bark/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d3b72b6f2fe071b1cc27079b785e2bae66f4eb557a1da1936588d36da1ff469b",
+    "normalized_text_hash": "845f93799baee6c9b03e432cd2860384b1172ea8f9ab010887d7827c84c624f0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:29:16.510Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

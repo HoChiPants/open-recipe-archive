@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "russian-blini",
+  "name": "Russian Blini",
+  "subtitle": "Thin, tender pancakes for a savory or sweet breakfast",
+  "description": "A light skillet pancake made with a rested milk-and-egg batter, finished with butter and served warm.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 4.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.33333334326744,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "citric-acid-powder",
+      "item": "citric acid powder",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.66666668653488,
+      "unit": "cup",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the milk and eggs together. In a separate bowl, whisk the sugar and salt; combine the baking soda with the citric acid powder."
+    },
+    {
+      "step": 2,
+      "text": "Blend the flour into the milk mixture, then whisk in the sugar mixture, the soda mixture, and the vegetable oil until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk in the boiling water. Let the batter rest for 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Melt part of the divided butter and warm a skillet over medium heat. Lightly butter the pan."
+    },
+    {
+      "step": 5,
+      "text": "Pour in enough batter to form a thin pancake and cook until the surface is set and the underside is lightly browned, about 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 6,
+      "text": "Transfer the blini to a plate, butter lightly, and repeat with the remaining batter and butter. Fold or stack and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "russian",
+    "pancakes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215962/blini-russian-pancakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d4f308ab86f09ad621f2deb45dba6c4a197fa1c0b9cb7a61e16fb2cf611cc8f5",
+    "normalized_text_hash": "a10e6c1c8fcad45c3ab471a484b08086e647440f1dcae4e32dcd851610ad58ca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:53:42.773Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

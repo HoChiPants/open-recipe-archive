@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "herb-bread",
+  "name": "Herb Bread",
+  "subtitle": "A savory, fragrant loaf made in the bread machine.",
+  "description": "Dried rosemary, oregano, and basil season this tender homemade loaf.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-rosemary-leaves",
+      "item": "dried rosemary leaves",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bread-machine-yeast",
+      "item": "bread machine yeast",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the warm water and bread machine yeast to the bread-machine pan."
+    },
+    {
+      "step": 2,
+      "text": "Add the beaten egg, salt, sugar, olive oil, rosemary, oregano, basil, and both portions of flour."
+    },
+    {
+      "step": 3,
+      "text": "Select a standard bread cycle and cook for about 180 minutes, until the loaf is set and reaches at least 160°F in the center.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 4,
+      "text": "Remove the loaf and cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "bread-machine",
+    "herbs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240681/herb-bread-for-bread-machine/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "59bc15d0dfee09b404970cbff87751b611cc58a85d5afdb15fc6663158ec0d3e",
+    "normalized_text_hash": "12ddbf848d91fa91ee3320b6edd7448a7423d4ec62658922c177ce7d9c1336e3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:32:10.645Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

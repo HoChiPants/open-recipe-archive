@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheddar-ranch-dip",
+  "name": "Cheddar Ranch Dip",
+  "subtitle": "A cool, creamy dip with cheddar and savory bacon flavor.",
+  "description": "Combine the ingredients, then chill briefly before serving with vegetables, crackers, or chips.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "dry-ranch-style-dressing-mix",
+      "item": "dry Ranch-style dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "bacon-bits",
+      "item": "bacon bits",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "3 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the sour cream and dry Ranch-style dressing mix together until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Fold in the bacon bits and shredded Cheddar cheese."
+    },
+    {
+      "step": 3,
+      "text": "Cover and refrigerate for 20 minutes before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dip",
+    "appetizer",
+    "snack",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22490/cheddar-ranch-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b5d2eadf42d83be40d09d4051351baa90cf083a993124f53eaadec9e6324f320",
+    "normalized_text_hash": "3bdf69aa724b93318bc862f23b208324254c8cbd19f72d685401d565cc7d10d9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:05:56.953Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

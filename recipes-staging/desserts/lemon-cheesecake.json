@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-cheesecake",
+  "name": "Lemon Cheesecake",
+  "subtitle": "Creamy lemon cheesecake with a buttery crumb crust",
+  "description": "A chilled lemon cheesecake with a crisp graham crumb base and smooth cream cheese filling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "honey-maid-graham-crumbs",
+      "item": "HONEY MAID Graham Crumbs",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "philadelphia-brick-cream-cheese",
+      "item": "PHILADELPHIA Brick Cream Cheese",
+      "quantity": 4,
+      "unit": "package",
+      "preparation": "250 g, softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "zested and juiced"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Combine the graham crumbs and melted butter until evenly moistened, then transfer the mixture to the prepared baking pan and press it into an even crust."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese, sugar, sour cream, lemon zest, and lemon juice until smooth. Add the eggs and mix just until incorporated."
+    },
+    {
+      "step": 3,
+      "text": "Pour the filling over the crust and smooth the top."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 40 minutes, or until the center is fully set and reaches 160°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Cool, then refrigerate for 4 hours before serving.",
+      "timer_minutes": 240
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cheesecake",
+    "lemon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214852/philly-lemon-cheesecake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fc0d82d00d57aca5316618f1da392b6f318c4c3823315be5acd30f8642c4d1d7",
+    "normalized_text_hash": "11d2f81a1f9bf88487cae8c87975695ec9c60c85afbd4cec2394cf08ef4433d1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:15:59.569Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

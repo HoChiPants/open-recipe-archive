@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-horchata",
+  "name": "Coconut Horchata",
+  "subtitle": "A chilled rice drink with coconut and almond flavor",
+  "description": "Soaked rice, almonds, coconut, and milk are blended and diluted into a creamy, refreshing drink served over ice.",
+  "meal_type": "drink",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "uncooked-white-rice",
+      "item": "uncooked white rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweetened-flaked-coconut",
+      "item": "sweetened flaked coconut",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "coconut-milk",
+      "item": "coconut milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 5,
+      "unit": "cups",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the rice, almonds, coconut, and coconut milk in a blender or large container. Add the boiling water and cold water, then stir until combined and the water has cooled slightly."
+    },
+    {
+      "step": 2,
+      "text": "Cover and refrigerate for 6 hours.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 3,
+      "text": "Blend the soaked mixture until as smooth as possible, then stir in the condensed milk."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the remaining boiling water and cold water until evenly combined. Serve over the ice, adding more cold water as needed for the desired consistency."
+    }
+  ],
+  "tags": [
+    "drink",
+    "mexican",
+    "coconut",
+    "rice-based",
+    "chilled"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "blender",
+    "large container",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214624/coconut-horchata/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d5c79e7c69e13581ece90bbcc630b2810e2ac2ba92841c6173aafeff9d1262e3",
+    "normalized_text_hash": "ee3815bfde5c48e0107b7bf601e108ea09bcd494aa6f8d535aff8af8739ab7a3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:59:50.211Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

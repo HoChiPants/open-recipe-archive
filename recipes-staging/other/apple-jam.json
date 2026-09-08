@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-jam",
+  "name": "Apple Jam",
+  "subtitle": "A simple, warmly spiced fruit spread",
+  "description": "Soft apples cook with sugar, lemon, and cinnamon into a thick, spoonable jam.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 2,
+    "unit": "x 500g jars"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bramley-apples-peeled",
+      "item": "Bramley apples peeled",
+      "quantity": 1,
+      "unit": "kg",
+      "preparation": "cored and chopped"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chopped apples and caster sugar in a large saucepan. Cook over medium heat until the apples soften and the mixture simmers.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Continue cooking the apples until tender and nearly smooth.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Stir in the lemon juice and cinnamon stick, then cook until the jam thickens.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Remove the cinnamon stick. Cool the jam briefly, transfer it to jars, and chill."
+    }
+  ],
+  "tags": [
+    "apple",
+    "jam",
+    "fruit-spread",
+    "cinnamon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large saucepan",
+    "wooden spoon",
+    "jars"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/apple-jam",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e5d217fb220172ba9179892fcb8af49bcb056303a462a305df9553a7570e4c3d",
+    "normalized_text_hash": "cfab92f1f7352a34185991c85d420364fad2d2b2bea3e8ad0a93bbdc330f7b59",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:38:45.416Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

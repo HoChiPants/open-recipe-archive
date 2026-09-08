@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "black-walnut-ice-cream",
+  "name": "Black Walnut Ice Cream",
+  "subtitle": "Creamy frozen dessert with toasted walnut flavor",
+  "description": "A simple no-cook ice cream mixture combining light cream, half-and-half, black walnut extract, and chopped black walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "light-cream",
+      "item": "light cream",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "half-and-half-cream",
+      "item": "half-and-half cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "superfine-sugar",
+      "item": "superfine sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "black-walnut-extract",
+      "item": "black walnut extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-walnuts",
+      "item": "black walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the light cream, half-and-half cream, sugar, black walnut extract, and chopped black walnuts in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Whisk until the mixture is evenly blended and the sugar is dissolved."
+    },
+    {
+      "step": 3,
+      "text": "Transfer to a freezer-safe container and freeze until firm, about 60 minutes.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "ice-cream",
+    "walnut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "freezer-safe container",
+    "freezer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/80643/black-walnut-ice-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "20151f12e104fd1e2b8a4f16179b7005c66b8d1a0b39b4dc57b6981f3b2884df",
+    "normalized_text_hash": "9a134f52ba7f295a3d387296633aac242083485ea9c05178ea490c40056c6233",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:51:23.986Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

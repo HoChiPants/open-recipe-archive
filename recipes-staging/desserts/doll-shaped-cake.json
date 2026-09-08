@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "doll-shaped-cake",
+  "name": "Doll-Shaped Cake",
+  "subtitle": "A simple frosted cake for celebrations",
+  "description": "Bake a yellow cake, let it cool thoroughly, and finish it with vanilla frosting tinted red for a decorative dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-cake-mix",
+      "item": "yellow cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "vanilla-frosting",
+      "item": "vanilla frosting",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "red-food-coloring",
+      "item": "red food coloring",
+      "quantity": 1,
+      "unit": "drop"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the yellow cake mix according to its package directions, then transfer the batter to a suitable deep cake pan or oven-safe bowl."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the cake is set and a tester inserted in the center comes out clean, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Cool the cake in the pan for 15 minutes, then let it cool completely for about 3 hours before decorating.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 5,
+      "text": "Tint a portion of the vanilla frosting with the red food coloring, then frost and decorate the cooled cake with the remaining frosting."
+    },
+    {
+      "step": 6,
+      "text": "Slice and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cake",
+    "baking",
+    "celebration"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "oven",
+    "deep cake pan or oven-safe bowl",
+    "cake tester"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8160/barbie-doll-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "22f72ecd2213d0c0b3877c8beb7019a95c4605e9e584acb067735c2a091fd09d",
+    "normalized_text_hash": "e79e870cd7eff785a903412ee0b7b432f4e9bd68edb9235ccb9fd841ebc24a2c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:04:27.837Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

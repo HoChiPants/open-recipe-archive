@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "radish-cream-cheese-spread",
+  "name": "Radish Cream Cheese Spread",
+  "subtitle": "A cool, crisp spread with fresh dill",
+  "description": "Soften cream cheese into a smooth spread with milk, then fold in finely chopped radishes and dill.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "bunch-radishes",
+      "item": "bunch radishes",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "bunch-fresh-dill",
+      "item": "bunch fresh dill",
+      "quantity": 1,
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the softened cream cheese and milk together until smooth, adding milk as needed for a spreadable texture."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chopped radishes and dill, then fold them into the cream cheese mixture until evenly distributed."
+    }
+  ],
+  "tags": [
+    "spread",
+    "no-cook",
+    "radish",
+    "dill",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263447/radish-cream-cheese-spread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f1375e32e3bc3e3b25945e5318b0d9223f777c63ecf585b90dc4ec34822a1261",
+    "normalized_text_hash": "4b85ecffba927bd639a289f5eb3e78bb37a880f9dc2323ea548836546f37717b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:50:35.717Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

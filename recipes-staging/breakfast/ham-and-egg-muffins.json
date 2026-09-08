@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-egg-muffins",
+  "name": "Ham and Egg Muffins",
+  "subtitle": "Individual baked egg cups with spinach, pepper, ham, and feta",
+  "description": "These savory egg muffins combine vegetables, diced ham, and feta in a convenient breakfast portion.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "thawed and drained"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fully-cooked-ham",
+      "item": "fully cooked ham",
+      "quantity": 7,
+      "unit": "ounces",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "crumbled-feta-cheese",
+      "item": "crumbled feta cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Coat a 12-cup muffin pan with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs, egg whites, water, salt, and pepper in a bowl. Stir in the spinach, bell pepper, feta, and diced ham."
+    },
+    {
+      "step": 3,
+      "text": "Divide the mixture evenly among the prepared muffin cups."
+    },
+    {
+      "step": 4,
+      "text": "Bake for about 25 minutes, until the centers are firm and fully set; verify the egg mixture reaches 160°F.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "ham",
+    "spinach",
+    "muffins"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "milk"
+  ],
+  "equipment": [
+    "12-cup muffin pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256953/healthy-ham-and-egg-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21b4c8bc1c438ea98e987b6c7d20052106867a47d028a1d2c5818e0ee9cbd8a5",
+    "normalized_text_hash": "08b5613cdf7a16af661542f2d89fd27690de1a5a304915452a9d367aeb559550",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:27:48.086Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

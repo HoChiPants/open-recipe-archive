@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-pretzel-mix",
+  "name": "Spicy Pretzel Mix",
+  "subtitle": "A zesty, no-bake snack for sharing",
+  "description": "Mini pretzels are coated with seasoned oil and rested so the savory, spicy flavors can absorb.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-ranch-style-dressing-mix",
+      "item": "dry Ranch-style dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-cayenne-pepper",
+      "item": "ground cayenne pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lemon-pepper",
+      "item": "lemon pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mini-pretzels",
+      "item": "mini pretzels",
+      "quantity": 1.5,
+      "unit": "package",
+      "preparation": "15 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the dressing mix, garlic salt, cayenne pepper, and lemon pepper together in a small bowl."
+    },
+    {
+      "step": 2,
+      "text": "Place the mini pretzels in a large bowl. Add the seasoned mixture and vegetable oil, then toss until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Let the pretzels stand for 2 hours, tossing occasionally to distribute the seasoning.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "american",
+    "no-cook",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "small bowl",
+    "large bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24248/spicy-pretzels/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "588e666eb5657b89f3c37242c00ae1284dfc8ae576ce8d7fe882121c045f0da7",
+    "normalized_text_hash": "8bed2000d2cbaa4416dede9711db9904cd15940ae7cb671f87b8acd4782862c1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:34:15.858Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

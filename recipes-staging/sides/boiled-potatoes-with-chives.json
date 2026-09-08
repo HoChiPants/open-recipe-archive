@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "boiled-potatoes-with-chives",
+  "name": "Boiled Potatoes with Chives",
+  "subtitle": "Tender potatoes finished with butter and fresh herbs",
+  "description": "Small red potatoes are boiled until tender, then cut and tossed with softened butter, chives, salt, and pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "very-small-red-potatoes",
+      "item": "very small red potatoes",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "scrubbed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "finely-chopped-fresh-chives",
+      "item": "finely chopped fresh chives",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the scrubbed potatoes in a pot and cover them with water. Season the water with some of the salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a boil, then reduce the heat and simmer until the potatoes are tender when pierced, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes and let them cool for 2 minutes, or until easy to handle.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Cut the potatoes into bite-size pieces and toss with the softened butter and chives. Adjust the salt and pepper before serving."
+    }
+  ],
+  "tags": [
+    "potatoes",
+    "vegetarian-side",
+    "boiled",
+    "quick",
+    "dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231861/boiled-potatoes-with-chives/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e2369079dca834154a2c8921ae77bb68eebfaba32a44fc964a0772ff7df3be03",
+    "normalized_text_hash": "d61b675ce17b87441ff1b13f8fc57ee9d23bcab88a71d85f396e9635f0de2702",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:01:07.747Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

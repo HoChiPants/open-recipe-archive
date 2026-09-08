@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "anisette-toast",
+  "name": "Anisette Toast",
+  "subtitle": "Crisp twice-baked anise slices",
+  "description": "A lightly sweet Italian bake with butter, sugar, and pronounced anise flavor, finished with a crisp golden texture.",
+  "meal_type": "dessert",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "anise-extract",
+      "item": "anise extract",
+      "quantity": 4,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour, baking powder, baking soda, and salt in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the softened butter and sugar until smooth. Whisk in the eggs, then the anise extract."
+    },
+    {
+      "step": 4,
+      "text": "Stir the dry ingredients into the butter mixture until a thick dough forms."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the dough to a baking sheet and shape it into a thick, even loaf."
+    },
+    {
+      "step": 6,
+      "text": "Bake until firm, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Cool for 5 minutes, then cut the loaf into thick slices.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 8,
+      "text": "Bake the slices until golden brown, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 9,
+      "text": "Let the toast cool completely before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "italian",
+    "biscotti",
+    "twice-baked",
+    "anise"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215829/anisette-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ad7f47ad14fc6d6fdcac27a0e3bc657f6602d3076ec27afed7b41853db13879",
+    "normalized_text_hash": "bba6ed42f834eaccf36af7b41fdba22a90c10aaee763764d1f26c2f7e1def0b5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:14:40.670Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

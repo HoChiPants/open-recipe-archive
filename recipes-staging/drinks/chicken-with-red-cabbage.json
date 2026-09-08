@@ -1,0 +1,180 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-with-red-cabbage",
+  "name": "Chicken with Red Cabbage",
+  "subtitle": "Braised chicken thighs with sweet-tart cabbage",
+  "description": "Chicken thighs are coated with seasoned flour, browned, and baked with red cabbage, apple, onion, bacon, wine, and vinegar until tender.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 85
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "bacon-drippings",
+      "item": "bacon drippings",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "skinless-chicken-thighs",
+      "item": "skinless chicken thighs",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cored and sliced"
+    },
+    {
+      "ingredient_id": "head-red-cabbage",
+      "item": "head red cabbage",
+      "quantity": 1,
+      "preparation": "cored and sliced"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-red-wine",
+      "item": "dry red wine",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until crisp, reserving 1 tablespoon of the drippings. Cool the bacon, then crumble it.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the flour, salt, and smoked paprika together. Coat the chicken thighs in the mixture."
+    },
+    {
+      "step": 4,
+      "text": "Heat the reserved drippings in an oven-safe skillet. Brown the chicken for about 5 minutes, then transfer it to a plate.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Drain excess drippings from the skillet. Add the onion and apple; cook until beginning to soften.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Stir in the cabbage, crumbled bacon, and the remaining salt. Cook until the cabbage starts to wilt.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 7,
+      "text": "Add the vinegar and wine. Stir in the brown sugar and cinnamon, then bring the mixture to a simmer."
+    },
+    {
+      "step": 8,
+      "text": "Cook the cabbage mixture for 10 minutes, then return the chicken to the skillet.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 9,
+      "text": "Bake until the cabbage is tender and the chicken reaches 165°F in the thickest part.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "chicken",
+    "red-cabbage",
+    "one-pan",
+    "oven-baked",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228364/oktoberfest-chicken-and-red-cabbage/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ce3af19f9d0a1987dddd6c284dc12863b8ee31c4bab6297c5d86b6164cdb7106",
+    "normalized_text_hash": "6158fc59d34cc4b2166defa8908a1c07b2aed86325ad9350e9e10282c0012182",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:22:35.605Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

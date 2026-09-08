@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-muffins",
+  "name": "Strawberry Muffins",
+  "subtitle": "Tender muffins filled with fresh chopped strawberries",
+  "description": "Simple American-style muffins with a lightly sweet crumb and bursts of strawberry.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "strawberry",
+      "item": "strawberries",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F and prepare a muffin pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the milk, canola oil, and egg together in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the flour, sugar, baking powder, and salt. Stir in the chopped strawberries."
+    },
+    {
+      "step": 4,
+      "text": "Fold the milk mixture into the dry mixture just until combined; avoid overmixing."
+    },
+    {
+      "step": 5,
+      "text": "Divide the batter among the prepared muffin cups."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 25 minutes, until the centers are firm and fully set.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Let the muffins cool in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "muffins",
+    "strawberries",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "muffin pan",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8449/strawberry-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0362da3750b2f70fda405298260ea47661ac82ff43b88042ce8f48c6c6d58788",
+    "normalized_text_hash": "ca058a3c7363198c0923ee1718a41a4b6877e197bb461d06fda93bb0716871b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:00:11.662Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

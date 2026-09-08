@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "frozen-sangria-slushie",
+  "name": "Frozen Sangria Slushie",
+  "subtitle": "A berry-filled frozen wine cocktail",
+  "description": "Blend red wine with berries, citrus, liqueur, sugar, and ice, then freeze until slushy.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-wine",
+      "item": "red wine",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "frozen-blueberries",
+      "item": "frozen blueberries",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-raspberries",
+      "item": "fresh raspberries",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange-flavored-liqueur",
+      "item": "orange-flavored liqueur",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange",
+      "item": "orange",
+      "quantity": 0.5,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the wine, crushed ice, berries, orange-flavored liqueur, orange juice, and sugar to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend until smooth, scraping down the sides if needed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer to a freezer-safe container and freeze until the mixture reaches a slushy consistency. Stir briefly before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "frozen",
+    "berry",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "blender",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244187/berrylicious-frozen-sangria-slush/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a00a43d9550221951e084088a3c85c2f550417f8e0a8f845a4ecfa3400c882eb",
+    "normalized_text_hash": "361de6b61f03458346fa8da76e5bee5f1f43a7c5ef08e32871d24533abee971b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:28:35.082Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

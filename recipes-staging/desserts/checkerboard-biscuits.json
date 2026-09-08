@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "checkerboard-biscuits",
+  "name": "Checkerboard Biscuits",
+  "subtitle": "Crisp patterned biscuits with a sugared finish",
+  "description": "Two-tone dough is chilled, assembled into a checkerboard pattern, sliced, coated with demerara sugar, and baked until set.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "plain-flour-to-dust",
+      "item": "plain flour to dust"
+    },
+    {
+      "ingredient_id": "batch-of-universal-dough-see-below",
+      "item": "batch of universal dough (see below)",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "red-food-colouring-paste",
+      "item": "red food colouring paste"
+    },
+    {
+      "ingredient_id": "demerara-sugar",
+      "item": "demerara sugar",
+      "quantity": 50,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Lightly dust the work surface with plain flour. Work the dough with the red food colouring paste until evenly tinted, then chill for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Shape the tinted dough into a thick rectangular strip. Add the remaining dough in alternating sections to form a checkerboard pattern, then chill until firm, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Slice the assembled dough into thick biscuits and chill them for 1 hour.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven and prepare a baking tray."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the chilled biscuits on the tray, sprinkle or press the demerara sugar over them, and bake for 10 minutes, until set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Cool the biscuits on the tray for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "biscuits",
+    "cookies",
+    "holiday-baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "baking tray",
+    "oven",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/checkerboard-biscuits",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cc409cf287eb9791bc0e71c48ed0204e084d7e0980d5641f8a6ab2a017609f1c",
+    "normalized_text_hash": "3d2c9d0ba181f60547f7a90b4caccb69a993966a80061b6d39b783c55fec2134",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T06:51:25.210Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

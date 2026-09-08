@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-waffles-8b4a9261",
+  "name": "Classic Waffles",
+  "subtitle": "Crisp-edged waffles with a tender center",
+  "description": "A simple waffle batter cooked until golden and served with optional maple syrup and icing sugar.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 4,
+    "unit": "(depending on your waffle maker)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "butter-melted-and-cooled",
+      "item": "butter melted and cooled",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract (optional)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "sunflower-or-vegetable-oil",
+      "item": "sunflower or vegetable oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "maple-syrup-and-icing-sugar",
+      "item": "maple syrup and icing sugar",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the waffle maker according to its instructions and lightly brush the plates with the sunflower or vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg with the milk, melted and cooled butter, and vanilla extract, if using. Add the self-raising flour and golden caster sugar, if using, and mix just until combined."
+    },
+    {
+      "step": 3,
+      "text": "Pour enough batter into the hot waffle maker to cover the plates without overflowing. Close and cook until golden brown, about 6 minutes per batch. The waffles should be cooked through; if checked with a thermometer, the center should reach 160°F.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 4,
+      "text": "Carefully remove the waffles and repeat with the remaining batter. Serve with maple syrup and icing sugar, if desired."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "waffles",
+    "waffle-maker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "waffle maker",
+    "mixing bowl",
+    "whisk",
+    "pastry brush"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-waffles",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3a4b1c48781fdf9e584b9cc82e5fe7ecf21b0d434f82e3a95fada94e5445891a",
+    "normalized_text_hash": "94ea8eeeedc1678aee95444714c27dcf2dbf082cb12cab14352f48e46eac8c4b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:34:02.190Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

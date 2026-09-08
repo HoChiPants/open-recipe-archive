@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spicy-chicken-soup",
+  "name": "Spicy Chicken Soup",
+  "subtitle": "A hearty tomato-based soup with chicken, beans, corn, and salsa",
+  "description": "Poach seasoned chicken, then combine it with sautéed aromatics, tomatoes, beans, corn, salsa, and sour cream for a warmly spiced soup.",
+  "meal_type": "soup",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 8,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "cubes-chicken-bouillon",
+      "item": "cubes chicken bouillon",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-chunky-salsa",
+      "item": "(16 ounce) jar chunky salsa",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "and-diced-tomatoes",
+      "item": "and diced tomatoes",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce, peeled"
+    },
+    {
+      "ingredient_id": "whole-peeled-tomatoes",
+      "item": "whole peeled tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "condensed-tomato-soup",
+      "item": "condensed tomato soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "chili-powder",
+      "item": "chili powder",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "chili-beans",
+      "item": "chili beans",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "16 ounce, undrained"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, salt, ground black pepper, garlic powder, dried parsley, onion powder, chicken bouillon cubes, onion, garlic, and chili powder in a large pot. Bring to a boil, add the chicken, then reduce the heat and cook until the thickest piece reaches 165°F, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chicken to a plate, shred it when cool enough to handle, and reserve the cooking liquid."
+    },
+    {
+      "step": 3,
+      "text": "Heat the olive oil in a large pot over medium heat. Add the garlic powder, onion powder, chopped onion, and chopped garlic; cook until the aromatics soften."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the salsa, diced tomatoes, whole peeled tomatoes, condensed tomato soup, chili powder, corn, chili beans, shredded chicken, and reserved cooking liquid. Bring to a gentle simmer and cook for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Stir in the sour cream until combined, then serve hot."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "soup",
+    "spicy",
+    "chicken"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23874/catherines-spicy-chicken-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "de31a1c5041512e41220d3a76b584c8ae06c3529fa25f7900f7fe707d8d434e8",
+    "normalized_text_hash": "e0d1338d2e6b4fdcac2139ad9e3283c9f2993dc84476c68301b781eeaa7995eb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:01:40.830Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-peach-sangria",
+  "name": "White Peach Sangria",
+  "subtitle": "A chilled white-wine punch with peaches and grapes",
+  "description": "Combine white wine, peach vodka, lemonade, sugar, and fresh fruit, then chill before serving.",
+  "meal_type": "drink",
+  "cuisine": "Spanish",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-white-wine",
+      "item": "dry white wine",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "750 milliliter"
+    },
+    {
+      "ingredient_id": "peach-flavored-vodka",
+      "item": "peach flavored vodka",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-lemonade-concentrate",
+      "item": "frozen lemonade concentrate",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-peaches",
+      "item": "white peaches",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "pitted and sliced"
+    },
+    {
+      "ingredient_id": "seedless-red-grapes",
+      "item": "seedless red grapes",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "seedless-green-grapes",
+      "item": "seedless green grapes",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "halved"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the dry white wine, peach flavored vodka, thawed lemonade concentrate, white sugar, and sliced white peaches into a large pitcher."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the sugar is well incorporated, then add the halved red and green grapes."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Serve chilled, spooning some of the fruit into each glass."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "sangria",
+    "peach",
+    "spanish"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "equipment": [
+    "large pitcher",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23734/white-peach-sangria/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "70d371f5d0e72d17d1435b6733b4c3af7d06e1e1ae92228d3c52379d2d5a0844",
+    "normalized_text_hash": "e814f70a3926b784d97e4cd78cb6f1d91350bf48bb0725830354a9ffda914854",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:03:18.174Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

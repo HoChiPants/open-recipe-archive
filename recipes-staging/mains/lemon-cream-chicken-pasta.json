@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lemon-cream-chicken-pasta",
+  "name": "Lemon Cream Chicken Pasta",
+  "subtitle": "Baked chicken and rotelle in a bright cream sauce",
+  "description": "Chicken breasts bake with lemon and broth, then join rotelle pasta in a creamy lemon sauce.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 3,
+      "preparation": "boneless chicken breast halves"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14.5 ounce"
+    },
+    {
+      "ingredient_id": "fresh-lemon-juice",
+      "item": "fresh lemon juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rotelle-pasta",
+      "item": "rotelle pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "grated-lemon-zest",
+      "item": "grated lemon zest",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Place the chicken in a baking dish and season with half of the garlic powder and black pepper. Add the quartered lemon, broth, and lemon juice."
+    },
+    {
+      "step": 2,
+      "text": "Cover and bake for 40 minutes, or until the chicken reaches 165°F in the thickest part. Transfer the chicken to a plate and reserve the cooking liquid.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 3,
+      "text": "Cook the rotelle according to the package directions, then drain."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the reserved broth, heavy cream, lemon zest, and the remaining garlic powder and black pepper in the baking dish or a saucepan. Add the pasta and stir to coat."
+    },
+    {
+      "step": 5,
+      "text": "Return the chicken to the pasta and warm gently for 5 minutes. Serve with the lemon quarters.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "pasta",
+    "lemon",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26277/lemon-cream-pasta-with-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "97c9b767c983c56ca21d572eb78ad837d0cc2553d317b3560d1ab048996d9e47",
+    "normalized_text_hash": "d55c86ac6283eb4529f717f4be67df1e190b5db9f522d72e1820cc59bd5d24e5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:56:04.262Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

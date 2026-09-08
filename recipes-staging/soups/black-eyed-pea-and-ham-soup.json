@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "black-eyed-pea-and-ham-soup",
+  "name": "Black-Eyed Pea and Ham Soup",
+  "subtitle": "A hearty, slow-simmered bean soup",
+  "description": "Tender black-eyed peas, ham, carrot, and onion come together in a simple, warming soup.",
+  "meal_type": "soup",
+  "cuisine": "Southern",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 150,
+    "inactive_minutes": 375
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-black-eyed-peas",
+      "item": "dry black-eyed peas",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "5 ounce"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Soak the black-eyed peas in enough water to cover for 6 hours and 15 minutes.",
+      "timer_minutes": 375
+    },
+    {
+      "step": 2,
+      "text": "Drain the peas."
+    },
+    {
+      "step": 3,
+      "text": "Combine the peas, ham, carrot, onion, and salt and pepper in a large pot. Add enough water to cover."
+    },
+    {
+      "step": 4,
+      "text": "Bring to a boil, then reduce the heat and simmer until the peas are tender, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Check the ham with a food thermometer; if it is not fully cooked, heat it to 145°F and let it rest for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Stir the soup and serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "black-eyed-peas",
+    "ham",
+    "southern"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22869/best-soup-this-side-of-the-mississippi/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21924cf3309242746e29ffaeaacadf255d11c48501ad8eff891bbebf099db165",
+    "normalized_text_hash": "b0546c86155621a5ea2d4b09f9d176828aca5dd5477b166dc9873ae245036a8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:40:04.522Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

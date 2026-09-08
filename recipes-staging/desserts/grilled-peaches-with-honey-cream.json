@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-peaches-with-honey-cream",
+  "name": "Grilled Peaches with Honey Cream",
+  "subtitle": "Warm fruit with a cool, nutty topping",
+  "description": "Grilled peach halves are finished with honey cream cheese and chopped nuts for a simple summer dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peaches",
+      "item": "peaches",
+      "quantity": 4,
+      "preparation": "halved and pitted"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "clover-honey",
+      "item": "clover honey",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "soft-cream-cheese-with-honey-and-nuts",
+      "item": "soft cream cheese with honey and nuts",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "nuts",
+      "item": "nuts",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill. Lightly coat the peach halves with vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Grill the peaches for 5 minutes, turning as needed, until lightly marked and tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the cream cheese with the honey until smooth and evenly combined.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Serve the warm peaches topped with the honey cream and chopped nuts."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "grilled",
+    "peaches",
+    "summer",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "grill",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86362/grilled-peaches-and-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5e889ec4302cc6d5031e880669d68479b60cc7b4072b4de60642daafe9ead244",
+    "normalized_text_hash": "3fae951396091ebc295a7ab5108d0026aca0dd8aa3da5cfe4558d0c25ddab303",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:08:12.019Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

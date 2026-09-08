@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-nachos",
+  "name": "Chicken Nachos",
+  "subtitle": "Layered chips with spiced chicken, chilies, and melted cheese",
+  "description": "Crisp tortilla chips are topped with seasoned chicken, green chilies, and shredded cheese, then baked until hot and melted.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 2,
+      "preparation": "boneless chicken breast halves - chopped"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cayenne-pepper",
+      "item": "cayenne pepper",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "corn-tortilla-chips",
+      "item": "corn tortilla chips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, or as needed"
+    },
+    {
+      "ingredient_id": "green-chilies",
+      "item": "green chilies",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "7 ounce, diced, drained"
+    },
+    {
+      "ingredient_id": "mexican-style-cheese-blend",
+      "item": "Mexican-style cheese blend",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the vegetable oil and cayenne pepper. Toss the chopped chicken with the mixture and let it stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 325°F."
+    },
+    {
+      "step": 3,
+      "text": "Cook the seasoned chicken in a skillet until no longer pink and the thickest pieces reach 165°F on a food thermometer."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the tortilla chips in a baking dish or on a sheet pan. Scatter the cooked chicken and drained green chilies over the chips, then cover with the shredded cheese."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the cheese is melted and the nachos are hot, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 6,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "nachos",
+    "chicken",
+    "mexican-inspired",
+    "shareable"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish or sheet pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/74433/chicken-nachos/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "79a86cface72dfd7ad29aa95839bbbc244a1ff819b1015ec5f7e5f8a0cf7e616",
+    "normalized_text_hash": "0430f634f206e829c48c202fd12f3e01f8813320f061c2585c7887118764e519",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:10:57.140Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-candy-bars",
+  "name": "Peanut Butter Candy Bars",
+  "subtitle": "Crunchy peanut butter candy with a chocolate coating",
+  "description": "Melted candy corn and crunchy peanut butter form the center, finished with a semisweet chocolate shell.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "candy-corn",
+      "item": "candy corn",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "18-ounce-jar-crunchy-peanut-butter",
+      "item": "(18 ounce) jar crunchy peanut butter",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "bag",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "vegetable-shortening",
+      "item": "vegetable shortening",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or more if needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the candy corn in a saucepan over low heat, stirring until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the crunchy peanut butter and continue mixing until fully melted and combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a lined pan and spread it into an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Melt the semisweet chocolate chips with the vegetable shortening, adding more shortening if needed for a smooth coating."
+    },
+    {
+      "step": 5,
+      "text": "Spread the chocolate mixture over the candy layer."
+    },
+    {
+      "step": 6,
+      "text": "Chill until firm, about 30 minutes, then cut into 24 servings.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "peanut-butter",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "spatula",
+    "lined pan",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228403/easy-butter-fingers-candy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "88d094665aa467ea586e3ad5b464b253a96f49b7ae788a190470935052eb4236",
+    "normalized_text_hash": "36f917f94f2b836f972129bebbe0e8a4cf1819e14315d2df790ce6a27457fd69",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:23:42.663Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

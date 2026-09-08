@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "philly-steak-sandwiches",
+  "name": "Philly Steak Sandwiches",
+  "subtitle": "Tender beef, sautéed vegetables, and melted provolone in toasted rolls.",
+  "description": "A straightforward American sandwich layered with seasoned beef, mushrooms, peppers, onions, and provolone.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "preparation": "seeded and sliced into strips"
+    },
+    {
+      "ingredient_id": "thinly-sliced-roast-beef",
+      "item": "thinly sliced roast beef",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "seasoned-salt-to-taste",
+      "item": "seasoned salt to taste"
+    },
+    {
+      "ingredient_id": "slices-provolone-cheese",
+      "item": "slices provolone cheese",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "submarine-rolls",
+      "item": "submarine rolls",
+      "quantity": 4,
+      "preparation": "halved"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a large skillet or griddle over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Cook the mushrooms, onion, and bell pepper until softened."
+    },
+    {
+      "step": 3,
+      "text": "Add the roast beef and season with salt and seasoned salt. Stir until heated through and tender; if using raw beef, verify it reaches 145°F, then rest for 3 minutes."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the provolone over the beef mixture, cover briefly, and heat until melted."
+    },
+    {
+      "step": 5,
+      "text": "Divide the filling among the halved submarine rolls and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "sandwich",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet or griddle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/80937/griddle-style-philly-steak-sandwiches/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e84cf3dc8e148058ec3974338ab98a368e25c4a321e514a9e44b2a7d16f3cda1",
+    "normalized_text_hash": "7253d01734204608aef22a87899347cd65c9dccea96eabf68890487bfa49455d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:02:35.260Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cape-cod-cocktail",
+  "name": "Cape Cod Cocktail",
+  "subtitle": "A crisp vodka and cranberry drink with lime",
+  "description": "A simple American cocktail combining vodka, cranberry juice, ice, and a lime wedge.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes"
+    },
+    {
+      "ingredient_id": "fluid-ounces-vodka",
+      "item": "fluid ounces vodka",
+      "quantity": 1.5
+    },
+    {
+      "ingredient_id": "cranberry-juice",
+      "item": "cranberry juice",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "wedge-lime",
+      "item": "wedge lime",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with ice cubes."
+    },
+    {
+      "step": 2,
+      "text": "Add the vodka and cranberry juice, then stir briefly."
+    },
+    {
+      "step": 3,
+      "text": "Add the lime wedge and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "vodka",
+    "cranberry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14889/cape-cod/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "637c3edd5a0f3994f3983fa9d75f2692cfde5a9e0d29c771c778fe34272275f1",
+    "normalized_text_hash": "738f496e16788072ac26774c48f72789cbb195a81d359db5f5d4706e7d7b9537",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:49:56.086Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

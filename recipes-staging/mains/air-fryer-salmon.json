@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-salmon",
+  "name": "Air Fryer Salmon",
+  "subtitle": "Herb-seasoned fillets with optional greens and grains",
+  "description": "Tender salmon fillets cooked in the air fryer and served with seasonal greens and grains if desired.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "pepper",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "mixed-herbs",
+      "item": "mixed herbs",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garlic-granules",
+      "item": "garlic granules (optional)",
+      "quantity": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "salmon-fillets-we-used-4-x-130g-fillets",
+      "item": "salmon fillets (we used 4 x 130g fillets)",
+      "quantity": 4,
+      "preparation": "skin on or removed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": "1/2",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "seasonal-greens-and-grains-such-as-quinoa-or-brown-rice",
+      "item": "seasonal greens and grains such as quinoa or brown rice",
+      "preparation": "cooked, to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the salt, pepper, mixed herbs, and optional garlic granules."
+    },
+    {
+      "step": 2,
+      "text": "Brush the salmon fillets with olive oil and coat with the seasoning mixture."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the fillets in the air fryer basket and cook until the salmon reaches 145°F internally, or is opaque and flakes easily.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Serve with optional cooked seasonal greens and grains."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer",
+    "salmon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "air fryer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-salmon",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "218534b5a981126348590940dccf926ed83d504cbf733934ffb303cb91f7bcfd",
+    "normalized_text_hash": "5f573e856ce0df185a440b02a91dcf9ff6d045f2aea2f40c87e049e88302dd2d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:30:09.770Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

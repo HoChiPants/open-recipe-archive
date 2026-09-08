@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "crab-legs-with-garlic-butter-sauce",
+  "name": "Crab Legs with Garlic Butter Sauce",
+  "subtitle": "Warm crab with a seasoned garlic-butter dip",
+  "description": "Crab clusters are heated in a quick garlic butter sauce seasoned with parsley, pepper, and salt.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "snow-crab-clusters",
+      "item": "Snow Crab clusters",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "thawed if necessary"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the crab clusters as needed for serving."
+    },
+    {
+      "step": 2,
+      "text": "Warm the butter in a pan over medium heat. Add the garlic and cook for 2 minutes, stirring.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Stir in the parsley, black pepper, and salt."
+    },
+    {
+      "step": 4,
+      "text": "Add the crab and turn the clusters to coat them with the butter. Cover and simmer for 6 minutes, until the shellfish is hot and the meat is opaque.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 5,
+      "text": "Serve the crab with the garlic butter sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "seafood",
+    "shellfish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "shellfish"
+  ],
+  "equipment": [
+    "pan",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/155375/crab-legs-with-garlic-butter-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7caa7d24d1cfc7d18ca963e82e308e969915da0a81dac3624fa10a5c822d0e9a",
+    "normalized_text_hash": "e3a03bb8325e723e4a31ba5f1b7090b98efead947840ddc24e5147c3ae3c48e3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:16:38.458Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

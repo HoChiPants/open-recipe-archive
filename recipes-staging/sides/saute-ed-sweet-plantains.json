@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "saute-ed-sweet-plantains",
+  "name": "Sautéed Sweet Plantains",
+  "subtitle": "Golden, caramelized plantain slices",
+  "description": "Very ripe plantains are quickly sautéed with butter, brown sugar, and salt for a sweet, tender side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-oil-for-frying",
+      "item": "peanut oil for frying",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "yellow-plantains-very-ripe",
+      "item": "yellow plantains (very ripe)",
+      "quantity": 3,
+      "preparation": "peeled and cut in 1-inch-thick slices"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the peanut oil and butter together in a skillet over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the brown sugar and plantain slices. Sauté for 2 minutes, turning as needed, until golden brown.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Sprinkle with the salt and serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "plantains",
+    "sweet",
+    "latin-american-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "peanuts"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/146246/sauteed-sweet-plantains-tajaditas-dulces-de-platano/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f3257a8932bbbae8fa9f2da9ca201135bc97dffa6f4a78a4111d1fef63935d46",
+    "normalized_text_hash": "6ca61ac6e395b58b3474be704a9e1ac820e0d7d19515ca875d8d432d5bd8d7c7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:54:23.444Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

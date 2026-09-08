@@ -1,0 +1,157 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-dog-relish",
+  "name": "Hot Dog Relish",
+  "subtitle": "Tangy chopped vegetable relish with mustard seed",
+  "description": "A sweet-tart relish made from chopped green vegetables, cabbage, vinegar, and warm spices. Chill before serving and refrigerate leftovers.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 100,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green-bell-peppers",
+      "item": "green bell peppers",
+      "quantity": 12,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-tomatoes",
+      "item": "green tomatoes",
+      "quantity": 10,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "coarsely-chopped-cabbage",
+      "item": "coarsely chopped cabbage",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mustard-seed",
+      "item": "mustard seed",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "turmeric",
+      "item": "turmeric",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "celery-seed",
+      "item": "celery seed",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chopped bell peppers, green tomatoes, onions, and cabbage in a large bowl. Mix in the salt, cover, and refrigerate for 8 hours or overnight.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Drain the vegetables thoroughly, rinse them with the cold water, and drain again."
+    },
+    {
+      "step": 3,
+      "text": "In a large pot, combine the sugar, vinegar, cold water, mustard seed, turmeric, and celery seed."
+    },
+    {
+      "step": 4,
+      "text": "Bring the seasoned vinegar mixture to a simmer, then add the drained vegetables."
+    },
+    {
+      "step": 5,
+      "text": "Simmer gently for 10 minutes, stirring occasionally.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Cool the relish, transfer it to clean containers, cover, and refrigerate before serving."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "relish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large bowl",
+    "colander",
+    "large pot",
+    "clean storage containers"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87629/hot-dog-relish/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2ab99895e224ad7727ce250b898b67f17c16887776345c6fd01df9d9925ad4b0",
+    "normalized_text_hash": "4f97339b6046124f0c6dcd2d82683862df538b9616bb4212fd06d85180d29949",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:52:14.801Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

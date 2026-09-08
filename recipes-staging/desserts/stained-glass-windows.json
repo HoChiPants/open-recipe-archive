@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stained-glass-windows",
+  "name": "Stained Glass Windows",
+  "subtitle": "Chocolate, coconut, and marshmallow slice",
+  "description": "A simple no-bake confection made with a smooth chocolate mixture, colorful marshmallows, walnuts, and coconut.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "rainbow-colored-miniature-marshmallows",
+      "item": "rainbow colored miniature marshmallows",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10.5 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter and semisweet chocolate chips together over low heat, stirring until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Let the mixture cool briefly, then fold in the walnuts and rainbow colored miniature marshmallows."
+    },
+    {
+      "step": 3,
+      "text": "Spread the flaked coconut on a work surface. Transfer the mixture onto it and shape into a firm log, coating the outside with coconut."
+    },
+    {
+      "step": 4,
+      "text": "Chill until set, then cut into thick slices."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chocolate",
+    "coconut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18400/stained-glass-candy-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7942e4fe0bc1defd216e777b5951d7fe0527eaf163532dd4d610922d05f0a38a",
+    "normalized_text_hash": "d8e12b23983d9d571ea329bf703e2f0dc82d71d98f5c1585f75bb7d1554fef69",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:48:37.413Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

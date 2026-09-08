@@ -1,0 +1,165 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-sticky-toffee-pudding",
+  "name": "Banana Sticky Toffee Pudding",
+  "subtitle": "Warm banana sponge with buttery toffee sauce",
+  "description": "A soft date-and-banana sponge baked until set and served with warm toffee sauce and optional vanilla ice cream.",
+  "meal_type": "dessert",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dates",
+      "item": "dates",
+      "quantity": 200,
+      "unit": "g",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "bicarbonate-of-soda",
+      "item": "bicarbonate of soda",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "very-ripe-bananas-mashed",
+      "item": "very ripe bananas mashed",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "soft-light-brown-sugar",
+      "item": "soft light brown sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vanilla-ice-cream-to-serve",
+      "item": "vanilla ice cream to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the dates into small pieces. Simmer them until softened, then stir in the bicarbonate of soda and vanilla extract; rest for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven and butter a baking tin using the extra butter."
+    },
+    {
+      "step": 3,
+      "text": "Beat the softened butter and soft light brown sugar until blended. Whisk in the mashed bananas and eggs, then fold in the self-raising flour and softened date mixture."
+    },
+    {
+      "step": 4,
+      "text": "Spread the batter in the prepared tin and bake for 45 minutes, until firm in the center and at least 160°F internally.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 5,
+      "text": "For the sauce, melt the unsalted butter with the light brown soft sugar. Stir in the double cream and remaining vanilla extract, then whisk for about 3 minutes until thick.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Serve the warm pudding with the toffee sauce and optional vanilla ice cream."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "british",
+    "pudding",
+    "banana",
+    "dates",
+    "sticky-toffee"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking tin",
+    "saucepan",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blitz-and-bake-banana-sticky-toffee-pudding",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "80cc7799c1665b085cc8eefe872fab516530a9f71f0db840b5d0039bda2e90e4",
+    "normalized_text_hash": "b2ff153eed3f569b2ec1e9e7c96cbd388e479340c2b7a5f0cd2e3f1966aa83d1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:39:30.094Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

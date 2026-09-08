@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "zucchini-pasta",
+  "name": "Zucchini Pasta",
+  "subtitle": "Rotini with tender zucchini, garlic, parsley, and Parmesan",
+  "description": "A simple Italian-style pasta tossed with sautéed zucchini, garlic, parsley, red pepper flakes, and Parmesan.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rotini-pasta",
+      "item": "rotini pasta",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "zucchini",
+      "item": "zucchini",
+      "quantity": 5,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "red-pepper-flakes",
+      "item": "red pepper flakes",
+      "quantity": 1,
+      "unit": "pinch",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of salted water to a boil. Cook the rotini for 10 minutes, then drain.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a large skillet. Add the garlic, red pepper flakes, and salt and pepper to taste; cook briefly until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Add the zucchini and parsley. Cook for 3 minutes, until the zucchini is tender.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Add the drained pasta and toss until combined. Stir in the Parmesan, then adjust the red pepper flakes and salt and pepper to taste."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "pasta",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15056/zucchini-pasta/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "424575993638ad7d27287c8608f8e1e957d27b825b3011de5acacd09dec111bf",
+    "normalized_text_hash": "cd32c05d989a287a09868cc54f1bef4c495dc0dc0ab0bfb4c19ed9c7a9ece50b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:17:33.642Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

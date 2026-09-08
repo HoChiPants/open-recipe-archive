@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chickpea-tofu",
+  "name": "Chickpea Tofu",
+  "subtitle": "A firm, sliceable chickpea-based tofu alternative",
+  "description": "Cooked chickpea flour sets into a smooth, versatile tofu-style block.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "gram-chickpea-flour",
+      "item": "gram (chickpea) flour",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-turmeric",
+      "item": "ground turmeric (optional)",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "flavourless-oil-for-the-tin",
+      "item": "flavourless oil for the tin (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the chickpea flour and optional turmeric with water until smooth and lump-free."
+    },
+    {
+      "step": 2,
+      "text": "Preheat the mixture while whisking until it thickens, then continue cooking for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Lightly oil a tin if using oil, then transfer the hot mixture into it and smooth the surface."
+    },
+    {
+      "step": 4,
+      "text": "Let the mixture cool until smooth and firm, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Chill or rest until fully set, about 2 hours, then cut into pieces.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "vegan",
+    "chickpea",
+    "tofu-alternative",
+    "plant-based"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "saucepan",
+    "tin"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chickpea-tofu",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1c2b3f0e098afb0d6a230bf620385f03ffff526eebe71ee5a0b88f15bc4a4e99",
+    "normalized_text_hash": "2c8be2e38d1faad82e1068d960bcb1ba326c8cba36e3d1283575dfdadd093831",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:57:19.525Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

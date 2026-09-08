@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-fried-potatoes",
+  "name": "Cheesy Fried Potatoes",
+  "subtitle": "Crisp potatoes with bacon, eggs, and melted Cheddar",
+  "description": "A hearty American breakfast skillet combining golden potatoes, bacon, eggs, and shredded Cheddar.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a skillet over medium heat until crisp. Transfer it to a plate, leaving the drippings in the skillet."
+    },
+    {
+      "step": 2,
+      "text": "Add the butter to the skillet. Stir in the onion and potatoes, and cook until the potatoes are golden brown and tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Stir the eggs into the potatoes. Add the bacon, salt and pepper, and Cheddar."
+    },
+    {
+      "step": 4,
+      "text": "Cook, stirring gently, until the eggs are fully set and reach 160°F, and the cheese is melted."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "skillet",
+    "potatoes",
+    "cheese",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20511/cheesy-fried-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "12d1c1959cebd184bd098f60385ce8a993405bc17fe8afcd06123f2acc52fc28",
+    "normalized_text_hash": "305add5bd0c508cb7d4ccae4fb2b0a4f545b0072eb7087e0bcaefb274b08addb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:12:46.737Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-pizza-with-marshmallow-fluff",
+  "name": "Fruit Pizza with Marshmallow Fluff",
+  "subtitle": "Soft cookie crust with a creamy marshmallow topping",
+  "description": "A baked sugar-cookie base is cooled, topped with a marshmallow and cream cheese mixture, and chilled before serving.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "refrigerated-sugar-cookie-dough",
+      "item": "refrigerated sugar cookie dough",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18 ounce"
+    },
+    {
+      "ingredient_id": "7-ounce-jar-marshmallow-creme",
+      "item": "(7 ounce) jar marshmallow creme",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Press the sugar cookie dough into an even layer in a baking pan."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the crust is lightly browned, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Let the crust cool completely."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the marshmallow creme and softened cream cheese until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the mixture to the cooled crust, spread evenly, and chill before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "cookie-crust",
+    "no-fruit-specified"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24183/fruit-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "552994f5768c522373935528d4105f0d64c94466e8fe8ca1cb04778c91e0384a",
+    "normalized_text_hash": "35970eb0b660b8d4d2b310b619479ae5e39c79f59f805bef1dd24342cef95c0d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:30:53.204Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

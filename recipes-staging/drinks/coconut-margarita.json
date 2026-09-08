@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coconut-margarita",
+  "name": "Coconut Margarita",
+  "subtitle": "A chilled tequila cocktail with coconut, lime, and a lightly sweet-salty finish.",
+  "description": "Shake tequila, coconut rum, lime, and ice with a coconut-lime seasoning mixture, then serve cold.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tequila-reposado",
+      "item": "tequila reposado",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "coconut-rum",
+      "item": "coconut rum",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes"
+    },
+    {
+      "ingredient_id": "sea-salt-flakes",
+      "item": "sea salt flakes",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dessicated-coconut",
+      "item": "dessicated coconut",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "lime-zested",
+      "item": "lime zested",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Chill a serving glass. Combine the sea salt flakes, golden caster sugar, dessicated coconut, and lime zest in a small dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the tequila reposado, lime juice, and coconut rum to a shaker with the coconut-lime mixture and ice cubes."
+    },
+    {
+      "step": 3,
+      "text": "Shake vigorously until thoroughly chilled, then strain into the chilled glass."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "alcoholic",
+    "coconut",
+    "lime",
+    "margarita",
+    "tequila"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "serving glass",
+    "small dish"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coconut-margarita",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "29bc6eb4adce5f7d9a05eeea4b7cdc8a88a3ce62bbdf2f1702ab770fca6be56c",
+    "normalized_text_hash": "055af7c1b2d229d881b22cc8ea80b47a1b8f5442fa09499683d7e1f85bba240c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:38:32.788Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

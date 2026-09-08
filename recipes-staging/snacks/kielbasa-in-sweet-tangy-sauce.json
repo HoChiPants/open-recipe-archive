@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "kielbasa-in-sweet-tangy-sauce",
+  "name": "Kielbasa in Sweet-Tangy Sauce",
+  "subtitle": "Tender sausage pieces coated in a simple glossy sauce",
+  "description": "Slice kielbasa and warm it in a two-ingredient sweet-tangy sauce for an easy party snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "kielbasa-sausage",
+      "item": "kielbasa sausage",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "grape-jelly",
+      "item": "grape jelly",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the kielbasa into bite-size pieces."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the ketchup and grape jelly to a large saucepan or slow cooker and heat until combined and smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the kielbasa, stir to coat, and cook for 30 minutes, until hot throughout and the sausage reaches 160°F.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "party-snack",
+    "sausage",
+    "easy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large saucepan or slow cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17605/party-kielbasa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9b9c4d2d34dd0ef1a0050bc9b0b02d19f5c90e60ef267103d800f2752d6ecc0c",
+    "normalized_text_hash": "8c0b58858624cf788234fd227f0c6228c7c323cb6ffa180b75d16292fa8efcd6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:51:56.424Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-cupcakes",
+  "name": "Banana Cupcakes",
+  "subtitle": "Moist banana cupcakes with pecans and a sweet finish",
+  "description": "Tender banana cupcakes with chopped pecans, baked until set and finished with sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 3,
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "lightly beaten"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 300°F. Line a 14-cup muffin tin with paper liners."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the mashed bananas with the white sugar and confectioners' sugar until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Add the lightly beaten eggs, then whisk in the vegetable oil for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Stir in the flour, baking soda, and buttermilk until just combined."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the chopped pecans. Divide the batter among the liners."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, or until the cupcakes are set and a tester comes out clean.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Cool briefly, then finish with the specified white sugar and confectioners' sugar as desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cupcakes",
+    "banana",
+    "baking",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "14-cup muffin tin",
+    "paper liners",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230204/maris-banana-cupcakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "473fd7c46cf2b0be60c7f5eeb52899e2b8024437c6f92b1977d2f239b4014815",
+    "normalized_text_hash": "5f55b1d3b39029a0bc7901e0c1c8f2076bf9dc7944d6c1e7b4b3cb91ab1b9cb0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:20:43.688Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

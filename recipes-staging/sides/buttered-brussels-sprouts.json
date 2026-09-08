@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buttered-brussels-sprouts",
+  "name": "Buttered Brussels Sprouts",
+  "subtitle": "Crisp air-fried sprouts with lemon zest",
+  "description": "Halved Brussels sprouts are air-fried until tender and finished with melted butter and lemon zest.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brussels-sprouts-trimmed-and-halved",
+      "item": "brussels sprouts trimmed and halved",
+      "quantity": 750,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lemon-zested",
+      "item": "lemon zested",
+      "quantity": "1/2"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toss the trimmed, halved Brussels sprouts with the vegetable oil."
+    },
+    {
+      "step": 2,
+      "text": "Air-fry the sprouts for 25 minutes, until cooked through and browned.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Transfer the cooked sprouts to a serving bowl."
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter, then toss it with the sprouts and lemon zest before serving."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "air-fryer",
+    "brussels-sprouts"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/buttered-brussels-sprouts",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "994c39b050ecb0639c78cf9bb0d3a54e8ba2e76ed340abb196e506138866f10e",
+    "normalized_text_hash": "fe46254455ec1cc9654364bc261df722df1160d71f576c05e1da7b86591efd19",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T20:08:24.416Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

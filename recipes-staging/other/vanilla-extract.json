@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-extract",
+  "name": "Vanilla Extract",
+  "subtitle": "A simple vanilla infusion for baking and desserts",
+  "description": "Split vanilla beans steeped in vodka create a fragrant homemade extract.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 200,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 30240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vanilla-beans",
+      "item": "vanilla beans",
+      "quantity": 10,
+      "preparation": "split lengthwise"
+    },
+    {
+      "ingredient_id": "vodka",
+      "item": "vodka",
+      "quantity": 1,
+      "unit": "liter"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the split vanilla beans in a clean, sealable glass jar."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the vodka, seal the jar, and gently shake to combine."
+    },
+    {
+      "step": 3,
+      "text": "Let the mixture rest in a cool, dark place for 21 days.",
+      "timer_minutes": 30240
+    },
+    {
+      "step": 4,
+      "text": "Transfer the infused vodka to a clean bottle or jar for use."
+    },
+    {
+      "step": 5,
+      "text": "Keep the vanilla beans with the extract or remove them before storing."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "sealable glass jar",
+    "clean bottle or jar"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/74989/homemade-vanilla-extract/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6a3de857782ce0546128004879a564008daca7bb0c3cc80e5a8b6fe0234e3059",
+    "normalized_text_hash": "9c7da2787ae09fd12db1c9bb69116cd401d58048e37b8709316befc3179af71d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:43:07.949Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

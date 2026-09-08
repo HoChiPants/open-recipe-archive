@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "irish-cream-coffee",
+  "name": "Irish Cream Coffee",
+  "subtitle": "Rich coffee with a smooth cream liqueur finish",
+  "description": "Combine hot brewed coffee with Irish cream liqueur for a simple warm drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "strong-brewed-coffee",
+      "item": "strong brewed coffee",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "1-5-fluid-ounce-jigger-irish-cream-liqueur",
+      "item": "(1.5 fluid ounce) jigger Irish cream liqueur",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the strong brewed coffee into a heatproof mug."
+    },
+    {
+      "step": 2,
+      "text": "Add the Irish cream liqueur and whisk briefly to combine. Serve warm."
+    }
+  ],
+  "tags": [
+    "drink",
+    "coffee",
+    "irish-cream",
+    "warm-beverage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "heatproof mug",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21683/irish-cream-and-coffee/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "46c6a3c4b7ece045d120b4aeda17d40c5c4a43b6c5fdeb7bbf1ba73bcc402870",
+    "normalized_text_hash": "c6a5867807426c73336d96cfa1521dc5aae52b1f8314845a77dc8ce8758b0f26",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:14:13.494Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

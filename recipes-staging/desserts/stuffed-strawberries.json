@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stuffed-strawberries",
+  "name": "Stuffed Strawberries",
+  "subtitle": "Fresh berries with a smooth citrus cream filling",
+  "description": "Hulled strawberries are opened for a simple cream cheese filling flavored with orange liqueur and confectioners' sugar.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-strawberries",
+      "item": "fresh strawberries",
+      "quantity": 1,
+      "unit": "pint"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "orange-flavored-liqueur",
+      "item": "orange flavored liqueur",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse and dry the strawberries. Remove the stems, then make two intersecting cuts in the pointed end of each berry without cutting through the base."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese, confectioners' sugar, and orange flavored liqueur until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the filling to a piping bag or small spoon. Gently open each strawberry and fill the center."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the stuffed strawberries on a serving plate and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "strawberries",
+    "no-cook",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "piping bag or small spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/104493/stuffed-strawberries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7e59bb9dfc7a6b6a504ca1b12d53ae2c9ee7484a0ee75af45f2ce9f74fa51532",
+    "normalized_text_hash": "57e911aba3a2631e0c8d7485947e3f5254059c261ba6b9324f9fbc7614b2d5c6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:06:26.472Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

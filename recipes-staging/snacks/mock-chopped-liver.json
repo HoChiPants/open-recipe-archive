@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mock-chopped-liver",
+  "name": "Mock Chopped Liver",
+  "subtitle": "A chilled lentil and walnut spread",
+  "description": "Tender lentils, browned onion, and walnuts blend into a savory spread for serving chilled.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 35,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lentil",
+      "item": "lentils",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cubes-chicken-bouillon",
+      "item": "cubes chicken bouillon",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra virgin olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, lentils, and bouillon cubes in a saucepan. Bring to a simmer and cook for 30 minutes, until the lentils are tender. If the bouillon contains uncooked poultry, verify the mixture reaches 165°F.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Drain the lentils thoroughly."
+    },
+    {
+      "step": 3,
+      "text": "Warm the olive oil in a skillet and cook the chopped onion until softened and lightly browned."
+    },
+    {
+      "step": 4,
+      "text": "Blend the lentils, onion, and walnuts until nearly smooth. Season with salt and pepper to taste."
+    },
+    {
+      "step": 5,
+      "text": "Cover and chill for at least 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "spread",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "skillet",
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16835/mock-chopped-liver/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9f5053a165f5465d1d8027db37fd836d2bff3d7a52986559d0aa58bb9749ac03",
+    "normalized_text_hash": "eceae31d1be89058e2a957519f1088f041070e030aca5120cd953338e02f259a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:47:53.310Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

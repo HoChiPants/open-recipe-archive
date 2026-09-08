@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-in-a-cup",
+  "name": "Egg in a Cup",
+  "subtitle": "A quick egg breakfast with buttery crackers",
+  "description": "Soft-cooked eggs are served over buttered saltine crackers and seasoned simply with salt and pepper.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 1,
+    "cook_minutes": 3
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "saltine-crackers",
+      "item": "saltine crackers",
+      "quantity": 15
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a small pot of water to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Add the eggs and cook for 3 minutes, or until the whites are set and the centers reach 160°F for a fully cooked egg.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "While the eggs cook, prepare two cups with the saltine crackers and softened butter."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the eggs to the cups, combine with the crackers and butter, and season with salt and pepper."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick",
+    "egg",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "small pot",
+    "2 cups"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70448/egg-in-a-cup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9b29d77f07ce81bd0601c366e13e6d89b14c1ffaf413100de0d19aea4238e6be",
+    "normalized_text_hash": "639e0b3f3378f04e2d9df0098fad1dbc47a71cbd8aa352791ab3b12db43ae675",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:54:47.408Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

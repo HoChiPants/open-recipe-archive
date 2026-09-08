@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-bagel",
+  "name": "Chicken Bagel",
+  "subtitle": "Avocado, chicken, and spinach on sesame bagels",
+  "description": "A quick assembled bagel layered with seasoned avocado, chopped tomatoes, shredded cooked chicken, and fresh spinach.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-avocado",
+      "item": "ripe avocado",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "lime-juiced",
+      "item": "lime juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes-finely-chopped",
+      "item": "cherry tomatoes finely chopped",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sesame-bagels",
+      "item": "sesame bagels",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "chicken-shredded",
+      "item": "chicken shredded",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "spinach",
+      "item": "spinach",
+      "quantity": 30,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mash the avocado with the olive oil and juice from the lime. Fold in the chopped cherry tomatoes."
+    },
+    {
+      "step": 2,
+      "text": "Cut the bagels in half. Divide the spinach and shredded cooked chicken between the bagel bottoms."
+    },
+    {
+      "step": 3,
+      "text": "Spoon the avocado mixture over the chicken, add the bagel tops, and serve. If reheating the chicken before assembly, heat it to 165°F."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "bagel",
+    "chicken",
+    "avocado",
+    "spinach"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "knife",
+    "mixing bowl",
+    "fork"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-bagel",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8a2797814d272051ccdab4ee161b9773ebdac3528d67d6b5f34abdc367fd99b5",
+    "normalized_text_hash": "975ab350a96eab0ab988b92aff7b6f0dddcf34976fc12f48c3820170f40f2069",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:25:03.983Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

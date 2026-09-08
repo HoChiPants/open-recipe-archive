@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-crisp-with-canned-peaches",
+  "name": "Peach Crisp with Canned Peaches",
+  "subtitle": "A warm fruit dessert with a cinnamon-butter crumble topping.",
+  "description": "Drained peaches are topped with a simple cinnamon crumble and baked until golden brown.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peaches",
+      "item": "peaches",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "29 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chilled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the drained peaches in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the flour, sugar, cinnamon, and salt. Work in the chilled butter until the mixture forms a coarse crumble."
+    },
+    {
+      "step": 4,
+      "text": "Scatter the crumble evenly over the peaches."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until golden brown.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit-dessert",
+    "peach",
+    "baked-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18426/easy-peach-crisp-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "28004483351e7f13da2f06421d8eabd95e44b9321d371af53a2a4781872ad837",
+    "normalized_text_hash": "78c26f2452e613205d08609b0d6570b54b32b4c5d5f3d45f544b65dfe1ba97fe",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:57:36.130Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

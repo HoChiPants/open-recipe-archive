@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "coriander-juice",
+  "name": "Coriander Juice",
+  "subtitle": "A bright green blend with citrus and ginger",
+  "description": "Blend fresh coriander, cucumber, lemon, ginger, and maple syrup into a smooth juice-style drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "coriander-roughly-chopped",
+      "item": "coriander roughly chopped",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "ginger-finely-chopped",
+      "item": "ginger finely chopped",
+      "quantity": 5,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cucumber-roughly-chopped",
+      "item": "cucumber roughly chopped",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped coriander, cucumber, ginger, lemon juice, and maple syrup in a blender."
+    },
+    {
+      "step": 2,
+      "text": "Blend for 2 minutes, or until smooth.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "coriander",
+    "cucumber",
+    "juice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/coriander-juice",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c415c1debb55bacc548e6a4e7f537824a36fd9673dc16cf1d75da094f94200f1",
+    "normalized_text_hash": "b144d09271fd01d8266ebbc99352ea934f30159bb1457b3f8964a8fb46ab0922",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:56:12.729Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

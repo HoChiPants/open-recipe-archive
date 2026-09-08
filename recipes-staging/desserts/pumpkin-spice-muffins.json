@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-spice-muffins",
+  "name": "Pumpkin Spice Muffins",
+  "subtitle": "Soft pumpkin muffins with cinnamon chips and pecans",
+  "description": "A simple American-style muffin made with pumpkin puree, spice cake mix, cinnamon chips, and chopped pecans.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spice-cake-mix",
+      "item": "spice cake mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "18.25 ounce"
+    },
+    {
+      "ingredient_id": "pumpkin-puree",
+      "item": "pumpkin puree",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "cinnamon-chips",
+      "item": "cinnamon chips",
+      "quantity": 9,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Prepare muffin cups or a muffin pan for 18 portions."
+    },
+    {
+      "step": 2,
+      "text": "Stir together the spice cake mix and pumpkin puree until evenly combined. Fold in the cinnamon chips and chopped pecans."
+    },
+    {
+      "step": 3,
+      "text": "Divide the batter among the prepared muffin cups."
+    },
+    {
+      "step": 4,
+      "text": "Bake until the muffins are set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Cool the muffins in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "pumpkin",
+    "muffins",
+    "baking"
+  ],
+  "seasons": [
+    "fall"
+  ],
+  "allergens": [
+    "wheat",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "oven",
+    "muffin pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239068/easy-pumpkin-spice-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2b38588d315e8ab847f483fcda93f017d53fc5f4edde1fa80e6c1a3f4ea4377d",
+    "normalized_text_hash": "7dfdf05c70ff596133303ff9ce69926fbc10285ed3fe51099125462a2737eb24",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:42:37.332Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

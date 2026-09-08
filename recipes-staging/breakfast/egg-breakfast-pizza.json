@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "egg-breakfast-pizza",
+  "name": "Egg Breakfast Pizza",
+  "subtitle": "Savory breakfast pizzas with sausage, eggs, vegetables, bacon, and Cheddar",
+  "description": "Two crusts are layered with seasoned egg, sausage, vegetables, bacon, creamy celery sauce, and cheese, then baked until browned and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ground-sausage",
+      "item": "ground sausage",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "12-inch-prepared-pizza-crusts",
+      "item": "(12 inch) prepared pizza crusts",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-celery-soup",
+      "item": "condensed cream of celery soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "bacon-bits",
+      "item": "bacon bits",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "3 ounce"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Cook the ground sausage with the minced onion until the sausage reaches 160°F; drain well."
+    },
+    {
+      "step": 2,
+      "text": "Place the prepared crusts on baking sheets and bake for 7 minutes.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs, milk, salt and pepper, and chopped green bell pepper together. Cook the mixture until the eggs are firm and reach 160°F."
+    },
+    {
+      "step": 4,
+      "text": "Spread the condensed cream of celery soup over the crusts. Distribute the cooked egg mixture, sausage, and bacon bits over the top, then cover with the shredded Cheddar cheese."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until the cheese is golden brown and the center is fully set. Cut into portions and serve hot.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "pizza",
+    "egg-dish",
+    "sausage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheets",
+    "skillet",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23899/egg-breakfast-pizza/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b6fd614b01e488affc918af80908d082543e55f6682d524dfe064260597ce794",
+    "normalized_text_hash": "f23752e890c34f951edf4802b5100e08f4b185db4ff30d441dbc23a43b0bc35d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:54:32.050Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

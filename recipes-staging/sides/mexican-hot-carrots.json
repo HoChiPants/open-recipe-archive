@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-hot-carrots",
+  "name": "Mexican Hot Carrots",
+  "subtitle": "Tender carrots with jalapeños and tangy vinegar",
+  "description": "A bright, spicy vegetable side made by cooking carrots and chilling them with jalapeños, onions, and vinegar.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 6,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-sliced-jalapeno-peppers",
+      "item": "(16 ounce) jar sliced jalapeno peppers",
+      "quantity": 1,
+      "preparation": "with liquid"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "vinegar",
+      "item": "vinegar",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a boil. Add the carrots and cook until tender, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Drain the carrots and let them cool."
+    },
+    {
+      "step": 3,
+      "text": "Combine the cooled carrots, jalapeño peppers with their liquid, and sliced onions in a heatproof container."
+    },
+    {
+      "step": 4,
+      "text": "Combine the jalapeño liquid and vinegar, then bring the mixture to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Pour the hot vinegar mixture over the vegetables and let them cool."
+    },
+    {
+      "step": 6,
+      "text": "Cover and refrigerate for at least 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "vegetables",
+    "spicy",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pot",
+    "heatproof container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/200765/mexican-hot-carrots/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8342c259a56d72e524bc085e8a6f1013b5671767d245079c4e0609ab7618cc2f",
+    "normalized_text_hash": "d53d3709184ba2665f69ca7d8cbc224d70b7d275d0b624807baea723f81b4a65",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:35:55.598Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

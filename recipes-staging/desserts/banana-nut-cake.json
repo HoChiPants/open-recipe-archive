@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-nut-cake",
+  "name": "Banana Nut Cake",
+  "subtitle": "Moist banana cake with pecans and a simple cream frosting",
+  "description": "A tender banana cake folded with chopped pecans, cooled, frosted, and finished with pecan halves.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ripe-bananas",
+      "item": "ripe bananas",
+      "quantity": 3,
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "pecan-halves",
+      "item": "pecan halves",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Grease and flour a cake pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the flour and baking soda together."
+    },
+    {
+      "step": 3,
+      "text": "Beat the 1/2 cup butter and white sugar until light. Add the eggs one at a time, then mix in the vanilla and mashed bananas."
+    },
+    {
+      "step": 4,
+      "text": "Add the flour mixture alternately with the buttermilk, mixing just until combined. Fold in the chopped pecans."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and spread it evenly."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 350°F for 25 minutes, or until the center is fully set.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 7,
+      "text": "Cool the cake completely before frosting."
+    },
+    {
+      "step": 8,
+      "text": "Whisk the softened butter and confectioners' sugar until smooth. Gradually whisk in the heavy whipping cream until spreadable."
+    },
+    {
+      "step": 9,
+      "text": "Transfer the frosting to the cooled cake, spread it evenly, and decorate with the pecan halves."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "banana",
+    "cake",
+    "pecans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "cake pan",
+    "mixing bowls",
+    "whisk",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7610/banana-nut-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "80907e1445118e61b48d727be5a8bd975edc81a0528ace93fbd7abb19e37c0fa",
+    "normalized_text_hash": "73e92962e4836174d5d955e22391bc68b02196b8b0801a5f49ff864cd3efd468",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:59:05.091Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-scrambled-eggs-with-mozzarella-and-basil",
+  "name": "Creamy Scrambled Eggs with Mozzarella and Basil",
+  "subtitle": "Soft, cheesy eggs finished with fresh basil",
+  "description": "Sour cream and mozzarella make these scrambled eggs rich and tender, while basil adds a fresh finish.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the eggs and sour cream until smooth. Stir in the shredded mozzarella, then season with salt and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a nonstick skillet over medium-low heat."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the egg mixture and cook, stirring gently and frequently, until the eggs are fully set and reach 160°F.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Fold in the minced basil and serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "eggs",
+    "cheesy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "whisk",
+    "nonstick skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/194425/creamy-cheesy-scrambled-eggs-with-basil/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "12439a1706320e710981e70a3c9d29442e00ec78bec6d8583a4e20f623d8ca0a",
+    "normalized_text_hash": "e4c85e085c11b8a716a6ddf1454171f0ebb96f703c2dd3af78c424008605cf2d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:33:40.027Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

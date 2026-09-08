@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "white-gelatin-dessert",
+  "name": "White Gelatin Dessert",
+  "subtitle": "A chilled, creamy gelatin dessert with lemon and vanilla.",
+  "description": "Sweetened cream cheese, milk, and gelatin form a smooth chilled dessert folded with whipped topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "25-ounce-envelope-unflavored-gelatin",
+      "item": "(.25 ounce) envelope unflavored gelatin",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 0.33333331346512,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "frozen-whipped-topping",
+      "item": "frozen whipped topping",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese and sugar until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the gelatin into the boiling water until dissolved."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the milk, lemon juice, and vanilla into the cream cheese mixture, then blend in the dissolved gelatin."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the thawed whipped topping until evenly combined."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a serving dish and refrigerate until set, about 3 hours.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chilled",
+    "gelatin",
+    "cream-cheese",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/92316/white-gelatin/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "361cc468a20bc2f5e47abb0e8b1df9ab23fde30ea6baa141395d639543a8e295",
+    "normalized_text_hash": "7f5bd6cf3c4699642b80303829eca57371bac4716e1731819261474d3766c3cb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:03:17.062Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

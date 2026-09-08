@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "capirotada",
+  "name": "Capirotada",
+  "subtitle": "Mexican bread pudding with cinnamon syrup, fruit, cheese, and walnuts",
+  "description": "A layered bread pudding baked with cinnamon syrup, raisins, pineapple, cheese, and chopped walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cinnamon-sticks",
+      "item": "cinnamon sticks",
+      "quantity": 10
+    },
+    {
+      "ingredient_id": "1-pound-loaf-white-bread",
+      "item": "(1 pound) loaf white bread",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "pineapple-chunks",
+      "item": "pineapple chunks",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "colby-longhorn-cheese",
+      "item": "Colby longhorn cheese",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar, water, and cinnamon sticks in a saucepan. Bring to a simmer and cook for 15 minutes to make a syrup.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Slice the bread and spread the slices with butter. Arrange a layer in a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Scatter raisins, pineapple, chopped walnuts, and sliced cheese over the bread. Add another layer of bread and cheese."
+    },
+    {
+      "step": 5,
+      "text": "Remove the cinnamon sticks from the syrup and pour the syrup evenly over the assembled pudding."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 30 minutes, until the bread is soaked and the cheese is melted.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Let cool for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "mexican",
+    "bread-pudding",
+    "baked-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15327/capirotada-mexican-bread-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5c7164e998a0dfa446ee87335ee6c3da8f538debec2f7a3bdcdb6f5de462b0c0",
+    "normalized_text_hash": "7179feab30c70695289602407b0f98a879ce6d44923d58990e890d474c798ce9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:50:30.608Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

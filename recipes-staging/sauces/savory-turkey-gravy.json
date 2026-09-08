@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "savory-turkey-gravy",
+  "name": "Savory Turkey Gravy",
+  "subtitle": "Smooth, seasoned gravy for a crowd",
+  "description": "A simple turkey-stock gravy thickened with flour and finished with savory seasonings.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "turkey-stock",
+      "item": "turkey stock",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "poultry-seasoning",
+      "item": "poultry seasoning",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "celery-salt",
+      "item": "celery salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the turkey stock to a gentle simmer in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the water and flour together until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk the flour mixture into the simmering stock."
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the poultry seasoning, salt, ground black pepper, and celery salt."
+    },
+    {
+      "step": 5,
+      "text": "Cook at a gentle simmer, whisking often, until thickened and the gravy reaches 165°F on a food thermometer.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "sauce",
+    "gravy",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13527/savory-turkey-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b8b769522f13b466aee0134ee4752f13f20355e52d1ea36db4a7cf8556d56c59",
+    "normalized_text_hash": "cc1df228b6db7f3cb6ad7a95451307e4be69ec70e100bae39d0d2b2724a1e6df",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:56:29.982Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

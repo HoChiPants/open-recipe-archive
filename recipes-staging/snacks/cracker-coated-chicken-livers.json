@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cracker-coated-chicken-livers",
+  "name": "Cracker-Coated Chicken Livers",
+  "subtitle": "Seasoned chicken livers baked in a crisp cracker coating",
+  "description": "Butter-coated chicken livers are seasoned, coated with crushed crackers, and baked until fully cooked.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 0,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-chicken-livers",
+      "item": "fresh chicken livers",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "buttery-round-crackers",
+      "item": "buttery round crackers",
+      "quantity": 24,
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "italian-style-seasoning",
+      "item": "Italian-style seasoning",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the crushed buttery round crackers with the Italian-style seasoning."
+    },
+    {
+      "step": 3,
+      "text": "Coat the fresh chicken livers with the melted butter, then roll them in the cracker mixture."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the coated livers to a baking dish and bake for 45 minutes, until the centers reach 165°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8956/ritzy-chicken-livers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9fbf7d45aad28965130281321f9c652715cdfcd1c24b1ca73f8db6c0ec1e3657",
+    "normalized_text_hash": "c88f8425263954d18cc3800160aa90b28d3a17e55c61ca7fd804db942a0cd2fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:06:42.355Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

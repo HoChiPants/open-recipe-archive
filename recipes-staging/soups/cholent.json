@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cholent",
+  "name": "Cholent",
+  "subtitle": "Slow-cooked beef, beans, barley, and root vegetables",
+  "description": "A hearty slow-cooked stew combining brisket, beans, barley, and sweet root vegetables with paprika and tomato.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 600
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sunflower-oil",
+      "item": "sunflower oil",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-peeled-and-cut-into-2-5cm-chunks",
+      "item": "onion peeled and cut into 2.5cm chunks",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-chopped",
+      "item": "garlic cloves finely chopped",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "beef-brisket-cut-into-2-5cm-cubes-remove-sinew-and-excess-fat",
+      "item": "beef brisket cut into 2.5cm cubes (remove sinew and excess fat)",
+      "quantity": 1.2,
+      "unit": "kg"
+    },
+    {
+      "ingredient_id": "potatoes-approx-450g",
+      "item": "potatoes (approx 450g)",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and cut into 5cm chunks"
+    },
+    {
+      "ingredient_id": "sweet-potato-approx-250g",
+      "item": "sweet potato (approx 250g)",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and cut into 5cm chunks"
+    },
+    {
+      "ingredient_id": "parsnips-approx-225g",
+      "item": "parsnips (approx 225g)",
+      "quantity": 2,
+      "preparation": "peeled and cut into 2cm chunks"
+    },
+    {
+      "ingredient_id": "carrots-peeled-into-2cm-chunks",
+      "item": "carrots peeled into 2cm chunks",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "can-butter-beans-drained-and-rinsed",
+      "item": "can butter beans drained and rinsed",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "can-chickpeas-drained-and-rinsed",
+      "item": "can chickpeas drained and rinsed",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "pearl-barley",
+      "item": "pearl barley",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "date-syrup-or-regular-honey",
+      "item": "date syrup or regular honey",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "sweet-paprika",
+      "item": "sweet paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "tomato-pure-e",
+      "item": "tomato purée",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "onion-granules",
+      "item": "onion granules",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the sunflower oil in a large pan over medium heat. Add the onion and onion granules; cook until softened, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic and cook for 3 minutes, stirring.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Arrange the potatoes, sweet potato, parsnips, carrots, butter beans, chickpeas, pearl barley, brisket, date syrup or honey, paprikas, tomato purée, and the onion mixture in a slow cooker. Stir to combine."
+    },
+    {
+      "step": 4,
+      "text": "Cover and cook on the slow-cook setting for 10 hours, until the vegetables and barley are tender and the beef reaches 145°F in the center. Rest the beef for 3 minutes before serving.",
+      "timer_minutes": 600
+    },
+    {
+      "step": 5,
+      "text": "Stir gently and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "beans",
+    "barley",
+    "slow-cooked",
+    "stew"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "large pan",
+    "slow cooker"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cholent",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "476fabbd8dcf92a7ae9e1c99ec7830610328da293e4a2eded252da14b53e8cf7",
+    "normalized_text_hash": "fde1ae3a1a86887f529f8ac2c67d35206505a6c749888588eca1d1ed8f4ec703",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:14:57.331Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

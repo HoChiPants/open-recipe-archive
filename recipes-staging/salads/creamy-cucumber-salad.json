@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-cucumber-salad",
+  "name": "Creamy Cucumber Salad",
+  "subtitle": "Cool cucumbers in a tangy dill dressing",
+  "description": "A crisp cucumber salad coated in a lightly sweet, vinegar-brightened mayonnaise dressing.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 4,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumbers",
+      "quantity": 4,
+      "unit": "medium",
+      "preparation": "peeled and sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir together the mayonnaise, sugar, vinegar, dill weed, and seasoned salt until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Add the peeled, sliced cucumbers and stir until evenly coated. Serve immediately."
+    }
+  ],
+  "tags": [
+    "salad",
+    "cucumber",
+    "creamy",
+    "dill",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/65442/moms-cucumber-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ffad05f64cb050b5b19d3275cc24d44e3f9fd0490f4f280d7d6e2902f3d49162",
+    "normalized_text_hash": "57f85d36ad33e866f2416c2d0e5437d39d1e0791913a61487d1da8ae475614e8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:51:44.313Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

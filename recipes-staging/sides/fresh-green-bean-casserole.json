@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-green-bean-casserole",
+  "name": "Fresh Green Bean Casserole",
+  "subtitle": "Tender green beans with creamy mushroom sauce and crisp onions",
+  "description": "A warm side dish combining briefly cooked green beans, mushroom soup, Cheddar, and French-fried onions in one baked casserole.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-green-beans",
+      "item": "fresh green beans",
+      "quantity": 4,
+      "unit": "pounds",
+      "preparation": "trimmed and cut into 2-inch pieces"
+    },
+    {
+      "ingredient_id": "cream-of-mushroom-soup",
+      "item": "cream of mushroom soup",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "sharp-cheddar-cheese",
+      "item": "sharp Cheddar cheese",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "grated"
+    },
+    {
+      "ingredient_id": "french-fried-onions",
+      "item": "French-fried onions",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the green beans in boiling water for 5 minutes, or until tender. Drain well.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Combine the drained green beans with the mushroom soup."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and top with the grated Cheddar and French-fried onions."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until the cheese is melted.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "casserole",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "baking dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240207/vintage-fresh-green-bean-casserole-circa-1956/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bc8f1826fc8c549fef51419d7c4c1486a27663463b449a8eb1c752dd59f22449",
+    "normalized_text_hash": "1fa5b22cc25ad673ab339e21580dc5bbcc6f9c472c64b39f175e58801c81503b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:52:34.060Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

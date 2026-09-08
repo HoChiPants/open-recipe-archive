@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ginger-beef",
+  "name": "Ginger Beef",
+  "subtitle": "Tender sliced beef with crisp vegetables and tangy sauce",
+  "description": "Thinly sliced round steak is briefly marinated with ginger and sauces, then stir-fried with mushrooms, onion, and bell pepper and served over rice.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "1-inch-piece-fresh-ginger-root",
+      "item": "(1 inch) piece fresh ginger root",
+      "quantity": 1,
+      "preparation": "peeled and thinly sliced"
+    },
+    {
+      "ingredient_id": "round-steak",
+      "item": "round steak",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 12,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sweet-and-sour-sauce",
+      "item": "sweet and sour sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rice",
+      "item": "rice",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cooked"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the soy sauce, ginger, and sweet and sour sauce together. Add the steak and toss to coat; let stand for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Heat a large skillet or wok over high heat. Add the marinated steak and cook for 5 minutes, turning as needed, until it reaches 145°F. Transfer the steak to a plate and rest for 3 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Heat the butter in the skillet. Add the mushrooms, onion, bell pepper, and remaining sauce mixture, stirring to combine."
+    },
+    {
+      "step": 4,
+      "text": "Cook the vegetables and sauce for 3 minutes, then return the steak to the pan and cook for 2 minutes more.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Serve the ginger beef over the cooked rice."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stir-fry",
+    "beef",
+    "ginger",
+    "rice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "soy",
+    "milk"
+  ],
+  "equipment": [
+    "large skillet or wok"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237808/easy-ginger-beef/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "cfd995305944cec695742199c32a76c8723d1fc76fc4efdaef279eef5a8632ac",
+    "normalized_text_hash": "bae4a12290dfc7da3a8936bad669f159d9f2bd705a0e5ac52187b3e01bd6020c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:32:49.862Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chipotle-mac-and-cheese",
+  "name": "Chipotle Mac and Cheese",
+  "subtitle": "Creamy baked macaroni with smoky chile heat",
+  "description": "Tender elbow macaroni is folded into a cheddar and Monterey Jack sauce flavored with chipotle, then baked until golden.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "elbow-macaroni",
+      "item": "elbow macaroni",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "chipotle-chiles-in-adobo-sauce",
+      "item": "chipotle chiles in adobo sauce",
+      "quantity": 3,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 6,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "paprika",
+      "item": "paprika",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "extra-sharp-cheddar-cheese",
+      "item": "extra-sharp Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "monterey-jack-cheese",
+      "item": "Monterey Jack cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the macaroni in simmering water seasoned with salt and pepper for 8 minutes, until tender. Drain and set aside.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Heat the oven to 350°F. Coat a baking dish and set aside."
+    },
+    {
+      "step": 3,
+      "text": "Warm the milk with the chopped chipotle chiles until boiling, then remove from the heat."
+    },
+    {
+      "step": 4,
+      "text": "Melt the butter in a large saucepan. Add the onion, garlic, and chipotle chiles; cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the flour and cook for 3 minutes. Gradually whisk in the warm milk, then stir in the paprika and season with salt and pepper.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 6,
+      "text": "Simmer the sauce for 2 minutes, until thickened.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 7,
+      "text": "Whisk in the Cheddar and Monterey Jack, stirring until melted. Add the macaroni and combine thoroughly."
+    },
+    {
+      "step": 8,
+      "text": "Transfer the mixture to the prepared baking dish and bake at 350°F for 40 minutes. Continue baking for 15 minutes, until golden brown.",
+      "timer_minutes": 55
+    }
+  ],
+  "tags": [
+    "dinner",
+    "baked-pasta",
+    "american",
+    "cheesy",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "saucepan",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214502/chipotle-mac-and-cheese/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "015078c73ff0e4caa6c2e7d743bf79cc39160a592ab00fd6441d3508ce5d1173",
+    "normalized_text_hash": "c4e3d1351bdd3e77a3e7d700f1c0e2078b5d7b97a75fd7eb3e247d497b0d6255",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:27:48.976Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

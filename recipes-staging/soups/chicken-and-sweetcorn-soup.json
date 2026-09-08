@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-sweetcorn-soup",
+  "name": "Chicken and Sweetcorn Soup",
+  "subtitle": "Gingered chicken soup with smooth sweetcorn and egg ribbons",
+  "description": "A light, savory soup built from chicken stock, blended sweetcorn, shredded chicken, and beaten egg.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 135
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-carcass",
+      "item": "chicken carcass",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "thin-slices-fresh-ginger-plus-1-tbsp-finely-grated",
+      "item": "thin slices fresh ginger plus 1 tbsp finely grated",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "onions-quartered",
+      "item": "onions quartered",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-grated",
+      "item": "garlic cloves finely grated",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "can-sweetcorn",
+      "item": "can sweetcorn",
+      "quantity": 325,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "spring-onions-whites-thinly-sliced",
+      "item": "spring onions whites thinly sliced",
+      "quantity": 3,
+      "preparation": "greens sliced at an angle"
+    },
+    {
+      "ingredient_id": "chicken-shredded",
+      "item": "chicken shredded",
+      "quantity": 100,
+      "unit": "g",
+      "preparation": "cooked"
+    },
+    {
+      "ingredient_id": "tamari",
+      "item": "tamari",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "eggs-beaten",
+      "item": "eggs beaten",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "few-drops-sesame-oil-to-serve-optional",
+      "item": "few drops sesame oil to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken carcass, sliced ginger, onions, and garlic in a large pot. Add enough water to cover, bring to a boil, then reduce to a steady simmer."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the apple cider vinegar and simmer until the broth is boiling hot and any poultry meat reaches 165°F on a food thermometer.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Strain the broth, discard the solids, and return the liquid to the pot."
+    },
+    {
+      "step": 4,
+      "text": "Blend the sweetcorn with some of the hot broth until smooth, then stir it into the pot."
+    },
+    {
+      "step": 5,
+      "text": "Add the shredded chicken, spring onion whites, and tamari. Simmer until hot throughout.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Pour in the beaten eggs in a thin stream while stirring. Cook until the egg reaches 160°F on a food thermometer or is fully set."
+    },
+    {
+      "step": 7,
+      "text": "Serve with the spring onion greens and optional sesame oil."
+    }
+  ],
+  "tags": [
+    "chicken",
+    "sweetcorn",
+    "soup",
+    "leftovers",
+    "lunch",
+    "dinner"
+  ],
+  "seasons": [
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "sesame",
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "blender",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-sweetcorn-soup",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d51c5cbcc61a6af5c4193592efc851718b5aa3f62eaed3de3cb2536c74a6dbbf",
+    "normalized_text_hash": "91b237593b83835405b1bc27944331a1ef643c8fc232d1ace59cd485459f5d2b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:53:24.108Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

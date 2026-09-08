@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-and-honey-sandwich",
+  "name": "Peanut Butter and Honey Sandwich",
+  "subtitle": "A quick sweet-and-savory sandwich",
+  "description": "A simple no-cook sandwich combining creamy peanut butter, honey, and softened butter between slices of bread.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peanut-butter",
+      "item": "peanut butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "slices-bread",
+      "item": "slices bread",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the peanut butter, honey, and softened butter together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Spread the mixture over one slice of bread, top with the second slice, and cut the sandwich in half."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "snack",
+    "quick",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/199631/peanut-butter-and-honey-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "173bd73e3d12ce6a1d1a378838c1a2d788899b5b0dccd93efa9acf0f7fe8964c",
+    "normalized_text_hash": "f7dd7f15a65a6a18330e592e3c3b8c5fc806fc0564ba8e1510a383ac22b63c93",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:59:09.083Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

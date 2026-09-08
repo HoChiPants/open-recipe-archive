@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spaghetti-lasagna",
+  "name": "Spaghetti Lasagna",
+  "subtitle": "Layered spaghetti baked with creamy cheese and sauce",
+  "description": "Tender spaghetti is layered with seasoned sauce and a creamy cottage-cheese mixture, then baked under melted mozzarella.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thin-spaghetti",
+      "item": "thin spaghetti",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "prepared-spaghetti-sauce",
+      "item": "prepared spaghetti sauce",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "small-curd-cottage-cheese",
+      "item": "small curd cottage cheese",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fat-free-sour-cream",
+      "item": "fat-free sour cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water to a simmer. Add the spaghetti and cook for 10 minutes, or until tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Drain the spaghetti and combine it with the spaghetti sauce."
+    },
+    {
+      "step": 4,
+      "text": "Stir together the cottage cheese, sour cream, and half of the mozzarella."
+    },
+    {
+      "step": 5,
+      "text": "Transfer half of the spaghetti mixture to a baking dish and spread the cheese mixture over it. Add the remaining spaghetti mixture, then top with the remaining mozzarella."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 40 minutes, until hot throughout and the center reaches 165°F.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "large pot",
+    "colander",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220599/left-over-spaghetti-lasagna/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9ae304acfef1d116e6991a51c09d99f05fde970ee474163adc7f62f5323db160",
+    "normalized_text_hash": "852c6ac89ba843fa537116692013bce0a66baa38d01ca8bc467b40faf6f215ef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:53:08.850Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

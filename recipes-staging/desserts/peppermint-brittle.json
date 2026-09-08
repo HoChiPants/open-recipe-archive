@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peppermint-brittle",
+  "name": "Peppermint Brittle",
+  "subtitle": "Creamy white chocolate with crisp peppermint",
+  "description": "A simple chilled candy made by combining melted white chocolate with crushed peppermint candy.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 36,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-chocolate",
+      "item": "white chocolate",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "peppermint-candy-canes",
+      "item": "peppermint candy canes",
+      "quantity": 30,
+      "unit": "small"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line a flat tray or pan with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Break the white chocolate into a microwave-safe bowl and microwave until melted, stirring between intervals.",
+      "timer_minutes": 6
+    },
+    {
+      "step": 3,
+      "text": "Crush the peppermint candy canes, reserving some pieces for the surface if desired."
+    },
+    {
+      "step": 4,
+      "text": "Stir the crushed peppermint into the melted chocolate, then spread the mixture evenly on the prepared tray."
+    },
+    {
+      "step": 5,
+      "text": "Refrigerate until firm, about 1 hour, then break or cut into pieces.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "peppermint",
+    "white-chocolate",
+    "american"
+  ],
+  "seasons": [
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "microwave-safe bowl",
+    "flat tray or pan",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9461/peppermint-brittle/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9c3b579d22fe60d74e5424fc5e772f0b34caa2ce1644fe29266de62d55033bcd",
+    "normalized_text_hash": "53a6c67fe0ab214e1354e392caa987c8f527c0ea2e8893867466d5118d01afde",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:07:12.221Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mashed-yellow-squash",
+  "name": "Mashed Yellow Squash",
+  "subtitle": "Tender squash mashed with butter, milk, and onion",
+  "description": "A simple American side dish with creamy texture and savory onion flavor.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "yellow-squash",
+      "item": "yellow squash",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the cooking vessel. Cut the yellow squash into pieces and cook until tender.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 2,
+      "text": "Transfer the tender squash to a bowl and mash until mostly smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the minced onion, butter, and milk. Season with salt and pepper to taste."
+    },
+    {
+      "step": 4,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot or steamer",
+    "mixing bowl",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16693/mashed-yellow-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c7ad5d43d2ace33f95904cd6bec008a8a117a3d6acf4a158250d91163f88561c",
+    "normalized_text_hash": "42fd28564fd2269c59a16cc24e3af78eec4fc6e6ba9c2b028a91a8c98e768ece",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:26:14.887Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

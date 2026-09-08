@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "broccoli-salad-with-bacon",
+  "name": "Broccoli Salad with Bacon",
+  "subtitle": "A crisp, creamy salad with savory bacon and sunflower seeds",
+  "description": "Chopped broccoli, bacon, onion, and sunflower seeds are tossed with a sweet-tangy mayonnaise dressing and chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "bunch-broccoli",
+      "item": "bunch broccoli",
+      "quantity": 1,
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "sunflower-seeds",
+      "item": "sunflower seeds",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "red-onion",
+      "item": "red onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium heat. Cook the bacon until crisp, about 10 minutes. Drain and cool for 10 minutes, then crumble.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "In a large bowl, combine the broccoli, crumbled bacon, sunflower seeds, and diced red onion."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the mayonnaise, sugar, and vinegar together in a small bowl."
+    },
+    {
+      "step": 4,
+      "text": "Pour the dressing over the broccoli mixture and toss until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Cover and chill for 20 minutes before serving.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "salad",
+    "side-dish",
+    "american",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "large bowl",
+    "small bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280464/broccoli-salad-with-bacon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f67c4042f6d91de4c0389cb7a00380f542b3a645b1eef07ddd49772c9436d696",
+    "normalized_text_hash": "a94fc542ef1f8c5bf0464207726151b44d471f0bc77a59709647a659f9f712c6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:15:34.468Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

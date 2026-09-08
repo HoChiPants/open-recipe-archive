@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-bacon-wrapped-dates",
+  "name": "Grilled Bacon-Wrapped Dates",
+  "subtitle": "Sweet dates with a crisp, savory almond filling",
+  "description": "Pitted dates are filled with almonds, wrapped in sliced bacon, and grilled until browned and cooked through.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dates",
+      "item": "dates",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, pitted"
+    },
+    {
+      "ingredient_id": "almonds",
+      "item": "almonds",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the grill."
+    },
+    {
+      "step": 2,
+      "text": "Fill each pitted date with almonds."
+    },
+    {
+      "step": 3,
+      "text": "Wrap the filled dates with sliced bacon and secure as needed."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the wrapped dates to the grill and cook for about 10 minutes, turning as needed, until the bacon is browned and cooked through.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "grilled",
+    "bacon",
+    "dates"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "tree-nuts"
+  ],
+  "equipment": [
+    "grill"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22694/bacon-and-date-appetizer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6164f3329382fe99fa8e0a92b0b94af49a7690773641f50b4b92c2357e3d48ed",
+    "normalized_text_hash": "eb86308381038ab042fc0538b6a5713df9f4851a9c3db31e81b7cf0c971b9a48",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:37:27.081Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

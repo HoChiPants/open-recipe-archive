@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-pizza",
+  "name": "Chocolate Pizza",
+  "subtitle": "Soft chocolate-studded dough with a hazelnut center",
+  "description": "A sweet, folded pizza-style dessert made with enriched yeast dough, chocolate chips, hazelnut spread, and optional marshmallows.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk-plus-extra-for-brushing",
+      "item": "milk plus extra for brushing",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "strong-white-bread-flour-plus-extra-for-dusting",
+      "item": "strong white bread flour plus extra for dusting",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "fast-action-dried-yeast",
+      "item": "fast-action dried yeast",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips",
+      "item": "milk chocolate chips",
+      "quantity": 40,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chocolate-hazelnut-spread",
+      "item": "chocolate & hazelnut spread",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mini-marshmallows-optional",
+      "item": "mini marshmallows (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter. Stir in the milk, vanilla, and chocolate chips until combined."
+    },
+    {
+      "step": 2,
+      "text": "Mix the flour, yeast, and sugar in a bowl. Add the warm milk mixture and knead for 5 minutes, until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into a ball, cover, and chill.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 4,
+      "text": "Dust the work surface with flour and roll the dough into a round. Spread with the hazelnut spread and scatter over the chocolate chips."
+    },
+    {
+      "step": 5,
+      "text": "Fold the dough over the filling, seal the edge, and place it on a baking sheet. Brush with milk, cover, and leave until set and puffy.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Heat the oven. Bake the filled dough for about 15 minutes, until the crust is cooked through and the topping is melted.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 7,
+      "text": "Transfer to a serving plate and add the optional marshmallows before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "sweet-bake",
+    "yeast-dough"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "mixing bowl",
+    "baking sheet",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocolate-pizza",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8968888f5cd5c9ada89251d6f772d52fef755a18e7658b06948d3a2415b074f8",
+    "normalized_text_hash": "259d48e47e968c6950e6145b793d727fdbd4279a467829636c1120262b7abd9e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:10:42.060Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

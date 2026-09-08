@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-broccoli-stuffed-potatoes",
+  "name": "Cheesy Broccoli-Stuffed Potatoes",
+  "subtitle": "Baked potatoes with buttery broccoli and cheddar",
+  "description": "Tender baked potatoes are filled with buttery broccoli, topped with cheddar, and returned to the oven until melted and hot.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 80
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "sunflower-oil",
+      "item": "sunflower oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "broccoli-about-300g",
+      "item": "broccoli (about 300g)",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "broken into small florets (or use frozen sweetcorn or peas)"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cheddar-grated",
+      "item": "cheddar grated",
+      "quantity": 150,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven. Rub the potatoes with the sunflower oil and place them on a baking tray."
+    },
+    {
+      "step": 2,
+      "text": "Bake the potatoes for 60 minutes, or until tender. Let them cool for 15 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Boil the broccoli for 4 minutes, then drain well.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 4,
+      "text": "Cut the potatoes open and scoop out most of the centers, leaving the skins intact. Combine the potato centers with the broccoli and butter, then spoon the mixture back into the skins."
+    },
+    {
+      "step": 5,
+      "text": "Top with the grated cheddar and return the potatoes to the oven for 20 minutes, until the cheese is melted and the filling is hot.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "broccoli",
+    "potatoes",
+    "stuffed-potatoes",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray",
+    "pot",
+    "knife",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheesy-broccoli-stuffed-potatoes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "73643ca92b91980176100364714cc4f5ce31c41bc6f9792f48f4312aeb4aa395",
+    "normalized_text_hash": "8c35b2a8cf46cb5550c3188b7f543923a517657bba87244973b892f71512a34f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T15:57:10.895Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

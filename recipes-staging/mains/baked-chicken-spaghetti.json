@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-chicken-spaghetti",
+  "name": "Baked Chicken Spaghetti",
+  "subtitle": "Creamy chicken and cheese pasta from the oven",
+  "description": "Tender spaghetti is combined with creamy soups and chicken, topped with Cheddar, and baked until bubbling and safely heated.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti",
+      "item": "spaghetti",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "chicken-chunks",
+      "item": "chicken chunks",
+      "quantity": 3,
+      "unit": "can",
+      "preparation": "12.5 fl oz, drained"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-mushroom-soup",
+      "item": "condensed cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the spaghetti in boiling water for 12 minutes, then drain well.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 3,
+      "text": "Warm the chicken and both condensed soups together in a saucepan, stirring until the mixture reaches a gentle simmer."
+    },
+    {
+      "step": 4,
+      "text": "Add the drained spaghetti and stir until evenly coated. Transfer the mixture to a baking dish and spread it level."
+    },
+    {
+      "step": 5,
+      "text": "Cover the surface with the shredded Cheddar and bake for 30 minutes, until melted and the center reaches 165°F on a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "pasta",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "saucepan",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231232/chicken-spaghetti-bake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f2aae1cfaadfc0545a73b9c0f81b131b9fedaeb4b492b6262a1d721327e1c3e8",
+    "normalized_text_hash": "f4347bec6fc75954476865f01573794740bf44e7154a801a7ee6cb26e34f5a87",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:16:42.334Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

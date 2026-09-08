@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hot-pepper-jelly-barbecue-sauce",
+  "name": "Hot Pepper Jelly Barbecue Sauce",
+  "subtitle": "A sweet-tangy sauce with a gentle peppery bite",
+  "description": "Combine pepper jelly, ketchup, vinegar, Worcestershire sauce, mustard, and garlic, then simmer briefly for a glossy barbecue sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hot-pepper-jelly",
+      "item": "hot pepper jelly",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "prepared-yellow-mustard",
+      "item": "prepared yellow mustard",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add all ingredients and stir until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a gentle simmer, stirring occasionally, and cook for 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "sauce",
+    "barbecue",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238831/hot-pepper-jelly-bbq-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "38e43eac42544491237d1fc461266cd5f2d5fbb60ab4c860f4bffdee738bc7b9",
+    "normalized_text_hash": "028d753ca43a3958ac37331b53b81a10fb9eece34c51a71f7a25f13e6b5d023a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:53:38.430Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

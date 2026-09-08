@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "ham-and-vegetable-omelet-muffins",
+  "name": "Ham and Vegetable Omelet Muffins",
+  "subtitle": "Portable baked egg cups with savory ham and vegetables",
+  "description": "These individual egg muffins combine cooked ham, peppers, and onion in a lightly seasoned breakfast bake.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "ham",
+      "item": "ham",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cooked, crumbled"
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F and prepare a muffin tin for baking."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs with the water, salt, and pepper until blended. Stir in the ham, bell pepper, and onion."
+    },
+    {
+      "step": 3,
+      "text": "Divide the mixture among the muffin cups."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 20 minutes, until the centers are fully set and reach 160°F on a food thermometer.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "egg-muffins",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "muffin tin",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228091/paleo-omelet-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "897f9222d00e280c02b2b1d3ece02b1997d68c1f2390eb05563167983b57302d",
+    "normalized_text_hash": "60b4852a27cb704e43043353050b37594b8603f8a56e5cef7de0382168915935",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:46:09.789Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

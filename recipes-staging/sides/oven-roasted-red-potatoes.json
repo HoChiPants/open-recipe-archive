@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oven-roasted-red-potatoes",
+  "name": "Oven-Roasted Red Potatoes",
+  "subtitle": "Crisp-edged potatoes with savory onion seasoning",
+  "description": "Halved red potatoes are coated with olive oil and dry onion soup mix, then roasted until tender and browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "halved"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "1-ounce-envelope-dry-onion-soup-mix",
+      "item": "(1 ounce) envelope dry onion soup mix",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F."
+    },
+    {
+      "step": 2,
+      "text": "Toss the halved potatoes with the olive oil and dry onion soup mix until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the potatoes in a single layer in a baking dish or on a sheet pan."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 40 minutes, or until the potatoes are tender.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "potatoes",
+    "roasted"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish or sheet pan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13849/oven-roasted-red-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f1ea0735ecbbfeda03a983166c15767910427d058ebf1d11d787b7bfc998ed37",
+    "normalized_text_hash": "64fd32a5ce146c4c10384d18b9abd798b62bff3674533976284130e8a63c9d2c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:42:25.427Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

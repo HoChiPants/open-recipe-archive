@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "southern-corn-pudding",
+  "name": "Southern Corn Pudding",
+  "subtitle": "A creamy baked corn custard with a lightly sweet finish.",
+  "description": "Corn, milk, eggs, and vanilla bake into a tender, spoonable pudding for a comforting American-style dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 90
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "16 ounce, drained"
+    },
+    {
+      "ingredient_id": "cream-style-corn",
+      "item": "cream-style corn",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs in a large bowl. Add the melted margarine and sugar, and whisk until combined."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the whole kernel corn, cream-style corn, milk, cornstarch, and vanilla extract until evenly mixed."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a suitable baking dish and bake for 90 minutes, until the center is firm and fully set. For a safety check, the center should reach 160°F.",
+      "timer_minutes": 90
+    },
+    {
+      "step": 5,
+      "text": "Let the pudding cool before serving."
+    }
+  ],
+  "tags": [
+    "corn",
+    "baked-dessert",
+    "custard",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "large bowl",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/92320/kathys-southern-corn-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dd624561efbfc9ca8e49b15cfcab0b03f4abd84fd959c55b8f4dab3881dd3acb",
+    "normalized_text_hash": "28861f037461e8f33dfbfa80802a89282ed087995d24f5f43b263ffade56c206",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:33:38.708Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

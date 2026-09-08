@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sticky-popcorn",
+  "name": "Sticky Popcorn",
+  "subtitle": "Sweet marshmallow-coated popcorn",
+  "description": "Warm marshmallows, butter, and brown sugar into a smooth coating, then toss with popcorn for a chewy, sweet snack.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "marshmallows",
+      "item": "marshmallows",
+      "quantity": 10,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "popped-popcorn",
+      "item": "popped popcorn",
+      "quantity": 10,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the marshmallows, butter, and brown sugar in a saucepan over low heat. Stir until melted and smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Place the popped popcorn in a large bowl and pour the warm mixture over it."
+    },
+    {
+      "step": 3,
+      "text": "Stir until the popcorn is evenly coated, then serve."
+    }
+  ],
+  "tags": [
+    "snack",
+    "dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "large bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239892/sticky-popcorn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ef133d190e13c3e8558214eb088cc9d1fb1f591cf7686bc6525a85f22de2081",
+    "normalized_text_hash": "bc0a8268bee1f2ae7060cac7f7b6fd4b8bc110993f02ae4eac1d6f6ca167b9cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T18:53:19.228Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

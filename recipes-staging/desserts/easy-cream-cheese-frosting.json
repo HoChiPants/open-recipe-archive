@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-cream-cheese-frosting",
+  "name": "Easy Cream Cheese Frosting",
+  "subtitle": "A smooth, tangy topping for cakes and cupcakes",
+  "description": "Whisk softened cream cheese, butter, vanilla, and confectioners' sugar into a smooth frosting.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the butter and place it in a mixing bowl with the softened cream cheese and vanilla extract."
+    },
+    {
+      "step": 2,
+      "text": "Whisk for 5 minutes, until the mixture is well blended.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the confectioners' sugar and whisk until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Use the frosting to finish the desired dessert."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "frosting",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230245/easy-cream-cheese-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "25cb44ad8c4a94140e4f118990ba32f99e9e7783b7e4f1e264dad942102900bb",
+    "normalized_text_hash": "fc8467b8b89dccf76473182c091b34a1433aee85e3e7319a9eef38f58a5d122a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:28:22.626Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "spinach-mashed-potatoes",
+  "name": "Spinach Mashed Potatoes",
+  "subtitle": "Creamy mashed potatoes with spinach and Cheddar",
+  "description": "A warm, creamy potato side dish combined with seasoned spinach and topped with melted Cheddar.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "preparation": "peeled and chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cream",
+      "item": "sour cream",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the spinach according to the package directions."
+    },
+    {
+      "step": 3,
+      "text": "Place the potatoes in a pot, cover with water, and cook for 15 minutes, or until tender. Drain and let cool briefly.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Combine the potatoes and spinach with the butter, sour cream, onion, salt, and dill. Mash until combined, then transfer to a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Top with the shredded Cheddar cheese and bake until hot and the cheese is melted, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/42936/sallys-spinach-mashed-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dbf1d3002cf51675a21a6ad9314edcff4dd5c6eaa558552eeaa5d015140831bc",
+    "normalized_text_hash": "1c44f9eec6c22fc63d90814992a6514c5dfc69026199c33b607153b1e34c052c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:37:49.452Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

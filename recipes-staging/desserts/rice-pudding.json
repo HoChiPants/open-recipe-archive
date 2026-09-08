@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rice-pudding",
+  "name": "Rice Pudding",
+  "subtitle": "Creamy stovetop pudding with cinnamon",
+  "description": "Tender long-grain rice cooked with milk, evaporated milk, sugar, and butter for a simple warm dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "long-grain-rice",
+      "item": "long grain rice",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "2-milk",
+      "item": "2% milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 0.5,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the water and rice to a simmer in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Cook for 20 minutes, or until the rice is tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Add the 2% milk, evaporated milk, sugar, and butter."
+    },
+    {
+      "step": 4,
+      "text": "Stir and cook for 20 minutes, until the mixture thickens into a pudding.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Stir in the ground cinnamon and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "rice-pudding"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276317/grandmas-rice-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "70ee696759593131b0b485e05322261df7a6ef645aaa5e4db40a2da7add1f102",
+    "normalized_text_hash": "ac4abbcd158ed8f6fd7cef962d694b964cd2c45229b47565aff60105ebf39e99",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:53:02.017Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

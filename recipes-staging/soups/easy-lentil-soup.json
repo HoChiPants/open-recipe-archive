@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-lentil-soup",
+  "name": "Easy Lentil Soup",
+  "subtitle": "A hearty lentil soup with cumin, tomato, and garlic.",
+  "description": "Lentils simmer with onion, tomato paste, garlic, cumin, and chicken broth for a simple, warming soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "32-ounce-containers-chicken-broth",
+      "item": "(32 ounce) containers chicken broth",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "dry-lentils",
+      "item": "dry lentils",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the chicken broth, lentils, diced onion, tomato paste, minced garlic, and cumin in a large pot."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a boil over medium-high heat."
+    },
+    {
+      "step": 3,
+      "text": "Reduce the heat and simmer until the lentils are tender, about 35 minutes. Verify the soup reaches at least 165°F with a food thermometer before serving.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 4,
+      "text": "Taste and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "lentils",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26434/lentil-soup-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "76f7a31d444567be0eb8152308052cb777e9a642d6f4e8dc5e165ba0d16b5d1b",
+    "normalized_text_hash": "1d9ba2489338e91d4074fea518ba3471d49c8f7b7b9789f2e6ad6e0d5b8804ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:37:01.055Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

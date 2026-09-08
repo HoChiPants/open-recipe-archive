@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lithuanian-kugela",
+  "name": "Lithuanian Kugela",
+  "subtitle": "A crisp-edged baked potato casserole with bacon and onion",
+  "description": "Finely grated potatoes combine with bacon, onion, evaporated milk, and eggs for a hearty savory side dish.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 70
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "grated"
+    },
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "Russet potatoes",
+      "quantity": 5,
+      "unit": "pounds",
+      "preparation": "finely grated, and soaked in water"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the diced bacon in a skillet until rendered and set; reserve the bacon and cooking fat."
+    },
+    {
+      "step": 3,
+      "text": "Drain the soaked potatoes thoroughly. Stir the grated onion into the potatoes."
+    },
+    {
+      "step": 4,
+      "text": "Stir the bacon into the potato mixture."
+    },
+    {
+      "step": 5,
+      "text": "Whisk together the flour, evaporated milk, and eggs, then season with salt and pepper."
+    },
+    {
+      "step": 6,
+      "text": "Pour the egg mixture over the potatoes and stir until evenly combined."
+    },
+    {
+      "step": 7,
+      "text": "Transfer to a baking dish and bake until browned and the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 8,
+      "text": "Let the kugela rest briefly, then serve warm."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "potato-casserole",
+    "baked-dish",
+    "lithuanian",
+    "eastern-european"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85343/lithuanian-kugela/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8549bef6eefdb67da2448803d833593f38d6afdec482e8ff60699fde622c67e0",
+    "normalized_text_hash": "3be7f15acea0a6298975e577e6762b871903ef9716b99bb85e3b1c41faa0300b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:03:15.539Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

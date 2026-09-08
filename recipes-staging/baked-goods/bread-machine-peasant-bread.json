@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-machine-peasant-bread",
+  "name": "Bread Machine Peasant Bread",
+  "subtitle": "A simple yeast loaf made in the bread machine",
+  "description": "A lightly sweetened, everyday white loaf prepared with a standard bread-machine cycle.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 175
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the water, sugar, salt, bread flour, and yeast to the bread-machine pan in the order listed."
+    },
+    {
+      "step": 2,
+      "text": "Select the machine’s standard white-bread or basic cycle and start it.",
+      "timer_minutes": 175
+    },
+    {
+      "step": 3,
+      "text": "When the cycle ends, remove the loaf from the pan and cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "american",
+    "bread-machine"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "bread machine"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17853/peasant-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7f9fd89b07835177f875a4be0319c3cae76c0dea91a2688d3435cb0026341300",
+    "normalized_text_hash": "81345393188617de19b02b1becff5fce7e222cb96e0eb3cae181a810f8a574c0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:10:31.242Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

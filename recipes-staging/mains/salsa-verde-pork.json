@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salsa-verde-pork",
+  "name": "Salsa Verde Pork",
+  "subtitle": "Tender shredded pork with bright green salsa",
+  "description": "Brown a boneless pork loin, slow-cook it with green salsa, then shred and rest it before serving.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 370
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "3-pound-boneless-pork-loin-roast",
+      "item": "(3 pound) boneless pork loin roast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "green-salsa",
+      "item": "green salsa",
+      "quantity": 11,
+      "unit": "ounces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat a skillet over medium-high heat and add the canola oil."
+    },
+    {
+      "step": 2,
+      "text": "Add the pork loin roast and brown it for 3 minutes, turning as needed.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Transfer the pork to a slow cooker and pour in the green salsa."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the pork reaches 145°F in the thickest part, then rest it for 3 minutes before shredding.",
+      "timer_minutes": 300
+    },
+    {
+      "step": 5,
+      "text": "Shred the pork and combine it with the salsa. Let it stand for 180 minutes before serving.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pork",
+    "slow-cooker",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "skillet",
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240599/salsa-verde-pork/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "98750b1f030b225fb8f6a229ed1ecb47e5e6966721eec6a98a2eb51f7ab72080",
+    "normalized_text_hash": "5245c5ab080fba46b40a32b5a87af3dfc25cbf62779ba6022b413c8fad51e210",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:41:45.507Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

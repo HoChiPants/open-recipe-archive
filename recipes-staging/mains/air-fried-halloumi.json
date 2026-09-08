@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fried-halloumi",
+  "name": "Air-Fried Halloumi",
+  "subtitle": "Crisp-edged cheese slices with optional smoky seasoning",
+  "description": "Thick halloumi slices are lightly coated with olive oil, seasoned if desired, and air-fried until golden at the edges.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "slices"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "halloumi-cut-into-6cm-x-1cm-thick-slices",
+      "item": "halloumi cut into 6cm x 1cm thick slices",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "smoked-paprika-mixed-herbs",
+      "item": "smoked paprika mixed herbs",
+      "quantity": 1,
+      "unit": "tsp",
+      "preparation": "or other flavourings (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Brush the halloumi slices with olive oil and sprinkle with the optional smoked paprika and mixed herbs, if using."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the slices in the air-fryer basket in a single layer."
+    },
+    {
+      "step": 4,
+      "text": "Air-fry for 8 minutes, turning the slices halfway through.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Continue cooking until the halloumi is golden at the edges, about 5 minutes more.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "air-fryer",
+    "halloumi"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "air fryer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-halloumi",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4e9934fc34c494f75138d7108748f3973f2feb21ca6c003693ac5d5a737360b8",
+    "normalized_text_hash": "045b326478c964f2d95e237bf1ca596b7c2ef8143abe905b835f1b374fcb9d9c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:26:12.987Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

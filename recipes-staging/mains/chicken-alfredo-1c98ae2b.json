@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-alfredo-1c98ae2b",
+  "name": "Chicken Alfredo",
+  "subtitle": "Creamy pasta with golden chicken and Parmesan",
+  "description": "Fettuccine is tossed with a quick cream sauce, Parmesan, and sliced chicken for a simple, rich main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 4,
+      "preparation": "boneless chicken thighs halved"
+    },
+    {
+      "ingredient_id": "fettuccine-or-tagliatelle",
+      "item": "fettuccine or tagliatelle",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "nutmeg-grated",
+      "item": "nutmeg grated",
+      "quantity": "1/2",
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "parmesan",
+      "item": "parmesan",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "parsley-to-serve-optional",
+      "item": "parsley to serve",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the fettuccine or tagliatelle according to the package directions until tender, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Heat the olive oil in a large pan. Cook the halved chicken thighs for about 10 minutes, turning as needed, until golden and the thickest pieces reach 165°F on a food thermometer. Transfer the chicken to a plate and let it rest briefly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in the pan. Whisk in the double cream and grated nutmeg, then simmer gently for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Add the drained pasta to the sauce and toss to coat. Stir in the Parmesan until melted and the sauce is smooth."
+    },
+    {
+      "step": 5,
+      "text": "Slice the chicken and add it to the pasta. Finish with the remaining Parmesan and chopped parsley."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "main-course",
+    "chicken",
+    "pasta",
+    "alfredo",
+    "easy",
+    "comfort-food",
+    "creamy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pan",
+    "pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-alfredo",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a74caf1a92a3a391950bf3e80064f75dac68e5fc10cf3b008146d99ee630b6b7",
+    "normalized_text_hash": "b09d43a0d5ae346d1a11aaedd1788a904113420ece59b4f3b50930f18184eafc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T16:22:23.580Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-corn-soup",
+  "name": "Chicken and Corn Soup",
+  "subtitle": "A hearty soup with tender chicken, fresh corn, and egg dumplings",
+  "description": "Chicken, vegetables, and corn simmer in a warmly spiced broth, then finish with chopped eggs and soft flour-based dumplings.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "inactive_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "3-pound-whole-chickens",
+      "item": "(3 pound) whole chickens",
+      "quantity": 2,
+      "preparation": "cut into pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 3,
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1.25,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ears-fresh-corn",
+      "item": "ears fresh corn",
+      "quantity": 10,
+      "preparation": "kernels cut from cob"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the water, chicken pieces, onions, celery, salt, nutmeg, and pepper in a large pot. Bring to a boil, then reduce the heat and simmer until the chicken is tender and reaches 165°F at the thickest part, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 2,
+      "text": "Transfer the chicken and broth to separate containers. Chill the broth for 6 hours, then remove the solidified fat. Pick the meat from the bones and set it aside.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 3,
+      "text": "Return the broth and chicken to the pot and bring to a simmer. Stir in the corn and cook until tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Hard-boil the designated portion of the divided eggs in water for 12 minutes. Cool, peel, and chop them.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 5,
+      "text": "Whisk the remaining egg portion with the sifted flour and milk until smooth. Shape small dumplings from the mixture and let them stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Drop the dumplings into the simmering soup and cook until firm and cooked through. Stir in the chopped eggs and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "soup",
+    "chicken",
+    "corn"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large stockpot",
+    "food thermometer",
+    "storage containers",
+    "mixing bowl",
+    "slotted spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26365/best-pennsylvania-dutch-chicken-corn-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "28df9396349b1100df656500f9ce974811cbf718399f110a955ae63af6b19b8b",
+    "normalized_text_hash": "3030b397da2029c741049f08119c69090df6c0bd2c9135202b6502d453f4de2a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:38:20.578Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

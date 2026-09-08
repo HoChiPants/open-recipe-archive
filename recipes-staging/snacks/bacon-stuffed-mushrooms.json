@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-stuffed-mushrooms",
+  "name": "Bacon-Stuffed Mushrooms",
+  "subtitle": "Tender mushroom caps with a savory cream-cheese filling",
+  "description": "Mushroom caps are filled with seasoned cream cheese, Parmesan, and bacon, then baked until tender.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 3,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 2,
+      "unit": "dashes"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "stems removed"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon in a skillet until crisp, about 10 minutes. Drain, cool slightly, and crumble.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the softened cream cheese with 2 tablespoons Parmesan, Worcestershire sauce, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the mushroom caps in a baking dish and fill each with the cream-cheese mixture. Top with the crumbled bacon and remaining Parmesan."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the mushrooms are tender, about 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american",
+    "stuffed-mushrooms",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "baking dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/169625/the-best-stuffed-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d978bdab5b9cec4e5795391033c750914b8cc19310d152db9c68d4038a8bca17",
+    "normalized_text_hash": "1507d8aa7a243498e8ccf9a15c7663965a5f90971d9cd2d75aacffa2d5d7893e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:59:17.266Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

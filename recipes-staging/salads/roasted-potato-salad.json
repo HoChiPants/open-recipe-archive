@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-potato-salad",
+  "name": "Roasted Potato Salad",
+  "subtitle": "Tender roasted potatoes with bacon, eggs, and crisp vegetables",
+  "description": "Roasted potatoes are cooled, combined with chopped eggs, bacon, celery, and green onion, then folded with mayonnaise and chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "inactive_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 10,
+      "preparation": "cut into bite-size pieces"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "hard-cooked-eggs",
+      "item": "hard-cooked eggs",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "slices-cooked-bacon",
+      "item": "slices cooked bacon",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "stalk-celery",
+      "item": "stalk celery",
+      "quantity": 0.5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "green-onion",
+      "item": "green onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Arrange the bite-size potatoes on a baking sheet, coat with the olive oil, and roast until tender, about 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 2,
+      "text": "Let the potatoes cool for 15 minutes, then transfer them to a large bowl.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Add the chopped eggs, bacon, celery, and green onion. Fold in the mayonnaise and season with salt and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Use hard-cooked eggs with firm, fully set centers. Cover the salad and chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "salad",
+    "potatoes",
+    "make-ahead",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "large bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228289/roasted-red-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7c01f516f7cad31b0bdd3590edd49c492fcad2716a656b596b1353bf43f74db3",
+    "normalized_text_hash": "6a64fd1084273e2464948e5ff35f4c010cca2d4216a7bd91238704e7be2d24d2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:15:49.130Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-watermelon-salad",
+  "name": "Cucumber-Watermelon Salad",
+  "subtitle": "A crisp, sweet-tart salad for warm days",
+  "description": "Cubed watermelon and cucumber are lightly seasoned, coated with balsamic vinegar, and chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "watermelon",
+      "item": "watermelon",
+      "quantity": 6,
+      "unit": "cups",
+      "preparation": "cubed seeded"
+    },
+    {
+      "ingredient_id": "english-cucumber",
+      "item": "English cucumber",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the watermelon, cucumber, salt, and sugar in a serving bowl."
+    },
+    {
+      "step": 2,
+      "text": "Pour the balsamic vinegar over the mixture and toss gently to coat."
+    },
+    {
+      "step": 3,
+      "text": "Cover and chill for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "lunch",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "serving bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/173016/cucumber-watermelon-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "50511ea83e6a3cb0c82238f82f7a899b661dd34163ba80bb6d2039c219b91287",
+    "normalized_text_hash": "46560a4d8597628b13b6cba168c1ea6b5ba624b97c3838de04853ce10efc65fb",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:55:57.663Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

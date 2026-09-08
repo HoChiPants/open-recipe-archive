@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "boiled-peanuts",
+  "name": "Boiled Peanuts",
+  "subtitle": "Tender peanuts simmered in seasoned water",
+  "description": "Raw peanuts cook slowly in salted water until soft and flavorful, making a simple Southern-style snack.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 40,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "raw-peanuts",
+      "item": "raw peanuts",
+      "quantity": 5,
+      "unit": "pounds",
+      "preparation": "in shells"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "water-to-cover",
+      "item": "water to cover"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the raw peanuts in a large stockpot. Add the salt and enough water to cover the peanuts."
+    },
+    {
+      "step": 2,
+      "text": "Bring the water to a boil, then reduce the heat and simmer the peanuts, keeping them covered with water, for 3 hours or until tender.",
+      "timer_minutes": 180
+    },
+    {
+      "step": 3,
+      "text": "Serve warm or drain and cool before serving."
+    }
+  ],
+  "tags": [
+    "snack",
+    "southern"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "peanuts"
+  ],
+  "equipment": [
+    "large stockpot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17551/boiled-peanuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "429361e5a61164fc602761c83db462d38994650d9a8a3f3a2c9691c5aca0b723",
+    "normalized_text_hash": "4e7fcf0260c3138b97233b99ea37c12e2ee47d95cb478254df890854678ca0cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:00:57.037Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

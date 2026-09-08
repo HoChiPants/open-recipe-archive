@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-tips",
+  "name": "Beef Tips",
+  "subtitle": "Tender beef in savory gravy",
+  "description": "Cubed beef simmers with onion, sauces, and seasonings until tender in a rich brown gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 105
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "beef-stew-meat",
+      "item": "beef stew meat",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dry-brown-gravy-mix",
+      "item": "dry brown gravy mix",
+      "quantity": 1,
+      "unit": "packet",
+      "preparation": ".75 ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the vegetable oil in a large pot over medium heat. Add the onion and cook for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Add the beef and dry brown gravy mix. Cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Stir in 2 cups of the water, soy sauce, Worcestershire sauce, garlic powder, salt, and black pepper. Bring to a simmer."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer until the beef is tender, about 1 hour 45 minutes. Check that the beef reaches 145°F with a food thermometer, then rest it for 3 minutes.",
+      "timer_minutes": 105
+    },
+    {
+      "step": 5,
+      "text": "Stir together the remaining water and gravy mixture as directed by the prepared ingredients, then combine with the cooked beef and stir until the gravy is thickened."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "one-pot",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23923/beef-tips/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "89871f220e86f8e416f80ec2df80cba724f78b5f537b6f2b923fa95d90dbc04e",
+    "normalized_text_hash": "eb847d797bffe74be28be2244832bde6292e8fc38f5197447f8bbae1f744b829",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:22:54.412Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

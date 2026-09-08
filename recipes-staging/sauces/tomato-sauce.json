@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-sauce",
+  "name": "Tomato Sauce",
+  "subtitle": "Slow-simmered sauce for pasta and more",
+  "description": "A simple tomato sauce built by gently cooking garlic and tomato paste before a long simmer.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 14,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 180
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 7,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "28 ounce, crushed"
+    },
+    {
+      "ingredient_id": "tomato-puree",
+      "item": "tomato puree",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "28 ounce"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil-leaves",
+      "item": "dried basil leaves",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the olive oil in a large pot over medium heat. Add the garlic and stir for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 2,
+      "text": "Mix in the tomato paste and tomato puree, then cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the crushed tomatoes, black pepper, salt, basil, and sugar. Stir until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Bring the sauce to a gentle simmer, then cook for 3 hours, stirring occasionally.",
+      "timer_minutes": 180
+    }
+  ],
+  "tags": [
+    "tomato-sauce",
+    "pasta-sauce",
+    "vegetarian",
+    "vegan",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "large pot",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22611/seven-ingredient-tomato-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d2657079c1762ba93b85d9e8df4006f5421ff308e5268e709c754cdae1e8f5c4",
+    "normalized_text_hash": "9477713228e4a351bf80ec31a724141fa045e291bc0548c3ea720905fead9c40",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:04:58.954Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

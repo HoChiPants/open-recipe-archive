@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-sausage-rigatoni-bake",
+  "name": "Italian Sausage Rigatoni Bake",
+  "subtitle": "A hearty layered pasta casserole with seasoned sausage and melted cheese.",
+  "description": "Rigatoni, browned sausage, tomato sauce, seasoned cottage cheese, and mozzarella bake together into a comforting Italian-inspired main dish.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rigatoni-pasta",
+      "item": "rigatoni pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "bulk-italian-sausage",
+      "item": "bulk Italian sausage",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "spaghetti-sauce",
+      "item": "spaghetti sauce",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cottage-cheese",
+      "item": "cottage cheese",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "italian-seasoning",
+      "item": "Italian seasoning",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the rigatoni in boiling water for 12 minutes, then drain and set aside.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 3,
+      "text": "Cook the sausage and onion in a skillet for 7 minutes, breaking up the sausage, until browned and cooked through to 160°F.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Stir together the cottage cheese, eggs, half the mozzarella, Parmesan, parsley, Italian seasoning, basil, and salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Combine the cooked sausage mixture with the spaghetti sauce, then fold in the drained rigatoni and cottage cheese mixture."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the mixture to a baking dish and bake for 45 minutes.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 7,
+      "text": "Top with the remaining cottage cheese, mozzarella, and Parmesan, then bake for 15 minutes, until melted and the center reaches 165°F.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "casserole",
+    "sausage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "mixing bowl",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279935/easy-italian-sausage-and-rigatoni/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "87020da0c21c030123ecbdc3c06f862e329e293858ad86a5309e9dfdf34d42d0",
+    "normalized_text_hash": "376112bb99f43bff49eb17e907b663b6f35ed2a4c8f981ed8b8896579a80c6f9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:35:56.904Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 21,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

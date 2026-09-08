@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fruit-brandy-starter",
+  "name": "Fruit Brandy Starter",
+  "subtitle": "A sweet, fruit-filled dessert mixture prepared ahead",
+  "description": "Canned fruit, cherries, brandy, and sugar are combined and rested to make a make-ahead dessert starter.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30240,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pineapple-chunks",
+      "item": "pineapple chunks",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "apricot-halves",
+      "item": "apricot halves",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained"
+    },
+    {
+      "ingredient_id": "peaches",
+      "item": "peaches",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, sliced, drained"
+    },
+    {
+      "ingredient_id": "10-ounce-jar-maraschino-cherries",
+      "item": "(10 ounce) jar maraschino cherries",
+      "quantity": 1,
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "brandy",
+      "item": "brandy",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the pineapple, apricots, peaches, cherries, brandy, and sugar in a large nonreactive container."
+    },
+    {
+      "step": 2,
+      "text": "Stir thoroughly until the sugar is evenly distributed and the fruit is coated."
+    },
+    {
+      "step": 3,
+      "text": "Prepare the mixture as directed and allow it to stand for the listed 21-day preparation period.",
+      "timer_minutes": 30240
+    },
+    {
+      "step": 4,
+      "text": "Drain as needed, then transfer the prepared starter to its serving or storage container."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "make-ahead",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "large nonreactive container",
+    "mixing spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/44942/friendship-fruit-starter/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5696e22321d448d36f5db4ff6f3af5c3e35bddde5342c9eb894bf7ddac89da08",
+    "normalized_text_hash": "69ef270d2ce1ef80ba1cd76bf80d7184fe4fec27c93c2df8ec6caa50935bafac",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:28:30.481Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

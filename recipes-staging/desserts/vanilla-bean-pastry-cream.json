@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-bean-pastry-cream",
+  "name": "Vanilla Bean Pastry Cream",
+  "subtitle": "Silky custard with real vanilla bean",
+  "description": "A smooth French pastry cream for filling tarts, pastries, cakes, and other desserts.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-egg",
+      "item": "whole egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "kosher salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-bean",
+      "item": "vanilla bean",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cold-butter",
+      "item": "cold butter",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "cubed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the whole egg, egg yolks, white sugar, cornstarch, and kosher salt in a heatproof bowl until smooth and thickened.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Split the vanilla bean lengthwise and scrape out the seeds. Heat the whole milk with the bean and seeds in a saucepan until steaming and just below a simmer.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Gradually whisk the hot milk into the egg mixture. Return everything to the saucepan and cook over medium heat, whisking constantly, until thick, bubbling, and the center reaches 160°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and whisk in the cold butter until fully incorporated. Transfer the pastry cream to a container, press plastic wrap directly onto the surface, and chill until cold.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "french",
+    "pastry-filling",
+    "custard",
+    "vanilla"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "heatproof bowl",
+    "whisk",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256437/vanilla-bean-pastry-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "712e0835ee03469240d5b5fd02a8a2093e777ef0a028d7cad66813fec21e3a4f",
+    "normalized_text_hash": "15ddc1ffa6b1f5e2a145918983ec88afae17c4e77660011c21b5436827dde387",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:40:19.570Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

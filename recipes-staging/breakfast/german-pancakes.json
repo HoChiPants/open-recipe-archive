@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "german-pancakes",
+  "name": "German Pancakes",
+  "subtitle": "A simple, lightly sweet breakfast pancake",
+  "description": "Whisk a short batter of eggs, sugar, flour, and milk, then cook it in a preheated pan until set.",
+  "meal_type": "breakfast",
+  "cuisine": "German",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the eggs, sugar, flour, and milk in a bowl. Whisk until the batter is smooth."
+    },
+    {
+      "step": 2,
+      "text": "Preheat a lightly greased skillet over medium heat."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the batter to the skillet and shape it into an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Cook until the pancake is set and lightly browned, turning as needed for even cooking.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "pancakes",
+    "german",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/40071/barbarellas-german-pancakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bb278b0106f64eee3f4ebe7838a2d8bfc8b017990c24210317aaa8797447a793",
+    "normalized_text_hash": "bde4c140eb40cc4d0a5709b03a2b465e395c483c2ceb824b29c09e75d181f823",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:02:58.490Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

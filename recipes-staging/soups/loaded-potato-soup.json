@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "loaded-potato-soup",
+  "name": "Loaded Potato Soup",
+  "subtitle": "A creamy potato soup finished with cheddar and sour cream",
+  "description": "Tender potatoes simmer in a smooth milk base with onion, cheddar, and sour cream for a hearty soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 8,
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 8,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the cubed potatoes to a pot and cook for 10 minutes, until tender.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large pot. Whisk in the flour, then gradually whisk in the milk until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Heat the milk mixture for 10 minutes, stirring occasionally, until thickened.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Stir in the potatoes and chopped onion."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the sour cream and shredded Cheddar until the cheese melts and the soup is combined."
+    },
+    {
+      "step": 6,
+      "text": "Season with salt and pepper to taste, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "potato",
+    "creamy",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "large pot",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13083/loaded-potato-soup-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3072fa5b5df4586582162c8de8d8bbc16fb454ca3b91fc1910fbf51f12d55ae8",
+    "normalized_text_hash": "a6fa34680bad1d9271fc126852172f386fe1d1ed191660917191ec3f064db815",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:04:50.030Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

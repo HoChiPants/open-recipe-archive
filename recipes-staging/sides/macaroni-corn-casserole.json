@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "macaroni-corn-casserole",
+  "name": "Macaroni Corn Casserole",
+  "subtitle": "A creamy baked corn and pasta side",
+  "description": "Corn, shell pasta, cheese, and butter bake together into a warm, spoonable casserole.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-kernel-corn",
+      "item": "whole kernel corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce, with liquid"
+    },
+    {
+      "ingredient_id": "cream-style-corn",
+      "item": "cream style corn",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14.75 ounce"
+    },
+    {
+      "ingredient_id": "small-uncooked-seashell-pasta",
+      "item": "small uncooked seashell pasta",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "processed-cheese",
+      "item": "processed cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "cut into pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the whole kernel corn with its liquid, cream-style corn, uncooked pasta, cubed cheese, and butter until combined."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture to a baking dish."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Stir, then bake for 30 minutes more, until the pasta is tender.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "casserole",
+    "corn",
+    "pasta"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23588/macaroni-corn-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d6d27daa1c0af5b6a1b4a65821fb51e4a25f0022d8485800f3159750f0ffd21",
+    "normalized_text_hash": "d7777e5b0d7b1c47dc637ddb352a8e2457349e55559875852c9f8e18d6efcbb3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:10:30.377Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blackcurrant-gin",
+  "name": "Blackcurrant Gin",
+  "subtitle": "A fruit-infused gin with bright berry flavor",
+  "description": "Combine blackcurrants and sugar in a sterilised wide-mouthed jar, add gin, and seal for infusion.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "x 700ml bottle"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "blackcurrants",
+      "item": "blackcurrants",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bottle-gin",
+      "item": "bottle gin",
+      "quantity": 700,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "l-wide-mouthed",
+      "item": "l wide-mouthed",
+      "quantity": 1,
+      "preparation": "flip-top jar sterilised"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the blackcurrants and caster sugar in the sterilised wide-mouthed jar."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the gin, seal the jar, and shake gently until the sugar is evenly distributed."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the mixture as directed for storage and serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "alcoholic-drink",
+    "blackcurrant",
+    "gin"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "sterilised wide-mouthed flip-top jar"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/blackcurrant-gin",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "418d67306908c728e8d226eea6a99984636b54964476bc17a0a3bdada0665f1f",
+    "normalized_text_hash": "0cbeef5ec8eebe009fd68ad66cba44b9cdb52ff37cd90f4d7ce3bae0c5fb61c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:38:55.040Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

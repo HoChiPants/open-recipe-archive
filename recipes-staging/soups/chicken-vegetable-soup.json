@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-vegetable-soup",
+  "name": "Chicken Vegetable Soup",
+  "subtitle": "A hearty broth with chicken and tender root vegetables",
+  "description": "Chicken, herbs, and a generous mix of vegetables simmer together for a comforting, flavorful soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 40,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "giblets removed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "water-to-cover",
+      "item": "water to cover"
+    },
+    {
+      "ingredient_id": "dried-dill-weed",
+      "item": "dried dill weed",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "peeled and cut into cubes"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "preparation": "peeled and cut into cubes"
+    },
+    {
+      "ingredient_id": "leeks",
+      "item": "leeks",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 3,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "kohlrabi-bulb",
+      "item": "kohlrabi bulb",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "parsnips",
+      "item": "parsnips",
+      "quantity": 3,
+      "preparation": "peeled and cut into cubes"
+    },
+    {
+      "ingredient_id": "chicken-bouillon-granules",
+      "item": "chicken bouillon granules",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chicken, onions, and bouillon granules in a large pot. Add enough water to cover, then stir in the dill, parsley, salt, and pepper."
+    },
+    {
+      "step": 2,
+      "text": "Bring the pot to a gentle simmer and cook until the thickest part of the chicken reaches 165°F.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 3,
+      "text": "Transfer the chicken to a plate. When cool enough to handle, remove the meat from the bones and cut it into bite-size pieces."
+    },
+    {
+      "step": 4,
+      "text": "Add the carrots, potatoes, leeks, celery, kohlrabi, and parsnips to the broth. Simmer until the vegetables are tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 5,
+      "text": "Return the chicken to the pot, stir well, and adjust the salt and pepper."
+    },
+    {
+      "step": 6,
+      "text": "Simmer for 5 minutes, then serve hot.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "soup",
+    "chicken",
+    "vegetable-soup",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "knife",
+    "cutting board",
+    "food thermometer",
+    "ladle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223037/classic-jewish-chicken-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "52df7c4855f31b3b04cc8cb2f5df493860e65ea90525412990c8c86beea7d921",
+    "normalized_text_hash": "d6869ccbb985867887a9fbf040e8d54dcf0704cac4d1f369236cf271ba2f94f4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:53:44.266Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

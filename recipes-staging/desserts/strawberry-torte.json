@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "strawberry-torte",
+  "name": "Strawberry Torte",
+  "subtitle": "A chilled layered dessert with strawberries and cream",
+  "description": "Ladyfinger cookies are layered with a vanilla cream filling and strawberry topping, then chilled until set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 10,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 11,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1,
+      "unit": "pint"
+    },
+    {
+      "ingredient_id": "ladyfinger-cookies",
+      "item": "ladyfinger cookies",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "frozen-strawberries",
+      "item": "frozen strawberries",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the frozen strawberries until softened enough to spread. Stir in the cornstarch and simmer until the mixture thickens; let it cool.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven according to the ladyfinger package directions."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the softened cream cheese, sugar, vanilla, and heavy cream until smooth. Continue whisking until the filling reaches stiff peaks, then whisk briefly until evenly combined."
+    },
+    {
+      "step": 4,
+      "text": "Shape the ladyfingers around the sides and across the base of a serving dish. Layer in the cream filling and ladyfingers, finishing with the remaining cream."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the assembled torte to the refrigerator and add the cooled strawberries over the top. Chill until set.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 6,
+      "text": "Serve chilled."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "chilled",
+    "strawberry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowls",
+    "whisk",
+    "saucepan",
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7409/strawberry-torte/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3235c58f6760146af8a2ce966139f40a505206fe30b07bf100be89ac5c3671e4",
+    "normalized_text_hash": "c05e4c9c8c93ce382710fd5fbbab4a27612ebc23091c5563b662eeb7deeef930",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:02:09.604Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

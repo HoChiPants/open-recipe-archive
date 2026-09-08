@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-apple-bread",
+  "name": "Cranberry Apple Bread",
+  "subtitle": "A tender fruit-and-nut quick bread",
+  "description": "Chopped apple, cranberries, cinnamon, and walnuts come together in a lightly sweet loaf for breakfast or snacking.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "cored and chopped apple"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-or-frozen-cranberries",
+      "item": "fresh or frozen cranberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Grease a standard loaf pan."
+    },
+    {
+      "step": 2,
+      "text": "Stir the apple, sugar, oil, and egg together in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, combine the flour, baking powder, baking soda, and cinnamon."
+    },
+    {
+      "step": 4,
+      "text": "Add the dry mixture to the apple mixture and stir just until combined. Fold in the cranberries and walnuts."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to the prepared pan and smooth the top."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 45 minutes, or until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "quick-bread",
+    "fruit-bread",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "standard loaf pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22468/cranberry-apple-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e7030edd032c94f01b4d323702daf2c61ae3b36c805e20d1cdefbd1812cc121a",
+    "normalized_text_hash": "f8644ffa2f3e0e594a179b88c5d68c26e88b658d139caae2483a013662a37106",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:20:01.068Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mediterranean-salmon",
+  "name": "Mediterranean Salmon",
+  "subtitle": "Herb-marinated salmon finished on the grill",
+  "description": "Salmon fillets are coated in a balsamic, garlic, and herb marinade, rested briefly, then grilled until opaque and flaky.",
+  "meal_type": "main",
+  "cuisine": "Mediterranean Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "balsamic-vinegar",
+      "item": "balsamic vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "pressed"
+    },
+    {
+      "ingredient_id": "4-ounce-fillets-salmon",
+      "item": "(4 ounce) fillets salmon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the olive oil, balsamic vinegar, garlic, garlic salt, cilantro, and basil in a shallow dish."
+    },
+    {
+      "step": 2,
+      "text": "Add the salmon and turn to coat. Let it marinate for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Preheat the grill and lightly oil the grates if needed."
+    },
+    {
+      "step": 4,
+      "text": "Grill the salmon for about 8 minutes, turning once if appropriate, until it reaches 145°F or is opaque and flakes easily.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "salmon",
+    "mediterranean-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "grill",
+    "shallow dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76763/mediterranean-salmon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6db454f8e8321891c7ae364721650264c0a0ee85b7f23b850e124f347ccea4c9",
+    "normalized_text_hash": "2332864f06910cd4045e218fe0801271414fae02465f111a284c90bef8359965",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:31:26.972Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

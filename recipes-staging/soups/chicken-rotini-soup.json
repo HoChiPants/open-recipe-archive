@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-rotini-soup",
+  "name": "Chicken Rotini Soup",
+  "subtitle": "A hearty chicken soup with tender vegetables and rotini",
+  "description": "Chicken, vegetables, and rotini simmer together in a savory broth for a comforting, family-sized soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cubes-chicken-bouillon",
+      "item": "cubes chicken bouillon",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "rotini-pasta",
+      "item": "rotini pasta",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 13,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken",
+      "item": "chicken",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cut into bite size pieces"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 6,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion-powder",
+      "item": "onion powder",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the water to a boil in a pot and add the chicken bouillon cubes. Add the rotini and cook until tender, about 8 minutes. Drain and set aside.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "In a large pot, combine the chicken broth, water, chicken, celery, carrots, onion, and onion powder. Bring to a boil, then reduce the heat and simmer until the vegetables and chicken are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Check the thickest chicken pieces with a food thermometer; continue cooking until they reach 165°F. Stir in the garlic powder, salt, and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Add the cooked rotini to the soup, or divide it among bowls and ladle the soup over it. Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "chicken",
+    "one-pot-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "pot",
+    "food thermometer",
+    "colander"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17835/chicken-rotini-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b3a19cb2b328e0b548c6426ed434414a34e02bba43d499fee3a361fd1f79a2af",
+    "normalized_text_hash": "56b288fa2a0240444db438c968599f61179e521f0e31d134921b970e29f19499",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:13:48.334Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

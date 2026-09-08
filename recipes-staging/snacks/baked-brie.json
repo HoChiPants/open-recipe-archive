@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-brie",
+  "name": "Baked Brie",
+  "subtitle": "Warm Brie wrapped in flaky pastry with apricot preserves",
+  "description": "A simple French-inspired appetizer pairing creamy Brie, sweet apricot preserves, and crisp puff pastry.",
+  "meal_type": "snack",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-wheel-brie-cheese",
+      "item": "(8 ounce) wheel Brie cheese",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "apricot-preserves",
+      "item": "apricot preserves",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "frozen-puff-pastry",
+      "item": "frozen puff pastry",
+      "quantity": 0.5,
+      "unit": "package",
+      "preparation": "17.5 ounce, thawed"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Slice the Brie wheel in half horizontally. Spread the apricot preserves over the cut surface, replace the top half, and set the assembled cheese aside."
+    },
+    {
+      "step": 3,
+      "text": "Wrap the Brie completely in the thawed puff pastry, sealing the edges. Transfer it to a baking sheet."
+    },
+    {
+      "step": 4,
+      "text": "Brush the pastry with the egg white."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until the pastry is golden brown and the egg-white coating is fully set.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 6,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "french",
+    "baked",
+    "cheese",
+    "pastry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "pastry brush"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15015/brie-cheese-appetizer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b4a40e750f3eb3e73876e503809cea01530a045074cb3fe3e41941afefa74701",
+    "normalized_text_hash": "5b50ce1c0ee3ce5b6ca0a9fb18488bee786f29a491e53fecdc29c2f8d21631be",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:43:59.833Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

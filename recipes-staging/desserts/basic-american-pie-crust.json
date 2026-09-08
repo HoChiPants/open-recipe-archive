@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-american-pie-crust",
+  "name": "Basic American Pie Crust",
+  "subtitle": "A simple, tender dough for homemade pies",
+  "description": "Mix shortening with seasoned flour, moisten with egg and water, then chill before rolling and baking.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the all-purpose flour, shortening, white sugar, and salt in a mixing bowl. Blend until the mixture is evenly combined and crumbly."
+    },
+    {
+      "step": 2,
+      "text": "Combine the egg and water, then add them to the flour mixture. Blend just until a cohesive dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Chill the dough before rolling it out for the intended pie. Do not eat the raw dough; bake the assembled crust as directed, and if the egg is not otherwise cooked, ensure the center reaches 160°F."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "pie",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "pastry blender",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15995/ruths-grandmas-pie-crust/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "04f075cc14d377aa803ee0065b944cd0fdeb25cc3a2bf150266e636396297f34",
+    "normalized_text_hash": "f3311882ac5342a052a386844ce5d74af5c947dc859e271d370ae85583f27667",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:36:34.181Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

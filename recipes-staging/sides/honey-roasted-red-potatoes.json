@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-roasted-red-potatoes",
+  "name": "Honey-Roasted Red Potatoes",
+  "subtitle": "Tender potatoes with a sweet mustard glaze",
+  "description": "Quartered red potatoes and onion roast beneath a buttery honey-mustard coating until tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dry-mustard",
+      "item": "dry mustard",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Arrange the quartered potatoes and diced onion in a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Combine the melted butter, honey, dry mustard, salt, and black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Pour the mixture over the potatoes and onion, then toss to coat evenly."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, until the potatoes are tender.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "roasted",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18293/honey-roasted-red-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "03e4991b3d00e2f68db36cf6b381c5e57c4a6fe1c808c83c9e8b2c5e9ae8052d",
+    "normalized_text_hash": "f15c2a49c9fa53a26cc1f164361b23e734228b2366c3afee7c0095140eb11546",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:49:16.924Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

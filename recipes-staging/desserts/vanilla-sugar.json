@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vanilla-sugar",
+  "name": "Vanilla Sugar",
+  "subtitle": "A fragrant pantry sweetener for baking and finishing",
+  "description": "Infuse granulated sugar with a whole vanilla bean for a simple dessert topping and baking ingredient.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 96,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "inactive_minutes": 10080
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vanilla-bean",
+      "item": "vanilla bean",
+      "quantity": 1,
+      "unit": "whole"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sugar in an airtight container."
+    },
+    {
+      "step": 2,
+      "text": "Split the vanilla bean lengthwise and add it to the sugar."
+    },
+    {
+      "step": 3,
+      "text": "Stir to distribute the bean through the sugar, then seal the container."
+    },
+    {
+      "step": 4,
+      "text": "Let stand at room temperature for 7 days before using, stirring once or twice during the resting period.",
+      "timer_minutes": 10080
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "pantry-staple"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "airtight container",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212472/vanilla-sugar/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5d8b3f46c67b04fb5d1e1f805bae1462d03e85252d982f1bdf57123c90fe6c19",
+    "normalized_text_hash": "c5b45f1ce07a44fd5cfcac3d52eaef0bcf895748fbd13d7ad63b7a783a51a757",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:41:49.233Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

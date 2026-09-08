@@ -1,0 +1,100 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brandy-sour",
+  "name": "Brandy Sour",
+  "subtitle": "A tart, bittersweet brandy cocktail with a silky finish",
+  "description": "Shake brandy with lemon, cherry syrup, bitters, egg white, and ice, then strain and garnish for a balanced sour drink.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon-juice-plus-1-lemon-slice-to-serve",
+      "item": "lemon juice plus 1 lemon slice to serve",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "maraschino-cherry-plus-15ml-syrup-from-the-jar",
+      "item": "maraschino cherry plus 15ml syrup from the jar",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "few-drops-of-bitters",
+      "item": "few drops of bitters"
+    },
+    {
+      "ingredient_id": "egg-white",
+      "item": "egg white",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "brandy-or-cognac",
+      "item": "brandy or cognac",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the lemon juice, cherry and syrup, bitters, egg white, and brandy. For food safety, use a thermometer to bring the egg-containing mixture to 160°F, then cool it promptly before shaking."
+    },
+    {
+      "step": 2,
+      "text": "Shake the mixture without ice, then add ice and shake again until chilled."
+    },
+    {
+      "step": 3,
+      "text": "Strain into a serving glass and garnish with the lemon slice and cherry."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "brandy",
+    "sour",
+    "alcoholic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/brandy-sour",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d45fd44a428a9badb97676b726c9442def3bd870ee19a55a7a428bf427c54efe",
+    "normalized_text_hash": "d2f6258f5e47d0741f35f2a7986f3cddeb478114482c13eb2a0f83042bc0551a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T05:43:11.212Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

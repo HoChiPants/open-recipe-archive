@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bang-bang-sauce",
+  "name": "Bang Bang Sauce",
+  "subtitle": "Creamy, sweet, spicy dipping sauce",
+  "description": "A quick sauce combining creamy mayonnaise with Thai chili sauce, Sriracha, and rice vinegar.",
+  "meal_type": "sauce",
+  "cuisine": "Chinese",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sweet-thai-chili-sauce",
+      "item": "sweet Thai chili sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sriracha-sauce",
+      "item": "Sriracha sauce",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "rice-vinegar",
+      "item": "rice vinegar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mayonnaise, sweet Thai chili sauce, Sriracha sauce, and rice vinegar in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir until smooth and evenly blended. Serve immediately or refrigerate until needed."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "chinese",
+    "dipping-sauce",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277784/bang-bang-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "aad851ba4de07cedf07ac91fa13388fc1bcd4bb7b70382fa3fe51cf553beba22",
+    "normalized_text_hash": "0dce06032a5d9201fc4e9bd9b817d377dbd0004dd4f62a1aabab75cef2e63cde",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:01:51.482Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

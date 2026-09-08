@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blueberry-cake",
+  "name": "Blueberry Cake",
+  "subtitle": "A tender cake with fresh blueberries",
+  "description": "A simple American dessert with a buttery batter, whipped egg whites, and blueberries baked until fully set.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg-yolks",
+      "item": "egg yolks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg-whites",
+      "item": "egg whites",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "blueberries",
+      "item": "blueberries",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and sugar. Cut in the butter until the mixture is crumbly, then stir in the baking powder and salt."
+    },
+    {
+      "step": 3,
+      "text": "Mix the egg yolks and milk for 3 minutes, then stir them into the flour mixture.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Beat the egg whites with the sugar until stiff peaks form. Fold them gently into the batter."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a baking dish and add the blueberries."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 50 minutes, until the center is firm and reaches 160°F on a food thermometer.",
+      "timer_minutes": 50
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "blueberry",
+    "cake"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowls",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/36829/blueberry-boy-bait/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bbe0209d15675eeffdf7ca95e5c23eeaae72ad9959a32224f3c0e43a9330b6dc",
+    "normalized_text_hash": "0a4cdf0d77d0876c0affbb99c10f6885915ecee6c89c8985bbf932478e143b0e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:56:03.406Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pink-lemonade-pie",
+  "name": "Pink Lemonade Pie",
+  "subtitle": "A chilled citrus pie with a creamy, tangy filling",
+  "description": "Combine lemonade concentrate and sweetened condensed milk, fold in whipped topping, and chill the filling in prepared graham cracker crusts for an easy dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "frozen-pink-lemonade-concentrate",
+      "item": "frozen pink lemonade concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "6 ounce, thawed"
+    },
+    {
+      "ingredient_id": "8-ounce-container-frozen-whipped-topping",
+      "item": "(8 ounce) container frozen whipped topping",
+      "quantity": 1,
+      "preparation": "thawed"
+    },
+    {
+      "ingredient_id": "8-inch-prepared-graham-cracker-crusts",
+      "item": "(8 inch) prepared graham cracker crusts",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the sweetened condensed milk and thawed pink lemonade concentrate together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Gently fold in the thawed whipped topping until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Divide the filling between the prepared graham cracker crusts and smooth the tops."
+    },
+    {
+      "step": 4,
+      "text": "Refrigerate until firm, about 2 hours, then slice and serve.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "lemonade",
+    "chilled",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "rubber spatula",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/41096/pink-lemonade-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4482392f23962e0c1ea529b02a73908cfe4c977bee209f5d511ea027489ba75a",
+    "normalized_text_hash": "691822e94840a2ab339960280793accb935773f326352ac7c78aebede7befa8c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:21:20.215Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

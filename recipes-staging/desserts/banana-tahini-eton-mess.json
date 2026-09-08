@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-tahini-eton-mess",
+  "name": "Banana-Tahini Eton Mess",
+  "subtitle": "Creamy banana dessert with sesame crunch",
+  "description": "A quick layered-style dessert combining tahini cream, sliced banana, crisp meringue, and toasted sesame.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 400,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "tahini",
+      "item": "tahini",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "bananas-sliced",
+      "item": "bananas sliced",
+      "quantity": 2,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "meringue-nests",
+      "item": "meringue nests",
+      "quantity": 3,
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "sesame-seeds-toasted",
+      "item": "sesame seeds toasted",
+      "quantity": 1,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the cream, tahini, and icing sugar until soft peaks form."
+    },
+    {
+      "step": 2,
+      "text": "Add the sliced bananas and crushed meringue nests, then whisk briefly until combined."
+    },
+    {
+      "step": 3,
+      "text": "Divide among four servings and sprinkle with the toasted sesame seeds."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "banana",
+    "meringue",
+    "sesame",
+    "tahini",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "sesame"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric whisk or whisk",
+    "serving glasses"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banana-tahini-eton-mess",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "bbf17a6ba6ae4ee1946fdc45dc046d708736ad0e81f90d8c6130641453bd5895",
+    "normalized_text_hash": "e951e772baf00a420dc697906c35df4e2e344d22621f1d4d2bb19a7b257264df",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:08:59.175Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

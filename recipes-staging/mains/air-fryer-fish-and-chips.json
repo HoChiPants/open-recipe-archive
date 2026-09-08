@@ -1,0 +1,129 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-fish-and-chips",
+  "name": "Air-Fryer Fish and Chips",
+  "subtitle": "Crisp potatoes with seasoned white fish",
+  "description": "Seasoned white fish and thick-cut potatoes cook with vegetable oil for a simple British-style meal. Serve with optional mushy peas and tartar sauce.",
+  "meal_type": "main",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cornflour",
+      "item": "cornflour",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "dried-mixed-herbs",
+      "item": "dried mixed herbs",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "white-fish-fillets-such-as-cod",
+      "item": "white fish fillets such as cod",
+      "quantity": 2,
+      "preparation": "haddock or basa"
+    },
+    {
+      "ingredient_id": "potatoes-such-as-desire-e-or-maris-piper",
+      "item": "potatoes such as Desirée or Maris Piper",
+      "quantity": 3,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": "6-8",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "mushy-peas-and-tartar-sauce",
+      "item": "mushy peas and tartar sauce",
+      "preparation": "to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer according to its instructions."
+    },
+    {
+      "step": 2,
+      "text": "Mix the cornflour, smoked paprika, and dried mixed herbs. Coat the fish fillets evenly in the mixture."
+    },
+    {
+      "step": 3,
+      "text": "Cut the potatoes into thick chips, prepare them for cooking, and toss them with vegetable oil."
+    },
+    {
+      "step": 4,
+      "text": "Add the potatoes to the air fryer and cook until crisp outside and tender inside, turning during cooking.",
+      "timer_minutes": 22
+    },
+    {
+      "step": 5,
+      "text": "Coat the fish with vegetable oil, add it to the air fryer, and cook until the center reaches 145°F or the fish is opaque and flakes easily.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Serve the fish and chips with optional mushy peas and tartar sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "british",
+    "air-fryer",
+    "fish",
+    "chips",
+    "white-fish"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl",
+    "knife",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-fish-chips",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c9b0053c75abedbb9d9c7b8d45532e039839e8eab872052a2e5e42dbb4d2b1e7",
+    "normalized_text_hash": "389dea6c3ef765b252809da5645b0f187eb6f10ebf35f198259871306c3960d0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:24:45.364Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

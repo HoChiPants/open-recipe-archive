@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cacio-e-pepe",
+  "name": "Cacio e Pepe",
+  "subtitle": "Peppery pasta with a silky cheese finish",
+  "description": "A quick Italian pasta made by coating hot noodles in butter, black pepper, and finely grated cheese.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bucatini-or-spaghetti",
+      "item": "bucatini or spaghetti",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 25,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "whole-black-peppercorns-ground",
+      "item": "whole black peppercorns ground",
+      "quantity": 2,
+      "unit": "tsp",
+      "preparation": "or 1 tsp freshly ground black pepper"
+    },
+    {
+      "ingredient_id": "pecorino-or-parmesan",
+      "item": "pecorino or parmesan",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "finely grated"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a boil and cook the bucatini or spaghetti for 2 minutes. Reserve a little cooking water, then drain.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "While the pasta cooks, melt the butter in a large skillet and warm the ground black pepper until fragrant."
+    },
+    {
+      "step": 3,
+      "text": "Add the drained pasta to the skillet. Stir in the finely grated pecorino or parmesan, adding a small splash of reserved cooking water as needed, until the sauce is smooth."
+    },
+    {
+      "step": 4,
+      "text": "Toss until the pasta is evenly coated, then serve with the remaining black pepper."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "italian",
+    "pasta",
+    "quick-meal",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cacio-e-pepe",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e3d5edbff0b75a1dd2fdfc98c5ba8b6258b046663d9125389d247a7192f9102e",
+    "normalized_text_hash": "7b9aae102c7ba1b49e90e1fc7df6b3deee32d60c24b65b66ab5318835d0fedca",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T21:21:41.372Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

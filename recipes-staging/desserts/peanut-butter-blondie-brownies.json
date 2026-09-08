@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peanut-butter-blondie-brownies",
+  "name": "Peanut Butter Blondie Brownies",
+  "subtitle": "Chewy peanut butter squares with a golden top",
+  "description": "A simple American dessert made with peanut butter, brown sugar, butter, and eggs, baked until set and cooled for slicing.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil-cooking-spray",
+      "item": "vegetable oil cooking spray"
+    },
+    {
+      "ingredient_id": "crunchy-peanut-butter",
+      "item": "crunchy peanut butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Coat a baking pan with vegetable oil cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the peanut butter and softened butter until smooth. Whisk in the brown sugar, then the eggs, and add the vanilla extract."
+    },
+    {
+      "step": 3,
+      "text": "Add the flour and stir until the batter is combined."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the batter to the prepared pan and bake for 35 minutes, until the center is firm and fully set.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 5,
+      "text": "Cool in the pan for 15 minutes, then continue cooling until fully cooled before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "peanut-butter",
+    "bars"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "peanuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238697/peanut-butter-blondie-brownies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "216d0dc5d4ab0e4658fd860aed62e89b8c47668afbd67a60b79819da13715857",
+    "normalized_text_hash": "40cf54ecb8c353b225a18dd1e8219b6c1db0240b1026cf4754b4719ee957f0d4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:59:25.408Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "korean-spicy-chicken-and-potato-stew",
+  "name": "Korean Spicy Chicken and Potato Stew",
+  "subtitle": "Tender chicken and vegetables in a savory gochujang sauce",
+  "description": "Chicken drumettes simmer with potatoes, carrots, onion, and garlic in a sweet-spicy Korean-style sauce.",
+  "meal_type": "main",
+  "cuisine": "Korean",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-drumettes",
+      "item": "chicken drumettes",
+      "quantity": 2.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "cut into large chunks"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 2,
+      "preparation": "cut into 2 inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "cut into 8 pieces"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "gochujang-korean-hot-pepper-paste",
+      "item": "gochujang (Korean hot pepper paste)",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the water, soy sauce, sugar, and gochujang in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Place the chicken, potatoes, carrots, onion, and garlic in a large pot. Pour the sauce over the top."
+    },
+    {
+      "step": 3,
+      "text": "Bring to a boil, then cover and simmer for 45 minutes, until the chicken is tender and reaches 165°F at the thickest part.",
+      "timer_minutes": 45
+    }
+  ],
+  "tags": [
+    "dinner",
+    "korean",
+    "spicy",
+    "one-pot"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "egg-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/88344/korean-spicy-chicken-and-potato-tak-toritang/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a5916dacd39ba4fcbf571696a700c148db65754e5cbc4a8099c2cd4d06909804",
+    "normalized_text_hash": "9f248c5f364c03c2fe4e9435d669469f4d11d69fd33ae025489ab2e37cd4690d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:44:20.423Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "stuffed-pattypan-squash",
+  "name": "Stuffed Pattypan Squash",
+  "subtitle": "Tender squash filled with bacon, onion, breadcrumbs, and Parmesan",
+  "description": "Parboiled pattypan squash is filled with a savory bacon and breadcrumb mixture, then baked until hot and lightly browned.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pattypan-squash",
+      "item": "pattypan squash",
+      "quantity": 6,
+      "preparation": "stem and blossom removed"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "soft-bread-crumbs",
+      "item": "soft bread crumbs",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the squash in boiling water for 10 minutes, then drain and let it cool briefly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Cook the bacon until set and crisp; transfer it to a plate, reserving the rendered fat. Sauté the diced onion in the fat until softened."
+    },
+    {
+      "step": 4,
+      "text": "Cut a top from each squash and scoop out enough flesh to form a cavity. Chop the removed squash flesh."
+    },
+    {
+      "step": 5,
+      "text": "Combine the chopped squash, onion, soft bread crumbs, bacon, and Parmesan. Season with salt and pepper."
+    },
+    {
+      "step": 6,
+      "text": "Fill the squash shells with the mixture and arrange them in a baking dish."
+    },
+    {
+      "step": 7,
+      "text": "Bake until the filling is hot and the tops are lightly browned.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 8,
+      "text": "Serve warm."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "skillet",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/39304/stuffed-pattypan-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8e2aef8e5ffda1618aa8053e14697046a44e93d869e92db4f41bcd771771f140",
+    "normalized_text_hash": "fd43065056609c004fdc15c494ee9b22288078967f913a041d742efd97c1611d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:04:48.197Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

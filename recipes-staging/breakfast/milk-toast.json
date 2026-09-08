@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "milk-toast",
+  "name": "Milk Toast",
+  "subtitle": "Warm vanilla milk over crisp toast",
+  "description": "Toasted bread is served with gently simmered sweet vanilla milk and a light sprinkle of cinnamon.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "slices-white-bread",
+      "item": "slices white bread",
+      "quantity": 6,
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 3,
+      "unit": "pinches",
+      "preparation": "or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Toast the bread until crisp and arrange two slices in each serving bowl."
+    },
+    {
+      "step": 2,
+      "text": "Combine the milk, sugar, and vanilla extract in a saucepan over medium heat. Stir until the sugar dissolves and the mixture reaches a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Pour the hot milk over the toast and finish each serving with ground cinnamon."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "american",
+    "quick",
+    "sweet"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "toaster",
+    "saucepan",
+    "serving bowls"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/282262/milk-toast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "29f93d5d1726264ad1a68ec244cf13a32a588277bc747215adcbcebe3decb6a2",
+    "normalized_text_hash": "bc89072d907e57c0486234a0aa7de8c53ecbf972461658785fefa60fcecbbf92",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:41:31.891Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

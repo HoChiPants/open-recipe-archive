@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-potatoes",
+  "name": "Garlic Potatoes",
+  "subtitle": "Creamy mashed potatoes with parsley and garlic",
+  "description": "Tender red potatoes are simmered with garlic, mashed with milk, and finished with fresh parsley.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 1.5,
+      "unit": "pounds",
+      "preparation": "cut into large chunks"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "halved lengthwise"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the potatoes, garlic, and salt in a pot and add enough water to cover. Bring to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer until the potatoes are tender when pierced, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Drain well, return the potatoes and garlic to the pot, and cook over low heat for 2 minutes to dry slightly.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 4,
+      "text": "Add the milk and mash until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the parsley and serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "potatoes",
+    "mashed-potatoes",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "potato masher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/149535/garlic-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ecbb17d1bec934f712c30efb88548305abea6c7ebe5a0ae856a50c69fb5de599",
+    "normalized_text_hash": "4f37a1b22463832521e00042803f4d40794a7306bf036bd01b3c7a9ed8cf3927",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:37:21.004Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

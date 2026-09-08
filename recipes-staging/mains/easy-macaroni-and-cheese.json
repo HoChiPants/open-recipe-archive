@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "easy-macaroni-and-cheese",
+  "name": "Easy Macaroni and Cheese",
+  "subtitle": "Creamy stovetop macaroni in minutes",
+  "description": "Tender elbow macaroni is folded into melted cheese and milk with a touch of black pepper for a quick, comforting main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "elbow-macaroni",
+      "item": "elbow macaroni",
+      "quantity": 4,
+      "unit": "ounces"
+    },
+    {
+      "ingredient_id": "processed-cheese-food",
+      "item": "processed cheese food",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "fluid-ounces-milk",
+      "item": "fluid ounces milk",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a pot of water to a simmer, then bring it to a boil."
+    },
+    {
+      "step": 2,
+      "text": "Cook the elbow macaroni in the boiling water for 10 minutes, or until tender. Drain well.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Preheat a saucepan over low heat. Add the cubed processed cheese food, milk, and black pepper; cook and stir until the cheese melts."
+    },
+    {
+      "step": 4,
+      "text": "Add the drained macaroni and stir until evenly coated. Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "quick",
+    "stovetop",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "pot",
+    "colander",
+    "saucepan"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/149239/easiest-mac-n-cheese-ever/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1a0e9cb9490b37658273195cc5824f01052158ddaa435f423f67e22e58ec5172",
+    "normalized_text_hash": "a7d36c277c3cac797fa0c2e8a01c08b17eb14dcc5a68189ca8bd1d3f855495bc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:17:02.708Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

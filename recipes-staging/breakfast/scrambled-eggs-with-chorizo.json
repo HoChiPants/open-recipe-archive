@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scrambled-eggs-with-chorizo",
+  "name": "Scrambled Eggs with Chorizo",
+  "subtitle": "Savory eggs with seasoned chorizo",
+  "description": "A quick skillet breakfast combining browned Mexican-style chorizo with softly scrambled eggs.",
+  "meal_type": "breakfast",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "mexican-style-chorizo",
+      "item": "Mexican-style chorizo",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Coat a skillet with cooking spray and preheat it over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the chorizo and stir for 5 minutes, until heated through and lightly browned. Transfer it to a plate.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs and salt together in a bowl."
+    },
+    {
+      "step": 4,
+      "text": "Add the eggs to the skillet and stir for about 5 minutes, until fully set and the center reaches 160°F.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Return the chorizo to the skillet, stir briefly to combine, and serve."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "eggs",
+    "chorizo",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "bowl",
+    "whisk",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/258968/scrambled-eggs-with-chorizo/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4e3c1e86037ae64c1d0402b8082fa0f355fccee802ebea8f3a226ed5df993828",
+    "normalized_text_hash": "27ad3e1639b3896bfeb53b1cdfef3a5e94ba3fc2eaea3dcdb53577d59745bc7e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:00:18.188Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

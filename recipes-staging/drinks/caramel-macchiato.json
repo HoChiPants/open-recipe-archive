@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-macchiato",
+  "name": "Caramel Macchiato",
+  "subtitle": "Espresso layered with warm vanilla milk and caramel",
+  "description": "A single-serving coffee drink made with espresso, gently heated milk, vanilla, and caramel sauce.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 2
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "whole-or-semi-skimmed-milk",
+      "item": "whole or semi-skimmed milk",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "espresso-a-double-shot",
+      "item": "espresso (a double shot)",
+      "quantity": "60-70",
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "caramel-sauce",
+      "item": "caramel sauce",
+      "quantity": "1-2",
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the milk in a small saucepan over medium heat until steaming and just beginning to simmer; do not boil.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Stir the espresso, vanilla extract, and half the caramel sauce together in a heatproof serving glass."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the warm milk and finish with the remaining caramel sauce."
+    }
+  ],
+  "tags": [
+    "drink",
+    "coffee",
+    "espresso",
+    "caramel"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "heatproof serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/caramel-macchiato",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "58a791721fa440f17b5a5111131de2c324786ec28186fcc2d254205ffca516a6",
+    "normalized_text_hash": "ab5f49873626408915e9329a732632ae82f8deb897fe320c9a2f9966683a2985",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:11:04.245Z",
+    "semantic_similarity": 0,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

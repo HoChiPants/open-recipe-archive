@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "adeni-tea",
+  "name": "Adeni Tea",
+  "subtitle": "Spiced black tea with evaporated milk",
+  "description": "A warm, sweet black tea infused with cardamom and ground spices, then finished with creamy evaporated milk.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-pekoe-tea-bags",
+      "item": "orange pekoe tea bags",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cardamom-seeds",
+      "item": "cardamom seeds",
+      "quantity": 10,
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Open the tea bags and place the tea leaves in a saucepan with the water. Bring to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Simmer for 5 minutes, then stir in the sugar, cardamom seeds, cinnamon, nutmeg, and ginger.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Continue simmering for 10 minutes to develop the spice flavor.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Stir in the evaporated milk and simmer gently for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Pour into cups and serve hot."
+    }
+  ],
+  "tags": [
+    "spiced-tea",
+    "milk-tea",
+    "hot-drink",
+    "cardamom"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon",
+    "cups"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234967/adeni-tea/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3ee3eae56eb3406229e0eb887fda6f526d5d764ea5a9ff84bfc19388bdce9a84",
+    "normalized_text_hash": "20046aa11cfa6f5dd54579ac3c06357ea60a04d3d61fe24067212439f07b1e01",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:13:49.212Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

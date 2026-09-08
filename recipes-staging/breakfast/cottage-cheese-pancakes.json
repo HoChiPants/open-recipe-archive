@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cottage-cheese-pancakes",
+  "name": "Cottage Cheese Pancakes",
+  "subtitle": "Tender oat pancakes for a simple breakfast",
+  "description": "Blend a protein-rich pancake batter, cook it until set and golden, and serve with fruit or savory breakfast toppings.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cottage-cheese",
+      "item": "cottage cheese",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "porridge-oats-gluten-free-if-needed",
+      "item": "porridge oats (gluten free if needed)",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk-any-kind",
+      "item": "milk (any kind)",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "baking-powder-gluten-free-if-needed",
+      "item": "baking powder (gluten free if needed)",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract (optional)",
+      "quantity": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "maple-syrup",
+      "item": "maple syrup (optional)",
+      "quantity": 2,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "flavourless-oil-or-unsalted-butter",
+      "item": "flavourless oil or unsalted butter",
+      "quantity": 2,
+      "unit": "tsp",
+      "preparation": "to cook"
+    },
+    {
+      "ingredient_id": "poached-egg-and-roasted-tomatoes",
+      "item": "poached egg and roasted tomatoes",
+      "preparation": "or"
+    },
+    {
+      "ingredient_id": "fresh-berries-and-maple-syrup",
+      "item": "fresh berries and maple syrup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the cottage cheese, oats, eggs, milk, baking powder, and optional vanilla extract and maple syrup until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Heat a skillet over medium heat and add the oil or butter."
+    },
+    {
+      "step": 3,
+      "text": "Cook the batter in pancakes, adding enough for each pancake to form an even round. Cook for about 3 minutes, until the surface is set and the center reaches 160°F.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 4,
+      "text": "Turn the pancakes and cook for about 2 minutes, until golden brown and fully cooked. Repeat with the remaining batter.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Serve with poached egg and roasted tomatoes, or with fresh berries and maple syrup."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "pancakes",
+    "cottage-cheese",
+    "oats"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "blender",
+    "skillet",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cottage-cheese-pancakes",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d79b557411e9d171c5c6fb0e1a91d9776e8aa060b0c8644ae8e1a9e607a77cef",
+    "normalized_text_hash": "3fa982ecf2b15859c4da80e2281aebdf255f24bc1b905d4646a9fcf6a4e6d24e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:00:33.910Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

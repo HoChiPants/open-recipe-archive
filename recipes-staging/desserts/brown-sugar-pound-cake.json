@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-sugar-pound-cake",
+  "name": "Brown Sugar Pound Cake",
+  "subtitle": "A rich, nut-studded cake with caramel-like sweetness",
+  "description": "A tender American pound cake made with brown sugar, butter, milk, and chopped pecans.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "light-brown-sugar",
+      "item": "light brown sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "pecans",
+      "item": "pecans",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F. Prepare the all-purpose flour, then combine it with the baking powder."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the light brown sugar, white sugar, and butter until blended and creamy."
+    },
+    {
+      "step": 3,
+      "text": "Whisk in the eggs and vanilla extract."
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the milk and flour mixture until the batter is smooth. Fold in the chopped pecans."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the batter to a prepared cake pan and bake until set in the center, about 75 minutes.",
+      "timer_minutes": 75
+    },
+    {
+      "step": 6,
+      "text": "Cool the cake in the pan for 10 minutes before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "dessert",
+    "american",
+    "pound-cake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25973/brown-sugar-pound-cake-i/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ed9d85d52e14281dde8f7105b75aa1a9531c0d5b9ce4e92169dc4515a590caf5",
+    "normalized_text_hash": "63ede8ea2659efdcdb6ae91e9e37d0100b988e097552598962bd975df12c3d91",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:21:47.044Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

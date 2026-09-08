@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cookies-and-cream-no-churn-ice-cream",
+  "name": "Cookies and Cream No-Churn Ice Cream",
+  "subtitle": "Creamy frozen dessert with spiced biscuit pieces",
+  "description": "A simple no-churn ice cream combining whipped cream, condensed milk, vanilla, and speculoos biscuits with a melted biscuit-spread swirl.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "speculoos-biscuits",
+      "item": "speculoos biscuits",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "speculoos-biscuit-spread",
+      "item": "speculoos biscuit spread",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 600,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "condensed-milk",
+      "item": "condensed milk",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Break the speculoos biscuits into small pieces and set them aside with the biscuit spread."
+    },
+    {
+      "step": 2,
+      "text": "Warm the biscuit spread in a microwave-safe bowl in short bursts, stirring between bursts, until melted.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Whisk the biscuits, melted spread, double cream, condensed milk, and vanilla extract until the mixture reaches soft peaks."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a freezer-safe container and freeze until firm, about 6 hours.",
+      "timer_minutes": 360
+    }
+  ],
+  "tags": [
+    "dessert",
+    "ice-cream",
+    "no-churn",
+    "cookies-and-cream",
+    "speculoos"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "microwave-safe bowl",
+    "electric mixer",
+    "freezer-safe container"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cookies-cream-no-churn-ice-cream",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7da8ccf74da5a9467b45d7a4964a5114a693a64110cfa8401ca7bf81c8aa4003",
+    "normalized_text_hash": "e5f692e953d6eb53d91229d144ebb33ed09adacfb42b2fc6c2bb0059d03b33e9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:55:38.262Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

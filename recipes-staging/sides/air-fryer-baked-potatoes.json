@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-baked-potatoes",
+  "name": "Air Fryer Baked Potatoes",
+  "subtitle": "Crisp-skinned potatoes with seasoned butter",
+  "description": "Whole potatoes are seasoned, air-fried until tender, then split and finished with butter.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "scrubbed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "kosher salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "dried-parsley",
+      "item": "dried parsley",
+      "quantity": 0.5,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 4,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Rub the potatoes with olive oil, then season with salt, pepper, garlic powder, and dried parsley."
+    },
+    {
+      "step": 3,
+      "text": "Place the potatoes in the air-fryer basket and cook until tender when pierced.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 4,
+      "text": "Cut open each potato and top with butter before serving."
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "potatoes",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "air fryer",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275253/easy-air-fryer-baked-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "816b3154085bbf670f5fe6979d09ff967d8bc031ccc8d688b300a24c043d445c",
+    "normalized_text_hash": "63a094dc49b243d6d67712a2874987d16d8f564c82e5cecaf9ab159afa4f71f7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:17:37.409Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 27,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

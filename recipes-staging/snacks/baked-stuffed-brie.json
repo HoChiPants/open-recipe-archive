@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-stuffed-brie",
+  "name": "Baked Stuffed Brie",
+  "subtitle": "Cranberries and walnuts wrapped in golden puff pastry",
+  "description": "A warm, pastry-wrapped Brie filled with dried cranberries and chopped walnuts, suitable for sharing.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "wheel-of-brie-about-6-to-8-inches",
+      "item": "wheel of brie (about 6 to 8 inches)",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chilled"
+    },
+    {
+      "ingredient_id": "dried-cranberries",
+      "item": "dried cranberries",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sheet-frozen-puff-pastry",
+      "item": "sheet frozen puff pastry",
+      "quantity": 1,
+      "preparation": "thawed, plus extra for (optional) design",
+      "optional": true
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Slice the chilled Brie horizontally into two rounds. Set the top aside and distribute the dried cranberries and chopped walnuts over the cut surface of the bottom round."
+    },
+    {
+      "step": 2,
+      "text": "Replace the top round. Roll or shape the thawed puff pastry large enough to enclose the Brie, place the cheese in the center, and fold the pastry over it. Press the seams closed and trim excess pastry; use extra pastry for an optional design."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the egg with the water. Brush the pastry all over with the egg wash, then chill the wrapped Brie for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 425°F. Place the chilled Brie on a baking sheet and bake until the pastry is golden and the center reaches 160°F, about 20 to 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Rest briefly, then serve warm."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "baked",
+    "pastry",
+    "shareable"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "baking sheet",
+    "oven",
+    "pastry brush",
+    "knife",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245731/baked-stuffed-brie-with-cranberries-walnuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e36c4c29553d98491153d8b3d1edcd0487868af25e1a9b09640c90b6c3b83bfb",
+    "normalized_text_hash": "aaa68ae29bfd414445f3a4130518bc632c5f293aae1207d10b9d00f439551732",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:51:39.242Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

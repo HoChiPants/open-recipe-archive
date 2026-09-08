@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salt-and-pepper-skillet-fries",
+  "name": "Salt and Pepper Skillet Fries",
+  "subtitle": "Crisp-edged potatoes seasoned simply",
+  "description": "Potato strips cook in a butter-and-oil skillet until browned, then finish with coarse salt and cracked pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "sliced lengthwise into 1/2-inch circles and cut into 1/2-inch strips"
+    },
+    {
+      "ingredient_id": "coarse-sea-salt",
+      "item": "coarse sea salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cracked-black-pepper",
+      "item": "cracked black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil and butter in a large skillet over medium-high heat until the butter melts."
+    },
+    {
+      "step": 2,
+      "text": "Add the potatoes and cook, stirring occasionally, until tender and browned, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Transfer the fries to a serving dish and season with the coarse sea salt and cracked black pepper."
+    }
+  ],
+  "tags": [
+    "snack",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236025/salt-and-pepper-skillet-fries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c280249f200a426d5cad9ed0f4f0291ed0182bfc30021fefebe8f7500f1b0300",
+    "normalized_text_hash": "f8aa688fbde762722120f683b4d755e19e13ca60e44ab81aa07e40e8b58f8c05",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:41:44.871Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato-home-fries",
+  "name": "Baked Potato Home Fries",
+  "subtitle": "Crisp skillet potatoes with tender onion",
+  "description": "Partially cook baking potatoes, cool and cube them, then brown them in butter with chopped onion for a simple breakfast side.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "baking-potatoes",
+      "item": "baking potatoes",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the potatoes, then microwave them for 5 minutes until partially tender. Continue cooking until tender, then let them cool and set before cutting into cubes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a skillet over medium heat and cook the chopped onion for about 5 minutes, until softened.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the potato cubes and season with salt and ground black pepper. Cook, turning occasionally, until browned and crisp.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "home-fries",
+    "potatoes",
+    "skillet",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "microwave",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214989/diner-style-baked-potato-home-fries/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ec46e9a55794fc61cd1010e1da65f1bdd3832557e7d7a96aad793449f2dc56c1",
+    "normalized_text_hash": "478f13d5712e947bf3bf4ae6ad929b930267dd11864be27e8a0788eb0cc851e2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:08:55.289Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

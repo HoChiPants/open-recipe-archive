@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "sauerkraut",
+  "name": "Sauerkraut",
+  "subtitle": "Salted cabbage prepared in a large batch",
+  "description": "Firm cabbage is cut, salted, rested, heated, and cooled for a tangy salad or condiment. Use a current validated preservation procedure for any canning step.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 144,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 90,
+    "inactive_minutes": 31010
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cabbage",
+      "item": "cabbage",
+      "quantity": 50,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "canning-salt",
+      "item": "canning salt",
+      "quantity": 1.875,
+      "unit": "cups",
+      "preparation": "divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the cabbage, discarding damaged portions while keeping the heads firm. Cut it into fine shreds and transfer to a large food-safe vessel."
+    },
+    {
+      "step": 2,
+      "text": "Add the divided canning salt and mix thoroughly. Let the salted cabbage stand for 5 minutes, then work it until the cabbage softens and releases liquid.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pack the cabbage and its liquid into the vessel, keeping it submerged. Hold at 75°F for the specified inactive period, following a validated fermentation procedure for food-safety details."
+    },
+    {
+      "step": 4,
+      "text": "When the resting period is complete, prepare the sauerkraut for heating. Use a validated preservation procedure for jar preparation, filling, processing, and storage; those canning parameters are not specified here."
+    },
+    {
+      "step": 5,
+      "text": "Bring the prepared sauerkraut and liquid to a simmer, then heat to boiling and simmer for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Remove from the heat, allow the batch to rest as directed by the validated preservation procedure, then cool promptly.",
+      "timer_minutes": 1440
+    }
+  ],
+  "tags": [
+    "salad",
+    "condiment",
+    "cabbage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large food-safe vessel",
+    "knife",
+    "cutting board",
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21154/sauerkraut-for-canning/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f5126f0f2156f6da916db24306ed1adbcea00965c661e01153d3c019972255e4",
+    "normalized_text_hash": "df7edc0ef43a49ae5a77f8342586aa5c316a0f70dab976cf97dd4e8f872a72c5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:46:56.389Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

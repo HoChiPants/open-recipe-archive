@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-and-chocolate-galette",
+  "name": "Banana and Chocolate Galette",
+  "subtitle": "A flaky pastry dessert with caramelized bananas, chocolate, and hazelnuts.",
+  "description": "Fold puff pastry around bananas, chocolate, and hazelnuts, then bake until crisp and golden. Serve warm with optional vanilla ice cream.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "hazelnuts-roughly-chopped",
+      "item": "hazelnuts roughly chopped",
+      "quantity": 70,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-finely-chopped",
+      "item": "dark chocolate finely chopped",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "block-shop-bought-puff-pastry",
+      "item": "block shop-bought puff pastry",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bananas-sliced",
+      "item": "bananas sliced",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "vanilla-ice-cream-to-serve",
+      "item": "vanilla ice cream to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Combine the hazelnuts and chopped chocolate."
+    },
+    {
+      "step": 3,
+      "text": "Roll out the puff pastry, leaving it thick enough to support the filling. Scatter the hazelnut and chocolate mixture over the center, leaving a clear border."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the sliced bananas over the filling, then fold the pastry border inward to form a rustic galette."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the galette to the baking sheet and let it stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Sprinkle the pastry and bananas with the brown sugar. Bake until the pastry is puffed and golden and the bananas are caramelized, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 7,
+      "text": "Serve warm, with vanilla ice cream if desired."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-dessert",
+    "banana",
+    "chocolate",
+    "hazelnut",
+    "galette",
+    "pastry",
+    "easy-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "rolling pin"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/caramelised-banana-chocolate-galette",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c0aa522ec8faf817685faeeef501672983ec3ca7207b662355a2b2795736e8e",
+    "normalized_text_hash": "f6993331cd7249b9871089ea57e8f2a2e04b0a4fa914e1a40ba4fe77af5d3f31",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:11:29.083Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

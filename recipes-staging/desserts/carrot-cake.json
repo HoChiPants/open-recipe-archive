@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-cake",
+  "name": "Carrot Cake",
+  "subtitle": "A simple spiced cake with grated carrots",
+  "description": "An oil-based carrot cake with a tender crumb and warm cinnamon flavor.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "grated-carrots",
+      "item": "grated carrots",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Grease a cake pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the vegetable oil and white sugar until combined, then blend in the eggs."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, whisk together the all-purpose flour, baking powder, baking soda, ground cinnamon, and salt. Stir the dry mixture into the egg mixture just until no dry streaks remain."
+    },
+    {
+      "step": 4,
+      "text": "Fold in the grated carrots and transfer the batter to the prepared pan."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the center is firm and a tester inserted in the middle comes out clean.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 6,
+      "text": "Cool in the pan before serving."
+    }
+  ],
+  "tags": [
+    "carrot-cake",
+    "cake",
+    "dessert",
+    "baked-dessert",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "cake pan",
+    "mixing bowls",
+    "whisk",
+    "spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230969/a-very-moist-carrot-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fd01925c3459b883d487ccb265c543f2103f8df277e74740cb02474b71fbe588",
+    "normalized_text_hash": "347c44a17b360334706a8c50fe487e0345538713f129749b445ed1d1d0868429",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:08:23.490Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

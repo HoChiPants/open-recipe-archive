@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mulled-red-wine",
+  "name": "Mulled Red Wine",
+  "subtitle": "A warm, spiced wine for cool evenings",
+  "description": "Gently warm red wine with citrus peel and whole spices, sweeten to taste, and serve hot.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-red-wine",
+      "item": "dry red wine",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "2-inch-pieces-cinnamon-sticks",
+      "item": "(2 inch) pieces cinnamon sticks",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "whole-cloves",
+      "item": "whole cloves",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "whole-allspice-berries",
+      "item": "whole allspice berries",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "strip-of-lemon-peel",
+      "item": "strip of lemon peel",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "strip-of-orange-peel",
+      "item": "strip of orange peel",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "sugar",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the wine, cinnamon sticks, cloves, allspice berries, lemon peel, and orange peel in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Warm over low heat until steaming; do not boil."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sugar until dissolved, adjusting to taste."
+    },
+    {
+      "step": 4,
+      "text": "Continue warming gently for 20 minutes, then strain into heatproof glasses and serve.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "mulled-wine",
+    "warm-drink"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "equipment": [
+    "saucepan",
+    "fine-mesh strainer",
+    "heatproof glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/286000/easy-mulled-wine/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e8d3fbfc01e9b17c0a0f222459bbccb0058a05d011539efcd341d2d456b31505",
+    "normalized_text_hash": "9aec3d837f467b186922bbbde56124a971e8c25e7aaa55eb5db4189251de517d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:39:19.478Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brooklyn-style-brick-oven-pizza",
+  "name": "Brooklyn-Style Brick-Oven Pizza",
+  "subtitle": "Thin-crust pizza with mozzarella, tomato, oregano, and basil",
+  "description": "A crisp, thin American-style pizza made with an overnight dough, simple tomato topping, and fresh basil.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "inactive_minutes": 965
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water",
+      "item": "warm water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "low-moisture-mozzarella-cheese",
+      "item": "low moisture mozzarella cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "no-salt-added-canned-crushed-tomatoes",
+      "item": "no salt added canned crushed tomatoes",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "leaves-fresh-basil",
+      "item": "leaves fresh basil",
+      "quantity": 6,
+      "preparation": "torn"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the warm water, yeast, and cold water. Let stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir in the salt and crushed tomatoes, then add the bread flour. Knead for 10 minutes, until the dough is smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough, coat it with 1 tablespoon olive oil, and let it rest, covered, for 16 hours.",
+      "timer_minutes": 960
+    },
+    {
+      "step": 4,
+      "text": "Divide and stretch the dough into thin portions. Preheat the oven to 550°F."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the dough to a floured baking surface and top with the sliced mozzarella, oregano, pepper, remaining olive oil, and crushed tomatoes."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 6 minutes, then continue baking until the crust is browned and the cheese is melted, about 4 minutes more.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 7,
+      "text": "Top with the torn basil, cut into pieces, and serve."
+    }
+  ],
+  "tags": [
+    "pizza",
+    "american",
+    "vegetarian",
+    "lunch"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking surface"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70801/brick-oven-pizza-brooklyn-style/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a07e41f907329d3fd869330626ae9e48fb2c1864a31a229b4bac95cf30e646ec",
+    "normalized_text_hash": "79128fba0c57fb72502d34922e3f7406088ca30b00c2af3b73cf446952cc5c0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:52.381Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

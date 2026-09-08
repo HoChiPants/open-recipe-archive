@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-jalapen-o-poppers",
+  "name": "Air Fryer Jalapeño Poppers",
+  "subtitle": "Cheese-filled jalapeños wrapped with bacon",
+  "description": "Jalapeño halves are filled with a cream cheese mixture, topped with salami, wrapped in bacon, and air-fried until hot and crisp.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 6,
+      "unit": "ounces",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "ounce",
+      "preparation": "shredded, or to taste"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 6,
+      "unit": "medium",
+      "preparation": "halved and seeded"
+    },
+    {
+      "ingredient_id": "slices-salami",
+      "item": "slices salami",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 6,
+      "preparation": "cut in half lengthwise"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 390°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the cream cheese and Cheddar cheese until combined. Fill the jalapeño halves with the cheese mixture."
+    },
+    {
+      "step": 3,
+      "text": "Place a piece of salami over each filled pepper, then wrap each popper with a bacon strip."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the poppers in the air-fryer basket in a single layer. Air-fry until the filling is hot and the bacon is browned and crisp.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "jalapen-o",
+    "cheese",
+    "bacon",
+    "appetizer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/281638/air-fried-jalapeno-poppers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "913e5ce5561bb8b1d3a47baf152cd2fecb1866fffe7b03d0fc4e89cbce604f43",
+    "normalized_text_hash": "b3363948410f5c69d16a3e2317cf693a8750aadd3b9fa92d14350d6241a9ddb7",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:28:13.579Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

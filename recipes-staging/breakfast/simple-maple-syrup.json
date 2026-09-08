@@ -1,0 +1,80 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-maple-syrup",
+  "name": "Simple Maple Syrup",
+  "subtitle": "A quick maple-style syrup for breakfast plates",
+  "description": "Make a warm, pourable syrup by dissolving sugar in boiling water and adding maple-flavored extract.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maple-flavored-extract",
+      "item": "maple flavored extract",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the white sugar and boiling water in a saucepan. Stir until the sugar dissolves and the mixture is smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Stir in the maple flavored extract, then serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "brunch",
+    "syrup"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46976/simple-maple-syrup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9329417e6cb0baca8124a2090d332758b3cdc2e4760c97cdd42052a106e7e989",
+    "normalized_text_hash": "41c97484d7287364734c82079c428747577d6cef602ec38dd88e73d6cf3e3cb2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:27:48.510Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

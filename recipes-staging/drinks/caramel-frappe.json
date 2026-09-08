@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caramel-frappe",
+  "name": "Caramel Frappe",
+  "subtitle": "A cold, creamy espresso drink with caramel",
+  "description": "Blend espresso, milk, ice, caramel sauce, and optional vanilla into a smooth iced drink. Finish with optional whipped cream and extra caramel sauce.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "2-shots-espresso",
+      "item": "(2 shots) espresso",
+      "quantity": 60,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "milk-plant-based-is-fine",
+      "item": "milk (plant-based is fine)",
+      "quantity": 250,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "handfuls-of-ice",
+      "item": "handfuls of ice",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "caramel-sauce-plus-extra-to-serve",
+      "item": "caramel sauce plus extra to serve",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract (optional)",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "ingredient_id": "whipped-cream-to-serve-optional",
+      "item": "whipped cream to serve (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the espresso, milk, ice, caramel sauce, and optional vanilla to a blender; blend until smooth and frothy."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the optional whipped cream until smooth, then whisk in some caramel sauce if desired."
+    },
+    {
+      "step": 3,
+      "text": "Pour into a glass and top with the whipped cream and extra caramel sauce."
+    }
+  ],
+  "tags": [
+    "drink",
+    "caramel",
+    "espresso",
+    "iced-coffee",
+    "frappe"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "glass",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/caramel-frappe",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "de6a9aa26f97caa3b6c84ed400582f65280ecf6366f5858a6301ec4a869bdb85",
+    "normalized_text_hash": "11380ab96390dec7eca1350a5b167079bdcf02b9bcf8b1d01e719666b898072b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:11:05.256Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 18,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

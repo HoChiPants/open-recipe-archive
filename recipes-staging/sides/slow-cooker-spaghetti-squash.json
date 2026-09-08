@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-spaghetti-squash",
+  "name": "Slow Cooker Spaghetti Squash",
+  "subtitle": "Tender strands with minimal hands-on work",
+  "description": "Cook a whole spaghetti squash in a slow cooker, then separate the tender flesh into strands for an easy side dish.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 240,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "spaghetti-squash",
+      "item": "spaghetti squash",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "washed thoroughly"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the washed spaghetti squash in a slow cooker and pour the water around it."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook until the squash is tender when pierced, about 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Transfer the squash to a work surface and let it rest until cool enough to handle.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Halve the squash lengthwise and remove the seeds."
+    },
+    {
+      "step": 5,
+      "text": "Use a fork to pull the flesh into strands and serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "slow-cooker",
+    "american",
+    "vegetable"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "slow cooker",
+    "chef's knife",
+    "fork"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/240068/slow-cooker-spaghetti-squash/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "652a76a513bc6dc953f4431202ea544540c5dd720ec2e54d9d75d734bc8eb8aa",
+    "normalized_text_hash": "58e8510f284bc04d43b88575e9198a6e3668a9e845b74f0f475e8b3b717ef1a3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:51:23.491Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

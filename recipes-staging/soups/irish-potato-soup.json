@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "irish-potato-soup",
+  "name": "Irish Potato Soup",
+  "subtitle": "A hearty potato soup with bacon and creamy milk",
+  "description": "Bacon, onion, celery, and potatoes simmer together before evaporated milk is stirred in for a rich, warming soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 pound"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "preparation": "scrubbed and cubed"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large pot over medium heat until crisp, about 10 minutes. Transfer it to a plate and drain the excess fat from the pot.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Return the pot to medium heat. Add the onion and celery, and cook until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the cubed potatoes and cook until tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir in the evaporated milk and season with salt and pepper to taste. Return the bacon to the pot and stir to combine."
+    }
+  ],
+  "tags": [
+    "soup",
+    "potato",
+    "bacon",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213398/irish-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9b6340246b0f6d65548e48892e38eea41f774244451e60a5642bad943a1da45b",
+    "normalized_text_hash": "237d1b0bbe540d299ebde43c7dc0adfadf22928bbbe5bdc46e2dbd4c1fc93b47",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:14:45.717Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "quinoa-with-mushrooms",
+  "name": "Quinoa with Mushrooms",
+  "subtitle": "A savory quinoa side with tender mushrooms and Parmesan",
+  "description": "Quinoa is toasted with butter, simmered in broth, and finished with sautéed mushrooms, onion, garlic, and Parmesan.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "quinoa",
+      "item": "quinoa",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "rinsed"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "grated-parmesan-cheese",
+      "item": "grated Parmesan cheese",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a skillet over medium heat. Add the mushrooms, onion, and garlic; cook for 5 minutes, stirring occasionally, until softened. Set aside.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a saucepan over medium heat. Add the rinsed quinoa and cook for 3 minutes, stirring, until coated and lightly toasted.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Pour in the chicken broth and bring to a simmer. If the broth contains raw poultry, cook the mixture until it reaches 165°F on a food thermometer."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Stir the quinoa for 2 minutes, then fold in the mushroom mixture and Parmesan. Serve warm.",
+      "timer_minutes": 2
+    }
+  ],
+  "tags": [
+    "quinoa",
+    "mushrooms",
+    "savory",
+    "side-dish",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "skillet",
+    "saucepan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/161695/quinoa-with-mushrooms/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ca0a597633fb31aefe928a552664025494cb8bd58f043ee54e1c675392780bf5",
+    "normalized_text_hash": "839eeb604a1e8b1843c2d905d4582f3383f416e6057f1258fcf2d810c777ca0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:50:22.610Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

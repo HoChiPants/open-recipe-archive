@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "raspberry-sorbet-punch",
+  "name": "Raspberry Sorbet Punch",
+  "subtitle": "A bright, bubbly party drink",
+  "description": "Raspberry sorbet melts into lemon-lime soda for a quick, refreshing punch.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "raspberry-sorbet",
+      "item": "raspberry sorbet",
+      "quantity": 1,
+      "unit": "pint"
+    },
+    {
+      "ingredient_id": "lemon-lime-soda",
+      "item": "lemon-lime soda",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "2 liter"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Scoop the raspberry sorbet into a punch bowl."
+    },
+    {
+      "step": 2,
+      "text": "Pour in the lemon-lime soda and stir gently until combined."
+    },
+    {
+      "step": 3,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "punch",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "punch bowl",
+    "ice cream scoop"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/56444/kellys-super-simple-shower-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3569dd79e7e65d45c3d8f7f37b29b18cdffa09de93368736f956013e7cecae03",
+    "normalized_text_hash": "101e4481dbf2247295ba69cb72e4659ddf11d4d8e720089f35d5bfcfe7dbe86c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:12:46.101Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

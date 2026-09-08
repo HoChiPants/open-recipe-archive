@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beetroot-juice",
+  "name": "Beetroot Juice",
+  "subtitle": "Fresh beet, apple, carrot, and ginger drink",
+  "description": "A bright vegetable-fruit juice blended with ginger and apple cider vinegar.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "(220ml)"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beetroot-quartered",
+      "item": "beetroot quartered",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "stems removed"
+    },
+    {
+      "ingredient_id": "apple-quartered",
+      "item": "apple quartered",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "thumb-sized-piece-of-ginger",
+      "item": "thumb-sized piece of ginger",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 2,
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare the beetroot, apple, carrot, and ginger as listed, then stir them together with the apple cider vinegar."
+    },
+    {
+      "step": 2,
+      "text": "Blend the mixture until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Transfer to a container, prepare for chilling, and refrigerate for 24 hours.",
+      "timer_minutes": 1440
+    },
+    {
+      "step": 4,
+      "text": "Stir before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "juice",
+    "beetroot",
+    "vegetable-juice",
+    "ginger"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "container"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beetroot-juice",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3c942edf8117fffead552e6168ea5b8330d389f90335ec1f9e2d61c8ae3ea763",
+    "normalized_text_hash": "f055329c98ce838af74cee238c87dff5be3e7338294b6b9540bc8107e822bcc7",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:26:58.051Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

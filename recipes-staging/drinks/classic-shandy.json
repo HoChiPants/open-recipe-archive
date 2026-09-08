@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "classic-shandy",
+  "name": "Classic Shandy",
+  "subtitle": "A refreshing blend of beer and lemonade with lemon",
+  "description": "Combine beer and lemonade with lemon for a simple, bright shandy.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lemon-slices",
+      "item": "lemon slices",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "bitter-beer-5",
+      "item": "bitter beer (5%)",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemonade",
+      "item": "lemonade",
+      "quantity": 200,
+      "unit": "ml"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the lemon slices if needed for serving."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the lemon slices, beer, and lemonade to a serving glass."
+    },
+    {
+      "step": 3,
+      "text": "Stir gently and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beer",
+    "shandy",
+    "summer"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-shandy",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "757f5fb25ec181bd208d14d5d7c4e66dccd535358b8f1bc8efa282f28d50dcdf",
+    "normalized_text_hash": "f9f2490cbd2cb1b926748f6c048cfdbfd7e51d34193039b2d75aed556bba1407",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:33:32.027Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

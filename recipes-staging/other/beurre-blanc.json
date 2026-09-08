@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beurre-blanc",
+  "name": "Beurre blanc",
+  "subtitle": "A silky butter sauce with wine and shallot",
+  "description": "A classic French sauce made by reducing wine, vinegar, and shallot, then whisking in cold butter until smooth and thick.",
+  "meal_type": "other",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 175,
+    "unit": "ml"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-white-wine-such-as-sauvignon-blanc",
+      "item": "dry white wine (such as sauvignon blanc)",
+      "quantity": 100,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "shallot-finely-chopped",
+      "item": "shallot finely chopped",
+      "quantity": 1,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "cold-unsalted-butter-cut-into-cubes",
+      "item": "cold unsalted butter cut into cubes",
+      "quantity": 200,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the wine, vinegar, and shallot in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Simmer until the liquid is reduced to a small, concentrated amount, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Transfer the reduction to a clean pan or bowl and return it to low heat."
+    },
+    {
+      "step": 4,
+      "text": "Whisk in the cold butter a few cubes at a time, adding more as each portion is nearly incorporated."
+    },
+    {
+      "step": 5,
+      "text": "Continue whisking until the sauce is smooth, thick, and emulsified. Serve warm."
+    }
+  ],
+  "tags": [
+    "sauce",
+    "french",
+    "condiment",
+    "butter-sauce"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/beurre-blanc",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4b8d08c9728c686374ab0817a9a04c5c1e339d487e999d2d6c3183ebb0ba66fc",
+    "normalized_text_hash": "5f3f5dc1f8b98686be3e60fa4ce9bc3428949810b40d0208e15e710c9ea627ea",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:31:43.062Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

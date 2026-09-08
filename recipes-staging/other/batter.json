@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "batter",
+  "name": "Batter",
+  "subtitle": "A simple flour-and-water batter for frying",
+  "description": "Mix self-raising flour with cold water, then fry portions in oil until golden brown.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 300,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "l-sunflower-or-vegetable-oil-for-frying",
+      "item": "L sunflower or vegetable oil for frying",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the self-raising flour and cold water in a bowl until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the batter to a jug or other easy-pouring container."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the sunflower or vegetable oil in a frying pan over medium heat."
+    },
+    {
+      "step": 4,
+      "text": "Pour the batter into the hot oil in portions and cook, turning as needed, until golden brown.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Transfer the fried batter to a plate and prepare the remaining portions."
+    }
+  ],
+  "tags": [
+    "batter",
+    "fried-food",
+    "quick-cooking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "frying pan",
+    "spatula"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/batter",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e6e5506ed477956fd5b62162d4c551d9b414a5804f1d162e43d25f2e02cdf737",
+    "normalized_text_hash": "c841bbee515dea8f3bc72223ae25bbb6d2602f45ca70e5ccceb568b09749e926",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:14:14.012Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

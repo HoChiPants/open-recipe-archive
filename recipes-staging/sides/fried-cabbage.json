@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fried-cabbage",
+  "name": "Fried Cabbage",
+  "subtitle": "Tender cabbage simmered in buttery broth",
+  "description": "A simple cabbage side dish cooked slowly until tender and seasoned just before serving.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "preparation": "cored and coarsely chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper",
+      "item": "salt and ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a large pot over medium heat. Add the chicken broth and bring it to a simmer, verifying with a thermometer that the liquid reaches at least 165°F."
+    },
+    {
+      "step": 2,
+      "text": "Add the chopped cabbage, cover, and simmer gently for 45 minutes, or until tender.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 3,
+      "text": "Season with the salt and ground black pepper, then serve hot."
+    }
+  ],
+  "tags": [
+    "cabbage",
+    "vegetable-side",
+    "simmered",
+    "quick-prep"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "lid",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/100811/fabulous-fried-cabbage/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9be7e7454ca1a6252b573ed6f16574280cdf81e873973c4e0995f5d5daeea3be",
+    "normalized_text_hash": "40fe565f3417b268c870c787d96c066c2ea19aada5456630924afed3aff4faba",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:03:50.670Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-bratwurst",
+  "name": "Slow Cooker Bratwurst",
+  "subtitle": "Tender brats finished over the grill",
+  "description": "Cook bratwurst with beer, onion, and ketchup until tender, then briefly grill for a browned finish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 245
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bratwurst",
+      "item": "bratwurst",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "or-bottles-beer",
+      "item": "or bottles beer",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.75,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the bratwurst, beer, sliced onion, and ketchup in a slow cooker."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook until the bratwurst is set and reaches 160°F in the center.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill."
+    },
+    {
+      "step": 4,
+      "text": "Grill the bratwurst until browned, about 5 minutes.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "slow-cooker",
+    "sausage"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "slow cooker",
+    "grill",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143226/wisconsin-slow-cooker-brats/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "95114897921a3137f58be40531fc77361a9b76b50f6e008b042a6902f01dc311",
+    "normalized_text_hash": "a521a2b10efa42c6ec8c5b6bb51cc0de761a1957edf61d43dcc2fad8599dc200",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:07:31.721Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "root-beer-floats",
+  "name": "Root Beer Floats",
+  "subtitle": "Classic ice cream drinks with whipped cream and cherries",
+  "description": "Build two creamy root beer floats with vanilla ice cream, whipped cream, and maraschino cherries.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vanilla-ice-cream",
+      "item": "vanilla ice cream",
+      "quantity": 0.5,
+      "unit": "pint"
+    },
+    {
+      "ingredient_id": "or-bottle-root-beer",
+      "item": "or bottle root beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "whipped-cream",
+      "item": "whipped cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maraschino-cherries",
+      "item": "maraschino cherries",
+      "quantity": 4
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Divide the vanilla ice cream between two tall glasses."
+    },
+    {
+      "step": 2,
+      "text": "Pour the root beer evenly over the ice cream."
+    },
+    {
+      "step": 3,
+      "text": "Top each float with whipped cream and two maraschino cherries. Serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "american",
+    "root-beer",
+    "ice-cream"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "2 tall glasses"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20731/gourmet-root-beer-float/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5d2ef4372ecea78abd13141c438526bf86cdbbe3ac046be3cc2972b6766f09fe",
+    "normalized_text_hash": "4d777cbb038159c04991c8ea00a07c04bd9f01a07e2136c799c55cbaf86916b9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:48:29.740Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

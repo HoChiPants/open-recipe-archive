@@ -1,0 +1,143 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-valdostano",
+  "name": "Chicken Valdostano",
+  "subtitle": "Chicken with mushrooms, prosciutto, and melted fontina",
+  "description": "Thin chicken breasts are browned, simmered with mushrooms and wine, then finished with prosciutto and fontina for a savory Italian-style main dish.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves - pounded thin"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-mushrooms",
+      "item": "fresh mushrooms",
+      "quantity": 10,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "dry-white-wine",
+      "item": "dry white wine",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 3,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "freshly-ground-white-pepper",
+      "item": "freshly ground white pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "slices-thinly-sliced-prosciutto",
+      "item": "slices thinly sliced prosciutto",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "slices-fontina-cheese",
+      "item": "slices fontina cheese",
+      "quantity": 6
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 375°F. Lightly coat the pounded chicken breasts with flour."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a large oven-safe skillet over medium-high heat. Brown the chicken on both sides, then transfer it to a plate."
+    },
+    {
+      "step": 3,
+      "text": "Cook the mushrooms in the skillet until softened, about 4 minutes. Pour in the wine and simmer for 4 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 4,
+      "text": "Stir in the chicken stock, parsley, and white pepper. Return the chicken to the skillet and simmer for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Cover each piece with prosciutto and fontina. Bake until the cheese melts and the thickest chicken portion reaches 165°F on a food thermometer."
+    },
+    {
+      "step": 6,
+      "text": "Spoon the pan sauce over the chicken and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "chicken",
+    "skillet-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large oven-safe skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8888/chicken-valdostano/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c78401a9b460edd754099868367a3958ad549a5dd4143019fafd61e437313619",
+    "normalized_text_hash": "72084e91ba279b9e427c791945e89334b0563cdfc91e975a25961227730dc998",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:18:30.313Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

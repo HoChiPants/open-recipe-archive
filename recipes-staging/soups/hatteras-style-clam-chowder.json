@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "hatteras-style-clam-chowder",
+  "name": "Hatteras-Style Clam Chowder",
+  "subtitle": "A light, savory chowder with vegetables, clams, and bacon",
+  "description": "A broth-based clam chowder filled with tender potatoes and vegetables, finished with thyme, pepper, and crumbled bacon.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 5,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "peeled",
+      "item": "peeled",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "cubed white potatoes"
+    },
+    {
+      "ingredient_id": "clams",
+      "item": "clams",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "16 ounce, minced, with juice"
+    },
+    {
+      "ingredient_id": "clam-juice",
+      "item": "clam juice",
+      "quantity": 3,
+      "unit": "quarts"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "slices-crisp-cooked-bacon",
+      "item": "slices crisp cooked bacon",
+      "quantity": 8,
+      "preparation": "crumbled"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the vegetable oil in a large pot over medium heat. Add the onion, celery, and carrots; cook until the vegetables begin to soften."
+    },
+    {
+      "step": 2,
+      "text": "Add the potatoes, clam juice, clams with their juice, thyme, pepper, and bacon. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Bring the chowder to a gentle simmer and cook until the potatoes are tender and the clams are opaque.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "soup",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "large pot"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20860/hatteras-style-clam-chowder/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8dcb48a548c47a27edad337ebebd8da50a03ee23f48e6d57c16516fc58b837b3",
+    "normalized_text_hash": "ce3170998d82f1672684791d8911ad0401780b56f0b87275e9a1cda7f3097f09",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:23:39.004Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

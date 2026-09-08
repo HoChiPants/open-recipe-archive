@@ -1,0 +1,108 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-orange-sauce",
+  "name": "Cranberry Orange Sauce",
+  "subtitle": "A bright, gently spiced cranberry condiment",
+  "description": "Cranberries simmer with brown sugar, fresh orange, and cinnamon until thick, then cool before serving.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cranberries",
+      "item": "cranberries",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange",
+      "item": "orange",
+      "quantity": 1,
+      "preparation": "zested and juiced"
+    },
+    {
+      "ingredient_id": "cinnamon-stick",
+      "item": "cinnamon stick",
+      "quantity": 1,
+      "preparation": "broken in half"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the cranberries, brown sugar, orange zest and juice, and broken cinnamon stick in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring the mixture to a simmer over medium heat, then cook until the cranberries break down and the sauce thickens.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Transfer the sauce to a serving container and let it cool for about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Remove the cinnamon stick before serving."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "cranberry",
+    "orange",
+    "holiday"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon",
+    "zester",
+    "citrus juicer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235285/cranberry-orange-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "445599a01b940a10b50575f35127f4014517a5e28b84ff79fc39c31accbde604",
+    "normalized_text_hash": "d8edb250433ff308f6346f0bf2fb892eb58dff8560196f64380a3debea0536b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:22:40.859Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-kumquats",
+  "name": "Cinnamon Kumquats",
+  "subtitle": "Tender kumquats in a simple cinnamon-sugar finish",
+  "description": "A bright, sweet fruit dessert that softens ripe kumquats with sugar and warm cinnamon.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ripe-kumquats",
+      "item": "ripe kumquats",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the kumquats, then place them in a saucepan and simmer until tender, about 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sugar and cinnamon. Continue simmering for 5 minutes, until the mixture is thick and the fruit is coated.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "sweet",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "stirring spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18300/kumquats/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dd19f1f3f16e63e1ec416b0313a23e35c72d3874ded8dcfd0d2135003af70955",
+    "normalized_text_hash": "9bf18a0ec2db20798f6731c65c48cbcfdd217865dfab0dd1d4ca230dda959d3e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:46:41.277Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

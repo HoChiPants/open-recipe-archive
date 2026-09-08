@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bramble",
+  "name": "Bramble",
+  "subtitle": "A bright gin cocktail with lemon and blackberry liqueur",
+  "description": "Shake gin, lemon juice, and sugar syrup with ice, then pour over crushed ice and finish with crème de mure and a simple garnish.",
+  "meal_type": "drink",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "gin",
+      "item": "gin",
+      "quantity": 50,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 25,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "sugar-syrup",
+      "item": "sugar syrup",
+      "quantity": "3/4",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes"
+    },
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "cre-me-de-mure",
+      "item": "crème de mure",
+      "quantity": "3/4",
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "lemon-slice-and-a-blackberry-if-in-season-to-serve",
+      "item": "lemon slice and a blackberry (if in season) to serve",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the gin, lemon juice, sugar syrup, and ice cubes in a shaker."
+    },
+    {
+      "step": 2,
+      "text": "Shake until chilled, then strain into a glass filled with the crushed ice."
+    },
+    {
+      "step": 3,
+      "text": "Pour the crème de mure over the drink and garnish with the lemon slice and a blackberry (if in season) to serve."
+    }
+  ],
+  "tags": [
+    "cocktail",
+    "drink",
+    "gin",
+    "blackberry",
+    "lemon",
+    "party"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "cocktail shaker",
+    "strainer",
+    "serving glass"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/bramble",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "667ab802ec497d9962dc6f39343767f8075cedc8b19d61f15ba268ce2a7f0d91",
+    "normalized_text_hash": "2dc7c99b748ab37eb536029cdec1e2f4a4b4c7b081e76107c97cffa308bdc445",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:47:05.529Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

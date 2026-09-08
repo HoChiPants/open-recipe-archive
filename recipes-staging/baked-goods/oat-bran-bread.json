@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oat-bran-bread",
+  "name": "Oat Bran Bread",
+  "subtitle": "A lightly sweet, hearty loaf with oat bran",
+  "description": "This simple yeast bread combines oat bran, honey, and bread flour for a tender loaf suitable for slicing and serving with meals or breakfast.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "inactive_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "oat-bran",
+      "item": "oat bran",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the warm water, margarine, honey, flour, oat bran, salt, and yeast in a mixing bowl. Stir until a shaggy dough forms."
+    },
+    {
+      "step": 2,
+      "text": "Knead the dough until cohesive and smooth, then cover and let it rise until puffy, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Shape the dough into a loaf and place it in a greased loaf pan. Let it rise again until visibly expanded."
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the loaf is browned and sounds hollow when tapped, about 35 minutes. Cool before slicing.",
+      "timer_minutes": 35
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "oat-bran",
+    "honey",
+    "homemade"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "loaf pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7129/oat-bran-bread/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f949dbc383e34278703a3b8195d61e482462ab381d3c74e8f54fb06ec36e4ea6",
+    "normalized_text_hash": "a86270a6dbc41ea0986259ca615978875dfb5f4bacc6b4ca1ce97f70751d5736",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:19:57.069Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

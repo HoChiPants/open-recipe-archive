@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bruschetta-with-cheese",
+  "name": "Bruschetta with Cheese",
+  "subtitle": "Toasted baguette topped with tomatoes, herbs, and melted cheese",
+  "description": "Crisp baguette slices are layered with seasoned tomatoes, fresh herbs, and two cheeses, then baked until hot and melted.",
+  "meal_type": "snack",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "french-baguette",
+      "item": "French baguette",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "roma-plum-tomatoes",
+      "item": "roma (plum) tomatoes",
+      "quantity": 2,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "basil",
+      "item": "fresh basil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-oregano",
+      "item": "fresh oregano",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-white-pepper",
+      "item": "ground white pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, sliced"
+    },
+    {
+      "ingredient_id": "provolone-cheese",
+      "item": "provolone cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "6 ounce, sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the baguette into thick slices and arrange them on a baking sheet. Brush or drizzle with the olive oil."
+    },
+    {
+      "step": 3,
+      "text": "Combine the sliced tomatoes, basil, oregano, garlic powder, and white pepper."
+    },
+    {
+      "step": 4,
+      "text": "Spoon the tomato mixture onto the baguette slices and top with the mozzarella and provolone. Sprinkle with the remaining herbs."
+    },
+    {
+      "step": 5,
+      "text": "Bake until the bread is toasted and the cheese is melted and hot, about 10 minutes.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "cheese",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20545/bruschetta-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "70c04c9605aa26a3b52b56a220e439e22e7094e23b28909b1cb752c1efcd81b9",
+    "normalized_text_hash": "e0b8db30e974ddb95cb3e87e1ed81ab2d35014b95813c5ef66bc646d3b7e1550",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:22:40.366Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-gingerbread",
+  "name": "Air Fryer Gingerbread",
+  "subtitle": "Spiced gingerbread baked in small batches",
+  "description": "A crisp-edged, warmly spiced gingerbread made with muscovado sugar and golden syrup, then finished with optional icing.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 8
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-muscovado-sugar",
+      "item": "dark muscovado sugar",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 225,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-ginger",
+      "item": "ground ginger",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "bicarbonate-of-soda",
+      "item": "bicarbonate of soda",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "icing-to-decorate-optional",
+      "item": "icing to decorate (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the salted butter, muscovado sugar, and golden syrup together, stirring until smooth. Remove from the heat and cool for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Mix the plain flour, bicarbonate of soda, ground ginger, and cinnamon in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Add the cooled butter mixture and milk to the dry ingredients. Knead briefly until a smooth dough forms."
+    },
+    {
+      "step": 4,
+      "text": "Chill the dough for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Preheat the air fryer according to its instructions. Roll out the dough and cut into 16 portions or shapes."
+    },
+    {
+      "step": 6,
+      "text": "Arrange the pieces in the air-fryer basket in a single layer, working in batches if needed."
+    },
+    {
+      "step": 7,
+      "text": "Air-fry for 8 minutes, or until set and lightly browned. Cool until firm.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 8,
+      "text": "Decorate with optional icing before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "air-fryer",
+    "gingerbread",
+    "spiced-baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl",
+    "rolling pin",
+    "cookie cutter"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-gingerbread",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "84cecb130a16aa2638cabeae2491d0e3bbce69e7fddb2148219808bc0863a969",
+    "normalized_text_hash": "fd9165508cbdad4079c6adcfb6a6ff11bd68e28edcd3343ca095d6140513cd24",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:26:03.363Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

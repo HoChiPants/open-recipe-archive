@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-reuben-dip",
+  "name": "Slow Cooker Reuben Dip",
+  "subtitle": "A warm, creamy dip with sauerkraut, corned beef, and Swiss cheese",
+  "description": "Combine classic Reuben-inspired ingredients in a slow cooker for a hot, melty dip suitable for serving as an appetizer or snack.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "16-ounce-jar-sauerkraut",
+      "item": "(16 ounce) jar sauerkraut",
+      "quantity": 1,
+      "preparation": "drained"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "swiss-cheese",
+      "item": "Swiss cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "corned-beef",
+      "item": "corned beef",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded cooked"
+    },
+    {
+      "ingredient_id": "thousand-island-dressing",
+      "item": "thousand island dressing",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the drained sauerkraut, softened cream cheese, Swiss cheese, cooked corned beef, and dressing to a slow cooker; stir until evenly combined."
+    },
+    {
+      "step": 2,
+      "text": "Cover and cook for 45 minutes, stirring occasionally, until the cheese is melted and the dip reaches 165°F throughout.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 3,
+      "text": "Stir well and serve hot."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "slow-cooker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/89707/slow-cooker-reuben-dip/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "046b3ddb3434083c5e204c0bc906be53342961c48bf24d2ff8bd88ce1337db36",
+    "normalized_text_hash": "bea1acb61e8237f52d49bfacd6266883286d9bd44978d9964ec83d5f19d5d793",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:49:36.514Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

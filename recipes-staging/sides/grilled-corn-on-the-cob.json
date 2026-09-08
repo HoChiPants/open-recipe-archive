@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "grilled-corn-on-the-cob",
+  "name": "Grilled Corn on the Cob",
+  "subtitle": "Tender corn with buttery seasoning",
+  "description": "Grill corn until tender, then serve it with softened butter, salt, and black pepper.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ears-corn",
+      "item": "ears corn",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 6,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat an outdoor grill to medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the corn by removing the husks and silk, then rinse and dry the ears."
+    },
+    {
+      "step": 3,
+      "text": "Place the corn in a bowl and coat it with the softened butter. Season with salt and ground black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the corn on the grill and cook, turning regularly, until tender and lightly charred.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Serve hot with any remaining butter and seasoning from the bowl."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "grilled"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "outdoor grill",
+    "bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20724/grilled-corn-on-the-cob/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7505f0eefb4169f4eaae4a370b77f5eae0ea9b82b587c24920c582c8874410f0",
+    "normalized_text_hash": "64390a3b6135d3266ff7ac04bd3ce258f728cccad7a029bfbe9c8aba78a706d0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:05:00.889Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

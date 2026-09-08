@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-biscuit-dulce-de-leche-dessert",
+  "name": "Chocolate Biscuit Dulce de Leche Dessert",
+  "subtitle": "A chilled layered dessert with creamy dulce de leche filling",
+  "description": "Layer soaked chocolate biscuits with a smooth dulce de leche and soft cheese mixture, then chill until set and finish with cocoa and chocolate chips.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dulce-de-leche",
+      "item": "dulce de leche",
+      "quantity": 450,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "soft-cheese",
+      "item": "soft cheese",
+      "quantity": 450,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "milk-or-coffee",
+      "item": "milk or coffee",
+      "quantity": 250,
+      "unit": "ml",
+      "preparation": "for soaking"
+    },
+    {
+      "ingredient_id": "thin-chocolate-biscuits-see-tip",
+      "item": "thin chocolate biscuits (see tip",
+      "quantity": 750,
+      "unit": "g",
+      "preparation": "below)"
+    },
+    {
+      "ingredient_id": "cocoa-powder-for-dusting",
+      "item": "cocoa powder for dusting"
+    },
+    {
+      "ingredient_id": "milk-chocolate-chips-to-decorate",
+      "item": "milk chocolate chips to decorate",
+      "quantity": 50,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the dulce de leche and soft cheese together until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Briefly dip the chocolate biscuits in the milk or coffee. Arrange a layer in a serving dish, spread with some of the filling, and repeat until the ingredients are used, ending with a thick layer of filling."
+    },
+    {
+      "step": 3,
+      "text": "Refrigerate for 120 minutes, or until firm enough to cut.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Dust with cocoa powder and scatter the milk chocolate chips over the top. Cut into portions and serve chilled."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chocolate-biscuits",
+    "dulce-de-leche",
+    "layered-dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "serving dish",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chocotorta",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b5391922953cd1a5fdfd6e9c9f8ae5d84662627ccc1f3c69766bddfb911a11d9",
+    "normalized_text_hash": "8a0724c3cfea5eff3163fd92da4af052161b9ea1506cd78a24be95c150586d63",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:14:40.424Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 26,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

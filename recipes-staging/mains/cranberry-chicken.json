@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-chicken",
+  "name": "Cranberry Chicken",
+  "subtitle": "Oven-baked chicken thighs with tangy cranberry sauce",
+  "description": "Chicken thighs bake over softened onion beneath a sweet-tart cranberry glaze.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "chicken-thighs",
+      "item": "chicken thighs",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "whole-berry-cranberry-sauce",
+      "item": "whole berry cranberry sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "8 ounce"
+    },
+    {
+      "ingredient_id": "ketchup",
+      "item": "ketchup",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "dry-mustard-powder",
+      "item": "dry mustard powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Place the chopped onion and butter in a baking dish and bake until the onion begins to soften.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Arrange the chicken thighs over the onion and return the dish to the oven.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "While the chicken bakes, stir together the cranberry sauce, ketchup, brown sugar, apple cider vinegar, and dry mustard powder."
+    },
+    {
+      "step": 4,
+      "text": "Spread the sauce over the chicken and onion. Continue baking until the thickest pieces reach 165°F on a food thermometer and are cooked through.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/205726/best-cranberry-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d3e1c28615a0d5cafebe6c6e58d9468417253797e29f61294f181b73ec4f9171",
+    "normalized_text_hash": "dbd1dc96ebc97082deb77fc962728d7eedfbeca0f23fa391e5d6e75d3eff6498",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:31:47.822Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

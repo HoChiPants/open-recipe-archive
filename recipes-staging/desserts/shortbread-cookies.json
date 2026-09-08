@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "shortbread-cookies",
+  "name": "Shortbread Cookies",
+  "subtitle": "Butter, flour, and powdered sugar cookies with cherry toppings",
+  "description": "Mix butter, flour, and confectioners' sugar into a dough, shape into small cookies, top with maraschino cherries, and bake until lightly browned.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 18,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "maraschino-cherries",
+      "item": "maraschino cherries",
+      "quantity": 12
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine butter, all-purpose flour, and confectioners' sugar in a mixing bowl."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the mixture for 10 minutes until blended into a smooth dough.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Shape the dough into individual cookies and place them on a lined baking sheet."
+    },
+    {
+      "step": 5,
+      "text": "Top each cookie with a maraschino cherry."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 350°F for 18 minutes until the edges are lightly browned.",
+      "timer_minutes": 18
+    }
+  ],
+  "tags": [
+    "shortbread",
+    "cookies",
+    "dessert",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "baking sheet",
+    "parchment paper"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10079/3-ingredient-shortbread-cookies/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9e8e6df479c06057f580863e35ad2419050e8ea352fda772e5a651c8819dd7dd",
+    "normalized_text_hash": "7b54c9c309ef51af8622467e82aa10e6c700b93b04efc70e95e4d1fb21d45c0e",
+    "model": "gpt-5.3-codex-spark",
+    "model_version": "gpt-5.3-codex-spark",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-02T04:06:08.831Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "simple-moscow-mule",
+  "name": "Simple Moscow Mule",
+  "subtitle": "A bright, gingery vodka-lime drink over ice",
+  "description": "Combine fresh lime juice, vodka, and ginger beer over ice, then finish with lime slices.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "ice",
+      "item": "ice",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 0.5,
+      "unit": "medium",
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "fluid-ounces-vodka",
+      "item": "fluid ounces vodka",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fluid-ounces-ginger-beer",
+      "item": "fluid ounces ginger beer",
+      "quantity": 4,
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "lime-slices",
+      "item": "lime slices",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Fill a serving glass with the ice."
+    },
+    {
+      "step": 2,
+      "text": "Add the lime juice and vodka, then pour in the ginger beer and stir gently to combine."
+    },
+    {
+      "step": 3,
+      "text": "Garnish with the lime slices and serve immediately."
+    }
+  ],
+  "tags": [
+    "drink",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "serving glass",
+    "citrus juicer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237874/simple-moscow-mule/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "b4d69e72274f5760850d85d4fe38faee834da7ca8d4b3326004138e8a374918e",
+    "normalized_text_hash": "f0a2b9fbfb21e8700ef7cb4b22eeb3b51431b75bfa64a498dbeb0da9ae9f348e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:28:05.951Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "frijoles-a-la-charra",
+  "name": "Frijoles a la Charra",
+  "subtitle": "Slow-cooked pinto beans with bacon, beer, and jalapeños",
+  "description": "Pinto beans simmer with smoky bacon, vegetables, beer, and cilantro for a hearty Mexican-style side dish.",
+  "meal_type": "side",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 300
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dry-pinto-beans",
+      "item": "dry pinto beans",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 5,
+      "unit": "cloves",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 0.5,
+      "unit": "pound",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "fresh-tomatoes",
+      "item": "fresh tomatoes",
+      "quantity": 2,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "3.5 ounce, sliced"
+    },
+    {
+      "ingredient_id": "beer",
+      "item": "beer",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "fresh-cilantro",
+      "item": "fresh cilantro",
+      "quantity": 0.33333334326744,
+      "unit": "cup",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the dry pinto beans to a large pot and cover with water. Add the garlic and salt, then bring to a boil and cook for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Cook the diced bacon in a skillet until tender. Drain excess fat, return the skillet to heat, and cook the onion until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the tomatoes and sliced jalapeño peppers. Add this mixture and the bacon to the pot of beans."
+    },
+    {
+      "step": 4,
+      "text": "Simmer the beans gently until tender, about 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 5,
+      "text": "Stir in the beer and cilantro, then continue cooking for 30 minutes before serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "mexican",
+    "side-dish",
+    "beans"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76646/frijoles-a-la-charra/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e1552de89e90d30741ca424a66f94598e01e3a82bdd86179cf84c60675c720c8",
+    "normalized_text_hash": "9dd1517b17205ee5581774beba0fc1a66b0595f070ef6bbf8fab6639301ae7a1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:28:41.161Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

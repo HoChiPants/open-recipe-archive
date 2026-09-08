@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-beet-cake",
+  "name": "Chocolate Beet Cake",
+  "subtitle": "A moist cocoa cake made with blended beets and chocolate chips.",
+  "description": "This simple sheet-style chocolate cake uses puréed canned beets for a tender crumb and folds in chocolate chips before baking.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beets",
+      "item": "beets",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, sliced, drained with 1/2 cup liquid reserved"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "unsweetened-cocoa-powder",
+      "item": "unsweetened cocoa powder",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1.5,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Prepare a baking pan."
+    },
+    {
+      "step": 2,
+      "text": "Blend the drained beets with the reserved beet liquid until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the beet purée with the sugar, eggs, olive oil, and vanilla extract until smooth."
+    },
+    {
+      "step": 4,
+      "text": "In a separate bowl, combine the flour, cocoa powder, baking soda, and salt. Stir the dry mixture into the beet mixture until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Fold in the chocolate chips, then transfer the batter to the prepared pan."
+    },
+    {
+      "step": 6,
+      "text": "Bake until the center is set and a tester comes out clean or with a few moist crumbs.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "beets",
+    "cake",
+    "baking",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "nut-free"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "blender",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241406/amazing-chocolate-beet-cake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "833fe3de34c26ebce5b49918cfa621a2e618a1ba7fe67978978c75bffc215517",
+    "normalized_text_hash": "a1b6e13859edfeddccebb34d05add4014e5397498fe8c70a10195344f4cddc09",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:50:38.107Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

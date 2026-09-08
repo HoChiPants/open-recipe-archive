@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-parmesan-casserole",
+  "name": "Chicken Parmesan Casserole",
+  "subtitle": "A baked pasta casserole with chicken, marinara, mozzarella, and a crisp crumb topping.",
+  "description": "Combine tender rotini with chicken, cheese, and marinara, then bake it under seasoned breadcrumbs until hot and melted.",
+  "meal_type": "main",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rotini-pasta",
+      "item": "rotini pasta",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "chicken-chunks",
+      "item": "chicken chunks",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 ounce, drained"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "marinara-sauce",
+      "item": "marinara sauce",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "seasoned-bread-crumbs",
+      "item": "seasoned bread crumbs",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Boil the rotini for 8 minutes, then drain.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Stir the drained pasta with the chicken chunks and mozzarella cheese."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the mixture to a baking dish and add the marinara sauce. Sprinkle the seasoned bread crumbs over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 35 minutes, until the cheese is melted and the casserole reaches 165°F in the center.",
+      "timer_minutes": 35
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pasta",
+    "casserole"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62696/chicken-parmesan-casserole/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ee8a49b0bcf54fff53d81d141db707d3af0bfc6a4f42453045d7624184b2afcb",
+    "normalized_text_hash": "cadbaa458e2e4b1e81f64a66273cd60c0a3fda0fbbaa3a4c7ba6a8d7485d0faf",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:12:13.249Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

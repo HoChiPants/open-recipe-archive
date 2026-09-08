@@ -1,0 +1,138 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-chicken-penne",
+  "name": "Creamy Chicken Penne",
+  "subtitle": "Tender pasta with chicken, greens, peas, and a smooth cheese sauce.",
+  "description": "A quick, creamy penne dish combining shredded chicken, spinach, peas, and fresh herbs for an easy main course.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "dried-penne",
+      "item": "dried penne",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "garlic-clove-crushed",
+      "item": "garlic clove crushed",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "baby-spinach-leaves",
+      "item": "baby spinach leaves",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "soft-cheese",
+      "item": "soft cheese",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "parmesan-optional",
+      "item": "parmesan optional",
+      "quantity": 25,
+      "unit": "g",
+      "optional": true
+    },
+    {
+      "ingredient_id": "chicken-breasts-about-450g",
+      "item": "chicken breasts (about 450g)",
+      "quantity": 4,
+      "preparation": "cooked, shredded with a fork"
+    },
+    {
+      "ingredient_id": "frozen-peas",
+      "item": "frozen peas",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "bunch-of-parsley-or-basil",
+      "item": "bunch of parsley or basil",
+      "unit": "small",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the penne until tender, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Warm the olive oil in a large pan. Add the crushed garlic and spinach, and cook until the spinach wilts.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 3,
+      "text": "Stir in the soft cheese and heat until melted and smooth."
+    },
+    {
+      "step": 4,
+      "text": "Add the shredded cooked chicken, frozen peas, and optional Parmesan. Simmer until the peas are hot and the chicken reaches 165°F throughout.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Add the drained pasta and stir until evenly coated. Finish with the chopped parsley or basil and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "pasta",
+    "penne",
+    "creamy",
+    "spinach",
+    "peas",
+    "quick-meal"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large skillet",
+    "colander"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/creamy-chicken-pasta",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1c4c9d7bc46e6658c974736dc5334fa9d18cb0fd0b43fa835a7bf89ca65a03f9",
+    "normalized_text_hash": "5c803ebdcb128498ef2f76ed53d0c4384cb2d35372c9bdafa0b9b41027dc0a18",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T03:23:49.201Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

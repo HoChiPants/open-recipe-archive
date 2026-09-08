@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-bacon-wrapped-chicken",
+  "name": "Creamy Bacon-Wrapped Chicken",
+  "subtitle": "Tender chicken filled with scallion cream cheese and wrapped in bacon",
+  "description": "Pounded chicken breasts are filled with seasoned cream cheese, rolled, wrapped in bacon, and baked until fully cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "bunches-green-onions",
+      "item": "bunches green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "skinless",
+      "item": "skinless",
+      "quantity": 6,
+      "preparation": "boneless chicken breast halves - pounded 1/4 inch thick"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "16 ounce, sliced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the softened cream cheese until smooth. Stir in the chopped green onions, then season with salt and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Spread the filling over the pounded chicken breasts. Roll each breast around the filling."
+    },
+    {
+      "step": 4,
+      "text": "Wrap each rolled breast with bacon and place them seam-side down in a baking dish."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until the bacon is browned and the chicken reaches 165°F in the thickest part.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "chicken",
+    "baked"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230572/creamy-bacon-wrapped-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2b843947b7f264e07307c82779d4849e7c5f5c0ecf2230471dbd3db603bafc92",
+    "normalized_text_hash": "270d4b4c42257e38a369b31cf65a1bd96a0f54b9d86adbf79675ce44284511b8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:31:19.411Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

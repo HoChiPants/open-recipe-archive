@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-and-dumplings-abede4af",
+  "name": "Chicken and Dumplings",
+  "subtitle": "A quick, comforting one-pot meal",
+  "description": "Tender chicken and biscuit-style dumplings simmer together in a savory broth for an easy six-serving main dish.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "biscuit-baking-mix",
+      "item": "biscuit baking mix",
+      "quantity": 2.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "chunk-chicken",
+      "item": "chunk chicken",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "10 ounce, drained"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the biscuit baking mix and milk together until a soft dough forms. Set aside."
+    },
+    {
+      "step": 2,
+      "text": "Combine the chicken broth and drained chunk chicken in a large pot. Bring to a boil, then reduce to a simmer."
+    },
+    {
+      "step": 3,
+      "text": "Drop spoonfuls of the biscuit dough into the simmering broth and gently stir around the dumplings."
+    },
+    {
+      "step": 4,
+      "text": "Cover and simmer until the dumplings are cooked through, about 10 minutes. Check that the chicken reaches 165°F before serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "lunch",
+    "southern",
+    "one-pot",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "large pot",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/151027/quick-and-super-easy-chicken-and-dumplings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "3fe64adae9318f48bac33b5ad526e5a3951020dc636dcda9680403d50c433ca4",
+    "normalized_text_hash": "7d505a47c0e6e9150b1591482a6efb1ac8aaf7169d62d6a58be816edf1a7bc83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:43:46.930Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "apple-cranberry-punch",
+  "name": "Apple Cranberry Punch",
+  "subtitle": "A chilled, sparkling fruit punch for a crowd",
+  "description": "Combine apple, cranberry, and orange juices, then finish with ginger ale and fresh apple slices for a simple brunch beverage.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple-juice",
+      "item": "apple juice",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "32 fluid ounce, chilled"
+    },
+    {
+      "ingredient_id": "frozen-cranberry-juice-concentrate",
+      "item": "frozen cranberry juice concentrate",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "12 fluid ounce"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ginger-ale",
+      "item": "ginger ale",
+      "quantity": 1.5,
+      "unit": "liters"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the apple into thin slices or small wedges."
+    },
+    {
+      "step": 2,
+      "text": "In a large punch bowl, stir together the chilled apple juice, cranberry concentrate, orange juice, and apple pieces until combined."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the ginger ale and stir gently to preserve the carbonation. Add the apple pieces before serving."
+    }
+  ],
+  "tags": [
+    "punch",
+    "brunch",
+    "sparkling",
+    "fruit-drink",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "large punch bowl",
+    "ladle"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20580/apple-orchard-punch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "208d0ba82eab11ab1b045d9835c20f1dc45037e6e2218f2e9bf3b0654e3c1166",
+    "normalized_text_hash": "319075cc40c5b53cb80ac0a7b987f4bf97dcb8e7a18e85e7cd434fd570b0ecef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:20:30.117Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

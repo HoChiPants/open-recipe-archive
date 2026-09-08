@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "basic-white-rice",
+  "name": "Basic White Rice",
+  "subtitle": "Simple stovetop rice for everyday meals",
+  "description": "White rice cooked with garlic, salt, and a little oil until tender and fluffy.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "canola-oil",
+      "item": "canola oil",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "white-rice",
+      "item": "white rice",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "boiling-water",
+      "item": "boiling water",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the canola oil in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the rice, garlic powder, and salt; stir to coat the grains."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the boiling water and bring the mixture back to a boil."
+    },
+    {
+      "step": 4,
+      "text": "Reduce the heat, cover, and simmer until the rice is tender and the water is absorbed.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat and fluff the rice before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "rice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255232/basic-white-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f68c73571759b13e7993ff9a50d54983b1265064a40266201bd939be3913d198",
+    "normalized_text_hash": "93ac376fcad01911542d4c7287562050f087b29ed3918ad99e4e4c851333a7b6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:07:58.577Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

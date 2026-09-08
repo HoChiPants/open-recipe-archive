@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "vegetable-pasties",
+  "name": "Vegetable Pasties",
+  "subtitle": "Savory vegetable pastries with cheddar",
+  "description": "Whole wheat pastries filled with tender vegetables, mushrooms, and a savory cheddar sauce, then baked until golden.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "recipe-whole-wheat-pastry-for-a-double-crust",
+      "item": "recipe whole wheat pastry for a double crust",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "sliced thin"
+    },
+    {
+      "ingredient_id": "turnip",
+      "item": "turnip",
+      "quantity": 1,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "potato",
+      "item": "potato",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "mushrooms",
+      "item": "mushrooms",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "yeast-extract-spread",
+      "item": "yeast extract spread",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "pound",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1,
+      "preparation": "beaten"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Shape the pastry for a double crust into four portions and let them rest until set."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter in a pan. Add the onion and cook for 5 minutes. Add the carrot, turnip, potato, mushrooms, and water, then cook for 10 minutes until the vegetables begin to soften.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Whisk the yeast extract spread and milk together. Stir in the egg, then combine the mixture with the cooked vegetables. Stir in the Cheddar cheese and season with salt and pepper. Let the filling cool until set."
+    },
+    {
+      "step": 4,
+      "text": "Roll out the pastry portions, divide the cooled filling among them, and fold each portion over the filling. Seal the edges and brush the pastries with the beaten egg."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 30 minutes, until golden brown and the filling is fully set and reaches 160°F at the center when checked with a food thermometer.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "vegetarian",
+    "savory-pastry",
+    "baked-main-dish",
+    "comfort-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "mixing bowl",
+    "whisk",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15731/vegetable-cornish-pasties/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c15eaf690ce80081055a82980847b4e02fa4e05c093785d76b1868c2d9a1515e",
+    "normalized_text_hash": "3fd50269829aab84678c7158af49bdba8d23d9f9aacd5a6c195e396ef072979a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:44:50.416Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

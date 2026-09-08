@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-papaya-jam",
+  "name": "Fresh Papaya Jam",
+  "subtitle": "Bright tropical jam for toast and desserts",
+  "description": "Cook mashed ripe papaya with orange juice, pectin, and sugar until set, then chill before serving.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 64,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 45,
+    "cook_minutes": 20,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mashed-ripe-papaya",
+      "item": "mashed ripe papaya",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-pectin",
+      "item": "dry pectin",
+      "quantity": 1.3333333730698,
+      "unit": "package",
+      "preparation": "1.75 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 5,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the mashed papaya, orange juice, and dry pectin in a large pot. Bring the mixture to a simmer over medium heat, stirring frequently."
+    },
+    {
+      "step": 2,
+      "text": "Add the white sugar and stir until fully dissolved. Bring the mixture to a boil, then simmer for 1 minute while stirring.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 3,
+      "text": "Remove from the heat and transfer to clean heat-safe containers. Cool, cover, and refrigerate until chilled and set."
+    },
+    {
+      "step": 4,
+      "text": "Serve chilled."
+    }
+  ],
+  "tags": [
+    "jam",
+    "fruit-spread",
+    "papaya",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "stirring spoon",
+    "clean heat-safe containers",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/162151/fresh-papaya-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "523d701fa33bdc03cf12aa35f651e54b31863ae4251fa8408c2e369f070b7737",
+    "normalized_text_hash": "70d0f5848f23fc98f873c7281e9bce86b5237e30621bf24e5d7c2a5a724724c1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:21:44.295Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

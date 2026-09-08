@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "salt-cod-cakes",
+  "name": "Salt Cod Cakes",
+  "subtitle": "Crisp fish cakes with potato, parsley, and onion",
+  "description": "Soaked salt cod is combined with tender potato, herbs, onion, egg, and flour, then shaped and fried until crisp and fully set.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salted-cod-fish",
+      "item": "salted cod fish",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled and cubed"
+    },
+    {
+      "ingredient_id": "seafood-seasoning",
+      "item": "seafood seasoning",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "finely chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "olive-oil-for-frying",
+      "item": "olive oil for frying",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Soak the salted cod in cold water for 8 hours, then drain well.",
+      "timer_minutes": 480
+    },
+    {
+      "step": 2,
+      "text": "Place the cod in a saucepan, cover with fresh water, and simmer until opaque and easily flaked. Drain, flake, and remove any bones or skin."
+    },
+    {
+      "step": 3,
+      "text": "Boil the peeled, cubed potatoes until tender, about 20 minutes. Drain and cool for 10 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Mash the potatoes and combine them with the cod, seafood seasoning, pepper, parsley, beaten eggs, onion, and flour."
+    },
+    {
+      "step": 5,
+      "text": "Shape the mixture into six cakes and lightly coat them with flour."
+    },
+    {
+      "step": 6,
+      "text": "Heat the olive oil in a skillet over medium heat. Fry the cakes for about 3 minutes, turning as needed, until browned and the centers reach 160°F; the fish should be opaque and easily flaked.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 7,
+      "text": "Drain the cakes briefly on paper towels and serve."
+    }
+  ],
+  "tags": [
+    "salt-cod",
+    "fish-cakes",
+    "appetizer"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "dairy-free",
+    "nut-free"
+  ],
+  "allergens": [
+    "fish",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "potato masher",
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212778/captain-duartes-salt-cod-cakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "60eae5a8ed10ff78264e773a1417ab3c782c1bd197e185bb8f5d14d39efdfb3e",
+    "normalized_text_hash": "ca0e7f9cd9b9b74984830c6f5772314f7bdd08622087b2c168265e9d323a9168",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:52:09.601Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

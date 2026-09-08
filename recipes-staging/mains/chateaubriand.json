@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chateaubriand",
+  "name": "Chateaubriand",
+  "subtitle": "Pan-seared beef tenderloin for two",
+  "description": "Thick beef tenderloin fillets are seasoned, seared in butter, and finished briefly in the oven.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 60,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "8-ounce-fillets-beef-tenderloin-filet",
+      "item": "(8 ounce) fillets beef tenderloin filet",
+      "quantity": 2,
+      "preparation": "1 1/2 inch thick"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper-to-taste",
+      "item": "freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Let the beef stand at room temperature for 60 minutes. Pat dry, coat with the oil, and season with pepper.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Preheat the oven and heat an oven-safe skillet over high heat."
+    },
+    {
+      "step": 3,
+      "text": "Add the butter to the hot skillet. Sear the fillets for 5 minutes, turning as needed for even browning.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Transfer the skillet to the preheated oven and cook for 5 minutes, or until the centers reach 145°F. Remove from the oven and rest for at least 3 minutes before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "beef",
+    "date-night"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven-safe skillet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26595/chateaubriand/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "dede03dc68868a7cd70e931bdf81c373b09d175ee6ddc4511aeef14fa51cb6e6",
+    "normalized_text_hash": "76d8e5be94cc9b8f881f4117e78fe2bf5e805fd168315e480ca0ccd626793ea9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:04:52.193Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

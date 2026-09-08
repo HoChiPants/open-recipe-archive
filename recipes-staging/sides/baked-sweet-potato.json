@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-sweet-potato",
+  "name": "Baked Sweet Potato",
+  "subtitle": "Tender oven-baked sweet potatoes with optional toppings",
+  "description": "Soft, caramelized sweet potatoes finished with olive oil, sea salt, and a choice of simple toppings.",
+  "meal_type": "side",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sweet-potatoes",
+      "item": "sweet potatoes",
+      "quantity": 2,
+      "unit": "medium"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "of-sea-salt-flakes",
+      "item": "of sea salt flakes",
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "butter-tuna-mayo",
+      "item": "butter tuna mayo",
+      "preparation": "chilli con carne, baked beans, cheese or green salad (optional)",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Scrub the sweet potatoes, dry them, and pierce each several times with a fork. Rub with olive oil and sprinkle with sea salt flakes."
+    },
+    {
+      "step": 3,
+      "text": "Bake for 60 minutes, checking after 45 minutes, until the potatoes are tender when pierced with a knife.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Split open and add butter tuna mayo, if desired. If the optional topping contains fish, heat it to 145°F; if it contains egg in a raw egg dish, heat it to 160°F."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "baked-sweet-potato",
+    "potatoes",
+    "vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "fork",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/baked-sweet-potato",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4a96459256d76e22755bd99fb5aae2b9a7df9f1ed6a4dc54d7f65adff1bd709b",
+    "normalized_text_hash": "c22e74e8287854dd58d073997b210a13cdd1d2ca4fd3c6adaf8e88a3608a9627",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:05:06.607Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

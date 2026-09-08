@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-caprese-crostini",
+  "name": "Baked Caprese Crostini",
+  "subtitle": "Toasted baguette with tomatoes, mozzarella, and basil",
+  "description": "Crisp baguette slices are layered with tomatoes and fresh mozzarella, then baked until golden and melty and finished with basil and seasoned olive oil.",
+  "meal_type": "snack",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "french-baguette",
+      "item": "French baguette",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 4,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "sea-salt-to-taste",
+      "item": "sea salt to taste"
+    },
+    {
+      "ingredient_id": "roma-tomatoes",
+      "item": "Roma tomatoes",
+      "quantity": 5,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "slices-fresh-mozzarella-cheese",
+      "item": "slices fresh mozzarella cheese",
+      "quantity": 30,
+      "unit": "small"
+    },
+    {
+      "ingredient_id": "bunch-fresh-basil",
+      "item": "bunch fresh basil",
+      "quantity": 1,
+      "preparation": "leaves removed and coarsely chopped"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 450°F. Slice the baguette and arrange the pieces on a baking sheet. Brush with half of the olive oil and season with sea salt."
+    },
+    {
+      "step": 2,
+      "text": "Bake the bread for 5 minutes, until golden brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Slice the tomatoes and mozzarella. Top each toasted baguette slice with tomato and mozzarella, then season with sea salt."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 5 minutes, until the mozzarella is melted.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Transfer the crostini to a serving platter. Top with chopped basil and drizzle with the remaining olive oil. Season with sea salt and black pepper to taste."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "italian-inspired",
+    "crostini"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "pastry brush"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228127/baked-caprese-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b6232063cd887459669689e9775f72625c61a0ea0f323c9a6f6a325bb4555e4",
+    "normalized_text_hash": "3a51cbd87963c64e0d9c5f332e7aae533e9dc6e3a892fa2ab0321f59dba622e3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:44:44.394Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

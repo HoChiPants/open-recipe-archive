@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bacon-and-eggs-potato-salad",
+  "name": "Bacon and Eggs Potato Salad",
+  "subtitle": "A chilled potato salad with peas, bacon, eggs, and mustard dressing.",
+  "description": "Tender red potatoes are folded with a creamy mustard dressing, vegetables, chopped eggs, and bacon, then chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "red-potatoes",
+      "item": "red potatoes",
+      "quantity": 2.5,
+      "unit": "pounds",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "petite-green-peas",
+      "item": "petite green peas",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "hard-boiled-eggs",
+      "item": "hard-boiled eggs",
+      "quantity": 5,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "slices-cooked-bacon",
+      "item": "slices cooked bacon",
+      "quantity": 4,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "mustard",
+      "item": "mustard",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the quartered red potatoes and salt in a pot, cover with water, and bring to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Cook until the potatoes are tender, about 10 minutes. Drain and let them cool until set.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Combine the potatoes, mayonnaise, peas, chopped eggs, bacon, onion, mustard, salt, and black pepper in a large bowl."
+    },
+    {
+      "step": 4,
+      "text": "Fold until evenly coated, then cover and chill for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "lunch",
+    "american",
+    "potato-salad",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "sesame",
+    "soy"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "large mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232827/bacon-and-eggs-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1866e4371fcdaa9e62df3ef039167d323fbcf188855b5811784087fedee178f7",
+    "normalized_text_hash": "9e70152829cfa0b62bde3b9225722144fb022c70e90e2bbccda89e8b7d716094",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:37:35.324Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato-soup",
+  "name": "Baked Potato Soup",
+  "subtitle": "Creamy potato soup with cheddar and bacon",
+  "description": "Oven-baked potatoes anchor a thick, savory soup finished with half-and-half, cheddar, bacon, and green onions.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 85
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "margarine",
+      "item": "margarine",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-stock",
+      "item": "chicken stock",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "instant-mashed-potato-flakes",
+      "item": "instant mashed potato flakes",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-basil",
+      "item": "dried basil",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "half-and-half",
+      "item": "half-and-half",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "bacon",
+      "item": "bacon",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cooked and crumbled"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Bake the potatoes until tender, about 60 minutes, then cool enough to handle.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 2,
+      "text": "Melt the margarine in a large pot over medium heat. Add the white onion and green onions; sauté until tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the flour and cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the chicken stock and water. Whisk in the cornstarch and instant mashed potato flakes, then add the salt, pepper, basil, and thyme."
+    },
+    {
+      "step": 5,
+      "text": "Peel and chop the cooled potatoes and stir them into the pot with the half-and-half."
+    },
+    {
+      "step": 6,
+      "text": "Simmer for about 20 minutes, stirring occasionally, until thick and the soup reaches 165°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Serve topped with the Cheddar cheese, bacon, and remaining green onions."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "potato",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "large pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13307/restaurant-quality-baked-potato-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1c8c36131f7e65256f3bf35bcfada93f75c61026e010229ccb766b5e3b50e8a2",
+    "normalized_text_hash": "f55b1ee74718a533939ee2a4ee941c6ff83cf806d9689f73fcc5e856c6f2721c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:59:37.222Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

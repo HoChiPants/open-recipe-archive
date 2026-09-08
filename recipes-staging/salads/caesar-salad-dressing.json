@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "caesar-salad-dressing",
+  "name": "Caesar Salad Dressing",
+  "subtitle": "A savory, tangy dressing with garlic and anchovies",
+  "description": "A quick creamy dressing combining garlic, anchovies, Parmesan, mayonnaise, and white wine vinegar.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic clove",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "anchovies-in-oil",
+      "item": "anchovies in oil",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "parmesan",
+      "item": "parmesan",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 5,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mince or finely mash the garlic clove and anchovies together."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the Parmesan, mayonnaise, and white wine vinegar until combined."
+    },
+    {
+      "step": 3,
+      "text": "Continue stirring until the dressing is smooth and evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Transfer to a bowl and use as a salad dressing."
+    }
+  ],
+  "tags": [
+    "caesar-dressing",
+    "salad-dressing",
+    "sauce",
+    "anchovies",
+    "parmesan"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "fish",
+    "eggs"
+  ],
+  "equipment": [
+    "knife",
+    "mixing bowl",
+    "spoon"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/caesar-salad-dressing",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5ef36c61514680f877cea2e66c9c50eba04fab3512700a716755eedb079654f1",
+    "normalized_text_hash": "d1f946ffc0b842052d4cc864f3d5d1ffb4cffc4c308dc881dae6646b5170f9d2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T21:28:03.943Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

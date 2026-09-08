@@ -1,0 +1,99 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-limeade",
+  "name": "Honey Limeade",
+  "subtitle": "A bright, lightly sweet citrus drink",
+  "description": "Fresh lime juice balanced with water, sugar, and honey makes a refreshing limeade for six servings.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lime-juice",
+      "item": "lime juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.66666698455811,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the lime juice, water, sugar, and honey in a pitcher."
+    },
+    {
+      "step": 2,
+      "text": "Stir until the sugar and honey dissolve."
+    },
+    {
+      "step": 3,
+      "text": "Chill before serving."
+    }
+  ],
+  "tags": [
+    "drink",
+    "limeade",
+    "citrus",
+    "refreshing"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "pitcher",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32498/honey-limeade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c3c56f8272c7bcc364f857d332a994032a733029775df0addad4fce270eb9b15",
+    "normalized_text_hash": "9f8867b30cfc50b483bf0ac4cb3dcb031f9b9009ce3fdc9c176853fa6e94745f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:47:27.924Z",
+    "semantic_similarity": 11,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

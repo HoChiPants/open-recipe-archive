@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "paneer",
+  "name": "Paneer",
+  "subtitle": "Fresh cheese with golden-fried edges",
+  "description": "Make a firm, sliceable Indian cheese from milk and buttermilk, then fry the pieces until lightly golden.",
+  "meal_type": "main",
+  "cuisine": "Indian",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "gallon"
+    },
+    {
+      "ingredient_id": "buttermilk",
+      "item": "buttermilk",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "canola-oil-for-frying",
+      "item": "canola oil for frying",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the milk in a large pot until it reaches a boil."
+    },
+    {
+      "step": 2,
+      "text": "Remove the pot from the heat and gradually stir in the buttermilk until the milk separates into curds and whey."
+    },
+    {
+      "step": 3,
+      "text": "Pour the mixture through a clean cheesecloth-lined strainer, gather the cloth around the curds, and drain thoroughly."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the curds to a bowl and work them until smooth. Add the drained curds together, then knead until firm and cohesive."
+    },
+    {
+      "step": 5,
+      "text": "Shape the cheese into a compact slab, chill until set, and cut it into pieces."
+    },
+    {
+      "step": 6,
+      "text": "Heat the canola oil in a skillet over medium-high heat. Fry the pieces in batches for about 1 minute, turning as needed, until golden brown.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 7,
+      "text": "Drain the fried paneer on a lined plate and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "indian",
+    "vegetarian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "cheesecloth",
+    "strainer",
+    "bowl",
+    "skillet",
+    "lined plate"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73715/paneer/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "df0b0deab71600f4518c1c89771cecb4419fdfe49fd5bbf3521bcdaa87d750fa",
+    "normalized_text_hash": "216d937b0429e6713aae1724d70e44adf769b2586fc0f14f25951e9da2ff0fe2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:48:43.654Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

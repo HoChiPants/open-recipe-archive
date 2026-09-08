@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tomato-braised-beef-pot-roast",
+  "name": "Tomato-Braised Beef Pot Roast",
+  "subtitle": "Tender beef with onion and bay in a savory tomato sauce",
+  "description": "A slow-roasted tip round becomes tender in tomato sauce with onion and bay leaves, then the cooking juices are thickened into a simple gravy.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 420
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "tip-round-roast",
+      "item": "tip round roast",
+      "quantity": 2.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "cut into thin strips"
+    },
+    {
+      "ingredient_id": "bay-leaves",
+      "item": "bay leaves",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 325°F."
+    },
+    {
+      "step": 2,
+      "text": "Season the tip round roast with salt and pepper, and place it in a covered roasting pan or Dutch oven."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the tomato sauce, add the onion and bay leaves, cover, and roast until the beef reaches 145°F in the thickest part.",
+      "timer_minutes": 420
+    },
+    {
+      "step": 4,
+      "text": "Transfer the roast to a cutting board and rest it for 3 minutes.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 5,
+      "text": "Remove the bay leaves. Whisk the flour into the tomato sauce, then cook until the sauce thickens; season with salt and pepper to taste."
+    },
+    {
+      "step": 6,
+      "text": "Slice the roast and serve it with the thickened sauce."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "pot-roast",
+    "beef",
+    "comfort-food"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "covered roasting pan or Dutch oven",
+    "food thermometer",
+    "cutting board",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14648/mothers-pot-roast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f1560e352434afa75919a23b9d67a14b320aa77d58e3676b1d642eebaf7fdbba",
+    "normalized_text_hash": "63cf7ae1d960473e172d6042951fcfd033370c3fee43f01b1f7d0d213edce4d6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:58:50.117Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

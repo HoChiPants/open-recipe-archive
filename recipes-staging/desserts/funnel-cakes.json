@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "funnel-cakes",
+  "name": "Funnel Cakes",
+  "subtitle": "Crisp, golden fried cakes finished with sugar",
+  "description": "A simple egg-and-milk batter is fried into lacy funnel cakes, drained, and dusted with confectioners' sugar.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.66666668653488,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.3333333730698,
+      "unit": "cups",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "confectioners-sugar-for-dusting",
+      "item": "confectioners' sugar for dusting",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oil to 375°F in a deep, heavy pot."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the egg and milk together. In a separate bowl, combine the salt, white sugar, sifted flour, and baking powder."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the wet mixture into the dry mixture until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Pour portions of batter through a funnel into the hot oil, moving in overlapping circles to form cakes."
+    },
+    {
+      "step": 5,
+      "text": "Fry until golden brown and the batter reaches 160°F at the center, turning as needed."
+    },
+    {
+      "step": 6,
+      "text": "Drain the cakes, then dust them with confectioners' sugar."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fried",
+    "american-style"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "deep heavy pot",
+    "funnel",
+    "thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7880/funnel-cakes-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a7a51e636404bc16a2a487703d63d3137204768d7567f9dfc2b43bd87973a085",
+    "normalized_text_hash": "347dbcf5baf823031859e488381944f1e347bd886f1c9d2f68d0ab280bdb7ca4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:32:06.288Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

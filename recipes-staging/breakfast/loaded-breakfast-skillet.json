@@ -1,0 +1,144 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "loaded-breakfast-skillet",
+  "name": "Loaded Breakfast Skillet",
+  "subtitle": "Crisp bacon, tender potatoes, eggs, and melted Cheddar in one pan.",
+  "description": "A hearty American breakfast skillet built from bacon, seasoned potatoes, eggs, and cheese.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4,
+      "preparation": "cut into 1-inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "russet-potatoes",
+      "item": "russet potatoes",
+      "quantity": 3,
+      "preparation": "scrubbed, chopped into 3/4-inch cubes"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "green-onions",
+      "item": "green onions",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt-and-freshly-ground-pepper-to-taste",
+      "item": "kosher salt and freshly ground pepper to taste"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the bacon in a large skillet over medium heat until browned and crisp, about 10 minutes. Drain, reserving the bacon and leaving the drippings in the skillet.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Add the onion to the skillet and cook in the bacon drippings until softened, about 5 minutes. Stir in the potatoes and coat them with the drippings.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Pour in the water, cover, and cook until the potatoes are tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Stir in the green onions, garlic, and smoked paprika. Season with kosher salt and freshly ground pepper."
+    },
+    {
+      "step": 5,
+      "text": "Make four wells in the potato mixture and crack an egg into each. Season the eggs, scatter the reserved bacon and Cheddar over the skillet, cover, and cook until the egg centers are fully set and reach 160°F, about 5 minutes. Serve hot.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "one-pan",
+    "skillet",
+    "eggs",
+    "potatoes"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large skillet",
+    "lid",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260471/loaded-breakfast-skillet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "68dad368b8e571f3781c1e3460a1ae7088f2a751e0e57854f542252de32b7378",
+    "normalized_text_hash": "d029c401e647b1b37b7ec5741bfc9dda43197dfe4b78c451416374291a6d20f2",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:03:47.454Z",
+    "semantic_similarity": 10,
+    "structural_similarity": 17,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

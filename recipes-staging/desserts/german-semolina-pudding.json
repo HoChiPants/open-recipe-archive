@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "german-semolina-pudding",
+  "name": "German Semolina Pudding",
+  "subtitle": "A warm, gently thickened milk pudding",
+  "description": "A simple dessert made by simmering semolina with sweetened milk until creamy and thick.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "semolina",
+      "item": "semolina",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the milk and sugar in a saucepan and warm over medium heat until steaming."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the semolina, then bring the mixture to a gentle simmer."
+    },
+    {
+      "step": 3,
+      "text": "Cook, stirring frequently, until thickened, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pudding to serving dishes and serve warm."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "german",
+    "pudding"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84725/german-semolina-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e967bbe0a248018bd7d71e809a2dd5ce8cc5e63c9836f4768ebe35925925eb30",
+    "normalized_text_hash": "eda270066bff7ac4c1d2454f4d2401fa2988b3384ca0c25b6e0e20d8c89bde7d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:40:30.656Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

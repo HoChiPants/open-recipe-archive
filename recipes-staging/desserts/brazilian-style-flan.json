@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brazilian-style-flan",
+  "name": "Brazilian-Style Flan",
+  "subtitle": "Silky custard with a golden caramel layer",
+  "description": "A chilled baked custard made with eggs, milk, condensed milk, and caramelized sugar.",
+  "meal_type": "dessert",
+  "cuisine": "Brazilian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 55,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "preparation": "separated"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "plus"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Warm the sugar in the flan mold over medium heat until it melts and turns golden brown, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Carefully tilt the mold to coat the bottom with caramel, then set it aside to cool until the caramel is set."
+    },
+    {
+      "step": 4,
+      "text": "Blend the separated eggs for 5 minutes. Add the caramelized sugar, condensed milk, and milk, then blend until combined.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 5,
+      "text": "Pour the custard into the prepared mold and cover it securely."
+    },
+    {
+      "step": 6,
+      "text": "Place the mold in a larger baking pan. Add boiling water to the outer pan, then bake for 50 minutes, until the center is firm and reaches 160°F.",
+      "timer_minutes": 50
+    },
+    {
+      "step": 7,
+      "text": "Remove the mold from the water bath and let the flan cool. Chill for at least 2 hours before serving.",
+      "timer_minutes": 120
+    }
+  ],
+  "tags": [
+    "dessert",
+    "brazilian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "flan mold",
+    "blender",
+    "large baking pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/202261/brazilian-style-flan-pudim-de-leite-condensado/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "640a019e047bd21ce29c7c5914b4d246f7951bd2c5eba4bbdff2975f776d58e3",
+    "normalized_text_hash": "51cc3d5f709fefd29c3db90215025eaee0c49bd07725bea51475b271df484dff",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:09:00.859Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "irish-boiled-ham-dinner",
+  "name": "Irish Boiled Ham Dinner",
+  "subtitle": "Tender smoked pork with simmered garden vegetables",
+  "description": "A simple one-pot dinner of smoked pork shoulder served with potatoes, cabbage, onions, carrots, and green beans.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "smoked-pork-shoulder",
+      "item": "smoked pork shoulder",
+      "quantity": 3,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "salt-and-pepper-to-taste",
+      "item": "salt and pepper to taste"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 6,
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "head-cabbage",
+      "item": "head cabbage",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 8,
+      "unit": "ounces",
+      "preparation": "cut in half"
+    },
+    {
+      "ingredient_id": "fresh-green-beans",
+      "item": "fresh green beans",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "trimmed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the smoked pork shoulder in a large pot, cover with water, and season with salt and pepper. Bring to a gentle simmer."
+    },
+    {
+      "step": 2,
+      "text": "Add the potatoes, cabbage, onions, and carrots. Keep the pot at a steady simmer until the vegetables are nearly tender."
+    },
+    {
+      "step": 3,
+      "text": "Add the trimmed green beans and continue cooking until the potatoes and carrots are tender, about 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pork to a platter and check the thickest part with a thermometer; it should reach at least 145°F. Let it rest for 10 minutes before slicing.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Serve the sliced pork with the cooked vegetables."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "one-pot",
+    "pork",
+    "boiled-dinner",
+    "vegetables"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "large pot",
+    "food thermometer",
+    "serving platter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/162534/classic-irish-boiled-dinner/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "df2aed03de208371e5d9f04c996c9dcfd750618cf15807f78cb7457303a4fa2a",
+    "normalized_text_hash": "b12f91e197cf1081b362f4ed55dcf024fc2c3ac8721fa4cfad1ca4e9408af150",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:14:25.175Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

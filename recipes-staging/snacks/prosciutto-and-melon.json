@@ -1,0 +1,76 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "prosciutto-and-melon",
+  "name": "Prosciutto and Melon",
+  "subtitle": "Sweet cantaloupe wrapped in savory cured ham",
+  "description": "Pair ripe cantaloupe wedges with thin prosciutto slices for a simple Italian-inspired snack.",
+  "meal_type": "snack",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cantaloupe",
+      "item": "cantaloupe",
+      "quantity": 1,
+      "preparation": "seeded and cut into 8 wedges"
+    },
+    {
+      "ingredient_id": "thin-slices-prosciutto",
+      "item": "thin slices prosciutto",
+      "quantity": 8
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the seeded cantaloupe wedges on a serving platter."
+    },
+    {
+      "step": 2,
+      "text": "Wrap one slice of prosciutto around each cantaloupe wedge."
+    },
+    {
+      "step": 3,
+      "text": "Transfer the assembled wedges to the platter and serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "italian-inspired"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "equipment": [
+    "knife",
+    "serving platter"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/106695/prosciutto-e-melone-italian-ham-and-melon/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d9a9db18075b6087af78b3fead3d824bb7c9f62ff204f60c8154843aaaaee1e7",
+    "normalized_text_hash": "4e4100a5b3aa522e7cee6d47710f5430a742986e6cdd5dd51e5614db5a26e131",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:30:35.898Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

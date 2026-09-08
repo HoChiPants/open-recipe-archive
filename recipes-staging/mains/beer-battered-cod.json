@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beer-battered-cod",
+  "name": "Beer-Battered Cod",
+  "subtitle": "Light, crisp batter with tender fried cod",
+  "description": "Cod fillets are dusted, dipped in a beer batter, and fried until crisp, golden, opaque, and flaky.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "self-rising-flour",
+      "item": "self-rising flour",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rice-flour",
+      "item": "rice flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "lager-style-beer",
+      "item": "lager-style beer",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "6-ounce-cod-fillets",
+      "item": "(6 ounce) cod fillets",
+      "quantity": 4,
+      "preparation": "fully thawed if frozen"
+    },
+    {
+      "ingredient_id": "rice-flour",
+      "item": "rice flour",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the self-rising flour, 2 tablespoons rice flour, and baking powder together. Gradually whisk in the beer until a thick batter forms; use more beer if needed."
+    },
+    {
+      "step": 2,
+      "text": "Transfer the remaining rice flour and salt to a shallow dish. Pat the thawed cod dry, then coat each fillet lightly in the seasoned flour."
+    },
+    {
+      "step": 3,
+      "text": "Preheat the vegetable oil to 375°F in a deep, heavy skillet or fryer."
+    },
+    {
+      "step": 4,
+      "text": "Dip the floured cod into the batter, letting excess drip off. Fry in batches for about 4 minutes, turning as needed, until golden and crisp.",
+      "timer_minutes": 4
+    },
+    {
+      "step": 5,
+      "text": "Drain the fish on a rack or paper towels. Verify that the thickest part reaches 145°F and flakes easily, then serve immediately."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "fried",
+    "seafood"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "fish",
+    "wheat"
+  ],
+  "equipment": [
+    "whisk",
+    "shallow dish",
+    "deep skillet or fryer",
+    "food thermometer",
+    "rack or paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273213/crispy-beer-batter-fish-chips/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9f5db12b7745c152a87e4676e473b4022c51056baef0e8d2f9aa9a70b8172b0b",
+    "normalized_text_hash": "f9a6bd6cfe077e70356df88f637d91eb90877205d86754441870f4e811f6bc2b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:48:29.658Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

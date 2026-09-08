@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cream-wafers",
+  "name": "Cream Wafers",
+  "subtitle": "Crisp sugar-coated wafers with a vanilla butter filling",
+  "description": "Prepare a chilled butter dough, cut it into wafers, coat with sugar, and bake until crisp. Sandwich the cooled wafers with a smooth vanilla filling.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 30,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "granulated-sugar-for-decoration",
+      "item": "granulated sugar for decoration",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 0.75,
+      "unit": "cup",
+      "preparation": "sifted"
+    },
+    {
+      "ingredient_id": "egg-yolk",
+      "item": "egg yolk",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the flour and 1 cup butter until crumbly. Mix in the heavy cream to form a dough."
+    },
+    {
+      "step": 2,
+      "text": "Cover and chill the dough for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 3,
+      "text": "Heat the oven to 375°F."
+    },
+    {
+      "step": 4,
+      "text": "Roll the chilled dough on a lightly floured surface until thick, then cut into wafers."
+    },
+    {
+      "step": 5,
+      "text": "Coat the wafers with the granulated sugar for decoration and arrange them on a baking sheet."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 9 minutes, or until set and lightly colored. Cool completely.",
+      "timer_minutes": 9
+    },
+    {
+      "step": 7,
+      "text": "Blend the softened butter, sifted confectioners' sugar, egg yolk, and vanilla until smooth. Ensure the filling reaches 160°F before use, then cool if needed."
+    },
+    {
+      "step": 8,
+      "text": "Spread the filling between the cooled wafers and serve."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "cookies",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "rolling pin",
+    "cookie cutter",
+    "baking sheet",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/10212/cream-wafers/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c22a628db08103efe65394fb66aa84ea9c20e0a360e02d4f7ebfa58332747edf",
+    "normalized_text_hash": "923482c6cc9dc09fecde64a797e23bec344ee75a11a3759b7a7675956539b338",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:29:47.539Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickled-beets",
+  "name": "Pickled Beets",
+  "subtitle": "Sweet-tart beets with whole cloves",
+  "description": "Tender beets are cooled, covered with a simmered vinegar brine, and rested until lightly pickled.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 60,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-small-beets",
+      "item": "fresh small beets",
+      "quantity": 10,
+      "unit": "pounds",
+      "preparation": "stems removed"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "pickling-salt",
+      "item": "pickling salt",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "white-vinegar",
+      "item": "white vinegar",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "whole-cloves",
+      "item": "whole cloves",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or as needed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beets in a large pot and simmer until tender when pierced, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Drain the beets and let them cool enough to handle. Peel and slice or quarter them."
+    },
+    {
+      "step": 3,
+      "text": "Combine the sugar, pickling salt, white vinegar, and whole cloves in a pot. Bring the mixture to a boil, then simmer for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Pack the cooled beets into heatproof containers and pour the hot spiced vinegar mixture over them. Let stand for 15 minutes before serving or refrigerating.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "pickled-vegetables",
+    "beets",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "large pot",
+    "saucepan",
+    "colander",
+    "heatproof containers"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/38109/pickled-beets/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "47be28678fc315fc7079a4674722274488a05930c378967068397c0f7d40fa82",
+    "normalized_text_hash": "9c08be79f06f0b762e23710ca8e093a79a0dd2d8fcd56ee83e3799f62f4cbd6a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:16:38.248Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

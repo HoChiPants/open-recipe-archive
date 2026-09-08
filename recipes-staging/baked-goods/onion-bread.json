@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "onion-bread",
+  "name": "Onion Bread",
+  "subtitle": "A soft yeast loaf with savory onion flavor",
+  "description": "A tender homemade bread combining dried oregano, minced onion, and a fresh onion topping, finished with melted butter.",
+  "meal_type": "baked-good",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "inactive_minutes": 100
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 3.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the yeast, sugar, and warm water. Let the mixture stand for 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Stir in the salt, shortening, minced onions, oregano, and enough bread flour to form a dough. Mix in the remaining flour as needed, then knead until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Place the dough in a prepared pan or baking vessel, cover, and let it rise until puffy.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Shape or smooth the risen dough as needed, then let it rest while the oven heats to 375°F.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 5,
+      "text": "Top the dough with the onion and brush it with the melted butter."
+    },
+    {
+      "step": 6,
+      "text": "Bake at 375°F until the loaf is golden and sounds hollow when tapped, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 7,
+      "text": "Cool before slicing."
+    }
+  ],
+  "tags": [
+    "bread",
+    "yeast-bread",
+    "onion",
+    "savory",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking pan",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18087/onion-bread-ii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "432d1c14bdb5958904c6141820d9f5bc7f32f2eb72662c3309b5353451661c52",
+    "normalized_text_hash": "959784e6e3aa107ba57c0be2aa5b0811cb2a6bd0b1974571892a151f992deb1f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:33:12.655Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

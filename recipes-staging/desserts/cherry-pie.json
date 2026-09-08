@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cherry-pie",
+  "name": "Cherry Pie",
+  "subtitle": "Tart cherry filling in a flaky crust",
+  "description": "A classic American fruit pie combining sour cherries with a thickened almond-scented filling and tender shortening pastry.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 55,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "shortening",
+      "item": "shortening",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chilled"
+    },
+    {
+      "ingredient_id": "cold-water",
+      "item": "cold water",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sour-cherries",
+      "item": "sour cherries",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "pitted"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "cornstarch",
+      "item": "cornstarch",
+      "quantity": 10,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "almond-extract",
+      "item": "almond extract",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the flour and salt together. Cut in the chilled shortening until the mixture forms coarse crumbs, then stir in the cold water to make a dough."
+    },
+    {
+      "step": 2,
+      "text": "Divide and shape the dough into two portions, then chill for 30 minutes.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 3,
+      "text": "Roll one portion into a bottom crust, transfer it to a pie dish, and shape the second portion into a top crust."
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 5,
+      "text": "Combine the sour cherries, sugar, and cornstarch. Prepare the mixture for 10 minutes, stirring until thickened; incorporate the butter and almond extract, then cool.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Spoon the cooled filling into the bottom crust. Cover with the top crust, seal the edges, and cut vents."
+    },
+    {
+      "step": 7,
+      "text": "Bake until the crust is golden brown and the filling is bubbling.",
+      "timer_minutes": 55
+    },
+    {
+      "step": 8,
+      "text": "Cool the pie before slicing. Whisk any remaining filling juices until smooth, if needed."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "fruit",
+    "american",
+    "cherry"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "pastry cutter",
+    "rolling pin",
+    "pie dish",
+    "oven"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12701/cherry-pie-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ca6c388b56edd07cf4eb386efea85a5ac1abd316f61b3b5e472e0df3dc981c41",
+    "normalized_text_hash": "e0282dca3747875cf93abb08d64a651e168d8f340716098ed363d28f9a1272d6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:48:54.928Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

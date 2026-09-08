@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "black-forest-cheesecakes",
+  "name": "Black Forest Cheesecakes",
+  "subtitle": "Chocolate cheesecakes with cherry topping",
+  "description": "Individual chocolate cheesecakes baked over cookie bases, chilled, and finished with cherries and whipped topping.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chocolate-sandwich-cookies-with-creme-filling",
+      "item": "chocolate sandwich cookies with creme filling",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-cocoa",
+      "item": "baking cocoa",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "cherry-pie-filling",
+      "item": "cherry pie filling",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "21 ounce"
+    },
+    {
+      "ingredient_id": "whipped-topping",
+      "item": "whipped topping",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Prepare a 12-well muffin pan and place one chocolate sandwich cookie in each well."
+    },
+    {
+      "step": 2,
+      "text": "Beat the softened cream cheese, sugar, cocoa, and vanilla until smooth. Add the eggs and mix just until combined."
+    },
+    {
+      "step": 3,
+      "text": "Divide the filling among the cookie bases and bake for 25 minutes, until the centers are firm and reach 160°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 4,
+      "text": "Cool the cheesecakes, then refrigerate for 120 minutes.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 5,
+      "text": "Top each cheesecake with cherry pie filling and whipped topping before serving."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "chocolate",
+    "cherry",
+    "individual-portions"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "12-well muffin pan",
+    "electric mixer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222647/black-forest-cheesecakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "783363f9e88906ac8a7d6ac5034d61eaa694f52675b677ac585332f8b9c806b5",
+    "normalized_text_hash": "418932c137414bf5179bd9fe386f160a204e9880f7315229159c0882f3773d83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:51:09.923Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

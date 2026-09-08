@@ -1,5 +1,7 @@
 import { createHash } from "node:crypto";
 
+import { normalizedLookup } from "./import-meals-lib.mjs";
+
 const mealFolders = {
   main: "mains", side: "sides", sandwich: "sandwiches", dessert: "desserts", drink: "drinks",
   snack: "snacks", soup: "soups", salad: "salads", sauce: "sauces", "baked-good": "baked-goods",
@@ -78,7 +80,7 @@ export function materializeRecipe(candidate, generated, existingIds, canonicalIn
   const today = new Date().toISOString().slice(0, 10);
   const canonical = new Map();
   for (const ingredient of canonicalIngredients) {
-    for (const name of [ingredient.name, ...(ingredient.aliases ?? [])]) canonical.set(slug(name), ingredient.id);
+    for (const name of [ingredient.name, ...(ingredient.aliases ?? [])]) canonical.set(normalizedLookup(name), ingredient.id);
   }
   const id = uniqueRecipeId(draft.name, candidate.source.url, existingIds);
   const recipe = {
@@ -96,7 +98,7 @@ export function materializeRecipe(candidate, generated, existingIds, canonicalIn
       inactive_minutes: draft.times.inactive_minutes || undefined,
     }),
     ingredients: factualIngredients.map((item) => compactObject({
-      ingredient_id: canonical.get(slug(item.item)),
+      ingredient_id: canonical.get(normalizedLookup(item.item)),
       item: item.item.trim(),
       quantity: quantity(item.quantity),
       unit: item.unit.trim(),

@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-pears",
+  "name": "Baked Pears",
+  "subtitle": "Tender pears with a buttery cream finish",
+  "description": "Bosc pear halves are baked with butter and sugar, then finished with heavy cream for a simple warm dessert.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "bosc-pears",
+      "item": "Bosc pears",
+      "quantity": 2,
+      "preparation": "halved and cored"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Grease a baking dish with half of the butter. Arrange the pear halves cut-side up, and dot with the remaining butter."
+    },
+    {
+      "step": 3,
+      "text": "Sprinkle the sugar evenly over the pears and butter."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 10 minutes, then pour in the cream and continue baking until the pears are tender, about 20 minutes more.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-fruit",
+    "pear",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229775/creamy-baked-pears/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "455302af5e5e4e875013f6bf22c4d97f51e7c97e4d99bff408fda0cdfcdde41a",
+    "normalized_text_hash": "9f77632409aac489b88ebb2af712faf7e7452e8c80e8cb962f1c7bb5ae05fb57",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:49:40.897Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

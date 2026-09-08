@@ -1,0 +1,122 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "blackberry-lemonade",
+  "name": "Blackberry Lemonade",
+  "subtitle": "A bright berry drink with fresh lemon juice",
+  "description": "Make a simple syrup, blend it with blackberries, then combine with lemon juice, water, and ice for a refreshing drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 4.5,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "blackberries",
+      "item": "blackberries",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "freshly-squeezed-lemon-juice",
+      "item": "freshly squeezed lemon juice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ice-cubes",
+      "item": "ice cubes"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the white sugar and 1.5 cups of the water in a saucepan, stirring for 2 minutes until the sugar dissolves.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 2,
+      "text": "Remove from the heat and let the syrup cool."
+    },
+    {
+      "step": 3,
+      "text": "Blend the cooled syrup with the blackberries and 2 tablespoons white sugar until smooth."
+    },
+    {
+      "step": 4,
+      "text": "Combine the blackberry mixture with the remaining water and freshly squeezed lemon juice."
+    },
+    {
+      "step": 5,
+      "text": "Pour over ice cubes and serve."
+    }
+  ],
+  "tags": [
+    "drink",
+    "beverage",
+    "lemonade",
+    "blackberry",
+    "american"
+  ],
+  "seasons": [
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender",
+    "pitcher"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280577/homemade-blackberry-lemonade/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5cf4ebbd2f5a6e3a0843331f5dbcf552b41788801dda23ea1e0ed324562d76d3",
+    "normalized_text_hash": "cc22ee6001931bf5a59a760d75ae3a8d077d1aafec77863a3fcf17eb3ef6ba8f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:36:42.436Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

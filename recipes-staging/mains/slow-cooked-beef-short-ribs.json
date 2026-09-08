@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooked-beef-short-ribs",
+  "name": "Slow-Cooked Beef Short Ribs",
+  "subtitle": "Tender short ribs with rosemary and savory onion sauce",
+  "description": "Beef short ribs cook slowly with condensed onion soup, chili sauce, and rosemary for a rich, tender main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-short-ribs",
+      "item": "beef short ribs",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "condensed-french-onion-soup",
+      "item": "condensed French onion soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "chili-sauce",
+      "item": "chili sauce",
+      "quantity": 1,
+      "unit": "bottle",
+      "preparation": "12 ounce"
+    },
+    {
+      "ingredient_id": "fresh-rosemary",
+      "item": "fresh rosemary",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped, or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the beef short ribs in a slow cooker and season with salt and ground black pepper."
+    },
+    {
+      "step": 2,
+      "text": "Add the condensed French onion soup, chili sauce, and chopped rosemary."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook on low for about 8 hours, until the ribs are tender and the thickest meat reaches at least 145°F. Let whole-cut beef rest for 3 minutes before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237049/fast-and-easy-slow-cooked-short-ribs/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "39b82e4372f1749b2ee05b13eff1d716492535aeda375bfc8080103338e17871",
+    "normalized_text_hash": "a03c541c0ad2771d084c333a4a599f58ec685b7aa11bc3b855153b7de01164d6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:06:09.923Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

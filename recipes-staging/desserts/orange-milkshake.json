@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "orange-milkshake",
+  "name": "Orange Milkshake",
+  "subtitle": "A bright, creamy citrus shake",
+  "description": "Blend orange juice, vanilla ice cream, milk, and sugar into a smooth single-serving treat.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "scoops-vanilla-ice-cream",
+      "item": "scoops vanilla ice cream",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the milk into a blender and add the orange juice, vanilla ice cream, and sugar."
+    },
+    {
+      "step": 2,
+      "text": "Blend until completely smooth, then serve immediately."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "drink",
+    "milkshake",
+    "citrus"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/255537/orange-milkshake/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "63101da685e4ddc396fcf311bbbfbf590ebb21e689800bcb78c96a4a6d635c45",
+    "normalized_text_hash": "6261d891346e48f8b039e20bd2b7bf106265723d30f91f52da116bcd6b552796",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:35:30.620Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

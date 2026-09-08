@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "fresh-blended-salsa",
+  "name": "Fresh Blended Salsa",
+  "subtitle": "A bright, spicy salsa with lime and cilantro",
+  "description": "Blend tomato sauce with fresh peppers, aromatics, and lime, then chill before serving.",
+  "meal_type": "snack",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-onion",
+      "item": "white onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "tomato-sauce",
+      "item": "tomato sauce",
+      "quantity": 2,
+      "unit": "can",
+      "preparation": "15 ounce"
+    },
+    {
+      "ingredient_id": "jalapeno-peppers",
+      "item": "jalapeno peppers",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "serrano-pepper",
+      "item": "serrano pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "bunch-cilantro",
+      "item": "bunch cilantro",
+      "quantity": 0.5
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the chopped onion in a blender and set aside."
+    },
+    {
+      "step": 2,
+      "text": "Add the tomato sauce, jalapeños, serrano, garlic, lime juice, salt, and pepper. Blend until combined."
+    },
+    {
+      "step": 3,
+      "text": "Cut the cilantro into smaller pieces, add it to the blender, and blend until incorporated."
+    },
+    {
+      "step": 4,
+      "text": "Combine the onion with the blended mixture and blend briefly to reach the desired texture."
+    },
+    {
+      "step": 5,
+      "text": "Cover and refrigerate for 60 minutes before serving.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "salsa",
+    "appetizer",
+    "snack",
+    "mexican-inspired"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "blender",
+    "knife",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213490/toes-best-salsa/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "a19cf6026c732bc13b1eb7852c43eb671334fc2787a0c8a41adcc9bd29be2242",
+    "normalized_text_hash": "aa10f4c40f3019aa22809d867183564c2c4a3d5384eabab85c8884f0f3ba006c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:10:21.309Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

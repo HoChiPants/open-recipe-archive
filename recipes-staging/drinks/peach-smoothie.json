@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-smoothie",
+  "name": "Peach Smoothie",
+  "subtitle": "A cool, creamy blend of peaches, banana, and yogurt",
+  "description": "Blend canned peaches, banana, yogurt, juice, sugar, and ice into a smooth fruit drink.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "peaches",
+      "item": "peaches",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15.25 ounce"
+    },
+    {
+      "ingredient_id": "banana",
+      "item": "bananas",
+      "quantity": 2,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "orange-juice",
+      "item": "orange juice",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "cubes-ice",
+      "item": "cubes ice",
+      "quantity": 2
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Add the peaches, bananas, yogurt, orange juice, and sugar to a blender."
+    },
+    {
+      "step": 2,
+      "text": "Add the ice and blend until smooth and creamy."
+    }
+  ],
+  "tags": [
+    "smoothie",
+    "fruit-drink",
+    "blended",
+    "quick"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232903/peach-banana-smoothie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c887e5e4472c830efb4be6b8c6ffe33b4bb0e4564584097cd98ac230575026c6",
+    "normalized_text_hash": "de5d2e383c86cfbe4edb0ba5d5c4ba65df747676477943d87cf44acedb403fef",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:58:38.283Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

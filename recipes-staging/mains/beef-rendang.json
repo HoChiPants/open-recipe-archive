@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-rendang",
+  "name": "Beef Rendang",
+  "subtitle": "Slow-braised beef with coconut, chiles, and warm spices",
+  "description": "Beef chuck cooks slowly with an aromatic chile-spice paste, coconut milk, tamarind, and lemongrass until deeply seasoned and tender.",
+  "meal_type": "main",
+  "cuisine": "Asian",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 245
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-chuck",
+      "item": "beef chuck",
+      "quantity": 2.5,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "shallots",
+      "item": "shallots",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "1-1-2-inch-piece-ginger",
+      "item": "(1 1/2 inch) piece ginger",
+      "quantity": 1,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "inch-piece-galangal",
+      "item": "inch piece galangal",
+      "quantity": 1.5,
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "serrano-chile-peppers",
+      "item": "serrano chile peppers",
+      "quantity": 2,
+      "preparation": "stemmed, seeded, and sliced"
+    },
+    {
+      "ingredient_id": "fresno-chile-pepper",
+      "item": "Fresno chile pepper",
+      "quantity": 1,
+      "preparation": "stemmed, seeded, and sliced"
+    },
+    {
+      "ingredient_id": "korean-red-pepper-flakes",
+      "item": "Korean red pepper flakes",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-turmeric",
+      "item": "ground turmeric",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-cardamom",
+      "item": "ground cardamom",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-grated-nutmeg",
+      "item": "freshly grated nutmeg",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "full-fat-coconut-milk",
+      "item": "full-fat coconut milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "tamarind-paste",
+      "item": "tamarind paste",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "stalk-lemongrass",
+      "item": "stalk lemongrass",
+      "quantity": 0.5,
+      "preparation": "light part"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cut the beef into large chunks. Blend or finely process the shallots, garlic, ginger, galangal, chiles, pepper flakes, coriander, turmeric, cardamom, nutmeg, and tamarind paste into a coarse paste."
+    },
+    {
+      "step": 2,
+      "text": "Warm the oil in a heavy pot over medium heat. Add the aromatic paste and cook, stirring, until fragrant and slightly thickened."
+    },
+    {
+      "step": 3,
+      "text": "Add the beef and stir to coat. Pour in the coconut milk, then mix in the brown sugar and add the lemongrass. Bring the liquid to a gentle simmer."
+    },
+    {
+      "step": 4,
+      "text": "Reduce the heat to low and simmer uncovered, stirring occasionally, until the sauce is thick and the beef is tender, about 4 hours. Add small amounts of water only if needed to prevent scorching.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 5,
+      "text": "Check that the beef reaches at least 145°F, then let it rest for 3 minutes. Remove the lemongrass and serve warm.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "dinner",
+    "beef",
+    "braised",
+    "coconut"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "heavy pot",
+    "food processor or blender",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270313/chef-johns-beef-rendang/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2604a4c500ebd71ad04f1e007305d2d7c31d9fab96cb6635b1e8977341dc53a2",
+    "normalized_text_hash": "4f39fe2be17961b1985559a19aaa6d26a8395051150134a225edd038d7fe7529",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:20:33.625Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

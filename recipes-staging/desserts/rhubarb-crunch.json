@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rhubarb-crunch",
+  "name": "Rhubarb Crunch",
+  "subtitle": "A baked rhubarb dessert with an oat topping",
+  "description": "Tart diced rhubarb bakes beneath a buttery, brown-sugar oat topping until golden and crisp.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 40
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "packed-light-brown-sugar",
+      "item": "packed light brown sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "quick-cooking-oats",
+      "item": "quick cooking oats",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 1,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the diced rhubarb in a baking dish. Stir in the white sugar and 3 tablespoons flour until evenly coated; set aside."
+    },
+    {
+      "step": 3,
+      "text": "Combine 1.5 cups flour, packed light brown sugar, and oats. Cut in the butter until the mixture forms coarse crumbs."
+    },
+    {
+      "step": 4,
+      "text": "Spread the topping evenly over the rhubarb."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until golden brown and the rhubarb is tender.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "fruit",
+    "baked"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15643/rhubarb-crunch/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5fff4e60a01a46b966b01adfc002612279812c5d299c0b72c29fb6a8d47162e1",
+    "normalized_text_hash": "55b6e4bdb9591323ff0e477b54fd66e4d8094f1acf1252b7cd5a706ed9597f58",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:01:37.418Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

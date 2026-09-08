@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "whiskey-sour",
+  "name": "Whiskey Sour",
+  "subtitle": "A simple whiskey and citrus-style mixed drink",
+  "description": "Combine whiskey with sweet and sour mix for a quick single-serving cocktail.",
+  "meal_type": "drink",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 2,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fluid-ounces-whiskey",
+      "item": "fluid ounces whiskey",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "fluid-ounce-sweet-and-sour-mix",
+      "item": "fluid ounce sweet and sour mix",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Transfer the whiskey and sweet and sour mix to a serving glass and combine."
+    }
+  ],
+  "tags": [
+    "drink",
+    "cocktail",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "serving glass"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14890/whiskey-sour/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5dfc589bd30fb4f5c7adba83bded258b4c6fcd992d62ed9234be92767b2240ae",
+    "normalized_text_hash": "17bda1394a0b79b909232f41dc424774812d9d268ed5908593b207fa525bae40",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T21:01:27.096Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

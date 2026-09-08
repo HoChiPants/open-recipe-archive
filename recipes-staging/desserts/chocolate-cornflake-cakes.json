@@ -1,0 +1,103 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-cornflake-cakes",
+  "name": "Chocolate Cornflake Cakes",
+  "subtitle": "Crisp cereal clusters coated in chocolate",
+  "description": "A simple no-bake dessert made by coating cornflakes in a warm chocolate, butter, and golden syrup mixture, then setting them until firm.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 3.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 4,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate",
+      "item": "semisweet chocolate",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "cornflakes-cereal",
+      "item": "cornflakes cereal",
+      "quantity": 2.75,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Prepare 15 small paper cases or a tray with the butter."
+    },
+    {
+      "step": 2,
+      "text": "Warm the butter, golden syrup, and chopped chocolate together, stirring until smooth and melted."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the cornflakes until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Divide the mixture among the prepared cases or tray portions. Let stand until set.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dessert",
+    "no-bake",
+    "chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "small saucepan",
+    "mixing bowl",
+    "15 paper cases or tray"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86807/delicious-chocolate-cornflake-cakes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "fe109820dc6357ecb71766917c7c77c7cc6ca36804d55ba3bcf9ad9656f90617",
+    "normalized_text_hash": "0e29bd64848e8af15c26b9dfce0993547e41ebc65e66b3c56a3e52a715dd8877",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:03:58.366Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-red-rice",
+  "name": "Mexican Red Rice",
+  "subtitle": "Tomato-seasoned rice with cilantro and jalapeño",
+  "description": "A savory Mexican-style rice side simmered with tomatoes, aromatics, broth, and fresh jalapeño.",
+  "meal_type": "side",
+  "cuisine": "Mexican",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "roma-plum-tomatoes",
+      "item": "Roma (plum tomatoes)",
+      "quantity": 2,
+      "preparation": "cored"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "uncooked-long-grain-white-rice",
+      "item": "uncooked long-grain white rice",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "low-sodium-chicken-broth",
+      "item": "low-sodium chicken broth",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "canned-tomato-sauce",
+      "item": "canned tomato sauce",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "jalapeno-pepper",
+      "item": "jalapeno pepper",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "sprigs-fresh-cilantro",
+      "item": "sprigs fresh cilantro",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Blend the cored tomatoes with the canned tomato sauce until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil in a saucepan over medium heat. Add the onion and cook, stirring, until tender.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the garlic and stir for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Stir in the rice and cook briefly to coat the grains."
+    },
+    {
+      "step": 5,
+      "text": "Add the tomato mixture and low-sodium chicken broth, then bring to a simmer."
+    },
+    {
+      "step": 6,
+      "text": "Stir in the jalapeno pepper, cilantro, and salt to taste."
+    },
+    {
+      "step": 7,
+      "text": "Cover and simmer until the rice is tender, the liquid is absorbed, and the mixture reaches at least 165°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 8,
+      "text": "Remove from the heat and let stand, covered, for 10 minutes."
+    },
+    {
+      "step": 9,
+      "text": "Fluff the rice and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "mexican",
+    "rice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "blender",
+    "saucepan",
+    "lid"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221433/arroz-rojo-mexican-red-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "54edb94031662c3cf3c7bf01e0d228ec539c96d9d54d6f042764710064703b24",
+    "normalized_text_hash": "8812a6b85ea4a85f56aaa07b8ced721ab5fd45b7e0db99d59aacf09b77dd968b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:25:10.777Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

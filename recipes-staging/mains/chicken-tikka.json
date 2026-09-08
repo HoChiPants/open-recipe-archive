@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chicken-tikka",
+  "name": "Chicken Tikka",
+  "subtitle": "Spiced yogurt-marinated chicken for grilling",
+  "description": "Tender chicken chunks coated in a lemony yogurt marinade with warm curry spices, then grilled until fully cooked.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "as a starter"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chicken-breasts-cut-into-chunks",
+      "item": "chicken breasts cut into chunks",
+      "quantity": 3,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "greek-yogurt",
+      "item": "Greek yogurt",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ginger-and-garlic-paste",
+      "item": "ginger and garlic paste",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "madras-curry-powder",
+      "item": "madras curry powder",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "ground-turmeric",
+      "item": "ground turmeric",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "smoked-paprika",
+      "item": "smoked paprika",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "mild-chilli-powder",
+      "item": "mild chilli powder",
+      "quantity": 2,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "lemon-juice",
+      "item": "lemon juice",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Mix the yogurt, ginger and garlic paste, curry powder, cumin, coriander, turmeric, smoked paprika, chilli powder, and lemon juice in a bowl. Add the chicken and coat thoroughly."
+    },
+    {
+      "step": 2,
+      "text": "Chill the coated chicken while the grill preheats."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the chicken on the hot grill and cook for 5 minutes per side, turning once, until browned and the thickest pieces reach 165°F.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dinner",
+    "grilled",
+    "chicken",
+    "tikka",
+    "starter"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-tikka",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4de401dc8ccbb301377c312228c0cede32bf00b5d9d12295a3b7c1fe49a57cc8",
+    "normalized_text_hash": "d1de363118b8e293157b5ad9a7e87b909be5b72a8e5303666b555f3427907edd",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T01:53:19.411Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

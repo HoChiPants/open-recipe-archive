@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mound-bars",
+  "name": "Mound Bars",
+  "subtitle": "Layered coconut and chocolate cookie bars",
+  "description": "A crisp graham crumb base topped with sweet coconut and a smooth semisweet chocolate layer.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "graham-cracker-crumbs",
+      "item": "graham cracker crumbs",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "sweetened-condensed-milk",
+      "item": "sweetened condensed milk",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "14 ounce"
+    },
+    {
+      "ingredient_id": "flaked-coconut",
+      "item": "flaked coconut",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "12 ounce, melted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Mix the graham cracker crumbs, sugar, and melted butter until evenly moistened. Press the mixture into the bottom of a baking pan."
+    },
+    {
+      "step": 3,
+      "text": "Bake the crust for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 4,
+      "text": "Stir the condensed milk and coconut together, then spread the mixture evenly over the baked crust."
+    },
+    {
+      "step": 5,
+      "text": "Bake the coconut layer for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Spread the melted chocolate chips over the warm coconut layer."
+    },
+    {
+      "step": 7,
+      "text": "Cool until the chocolate is set, about 60 minutes, then cut into bars.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "bars",
+    "coconut",
+    "chocolate",
+    "graham-cracker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "baking pan",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11378/mound-bars/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8861a107ac7fe0f1efe83f9db8efeebcebe16dabbdce94f125c92a2693cdb9e3",
+    "normalized_text_hash": "f7ba900135417029e1a4d5f9f03280460de9a28012b49e0ac07a6b576a4004b9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:59:05.422Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

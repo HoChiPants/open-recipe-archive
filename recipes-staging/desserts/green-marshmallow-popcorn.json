@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "green-marshmallow-popcorn",
+  "name": "Green Marshmallow Popcorn",
+  "subtitle": "Sweet, chewy popcorn with candy-eye decorations",
+  "description": "A quick green marshmallow-coated popcorn treat finished with candy eyeballs.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 20,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "popped-popcorn",
+      "item": "popped popcorn",
+      "quantity": 10,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "packed-brown-sugar",
+      "item": "packed brown sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "marshmallows",
+      "item": "marshmallows",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce"
+    },
+    {
+      "ingredient_id": "green-food-coloring",
+      "item": "green food coloring",
+      "quantity": 5,
+      "unit": "drops"
+    },
+    {
+      "ingredient_id": "candy-eyeballs",
+      "item": "candy eyeballs",
+      "quantity": "1/2",
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the popped popcorn in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Warm the brown sugar and butter in a saucepan, then add the marshmallows and stir until melted."
+    },
+    {
+      "step": 3,
+      "text": "Mix in the green food coloring, pour the mixture over the popcorn, and toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Stir in the candy eyeballs and serve."
+    }
+  ],
+  "tags": [
+    "snack",
+    "dessert",
+    "popcorn",
+    "no-bake"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large bowl",
+    "saucepan",
+    "wooden spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275674/slime-popcorn/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "076821aae5b0182c8525ae30856b3805a7475a30079679141473d340a6d88771",
+    "normalized_text_hash": "5fa9b65e98fa6ffe08959e07931080943c27301d02ad5d1c1a875bb5d5f7318b",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:34:53.326Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

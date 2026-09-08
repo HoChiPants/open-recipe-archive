@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-pork-chops",
+  "name": "Slow-Cooker Pork Chops",
+  "subtitle": "Tender pork chops in a savory onion-mushroom sauce",
+  "description": "Pork chops cook with onion, creamy soups, and seasoned mixes for a simple slow-cooker main dish.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 150
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "sliced into rings"
+    },
+    {
+      "ingredient_id": "center-cut-boneless-pork-chops",
+      "item": "center-cut boneless pork chops",
+      "quantity": 10,
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "cream-of-onion-soup",
+      "item": "cream of onion soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "cream-of-mushroom-soup",
+      "item": "cream of mushroom soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.5 ounce"
+    },
+    {
+      "ingredient_id": "fluid-ounces-water",
+      "item": "fluid ounces water",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "ranch-dressing-mix",
+      "item": "ranch dressing mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "dry-onion-soup-mix",
+      "item": "dry onion soup mix",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1 ounce"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Arrange the onion rings in the slow cooker and place the trimmed pork chops over them."
+    },
+    {
+      "step": 2,
+      "text": "Add both soups, water, ranch dressing mix, dry onion soup mix, salt, and pepper. Stir the sauce gently around the chops."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook for 150 minutes, or until the pork reaches 145°F in the thickest part.",
+      "timer_minutes": 150
+    },
+    {
+      "step": 4,
+      "text": "Let the pork rest for 3 minutes before serving with the sauce."
+    }
+  ],
+  "tags": [
+    "main",
+    "slow-cooker",
+    "pork",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237411/easy-pork-chops-for-the-slow-cooker/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "211a3b881e4785831237f6b168058e36015d77ee06d660d291f684c9a431451b",
+    "normalized_text_hash": "f2183d61c59e7f9607413b8d65599cb82f9e04a015e597243742acfad4664f19",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:42:00.510Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

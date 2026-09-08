@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pesto-stuffed-chicken-breast",
+  "name": "Pesto-Stuffed Chicken Breast",
+  "subtitle": "Cheese-filled chicken with a pesto coating",
+  "description": "Chicken breasts are filled with mozzarella and pesto, coated in a pesto-egg mixture and Parmesan, then baked until safely cooked.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "nonstick-aluminum-foil",
+      "item": "nonstick aluminum foil"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 4,
+      "preparation": "skinless chicken breasts"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 4,
+      "unit": "ounces",
+      "preparation": "cut into 4 slices"
+    },
+    {
+      "ingredient_id": "prepared-pesto",
+      "item": "prepared pesto",
+      "quantity": 5,
+      "unit": "tablespoons",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "parmesan-cheese",
+      "item": "Parmesan cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Line a baking dish with nonstick aluminum foil."
+    },
+    {
+      "step": 2,
+      "text": "Cut a pocket into the thick side of each chicken breast. Fill each pocket with one mozzarella slice and a portion of the pesto."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the eggs with the remaining pesto. Dip the stuffed chicken into the mixture, then coat it thoroughly with the shredded Parmesan."
+    },
+    {
+      "step": 4,
+      "text": "Arrange the coated chicken in the prepared dish and bake until the thickest part reaches 165°F on a food thermometer, about 20 minutes.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "dinner",
+    "chicken",
+    "baked",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276244/pesto-stuffed-chicken-breast/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8231d98d115a7f63778e135e765c8f25dc182b3cc3448ae1cdb93fa1161f69c4",
+    "normalized_text_hash": "44d02bce405e2991f672d368cd925546fee4b1d0991a135da2951cbf5b9fdd16",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:13:32.971Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

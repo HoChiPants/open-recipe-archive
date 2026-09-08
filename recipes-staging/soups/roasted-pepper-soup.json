@@ -1,0 +1,155 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "roasted-pepper-soup",
+  "name": "Roasted Pepper Soup",
+  "subtitle": "A smooth, savory soup of roasted peppers and herbs",
+  "description": "Roast assorted bell peppers with garlic and lemon, then simmer them with broth and herbs before blending into a warm, flavorful soup.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "green-bell-pepper",
+      "item": "green bell pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "red-bell-pepper",
+      "item": "red bell pepper",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "orange-bell-pepper",
+      "item": "orange bell pepper",
+      "quantity": 1,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "yellow-bell-pepper",
+      "item": "yellow bell pepper",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 8,
+      "unit": "cloves"
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 0.5
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "fennel-seed",
+      "item": "fennel seed",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F."
+    },
+    {
+      "step": 2,
+      "text": "Cut the bell peppers into large pieces. Arrange them with the garlic and lemon in a baking dish, then season with garlic salt, black pepper, and fennel seed."
+    },
+    {
+      "step": 3,
+      "text": "Roast until the peppers are tender and lightly charred.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Transfer the roasted peppers, garlic, and lemon to a pot. Add the vegetable broth and fennel seed, and bring to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Stir in the dried thyme and simmer for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 6,
+      "text": "Let the soup cool briefly, then puree until smooth. Return it to the pot and reheat gently before serving."
+    },
+    {
+      "step": 7,
+      "text": "Adjust the black pepper to taste and garnish with the shredded roasted peppers, if desired."
+    }
+  ],
+  "tags": [
+    "soup",
+    "roasted-vegetables",
+    "bell-peppers",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "pot",
+    "blender or immersion blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13263/rainbow-roasted-pepper-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5066b650ebf432bb29f9c3847b6f41a982873395ef8ac70d099ff5ac7fca078e",
+    "normalized_text_hash": "7bab1ee590d5026c820a678e608536cc73cd71dde1781b78382cb46a07315e51",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:14:37.016Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

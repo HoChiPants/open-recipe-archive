@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "slow-cooker-barbecue-goose-sandwich",
+  "name": "Slow Cooker Barbecue Goose Sandwich",
+  "subtitle": "Tender goose with savory barbecue-style cooking juices",
+  "description": "Goose breast cooks slowly with butter, aromatics, Worcestershire sauce, and broth, then is shredded for sandwiches.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 3,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 360
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "clove",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "yellow onion",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "goose-breast",
+      "item": "goose breast",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "worcestershire-sauce",
+      "item": "Worcestershire sauce",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "chicken-broth",
+      "item": "chicken broth",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Melt the butter in a slow cooker set to its cooking setting, then stir in the Worcestershire sauce."
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic and onion, followed by the goose breast. Pour in the remaining Worcestershire sauce and the chicken broth."
+    },
+    {
+      "step": 3,
+      "text": "Cover and cook until the goose is tender, about 6 hours. Check the thickest part with a food thermometer; poultry should reach 165°F.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 4,
+      "text": "Shred the goose in its cooking juices and serve in sandwiches."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "slow-cooker",
+    "poultry",
+    "sandwich"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "slow cooker",
+    "food thermometer",
+    "forks"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25414/slow-cooker-barbecue-goose-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ca08db02b8dc0eef3b976b57d4fc445c0fd6aa7521b19d03fb69fd1fd81fa7c6",
+    "normalized_text_hash": "db72fe3af890a9bdfcf1f8de6c30daa60e298c49b21af1f654a9f61e76384f15",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T17:38:17.195Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 2,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

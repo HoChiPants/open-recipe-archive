@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "rhubarb-cream-pie",
+  "name": "Rhubarb Cream Pie",
+  "subtitle": "Tart rhubarb baked in a spiced custard filling",
+  "description": "A simple rhubarb pie with a nutmeg-scented egg custard baked in a deep-dish crust.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 50
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "unit": "large",
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "rhubarb",
+      "item": "rhubarb",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "9-inch-deep-dish-pie-crust",
+      "item": "(9 inch) deep dish pie crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Combine the sugar, flour, and nutmeg in a bowl."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the beaten eggs, then fold in the chopped rhubarb."
+    },
+    {
+      "step": 4,
+      "text": "Prepare the deep-dish pie crust and transfer the rhubarb mixture into it."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until the center is firm and fully set.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dessert",
+    "pie",
+    "rhubarb",
+    "american"
+  ],
+  "seasons": [
+    "spring",
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "9-inch deep-dish pie dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15854/rhubarb-cream-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "38b7f141650e6bf2166fabbd3f9c460a6c914dbe08a7f1fd36e0c0b6b39b601f",
+    "normalized_text_hash": "4bac92e168a766427ac10f03f700ab55430c7f8d9efaa55a7cb7ad9f575eedf8",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:01:26.654Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

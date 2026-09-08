@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pesto-pasta-salad",
+  "name": "Pesto Pasta Salad",
+  "subtitle": "A bright, basil-forward pasta salad with toasted pine nuts and fresh toppings.",
+  "description": "Cooked farfalle is combined with pesto, lemon, basil, tomatoes, sweetcorn, peas, and rocket, then finished with shaved parmesan or a vegetarian alternative.",
+  "meal_type": "salad",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "farfalle-pasta",
+      "item": "farfalle pasta",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "pine-nuts",
+      "item": "pine nuts",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "pesto-see-recipe",
+      "item": "pesto (see recipe",
+      "quantity": 5,
+      "unit": "tbsp",
+      "preparation": "right and below, if you want to make your own)"
+    },
+    {
+      "ingredient_id": "basil-leaves",
+      "item": "basil leaves",
+      "quantity": 10,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "lemon-juiced-and-zested",
+      "item": "lemon juiced and zested",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "parmesan-or-vegetarian-alternative",
+      "item": "parmesan or vegetarian alternative",
+      "quantity": 50,
+      "unit": "g",
+      "preparation": "shaved"
+    },
+    {
+      "ingredient_id": "cherry-tomatoes-drained-sweetcorn",
+      "item": "cherry tomatoes drained sweetcorn",
+      "preparation": "halved, peas, rocket"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Cook the farfalle pasta until tender, then transfer it to a large bowl and let it set briefly."
+    },
+    {
+      "step": 2,
+      "text": "Toast the pine nuts in the olive oil for 5 minutes, watching closely so they do not over-brown.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the pesto, basil leaves, lemon juice and zest, and the cherry tomatoes, sweetcorn, peas, and rocket to the pasta. Toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Top with the shaved parmesan or vegetarian alternative and serve."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "basil",
+    "family-meals",
+    "pasta-salad",
+    "pesto"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "large mixing bowl",
+    "skillet"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/build-your-own-pesto-pasta-salad",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "f348e7e9200f7c9221dafb3f3a45f3e9ee2e5e2666764bffa101a53d0de6b656",
+    "normalized_text_hash": "94c9fafd13538e42adf9496b00326460211067c694ab5ed49cded5bb66207785",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:50:13.513Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

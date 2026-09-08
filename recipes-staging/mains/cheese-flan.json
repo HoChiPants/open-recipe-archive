@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheese-flan",
+  "name": "Cheese Flan",
+  "subtitle": "A savory pastry tart with cheddar, onion, and egg custard",
+  "description": "A simple cheese flan made with buttery shortcrust pastry, softened onion, mature cheddar, and a baked egg-and-milk filling.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "salted-butter-plus-extra-for-the-dish",
+      "item": "salted butter plus extra for the dish",
+      "quantity": 15,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "onion-finely-chopped",
+      "item": "onion finely chopped",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "eggs-beaten",
+      "item": "eggs beaten",
+      "quantity": 5
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "whole milk",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "ready-rolled-sheet-of-shortcrust-pastry",
+      "item": "ready-rolled sheet of shortcrust pastry",
+      "quantity": 320,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "extra-mature-cheddar",
+      "item": "extra-mature cheddar",
+      "quantity": 150,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven."
+    },
+    {
+      "step": 2,
+      "text": "Melt the salted butter in a pan, add the onion, and cook for 15 minutes until softened.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 3,
+      "text": "Grease the dish with extra butter and fit the shortcrust pastry into it, trimming any excess."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the beaten eggs with the whole milk, then mix in the cooked onion and cheddar."
+    },
+    {
+      "step": 5,
+      "text": "Pour the filling into the pastry case and bake for 40 minutes, until the center is firm and reaches 160°F.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "cheese",
+    "savory-tart",
+    "pastry"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "frying pan",
+    "9-inch flan dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cheese-flan",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2a1430d1e4e00c7874ef211e1a10bb9a85abc0081f8ef51b86fc1dba6309ce3c",
+    "normalized_text_hash": "fe22241e8417ffd50e7568b1578263cf22426dd089096284b512f90b17f27183",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T10:06:56.724Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

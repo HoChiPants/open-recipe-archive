@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "french-onion-pie",
+  "name": "French Onion Pie",
+  "subtitle": "A savory onion custard pie with bacon",
+  "description": "Sweet onions, bacon, and a lightly seasoned egg custard bake together in a crisp pie crust.",
+  "meal_type": "dessert",
+  "cuisine": "French",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 30,
+    "cook_minutes": 35,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 10,
+      "preparation": "cut into 1 inch pieces"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 5,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "freshly-ground-black-pepper",
+      "item": "freshly ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "heavy-cream",
+      "item": "heavy cream",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "9-inch-unbaked-pie-crust",
+      "item": "(9 inch) unbaked pie crust",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Cook the bacon until rendered and lightly browned, then drain it.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Add the sliced onions to the bacon fat and cook until softened. Season with the salt and pepper."
+    },
+    {
+      "step": 4,
+      "text": "Combine the milk and heavy cream. Stir the flour into the onions, then gradually stir in the milk mixture."
+    },
+    {
+      "step": 5,
+      "text": "Whisk the eggs, then stir them into the onion mixture along with the bacon and nutmeg."
+    },
+    {
+      "step": 6,
+      "text": "Pour the filling into the unbaked pie crust and bake until lightly browned and the center is fully set, reaching 160°F on a food thermometer.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 7,
+      "text": "Let the pie cool briefly before serving.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "pie",
+    "savory-pie",
+    "onion",
+    "french-cuisine",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "skillet",
+    "mixing bowl",
+    "9-inch pie pan",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/151905/tarte-a-loignon-french-onion-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d4fdf377ed0d8ee8b56f770c9eeb610ea7f4b7c7ce6071b39b24437c6e6daff8",
+    "normalized_text_hash": "6d34520e771a10988f1ba587c97c9cf1c6a450686fc249c8d5ac8f4bd393134f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:37:01.114Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

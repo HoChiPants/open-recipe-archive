@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banoffee-traybake",
+  "name": "Banoffee Traybake",
+  "subtitle": "A soft banana bake with chocolate and caramel",
+  "description": "Bake a tender banana-and-chocolate traybake, then finish it with caramel and optional banana chips.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter-softened",
+      "item": "butter softened",
+      "quantity": 200,
+      "unit": "g",
+      "preparation": "plus extra for the tin"
+    },
+    {
+      "ingredient_id": "ripe-bananas-250g-peeled-weight",
+      "item": "ripe bananas (250g peeled weight)",
+      "quantity": 2,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 4,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "self-raising-flour",
+      "item": "self-raising flour",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "natural-yogurt",
+      "item": "natural yogurt",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-chopped-into-chunks",
+      "item": "dark chocolate chopped into chunks",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "thick-caramel-or-dulce-de-leche-we-used-a-can-of-carnation-caramel",
+      "item": "thick caramel or dulce de leche (we used a can of Carnation caramel)",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dried-banana-chips-to-serve-optional",
+      "item": "dried banana chips to serve (optional)",
+      "quantity": 12,
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and butter the baking tin."
+    },
+    {
+      "step": 2,
+      "text": "Beat the softened butter, bananas, and brown sugar until smooth. Add the eggs and vanilla, then mix until combined."
+    },
+    {
+      "step": 3,
+      "text": "Fold in the flour, yogurt, and chopped chocolate until no dry streaks remain."
+    },
+    {
+      "step": 4,
+      "text": "Spread the batter evenly in the prepared tin and bake for 30 minutes, until risen and a skewer inserted in the center comes out clean.",
+      "timer_minutes": 30
+    },
+    {
+      "step": 5,
+      "text": "Leave the traybake in the tin for 10 minutes, then transfer it to a rack and let it cool.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Cut into 12 pieces, spread or drizzle with caramel, and top with banana chips if using."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baking",
+    "banana",
+    "chocolate",
+    "caramel",
+    "traybake",
+    "afternoon-tea"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking tin",
+    "mixing bowl",
+    "electric mixer",
+    "wire rack",
+    "skewer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/banoffee-traybake",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "1eca4e32837d9f4e4276315bcf504a5945ad46c3ccec8d03a6526d880474ba41",
+    "normalized_text_hash": "a5663f504d6d4203766e3ca9110a5817e1f6e793a97819c41ea31a815759c1cc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T04:10:34.823Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

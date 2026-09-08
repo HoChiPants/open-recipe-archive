@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-sandwich",
+  "name": "Cucumber Sandwich",
+  "subtitle": "A crisp, creamy no-cook lunch sandwich",
+  "description": "Softened cream cheese, fresh vegetables, sprouts, and mashed avocado layered between whole wheat bread make a quick vegetarian sandwich.",
+  "meal_type": "sandwich",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "thick-slices-whole-wheat-bread",
+      "item": "thick slices whole wheat bread",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "slices-cucumber",
+      "item": "slices cucumber",
+      "quantity": 6
+    },
+    {
+      "ingredient_id": "alfalfa-sprouts",
+      "item": "alfalfa sprouts",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "red-wine-vinegar",
+      "item": "red wine vinegar",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato",
+      "item": "tomato",
+      "quantity": 1,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "leaf-lettuce",
+      "item": "leaf lettuce",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "pepperoncini",
+      "item": "pepperoncini",
+      "quantity": 1,
+      "unit": "ounce",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "avocado",
+      "item": "avocado",
+      "quantity": 0.5,
+      "preparation": "mashed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Spread the softened cream cheese evenly over one side of each bread slice."
+    },
+    {
+      "step": 2,
+      "text": "Toss the alfalfa sprouts with the olive oil and red wine vinegar."
+    },
+    {
+      "step": 3,
+      "text": "Layer the cucumber, tomato, lettuce, pepperoncini, and dressed sprouts on one slice of bread."
+    },
+    {
+      "step": 4,
+      "text": "Spread the mashed avocado over the other slice, place it avocado-side down, and cut the sandwich in half."
+    },
+    {
+      "step": 5,
+      "text": "Serve immediately."
+    }
+  ],
+  "tags": [
+    "lunch",
+    "vegetarian",
+    "no-cook",
+    "sandwich"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "small bowl",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18003/cucumber-sandwich/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2b448967773c8bdb765b3ba6ed0ea1488453b563afd79bea04933ade6d98e8ed",
+    "normalized_text_hash": "0bfc6836c49c2e56cc0b01b8eaaf7959f1ec734ff828b26993d8b10935bffcc1",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:55:40.512Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

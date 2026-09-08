@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "creamy-delicata-squash-soup",
+  "name": "Creamy Delicata Squash Soup",
+  "subtitle": "Roasted squash blended into a smooth, savory soup",
+  "description": "Tender roasted delicata squash, onion, broth, and cream make a rich, warming soup for five servings.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 5,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 75
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "delicata-squash",
+      "item": "delicata squash",
+      "quantity": 3,
+      "preparation": "halved lengthwise and seeded"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "heavy-whipping-cream",
+      "item": "heavy whipping cream",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-to-taste",
+      "item": "salt to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 325°F. Arrange the halved, seeded squash on a baking sheet and roast until tender, about 40 minutes.",
+      "timer_minutes": 40
+    },
+    {
+      "step": 2,
+      "text": "Let the squash cool enough to handle, then scoop the flesh from the skins."
+    },
+    {
+      "step": 3,
+      "text": "Melt the butter in a large pot over medium heat. Add the onion and cook until softened."
+    },
+    {
+      "step": 4,
+      "text": "Add the squash and vegetable broth. Bring to a simmer and blend or process until smooth."
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the heavy whipping cream and simmer gently for 25 minutes.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 6,
+      "text": "Season with salt and ground black pepper, then serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "american",
+    "squash",
+    "creamy",
+    "vegetarian"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "large pot",
+    "immersion blender or blender"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13063/delicata-creamy-squash-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9b73da022c8c9f421b05058c53cea8832deea08063e4162a882a98e576761c3a",
+    "normalized_text_hash": "ee01175ef5f5a2b2bc321ad4611757e167e9e563f062d3c5af5702c8ca0c445f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:03:38.953Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

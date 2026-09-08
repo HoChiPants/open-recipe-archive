@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cajun-chicken-pasta",
+  "name": "Cajun Chicken Pasta",
+  "subtitle": "Creamy tomato pasta with seasoned chicken",
+  "description": "A quick one-pot pasta combining Cajun-seasoned chicken, tomatoes, cream, Parmesan, and lemon.",
+  "meal_type": "main",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "chicken-breasts-chopped-into-large-chunks",
+      "item": "chicken breasts chopped into large chunks",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "garlic-cloves-finely-chopped-or-grated",
+      "item": "garlic cloves finely chopped or grated",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cajun-style-seasoning",
+      "item": "Cajun-style seasoning",
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "can-chopped-tomatoes-or-passata",
+      "item": "can chopped tomatoes or passata",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "chicken-stock-cube-crumbled",
+      "item": "chicken stock cube crumbled",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "penne-or-another-tube-shaped-pasta",
+      "item": "penne or another tube- shaped pasta",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "double-cream",
+      "item": "double cream",
+      "quantity": 150,
+      "unit": "ml"
+    },
+    {
+      "ingredient_id": "parmesan-finely-grated",
+      "item": "parmesan finely grated",
+      "quantity": 20,
+      "unit": "g",
+      "preparation": "plus extra to serve"
+    },
+    {
+      "ingredient_id": "lemon-juiced",
+      "item": "lemon juiced",
+      "quantity": "1/2"
+    },
+    {
+      "ingredient_id": "parsley-to-serve-optional",
+      "item": "parsley to serve (optional)",
+      "preparation": "chopped",
+      "optional": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the olive oil in a large pot over medium-high heat. Add the chicken and cook for 8 minutes, turning occasionally, until cooked through and 165°F internally.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Add the garlic, Cajun-style seasoning, and crumbled stock cube. Stir for 2 minutes to coat the chicken evenly.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 3,
+      "text": "Add the chopped tomatoes or passata and stir. Cook for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Add the pasta and simmer, stirring occasionally, until the pasta is tender and the chicken remains fully cooked.",
+      "timer_minutes": 13
+    },
+    {
+      "step": 5,
+      "text": "Whisk in the double cream, then stir through the Parmesan and lemon juice. Warm for 2 minutes.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 6,
+      "text": "Serve with extra Parmesan and the chopped parsley, if using."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "cajun",
+    "chicken",
+    "one-pot",
+    "pasta",
+    "penne"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "large pot",
+    "measuring spoons",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cajun-chicken-one-pot",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4a598db64a2078fd319560d0961eaec4c95bb9389fec04edd007a742256baf6e",
+    "normalized_text_hash": "2e0ff7d0a84441809cf33c3d5e55c45eb851022968f6a03239caaf4e5cb7c305",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-05T22:08:24.750Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

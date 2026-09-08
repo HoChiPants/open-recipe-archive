@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garlic-mashed-potatoes",
+  "name": "Garlic Mashed Potatoes",
+  "subtitle": "Creamy potatoes with Romano and oregano",
+  "description": "A savory mashed potato side combining tender red potatoes with butter, Romano cheese, garlic, and herbs.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 100,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "unpeeled-red-potatoes",
+      "item": "unpeeled red potatoes",
+      "quantity": 50,
+      "unit": "pounds",
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 8,
+      "unit": "pounds",
+      "preparation": "room temperature"
+    },
+    {
+      "ingredient_id": "romano-cheese",
+      "item": "Romano cheese",
+      "quantity": 3,
+      "unit": "pounds",
+      "preparation": "grated"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-oregano",
+      "item": "dried oregano",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring a large pot of water seasoned with the salt to a simmer."
+    },
+    {
+      "step": 2,
+      "text": "Add the quartered potatoes and simmer for 45 minutes, or until tender.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes thoroughly and return them to the pot."
+    },
+    {
+      "step": 4,
+      "text": "Add the room-temperature butter, Romano cheese, garlic, remaining salt, and oregano; stir until evenly combined and mashed."
+    },
+    {
+      "step": 5,
+      "text": "Transfer to a serving dish and serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "american",
+    "potatoes",
+    "garlic"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "serving dish"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21391/garlic-mashed-potatoes-secret-recipe/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "99625251cb962b3b3a98801ec99ceb0afdb69335279ed15d6c5bd3736f787658",
+    "normalized_text_hash": "4be17ec01105b6c436ed9f9bb0347b857cf1f6c305c32943649d7c24f012a079",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:36:26.408Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "peach-ginger-jam",
+  "name": "Peach Ginger Jam",
+  "subtitle": "A bright peach spread with warm ginger notes",
+  "description": "Peaches, crystallized ginger, pectin, and sugar cook into a rich homemade jam for spreading or serving with breakfast foods.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 128,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-peaches",
+      "item": "fresh peaches",
+      "quantity": 4.5,
+      "unit": "cups",
+      "preparation": "peeled, pitted and chopped"
+    },
+    {
+      "ingredient_id": "finely-chopped-crystallized-ginger",
+      "item": "finely chopped crystallized ginger",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "powdered-fruit-pectin",
+      "item": "powdered fruit pectin",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "1.75 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 6,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the peaches, crystallized ginger, and powdered fruit pectin in a large pot. Bring the mixture to a simmer and cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Add the sugar and butter, stirring until the sugar dissolves."
+    },
+    {
+      "step": 3,
+      "text": "Bring the mixture to a full boil, stirring constantly, and boil for 1 minute.",
+      "timer_minutes": 1
+    },
+    {
+      "step": 4,
+      "text": "Reduce the heat and simmer for 10 minutes, stirring as needed.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Remove from the heat, transfer the jam to serving containers, and let it cool before serving."
+    }
+  ],
+  "tags": [
+    "jam",
+    "peach",
+    "ginger",
+    "fruit-spread",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "large pot",
+    "stirring spoon",
+    "serving containers"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/218529/ginger-peach-jam/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "5befa27fcc9331d6d6bdd5cb8d3ba6d30aa85a9d439aff5d8917befb3533fce6",
+    "normalized_text_hash": "2c25a2368665ad8ed54a6a778a7ea27e6adb027f9c333b3e6e319929d5685dbc",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T09:42:50.723Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 3,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

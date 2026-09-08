@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "potato-skillet",
+  "name": "Potato Skillet",
+  "subtitle": "A hearty breakfast skillet with bacon, potatoes, eggs, and melted cheddar.",
+  "description": "Crisp bacon and tender seasoned potatoes form the base for softly cooked eggs and cheddar cheese.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 4
+    },
+    {
+      "ingredient_id": "and-diced-potatoes",
+      "item": "and diced potatoes",
+      "quantity": 2,
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "garlic-salt",
+      "item": "garlic salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "seasoning-salt",
+      "item": "seasoning salt",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 3,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 0.25,
+      "unit": "cup",
+      "preparation": "shredded"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the bacon in a skillet and preheat over medium heat. Cook until set, turning as needed."
+    },
+    {
+      "step": 2,
+      "text": "Add the peeled diced potatoes, garlic salt, seasoning salt, and black pepper. Cook, stirring occasionally, until the potatoes are tender."
+    },
+    {
+      "step": 3,
+      "text": "Stir the bacon and potatoes together, then add the beaten eggs. Cook until the eggs are firm and fully set."
+    },
+    {
+      "step": 4,
+      "text": "Sprinkle with the shredded Cheddar cheese and continue cooking until melted."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "skillet",
+    "potatoes",
+    "eggs",
+    "bacon"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24156/potato-skillet/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "134dcb8fd9651d1a8b340a9859b814388d284b20d06305345db224755dea3a71",
+    "normalized_text_hash": "9d0d25526108c401c4f3d67765a25f9162d44710d5cd6b65761b0c53ae573c43",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:26:50.134Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

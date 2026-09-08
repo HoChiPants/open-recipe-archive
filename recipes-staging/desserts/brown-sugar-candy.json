@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-sugar-candy",
+  "name": "Brown Sugar Candy",
+  "subtitle": "Buttery brown sugar candy with walnuts",
+  "description": "A rich, chewy candy made by cooking brown sugar and evaporated milk, then finishing it with butter, vanilla, and chopped walnuts.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "brown-sugar",
+      "item": "brown sugar",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "evaporated-milk",
+      "item": "evaporated milk",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "walnuts",
+      "item": "walnuts",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Butter a suitable pan or dish for setting the candy."
+    },
+    {
+      "step": 2,
+      "text": "Combine the brown sugar and evaporated milk in a saucepan, stirring until evenly mixed."
+    },
+    {
+      "step": 3,
+      "text": "Cook the mixture over medium heat, stirring as needed, until a candy thermometer registers 240°F."
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and stir in the walnuts, butter, and vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Whisk until the mixture thickens slightly, then transfer it to the prepared pan and smooth the surface."
+    },
+    {
+      "step": 6,
+      "text": "Let the candy set for 5 minutes, then cut into pieces.",
+      "timer_minutes": 5
+    }
+  ],
+  "tags": [
+    "dessert",
+    "candy",
+    "brown-sugar",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts"
+  ],
+  "equipment": [
+    "saucepan",
+    "candy thermometer",
+    "prepared pan or dish",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/77565/brown-sugar-candy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "06a0dc9ced499c1d28ed12dd20ce35c6ba0f67d5cc3899d8cb6c34dc1e79ceac",
+    "normalized_text_hash": "7d3940a7cdac6281ce5978473a8b39a4f663670ea627ab938fc63f2edff4bb66",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:20:38.241Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

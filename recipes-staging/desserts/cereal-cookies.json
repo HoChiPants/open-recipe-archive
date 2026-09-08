@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cereal-cookies",
+  "name": "Cereal Cookies",
+  "subtitle": "Crisp-edged cookies with toasted cereal and dark chocolate",
+  "description": "Toasted cereal, brown sugar, and dark chocolate add texture and flavor to these simple cookies.",
+  "meal_type": "dessert",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 22
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cereal",
+      "item": "cereal",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "unsalted butter",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-soft-sugar",
+      "item": "light brown soft sugar",
+      "quantity": 85,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "caster-sugar",
+      "item": "caster sugar",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "bicarbonate-of-soda",
+      "item": "bicarbonate of soda",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 175,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "dark-chocolate-roughly-chopped",
+      "item": "dark chocolate roughly chopped",
+      "quantity": 125,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking tray."
+    },
+    {
+      "step": 2,
+      "text": "Spread the cereal on the tray and toast for 10 minutes. Let it cool.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Whisk the butter, light brown soft sugar, and caster sugar for 5 minutes until smooth.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Beat in the egg and vanilla extract."
+    },
+    {
+      "step": 5,
+      "text": "Mix in the flour and bicarbonate of soda, then fold in the toasted cereal and chopped dark chocolate."
+    },
+    {
+      "step": 6,
+      "text": "Portion and shape the dough on the prepared tray, leaving space between pieces."
+    },
+    {
+      "step": 7,
+      "text": "Bake for 12 minutes, until the edges are set and the centers are firm and no longer wet.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 8,
+      "text": "Cool the cookies on the tray until firm enough to handle."
+    }
+  ],
+  "tags": [
+    "dessert",
+    "biscuits",
+    "cereal",
+    "cookies",
+    "dark-chocolate"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cereal-cookies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "13c2e36ac696ac2994aeeab3340c861688e4ccb3275cac9eff1bc9ee98ff924d",
+    "normalized_text_hash": "566b2365dac6a685eec241aa6c556e205ae91a6a9472e90fbbba0c0ae53f4eee",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-06T03:31:45.577Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 6,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-covered-peanuts",
+  "name": "Chocolate-Covered Peanuts",
+  "subtitle": "Salted peanuts coated in a two-chocolate candy shell.",
+  "description": "A simple chocolate-and-almond-bark peanut candy that sets into bite-size clusters.",
+  "meal_type": "dessert",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 56,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "white-almond-bark",
+      "item": "white almond bark",
+      "quantity": 18,
+      "unit": "ounces",
+      "preparation": "broken into pieces"
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "or more to taste"
+    },
+    {
+      "ingredient_id": "lightly-salted-peanuts",
+      "item": "lightly salted peanuts",
+      "quantity": 24,
+      "unit": "ounces",
+      "preparation": "or more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Line baking sheets with parchment paper."
+    },
+    {
+      "step": 2,
+      "text": "Melt the white almond bark in a heatproof bowl over gently simmering water, stirring until smooth.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the semisweet chocolate chips until fully melted and combined.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 4,
+      "text": "Fold in the peanuts until evenly coated."
+    },
+    {
+      "step": 5,
+      "text": "Drop spoonfuls of the mixture onto the prepared sheets."
+    },
+    {
+      "step": 6,
+      "text": "Let the clusters stand at room temperature until firm.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "chocolate",
+    "peanuts",
+    "candy",
+    "no-bake",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk",
+    "tree-nuts",
+    "peanuts",
+    "soy"
+  ],
+  "equipment": [
+    "baking sheets",
+    "parchment paper",
+    "heatproof bowl",
+    "saucepan",
+    "spoon"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/258884/alexanders-chocolate-covered-peanuts/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "2e0498a90209072b31fce3f0f23cc2f741a0d96035040b0a29f99ca4d2ca14ea",
+    "normalized_text_hash": "b9f200ec9e936a18dcec352bcf73d6b9f1cec4badc28385dbebbf29ec241a42b",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:37:29.498Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

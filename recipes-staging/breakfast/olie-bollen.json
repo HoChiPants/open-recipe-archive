@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "olie-bollen",
+  "name": "Olie Bollen",
+  "subtitle": "Dutch fried dough with apple and raisins",
+  "description": "A lightly sweet yeast batter folded with apple and raisins, fried until golden, and finished with sugar.",
+  "meal_type": "breakfast",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "inactive_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "lukewarm-water-110-degrees-f-to-115-degrees-f",
+      "item": "lukewarm water (110 degrees F to 115 degrees F)",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 4.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2,
+      "preparation": "beaten"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "vegetable-oil-for-frying",
+      "item": "vegetable oil for frying",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "white-sugar-for-decoration",
+      "item": "white sugar for decoration"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Dissolve the yeast in the lukewarm water and let it stand until foamy. Mix the flour, white sugar, and salt in a large bowl."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the yeast mixture, beaten eggs, and milk until a thick batter forms. Fold in the apple and raisins."
+    },
+    {
+      "step": 3,
+      "text": "Cover the bowl and let the batter rise in a warm place for 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Heat the vegetable oil to 350°F in a deep, heavy pot. Working in batches, drop rounded portions of batter into the oil and fry for about 2 minutes, turning as needed, until golden brown and cooked through; the center should be firm and reach 160°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Drain on paper towels, then dust with white sugar for decoration and serve warm."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "dutch",
+    "fried-dough",
+    "fruit"
+  ],
+  "seasons": [
+    "winter",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "large mixing bowl",
+    "deep heavy pot",
+    "cooking thermometer",
+    "slotted spoon",
+    "paper towels"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/146843/olie-bollen/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "ece25155e730c184d2a219aa517d0cbf15c9ebe1a0a0c57648a0e9e527be5d67",
+    "normalized_text_hash": "c6d8e24c060bcd7a9e87853af984b618a49d4d2b17359ff5d7807f6ed5ee7487",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T13:29:35.725Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

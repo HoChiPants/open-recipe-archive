@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "oat-flapjacks",
+  "name": "Oat Flapjacks",
+  "subtitle": "Chewy oat bars with buttery caramel notes",
+  "description": "A simple baked oat treat made with butter, brown sugar, and golden syrup.",
+  "meal_type": "snack",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "light-brown-sugar",
+      "item": "light brown sugar",
+      "quantity": 75,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-syrup",
+      "item": "golden syrup",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "ingredient_id": "porridge-oats",
+      "item": "porridge oats",
+      "quantity": 250,
+      "unit": "g"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven and prepare a baking tin."
+    },
+    {
+      "step": 2,
+      "text": "Melt the butter, light brown sugar, and golden syrup together in a saucepan, stirring until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the porridge oats until evenly coated, then transfer the mixture to the prepared tin and press it into an even layer."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 25 minutes, until set and lightly golden.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 5,
+      "text": "Cool in the tin for 3 minutes, then cut into 12 portions.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "snack",
+    "treat",
+    "oat-bars"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "baking tin",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/classic-flapjacks",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "80676da9fbb798169c4e799cc0ad6122ee10aa679d7209a8add0c4c75467954d",
+    "normalized_text_hash": "d09e48f21a38689f4d2537505e31460d89e07cbd2fc4f300c7f648b1ce120372",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:31:26.298Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-and-apple-salad",
+  "name": "Cucumber and Apple Salad",
+  "subtitle": "A crisp fruit-and-vegetable salad with tangy vinaigrette",
+  "description": "Diced apple and cucumber are tossed with raspberry vinaigrette for a quick, refreshing salad.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1.5,
+      "unit": "cups",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cucumber-slices",
+      "item": "cucumber slices",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "raspberry-vinaigrette",
+      "item": "raspberry vinaigrette",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the diced apple and cucumber slices in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the raspberry vinaigrette and toss until the apple and cucumber are evenly coated."
+    }
+  ],
+  "tags": [
+    "salad",
+    "fruit",
+    "cucumber",
+    "quick",
+    "no-cook"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "equipment": [
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238428/cucumber-and-apple-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d536801d94a00a6065dde7fdf6815e35baf6118f6e44b4ff51cce3bd003cef25",
+    "normalized_text_hash": "7f35675e6a97451edef5f7cd90c57ac2555685152b34bb29dadbb7ef0d0d5fd5",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:54:33.822Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 13,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

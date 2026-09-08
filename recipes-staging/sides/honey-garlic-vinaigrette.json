@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "honey-garlic-vinaigrette",
+  "name": "Honey Garlic Vinaigrette",
+  "subtitle": "A sweet-tangy dressing with fresh garlic",
+  "description": "Whisk together honey, vinegar, garlic, and oil for a versatile dressing or marinade.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 45
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "apple-cider-vinegar",
+      "item": "apple cider vinegar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "honey",
+      "item": "honey",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the apple cider vinegar, honey, and minced garlic until the honey dissolves."
+    },
+    {
+      "step": 2,
+      "text": "Gradually whisk in the vegetable oil until the dressing is blended."
+    },
+    {
+      "step": 3,
+      "text": "Let the vinaigrette rest for 45 minutes so the flavors develop.",
+      "timer_minutes": 45
+    },
+    {
+      "step": 4,
+      "text": "Whisk or shake again before serving."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "dressing",
+    "vinaigrette",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/36549/honey-garlic-vinaigrette/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8b9b2a91e2e8f63af2d80b7f8e54d2a7d83932ded83a704b9c93a175b126832a",
+    "normalized_text_hash": "162fc12d00a6bb233b4957eee784cf09e387644a30560cd7e5b1255712eb6c32",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:46:11.397Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 7,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

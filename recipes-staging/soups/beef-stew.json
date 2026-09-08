@@ -1,0 +1,159 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-stew",
+  "name": "Beef Stew",
+  "subtitle": "Slow-baked beef with vegetables, herbs, and peas",
+  "description": "A hearty American-style stew that cooks gently until the beef and vegetables are tender, then finishes with green peas.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "inactive_minutes": 370
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-stew-meat",
+      "item": "beef stew meat",
+      "quantity": 2.5,
+      "unit": "pounds",
+      "preparation": "diced into 1 inch pieces"
+    },
+    {
+      "ingredient_id": "stewed-tomatoes",
+      "item": "stewed tomatoes",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "28 ounce, with juice"
+    },
+    {
+      "ingredient_id": "celery",
+      "item": "celery",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 3,
+      "preparation": "cubed"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onions",
+      "quantity": 3,
+      "preparation": "chopped"
+    },
+    {
+      "ingredient_id": "tapioca",
+      "item": "tapioca",
+      "quantity": 3.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "cubes-beef-bouillon",
+      "item": "cubes beef bouillon",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "dried-thyme",
+      "item": "dried thyme",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-rosemary",
+      "item": "dried rosemary",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "dried-marjoram",
+      "item": "dried marjoram",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "red-wine",
+      "item": "red wine",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "frozen-green-peas",
+      "item": "frozen green peas",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 250°F."
+    },
+    {
+      "step": 2,
+      "text": "Place the beef, tomatoes with their juice, celery, carrots, potatoes, onions, tapioca, bouillon, thyme, rosemary, marjoram, and red wine in a covered ovenproof pot. Stir to combine."
+    },
+    {
+      "step": 3,
+      "text": "Bake until the beef and vegetables are tender, about 6 hours. Check the beef with a food thermometer; it should reach at least 145°F, followed by a 3-minute rest.",
+      "timer_minutes": 360
+    },
+    {
+      "step": 4,
+      "text": "Stir in the thawed peas, cover, and return the stew to the oven for 30 minutes.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "dinner",
+    "american",
+    "beef",
+    "one-pot"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "covered ovenproof pot",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12900/christmas-eve-beef-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4a4c440ed13f450bd39ecc9ee5400e3695f5aed4eb8b6f0f03d0af9cd5e3fbdd",
+    "normalized_text_hash": "3b5632474670ba0c492342118e8ce84a05839de262cfa2bab4454efe7ed7f7c3",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:41:45.219Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

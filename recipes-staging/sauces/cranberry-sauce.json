@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cranberry-sauce",
+  "name": "Cranberry Sauce",
+  "subtitle": "A bright, spiced accompaniment for festive meals",
+  "description": "Fresh cranberries simmer with sugar and whole spices, then cool into a make-ahead sauce.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 16,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "inactive_minutes": 510
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cinnamon-sticks",
+      "item": "cinnamon sticks",
+      "quantity": 3
+    },
+    {
+      "ingredient_id": "cloves",
+      "item": "cloves",
+      "quantity": 5,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "allspice-berries",
+      "item": "allspice berries",
+      "quantity": 5,
+      "unit": "whole"
+    },
+    {
+      "ingredient_id": "fresh-cranberries",
+      "item": "fresh cranberries",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "cups"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the cinnamon sticks, cloves, allspice berries, cranberries, and water in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Bring to a simmer and cook until the cranberries burst and the mixture thickens slightly, about 10 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sugar and cook until dissolved and the sauce is glossy, about 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Let the sauce cool at room temperature for 30 minutes, then refrigerate until thoroughly chilled, about 8 hours.",
+      "timer_minutes": 510
+    }
+  ],
+  "tags": [
+    "cranberry",
+    "sauce",
+    "american",
+    "holiday",
+    "make-ahead"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free",
+    "low-sodium"
+  ],
+  "equipment": [
+    "saucepan",
+    "wooden spoon",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26490/holiday-cranberry-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "39be5855ea51a631ddefce06e5cfcfc838479241ed9cb2de201f298495ab5148",
+    "normalized_text_hash": "3971cca9b8181c0b7a5d6f3982383729f041d54d9234d28a06c3ad7edd95f2a0",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T10:34:58.560Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

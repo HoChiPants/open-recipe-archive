@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "mexican-chicken-tortilla-casserole",
+  "name": "Mexican Chicken Tortilla Casserole",
+  "subtitle": "Layered tortillas, beans, chicken, corn, salsa, and cheese",
+  "description": "A quick baked casserole assembled in layers with salsa roja, tortillas, seasoned beans, corn, chicken, and melted cheese.",
+  "meal_type": "main",
+  "cuisine": "Mexican Inspired",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "salsa-roja",
+      "item": "salsa roja",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "corn-tortillas",
+      "item": "corn tortillas",
+      "quantity": 12,
+      "preparation": "divided"
+    },
+    {
+      "ingredient_id": "refried-beans",
+      "item": "refried beans",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "corn-kernels",
+      "item": "corn kernels",
+      "quantity": 1.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "grilled-boneless",
+      "item": "grilled boneless",
+      "quantity": 3,
+      "unit": "cups",
+      "preparation": "chopped, skinless chicken thighs"
+    },
+    {
+      "ingredient_id": "mexican-style-cheese-blend",
+      "item": "Mexican-style cheese blend",
+      "quantity": 2.5,
+      "unit": "cups",
+      "preparation": "shredded, divided"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 350°F. Coat a baking dish with cooking spray and spread in a portion of the salsa roja."
+    },
+    {
+      "step": 2,
+      "text": "Arrange a portion of the corn tortillas over the salsa, then layer on some refried beans and corn kernels."
+    },
+    {
+      "step": 3,
+      "text": "Add chopped chicken, salsa roja, and part of the cheese blend. Repeat the tortilla, bean, and corn layers, followed by more salsa and cheese."
+    },
+    {
+      "step": 4,
+      "text": "Finish with the remaining tortillas, salsa roja, and cheese blend."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 25 minutes, until the casserole reaches 165°F in the center and the cheese is melted.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "dinner",
+    "casserole",
+    "chicken",
+    "mexican-inspired",
+    "weeknight"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/278653/weeknight-mexican-chicken-lasagna/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "024c9660a5da88e645046c1a23cc8ee5bdaa018c78b9d0cb0c7ed1aad14d18f8",
+    "normalized_text_hash": "19e2fc4c64ce2d1d2f787f948928b5ae0986d640007b5b57d025a561f94bd3b4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T20:59:32.484Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 15,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

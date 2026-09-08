@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cinnamon-cookies",
+  "name": "Cinnamon Cookies",
+  "subtitle": "Crisp-edged, warmly spiced cookies",
+  "description": "A simple cinnamon cookie dough made with butter, brown and caster sugars, and optional raisins, then chilled and baked until set.",
+  "meal_type": "other",
+  "yield": {
+    "quantity": 15,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 12
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "salted butter",
+      "quantity": 120,
+      "unit": "g",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "light-brown-muscovado-sugar",
+      "item": "light brown muscovado sugar",
+      "quantity": 50,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "golden-caster-sugar",
+      "item": "golden caster sugar",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "ground-cinnamon",
+      "item": "ground cinnamon",
+      "quantity": 3,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "egg-lightly-beaten",
+      "item": "egg lightly beaten",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "plain flour",
+      "quantity": 220,
+      "unit": "g"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "ingredient_id": "raisins",
+      "item": "raisins (optional)",
+      "quantity": 50,
+      "unit": "g",
+      "optional": true
+    },
+    {
+      "ingredient_id": "icing-sugar",
+      "item": "icing sugar",
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened butter, both sugars, cinnamon, and icing sugar for 3 minutes until combined and creamy.",
+      "timer_minutes": 3
+    },
+    {
+      "step": 2,
+      "text": "Mix in the lightly beaten egg. Add the flour and baking powder, then stir in the optional raisins to form a dough."
+    },
+    {
+      "step": 3,
+      "text": "Divide the dough into 15 portions and shape each into a ball. Chill until firm, about 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 4,
+      "text": "Preheat the oven and prepare baking trays with parchment."
+    },
+    {
+      "step": 5,
+      "text": "Arrange the chilled dough portions on the trays, leaving space between them."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 12 minutes, until lightly golden with fully set centers; if checked by thermometer, the centers should reach 160°F.",
+      "timer_minutes": 12
+    },
+    {
+      "step": 7,
+      "text": "Cool the cookies on the trays briefly, then transfer them to a rack to cool completely."
+    }
+  ],
+  "tags": [
+    "baking",
+    "cookies",
+    "cinnamon",
+    "spiced",
+    "biscuits",
+    "raisins"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "baking trays",
+    "parchment paper",
+    "cooling rack",
+    "oven"
+  ],
+  "source": {
+    "name": "BBC Good Food",
+    "url": "https://www.bbcgoodfood.com/recipes/cinnamon-cookies",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8cf23c448eed0be1ddb425e4961c4ff4512441aff546d3a68c9daab71b7c3c3a",
+    "normalized_text_hash": "4d40ab06cb6c60823904a7bf748edfd6d2220c745f889199f4219af0316cdd98",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-08T02:27:50.851Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 1,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "beef-heart-stew",
+  "name": "Beef Heart Stew",
+  "subtitle": "A savory, slow-cooked stew with tender beef heart and onion.",
+  "description": "Floured beef heart is browned, then simmered with onion, water, and seasoned salt until tender.",
+  "meal_type": "soup",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 130
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "beef-heart",
+      "item": "beef heart",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "rinsed and cubed"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "peeled and sliced"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Coat the cubed beef heart evenly with the flour."
+    },
+    {
+      "step": 2,
+      "text": "Heat the vegetable oil in a large heavy pot over medium heat. Add the coated beef heart and sauté until browned."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the sliced onion and water, then add the salt and seasoned salt."
+    },
+    {
+      "step": 4,
+      "text": "Bring to a gentle simmer, cover, and cook until the beef heart is tender and reaches at least 145°F in the center. Remove from heat and let rest for 3 minutes."
+    },
+    {
+      "step": 5,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "stew",
+    "beef",
+    "one-pot"
+  ],
+  "seasons": [
+    "fall",
+    "winter",
+    "year-round"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "large heavy pot",
+    "measuring spoons",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46321/beef-heart-stew/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6f7251c04602445b2b63fba71a6774f59700022cd730f0ddddf40ce900352827",
+    "normalized_text_hash": "e5386738f71a0cfdc4156df8b1b1636bcd2975581a33191312e3284f5eb5bc0a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:19:15.499Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

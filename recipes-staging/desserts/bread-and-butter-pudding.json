@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "bread-and-butter-pudding",
+  "name": "Bread and Butter Pudding",
+  "subtitle": "A warm baked custard pudding with currants and nutmeg",
+  "description": "Layer buttered stale bread with sugar and currants, soak it in an egg-milk custard, and bake until golden with a fully set center.",
+  "meal_type": "dessert",
+  "cuisine": "British",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-stale-bread",
+      "item": "slices stale bread",
+      "quantity": 8
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "softened"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dried-currants",
+      "item": "dried currants",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1.75,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "ground-nutmeg",
+      "item": "ground nutmeg",
+      "quantity": 1,
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Butter the bread slices, then cut them as needed to fit a baking dish."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the bread in layers, sprinkling the sugar and currants between the layers."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the milk, eggs, and nutmeg together. Pour the mixture evenly over the bread and let it absorb briefly."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 40 minutes, until golden brown and the center is fully set; confirm the center reaches 160°F.",
+      "timer_minutes": 40
+    }
+  ],
+  "tags": [
+    "dessert",
+    "baked-pudding",
+    "bread-pudding"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "baking dish",
+    "oven",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279519/bread-and-butter-pudding/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "769084bef253f671685ae8f44059d3c6038abc3d303ebf3d2f4026a6622dff18",
+    "normalized_text_hash": "02d530c6bf5fab76d4092ae6ea48a0816916378c46c1981f6bc984193ffb7531",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:09:34.573Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

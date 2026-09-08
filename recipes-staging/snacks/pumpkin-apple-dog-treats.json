@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pumpkin-apple-dog-treats",
+  "name": "Pumpkin Apple Dog Treats",
+  "subtitle": "Tender baked treats with pumpkin, apple, and oats",
+  "description": "Simple oven-baked dog treats combining grated apple, pumpkin, egg, and oats into a sliceable dough.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 24,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 4,
+      "unit": "cups",
+      "preparation": "or as needed"
+    },
+    {
+      "ingredient_id": "apple",
+      "item": "apple",
+      "quantity": 1,
+      "unit": "medium",
+      "preparation": "cored and grated"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "canned-pumpkin",
+      "item": "canned pumpkin",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "rolled-oats",
+      "item": "rolled oats",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F and prepare a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Combine the oats, grated apple, egg, and pumpkin. Stir until a thick dough forms."
+    },
+    {
+      "step": 3,
+      "text": "Use the additional oats as needed to prevent sticking while shaping the dough. Flatten it and cut into 24 pieces."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the pieces to the baking sheet and bake for 15 minutes, until firm and the center is fully set and reaches 160°F.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 5,
+      "text": "Cool completely before serving."
+    }
+  ],
+  "tags": [
+    "dog-treats",
+    "baked",
+    "pumpkin",
+    "apple",
+    "oats"
+  ],
+  "seasons": [
+    "fall",
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277759/pumpkin-apple-dog-treats/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "97d2f00d97123e4ea6a1fe9a13fb3353099493551a7b28318f2705efae133fed",
+    "normalized_text_hash": "9ee3441c0d1e44032a960d5f57567508625ebaeb2668f1da5516b3a57cf3eb97",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T15:32:14.666Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

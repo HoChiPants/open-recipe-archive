@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "japanese-sushi-rice",
+  "name": "Japanese Sushi Rice",
+  "subtitle": "Seasoned short-grain rice with kombu",
+  "description": "Tender Japanese-style rice seasoned with sweetened vinegar and a subtle kelp infusion.",
+  "meal_type": "side",
+  "cuisine": "Japanese",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "japanese-sushi-style-rice",
+      "item": "Japanese sushi-style rice",
+      "quantity": 2.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "4-inch-piece-konbu-dried-kelp",
+      "item": "(4 inch) piece konbu dried kelp",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "rice-vinegar",
+      "item": "rice vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1.25,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse the rice under cool water until the water runs nearly clear. Drain well, then let it stand for 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Combine the rice, water, and konbu in a pot. Bring to a boil, cover, reduce the heat, and cook until the water is absorbed and the rice is tender, about 20 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "While the rice cooks, combine the rice vinegar, sugar, and salt. Warm gently for 5 minutes, stirring until the sugar and salt dissolve; do not boil.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 4,
+      "text": "Remove the konbu. Transfer the hot rice to a wide bowl and drizzle the seasoned vinegar over it."
+    },
+    {
+      "step": 5,
+      "text": "Fold the vinegar into the rice with a slicing motion until evenly distributed, then spread the rice out to cool."
+    },
+    {
+      "step": 6,
+      "text": "Let the rice cool for 30 minutes, then use or cover and hold at room temperature until serving.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "japanese",
+    "sushi",
+    "rice",
+    "side-dish",
+    "seasoned-rice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "fine-mesh strainer",
+    "pot with lid",
+    "small saucepan",
+    "wide bowl",
+    "rice paddle or spatula"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/137596/moms-sushi-rice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "d63a5e49eec50198bc0d51060cb26a595bb7f274c3a97009f85b69a9ba0af42e",
+    "normalized_text_hash": "9f3af2c27ac08bf4458057006f6837252494e037ac6af8c518256cab367f5a20",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:54:32.223Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

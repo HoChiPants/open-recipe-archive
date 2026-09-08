@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "tandoori-style-grilled-chicken",
+  "name": "Tandoori-Style Grilled Chicken",
+  "subtitle": "Yogurt-marinated chicken thighs with warm Indian spices",
+  "description": "Chicken thighs are coated in a tangy yogurt and tandoori masala marinade, rested, then grilled until lightly charred and fully cooked.",
+  "meal_type": "main",
+  "cuisine": "Indian Inspired",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "inactive_minutes": 120
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "lime",
+      "item": "lime",
+      "quantity": 0.5,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "plain-yogurt",
+      "item": "plain yogurt",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "tandoori-masala-powder",
+      "item": "tandoori masala powder",
+      "quantity": 1.5,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "salt-and-freshly-ground-black-pepper-to-taste",
+      "item": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "ingredient_id": "boneless",
+      "item": "boneless",
+      "quantity": 2,
+      "unit": "pounds",
+      "preparation": "skinless chicken thighs"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the lime juice, yogurt, tandoori masala, salt, and pepper in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Add the chicken and turn to coat thoroughly. Cover and refrigerate for 2 hours.",
+      "timer_minutes": 120
+    },
+    {
+      "step": 3,
+      "text": "Preheat a grill to high heat and lightly oil the grates if needed."
+    },
+    {
+      "step": 4,
+      "text": "Grill the chicken for 2 minutes, then turn and grill for 6 minutes per side, or until the thickest pieces reach 165°F.",
+      "timer_minutes": 2
+    },
+    {
+      "step": 5,
+      "text": "Transfer the chicken to a plate and rest briefly before serving."
+    }
+  ],
+  "tags": [
+    "dinner",
+    "indian-inspired",
+    "grilled-chicken",
+    "chicken-thighs"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "grill",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221092/chef-johns-tandoori-chicken/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "44bd3582ad6b4e4789d39554168a5b096cfa1314a025a0d91954489f8103a597",
+    "normalized_text_hash": "40b8f84c51247b44e7bf4171778a1c5d5fbe89bef3e00fcc5d19e16c2caa7d2a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:44:52.989Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 22,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

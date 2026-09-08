@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "dry-roasted-chickpeas",
+  "name": "Dry-Roasted Chickpeas",
+  "subtitle": "Crisp, savory chickpeas from the oven",
+  "description": "Roast seasoned chickpeas until crunchy for an easy snack or appetizer.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 44
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "chickpea",
+      "item": "garbanzo beans",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "15 ounce, drained and rinsed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.25,
+      "unit": "teaspoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "ground-black-pepper-to-taste",
+      "item": "ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 425°F."
+    },
+    {
+      "step": 2,
+      "text": "Spread the drained and rinsed garbanzo beans in a single layer on a baking sheet and bake for 22 minutes.",
+      "timer_minutes": 22
+    },
+    {
+      "step": 3,
+      "text": "Toss the roasted beans with the olive oil, salt, and ground black pepper."
+    },
+    {
+      "step": 4,
+      "text": "Return the beans to the oven and bake for 22 minutes, until dry and crisp.",
+      "timer_minutes": 22
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "roasted",
+    "chickpeas"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/247194/the-best-dry-roasted-chickpea-recipe/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c69ffc4bba01d8a69dd9f9fbc9b9336f033b16e9b1afd8724a76a27664dddd56",
+    "normalized_text_hash": "bae2459b64067b2fa30efdd6d9acfe5b59800ab55bc5469a3ca29b13101b8e83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T19:56:18.405Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cheesy-potatoes",
+  "name": "Cheesy Potatoes",
+  "subtitle": "A creamy hash brown casserole with a crisp potato-chip topping.",
+  "description": "Frozen hash browns bake with potato soup, sour cream, and Cheddar under a buttery, crunchy topping.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "inactive_minutes": 15
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "frozen-southern-style-hash-brown-potatoes",
+      "item": "frozen Southern-style hash brown potatoes",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-potato-soup",
+      "item": "condensed cream of potato soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "16-ounce-container-sour-cream",
+      "item": "(16 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "16 ounce, shredded"
+    },
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "melted"
+    },
+    {
+      "ingredient_id": "potato-chips",
+      "item": "potato chips",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "crushed"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F."
+    },
+    {
+      "step": 2,
+      "text": "Stir the frozen hash browns, condensed soup, and sour cream until evenly coated. Fold in half of the Cheddar cheese."
+    },
+    {
+      "step": 3,
+      "text": "Combine the remaining Cheddar cheese with the melted butter and crushed potato chips."
+    },
+    {
+      "step": 4,
+      "text": "Spread the hash brown mixture in a baking dish and distribute the cheese, butter, and chip mixture over the top."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until hot throughout and lightly browned.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Let the casserole rest for 15 minutes before serving.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "side-dish",
+    "casserole",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21270/cheezy-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6784ea8e18b1de0d06a78c029dabd1c16f28d5a9298c5d3db787d3caae3fa2a2",
+    "normalized_text_hash": "baa5f21fe11bee137de14414b1c74c9886234b4ac822e01d230e67aae010f44f",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T05:14:59.614Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 33,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

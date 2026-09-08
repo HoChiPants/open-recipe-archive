@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "chocolate-covered-bacon",
+  "name": "Chocolate-Covered Bacon",
+  "subtitle": "Crisp bacon finished with a smooth chocolate coating",
+  "description": "Bake bacon until crisp, coat it in melted semisweet chocolate, and chill until firm for a sweet-and-savory snack.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "inactive_minutes": 30
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "slices-thick-cut-bacon",
+      "item": "slices thick-cut bacon",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "wooden-skewers",
+      "item": "wooden skewers",
+      "quantity": 12
+    },
+    {
+      "ingredient_id": "semisweet-chocolate-chips",
+      "item": "semisweet chocolate chips",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-shortening",
+      "item": "vegetable shortening",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 400°F. Thread the bacon onto the wooden skewers and arrange the skewers on a baking sheet."
+    },
+    {
+      "step": 2,
+      "text": "Bake the bacon until crisp, about 20 minutes. Set it aside to cool for 25 minutes.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 3,
+      "text": "Combine the chocolate chips and shortening in a heatproof bowl. Heat gently, stirring, until melted and smooth."
+    },
+    {
+      "step": 4,
+      "text": "Coat the cooled bacon with the melted chocolate, then place the skewers on a lined surface."
+    },
+    {
+      "step": 5,
+      "text": "Chill until the coating is firm, about 30 minutes, then serve.",
+      "timer_minutes": 30
+    }
+  ],
+  "tags": [
+    "snack",
+    "appetizer",
+    "bacon",
+    "chocolate",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "wooden skewers",
+    "heatproof bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230759/chocolate-covered-bacon-strips/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "33328e4bb882afb06d54dd68f551b5e04f9463d60ddc80ca19e4e1ddfbddc504",
+    "normalized_text_hash": "f6ecbdeb2ce8e1e07f299ee5121c699b9fa096778dc4f0dd95c6fe8b51019302",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T06:33:26.722Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 14,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "cucumber-salad-with-sour-cream",
+  "name": "Cucumber Salad With Sour Cream",
+  "subtitle": "Cool cucumbers in a tangy creamy dressing",
+  "description": "Thinly sliced cucumbers are drained and combined with a chilled sour cream dressing sweetened with sugar and balanced with vinegar.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "inactive_minutes": 240
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cucumber",
+      "item": "cucumbers",
+      "quantity": 2,
+      "preparation": "thinly sliced"
+    },
+    {
+      "ingredient_id": "8-ounce-container-sour-cream",
+      "item": "(8 ounce) container sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the sour cream in a bowl and chill for 4 hours.",
+      "timer_minutes": 240
+    },
+    {
+      "step": 2,
+      "text": "Whisk the chilled sour cream with the sugar, vinegar, salt, and ground black pepper until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Drain the sliced cucumbers well, then whisk them into the dressing until coated."
+    }
+  ],
+  "tags": [
+    "cucumber",
+    "creamy-salad",
+    "cold-salad",
+    "american"
+  ],
+  "seasons": [
+    "summer"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/171700/cucumbers-in-sour-cream/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "21125d71656514d6f567924ff920c59e02562ed743e0d19e350b5ba94e192a3d",
+    "normalized_text_hash": "22f58061221132fe4c769590da407b2cdd4073a3abfe57ad86bb8b6dfb77abf4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T07:55:24.719Z",
+    "semantic_similarity": 1,
+    "structural_similarity": 0,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

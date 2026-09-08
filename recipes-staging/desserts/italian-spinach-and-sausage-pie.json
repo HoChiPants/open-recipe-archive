@@ -1,0 +1,153 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "italian-spinach-and-sausage-pie",
+  "name": "Italian Spinach and Sausage Pie",
+  "subtitle": "A savory double-crust pie with spinach, sausage, and three cheeses",
+  "description": "A hearty Italian-inspired pie filled with seasoned sausage, spinach, eggs, ricotta, and mozzarella beneath a golden pastry crust.",
+  "meal_type": "dessert",
+  "cuisine": "Italian Inspired",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "bulk-italian-sausage",
+      "item": "bulk Italian sausage",
+      "quantity": 1,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "eggs",
+      "quantity": 6,
+      "unit": "large"
+    },
+    {
+      "ingredient_id": "mozzarella-cheese",
+      "item": "mozzarella cheese",
+      "quantity": 5,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "frozen-chopped-spinach",
+      "item": "frozen chopped spinach",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "10 ounce, thawed and squeezed dry"
+    },
+    {
+      "ingredient_id": "ricotta-cheese",
+      "item": "ricotta cheese",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "double-crust-pie-pastry",
+      "item": "double-crust pie pastry",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": "14.1 ounce, thawed"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "tablespoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F. Cook the sausage in a skillet over medium heat, stirring and crumbling it for about 10 minutes, until it reaches 160°F on a food thermometer. Drain and let cool briefly.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 2,
+      "text": "Whisk the eggs in a large bowl. Fold in the cooked sausage, mozzarella, spinach, ricotta, salt, garlic powder, and pepper."
+    },
+    {
+      "step": 3,
+      "text": "Fit one pastry crust into a pie plate. Add the filling and cover with the second crust. Trim and crimp the edges, then cut several vents in the top."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the water and brush it over the pastry."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 60 minutes, until the crust is golden and the center is firm and reaches 160°F.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 6,
+      "text": "Rest the pie for 10 minutes before slicing and serving.",
+      "timer_minutes": 10
+    }
+  ],
+  "tags": [
+    "savory-pie",
+    "sausage",
+    "spinach",
+    "italian-inspired",
+    "family-dinner"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "skillet",
+    "large bowl",
+    "9-inch pie plate",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222705/italian-spinach-sausage-pie/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "36be5b6050e833c774de6bf0bd4d66d42face2e86557649d53808d0d19aa32f0",
+    "normalized_text_hash": "cffcf9a66fc657a660a9aaba477c63477261644121b4760007612dd95f074fd4",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:21:00.006Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

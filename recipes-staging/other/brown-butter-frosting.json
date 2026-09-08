@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "brown-butter-frosting",
+  "name": "Brown Butter Frosting",
+  "subtitle": "A smooth, nutty frosting for cakes and cupcakes",
+  "description": "Brown butter gives this simple frosting a warm, toasted flavor, while milk adjusts it to a spreadable consistency.",
+  "meal_type": "other",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "butter",
+      "item": "butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "confectioners-sugar",
+      "item": "confectioners' sugar",
+      "quantity": 2.5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "or more as needed"
+    },
+    {
+      "ingredient_id": "vanilla-extract",
+      "item": "vanilla extract",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Warm the butter in a saucepan over medium heat until melted and lightly browned, about 5 minutes. Remove from the heat and let it cool briefly.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Whisk the confectioners' sugar into the butter until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the milk and vanilla extract."
+    },
+    {
+      "step": 4,
+      "text": "Whisk until the frosting is smooth and thick, adding more milk as needed to reach a spreadable consistency."
+    }
+  ],
+  "tags": [
+    "frosting",
+    "baking",
+    "dessert"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234731/brown-butter-frosting/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4e8429a6309299d850da0dcf1ea992cb802fb33918ed1c31476b479bb5f74022",
+    "normalized_text_hash": "bc77c8a3bf54a457474af6f39a50b1c305e9d1408fc33b11cad73b368b3b3bb9",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:18:49.201Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 5,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

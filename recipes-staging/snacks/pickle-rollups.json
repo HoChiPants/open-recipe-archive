@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pickle-rollups",
+  "name": "Pickle Rollups",
+  "subtitle": "Creamy pastrami rolls with dill pickle strips",
+  "description": "Spread softened cream cheese over sliced pastrami, add dill pickle strips, roll tightly, and slice into bite-size snacks.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 10,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "pastrami",
+      "item": "pastrami",
+      "quantity": 16,
+      "unit": "ounces",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "cream-cheese",
+      "item": "cream cheese",
+      "quantity": 2,
+      "unit": "package",
+      "preparation": "8 ounce, softened"
+    },
+    {
+      "ingredient_id": "16-ounce-jar-dill-pickles",
+      "item": "(16 ounce) jar dill pickles",
+      "quantity": 1,
+      "preparation": "cut into strips lengthwise"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Whisk the softened cream cheese until smooth."
+    },
+    {
+      "step": 2,
+      "text": "Spread cream cheese over the pastrami slices. Place a dill pickle strip along one edge of each slice and roll tightly."
+    },
+    {
+      "step": 3,
+      "text": "Cut each roll into bite-size pieces and serve."
+    }
+  ],
+  "tags": [
+    "appetizer",
+    "snack",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "knife"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14884/pickle-rollups/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "6c6c43fcbb63b5b46bfe8c55150b54a6d38e4597b0d402c03eb6bedac6867eb9",
+    "normalized_text_hash": "f40dfeeefe834aacca61d727d65e1b2e9b2a6945c098871034c5f9290907c8ce",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:16:28.661Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 4,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

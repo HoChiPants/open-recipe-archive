@@ -1,0 +1,134 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-tofu",
+  "name": "Baked Tofu",
+  "subtitle": "Savory ginger-sesame tofu with caramelized edges",
+  "description": "Tofu is coated in a savory soy-ginger glaze and baked until firm and lightly browned.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 60
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "cooking-spray",
+      "item": "cooking spray"
+    },
+    {
+      "ingredient_id": "soy-sauce",
+      "item": "soy sauce",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "agave-nectar",
+      "item": "agave nectar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "sesame-oil",
+      "item": "sesame oil",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "toasted"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "fresh-ginger",
+      "item": "fresh ginger",
+      "quantity": 1,
+      "unit": "teaspoon",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "sesame-seeds",
+      "item": "sesame seeds",
+      "quantity": 1,
+      "unit": "tablespoon",
+      "preparation": "or to taste"
+    },
+    {
+      "ingredient_id": "tofu",
+      "item": "tofu",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "sliced into 8 even pieces"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 350°F. Lightly coat a baking dish with cooking spray."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the soy sauce, agave nectar, sesame oil, garlic, ginger, and sesame seeds until combined."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the tofu pieces in the prepared dish and pour the sauce over them, turning to coat."
+    },
+    {
+      "step": 4,
+      "text": "Bake for 30 minutes. Turn the tofu, spoon the pan sauce over it, and finish baking for 30 minutes, until browned and heated through.",
+      "timer_minutes": 60
+    }
+  ],
+  "tags": [
+    "dinner",
+    "lunch",
+    "american",
+    "asian"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241709/baked-tofu/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "14d01204986fb67366a3c85be17cb65381c20e1923bc789a0cd5dd3d5ac1a751",
+    "normalized_text_hash": "3d0f1f5c865ecd808baba38b3a935e1442cbceab99c5d541720de0507a42425e",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:52:13.110Z",
+    "semantic_similarity": 4,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

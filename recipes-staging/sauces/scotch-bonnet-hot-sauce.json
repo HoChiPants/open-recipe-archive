@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "scotch-bonnet-hot-sauce",
+  "name": "Scotch Bonnet Hot Sauce",
+  "subtitle": "A bright, fiery pepper sauce with vinegar tang",
+  "description": "Cook hot peppers with aromatics, then blend with vinegar and sugar for a smooth, spicy condiment.",
+  "meal_type": "sauce",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 32,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 20,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-scotch-bonnet-peppers",
+      "item": "fresh Scotch Bonnet peppers",
+      "quantity": 18,
+      "preparation": "sliced and seeded"
+    },
+    {
+      "ingredient_id": "fresh-jalapeno-peppers",
+      "item": "fresh jalapeno peppers",
+      "quantity": 6,
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "unit": "cup",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 6,
+      "unit": "cloves",
+      "preparation": "crushed"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.75,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "distilled-white-vinegar",
+      "item": "distilled white vinegar",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Wear gloves when handling the peppers, and avoid touching your face. Heat the vegetable oil in a saucepan over medium heat."
+    },
+    {
+      "step": 2,
+      "text": "Add the Scotch Bonnet peppers, jalapenos, onion, garlic, and salt. Cook, stirring occasionally, for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Add the water, bring to a simmer, and cook for 20 minutes, stirring occasionally, until the vegetables are tender.",
+      "timer_minutes": 20
+    },
+    {
+      "step": 4,
+      "text": "Remove from the heat and let the mixture cool until it is safe to blend."
+    },
+    {
+      "step": 5,
+      "text": "Transfer the cooked mixture to a blender. Add the vinegar and sugar, then blend until smooth."
+    },
+    {
+      "step": 6,
+      "text": "Transfer the hot sauce to a clean container and use as desired."
+    }
+  ],
+  "tags": [
+    "condiment",
+    "hot-sauce",
+    "american",
+    "spicy"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "saucepan",
+    "blender",
+    "heat-safe container"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/152262/scotch-bonnet-hot-sauce/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e9d373a95fa757ab2a2c2fc9032eadf80f28d5b0e47fd604c5b747d695bfe986",
+    "normalized_text_hash": "f71512217e859ee78e7260941d11f6b67d72eba11fb8284a0ba9b454bcb66f81",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T16:59:24.887Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "garden-green-beans",
+  "name": "Garden Green Beans",
+  "subtitle": "Tender green beans with Parmesan, garlic, and parsley",
+  "description": "Blanch fresh green beans, then coat them in a savory garlic-Parmesan dressing and finish with parsley.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 4,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "inactive_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "fresh-green-beans",
+      "item": "fresh green beans",
+      "quantity": 1,
+      "unit": "pound",
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "freshly-grated-parmesan-cheese",
+      "item": "freshly grated Parmesan cheese",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "white-wine-vinegar",
+      "item": "white wine vinegar",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 3,
+      "unit": "cloves",
+      "preparation": "sliced"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "ingredient_id": "fresh-parsley",
+      "item": "fresh parsley",
+      "quantity": 2,
+      "unit": "tablespoons",
+      "preparation": "chopped"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Combine the olive oil, Parmesan, vinegar, sliced garlic, salt, and pepper in a bowl."
+    },
+    {
+      "step": 2,
+      "text": "Bring a pot of water to a simmer and cook the green beans for 5 minutes, until tender-crisp.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 3,
+      "text": "Drain the beans and transfer them to the bowl. Toss until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Let the dressed beans stand for 10 minutes so the flavors blend.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 5,
+      "text": "Remove the sliced garlic if desired, garnish with parsley, and serve."
+    }
+  ],
+  "tags": [
+    "side-dish",
+    "vegetables",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "gluten-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/145188/easy-garden-green-beans/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "72ea5bf29f626fbb13c14a264e7db30b748693031540a4ba189eeb4daa284c60",
+    "normalized_text_hash": "4876c52bd77c1758c3a2f23ef7726083bb58243dc15f542108064c5bca783084",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:32:50.966Z",
+    "semantic_similarity": 6,
+    "structural_similarity": 8,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

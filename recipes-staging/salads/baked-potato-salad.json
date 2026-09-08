@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "baked-potato-salad",
+  "name": "Baked Potato Salad",
+  "subtitle": "Creamy potato salad with cheddar and bacon",
+  "description": "Tender potatoes are combined with a seasoned sour-cream dressing, shredded cheddar, chives, and crisp bacon, then chilled before serving.",
+  "meal_type": "salad",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "inactive_minutes": 480
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "potatoes",
+      "item": "potatoes",
+      "quantity": 4,
+      "unit": "pounds",
+      "preparation": "peeled"
+    },
+    {
+      "ingredient_id": "slices-bacon",
+      "item": "slices bacon",
+      "quantity": 15
+    },
+    {
+      "ingredient_id": "16-ounce-container-reduced-fat-sour-cream",
+      "item": "(16 ounce) container reduced-fat sour cream",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "cheddar-cheese",
+      "item": "Cheddar cheese",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "shredded"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "dried-chives",
+      "item": "dried chives",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-black-pepper",
+      "item": "ground black pepper",
+      "quantity": 1,
+      "unit": "teaspoon"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Place the peeled potatoes and salt in a pot, cover with water, and bring to a boil. Cook until tender, about 15 minutes.",
+      "timer_minutes": 15
+    },
+    {
+      "step": 2,
+      "text": "Meanwhile, preheat the oven and cook the bacon until crisp, about 10 minutes. Drain on paper towels.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 3,
+      "text": "Drain the potatoes, let them cool briefly, and cut them into bite-size pieces."
+    },
+    {
+      "step": 4,
+      "text": "Whisk the sour cream, cheddar, mayonnaise, dried chives, salt, and pepper in a large bowl."
+    },
+    {
+      "step": 5,
+      "text": "Add the potatoes and bacon, then fold until evenly combined."
+    },
+    {
+      "step": 6,
+      "text": "Cover and refrigerate for at least 8 hours before serving.",
+      "timer_minutes": 480
+    }
+  ],
+  "tags": [
+    "salad",
+    "american",
+    "potatoes",
+    "make-ahead"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "large pot",
+    "baking sheet",
+    "paper towels",
+    "large bowl",
+    "refrigerator"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215624/baked-potato-salad/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "9d0d2433ef7dfd9e39d66ce7597c273093c15272b6eab513acb65b12605bf9e1",
+    "normalized_text_hash": "2b87b43777d1b610ef8bc65d949608d654325bfdafa80d3ab138036d53716fa6",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T02:50:46.222Z",
+    "semantic_similarity": 9,
+    "structural_similarity": 25,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "buffalo-wings",
+  "name": "Buffalo Wings",
+  "subtitle": "Pressure-cooked wings finished under high heat",
+  "description": "Tender chicken wings are cooked with buffalo sauce, tossed with a ranch-seasoned sauce, and briefly grilled for a concentrated finish.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 8,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "inactive_minutes": 5
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chicken-wings",
+      "item": "chicken wings",
+      "quantity": 2,
+      "unit": "pounds"
+    },
+    {
+      "ingredient_id": "buffalo-wing-sauce",
+      "item": "buffalo wing sauce",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "dry-ranch-dressing-mix",
+      "item": "dry ranch dressing mix",
+      "quantity": 2,
+      "unit": "teaspoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Pour the water into the pressure cooker. Add the chicken wings and buffalo wing sauce."
+    },
+    {
+      "step": 2,
+      "text": "Cook under pressure until the wings are tender, then allow the pressure to release according to the cooker instructions. Confirm the thickest pieces reach 165°F.",
+      "timer_minutes": 25
+    },
+    {
+      "step": 3,
+      "text": "Stir the buffalo wing sauce with the dry ranch dressing mix in a bowl."
+    },
+    {
+      "step": 4,
+      "text": "Transfer the cooked wings to the bowl and toss until coated."
+    },
+    {
+      "step": 5,
+      "text": "Preheat the grill or broiler. Arrange the coated wings in a single layer and grill until browned, turning as needed.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 6,
+      "text": "Toss the hot wings with any remaining buffalo sauce before serving."
+    }
+  ],
+  "tags": [
+    "wings",
+    "appetizer",
+    "party-food"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "bowl",
+    "grill or broiler",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268027/instant-pot-buffalo-wings/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "c5187f3ec0f2d169fefb34e3734e14c1c8c3542cca21124a9c53e7db0230088c",
+    "normalized_text_hash": "9f888f4d4f3da70bdfc244b37ecc1503235e65ba9fce84f51c2d8bdb4c879938",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:02:04.638Z",
+    "semantic_similarity": 2,
+    "structural_similarity": 12,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

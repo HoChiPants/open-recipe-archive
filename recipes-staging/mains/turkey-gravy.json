@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "turkey-gravy",
+  "name": "Turkey Gravy",
+  "subtitle": "Rich, savory gravy for a holiday-style meal",
+  "description": "A quick turkey gravy made with stock, pan drippings, creamy soup, and simple seasonings.",
+  "meal_type": "main",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 28,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 7
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "turkey-stock-with-pan-drippings",
+      "item": "turkey stock with pan drippings",
+      "quantity": 5,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "condensed-cream-of-chicken-soup",
+      "item": "condensed cream of chicken soup",
+      "quantity": 1,
+      "unit": "can",
+      "preparation": "10.75 ounce"
+    },
+    {
+      "ingredient_id": "poultry-seasoning",
+      "item": "poultry seasoning",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "black-pepper",
+      "item": "black pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "seasoned-salt",
+      "item": "seasoned salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "garlic-powder",
+      "item": "garlic powder",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 0.33333334326744,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Bring the turkey stock and pan drippings to a simmer in a saucepan."
+    },
+    {
+      "step": 2,
+      "text": "Stir in the condensed soup, poultry seasoning, black pepper, seasoned salt, and garlic powder until smooth."
+    },
+    {
+      "step": 3,
+      "text": "Whisk the milk and flour together in a separate bowl until no lumps remain."
+    },
+    {
+      "step": 4,
+      "text": "Gradually whisk the milk mixture into the simmering stock."
+    },
+    {
+      "step": 5,
+      "text": "Continue stirring until the gravy thickens, about 1 minute. Heat to 165°F for food safety, then serve hot.",
+      "timer_minutes": 1
+    }
+  ],
+  "tags": [
+    "dinner",
+    "gravy",
+    "turkey",
+    "american"
+  ],
+  "seasons": [
+    "fall",
+    "winter"
+  ],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk",
+    "mixing bowl",
+    "food thermometer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/77023/easy-turkey-gravy/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "118a0915c112bb2ebffa5b5e775b70ffa9e56038d998fed7ffacfa30c4e1e1fa",
+    "normalized_text_hash": "dd393e62914c8cadcbefd75666653793416283921c3fdb9bb5a96ee8e74cd10c",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T08:51:13.002Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 10,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

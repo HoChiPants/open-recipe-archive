@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "carrot-and-apple-juice",
+  "name": "Carrot and Apple Juice",
+  "subtitle": "Fresh juice with ginger and celery",
+  "description": "A bright, crisp juice made by processing carrots, apples, celery, and fresh ginger together.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 1,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 0
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "carrots",
+      "item": "carrots",
+      "quantity": 4,
+      "preparation": "trimmed"
+    },
+    {
+      "ingredient_id": "apples",
+      "item": "apples",
+      "quantity": 2,
+      "preparation": "quartered"
+    },
+    {
+      "ingredient_id": "stalks-celery",
+      "item": "stalks celery",
+      "quantity": 2
+    },
+    {
+      "ingredient_id": "1-2-inch-piece-fresh-ginger",
+      "item": "(1/2 inch) piece fresh ginger",
+      "quantity": 1
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Rinse the carrots, apples, and celery, and prepare them as listed. Feed them through a juicer."
+    },
+    {
+      "step": 2,
+      "text": "Add the fresh ginger to the juicer and process until incorporated. Serve immediately."
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "drink",
+    "juice"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "juicer"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244513/carrot-and-apple-juice/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e0505705c54675f24e9341b5215351d84a0c3e359669698490deecf6ba3d11db",
+    "normalized_text_hash": "7167a625bed5d118212197c44b758e14624a8dea24a74b73ea29963a60dc985d",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T04:56:14.534Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 9,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

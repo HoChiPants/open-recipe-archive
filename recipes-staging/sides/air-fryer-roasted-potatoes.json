@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "air-fryer-roasted-potatoes",
+  "name": "Air Fryer Roasted Potatoes",
+  "subtitle": "Seasoned mini potatoes with crisp, golden edges",
+  "description": "Mini potatoes are coated in olive oil and Italian-style dressing mix, then air-fried until browned and tender.",
+  "meal_type": "side",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 2,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 5,
+    "cook_minutes": 10
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "mini-potatoes",
+      "item": "mini potatoes",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "dry-italian-style-salad-dressing-mix",
+      "item": "dry Italian-style salad dressing mix",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "salt-and-ground-black-pepper-to-taste",
+      "item": "salt and ground black pepper to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the air fryer to 400°F."
+    },
+    {
+      "step": 2,
+      "text": "Halve the mini potatoes. Toss with the extra-virgin olive oil and dry Italian-style salad dressing mix until evenly coated."
+    },
+    {
+      "step": 3,
+      "text": "Arrange the potatoes in a single layer in the air-fryer basket. Cook for 7 minutes, shaking the basket once or twice, until the potatoes are golden brown.",
+      "timer_minutes": 7
+    },
+    {
+      "step": 4,
+      "text": "Continue cooking until tender, about 3 minutes more. Season with salt and ground black pepper to taste before serving.",
+      "timer_minutes": 3
+    }
+  ],
+  "tags": [
+    "air-fryer",
+    "potatoes",
+    "vegetable-side",
+    "quick-cooking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "equipment": [
+    "air fryer",
+    "mixing bowl"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/282437/air-fryer-one-bite-roasted-potatoes/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "8f354cd39771407c4067f7be327cc1edf4fde0fb7d0120a86912e9ae4f62d211",
+    "normalized_text_hash": "11378f39d19321a99e2fe17aa76713825d1a96499e90abbe143d79ff18a43dce",
+    "model": "gpt-5.6-terra",
+    "model_version": "gpt-5.6-terra",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T01:33:43.294Z",
+    "semantic_similarity": 12,
+    "structural_similarity": 20,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

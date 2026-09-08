@@ -1,0 +1,206 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "lentil-soup",
+  "name": "Lentil Soup",
+  "subtitle": "A warmly spiced vegetable soup with lentils and greens.",
+  "description": "Sautéed aromatics, spices, lentils, squash, and kale make a hearty pressure-cooked soup finished with fresh lemon.",
+  "meal_type": "soup",
+  "yield": {
+    "quantity": 6,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "inactive_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 3,
+      "unit": "tablespoons"
+    },
+    {
+      "ingredient_id": "onion",
+      "item": "onion",
+      "quantity": 0.5,
+      "preparation": "finely diced"
+    },
+    {
+      "ingredient_id": "carrot",
+      "item": "carrot",
+      "quantity": 1,
+      "preparation": "peeled and diced"
+    },
+    {
+      "ingredient_id": "stalk-celery",
+      "item": "stalk celery",
+      "quantity": 1,
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "garlic",
+      "item": "garlic",
+      "quantity": 2,
+      "unit": "cloves",
+      "preparation": "minced"
+    },
+    {
+      "ingredient_id": "ground-cumin",
+      "item": "ground cumin",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "ground-coriander",
+      "item": "ground coriander",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-turmeric",
+      "item": "ground turmeric",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ground-white-pepper",
+      "item": "ground white pepper",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "fennel-seeds",
+      "item": "fennel seeds",
+      "quantity": 0.25,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "chile-powder",
+      "item": "chile powder",
+      "quantity": 0.125,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "tomato-paste",
+      "item": "tomato paste",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "ingredient_id": "vegetable-broth",
+      "item": "vegetable broth",
+      "quantity": 4,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "water",
+      "item": "water",
+      "quantity": 3,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "lentil",
+      "item": "green lentils",
+      "quantity": 1.25,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "yellow-squash",
+      "item": "yellow squash",
+      "quantity": 1,
+      "unit": "small",
+      "preparation": "diced"
+    },
+    {
+      "ingredient_id": "cube-vegetable-bouillon",
+      "item": "cube vegetable bouillon",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "lemon",
+      "item": "lemon",
+      "quantity": 1,
+      "preparation": "juiced"
+    },
+    {
+      "ingredient_id": "kale",
+      "item": "kale",
+      "quantity": 1,
+      "unit": "cup",
+      "preparation": "chopped, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Set the pressure cooker to its sauté function and heat the olive oil for 3 minutes. Add the onion, carrot, celery, and garlic; cook for 5 minutes, stirring occasionally.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 2,
+      "text": "Add the cumin, coriander, turmeric, salt, white pepper, fennel seeds, and chile powder. Cook briefly, then stir in the tomato paste."
+    },
+    {
+      "step": 3,
+      "text": "Pour in the vegetable broth and water. Stir in the lentils, yellow squash, and vegetable bouillon cube."
+    },
+    {
+      "step": 4,
+      "text": "Secure the lid and cook at high pressure for 8 minutes. Let the pressure release naturally for 15 minutes, then release any remaining pressure and wait 10 minutes before opening.",
+      "timer_minutes": 33
+    },
+    {
+      "step": 5,
+      "text": "Use the sauté function to simmer the soup for 5 minutes. Stir in the lemon juice and kale, then cook until the kale is tender, about 5 minutes.",
+      "timer_minutes": 10
+    },
+    {
+      "step": 6,
+      "text": "Serve hot."
+    }
+  ],
+  "tags": [
+    "soup",
+    "lentils",
+    "vegetable-soup",
+    "pressure-cooker"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan"
+  ],
+  "equipment": [
+    "pressure cooker"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279055/instant-pot-lentil-soup/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "0c2fe5c31a2503fc7d5e9c0fd823037eefb32b866f67ad2c5f9a011bfc497553",
+    "normalized_text_hash": "8ba2fd2a17b74e43500551771704b84fc00bb9750eb0c8a77f555ebf44be9673",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T11:07:38.557Z",
+    "semantic_similarity": 7,
+    "structural_similarity": 11,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

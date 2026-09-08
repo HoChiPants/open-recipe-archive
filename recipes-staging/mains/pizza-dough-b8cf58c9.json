@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "pizza-dough-b8cf58c9",
+  "name": "Pizza Dough",
+  "subtitle": "A simple yeast dough for homemade pizza",
+  "description": "Mix, knead, rest, and bake this versatile dough for a crisp-edged pizza base.",
+  "meal_type": "main",
+  "cuisine": "Italian",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "inactive_minutes": 35
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "active-dry-yeast",
+      "item": "active dry yeast",
+      "quantity": 1,
+      "unit": "package",
+      "preparation": ".25 ounce"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 2,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "warm-water-110-degrees-f-45-degrees-c",
+      "item": "warm water (110 degrees F/45 degrees C)",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "bread-flour",
+      "item": "bread flour",
+      "quantity": 2,
+      "unit": "cups",
+      "preparation": "plus more for dusting"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "olive-oil",
+      "item": "olive oil",
+      "quantity": 2,
+      "unit": "tablespoons"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Stir the yeast, sugar, and warm water together. Let the mixture stand for 5 minutes.",
+      "timer_minutes": 5
+    },
+    {
+      "step": 2,
+      "text": "Combine the flour and salt in a bowl. Add the yeast mixture and olive oil, then knead until a smooth dough forms, about 8 minutes.",
+      "timer_minutes": 8
+    },
+    {
+      "step": 3,
+      "text": "Cover the dough and let it rest until puffy, about 60 minutes.",
+      "timer_minutes": 60
+    },
+    {
+      "step": 4,
+      "text": "Heat the oven to 475°F. Dust a work surface with flour, shape the dough, and transfer it to a baking surface. Add desired pizza toppings."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 15 minutes, until the crust is cooked through and the topping is melted. Serve warm.",
+      "timer_minutes": 15
+    }
+  ],
+  "tags": [
+    "dinner",
+    "italian",
+    "pizza",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian",
+    "vegan",
+    "dairy-free",
+    "nut-free",
+    "egg-free"
+  ],
+  "allergens": [
+    "wheat"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "oven",
+    "baking surface"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23290/pizza-dough-iii/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "4ece072fdde01d1c9fcaa8a6adb27892eb26946b662201ae3ec444a8a5e45e85",
+    "normalized_text_hash": "9462c222ea064b936f0d8797eff167822c9374a630738f875f739883f5736b83",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T14:23:11.766Z",
+    "semantic_similarity": 3,
+    "structural_similarity": 16,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

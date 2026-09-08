@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "banana-muffins",
+  "name": "Banana Muffins",
+  "subtitle": "Tender muffins with ripe banana and chocolate chips",
+  "description": "Quickly mix a banana batter with chocolate chips, portion it into a muffin pan, and bake until set.",
+  "meal_type": "snack",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 20
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "baking-soda",
+      "item": "baking soda",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 1,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "ripe-bananas",
+      "item": "ripe bananas",
+      "quantity": 3,
+      "preparation": "mashed"
+    },
+    {
+      "ingredient_id": "mayonnaise",
+      "item": "mayonnaise",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "chocolate-chips",
+      "item": "chocolate chips",
+      "quantity": 0.5,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Preheat the oven to 375°F and prepare a 12-cup muffin pan."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the flour, white sugar, baking soda, and baking powder."
+    },
+    {
+      "step": 3,
+      "text": "Stir in the mashed bananas, mayonnaise, and chocolate chips until combined."
+    },
+    {
+      "step": 4,
+      "text": "Divide the batter among the muffin cups."
+    },
+    {
+      "step": 5,
+      "text": "Bake for 20 minutes, until the muffins are set and a tester inserted in the center comes out clean.",
+      "timer_minutes": 20
+    }
+  ],
+  "tags": [
+    "muffins",
+    "banana",
+    "snack",
+    "baking"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "dietary": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "oven",
+    "12-cup muffin pan",
+    "mixing bowl",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/155527/moist-banana-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "e82a4ca944531b68d5ddc6a8737ed8ad255be948a2818adfab65552e7401f652",
+    "normalized_text_hash": "020a6df4f7a3c7b597a06a2eecc379728f20b887e6c8c2cd3a21efd069ec735a",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T12:48:13.255Z",
+    "semantic_similarity": 8,
+    "structural_similarity": 19,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": "1.0.0",
+  "id": "plain-american-muffins",
+  "name": "Plain American Muffins",
+  "subtitle": "Tender, lightly sweet muffins for breakfast",
+  "description": "A simple muffin batter made with pantry staples, baked until golden and fully set.",
+  "meal_type": "breakfast",
+  "cuisine": "American",
+  "yield": {
+    "quantity": 12,
+    "unit": "servings"
+  },
+  "times": {
+    "prep_minutes": 10,
+    "cook_minutes": 25
+  },
+  "ingredients": [
+    {
+      "ingredient_id": "flour",
+      "item": "all-purpose flour",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "ingredient_id": "baking-powder",
+      "item": "baking powder",
+      "quantity": 3,
+      "unit": "teaspoons"
+    },
+    {
+      "ingredient_id": "kosher-salt",
+      "item": "salt",
+      "quantity": 0.5,
+      "unit": "teaspoon"
+    },
+    {
+      "ingredient_id": "sugar",
+      "item": "white sugar",
+      "quantity": 0.75,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "egg",
+      "item": "egg",
+      "quantity": 1
+    },
+    {
+      "ingredient_id": "milk",
+      "item": "milk",
+      "quantity": 1,
+      "unit": "cup"
+    },
+    {
+      "ingredient_id": "vegetable-oil",
+      "item": "vegetable oil",
+      "quantity": 0.25,
+      "unit": "cup"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Heat the oven to 400°F. Prepare a 12-cup muffin tin."
+    },
+    {
+      "step": 2,
+      "text": "Whisk together the flour, baking powder, salt, and sugar in a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "In a separate bowl, whisk the egg, milk, and vegetable oil until blended."
+    },
+    {
+      "step": 4,
+      "text": "Add the wet mixture to the dry ingredients and fold just until combined; do not overmix."
+    },
+    {
+      "step": 5,
+      "text": "Divide the batter among the prepared muffin cups."
+    },
+    {
+      "step": 6,
+      "text": "Bake for 25 minutes, until golden and the centers are firm and fully set; an inserted thermometer should read at least 160°F.",
+      "timer_minutes": 25
+    }
+  ],
+  "tags": [
+    "breakfast",
+    "baking",
+    "muffins",
+    "american"
+  ],
+  "seasons": [
+    "year-round"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "12-cup muffin tin",
+    "mixing bowls",
+    "whisk"
+  ],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6874/best-ever-muffins/",
+    "adapted": true
+  },
+  "created_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "normalization": {
+    "source_text_hash": "7987953c20cd72b8e69bd4aac0e355b701f0024a57e272bde232e884312bb2ba",
+    "normalized_text_hash": "66162f480c64be130f41959fe53741564c2b23d687a2f40092fb376491b02323",
+    "model": "gpt-5.6-luna",
+    "model_version": "gpt-5.6-luna",
+    "prompt_version": "3.0.0",
+    "transformed_at": "2026-09-04T03:33:50.239Z",
+    "semantic_similarity": 5,
+    "structural_similarity": 29,
+    "requires_review": false,
+    "source_review_status": "passed"
+  }
+}
