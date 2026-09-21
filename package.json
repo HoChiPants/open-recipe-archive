@@ -6,6 +6,7 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "meal-manager:export": "node scripts/export-meal-manager.mjs",
     "predev": "npm run data:prepare",
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
     "prebuild": "npm run data:prepare",

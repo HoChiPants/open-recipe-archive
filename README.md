@@ -97,6 +97,16 @@ Useful optional fields include `subtitle`, `description`, `cuisine`, `nutrition`
 
 ## Use the catalog elsewhere
 
+### Meal Manager direct import
+
+Meal Manager can consume both `recipes/` and the complete `scraping/output/` collection without promoting or finalizing each candidate:
+
+```sh
+npm run meal-manager:export -- work/meal-manager/recipes.json
+```
+
+The export uses the existing candidate contract, preserves source URLs and review labels, and includes original archive paths for error reporting. It does not alter source files or publish the archive website. Meal Manager's `bun run recipes:sync --source /path/to/RecipesAPI --public --write` runs this export and the database import together, including automatic structural checks and duplicate detection. Run without `--write` for a preview.
+
 After `npm run catalog:build`, `public/data/catalog.json` contains:
 
 ```json
